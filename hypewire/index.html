@@ -120,6 +120,40 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--cool); w
 .grid li { display: flex; min-width: 0; }
 .grid .card { width: 100%; }
 
+/* Briefing and movers */
+.brief { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; }
+.brief-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.brief-head h2 { font: 800 1.25rem var(--display); letter-spacing: -.01em; margin: 0; }
+.brief-head span { font: 500 .72rem var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.brief ol { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2px 24px; counter-reset: b; }
+.brief li { counter-increment: b; display: flex; min-width: 0; }
+.brief button { display: flex; gap: 10px; align-items: baseline; text-align: left; background: none; border: 0; padding: 6px 0; cursor: pointer; width: 100%; min-width: 0; }
+.brief button::before { content: counter(b); font: 700 .8rem var(--mono); color: var(--heat); flex: none; }
+.brief button:hover span { text-decoration: underline; text-decoration-color: var(--heat); text-underline-offset: 3px; }
+.movers { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.mover { display: inline-flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; font-size: .86rem; cursor: pointer; max-width: 100%; }
+.mover:hover { border-color: var(--muted); }
+.mover span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.delta { font: 700 .72rem var(--mono); white-space: nowrap; }
+.delta.up { color: var(--heat); } .delta.down { color: var(--cool); } .delta.new { color: var(--surface); background: var(--cool); border-radius: 4px; padding: 1px 5px; }
+
+/* Card actions and story dialog */
+.acts { margin-top: auto; padding-top: 6px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; }
+.acts .src { margin: 0; padding: 0; }
+.more { background: var(--fg); color: var(--bg); border: 0; border-radius: 999px; padding: 6px 14px; font-size: .84rem; font-weight: 600; cursor: pointer; }
+.more:hover { background: var(--heat); color: var(--surface); }
+.dlg { width: min(680px, calc(100% - 24px)); max-height: calc(100% - 24px); border: 1px solid var(--line); border-radius: 18px; padding: 0; background: var(--surface); color: var(--fg); overflow: auto; }
+.dlg::backdrop { background: rgba(10, 8, 24, .6); }
+.dlg .body { padding: 20px 24px 24px; gap: 10px; }
+.dlg h2 { font: 800 clamp(1.4rem, 4vw, 1.9rem)/1.1 var(--display); letter-spacing: -.02em; margin: 2px 0; text-wrap: balance; }
+.dlg h3 { font: 700 .72rem var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--cool); margin: 10px 0 0; }
+.dlg p { margin: 0; max-width: 62ch; }
+.dlg .close { position: sticky; top: 10px; float: right; margin: 10px 10px 0 0; z-index: 1; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; font-size: .84rem; font-weight: 600; cursor: pointer; }
+.related { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+.related button { display: flex; align-items: baseline; gap: 10px; text-align: left; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; cursor: pointer; font-weight: 600; font-size: .92rem; }
+.related button:hover { border-color: var(--heat); }
+.related b { font: 700 .86rem var(--mono); color: var(--heat); flex: none; }
+
 .empty { padding-block: 40px; color: var(--muted); max-width: 52ch; }
 .empty strong { display: block; font-family: var(--display); font-size: 1.3rem; color: var(--fg); margin-bottom: 4px; }
 footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1px solid var(--line); padding-top: 18px; }
@@ -144,6 +178,11 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     </div>
   </header>
   <p class="lede">What people are talking about in AI, entertainment, gaming and tech. Found and ranked by Claude, refreshed every morning.</p>
+
+  <section class="brief" id="brief" hidden aria-labelledby="briefTitle">
+    <div class="brief-head"><h2 id="briefTitle">Today in five</h2><span>One-minute briefing</span></div>
+    <ol id="briefList"></ol>
+  </section>
 
   <div class="controls">
     <div class="tabs" role="tablist" aria-label="Category" id="tabs"></div>
@@ -172,6 +211,8 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     </details>
   </section>
 
+  <section class="movers" id="movers" hidden aria-label="Movers since yesterday"></section>
+
   <div id="lead"></div>
   <ol class="grid" id="feed"></ol>
   <div class="empty" id="empty">
@@ -181,6 +222,11 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
 
   <footer>Summaries are short rewrites; follow the source link for the full story. The pictures are generated artwork, not photos from the stories. Heat scores are estimates.</footer>
 </div>
+
+<dialog class="dlg" id="dlg" aria-labelledby="dlgTitle">
+  <button class="close" type="button" id="dlgClose">Close</button>
+  <div id="dlgBody"></div>
+</dialog>
 
 <script>
 (function () {
@@ -274,7 +320,7 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
   function inCat(s) { return active === "all" || s.category === active; }
   function matches(s) {
     if (!q) return true;
-    return (s.title + " " + s.summary + " " + s.source + " " + s.why).toLowerCase().indexOf(q) >= 0;
+    return (s.title + " " + s.summary + " " + s.source + " " + s.why + " " + s.happened).toLowerCase().indexOf(q) >= 0;
   }
 
   function renderTabs() {
@@ -305,28 +351,111 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     });
   }
 
+  // Change since yesterday. Only shown once the feed carries yesterday's scores.
+  function hasBaseline() { return stories.some(function (s) { return s.prev != null; }); }
+  function delta(s) {
+    if (!hasBaseline()) return null;
+    if (s.prev == null) return el("span", "delta new", "NEW");
+    var d = s.hype - s.prev; if (!d) return null;
+    var e = el("span", "delta " + (d > 0 ? "up" : "down"), (d > 0 ? "▲ " : "▼ ") + Math.abs(d));
+    e.title = (d > 0 ? "Up " : "Down ") + Math.abs(d) + " since yesterday"; return e;
+  }
+  function heatline(s) {
+    var hl = el("div", "heatline"); hl.title = "Heat score " + s.hype + " of 100";
+    hl.appendChild(el("b", null, String(s.hype)));
+    var dl = delta(s); if (dl) hl.appendChild(dl);
+    var bar = el("div", "bar"), fill = el("i"); fill.style.width = s.hype + "%"; bar.appendChild(fill); hl.appendChild(bar);
+    hl.appendChild(el("span", "lvl", bandOf(s.hype).n));
+    return hl;
+  }
+  function metaline(s) {
+    var meta = el("div", "meta");
+    meta.appendChild(el("span", "cat", catName(s.category)));
+    if (s.published) meta.appendChild(el("span", null, dayLabel(s.published)));
+    return meta;
+  }
+  function srcLink(s) {
+    if (!/^https:\/\//.test(s.url)) return null;
+    var a = el("a", "src", "Read at " + (s.source || "source") + " ↗"); a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer"; return a;
+  }
+
   function card(s, lead) {
     var c = el("article", lead ? "card lead" : "card");
     c.appendChild(art(s, lead ? 130 : 240));
     var body = el("div", "body");
     if (lead) body.appendChild(el("span", "tag", sort === "new" ? "Latest" : "Hottest right now"));
-    var hl = el("div", "heatline"); hl.title = "Heat score " + s.hype + " of 100";
-    hl.appendChild(el("b", null, String(s.hype)));
-    var bar = el("div", "bar"), fill = el("i"); fill.style.width = s.hype + "%"; bar.appendChild(fill); hl.appendChild(bar);
-    hl.appendChild(el("span", "lvl", bandOf(s.hype).n));
-    body.appendChild(hl);
-    var meta = el("div", "meta");
-    meta.appendChild(el("span", "cat", catName(s.category)));
-    if (s.published) meta.appendChild(el("span", null, dayLabel(s.published)));
-    body.appendChild(meta);
-    var ok = /^https:\/\//.test(s.url), h2 = el("h2");
-    if (ok) { var t = el("a", null, s.title); t.href = s.url; t.target = "_blank"; t.rel = "noopener noreferrer"; h2.appendChild(t); } else h2.textContent = s.title;
-    body.appendChild(h2);
+    body.appendChild(heatline(s));
+    body.appendChild(metaline(s));
+    var h2 = el("h2"), t = el("a", null, s.title); t.href = "#s-" + s.id;
+    t.onclick = function (e) { e.preventDefault(); openStory(s); };
+    h2.appendChild(t); body.appendChild(h2);
     body.appendChild(el("p", "sum", s.summary));
     if (s.why) { var w = el("p", "why"); w.appendChild(el("b", null, "Why it matters: ")); w.appendChild(document.createTextNode(s.why)); body.appendChild(w); }
-    if (ok) { var a = el("a", "src", "Read at " + (s.source || "source") + " ↗"); a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer"; body.appendChild(a); }
+    var acts = el("div", "acts"), more = el("button", "more", "Full story"); more.type = "button";
+    more.onclick = function () { openStory(s); };
+    acts.appendChild(more);
+    var a = srcLink(s); if (a) acts.appendChild(a);
+    body.appendChild(acts);
     c.appendChild(body);
     return c;
+  }
+
+  // Story dialog: the longer write-up plus related stories, so readers can keep going without leaving.
+  var dlg = $("dlg");
+  function setHash(v) { try { history.replaceState(null, "", v ? "#" + v : location.pathname + location.search); } catch (e) {} }
+  function openStory(s) {
+    var box = $("dlgBody"); box.textContent = "";
+    box.appendChild(art(s, 240));
+    var body = el("div", "body");
+    body.appendChild(heatline(s)); body.appendChild(metaline(s));
+    var h = el("h2", null, s.title); h.id = "dlgTitle"; body.appendChild(h);
+    body.appendChild(el("h3", null, "What happened")); body.appendChild(el("p", null, s.happened || s.summary));
+    if (s.why) { body.appendChild(el("h3", null, "Why it matters")); body.appendChild(el("p", null, s.why)); }
+    if (s.next) { body.appendChild(el("h3", null, "What to watch next")); body.appendChild(el("p", null, s.next)); }
+    var a = srcLink(s); if (a) { var acts = el("div", "acts"); acts.appendChild(a); body.appendChild(acts); }
+    var rel = stories.filter(function (x) { return x.category === s.category && x.id !== s.id; })
+      .sort(function (x, y) { return y.hype - x.hype; }).slice(0, 3);
+    if (rel.length) {
+      body.appendChild(el("h3", null, "More in " + catName(s.category)));
+      var list = el("div", "related");
+      rel.forEach(function (x) {
+        var b = el("button"); b.type = "button"; b.appendChild(el("b", null, String(x.hype))); b.appendChild(el("span", null, x.title));
+        b.onclick = function () { openStory(x); }; list.appendChild(b);
+      });
+      body.appendChild(list);
+    }
+    box.appendChild(body);
+    setHash("s-" + s.id);
+    if (!dlg.open) { if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", ""); }
+    dlg.scrollTop = 0;
+  }
+  function closeStory() { if (dlg.close) dlg.close(); else dlg.removeAttribute("open"); }
+  $("dlgClose").onclick = closeStory;
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) closeStory(); });
+  dlg.addEventListener("close", function () { setHash(""); });
+
+  function renderBrief(items) {
+    var byId = {}; stories.forEach(function (s) { byId[s.id] = s; });
+    var list = $("briefList"); list.textContent = "";
+    (items || []).forEach(function (it) {
+      var s = byId[String(it.id)], text = String(it.text || ""); if (!s || !text) return;
+      var li = el("li"), b = el("button"); b.type = "button"; b.appendChild(el("span", null, text));
+      b.onclick = function () { openStory(s); }; li.appendChild(b); list.appendChild(li);
+    });
+    $("brief").hidden = !list.children.length;
+  }
+  function renderMovers() {
+    var box = $("movers"); box.textContent = "";
+    if (!hasBaseline()) { box.hidden = true; return; }
+    var moved = stories.filter(function (s) { return s.prev != null && s.hype !== s.prev; })
+      .sort(function (a, b) { return Math.abs(b.hype - b.prev) - Math.abs(a.hype - a.prev); }).slice(0, 5);
+    if (!moved.length) { box.hidden = true; return; }
+    box.appendChild(el("span", "heat-label", "Movers since yesterday"));
+    moved.forEach(function (s) {
+      var b = el("button", "mover"); b.type = "button"; b.appendChild(delta(s)); b.appendChild(el("span", null, s.title));
+      b.onclick = function () { openStory(s); }; box.appendChild(b);
+    });
+    box.hidden = false;
   }
 
   function render() {
@@ -361,12 +490,15 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
 
   function norm(x) {
     return { id: String(x.id || x.title || ""), title: String(x.title || ""), summary: String(x.summary || ""), why: String(x.why || ""), category: String(x.category || "tech"),
+      happened: String(x.happened || ""), next: String(x.next || ""), prev: typeof x.prevHype === "number" ? Math.round(x.prevHype) : null,
       hype: Math.max(0, Math.min(100, Math.round(Number(x.hype) || 0))), source: String(x.source || ""), url: String(x.url || ""), published: String(x.published || "") };
   }
   render();
   fetch("stories.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (data) {
     stories = (data.stories || []).map(norm).filter(function (s) { return s.title; });
-    loaded = true; render();
+    loaded = true; render(); renderBrief(data.briefing); renderMovers();
+    var want = (location.hash || "").slice(1);
+    if (want.indexOf("s-") === 0) { var hit = stories.filter(function (s) { return "s-" + s.id === want; })[0]; if (hit) openStory(hit); }
     var d = new Date(data.refreshedAt);
     $("stamp").textContent = isNaN(d) ? "Updated daily" : "Updated " + d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
   }).catch(function () { loaded = true; failed = true; render(); $("stamp").textContent = "Feed offline"; });
