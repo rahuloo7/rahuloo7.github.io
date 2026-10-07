@@ -452,14 +452,14 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     }
     var fade = caption ? .45 : 1;
     if (C === "gaming") {
-      var cell = (caption ? 34 : (W > 200 ? 68 : 60)) / 7, pcx = caption || W <= 200 ? W / 2 : W * (.62 + r() * .16), x0 = pcx - cell * 3.5, y0 = 50 - cell * 3.5, j, cells = [];
+      var cell = (caption ? 44 : (W > 200 ? 68 : 60)) / 7, pcx = caption || W <= 200 ? W / 2 : W * (.62 + r() * .16), x0 = pcx - cell * 3.5, y0 = 50 - cell * 3.5, j, cells = [];
       for (j = 0; j < 7; j++) for (i = 0; i < 4; i++) if (r() > .45) { var col = r() > .8 ? "acc" : "ink"; cells.push([i, j, col]); if (i < 3) cells.push([6 - i, j, col]); }
       for (i = 0; i < 12; i++) {
         var sx = Math.floor(r() * (W / cell)) * cell, sy = Math.floor(r() * (100 / cell)) * cell;
         if (Math.abs(sx + cell / 2 - pcx) > cell * 4.5) g.appendChild(sv("rect", { x: sx, y: sy, width: cell, height: cell, style: "fill:" + v(i % 3 ? "ink" : "acc") + ";fill-opacity:.14" }));
       }
-      cells.forEach(function (c) { g.appendChild(sv("rect", { x: x0 + c[0] * cell + cell * .22, y: y0 + c[1] * cell + cell * .22, width: cell, height: cell, style: "fill:" + v("ink") + ";fill-opacity:" + (.18 * fade) })); });
-      cells.forEach(function (c) { g.appendChild(sv("rect", { x: x0 + c[0] * cell, y: y0 + c[1] * cell, width: cell + .15, height: cell + .15, style: "fill:" + v(c[2]) + ";fill-opacity:" + fade })); });
+      cells.forEach(function (c) { g.appendChild(sv("rect", { x: x0 + c[0] * cell + cell * .22, y: y0 + c[1] * cell + cell * .22, width: cell, height: cell, style: "fill:" + v("ink") + ";fill-opacity:.18" })); });
+      cells.forEach(function (c) { g.appendChild(sv("rect", { x: x0 + c[0] * cell, y: y0 + c[1] * cell, width: cell + .15, height: cell + .15, style: "fill:" + v(c[2]) })); });
       return g;
     }
     var name = MOTIFS[s.motif] ? s.motif : CAT_MOTIF[s.category] || "chip";
