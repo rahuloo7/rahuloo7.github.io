@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hypewire</title>
+<meta name="description" content="What people are talking about in AI, entertainment, gaming and tech, ranked by heat and refreshed daily.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+[hidden] { display: none !important; }
+img { max-width: 100%; }
+/* Layout: one ranked column. Each story is a row led by its heat score; the score bar is the only loud element. */
+:root {
+  --bg: #F2F1F8; --surface: #FFFFFF; --fg: #1A1730; --muted: #625E7C; --line: #DCD9EA;
+  --heat: #D81B66; --heat-soft: #FBE3EE; --cool: #3B2FB5;
+  --display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #131120; --surface: #1C1930; --fg: #EDEBF7; --muted: #A29EBD; --line: #302C4A;
+  --heat: #FF5C97; --heat-soft: #3A1730; --cool: #A99FFF; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #131120; --surface: #1C1930; --fg: #EDEBF7; --muted: #A29EBD; --line: #302C4A;
+  --heat: #FF5C97; --heat-soft: #3A1730; --cool: #A99FFF; color-scheme: dark }
+
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 820px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 64px; display: flex; flex-direction: column; gap: 22px; }
+
+header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 8px 24px; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2.2rem, 8vw, 3.4rem); line-height: .95; letter-spacing: -.03em; margin: 0; }
+h1 span { color: var(--heat); }
+.stamp { font-family: var(--mono); font-size: .74rem; color: var(--muted); text-align: right; }
+.lede { margin: 0; color: var(--muted); max-width: 60ch; }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; position: sticky; top: 0; background: var(--bg); padding-block: 10px; z-index: 2; border-bottom: 1px solid var(--line); }
+.tab { font: 600 .9rem var(--body); color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.tab:hover { color: var(--fg); border-color: var(--muted); }
+.tab[aria-selected="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.tab .n { font-family: var(--mono); font-size: .72rem; opacity: .7; margin-left: 4px; }
+:focus-visible { outline: 2px solid var(--cool); outline-offset: 2px; }
+
+.feed { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.story { display: grid; grid-template-columns: 64px minmax(0, 1fr) 104px; gap: 16px; padding-block: 18px; border-bottom: 1px solid var(--line); align-items: start; }
+.story:first-child { grid-template-columns: 64px minmax(0, 1fr) 156px; }
+.art { display: block; width: 100%; aspect-ratio: 1; border-radius: 10px; }
+.a-bg { fill: var(--heat-soft); } .a-heat { fill: var(--heat); } .a-cool { fill: var(--cool); } .a-fg { fill: var(--fg); }
+.s-cool { stroke: var(--cool); fill: none; stroke-linecap: round; }
+.score { display: flex; flex-direction: column; gap: 6px; padding-top: 3px; }
+.score b { font-family: var(--mono); font-weight: 700; font-size: 1.45rem; line-height: 1; color: var(--heat); font-variant-numeric: tabular-nums; }
+.bar { height: 5px; border-radius: 3px; background: var(--heat-soft); overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--heat); border-radius: 3px; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-family: var(--mono); font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.meta .cat { color: var(--cool); font-weight: 700; }
+.story h2 { font-family: var(--display); font-weight: 700; font-size: 1.22rem; line-height: 1.2; letter-spacing: -.01em; margin: 4px 0 6px; text-wrap: balance; }
+.story:first-child h2 { font-size: clamp(1.5rem, 5vw, 2rem); font-weight: 800; line-height: 1.08; }
+.story p { margin: 0; color: var(--muted); max-width: 65ch; }
+.acts { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; margin-top: 10px; font-size: .88rem; }
+.acts a { color: var(--fg); font-weight: 600; text-decoration: underline; text-decoration-color: var(--heat); text-underline-offset: 3px; }
+.acts a:hover { color: var(--heat); }
+.why { font: 600 .88rem var(--body); color: var(--cool); background: none; border: 0; padding: 0; cursor: pointer; }
+.why:hover { text-decoration: underline; }
+.why:disabled { opacity: .6; cursor: default; }
+.whyline { margin-top: 6px !important; color: var(--fg) !important; font-size: .92rem; }
+.whyline b { color: var(--cool); font-weight: 600; }
+.answer { margin-top: 10px; padding: 10px 14px; border-left: 3px solid var(--cool); background: var(--surface); color: var(--fg); font-size: .93rem; white-space: pre-wrap; }
+
+.legend { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+.lg-title { font: 700 1rem var(--display); margin: 0; }
+.lg-note { margin: 0; font-size: .86rem; color: var(--muted); }
+.scale { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--heat-soft); }
+.scale i { display: block; background: var(--heat); border-right: 2px solid var(--surface); }
+.scale i:last-child { border-right: 0; }
+.ticks { position: relative; height: 1.2em; font: 500 .7rem var(--mono); color: var(--muted); }
+.ticks span { position: absolute; top: 0; transform: translateX(-50%); }
+.ticks span:first-child { transform: none; } .ticks span:last-child { transform: translateX(-100%); }
+.bands { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; }
+.band { text-align: left; background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; cursor: pointer; color: var(--fg); font: inherit; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.band:hover { border-color: var(--muted); }
+.band[aria-pressed="true"] { border-color: var(--heat); background: var(--heat-soft); }
+.band .top { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: .92rem; }
+.band .sw { width: 10px; height: 10px; border-radius: 2px; background: var(--heat); flex: none; }
+.band .rg { font: 500 .72rem var(--mono); color: var(--muted); margin-left: auto; }
+.band small { color: var(--muted); font-size: .8rem; line-height: 1.35; }
+.meta .lvl { color: var(--heat); font-weight: 700; }
+
+.empty { padding-block: 48px; color: var(--muted); max-width: 52ch; }
+.empty strong { display: block; font-family: var(--display); font-size: 1.3rem; color: var(--fg); margin-bottom: 4px; }
+footer { font-size: .82rem; color: var(--muted); max-width: 65ch; }
+@media (max-width: 480px) { .story, .story:first-child { grid-template-columns: 44px minmax(0, 1fr) 64px; gap: 12px; } .score b { font-size: 1.15rem; } .stamp { text-align: left; } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>Hype<span>wire</span></h1>
+    <div class="stamp" id="stamp">Waiting for the feed</div>
+  </header>
+  <p class="lede">What people are talking about in AI, entertainment, gaming and tech, found and ranked by Claude and refreshed every day. Hotter stories sit higher.</p>
+
+  <section class="legend" aria-labelledby="lgTitle">
+    <h2 class="lg-title" id="lgTitle">How to read the heat score</h2>
+    <p class="lg-note">Every story gets a score from 0 to 100. The score puts it in one of four levels. Tap a level to see only those stories.</p>
+    <div aria-hidden="true">
+      <div class="scale"><i style="width:60%;opacity:.25"></i><i style="width:15%;opacity:.5"></i><i style="width:15%;opacity:.75"></i><i style="width:10%"></i></div>
+      <div class="ticks"><span style="left:0">0</span><span style="left:60%">60</span><span style="left:75%">75</span><span style="left:90%">90</span><span style="left:100%">100</span></div>
+    </div>
+    <div class="bands" id="bands"></div>
+  </section>
+
+  <div class="tabs" role="tablist" aria-label="Category" id="tabs"></div>
+
+  <ol class="feed" id="feed"></ol>
+  <div class="empty" id="empty">
+    <strong id="emptyTitle">Loading the feed</strong>
+    <span id="emptyText">Fetching the latest stories.</span>
+  </div>
+
+  <footer>The heat score (0 to 100) is Claude's estimate of how widely a story is being covered and discussed. It is a judgment, not a measured count. The pictures are generated artwork, not photos from the stories. Summaries are short rewrites; follow the source link for the full story.</footer>
+</div>
+
+<script>
+(function () {
+  var CATS = [["all", "All"], ["ai", "AI"], ["entertainment", "Entertainment"], ["gaming", "Gaming"], ["tech", "Tech"]];
+  var stories = [], loaded = false, active = "all";
+  var $ = function (id) { return document.getElementById(id); };
+
+  var h = (location.hash || "").slice(1);
+  try { if (!h) h = localStorage.getItem("hw-tab") || ""; } catch (e) {}
+  if (CATS.some(function (c) { return c[0] === h; })) active = h;
+
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+  function dayLabel(iso) {
+    var d = new Date(iso); if (isNaN(d)) return "";
+    var a = new Date(); a.setHours(0, 0, 0, 0); var b = new Date(d); b.setHours(0, 0, 0, 0);
+    var diff = Math.round((a - b) / 864e5);
+    if (diff === 0) return "Today"; if (diff === 1) return "Yesterday";
+    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  }
+
+  var BANDS = [
+    { k: "radar", n: "On the radar", lo: 0, hi: 59, o: .25, d: "Worth knowing, but not widely picked up yet." },
+    { k: "building", n: "Building", lo: 60, hi: 74, o: .5, d: "Gaining attention across several outlets." },
+    { k: "big", n: "Big", lo: 75, hi: 89, o: .75, d: "Widely covered and widely discussed." },
+    { k: "everywhere", n: "Everywhere", lo: 90, hi: 100, o: 1, d: "The story leading its category right now." }
+  ];
+  var band = null;
+  function bandOf(hype) { for (var i = BANDS.length - 1; i >= 0; i--) if (hype >= BANDS[i].lo) return BANDS[i]; return BANDS[0]; }
+  function renderBands() {
+    var box = $("bands"); box.textContent = "";
+    var pool = stories.filter(function (s) { return active === "all" || s.category === active; });
+    BANDS.forEach(function (b) {
+      var n = pool.filter(function (s) { return bandOf(s.hype) === b; }).length;
+      var btn = el("button", "band"); btn.type = "button"; btn.id = "band-" + b.k; btn.setAttribute("aria-pressed", String(band === b.k));
+      var top = el("span", "top"), sw = el("span", "sw"); sw.style.opacity = b.o;
+      top.appendChild(sw); top.appendChild(el("span", null, b.n)); top.appendChild(el("span", "rg", b.lo + "–" + b.hi));
+      btn.appendChild(top);
+      btn.appendChild(el("small", null, b.d + (loaded ? " " + n + (n === 1 ? " story" : " stories") + " now." : "")));
+      btn.onclick = function () { band = band === b.k ? null : b.k; render(); };
+      box.appendChild(btn);
+    });
+  }
+
+  var NS = "http://www.w3.org/2000/svg";
+  function sv(tag, attrs) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
+  function rng(str) {
+    var h = 2166136261; for (var i = 0; i < str.length; i++) h = Math.imul(h ^ str.charCodeAt(i), 16777619);
+    return function () { h += 0x6D2B79F5; var t = h; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+  }
+  // Original generated artwork, one per story, seeded by the story id so it stays the same between visits.
+  function art(s) {
+    var r = rng(s.id), g = sv("svg", { viewBox: "0 0 100 100", "class": "art", "aria-hidden": "true" }), i, j;
+    g.appendChild(sv("rect", { width: 100, height: 100, "class": "a-bg" }));
+    if (s.category === "ai") {
+      var pts = []; for (i = 0; i < 8; i++) pts.push([14 + r() * 72, 14 + r() * 72]);
+      for (i = 0; i < 8; i++) for (j = i + 1; j < 8; j++) {
+        var dx = pts[i][0] - pts[j][0], dy = pts[i][1] - pts[j][1];
+        if (dx * dx + dy * dy < 1700) g.appendChild(sv("line", { x1: pts[i][0], y1: pts[i][1], x2: pts[j][0], y2: pts[j][1], "class": "s-cool", "stroke-width": 1.5, opacity: .6 }));
+      }
+      for (i = 0; i < 8; i++) g.appendChild(sv("circle", { cx: pts[i][0], cy: pts[i][1], r: i ? 3 + r() * 3 : 7.5, "class": i ? "a-cool" : "a-heat" }));
+    } else if (s.category === "entertainment") {
+      for (i = 0; i < 3; i++) {
+        var x0 = 15 + r() * 70, cx = 20 + r() * 60, w = 13 + r() * 13;
+        g.appendChild(sv("polygon", { points: x0 + ",0 " + (cx - w) + ",100 " + (cx + w) + ",100", "class": i === 1 ? "a-heat" : "a-cool", opacity: .5 }));
+      }
+      for (i = 0; i < 7; i++) g.appendChild(sv("circle", { cx: 8 + r() * 84, cy: 6 + r() * 50, r: 1 + r() * 1.6, "class": "a-fg", opacity: .55 }));
+    } else if (s.category === "gaming") {
+      for (j = 0; j < 7; j++) for (i = 0; i < 4; i++) if (r() > .48) {
+        var cls = r() > .82 ? "a-heat" : "a-cool";
+        g.appendChild(sv("rect", { x: 15 + i * 10, y: 15 + j * 10, width: 10, height: 10, "class": cls }));
+        if (i < 3) g.appendChild(sv("rect", { x: 15 + (6 - i) * 10, y: 15 + j * 10, width: 10, height: 10, "class": cls }));
+      }
+    } else {
+      for (i = 0; i < 4; i++) {
+        var p = 36 + i * 9.3, a = 8 + r() * 16, b = 8 + r() * 16, c = 8 + r() * 16, d = 8 + r() * 16;
+        g.appendChild(sv("line", { x1: p, y1: 30, x2: p, y2: 30 - a, "class": "s-cool", "stroke-width": 2 }));
+        g.appendChild(sv("line", { x1: p, y1: 70, x2: p, y2: 70 + b, "class": "s-cool", "stroke-width": 2 }));
+        g.appendChild(sv("line", { x1: 30, y1: p, x2: 30 - c, y2: p, "class": "s-cool", "stroke-width": 2 }));
+        g.appendChild(sv("line", { x1: 70, y1: p, x2: 70 + d, y2: p, "class": "s-cool", "stroke-width": 2 }));
+        g.appendChild(sv("circle", { cx: p, cy: 30 - a, r: 2.4, "class": "a-cool" }));
+        g.appendChild(sv("circle", { cx: p, cy: 70 + b, r: 2.4, "class": "a-cool" }));
+        g.appendChild(sv("circle", { cx: 30 - c, cy: p, r: 2.4, "class": "a-cool" }));
+        g.appendChild(sv("circle", { cx: 70 + d, cy: p, r: 2.4, "class": "a-cool" }));
+      }
+      g.appendChild(sv("rect", { x: 30, y: 30, width: 40, height: 40, rx: 6, "class": "a-cool" }));
+      g.appendChild(sv("rect", { x: 41, y: 41, width: 18, height: 18, rx: 3, "class": "a-heat" }));
+    }
+    return g;
+  }
+
+  function renderTabs() {
+    var box = $("tabs"); box.textContent = "";
+    CATS.forEach(function (c) {
+      var n = c[0] === "all" ? stories.length : stories.filter(function (s) { return s.category === c[0]; }).length;
+      var b = el("button", "tab", c[1]); b.type = "button"; b.id = "tab-" + c[0];
+      b.setAttribute("role", "tab"); b.setAttribute("aria-selected", String(active === c[0]));
+      if (loaded) b.appendChild(el("span", "n", String(n)));
+      b.onclick = function () { active = c[0]; try { localStorage.setItem("hw-tab", active); } catch (e) {} render(); };
+      box.appendChild(b);
+    });
+  }
+
+  function render() {
+    renderTabs(); renderBands();
+    var list = $("feed"); list.textContent = "";
+    var shown = stories.filter(function (s) { return (active === "all" || s.category === active) && (!band || bandOf(s.hype).k === band); });
+    $("empty").hidden = shown.length > 0;
+    if (!shown.length && loaded) {
+      $("emptyTitle").textContent = stories.length ? "No stories match this category and level" : "No stories filed yet";
+      $("emptyText").textContent = stories.length ? "Pick another category or heat level, or check back after the next refresh." : "Check back after the next daily refresh.";
+    }
+    shown.forEach(function (s) {
+      var li = el("li", "story");
+      var sc = el("div", "score"); sc.title = "Heat score " + s.hype + " of 100";
+      sc.appendChild(el("b", null, String(s.hype)));
+      var bar = el("div", "bar"), fill = el("i"); fill.style.width = s.hype + "%"; bar.appendChild(fill); sc.appendChild(bar);
+      var body = el("div");
+      var meta = el("div", "meta");
+      meta.appendChild(el("span", "cat", (CATS.filter(function (c) { return c[0] === s.category; })[0] || [0, s.category])[1]));
+      meta.appendChild(el("span", "lvl", bandOf(s.hype).n));
+      if (s.published) meta.appendChild(el("span", null, dayLabel(s.published)));
+      body.appendChild(meta);
+      body.appendChild(el("h2", null, s.title));
+      body.appendChild(el("p", null, s.summary));
+      if (s.why) { var wl = el("p", "whyline"); wl.appendChild(el("b", null, "Why it matters: ")); wl.appendChild(document.createTextNode(s.why)); body.appendChild(wl); }
+      var acts = el("div", "acts");
+      if (/^https:\/\//.test(s.url || "")) {
+        var a = el("a", null, "Read at " + (s.source || "source")); a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+        acts.appendChild(a);
+      } else if (s.source) acts.appendChild(el("span", null, s.source));
+      body.appendChild(acts);
+      li.appendChild(sc); li.appendChild(body); li.appendChild(art(s)); list.appendChild(li);
+    });
+  }
+
+  function norm(x) {
+    return { id: String(x.id || x.title || ""), title: String(x.title || ""), summary: String(x.summary || ""), why: String(x.why || ""), category: String(x.category || "tech"),
+      hype: Math.max(0, Math.min(100, Math.round(Number(x.hype) || 0))), source: String(x.source || ""), url: String(x.url || ""), published: String(x.published || "") };
+  }
+  render();
+  fetch("stories.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (data) {
+    stories = (data.stories || []).map(norm).filter(function (s) { return s.title; })
+      .sort(function (a, b) { return b.hype - a.hype || (a.published < b.published ? 1 : -1); });
+    loaded = true; render();
+    var d = new Date(data.refreshedAt);
+    $("stamp").textContent = isNaN(d) ? "" : "Refreshed " + d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+  }).catch(function () {
+    loaded = true; render();
+    $("emptyTitle").textContent = "The feed could not be loaded";
+    $("emptyText").textContent = "Reload the page to try again.";
+    $("stamp").textContent = "Feed offline";
+  });
+})();
+</script>
+</body>
+</html>
