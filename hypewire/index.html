@@ -440,6 +440,18 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
       if (i % 2) g.appendChild(sv("circle", { cx: ax, cy: ay, r: sz, fill: "none", stroke: P.acc, "stroke-width": 1.2, "stroke-opacity": .85 }));
       else g.appendChild(sv("path", { d: "M" + (ax - sz) + " " + ay + "H" + (ax + sz) + "M" + ax + " " + (ay - sz) + "V" + (ay + sz), fill: "none", stroke: P.acc, "stroke-width": 1.2, "stroke-opacity": .85, "stroke-linecap": "round" }));
     }
+    if (s.category === "gaming") {
+      // Pixel-art sprite: a mirrored 7 x 7 character, unique to each story, with loose pixels around it.
+      var cell = (caption ? 34 : (W > 200 ? 68 : 60)) / 7, pcx = caption || W <= 200 ? W / 2 : W * (.62 + r() * .16), x0 = pcx - cell * 3.5, y0 = 50 - cell * 3.5, j, cells = [];
+      for (j = 0; j < 7; j++) for (i = 0; i < 4; i++) if (r() > .45) { var col = r() > .8 ? P.acc : "#FFFFFF"; cells.push([i, j, col]); if (i < 3) cells.push([6 - i, j, col]); }
+      for (i = 0; i < 12; i++) {
+        var sx = Math.floor(r() * (W / cell)) * cell, sy = Math.floor(r() * (100 / cell)) * cell;
+        if (Math.abs(sx + cell / 2 - pcx) > cell * 4.5) g.appendChild(sv("rect", { x: sx, y: sy, width: cell, height: cell, fill: i % 3 ? "#FFFFFF" : P.acc, "fill-opacity": .22 }));
+      }
+      cells.forEach(function (c) { g.appendChild(sv("rect", { x: x0 + c[0] * cell + cell * .22, y: y0 + c[1] * cell + cell * .22, width: cell, height: cell, fill: "#0B0920", "fill-opacity": .35 })); });
+      cells.forEach(function (c) { g.appendChild(sv("rect", { x: x0 + c[0] * cell, y: y0 + c[1] * cell, width: cell + .15, height: cell + .15, fill: c[2], "fill-opacity": caption ? .7 : 1 })); });
+      return g;
+    }
     var name = MOTIFS[s.motif] ? s.motif : CAT_MOTIF[s.category] || "chip";
     var size = caption ? 36 : (W > 200 ? 70 : 62), k = size / 100;
     var cx = caption || W <= 200 ? W / 2 : W * (.62 + r() * .16), cy = 50 + (caption ? 0 : (r() - .5) * 6), rot = (r() - .5) * 16;
