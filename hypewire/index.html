@@ -137,6 +137,44 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--cool); w
 .delta { font: 700 .72rem var(--mono); white-space: nowrap; }
 .delta.up { color: var(--heat); } .delta.down { color: var(--cool); } .delta.new { color: var(--surface); background: var(--cool); border-radius: 4px; padding: 1px 5px; }
 
+/* Hype drivers */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 600 .72rem var(--body); color: var(--cool); border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; background: var(--bg); }
+.drivers { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.drivers li { display: grid; grid-template-columns: 118px minmax(0, 1fr); gap: 10px; align-items: baseline; }
+.drivers b { font: 700 .72rem var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--heat); }
+.through { display: flex; flex-direction: column; gap: 6px; }
+.through .label { font-weight: 600; font-size: .9rem; }
+.linkbtn { background: none; border: 0; padding: 0; color: var(--cool); font-weight: 600; font-size: .9rem; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; width: fit-content; }
+@media (max-width: 480px) { .drivers li { grid-template-columns: minmax(0, 1fr); gap: 0; } }
+
+/* Connections map */
+.mapview { scroll-margin-top: 120px; display: flex; flex-direction: column; gap: 14px; }
+.mapview h2 { font: 800 1.5rem var(--display); letter-spacing: -.01em; margin: 0; }
+.mapview > p { margin: 0; color: var(--muted); max-width: 66ch; }
+.mapbox { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+.mapbox svg { display: block; width: 100%; height: auto; }
+.m-edge { stroke: var(--muted); stroke-width: 1.3; opacity: .5; }
+.m-edge.hot { stroke: var(--heat); stroke-width: 2; opacity: .9; }
+.m-story, .m-hub { cursor: pointer; }
+.m-story circle { fill: var(--surface); stroke: var(--heat); stroke-width: 2.5; }
+.m-story text { fill: var(--heat); font: 700 11px var(--mono); text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+.m-story text.m-label { fill: var(--muted); font: 500 10.5px var(--body); paint-order: stroke; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; }
+.m-story:hover text.m-label, .m-story:focus text.m-label { fill: var(--fg); }
+.m-story:hover circle, .m-story:focus circle { fill: var(--heat-soft); }
+.m-hub rect { fill: var(--fg); }
+.m-hub text { fill: var(--bg); font: 600 12.5px var(--body); text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+.m-hub.sel rect { fill: var(--heat); } .m-hub.sel text { fill: var(--surface); }
+.m-story:focus, .m-hub:focus { outline: none; } .m-hub:focus-visible rect, .m-story:focus-visible circle { stroke: var(--cool); stroke-width: 3; }
+.dim { opacity: .14; }
+.map-panel { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; min-height: 52px; justify-content: center; }
+.map-panel .hint { color: var(--muted); font-size: .92rem; }
+.map-panel strong { font: 700 1.05rem var(--display); }
+.threads { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
+.thread { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.thread-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.thread-head span { font: 500 .72rem var(--mono); color: var(--muted); white-space: nowrap; }
+
 /* Card actions and story dialog */
 .acts { margin-top: auto; padding-top: 6px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; }
 .acts .src { margin: 0; padding: 0; }
@@ -187,6 +225,10 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
   <div class="controls">
     <div class="tabs" role="tablist" aria-label="Category" id="tabs"></div>
     <div class="tools">
+      <div class="seg" role="group" aria-label="View">
+        <button type="button" id="view-feed" aria-pressed="true">Feed</button>
+        <button type="button" id="view-map" aria-pressed="false">Map</button>
+      </div>
       <input class="search" id="q" type="search" placeholder="Search stories" aria-label="Search stories" autocomplete="off">
       <div class="seg" role="group" aria-label="Sort">
         <button type="button" id="sort-hot" aria-pressed="true">Hottest</button>
@@ -215,6 +257,13 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
 
   <div id="lead"></div>
   <ol class="grid" id="feed"></ol>
+  <section class="mapview" id="mapView" hidden aria-labelledby="mapTitle">
+    <h2 id="mapTitle">How today's stories connect</h2>
+    <p>Dark labels are companies, people and themes that appear in more than one story. Numbered circles are stories, marked with their heat score. A line means the story involves that label.</p>
+    <div class="mapbox" id="map"></div>
+    <div class="map-panel" id="mapPanel"></div>
+    <div class="threads" id="threads"></div>
+  </section>
   <div class="empty" id="empty">
     <strong id="emptyTitle">Loading the feed</strong>
     <span id="emptyText">Fetching the latest stories.</span>
@@ -237,13 +286,14 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     { k: "building", n: "Building", lo: 60, hi: 74, o: .5, d: "Gaining attention across several outlets." },
     { k: "radar", n: "On the radar", lo: 0, hi: 59, o: .25, d: "Worth knowing, but not widely picked up yet." }
   ];
-  var stories = [], loaded = false, failed = false, active = "all", band = null, q = "", sort = "hot";
+  var stories = [], loaded = false, failed = false, active = "all", band = null, q = "", sort = "hot", view = "feed", selHub = null;
   var $ = function (id) { return document.getElementById(id); };
   var root = document.documentElement;
   function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
 
   var h = (location.hash || "").slice(1) || store("hw-tab") || "";
   if (CATS.some(function (c) { return c[0] === h; })) active = h;
+  if ((location.hash || "") === "#map") view = "map";
 
   // Theme
   var saved = store("hw-theme"); if (saved === "dark" || saved === "light") root.setAttribute("data-theme", saved);
@@ -320,7 +370,7 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
   function inCat(s) { return active === "all" || s.category === active; }
   function matches(s) {
     if (!q) return true;
-    return (s.title + " " + s.summary + " " + s.source + " " + s.why + " " + s.happened).toLowerCase().indexOf(q) >= 0;
+    return (s.title + " " + s.summary + " " + s.source + " " + s.why + " " + s.happened + " " + s.entities.join(" ")).toLowerCase().indexOf(q) >= 0;
   }
 
   function renderTabs() {
@@ -390,6 +440,7 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     t.onclick = function (e) { e.preventDefault(); openStory(s); };
     h2.appendChild(t); body.appendChild(h2);
     body.appendChild(el("p", "sum", s.summary));
+    if (s.drivers.length) { var ch = el("div", "chips"); ch.title = "What is driving the hype"; s.drivers.forEach(function (d) { ch.appendChild(el("span", "chip", d.label)); }); body.appendChild(ch); }
     if (s.why) { var w = el("p", "why"); w.appendChild(el("b", null, "Why it matters: ")); w.appendChild(document.createTextNode(s.why)); body.appendChild(w); }
     var acts = el("div", "acts"), more = el("button", "more", "Full story"); more.type = "button";
     more.onclick = function () { openStory(s); };
@@ -398,6 +449,110 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     body.appendChild(acts);
     c.appendChild(body);
     return c;
+  }
+
+  function storyBtn(x) {
+    var b = el("button"); b.type = "button"; b.appendChild(el("b", null, String(x.hype))); b.appendChild(el("span", null, x.title));
+    b.onclick = function () { openStory(x); }; return b;
+  }
+
+  // Connections map: stories linked through the companies, people and themes they share.
+  function hubsOf(list) {
+    var m = {}; list.forEach(function (s) { s.entities.forEach(function (e) { (m[e] = m[e] || []).push(s); }); });
+    return Object.keys(m).filter(function (k) { return m[k].length > 1; }).map(function (k) {
+      return { name: k, stories: m[k].slice().sort(function (a, b) { return b.hype - a.hype; }) };
+    }).sort(function (a, b) { return b.stories.length - a.stories.length || (a.name < b.name ? -1 : 1); });
+  }
+  function layout(nodes, edges) {
+    // Fruchterman-Reingold in a 100 x 100 box; the caller stretches it to the canvas.
+    var n = nodes.length, r = rng("map" + n), K = Math.sqrt(10000 / n) * .5, i, j, it;
+    nodes.forEach(function (nd, k) { var a = k / n * 6.2832; nd.x = 50 + Math.cos(a) * 30 + (r() - .5) * 6; nd.y = 50 + Math.sin(a) * 30 + (r() - .5) * 6; });
+    for (it = 0; it < 500; it++) {
+      var t = (1 - it / 500) * 8 + .2;
+      nodes.forEach(function (nd) { nd.dx = (50 - nd.x) * .06; nd.dy = (50 - nd.y) * .06; });
+      for (i = 0; i < n; i++) for (j = i + 1; j < n; j++) {
+        var dx = nodes[i].x - nodes[j].x, dy = nodes[i].y - nodes[j].y, d = Math.sqrt(dx * dx + dy * dy) || .01, f = K * K / d / d;
+        nodes[i].dx += dx * f; nodes[i].dy += dy * f; nodes[j].dx -= dx * f; nodes[j].dy -= dy * f;
+      }
+      edges.forEach(function (e) {
+        var a = nodes[e[0]], b = nodes[e[1]], dx = a.x - b.x, dy = a.y - b.y, d = Math.sqrt(dx * dx + dy * dy) || .01, f = d / K * .6;
+        a.dx -= dx * f; a.dy -= dy * f; b.dx += dx * f; b.dy += dy * f;
+      });
+      nodes.forEach(function (nd) {
+        var m = Math.sqrt(nd.dx * nd.dx + nd.dy * nd.dy) || .01, s = Math.min(m, t) / m;
+        nd.x = Math.max(3, Math.min(97, nd.x + nd.dx * s)); nd.y = Math.max(4, Math.min(96, nd.y + nd.dy * s));
+      });
+    }
+  }
+  function renderMap(shown) {
+    var hubs = hubsOf(shown), box = $("map"), panel = $("mapPanel"), threads = $("threads");
+    box.textContent = ""; panel.textContent = ""; threads.textContent = "";
+    if (selHub && !hubs.some(function (h) { return h.name === selHub; })) selHub = null;
+    if (!hubs.length) { panel.appendChild(el("span", "hint", "No stories in this view share a company, person or theme. Try the All tab.")); return; }
+    var narrow = (box.clientWidth || 1000) < 620, W = narrow ? 380 : 1000, H = narrow ? 900 : 780;
+    var nodes = [], idx = {}, edges = [];
+    hubs.forEach(function (h) { nodes.push({ hub: h, w: h.name.length * 7.3 + 24 }); });
+    hubs.forEach(function (h, hi) { h.stories.forEach(function (s) { if (idx[s.id] == null) { idx[s.id] = nodes.length; nodes.push({ story: s }); } edges.push([hi, idx[s.id]]); }); });
+    layout(nodes, edges);
+    // Stretch to the canvas, then push apart anything that still overlaps (labels are much wider than circles).
+    nodes.forEach(function (nd) {
+      nd.bw = nd.hub ? nd.w + 12 : (narrow ? 38 : 156); nd.bh = nd.hub ? 36 : (narrow ? 38 : 56);
+      nd.px = 30 + nd.x / 100 * (W - 60); nd.py = 28 + nd.y / 100 * (H - 56);
+    });
+    for (var pass = 0; pass < 160; pass++) {
+      for (var i = 0; i < nodes.length; i++) for (var j = i + 1; j < nodes.length; j++) {
+        var a = nodes[i], b = nodes[j], ox = (a.bw + b.bw) / 2 - Math.abs(a.px - b.px), oy = (a.bh + b.bh) / 2 - Math.abs(a.py - b.py), sh;
+        if (ox > 0 && oy > 0) {
+          if (ox < oy) { sh = (a.px < b.px ? -1 : 1) * ox / 2; a.px += sh; b.px -= sh; }
+          else { sh = (a.py < b.py ? -1 : 1) * oy / 2; a.py += sh; b.py -= sh; }
+        }
+      }
+      nodes.forEach(function (nd) {
+        nd.px = Math.max(nd.bw / 2 + 4, Math.min(W - nd.bw / 2 - 4, nd.px)); nd.py = Math.max(nd.bh / 2 + 4, Math.min(H - nd.bh / 2 - 4, nd.py));
+      });
+    }
+    var lift = narrow ? 0 : 9;
+    nodes.forEach(function (nd) { nd.cy = nd.hub ? nd.py : nd.py - lift; });
+    var selIdx = -1; hubs.forEach(function (h, i) { if (h.name === selHub) selIdx = i; });
+    var lit = {}; if (selIdx >= 0) edges.forEach(function (e) { if (e[0] === selIdx) lit[e[1]] = true; });
+    function hint() { panel.textContent = ""; panel.appendChild(el("span", "hint", "Tap a dark label to see the stories it links. Tap a numbered circle to open that story.")); }
+    function showHub(h) {
+      panel.textContent = ""; panel.appendChild(el("strong", null, h.name + " links " + h.stories.length + " stories"));
+      var rl = el("div", "related"); h.stories.forEach(function (s) { rl.appendChild(storyBtn(s)); }); panel.appendChild(rl);
+    }
+    var g = sv("svg", { viewBox: "0 0 " + W + " " + H, role: "group", "aria-label": "Map of how stories connect" });
+    edges.forEach(function (e) {
+      var a = nodes[e[0]], b = nodes[e[1]], cls = "m-edge" + (selIdx >= 0 ? (e[0] === selIdx ? " hot" : " dim") : "");
+      g.appendChild(sv("line", { x1: a.px, y1: a.cy, x2: b.px, y2: b.cy, "class": cls }));
+    });
+    function act(node, fn) { node.addEventListener("click", fn); node.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); fn(); } }); }
+    nodes.forEach(function (nd, i) {
+      if (nd.hub) return;
+      var s = nd.story, n = sv("g", { "class": "m-story" + (selIdx >= 0 && !lit[i] ? " dim" : ""), tabindex: 0, role: "button", "aria-label": s.title + ", heat " + s.hype, transform: "translate(" + nd.px + " " + nd.py + ")" });
+      var tt = sv("title", {}); tt.textContent = s.title; n.appendChild(tt);
+      n.appendChild(sv("circle", { r: 14, cy: -lift })); var tx = sv("text", { y: -lift }); tx.textContent = s.hype; n.appendChild(tx);
+      if (!narrow) { var lb = sv("text", { y: 19, "class": "m-label" }); lb.textContent = s.title.length > 27 ? s.title.slice(0, 26).replace(/\s+$/, "") + "\u2026" : s.title; n.appendChild(lb); }
+      act(n, function () { openStory(s); });
+      n.addEventListener("mouseenter", function () { if (selIdx < 0) { panel.textContent = ""; panel.appendChild(el("strong", null, s.title)); panel.appendChild(el("span", "hint", catName(s.category) + " \u00b7 heat " + s.hype + " \u00b7 " + s.entities.join(", "))); } });
+      n.addEventListener("mouseleave", function () { if (selIdx < 0) hint(); });
+      g.appendChild(n);
+    });
+    nodes.forEach(function (nd, i) {
+      if (!nd.hub) return;
+      var hname = nd.hub.name, n = sv("g", { "class": "m-hub" + (i === selIdx ? " sel" : (selIdx >= 0 ? " dim" : "")), tabindex: 0, role: "button", "aria-label": hname + ", links " + nd.hub.stories.length + " stories", transform: "translate(" + nd.px + " " + nd.py + ")" });
+      n.appendChild(sv("rect", { x: -nd.w / 2, y: -13, width: nd.w, height: 26, rx: 13 })); var tx = sv("text", {}); tx.textContent = hname; n.appendChild(tx);
+      act(n, function () { selHub = selHub === hname ? null : hname; renderMap(shown); });
+      g.appendChild(n);
+    });
+    box.appendChild(g);
+    if (selIdx >= 0) showHub(hubs[selIdx]); else hint();
+    hubs.forEach(function (h) {
+      var t = el("div", "thread"), head = el("div", "thread-head"), nb = el("button", "linkbtn", h.name); nb.type = "button";
+      nb.onclick = function () { selHub = h.name; renderMap(shown); $("map").scrollIntoView({ block: "nearest" }); };
+      head.appendChild(nb); head.appendChild(el("span", null, h.stories.length + " stories")); t.appendChild(head);
+      var rl = el("div", "related"); h.stories.forEach(function (s) { rl.appendChild(storyBtn(s)); }); t.appendChild(rl);
+      threads.appendChild(t);
+    });
   }
 
   // Story dialog: the longer write-up plus related stories, so readers can keep going without leaving.
@@ -410,18 +565,41 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     body.appendChild(heatline(s)); body.appendChild(metaline(s));
     var h = el("h2", null, s.title); h.id = "dlgTitle"; body.appendChild(h);
     body.appendChild(el("h3", null, "What happened")); body.appendChild(el("p", null, s.happened || s.summary));
+    if (s.drivers.length) {
+      body.appendChild(el("h3", null, "Why the hype"));
+      var ul = el("ul", "drivers");
+      s.drivers.forEach(function (d) { var li = el("li"); li.appendChild(el("b", null, d.label)); li.appendChild(el("span", null, d.text)); ul.appendChild(li); });
+      body.appendChild(ul);
+    }
+    if (s.background) { body.appendChild(el("h3", null, "Background")); body.appendChild(el("p", null, s.background)); }
     if (s.why) { body.appendChild(el("h3", null, "Why it matters")); body.appendChild(el("p", null, s.why)); }
     if (s.next) { body.appendChild(el("h3", null, "What to watch next")); body.appendChild(el("p", null, s.next)); }
     var a = srcLink(s); if (a) { var acts = el("div", "acts"); acts.appendChild(a); body.appendChild(acts); }
+    if (s.entities.length) {
+      body.appendChild(el("h3", null, "Connections"));
+      var solo = [], firstHub = null;
+      s.entities.forEach(function (name) {
+        var others = stories.filter(function (x) { return x.id !== s.id && x.entities.indexOf(name) >= 0; }).sort(function (x, y) { return y.hype - x.hype; });
+        if (!others.length) { solo.push(name); return; }
+        firstHub = firstHub || name;
+        var t = el("div", "through"); t.appendChild(el("span", "label", "Through " + name));
+        var rl = el("div", "related");
+        others.forEach(function (x) { rl.appendChild(storyBtn(x)); });
+        t.appendChild(rl); body.appendChild(t);
+      });
+      if (solo.length) { var sc = el("div", "chips"); solo.forEach(function (n) { sc.appendChild(el("span", "chip", n)); }); body.appendChild(sc); }
+      if (firstHub) {
+        var mb = el("button", "linkbtn", "See this on the connections map"); mb.type = "button";
+        mb.onclick = function () { closeStory(); view = "map"; selHub = firstHub; band = null; q = ""; $("q").value = ""; active = "all"; render(); setHash("map"); $("mapView").scrollIntoView({ block: "start" }); };
+        body.appendChild(mb);
+      }
+    }
     var rel = stories.filter(function (x) { return x.category === s.category && x.id !== s.id; })
       .sort(function (x, y) { return y.hype - x.hype; }).slice(0, 3);
     if (rel.length) {
       body.appendChild(el("h3", null, "More in " + catName(s.category)));
       var list = el("div", "related");
-      rel.forEach(function (x) {
-        var b = el("button"); b.type = "button"; b.appendChild(el("b", null, String(x.hype))); b.appendChild(el("span", null, x.title));
-        b.onclick = function () { openStory(x); }; list.appendChild(b);
-      });
+      rel.forEach(function (x) { list.appendChild(storyBtn(x)); });
       body.appendChild(list);
     }
     box.appendChild(body);
@@ -432,7 +610,7 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
   function closeStory() { if (dlg.close) dlg.close(); else dlg.removeAttribute("open"); }
   $("dlgClose").onclick = closeStory;
   dlg.addEventListener("click", function (e) { if (e.target === dlg) closeStory(); });
-  dlg.addEventListener("close", function () { setHash(""); });
+  dlg.addEventListener("close", function () { setHash(view === "map" ? "map" : ""); });
 
   function renderBrief(items) {
     var byId = {}; stories.forEach(function (s) { byId[s.id] = s; });
@@ -462,6 +640,9 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     renderTabs(); renderBands();
     $("sort-hot").setAttribute("aria-pressed", String(sort === "hot"));
     $("sort-new").setAttribute("aria-pressed", String(sort === "new"));
+    $("view-feed").setAttribute("aria-pressed", String(view === "feed"));
+    $("view-map").setAttribute("aria-pressed", String(view === "map"));
+    $("mapView").hidden = true;
     var shown = stories.filter(function (s) { return inCat(s) && matches(s) && (!band || bandOf(s.hype).k === band); });
     shown.sort(sort === "new"
       ? function (a, b) { return a.published === b.published ? b.hype - a.hype : (a.published < b.published ? 1 : -1); }
@@ -476,6 +657,7 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
       }
       return;
     }
+    if (view === "map") { $("mapView").hidden = false; renderMap(shown); return; }
     leadBox.appendChild(card(shown[0], true));
     shown.slice(1).forEach(function (s) { var li = el("li"); li.appendChild(card(s, false)); list.appendChild(li); });
   }
@@ -485,11 +667,17 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
 
   var timer;
   $("q").addEventListener("input", function (e) { clearTimeout(timer); var v = e.target.value; timer = setTimeout(function () { q = v.trim().toLowerCase(); render(); }, 120); });
+  $("view-feed").onclick = function () { view = "feed"; selHub = null; setHash(""); render(); };
+  $("view-map").onclick = function () { view = "map"; setHash("map"); render(); };
+  var rz; window.addEventListener("resize", function () { if (view !== "map") return; clearTimeout(rz); rz = setTimeout(render, 200); });
   $("sort-hot").onclick = function () { sort = "hot"; render(); };
   $("sort-new").onclick = function () { sort = "new"; render(); };
 
   function norm(x) {
     return { id: String(x.id || x.title || ""), title: String(x.title || ""), summary: String(x.summary || ""), why: String(x.why || ""), category: String(x.category || "tech"),
+      background: String(x.background || ""),
+      entities: (Array.isArray(x.entities) ? x.entities : []).map(String).filter(Boolean).slice(0, 8),
+      drivers: (Array.isArray(x.drivers) ? x.drivers : []).map(function (d) { return { label: String((d && d.label) || ""), text: String((d && d.text) || "") }; }).filter(function (d) { return d.label && d.text; }).slice(0, 4),
       happened: String(x.happened || ""), next: String(x.next || ""), prev: typeof x.prevHype === "number" ? Math.round(x.prevHype) : null,
       hype: Math.max(0, Math.min(100, Math.round(Number(x.hype) || 0))), source: String(x.source || ""), url: String(x.url || ""), published: String(x.published || "") };
   }

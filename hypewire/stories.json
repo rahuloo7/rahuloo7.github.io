@@ -35,7 +35,23 @@
       "why": "Open weights at this size let companies run a top-tier model on their own hardware instead of renting one.",
       "happened": "Mistral announced Large 4, a mixture-of-experts model with one trillion parameters, of which 49 billion are active at a time. The company says it was trained on 4,000 Nvidia GPUs and that the weights will be released at the end of the month.",
       "next": "Watch for the weight release and the first independent benchmarks.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Mistral",
+        "Nvidia",
+        "Open-weight models"
+      ],
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "One trillion parameters is far larger than earlier open releases."
+        },
+        {
+          "label": "Open access",
+          "text": "Anyone will be able to download and run it, unlike most top models."
+        }
+      ],
+      "background": "Mistral is a Paris-based AI company known for releasing models that others can download and run themselves."
     },
     {
       "id": "ent-spider-man-digital",
@@ -49,7 +65,24 @@
       "why": "One of the year's biggest cinema releases is now a home-viewing event.",
       "happened": "Spider-Man: Brand New Day became available on digital platforms on October 6, including Apple TV and Prime Video. It is Tom Holland's fourth solo film as the character and is set four years after No Way Home.",
       "next": "Watch for a date on a subscription streaming service.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Marvel",
+        "Sony",
+        "Tom Holland",
+        "Superhero films"
+      ],
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "It is the first solo Spider-Man film since No Way Home in 2021."
+        },
+        {
+          "label": "Timing",
+          "text": "The home release lets people who skipped cinemas join the conversation."
+        }
+      ],
+      "background": "The Spider-Man films are made by Sony Pictures together with Marvel Studios."
     },
     {
       "id": "game-last-of-us-projects",
@@ -63,7 +96,24 @@
       "why": "Fans thought the series might be finished; this confirms it has a future.",
       "happened": "Neil Druckmann said Naughty Dog has two more Last of Us projects in development. He said they will expand the canon of the series.",
       "next": "Watch for details on what form the projects take and when they will be shown.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "The Last of Us",
+        "Naughty Dog",
+        "Sony",
+        "Revived franchises"
+      ],
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "The series is among PlayStation's most acclaimed and has a hit TV adaptation."
+        },
+        {
+          "label": "Uncertainty",
+          "text": "Fans did not know whether the series would continue."
+        }
+      ],
+      "background": "Naughty Dog is a Sony-owned studio. The first Last of Us game came out in 2013."
     },
     {
       "id": "ai-anthropic-60b-financing",
@@ -77,7 +127,23 @@
       "why": "It shows how much borrowed money the AI build-out now depends on.",
       "happened": "Major banks are reported to be syndicating a $60 billion financing package tied to Anthropic's expansion of computing infrastructure. The report is attributed to the Financial Times.",
       "next": "Watch for confirmation of the lenders and the terms.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Anthropic",
+        "AI infrastructure",
+        "AI funding"
+      ],
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "$60 billion is an unusually large debt package for one company's computing needs."
+        },
+        {
+          "label": "Risk",
+          "text": "Debt has to be repaid whether or not AI revenue arrives on schedule."
+        }
+      ],
+      "background": "Anthropic makes the Claude AI models. Training and running models like these needs very large data centers."
     },
     {
       "id": "tech-apple-smart-home",
@@ -91,7 +157,22 @@
       "why": "It would be Apple's first new product category for the home in years.",
       "happened": "Apple is reported to be planning a smart home launch on October 13. The products are said to be a home hub with a square 6-inch display, an updated HomePod mini and a new Apple TV.",
       "next": "Watch for prices and whether the hub ships right away.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Apple",
+        "Smart home"
+      ],
+      "drivers": [
+        {
+          "label": "New category",
+          "text": "A dedicated home hub would be a new kind of product for Apple."
+        },
+        {
+          "label": "Big name",
+          "text": "Apple launches set the agenda for the rest of the industry."
+        }
+      ],
+      "background": "Apple's current home products are the HomePod speakers and the Apple TV box."
     },
     {
       "id": "ai-deepseek-raise",
@@ -105,7 +186,23 @@
       "why": "A raise this large would make DeepSeek one of the best-funded AI labs outside the US.",
       "happened": "Chinese AI startup DeepSeek is reported to be raising between $12 billion and $15 billion, with Tencent and CATL named as backers. The round is described as coming ahead of a planned 2027 IPO.",
       "next": "Watch for a confirmed valuation and where the company chooses to list.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "DeepSeek",
+        "AI funding",
+        "China"
+      ],
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "A round of $12 to $15 billion would be among the largest for any AI lab."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It would give a Chinese lab resources closer to those of its US rivals."
+        }
+      ],
+      "background": "DeepSeek is a Chinese AI lab that drew global attention in early 2025 with low-cost models that rivaled US ones."
     },
     {
       "id": "game-witcher-3-peak",
@@ -119,7 +216,23 @@
       "why": "It is rare for a game this old to beat its own launch-era numbers.",
       "happened": "The Witcher 3 reached its highest ever concurrent player count on Steam. The surge followed the launch of the Remastered version of the 2015 game.",
       "next": "Watch for whether the numbers hold after launch week.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "The Witcher",
+        "CD Projekt Red",
+        "Revived franchises"
+      ],
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "A remaster gave lapsed players a reason to return."
+        },
+        {
+          "label": "Scale",
+          "text": "Beating a record set years ago is rare for a single-player game."
+        }
+      ],
+      "background": "The Witcher 3: Wild Hunt came out in 2015 and is one of the best-selling role-playing games ever made."
     },
     {
       "id": "ent-social-reckoning",
@@ -133,7 +246,23 @@
       "why": "It follows a much-loved film and tackles a company that is still in the headlines.",
       "happened": "Aaron Sorkin's The Social Reckoning opens in theaters on October 9. The legal drama is a sequel to The Social Network and deals with Facebook's 2021 scandal.",
       "next": "Watch for opening-weekend numbers and awards talk.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Meta",
+        "Aaron Sorkin",
+        "Theatrical releases"
+      ],
+      "drivers": [
+        {
+          "label": "Legacy",
+          "text": "The Social Network (2010) is one of the most acclaimed films of its decade."
+        },
+        {
+          "label": "Topical",
+          "text": "Its subject, Facebook's parent company Meta, is still in the news every week."
+        }
+      ],
+      "background": "Aaron Sorkin won an Academy Award for writing The Social Network."
     },
     {
       "id": "ent-street-fighter",
@@ -147,7 +276,24 @@
       "why": "Game adaptations have become reliable hits, and this is one of gaming's best-known names.",
       "happened": "The live-action Street Fighter film is scheduled for theaters on October 16. It adapts the fighting-game series around a martial arts tournament, with M. Bison as the villain.",
       "next": "Watch for early reviews in the days before release.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Street Fighter",
+        "Capcom",
+        "Game adaptations",
+        "Theatrical releases"
+      ],
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "Street Fighter has been a household name in games since the early 1990s."
+        },
+        {
+          "label": "Trend",
+          "text": "Recent film and TV adaptations of games have drawn big audiences."
+        }
+      ],
+      "background": "Street Fighter is Capcom's long-running fighting game series."
     },
     {
       "id": "tech-iphone-duo-yields",
@@ -161,7 +307,22 @@
       "why": "Low yields usually mean short supply and long waits when a product launches.",
       "happened": "Assembly yields for Apple's foldable iPhone are reported to be below 65 percent. That could limit how many units are available at launch.",
       "next": "Watch for reports of yields improving, or of a limited release.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Apple",
+        "Foldable phones"
+      ],
+      "drivers": [
+        {
+          "label": "Scarcity",
+          "text": "Low yields usually mean short supply at launch."
+        },
+        {
+          "label": "First of its kind",
+          "text": "It would be Apple's first folding phone."
+        }
+      ],
+      "background": "Yield is the share of units that pass quality checks. Folding screens are hard to manufacture reliably."
     },
     {
       "id": "ai-google-constellation",
@@ -175,7 +336,23 @@
       "why": "AI data centers are now limited by electricity, and nuclear is becoming the long-term answer.",
       "happened": "Google signed a 20-year agreement with Constellation Energy for 3,590 MW of power. About 890 MW of that is nuclear capacity from upgrades at 11 reactors.",
       "next": "Watch for rival cloud companies announcing similar long-term power deals.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Google",
+        "AI infrastructure",
+        "Nuclear power"
+      ],
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "3.6 GW is comparable to the output of several large reactors."
+        },
+        {
+          "label": "Timing",
+          "text": "Electricity supply has become a main limit on building new data centers."
+        }
+      ],
+      "background": "Constellation Energy is the largest operator of nuclear power plants in the United States."
     },
     {
       "id": "ent-clayface",
@@ -189,7 +366,23 @@
       "why": "It is a horror-leaning test of how far the new DC film universe can stretch.",
       "happened": "Clayface, a DC Universe film, is scheduled for October 23. It follows an actor who gains shapeshifting powers after a disfiguring injury.",
       "next": "Watch for first reactions and how it performs against the month's other releases.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "DC Studios",
+        "Superhero films",
+        "Theatrical releases"
+      ],
+      "drivers": [
+        {
+          "label": "Different tone",
+          "text": "It is built around body horror, which is unusual for a comic-book film."
+        },
+        {
+          "label": "Stakes",
+          "text": "DC's relaunched film universe is still proving itself with audiences."
+        }
+      ],
+      "background": "Clayface is a villain from the Batman comics."
     },
     {
       "id": "game-massive-clancy",
@@ -203,7 +396,24 @@
       "why": "Two dormant, much-missed series now have a named studio responsible for them.",
       "happened": "Ubisoft has moved the Ghost Recon and Splinter Cell series to Massive Entertainment. Massive is the studio that makes The Division.",
       "next": "Watch for the first announcement of a new game in either series.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Ubisoft",
+        "Massive Entertainment",
+        "Tom Clancy games",
+        "Revived franchises"
+      ],
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "There has been no new mainline Splinter Cell game since 2013."
+        },
+        {
+          "label": "Stakes",
+          "text": "It shows where Ubisoft is concentrating its biggest series."
+        }
+      ],
+      "background": "Massive Entertainment is Ubisoft's Swedish studio and the maker of The Division."
     },
     {
       "id": "ent-animals-netflix",
@@ -217,7 +427,22 @@
       "why": "A star director-actor on Netflix usually means a big opening weekend on the charts.",
       "happened": "Animals arrives on Netflix on October 9. Ben Affleck directs and stars as a Los Angeles mayoral candidate whose son is kidnapped.",
       "next": "Watch for where it lands in Netflix's weekly top 10.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Netflix",
+        "Ben Affleck"
+      ],
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Affleck both directs and stars."
+        },
+        {
+          "label": "Reach",
+          "text": "A Netflix release puts a film in front of a very large audience on day one."
+        }
+      ],
+      "background": "Affleck's earlier films as director include The Town and Argo."
     },
     {
       "id": "game-pubg-black-budget",
@@ -231,7 +456,23 @@
       "why": "It is another sign of how crowded and risky the extraction-shooter genre has become.",
       "happened": "Krafton cancelled PUBG: Black Budget, an extraction shooter spinoff. The company said it could not deliver an experience players could enjoy over the long term.",
       "next": "Watch for what happens to the team and to Krafton's other PUBG projects.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Krafton",
+        "PUBG",
+        "South Korea"
+      ],
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "PUBG is one of the most played shooters in the world."
+        },
+        {
+          "label": "Trend",
+          "text": "Several extraction shooters have struggled to keep players."
+        }
+      ],
+      "background": "Krafton is the South Korean publisher of PUBG: Battlegrounds."
     },
     {
       "id": "tech-denmark-breach",
@@ -245,7 +486,22 @@
       "why": "The register covers essentially every resident, so the exposure is nationwide.",
       "happened": "Attackers are reported to have abused legitimate access to Denmark's Central Person Register. Records for 8.8 million individuals were exposed.",
       "next": "Watch for the official investigation and guidance for people affected.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Denmark",
+        "Cybersecurity"
+      ],
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "The number of records exceeds Denmark's population of about six million."
+        },
+        {
+          "label": "Trust",
+          "text": "The register sits underneath most public services in the country."
+        }
+      ],
+      "background": "The Central Person Register gives every resident a personal ID number that is used across government, banking and healthcare."
     },
     {
       "id": "ai-personal-agent-protocol",
@@ -259,7 +515,23 @@
       "why": "A shared sign-in standard is what agents need before they can shop or book for you across sites.",
       "happened": "Meta and Sierra published the Personal Agent Protocol, an open standard built on OAuth. It lets a person's AI agent authenticate with a business and work across its website and its MCP or OpenAPI channels.",
       "next": "Watch for which retailers and other AI companies adopt it.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Meta",
+        "Sierra",
+        "AI agents"
+      ],
+      "drivers": [
+        {
+          "label": "Missing piece",
+          "text": "There is no common way yet for an AI agent to prove whose behalf it acts on."
+        },
+        {
+          "label": "Big name",
+          "text": "Meta's backing gives the standard a real chance of being adopted."
+        }
+      ],
+      "background": "Sierra builds customer-service AI agents for businesses. OAuth is the standard behind most 'Sign in with' buttons."
     },
     {
       "id": "ai-reflection-beam",
@@ -273,7 +545,23 @@
       "why": "Another large open model adds pressure on closed labs, especially for coding tools.",
       "happened": "Reflection AI, which is backed by Nvidia, released Beam, an open-weight model with 501 billion parameters. It is aimed at coding and reasoning tasks.",
       "next": "Watch for independent benchmark results against other open models.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Reflection AI",
+        "Nvidia",
+        "Open-weight models"
+      ],
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "At 501 billion parameters it is one of the largest models with open weights."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It arrives in the same week as Mistral's even larger open model."
+        }
+      ],
+      "background": "Reflection AI is a US startup that builds AI systems for writing software."
     },
     {
       "id": "ent-digger",
@@ -287,7 +575,22 @@
       "why": "Any new Tom Cruise release is a box-office talking point.",
       "happened": "Digger opened in theaters in the first weekend of October. Tom Cruise plays an oil tycoon who has to avert an environmental catastrophe he caused.",
       "next": "Watch for how it holds in its second weekend.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Tom Cruise",
+        "Theatrical releases"
+      ],
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Cruise is one of the few actors whose name alone sells tickets."
+        },
+        {
+          "label": "Change of pace",
+          "text": "It is not part of one of his action franchises."
+        }
+      ],
+      "background": "Cruise is best known for the Mission: Impossible and Top Gun films."
     },
     {
       "id": "tech-uber-ezcater",
@@ -301,7 +604,23 @@
       "why": "Uber is pushing beyond consumer delivery into office and corporate orders.",
       "happened": "Uber agreed to buy the catering platform ezCater for $2.3 billion. The deal expands Uber's delivery business.",
       "next": "Watch for regulatory approval and how ezCater is folded into Uber's apps.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Uber",
+        "ezCater",
+        "Acquisitions"
+      ],
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "$2.3 billion is a substantial purchase."
+        },
+        {
+          "label": "Strategy",
+          "text": "It moves Uber into workplace catering, a different market from consumer delivery."
+        }
+      ],
+      "background": "ezCater is a US marketplace that businesses use to order catering from restaurants."
     },
     {
       "id": "game-ubisoft-motherbrain",
@@ -315,7 +634,22 @@
       "why": "Generative AI in games is contested, and a major publisher is committing to it openly.",
       "happened": "Ubisoft's generative AI group is reported to be named Motherbrain. Its work is said to focus on NPC dialogue and squad mechanics.",
       "next": "Watch for the first Ubisoft game to ship with these features.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Ubisoft",
+        "Generative AI in games"
+      ],
+      "drivers": [
+        {
+          "label": "Controversy",
+          "text": "Many players and developers are wary of AI-written game content."
+        },
+        {
+          "label": "Big name",
+          "text": "Ubisoft is one of the largest publishers to commit to it openly."
+        }
+      ],
+      "background": "Ubisoft has previously shown prototypes of AI-driven game characters."
     },
     {
       "id": "tech-amd-capacity",
@@ -329,7 +663,24 @@
       "why": "More supply from AMD could ease the shortage of AI chips and challenge Nvidia.",
       "happened": "AMD chief executive Lisa Su said the company plans substantial increases in chip capacity in 2027. The aim is to meet demand for AI chips.",
       "next": "Watch for details on which manufacturing partners supply the extra capacity.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "AMD",
+        "Nvidia",
+        "AI infrastructure",
+        "AI chips"
+      ],
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "AMD is the main challenger to Nvidia in AI chips."
+        },
+        {
+          "label": "Demand",
+          "text": "Demand for AI chips has outrun supply for several years."
+        }
+      ],
+      "background": "AMD designs processors and graphics chips and relies on outside manufacturers to build them."
     },
     {
       "id": "ent-reporting-live",
@@ -343,7 +694,23 @@
       "why": "A well-known Bollywood lead in a topical thriller, released straight to streaming.",
       "happened": "Reporting Live streams on Netflix from October 9. Parineeti Chopra plays an ambitious journalist who uncovers a sand mining mafia.",
       "next": "Watch for audience reaction once it is out.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Netflix",
+        "Parineeti Chopra",
+        "Indian cinema"
+      ],
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Parineeti Chopra is a well-known Hindi film actor."
+        },
+        {
+          "label": "Topical",
+          "text": "Illegal sand mining is a real and long-running issue in India."
+        }
+      ],
+      "background": "Netflix has been releasing more Indian originals directly to streaming."
     },
     {
       "id": "ai-nova-sonic",
@@ -357,7 +724,23 @@
       "why": "Lower delay is what makes voice assistants feel like a conversation rather than a walkie-talkie.",
       "happened": "Amazon released Nova 2.5 Sonic, an updated speech-to-speech model for real-time voice agents. Amazon says it responds with lower latency than the previous version.",
       "next": "Watch for it appearing in customer-service and voice products built on AWS.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Amazon",
+        "AI agents",
+        "Voice AI"
+      ],
+      "drivers": [
+        {
+          "label": "Speed",
+          "text": "Shorter delays are what make talking to an AI feel natural."
+        },
+        {
+          "label": "Reach",
+          "text": "AWS customers can build it straight into their own products."
+        }
+      ],
+      "background": "Nova is Amazon's own family of AI models, offered to businesses through AWS."
     },
     {
       "id": "ai-korea-sovereign",
@@ -371,7 +754,23 @@
       "why": "More governments want AI they control rather than relying on US or Chinese providers.",
       "happened": "South Korea allocated 4.7 trillion won, about $3.5 billion, to develop its own frontier AI and deploy it in industry. The program is due to start in March 2027.",
       "next": "Watch for which Korean companies are chosen to lead it.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "South Korea",
+        "Sovereign AI",
+        "AI funding"
+      ],
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "$3.5 billion is a large public commitment for a single country."
+        },
+        {
+          "label": "Trend",
+          "text": "Several governments are now funding national AI efforts."
+        }
+      ],
+      "background": "Sovereign AI means a country building AI on its own infrastructure and data instead of relying on foreign providers."
     },
     {
       "id": "game-wolverine-update",
@@ -385,7 +784,23 @@
       "why": "A quick fix for one of the most common complaints since launch.",
       "happened": "Insomniac released an update for Marvel's Wolverine that adds an option to turn off the scent trail indicators completely.",
       "next": "Watch for further patches responding to player feedback.",
-      "prevHype": null
+      "prevHype": null,
+      "entities": [
+        "Marvel",
+        "Insomniac Games",
+        "Sony"
+      ],
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "It is one of the year's biggest PlayStation releases."
+        },
+        {
+          "label": "Quick response",
+          "text": "The studio acted on a specific complaint soon after launch."
+        }
+      ],
+      "background": "Insomniac Games is the Sony-owned studio behind the Marvel's Spider-Man games."
     }
   ]
 }

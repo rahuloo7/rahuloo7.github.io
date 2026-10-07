@@ -7,4 +7,4 @@
 - `hypewire/index.html` is the whole site (no build step).
 - `hypewire/stories.json` is the feed. A daily scheduled task rewrites it with new stories.
 
-The file also has a top-level `briefing` list of five `{id, text}` lines. Each story has `id`, `title`, `summary`, `why`, `happened`, `next`, `prevHype` (yesterday's score, or null if new), `category` (`ai`, `entertainment`, `gaming`, `tech`), `hype` (0-100), `source`, `url` and `published` (YYYY-MM-DD).
+The file also has a top-level `briefing` list of five `{id, text}` lines. Each story has `id`, `title`, `summary`, `why`, `happened`, `next`, `prevHype` (yesterday's score, or null if new), `drivers` (why the hype: a list of `{label, text}`), `background`, `entities` (companies, people and themes; stories that share one are linked on the map), `category` (`ai`, `entertainment`, `gaming`, `tech`), `hype` (0-100), `source`, `url` and `published` (YYYY-MM-DD).
