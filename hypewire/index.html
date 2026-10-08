@@ -261,6 +261,90 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
   .tools { justify-content: flex-start; }
   .search { max-width: none; }
 }
+/* Phones: one sticky row of category tabs, side-scrolling chip rows, bigger tap targets, stacked data table, bottom-sheet story view. */
+.scroller { scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.scroller::-webkit-scrollbar { display: none; }
+@media (max-width: 640px) {
+  .wrap { padding-inline: 16px; padding-block: 16px 40px; gap: 14px; }
+  .top { flex-wrap: nowrap; align-items: center; }
+  h1 { font-size: 2.1rem; }
+  .top-right { flex-direction: column; align-items: flex-end; gap: 6px; }
+  .stamp { font-size: .68rem; white-space: nowrap; }
+  .ghost { min-height: 36px; }
+  .lede { font-size: .95rem; }
+
+  .brief { padding: 14px 16px; gap: 6px; border-radius: 14px; }
+  .brief-head h2 { font-size: 1.12rem; }
+  .brief ol { grid-template-columns: minmax(0, 1fr); }
+  .brief button { padding: 8px 0; font-size: .95rem; line-height: 1.4; min-height: 44px; }
+  .brief li + li { border-top: 1px solid var(--line); }
+
+  .modes { flex-wrap: nowrap; }
+  .modes .seg { flex: 1; }
+  .mode-note { display: none; }
+
+  /* Only the category tabs stay pinned; the rest scrolls away. */
+  .controls { display: contents; }
+  .tabs { position: sticky; top: 0; z-index: 3; flex-wrap: nowrap; overflow-x: auto; background: var(--bg); margin-inline: -16px; padding: 8px 16px; border-bottom: 1px solid var(--line); scroll-padding-inline: 16px; }
+  .tab { flex: none; min-height: 40px; padding: 8px 14px; }
+  .tools { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; flex: none; }
+  .tools .search { grid-column: 1 / -1; order: -1; max-width: none; min-height: 44px; font-size: 16px; }
+  .seg button { flex: 1; min-height: 40px; }
+
+  .heat-row, .movers { flex-wrap: nowrap; overflow-x: auto; margin-inline: -16px; padding-inline: 16px; padding-block: 2px; }
+  .heat-label { flex: none; }
+  .band, .mover { flex: none; min-height: 40px; }
+  .mover { max-width: 78vw; }
+  details.guide summary { padding-block: 6px; }
+  .guide-body dl { grid-template-columns: minmax(0, 1fr); }
+  .guide-body dd { margin-bottom: 6px; }
+
+  .grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .grid .card > .art { aspect-ratio: 3; height: auto; }
+  .card:hover { transform: none; }
+  .body { padding: 14px 16px 16px; }
+  .lead .body { padding: 16px; gap: 10px; }
+  .lead h2 { font-size: clamp(1.4rem, 6.6vw, 1.9rem); }
+  .lead .sum { font-size: 1rem; }
+  .lead .heatline b { font-size: 1.6rem; }
+  .more { min-height: 40px; padding: 8px 16px; }
+  .src { padding-block: 8px; }
+
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .kpis .stat { padding: 12px; }
+  .kpis .stat b { font-size: 1.15rem; overflow-wrap: normal; }
+  .kpis .stat:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .panel { padding: 14px; border-radius: 14px; }
+  .hbars { gap: 8px; font-size: .85rem; }
+  .tablewrap { overflow: visible; }
+  table.data { min-width: 0; }
+  table.data thead { display: none; }
+  table.data, table.data tbody, table.data tr, table.data td { display: block; }
+  table.data tr { display: grid; grid-template-columns: 1.8em auto minmax(0, 1fr); gap: 6px 14px; padding: 12px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+  table.data tr:last-child { border-bottom: 0; }
+  table.data td { padding: 0; border: 0; grid-column: 2 / -1; font-size: .85rem; }
+  table.data td:first-child { grid-column: 1; grid-row: 1 / span 3; align-self: start; color: var(--muted); padding-top: 3px; }
+  table.data td.num[data-l="Change"] { grid-column: 2; }
+  table.data td[data-l="Key number"] { grid-column: 3; min-width: 0; }
+  table.data td[data-l="Heat"]::before { display: none; }
+  table.data td[data-l]::before { content: attr(data-l) " "; font: 700 .64rem var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-right: 6px; }
+  table.data td.c-title .rowbtn { font-size: .98rem; line-height: 1.3; padding: 2px 0 4px; }
+  table.data td.c-cat, table.data td.c-level { display: none; }
+  table.data .heatcell { min-width: 0; max-width: 260px; }
+
+  .mapview h2 { font-size: 1.25rem; }
+  .mapview > p { font-size: .92rem; }
+  .threads { grid-template-columns: minmax(0, 1fr); }
+  .related button { min-height: 44px; align-items: center; }
+
+  .dlg { width: 100%; max-width: 100%; max-height: 92dvh; margin: auto 0 0; border-radius: 18px 18px 0 0; border-bottom: 0; }
+  .dlg[open] { animation: sheet .22s cubic-bezier(.2, .7, .2, 1); }
+  .dlg .body { padding: 16px 16px calc(24px + env(safe-area-inset-bottom)); }
+  .dlg .close { min-height: 40px; padding: 8px 16px; margin: 8px 8px 8px 0; }
+  .dlg .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@keyframes sheet { from { transform: translateY(40px); opacity: .4; } }
+@media (prefers-reduced-motion: reduce) { .dlg[open] { animation: none; } }
 @media (prefers-reduced-motion: reduce) { .bar i { animation: none; } .card { transition: none; } .card:hover { transform: none; } }
 </style>
 </head>
@@ -291,7 +375,7 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
   </div>
 
   <div class="controls">
-    <div class="tabs" role="tablist" aria-label="Category" id="tabs"></div>
+    <div class="tabs scroller" role="tablist" aria-label="Category" id="tabs"></div>
     <div class="tools">
       <div class="seg" role="group" aria-label="View">
         <button type="button" id="view-feed" aria-pressed="true">Feed</button>
@@ -306,7 +390,7 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
   </div>
 
   <section class="heat" aria-label="Heat level">
-    <div class="heat-row" id="bands"></div>
+    <div class="heat-row scroller" id="bands"></div>
     <details class="guide" id="guide">
       <summary>How the heat score works</summary>
       <div class="guide-body">
@@ -321,7 +405,7 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     </details>
   </section>
 
-  <section class="movers" id="movers" hidden aria-label="Movers since yesterday"></section>
+  <section class="movers scroller" id="movers" hidden aria-label="Movers since yesterday"></section>
 
   <div id="lead"></div>
   <ol class="grid" id="feed"></ol>
@@ -488,6 +572,9 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
       b.onclick = function () { active = c[0]; store("hw-tab", active); render(); };
       box.appendChild(b);
     });
+    // Keep the chosen tab in view when the row scrolls sideways on a phone.
+    var on = $("tab-" + active);
+    if (on && box.scrollWidth > box.clientWidth) box.scrollLeft = Math.max(0, on.offsetLeft - box.offsetLeft - 16);
   }
 
   function renderBands() {
@@ -569,12 +656,12 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     shown.forEach(function (s, i) {
       var tr = el("tr"), td;
       tr.appendChild(el("td", "num", String(i + 1)));
-      td = el("td"); var b = el("button", "rowbtn", s.title); b.type = "button"; b.onclick = function () { openStory(s); }; td.appendChild(b); tr.appendChild(td);
-      tr.appendChild(el("td", null, catName(s.category)));
-      td = el("td"); var hc = el("div", "heatcell"); hc.appendChild(el("b", null, String(s.hype))); var bar = el("div", "bar"), fill = el("i"); fill.style.width = s.hype + "%"; bar.appendChild(fill); hc.appendChild(bar); td.appendChild(hc); tr.appendChild(td);
-      td = el("td", "num"); var dl = delta(s); if (dl) td.appendChild(dl); else td.textContent = hasBaseline() ? "0" : "\u2013"; tr.appendChild(td);
-      td = el("td"); if (s.stats.length) { td.appendChild(el("span", "num", s.stats[0].value + " ")); td.appendChild(el("small", null, s.stats[0].label)); } else td.textContent = "\u2013"; tr.appendChild(td);
-      tr.appendChild(el("td", null, bandOf(s.hype).n));
+      td = el("td", "c-title"); var b = el("button", "rowbtn", s.title); b.type = "button"; b.onclick = function () { openStory(s); }; td.appendChild(b); tr.appendChild(td);
+      tr.appendChild(el("td", "c-cat", catName(s.category)));
+      td = el("td"); td.setAttribute("data-l", "Heat"); var hc = el("div", "heatcell"); hc.appendChild(el("b", null, String(s.hype))); var bar = el("div", "bar"), fill = el("i"); fill.style.width = s.hype + "%"; bar.appendChild(fill); hc.appendChild(bar); td.appendChild(hc); tr.appendChild(td);
+      td = el("td", "num"); td.setAttribute("data-l", "Change"); var dl = delta(s); if (dl) td.appendChild(dl); else td.textContent = hasBaseline() ? "0" : "\u2013"; tr.appendChild(td);
+      td = el("td"); td.setAttribute("data-l", "Key number"); if (s.stats.length) { td.appendChild(el("span", "num", s.stats[0].value + " ")); td.appendChild(el("small", null, s.stats[0].label)); } else td.textContent = "\u2013"; tr.appendChild(td);
+      tr.appendChild(el("td", "c-level", bandOf(s.hype).n));
       rows.appendChild(tr);
     });
   }
@@ -645,7 +732,7 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
     var nodes = [], idx = {}, edges = [];
     hubs.forEach(function (h) { nodes.push({ hub: h, w: h.name.length * 7.3 + 24 }); });
     hubs.forEach(function (h, hi) { h.stories.forEach(function (s) { if (idx[s.id] == null) { idx[s.id] = nodes.length; nodes.push({ story: s }); } edges.push([hi, idx[s.id]]); }); });
-    H = narrow ? Math.max(900, nodes.length * 24) : Math.max(780, nodes.length * 16);
+    H = narrow ? Math.max(480, nodes.length * 22) : Math.max(780, nodes.length * 16);
     layout(nodes, edges);
     // Stretch to the canvas, then push apart anything that still overlaps (labels are much wider than circles).
     nodes.forEach(function (nd) {
@@ -663,6 +750,12 @@ footer { font-size: .82rem; color: var(--muted); max-width: 70ch; border-top: 1p
       nodes.forEach(function (nd) {
         nd.px = Math.max(nd.bw / 2 + 4, Math.min(W - nd.bw / 2 - 4, nd.px)); nd.py = Math.max(nd.bh / 2 + 4, Math.min(H - nd.bh / 2 - 4, nd.py));
       });
+    }
+    if (narrow) {
+      // Trim empty bands at the top and bottom so the map is no taller than it needs to be on a phone.
+      var y0 = Infinity, y1 = -Infinity;
+      nodes.forEach(function (nd) { y0 = Math.min(y0, nd.py - nd.bh / 2); y1 = Math.max(y1, nd.py + nd.bh / 2); });
+      nodes.forEach(function (nd) { nd.py -= y0 - 8; }); H = Math.ceil(y1 - y0 + 16);
     }
     var lift = narrow ? 0 : 9;
     nodes.forEach(function (nd) { nd.cy = nd.hub ? nd.py : nd.py - lift; });
