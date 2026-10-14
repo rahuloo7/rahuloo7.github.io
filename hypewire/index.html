@@ -9,6 +9,16 @@
 <meta property="og:description" content="What people are talking about in AI, entertainment, gaming and tech, ranked by heat and refreshed daily.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://rahuloo7.github.io/hypewire/">
+<meta property="og:site_name" content="Hypewire">
+<meta property="og:image" content="https://rahuloo7.github.io/hypewire/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hypewire">
+<meta name="twitter:description" content="What people are talking about in AI, entertainment, gaming and tech, ranked by heat and refreshed daily.">
+<meta name="twitter:image" content="https://rahuloo7.github.io/hypewire/og.jpg">
+<link rel="canonical" href="https://rahuloo7.github.io/hypewire/">
+<link rel="alternate" type="application/rss+xml" title="Hypewire" href="https://rahuloo7.github.io/hypewire/feed.xml">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23D81B66'/%3E%3Cpath d='M18 16h8v12h12V16h8v32h-8V36H26v12h-8z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -404,7 +414,7 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
         <p>The score is Claude's judgment, not a measured count.</p>
       </div>
     </details>
-    <p>Summaries are short rewrites; follow the source link for the full story. The pictures are generated artwork, not photos from the stories. Meme captions are jokes written by Claude; the facts under them are unchanged. Heat scores are estimates.</p>
+    <p><a href="feed.xml">RSS feed</a>. Summaries are short rewrites; follow the source link for the full story. The pictures are generated artwork, not photos from the stories. Meme captions are jokes written by Claude; the facts under them are unchanged. Heat scores are estimates.</p>
   </footer>
 </div>
 
@@ -660,8 +670,8 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
     c.appendChild(memed ? memePanel(s) : art(s, 240));
     var body = el("div", "body"), k = el("div", "kicker");
     k.appendChild(metaline(s, lead)); k.appendChild(score(s)); body.appendChild(k);
-    var h2 = el("h2"), t = el("a", null, memed ? s.meme.take : s.title); t.href = "#s-" + s.id;
-    t.onclick = function (e) { e.preventDefault(); };
+    var h2 = el("h2"), t = el("a", null, memed ? s.meme.take : s.title); t.href = "s/" + s.id + "/";
+    t.onclick = function (e) { if (e.metaKey || e.ctrlKey || e.shiftKey) { e.stopPropagation(); return; } e.preventDefault(); };
     h2.appendChild(t); body.appendChild(h2);
     if (memed) { var fp = el("p", "facts"); fp.appendChild(el("b", null, "What actually happened: ")); fp.appendChild(document.createTextNode(s.summary)); body.appendChild(fp); }
     else body.appendChild(el("p", "sum", s.summary));
@@ -808,7 +818,10 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
     if (s.background) { body.appendChild(el("h3", null, "Background")); body.appendChild(el("p", null, s.background)); }
     if (s.why) { body.appendChild(el("h3", null, "Why it matters")); body.appendChild(el("p", null, s.why)); }
     if (s.next) { body.appendChild(el("h3", null, "What to watch next")); body.appendChild(el("p", null, s.next)); }
-    var a = srcLink(s); if (a) { var acts = el("div", "acts"); acts.appendChild(a); body.appendChild(acts); }
+    var acts = el("div", "acts"), a = srcLink(s); if (a) acts.appendChild(a);
+    var sh = el("button", "linkbtn", "Share"); sh.type = "button"; sh.onclick = function () { shareStory(s, sh); }; acts.appendChild(sh);
+    var pl = el("a", "linkbtn", "Story page"); pl.href = "s/" + s.id + "/"; acts.appendChild(pl);
+    body.appendChild(acts);
     if (s.entities.length) {
       body.appendChild(el("h3", null, "Connections"));
       var solo = [], firstHub = null;
@@ -840,6 +853,13 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
     setHash("s-" + s.id);
     if (!dlg.open) { if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", ""); }
     dlg.scrollTop = 0;
+  }
+  // Share the story's own page, which carries the preview image and summary for chat apps and social sites.
+  function shareStory(s, btn) {
+    var u = new URL("s/" + s.id + "/", location.href.split("#")[0]).href;
+    if (navigator.share) { navigator.share({ title: s.title, url: u }).catch(function () {}); return; }
+    var done = function () { btn.textContent = "Link copied"; setTimeout(function () { btn.textContent = "Share"; }, 1800); };
+    if (navigator.clipboard) navigator.clipboard.writeText(u).then(done, function () { prompt("Copy this link", u); }); else prompt("Copy this link", u);
   }
   function closeStory() { if (dlg.close) dlg.close(); else dlg.removeAttribute("open"); }
   $("dlgClose").onclick = closeStory;
@@ -937,7 +957,7 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
     stories = (data.stories || []).map(norm).filter(function (s) { return s.title; });
     loaded = true; renderBrief(data.briefing); renderMovers();
     var want = (location.hash || "").slice(1);
-    if (want.indexOf("s-") === 0) { var hit = stories.filter(function (s) { return "s-" + s.id === want; })[0]; if (hit) openStory(hit); }
+    if (want.indexOf("s-") === 0) { var hit = stories.filter(function (s) { return "s-" + s.id === want; })[0]; if (hit) openStory(hit); else if (/^s-[a-z0-9-]+$/.test(want)) { var arch = "s/" + want.slice(2) + "/"; fetch(arch, { method: "HEAD" }).then(function (r) { if (r.ok) location.replace(arch); }).catch(function () {}); } }
     var d = new Date(data.refreshedAt);
     $("stamp").textContent = isNaN(d) ? "Updated daily" : "Updated " + d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
   }).catch(function () { loaded = true; failed = true; render(); $("stamp").textContent = "Feed offline"; });
