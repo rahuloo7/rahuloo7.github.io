@@ -484,21 +484,27 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
     (m[2] || []).forEach(function (c) { g.appendChild(sv("ellipse", { cx: c[0], cy: c[1], rx: c[2], ry: c[3] })); });
     parent.appendChild(g);
   }
-  // Soft pastel picture: a light category tint, a white glow, faint dots and bands, and a large line-drawn motif
+  // Quiet pastel artwork: a light category tint, a soft glow, faint dots and bands, and a fine-line motif kept in the background
   // (or a pixel sprite for gaming). Colors come from the --art-* tokens so the picture follows light and dark mode.
+  // A soft wash of the page surface over the picture, stronger behind meme captions, so the artwork stays in the background.
+  function veil(g) {
+    var vb = g.getAttribute("viewBox").split(" ");
+    g.appendChild(sv("rect", { width: vb[2], height: vb[3], style: "fill:var(--surface);fill-opacity:" + (g.__cap ? .4 : .22) }));
+    return g;
+  }
   function art(s, W, caption) {
     var r = rng(s.id), C = PICS[s.category] ? s.category : "tech", id = "a" + (++uid), i;
     var v = function (n) { return "var(--art-" + C + "-" + n + ")"; };
-    var g = sv("svg", { viewBox: "0 0 " + W + " 100", "class": "art", "aria-hidden": "true", preserveAspectRatio: "xMidYMid slice" });
+    var g = sv("svg", { viewBox: "0 0 " + W + " 100", "class": "art", "aria-hidden": "true", preserveAspectRatio: "xMidYMid slice" }); g.__cap = !!caption;
     var defs = sv("defs", {});
     var lg = sv("linearGradient", { id: id + "g", x1: r() * .3, y1: 0, x2: .7 + r() * .3, y2: 1 });
     lg.appendChild(sv("stop", { offset: 0, style: "stop-color:" + v("a") })); lg.appendChild(sv("stop", { offset: 1, style: "stop-color:" + v("b") })); defs.appendChild(lg);
-    [["h", "var(--art-glow)", 1], ["k", v("acc"), .35]].forEach(function (t) {
+    [["h", "var(--art-glow)", .8], ["k", v("acc"), .18]].forEach(function (t) {
       var rg = sv("radialGradient", { id: id + t[0] });
       rg.appendChild(sv("stop", { offset: 0, style: "stop-color:" + t[1] + ";stop-opacity:" + t[2] })); rg.appendChild(sv("stop", { offset: 1, style: "stop-color:" + t[1] + ";stop-opacity:0" })); defs.appendChild(rg);
     });
     var pt = sv("pattern", { id: id + "p", width: 7, height: 7, patternUnits: "userSpaceOnUse", patternTransform: "rotate(" + Math.round(r() * 40 + 10) + ")" });
-    pt.appendChild(sv("circle", { cx: 2, cy: 2, r: .9, style: "fill:" + v("ink") + ";fill-opacity:.13" })); defs.appendChild(pt);
+    pt.appendChild(sv("circle", { cx: 2, cy: 2, r: .9, style: "fill:" + v("ink") + ";fill-opacity:.06" })); defs.appendChild(pt);
     g.appendChild(defs);
     g.appendChild(sv("rect", { width: W, height: 100, fill: "url(#" + id + "g)" }));
     g.appendChild(sv("circle", { cx: r() * W * .5, cy: r() * 40, r: 55 + r() * 30, fill: "url(#" + id + "h)" }));
@@ -509,30 +515,30 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
       g.appendChild(sv("polygon", { points: x + ",0 " + (x + w) + ",0 " + (x + w - 46) + ",100 " + (x - 46) + ",100", style: "fill:var(--art-band)" }));
     }
     for (i = 0; i < 7; i++) {
-      var ax = 6 + r() * (W - 12), ay = 8 + r() * 84, sz = 2 + r() * 2.5, st = "fill:none;stroke:" + v("acc") + ";stroke-width:1.2;stroke-linecap:round";
+      var ax = 6 + r() * (W - 12), ay = 8 + r() * 84, sz = 2 + r() * 2.5, st = "fill:none;stroke:" + v("acc") + ";stroke-width:.7;stroke-linecap:round;stroke-opacity:.4";
       if (i % 2) g.appendChild(sv("circle", { cx: ax, cy: ay, r: sz, style: st }));
       else g.appendChild(sv("path", { d: "M" + (ax - sz) + " " + ay + "H" + (ax + sz) + "M" + ax + " " + (ay - sz) + "V" + (ay + sz), style: st }));
     }
-    var fade = caption ? .45 : 1;
+    var fade = caption ? .22 : .42;
     if (C === "gaming") {
       var cell = (caption ? 44 : (W > 200 ? 68 : 60)) / 7, pcx = caption || W <= 200 ? W / 2 : W * (.62 + r() * .16), x0 = pcx - cell * 3.5, y0 = 50 - cell * 3.5, j, cells = [];
       for (j = 0; j < 7; j++) for (i = 0; i < 4; i++) if (r() > .45) { var col = r() > .8 ? "acc" : "ink"; cells.push([i, j, col]); if (i < 3) cells.push([6 - i, j, col]); }
       for (i = 0; i < 12; i++) {
         var sx = Math.floor(r() * (W / cell)) * cell, sy = Math.floor(r() * (100 / cell)) * cell;
-        if (Math.abs(sx + cell / 2 - pcx) > cell * 4.5) g.appendChild(sv("rect", { x: sx, y: sy, width: cell, height: cell, style: "fill:" + v(i % 3 ? "ink" : "acc") + ";fill-opacity:.14" }));
+        if (Math.abs(sx + cell / 2 - pcx) > cell * 4.5) g.appendChild(sv("rect", { x: sx, y: sy, width: cell, height: cell, style: "fill:" + v(i % 3 ? "ink" : "acc") + ";fill-opacity:.06" }));
       }
-      cells.forEach(function (c) { g.appendChild(sv("rect", { x: x0 + c[0] * cell + cell * .22, y: y0 + c[1] * cell + cell * .22, width: cell, height: cell, style: "fill:" + v("ink") + ";fill-opacity:.18" })); });
-      cells.forEach(function (c) { g.appendChild(sv("rect", { x: x0 + c[0] * cell, y: y0 + c[1] * cell, width: cell + .15, height: cell + .15, style: "fill:" + v(c[2]) })); });
-      return g;
+      cells.forEach(function (c) { g.appendChild(sv("rect", { x: x0 + c[0] * cell + cell * .22, y: y0 + c[1] * cell + cell * .22, width: cell, height: cell, style: "fill:" + v("ink") + ";fill-opacity:" + (.08 * fade) })); });
+      cells.forEach(function (c) { g.appendChild(sv("rect", { x: x0 + c[0] * cell, y: y0 + c[1] * cell, width: cell + .15, height: cell + .15, style: "fill:" + v(c[2]) + ";fill-opacity:" + fade })); });
+      return veil(g);
     }
     var name = MOTIFS[s.motif] ? s.motif : CAT_MOTIF[s.category] || "chip";
-    var size = caption ? 36 : (W > 200 ? 70 : 62), k = size / 100;
+    var size = caption ? 46 : (W > 200 ? 82 : 72), k = size / 100;
     var cx = caption || W <= 200 ? W / 2 : W * (.62 + r() * .16), cy = 50 + (caption ? 0 : (r() - .5) * 6), rot = (r() - .5) * 16;
     var base = "translate(" + cx + " " + cy + ") rotate(" + rot.toFixed(1) + ") scale(" + k + ") translate(-50 -50)";
-    var line = "fill:none;stroke-linejoin:round;stroke-linecap:round;stroke-width:3.4;";
-    drawMotif(g, name, { transform: "translate(" + (3 * k + .6) + " " + (3 * k + .6) + ") " + base, style: line + "stroke:" + v("acc") + ";stroke-opacity:" + (.75 * fade) });
+    var line = "fill:none;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.6;vector-effect:non-scaling-stroke;";
+    drawMotif(g, name, { transform: "translate(" + (3 * k + .6) + " " + (3 * k + .6) + ") " + base, style: line + "stroke:" + v("acc") + ";stroke-opacity:" + (.5 * fade) });
     drawMotif(g, name, { transform: base, style: line + "stroke:" + v("ink") + ";stroke-opacity:" + fade });
-    return g;
+    return veil(g);
   }
 
   function inCat(s) { return active === "all" || s.category === active; }
