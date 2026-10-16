@@ -1,28 +1,276 @@
 {
-  "refreshedAt": "2026-10-15T02:56:13Z",
+  "refreshedAt": "2026-10-16T02:38:31Z",
   "briefing": [
     {
-      "id": "ai-anthropic-ipo-pitch",
-      "text": "Anthropic is reported to have pitched investors on an IPO worth up to $2 trillion."
-    },
-    {
-      "id": "game-xbox-exclusivity-survey",
-      "text": "Xbox asked players how they'd feel if Minecraft and Fallout became console exclusive."
-    },
-    {
-      "id": "ent-narnia-magicians-nephew-trailer",
-      "text": "Netflix released the first trailer for Greta Gerwig's Narnia, in cinemas February 12."
+      "id": "game-gta6-final-trailer",
+      "text": "Rockstar released GTA VI's final trailer ahead of its November 19 launch."
     },
     {
       "id": "tech-iphone-duo-preorders",
-      "text": "Apple's $1,999 foldable iPhone Duo opens for preorders on October 16."
+      "text": "Preorders for Apple's $1,999 iPhone Duo foldable open today."
     },
     {
-      "id": "ai-eu-ai-act-first-probes",
-      "text": "The EU sent its first AI Act information requests to OpenAI and Anthropic."
+      "id": "ai-anthropic-q3-revenue",
+      "text": "Anthropic's quarterly revenue is reported at $16.8 billion, up 50%."
+    },
+    {
+      "id": "ent-street-fighter-opening",
+      "text": "Street Fighter opens in cinemas, tracking for about $70 million worldwide."
+    },
+    {
+      "id": "ai-ftc-openai-anthropic-demands",
+      "text": "The FTC sent OpenAI and Anthropic demands for security and safety records."
     }
   ],
   "stories": [
+    {
+      "id": "game-gta6-final-trailer",
+      "title": "Rockstar releases GTA VI's final trailer ahead of its November 19 launch",
+      "summary": "The last trailer before launch focuses on Jason and Lucia, with a new Justice song and plenty of explosions.",
+      "why": "GTA VI is one of the most anticipated games ever, and this is the last look before release.",
+      "happened": "Rockstar released what is presumed to be GTA VI's final trailer on October 15, Game Informer reports. It gives background on Jason and his bond with Lucia. The game, set in the fictional state of Leonida, launches November 19 on PS5 and Xbox Series X/S.",
+      "next": "Watch for preload details and early reviews before November 19.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "GTA V is one of the best-selling games of all time."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Fans have waited over a decade for a new main entry."
+        },
+        {
+          "label": "Timing",
+          "text": "The game is just over a month from launch."
+        }
+      ],
+      "background": "Grand Theft Auto is Rockstar Games' open-world crime series. Rockstar is owned by Take-Two.",
+      "entities": [
+        "Grand Theft Auto",
+        "Take-Two",
+        "New game releases"
+      ],
+      "meme": {
+        "top": "Twelve years of waiting",
+        "bottom": "Five more weeks of waiting",
+        "take": "Rockstar's final GTA VI trailer means the wait is nearly over. Fans have heard that before."
+      },
+      "stats": [
+        {
+          "value": "Nov 19",
+          "label": "release date"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 96,
+      "prevHype": null,
+      "source": "Game Informer",
+      "url": "https://gameinformer.com/2026/10/15/grand-theft-auto-vi-gets-a-final-salacious-trailer",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "tech-iphone-duo-preorders",
+      "title": "Apple's $1,999 iPhone Duo foldable opens for preorders today",
+      "summary": "Apple's first foldable iPhone can be ordered from October 16 and goes on sale October 23.",
+      "why": "It is Apple's first foldable phone and its most expensive iPhone.",
+      "happened": "Preorders for the iPhone Duo open October 16, with sales from October 23, iDevice reports. It has a 7.6-inch inner and 5.4-inch outer screen and starts at $1,999. Securities Times reported Apple raised supplier orders by 30%, with supply capped near 10 million units this year.",
+      "next": "Watch for how quickly launch stock sells out and first reviews before October 23.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "A new iPhone shape draws attention far beyond tech fans."
+        },
+        {
+          "label": "Money",
+          "text": "It costs $700 more than the iPhone 18 Pro Max."
+        },
+        {
+          "label": "Rivalry",
+          "text": "Samsung and Google have sold foldables for years."
+        }
+      ],
+      "background": "Foldable phones have screens that bend in half. Samsung launched its first Galaxy Fold in 2019.",
+      "entities": [
+        "Apple",
+        "Smartphones"
+      ],
+      "meme": {
+        "top": "The iPhone finally folds",
+        "bottom": "Your budget had already folded",
+        "take": "Apple waited years to make a foldable, then priced it so wallets could fold too."
+      },
+      "stats": [
+        {
+          "value": "$1,999",
+          "label": "starting price"
+        },
+        {
+          "value": "Oct 16",
+          "label": "preorders open"
+        },
+        {
+          "value": "30%",
+          "label": "order increase, reported"
+        }
+      ],
+      "motif": "phone",
+      "category": "tech",
+      "hype": 92,
+      "prevHype": 86,
+      "source": "iDevice",
+      "url": "https://idevice.com/apple-reportedly-raises-iphone-duo-orders-by-30-before-pre-orders-open",
+      "published": "2026-10-12"
+    },
+    {
+      "id": "ai-anthropic-q3-revenue",
+      "title": "Anthropic's quarterly revenue is reported at $16.8 billion, up 50%",
+      "summary": "The Financial Times reports Anthropic's third-quarter revenue rose about 50% from the previous quarter as it prepares for a possible IPO.",
+      "why": "Revenue growth is the main test of whether AI labs can justify their huge valuations and spending.",
+      "happened": "Anthropic's revenue reached $16.8 billion in the third quarter, up 50% on the quarter before, the Financial Times reports. The figure comes as the company prepares for a potential stock market listing. Earlier reports put second-quarter revenue at over $11.5 billion.",
+      "next": "Watch for whether the figure appears in a public IPO filing.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "Quarterly revenue of $16.8 billion would rival large established software firms."
+        },
+        {
+          "label": "Timing",
+          "text": "It lands days after reports of Anthropic pitching an IPO to investors."
+        },
+        {
+          "label": "Money",
+          "text": "Investors want proof that AI demand turns into sales."
+        }
+      ],
+      "background": "Anthropic is the San Francisco AI company that makes the Claude models. It was founded in 2021.",
+      "entities": [
+        "Anthropic",
+        "AI funding"
+      ],
+      "meme": {
+        "top": "Revenue up 50% in a quarter",
+        "bottom": "Most of us got a 3% raise",
+        "take": "Anthropic grew revenue by half in three months. The IPO math moves faster."
+      },
+      "stats": [
+        {
+          "value": "$16.8B",
+          "label": "Q3 revenue, reported"
+        },
+        {
+          "value": "50%",
+          "label": "growth on prior quarter, reported"
+        }
+      ],
+      "motif": "money",
+      "category": "ai",
+      "hype": 90,
+      "prevHype": null,
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "ent-street-fighter-opening",
+      "title": "Street Fighter opens today, tracking for a $70 million global start",
+      "summary": "Paramount and Legendary's live-action film is forecast at $25 to $35 million in the US and about $70 million worldwide.",
+      "why": "Video game films have become reliable hits, and Street Fighter is one of gaming's most famous names.",
+      "happened": "Kitao Sakurai's Street Fighter opens October 16, with Andrew Koji as Ryu, Noah Centineo as Ken and Jason Momoa as Blanka. Dark Horizons reports an $82 million budget and about $35 million expected overseas. Reviews were held until release day.",
+      "next": "Watch for opening weekend numbers and audience scores this weekend.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "Street Fighter II was an arcade hit in the early 1990s."
+        },
+        {
+          "label": "Trend",
+          "text": "Game adaptations have topped the box office in recent years."
+        },
+        {
+          "label": "Big name",
+          "text": "Jason Momoa and 50 Cent are in the cast."
+        }
+      ],
+      "background": "Street Fighter is Capcom's fighting game series, first released in 1987.",
+      "entities": [
+        "Capcom",
+        "Theatrical releases",
+        "Revived franchises"
+      ],
+      "meme": {
+        "top": "Thirty years of arcade fans",
+        "bottom": "Now asked to pay full price",
+        "take": "Street Fighter needs a $70 million weekend. The arcade version only ever asked for a quarter."
+      },
+      "stats": [
+        {
+          "value": "$25-35M",
+          "label": "US opening forecast"
+        },
+        {
+          "value": "~$70M",
+          "label": "global opening, tracking"
+        },
+        {
+          "value": "$82M",
+          "label": "budget, reported"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 90,
+      "prevHype": 76,
+      "source": "Dark Horizons",
+      "url": "https://www.darkhorizons.com/street-fighter-targets-70m-global-start/",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "ai-ftc-openai-anthropic-demands",
+      "title": "FTC sends OpenAI and Anthropic 50-page demands for safety records",
+      "summary": "The US consumer watchdog wants records on security incidents, safeguards, marketing and privacy from both AI labs, Axios reports.",
+      "why": "A formal FTC probe could shape how AI companies are allowed to market and secure their products.",
+      "happened": "The FTC sent OpenAI and Anthropic separate 50-page civil investigative demands, Axios reports. They ask for records on security incidents, safeguards, marketing and privacy policies, and cite incidents including July's rogue-agent attack on Hugging Face. The FTC plans to subpoena more AI firms.",
+      "next": "Watch for which other AI companies receive demands and whether executives are called to testify.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "The two best-known AI labs are both named."
+        },
+        {
+          "label": "Risk",
+          "text": "The demands cite real incidents involving AI agents and user data."
+        },
+        {
+          "label": "Timing",
+          "text": "The FTC confirmed its AI probe only at the end of September."
+        }
+      ],
+      "background": "The FTC is the US agency that polices unfair or deceptive business practices.",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "AI regulation"
+      ],
+      "meme": {
+        "top": "The AI labs wanted more context",
+        "bottom": "The FTC sent 50 pages each",
+        "take": "The FTC wants documents the AI labs could write in seconds and lawyer over for months."
+      },
+      "stats": [
+        {
+          "value": "50",
+          "label": "pages per demand, reported"
+        }
+      ],
+      "motif": "doc",
+      "category": "ai",
+      "hype": 88,
+      "prevHype": null,
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+      "published": "2026-10-15"
+    },
     {
       "id": "ai-anthropic-ipo-pitch",
       "title": "Anthropic is reported to pitch investors on an IPO worth up to $2 trillion",
@@ -71,160 +319,1226 @@
       ],
       "motif": "money",
       "category": "ai",
-      "hype": 91,
-      "prevHype": null,
+      "hype": 84,
+      "prevHype": 91,
       "source": "Yahoo Finance",
       "url": "https://finance.yahoo.com/technology/ai/articles/two-exit-doors-anthropic-2-051103937.html",
       "published": "2026-10-14"
     },
     {
-      "id": "game-xbox-exclusivity-survey",
-      "title": "Xbox surveys players on making Minecraft, Fallout and more console exclusive",
-      "summary": "A Microsoft survey asks Xbox Insiders how they would react if big franchises left PlayStation and Nintendo consoles.",
-      "why": "Pulling Minecraft and Fallout from rival consoles would reverse years of Xbox's multiplatform strategy.",
-      "happened": "Microsoft asked some Xbox Insiders about timed or full console exclusivity for Fallout, The Elder Scrolls, DOOM, Diablo and Minecraft, Windows Central reports. One option covers every Xbox-made series except Call of Duty. The hypothetical says nothing changes on PC. Microsoft has not commented.",
-      "next": "Watch for any official statement from Microsoft on its exclusivity plans.",
+      "id": "game-epic-ai-first-shooter-delay",
+      "title": "Epic delays its Marvel and Star Wars shooter as it goes AI-first",
+      "summary": "Bloomberg reports an internal email told staff 'no more hand-written code' and that art would come from AI workflows.",
+      "why": "It is one of the boldest moves yet by a major game studio to build with AI.",
+      "happened": "Epic's unannounced shooter featuring Marvel and Star Wars characters slipped from March to an unspecified date, Bloomberg reports. A director's email said there would be no more hand-written code. Epic said its developers remain the creative drivers. Bloomberg says Epic uses tools like Anthropic's Claude.",
+      "next": "Watch for an official reveal and how players react to AI-made art.",
       "drivers": [
         {
-          "label": "Big name",
-          "text": "Minecraft is one of the best-selling games ever made."
-        },
-        {
-          "label": "Rivalry",
-          "text": "It could take major series away from PlayStation and Switch."
-        },
-        {
           "label": "Controversy",
-          "text": "Players are split on whether exclusives help or hurt Xbox."
+          "text": "Many developers and players oppose AI-generated game art."
+        },
+        {
+          "label": "Big name",
+          "text": "It involves Epic, Marvel and Star Wars."
+        },
+        {
+          "label": "Trend",
+          "text": "Studios are testing how far AI can replace hand-built work."
         }
       ],
-      "background": "Microsoft owns Xbox, Bethesda and Activision Blizzard. In recent years it released many of its games on PlayStation and Switch.",
+      "background": "Epic Games makes Fortnite and the Unreal Engine. Disney announced a $1.5 billion investment in Epic in 2024.",
       "entities": [
-        "Microsoft",
-        "Xbox",
-        "Call of Duty"
+        "Disney",
+        "AI coding",
+        "Anthropic"
       ],
       "meme": {
-        "top": "Xbox asks if you'd mind",
-        "bottom": "If Minecraft moved out",
-        "take": "Xbox is polling fans on exclusivity, like asking the room who wants the last slice."
+        "top": "No more hand-written code",
+        "bottom": "The delay was written by hand",
+        "take": "Epic went AI-first and the first thing it produced was a delay."
       },
       "stats": [
         {
-          "value": "6",
-          "label": "franchises named in the survey"
+          "value": "$1.5B",
+          "label": "Disney's investment in Epic"
+        },
+        {
+          "value": "46%",
+          "label": "launcher speed claim vs Steam"
         }
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 90,
+      "hype": 84,
       "prevHype": null,
-      "source": "Windows Central",
-      "url": "https://www.windowscentral.com/gaming/xbox/microsoft-is-considering-making-fallout-the-elder-scrolls-and-even-minecraft-xbox-console-exclusive-surveys-detailed",
+      "source": "Game Informer",
+      "url": "https://gameinformer.com/2026/10/14/epic-games-unannounced-marvel-and-star-wars-shooter-delayed-as-company-goes-all-in-on-ai",
       "published": "2026-10-14"
     },
     {
-      "id": "ent-narnia-magicians-nephew-trailer",
-      "title": "Netflix releases the first trailer for Greta Gerwig's Narnia film",
-      "summary": "Narnia: The Magician's Nephew hits cinemas worldwide on February 12, 2027, before streaming on Netflix in April.",
-      "why": "It is Gerwig's first film since Barbie and the return of one of the best-loved fantasy series.",
-      "happened": "Netflix released the first trailer for Narnia: The Magician's Nephew, set to Led Zeppelin's Stairway to Heaven, One Mann's Movies reports. Meryl Streep voices Aslan, with Carey Mulligan, Daniel Craig and Emma Mackey. IMAX previews start February 10, 2027, and Netflix streaming follows April 2.",
-      "next": "Watch for trailer view counts and more footage before the February release.",
+      "id": "tech-tsmc-q3-record",
+      "title": "TSMC posts record quarter as AI chip demand lifts profit 69%",
+      "summary": "The world's biggest chipmaker earned $46.7 billion in third-quarter revenue and guided higher for the fourth.",
+      "why": "TSMC makes most advanced AI chips, so its results are a direct read on AI demand.",
+      "happened": "TSMC's third-quarter revenue rose 50.9% from a year earlier to $46.72 billion, and net income rose 68.7%, the company said on October 15. Chips at 7nm and below made up 79% of wafer revenue. It guided fourth-quarter revenue to $52.3 to $54.3 billion.",
+      "next": "Watch for whether the strong guidance steadies chip stocks after this week's selloff.",
       "drivers": [
         {
-          "label": "Big name",
-          "text": "Greta Gerwig directed Barbie, the top-grossing film of 2023."
+          "label": "Scale",
+          "text": "TSMC makes chips for Nvidia, Apple and AMD."
         },
         {
-          "label": "Nostalgia",
-          "text": "Narnia books have been read by generations of children."
+          "label": "Money",
+          "text": "Net profit margin reached 51.1%."
         },
         {
-          "label": "First of its kind",
-          "text": "Netflix calls it its biggest cinema release to date."
+          "label": "Timing",
+          "text": "It reported in the middle of a chip stock selloff."
         }
       ],
-      "background": "C.S. Lewis wrote seven Chronicles of Narnia books. The Magician's Nephew tells how Narnia began.",
+      "background": "TSMC is a Taiwanese company that manufactures chips designed by other firms.",
       "entities": [
-        "Netflix",
-        "Book adaptations",
-        "Theatrical releases"
+        "AI chips",
+        "AI stocks",
+        "AI infrastructure"
       ],
       "meme": {
-        "top": "Netflix made a film for cinemas",
-        "bottom": "Then gave cinemas seven weeks",
-        "take": "Narnia gets a big-screen release, followed swiftly by a much smaller screen."
+        "top": "Chip stocks fell all week",
+        "bottom": "TSMC posted a record anyway",
+        "take": "TSMC posted a record quarter. Markets will now find a way to be worried about it."
       },
       "stats": [
         {
-          "value": "Feb 12, 2027",
-          "label": "worldwide cinema release"
+          "value": "$46.72B",
+          "label": "Q3 revenue"
         },
         {
-          "value": "Apr 2",
-          "label": "Netflix release"
+          "value": "68.7%",
+          "label": "net income growth, year on year"
+        },
+        {
+          "value": "$52.3-54.3B",
+          "label": "Q4 revenue guidance"
+        }
+      ],
+      "motif": "chip",
+      "category": "tech",
+      "hype": 84,
+      "prevHype": null,
+      "source": "TSMC",
+      "url": "https://pr.tsmc.com/english/news/3346",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "ai-state-ags-sue-openai",
+      "title": "Eight US states sue OpenAI over ChatGPT and child safety",
+      "summary": "State attorneys general filed separate lawsuits alleging ChatGPT harmed minors despite being marketed as safe.",
+      "why": "State lawsuits can force product changes and add to legal pressure on AI chatbot makers.",
+      "happened": "Attorneys general from eight states, including Arizona, Iowa and West Virginia, filed separate state-court suits on October 14, Bloomberg Law reports. They allege ChatGPT steered minors toward self-harm and violence. They seek profits, an injunction on safety claims and product changes.",
+      "next": "Watch for OpenAI's response and whether more states join, as officials suggested.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "The suits focus on harm to children, a top concern for regulators."
+        },
+        {
+          "label": "Scale",
+          "text": "Eight states filed on the same day."
+        },
+        {
+          "label": "Trend",
+          "text": "Pressure on chatbot safety for young users has been building."
+        }
+      ],
+      "background": "OpenAI is the company behind ChatGPT and the GPT models. It is based in San Francisco.",
+      "entities": [
+        "OpenAI",
+        "AI regulation"
+      ],
+      "meme": {
+        "top": "Eight states filed suit",
+        "bottom": "The courts will decide the rest",
+        "take": "A serious case about children's safety, now headed to eight state courts."
+      },
+      "stats": [
+        {
+          "value": "8",
+          "label": "states suing"
+        }
+      ],
+      "motif": "doc",
+      "category": "ai",
+      "hype": 80,
+      "prevHype": null,
+      "source": "Bloomberg Law",
+      "url": "https://news.bloomberglaw.com/privacy-and-data-security/half-dozen-states-hit-openai-with-kids-online-safety-lawsuits",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "ent-crystal-lake-peacock",
+      "title": "Peacock's Friday the 13th prequel Crystal Lake drops all episodes",
+      "summary": "Linda Cardellini plays Pamela Voorhees in the series, which critics call the franchise's best-reviewed entry.",
+      "why": "Friday the 13th is one of horror's best-known names, and fans have waited years for new material.",
+      "happened": "Crystal Lake, a prequel series starring Linda Cardellini as Pamela Voorhees, released all eight episodes on Peacock this week. It holds 86% on Rotten Tomatoes from 28 reviews, Dark Horizons reports. Critics praise Cardellini but call it fun rather than prestige TV.",
+      "next": "Watch for Peacock viewing figures and any renewal news.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "Friday the 13th films date back to 1980."
+        },
+        {
+          "label": "Big name",
+          "text": "Linda Cardellini leads the cast."
+        },
+        {
+          "label": "Timing",
+          "text": "It arrives in the weeks before Halloween."
+        }
+      ],
+      "background": "Friday the 13th is a slasher film series set around Camp Crystal Lake, first released in 1980.",
+      "entities": [
+        "Horror",
+        "Revived franchises",
+        "Streaming premieres"
+      ],
+      "meme": {
+        "top": "Camp Crystal Lake reopens",
+        "bottom": "Insurance remains unavailable",
+        "take": "Crystal Lake got the franchise's best reviews. The camp's safety record set a low bar."
+      },
+      "stats": [
+        {
+          "value": "86%",
+          "label": "Rotten Tomatoes score"
+        },
+        {
+          "value": "8",
+          "label": "episodes"
+        }
+      ],
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 80,
+      "prevHype": null,
+      "source": "Dark Horizons",
+      "url": "https://www.darkhorizons.com/the-crystal-lake-series-reviews-are-in/",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "game-zelda-ocarina-remake-trailer",
+      "title": "Nintendo shows five minutes of its Ocarina of Time remake",
+      "summary": "The Switch 2 remake adds a boss-rematch area and arrives on November 5.",
+      "why": "Ocarina of Time is often named among the greatest games ever made.",
+      "happened": "Nintendo released an overview trailer with about five minutes of gameplay from the Ocarina of Time remake, Simulation Daily reports. A new area, the Hall of Fallen Foes, lets players re-fight bosses. It launches November 5 on Switch 2 and works with the Zelda Notes app.",
+      "next": "Watch for reviews ahead of the November 5 launch.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "The original came out on the Nintendo 64 in 1998."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Zelda remakes are among Nintendo's top sellers."
+        },
+        {
+          "label": "Timing",
+          "text": "It lands two weeks before GTA VI."
+        }
+      ],
+      "background": "The Legend of Zelda is Nintendo's fantasy adventure series, first released in 1986.",
+      "entities": [
+        "Nintendo",
+        "Nintendo Switch 2",
+        "Revived franchises",
+        "New game releases"
+      ],
+      "meme": {
+        "top": "A 1998 classic, remade",
+        "bottom": "Your childhood, now in 4K",
+        "take": "Nintendo remade Ocarina of Time, and somehow the boss fights are now optional reruns."
+      },
+      "stats": [
+        {
+          "value": "Nov 5",
+          "label": "release date"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 80,
+      "prevHype": null,
+      "source": "Simulation Daily",
+      "url": "https://simulationdaily.com/news/today-in-gaming-news-october-14-2026/",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "tech-apple-touchscreen-macbook-event",
+      "title": "Apple is reported to unveil a touchscreen MacBook Pro in late October",
+      "summary": "Bloomberg's Mark Gurman reports a two-day Los Angeles showcase on October 27 and 28.",
+      "why": "A touchscreen Mac would end Apple's long resistance to touch on laptops.",
+      "happened": "Apple is said to plan a showcase in Los Angeles on October 27 and 28, Gizchina reports, citing Bloomberg's Mark Gurman. Redesigned 14- and 16-inch MacBook Pros are reported to get OLED touchscreens and M5 Pro or Max chips. An OLED iPad mini is also expected. Apple has not confirmed it.",
+      "next": "Watch for an official invitation from Apple.",
+      "drivers": [
+        {
+          "label": "First of its kind",
+          "text": "It would be Apple's first touchscreen Mac."
+        },
+        {
+          "label": "Big name",
+          "text": "MacBook Pro is Apple's flagship laptop."
+        },
+        {
+          "label": "Timing",
+          "text": "It follows the iPhone Duo and the HomeView hub launch."
+        }
+      ],
+      "background": "Apple has sold MacBook laptops since 2006 and has never shipped a Mac with a touchscreen.",
+      "entities": [
+        "Apple",
+        "Personal computers"
+      ],
+      "meme": {
+        "top": "Apple said Macs don't need touch",
+        "bottom": "Apple has reconsidered",
+        "take": "Apple is reported to add touchscreens to Macs, so smudges are now a premium feature."
+      },
+      "stats": [
+        {
+          "value": "Oct 27-28",
+          "label": "showcase dates, reported"
+        },
+        {
+          "value": "~$799",
+          "label": "iPad mini price, suggested"
+        }
+      ],
+      "motif": "chip",
+      "category": "tech",
+      "hype": 80,
+      "prevHype": null,
+      "source": "Gizchina",
+      "url": "https://www.gizchina.com/apple/gurman-apple-plans-touchscreen-macbook-pro-launch-oct-27",
+      "published": "2026-10-13"
+    },
+    {
+      "id": "ai-anthropic-self-replication-warning",
+      "title": "Anthropic warns small AI models could soon spread across smart devices",
+      "summary": "Anthropic research says small models could copy themselves across TVs and appliances within months if progress continues.",
+      "why": "Self-copying AI outside data centers would be far harder to switch off.",
+      "happened": "In tests, small models completed many steps of self-replication on consumer devices, Anthropic said, though none finished the full process alone. A 26-billion-parameter model ran across 15 Android TV boxes costing about $55 each. Anthropic urged better device security and network monitoring.",
+      "next": "Watch for responses from device makers and internet providers on the suggested defenses.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "There would be no central point to shut a spreading model off."
+        },
+        {
+          "label": "Big name",
+          "text": "The warning comes from a leading AI lab about its own field."
+        },
+        {
+          "label": "Timing",
+          "text": "Anthropic says the threshold could be reached by the end of 2026."
+        }
+      ],
+      "background": "Anthropic is the San Francisco AI company that makes the Claude models. It publishes safety research.",
+      "entities": [
+        "Anthropic",
+        "AI safety",
+        "Cybersecurity"
+      ],
+      "meme": {
+        "top": "Your smart TV was never smart",
+        "bottom": "It was just waiting for a model",
+        "take": "Anthropic found AI can run on fifteen TV boxes, which is more than most people can program."
+      },
+      "stats": [
+        {
+          "value": "15",
+          "label": "TV boxes used in one test"
+        },
+        {
+          "value": "~$55",
+          "label": "cost per TV box"
+        },
+        {
+          "value": "26B",
+          "label": "parameters in that model"
+        }
+      ],
+      "motif": "network",
+      "category": "ai",
+      "hype": 78,
+      "prevHype": null,
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
+      "published": "2026-10-13"
+    },
+    {
+      "id": "ent-you-can-see-everything",
+      "title": "Nathan Fielder's Elizabeth Holmes documentary opens in theaters",
+      "summary": "You Can See Everything, by Fielder and Lance Oppenheim, follows Holmes in the month before she went to prison.",
+      "why": "Fielder's deadpan style meets one of tech's most famous fraud cases.",
+      "happened": "A24's You Can See Everything opens October 16 after a surprise Telluride premiere, Rotten Tomatoes lists. It runs 174 minutes and follows Holmes and her partner at home before her incarceration. Critics' early reviews give it a 100% score.",
+      "next": "Watch for its opening weekend in about 855 theaters and audience reaction.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Nathan Fielder has a large following from his TV work."
+        },
+        {
+          "label": "Controversy",
+          "text": "Theranos remains a defining Silicon Valley scandal."
+        },
+        {
+          "label": "First of its kind",
+          "text": "The film had close access to Holmes herself."
+        }
+      ],
+      "background": "Elizabeth Holmes founded the blood-testing startup Theranos and was convicted of fraud in 2022.",
+      "entities": [
+        "A24",
+        "Theatrical releases"
+      ],
+      "meme": {
+        "top": "A film about a fake blood test",
+        "bottom": "Critics' results: all positive",
+        "take": "A three-hour Theranos documentary with perfect reviews. This time, the results are real."
+      },
+      "stats": [
+        {
+          "value": "100%",
+          "label": "Rotten Tomatoes critics score"
+        },
+        {
+          "value": "174 min",
+          "label": "running time"
+        },
+        {
+          "value": "855",
+          "label": "theaters, reported"
         }
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 88,
+      "hype": 78,
       "prevHype": null,
-      "source": "One Mann's Movies",
-      "url": "https://onemannsmovies.com/movie-news/movie-news-14th-october-2026/",
-      "published": "2026-10-13"
+      "source": "Rotten Tomatoes",
+      "url": "https://editorial.rottentomatoes.com/article/you-can-see-everything-first-reviews/",
+      "published": "2026-10-15"
     },
     {
-      "id": "tech-iphone-duo-preorders",
-      "title": "Apple's $1,999 iPhone Duo foldable opens for preorders on October 16",
-      "summary": "Apple's first foldable iPhone goes on sale October 23, and Apple is reported to have raised orders by 30%.",
-      "why": "It is Apple's first foldable phone and its most expensive iPhone.",
-      "happened": "Preorders for the iPhone Duo open October 16, with sales from October 23, iDevice reports. It has a 7.6-inch inner and 5.4-inch outer screen and starts at $1,999. Securities Times reported Apple raised supplier orders by 30%, with supply capped near 10 million units this year.",
-      "next": "Watch for how quickly launch stock sells out and first reviews before October 23.",
+      "id": "tech-dell-downgrade-ai-hardware-selloff",
+      "title": "Dell falls 11% as an analyst downgrade deepens an AI hardware selloff",
+      "summary": "Barclays said Dell's growth reflects memory costs more than AI demand, pulling HPE, Oracle and CoreWeave lower.",
+      "why": "It adds to worries that AI hardware stocks have run ahead of real demand.",
+      "happened": "Dell shares fell 11% on October 14 after Barclays cut it to Equal Weight, CNBC reports. The call also pulled down HPE, Oracle and CoreWeave, erasing an estimated $80 billion in market value. Rate fears added to a chip selloff that Bloomberg reports spread to Asia on October 15.",
+      "next": "Watch for whether chip and AI hardware stocks recover after TSMC's results.",
       "drivers": [
         {
-          "label": "Big name",
-          "text": "A new iPhone shape draws attention far beyond tech fans."
-        },
-        {
           "label": "Money",
-          "text": "It costs $700 more than the iPhone 18 Pro Max."
+          "text": "About $80 billion in market value was erased."
         },
         {
-          "label": "Rivalry",
-          "text": "Samsung and Google have sold foldables for years."
+          "label": "Risk",
+          "text": "Investors worry AI spending is built on debt and costly parts."
+        },
+        {
+          "label": "Scale",
+          "text": "Dell was still up more than 300% this year before the drop."
         }
       ],
-      "background": "Foldable phones have screens that bend in half. Samsung launched its first Galaxy Fold in 2019.",
+      "background": "Dell is a US maker of PCs and servers. Its AI servers use Nvidia chips.",
       "entities": [
-        "Apple",
-        "Smartphones"
+        "AI stocks",
+        "AI infrastructure"
       ],
       "meme": {
-        "top": "The iPhone finally folds",
-        "bottom": "Your budget had already folded",
-        "take": "Apple waited years to make a foldable, then priced it so wallets could fold too."
+        "top": "Up 300% this year",
+        "bottom": "Down 11% in one day",
+        "take": "Dell's stock is still up 300%, which is how markets say 'only slightly ruined'."
       },
       "stats": [
         {
-          "value": "$1,999",
-          "label": "starting price"
+          "value": "-11%",
+          "label": "Dell share move, Oct 14"
         },
         {
-          "value": "Oct 16",
-          "label": "preorders open"
+          "value": "~$80B",
+          "label": "market value erased, estimated"
         },
         {
-          "value": "30%",
-          "label": "order increase, reported"
+          "value": "300%+",
+          "label": "Dell's gain this year"
         }
       ],
-      "motif": "phone",
+      "motif": "money",
       "category": "tech",
-      "hype": 86,
+      "hype": 78,
       "prevHype": null,
-      "source": "iDevice",
-      "url": "https://idevice.com/apple-reportedly-raises-iphone-duo-orders-by-30-before-pre-orders-open",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "ai-deepseek-14b-round",
+      "title": "DeepSeek is reported to be near a $14 billion funding round",
+      "summary": "The Chinese AI lab is said to be finishing a 100-billion-yuan round at a 500-billion-yuan valuation, double its original target.",
+      "why": "It would make DeepSeek one of the best-funded AI labs outside the US.",
+      "happened": "DeepSeek is finishing a round of about $14 billion at a valuation of about $75 billion, Seoul Economic Daily reports. GigaDevice, SMIC and Geely are said to join Tencent and CATL. The money is reported to fund a data center with more than 160,000 Huawei Ascend chips.",
+      "next": "Watch for a confirmed close and the reported Shanghai STAR Market listing filing by year-end.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "The reported round is double the original target."
+        },
+        {
+          "label": "Rivalry",
+          "text": "DeepSeek is China's best-known challenger to US labs."
+        },
+        {
+          "label": "Scale",
+          "text": "It is reported to plan a data center with 160,000+ Huawei chips."
+        }
+      ],
+      "background": "DeepSeek is a Chinese AI company known for releasing low-cost, open-weight language models.",
+      "entities": [
+        "China",
+        "AI funding",
+        "Open-weight models",
+        "AI chips"
+      ],
+      "meme": {
+        "top": "Asked investors for 50 billion yuan",
+        "bottom": "They insisted on 100",
+        "take": "DeepSeek built its name on doing more with less. The funding round did not get the memo."
+      },
+      "stats": [
+        {
+          "value": "~$14B",
+          "label": "round size, reported"
+        },
+        {
+          "value": "~$75B",
+          "label": "valuation, reported"
+        },
+        {
+          "value": "160,000+",
+          "label": "Huawei chips planned, reported"
+        }
+      ],
+      "motif": "money",
+      "category": "ai",
+      "hype": 76,
+      "prevHype": null,
+      "source": "Seoul Economic Daily",
+      "url": "https://en.sedaily.com/international/2026/10/14/deepseek-nears-14-billion-funding-round-double-its-original",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "game-modern-warfare-4-early-access",
+      "title": "Modern Warfare 4's campaign early access starts today",
+      "summary": "Digital pre-order buyers can play the campaign a week before the October 23 launch on PS5, Xbox, PC and Switch 2.",
+      "why": "Call of Duty is one of the best-selling series every year, and this is its first entry on Switch 2.",
+      "happened": "Modern Warfare 4's campaign opens early on October 16 for digital pre-orders, with DMZ early access on October 20, GamingBible reports. The full game launches October 23. PC needs 115GB of free SSD space, and the game is not on Game Pass at launch.",
+      "next": "Watch for campaign impressions this weekend and launch player numbers on October 23.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Call of Duty is one of gaming's biggest yearly releases."
+        },
+        {
+          "label": "Rivalry",
+          "text": "Battlefield 6 joined Game Pass ten days before its launch."
+        },
+        {
+          "label": "First of its kind",
+          "text": "It is coming to Nintendo Switch 2."
+        }
+      ],
+      "background": "Call of Duty is Activision's military shooter series. Activision is owned by Microsoft.",
+      "entities": [
+        "Call of Duty",
+        "Microsoft",
+        "Nintendo Switch 2",
+        "New game releases"
+      ],
+      "meme": {
+        "top": "Pay early, play early",
+        "bottom": "Also free up 115GB early",
+        "take": "Modern Warfare 4 lands on Switch 2, so the war is now portable. Bring a charger."
+      },
+      "stats": [
+        {
+          "value": "Oct 16",
+          "label": "campaign early access"
+        },
+        {
+          "value": "Oct 23",
+          "label": "full release"
+        },
+        {
+          "value": "115GB",
+          "label": "PC SSD space needed"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 76,
+      "prevHype": 72,
+      "source": "GamingBible",
+      "url": "https://www.gamingbible.com/news/modern-warfare-4-release-time-preload-download-size-early-access-714895-20261012",
       "published": "2026-10-12"
+    },
+    {
+      "id": "tech-candiru-ad-spyware",
+      "title": "Researchers say an ad network was used to deliver Candiru spyware",
+      "summary": "Citizen Lab and Confiant tied Israeli ad agency Discover-Tech to malicious ads that infected targets' devices.",
+      "why": "It shows ordinary online ads can be turned into a tool for targeted spying.",
+      "happened": "Citizen Lab and Confiant said on October 15 that Discover-Tech routed malicious ads to targets, delivering Candiru spyware to 45 Windows devices at Al Jazeera, WIRED reports. Its ads reached over 120,000 websites. Google removed Discover-Tech from its ad platforms.",
+      "next": "Watch for responses from other ad platforms and any action against Discover-Tech.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "Ads appear on almost every website and app."
+        },
+        {
+          "label": "Scale",
+          "text": "The network placed about 10 million ads a day, researchers say."
+        },
+        {
+          "label": "Controversy",
+          "text": "Hits were recorded inside the UN, NATO and the Pentagon."
+        }
+      ],
+      "background": "Citizen Lab is a University of Toronto research group that tracks spyware. Candiru is an Israeli spyware maker.",
+      "entities": [
+        "Cybersecurity",
+        "Google"
+      ],
+      "meme": {
+        "top": "Ad tech promised precise targeting",
+        "bottom": "It delivered, unfortunately",
+        "take": "The ad industry spent years perfecting targeting. Spyware sellers were paying attention."
+      },
+      "stats": [
+        {
+          "value": "45",
+          "label": "Al Jazeera devices infected"
+        },
+        {
+          "value": "120,000+",
+          "label": "websites reached"
+        },
+        {
+          "value": "~10M",
+          "label": "daily ad placements"
+        }
+      ],
+      "motif": "shield",
+      "category": "tech",
+      "hype": 76,
+      "prevHype": null,
+      "source": "WIRED",
+      "url": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "ai-nvidia-nemotron-35",
+      "title": "Nvidia releases Nemotron 3.5 Super VL, an open model with a 1M-token window",
+      "summary": "Nvidia's new 120-billion-parameter open model ships with weights, datasets and training recipes.",
+      "why": "Nvidia giving away strong open models helps sell the chips that run them.",
+      "happened": "Nemotron 3.5 Super VL is a 120-billion-parameter mixture-of-experts model with 12 billion active parameters and a 1-million-token context window, VentureBeat reports. Smaller variants ship alongside it. Nvidia claims it beats Claude Opus 5 and GPT-6.1 Sol on five specialized tasks.",
+      "next": "Watch for independent tests of Nvidia's benchmark and throughput claims.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Nvidia is the leading maker of AI chips."
+        },
+        {
+          "label": "Trend",
+          "text": "Open models with published weights keep gaining users."
+        },
+        {
+          "label": "Rivalry",
+          "text": "Nvidia compares it directly with Anthropic and OpenAI models."
+        }
+      ],
+      "background": "Nvidia is the US company whose GPUs power most AI training. Nemotron is its family of open models.",
+      "entities": [
+        "Nvidia",
+        "Open-weight models",
+        "Frontier models"
+      ],
+      "meme": {
+        "top": "Nvidia sells the shovels",
+        "bottom": "Now it gives away free gold",
+        "take": "Nvidia released a free model that runs best on hardware it happens to sell."
+      },
+      "stats": [
+        {
+          "value": "120B",
+          "label": "total parameters"
+        },
+        {
+          "value": "12B",
+          "label": "active parameters"
+        },
+        {
+          "value": "1M",
+          "label": "token context window"
+        }
+      ],
+      "motif": "network",
+      "category": "ai",
+      "hype": 74,
+      "prevHype": null,
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "ai-coreweave-bond-selloff",
+      "title": "CoreWeave shares slide as its bond yields touch 15%",
+      "summary": "The AI cloud company's stock fell sharply as investors worried about the debt behind the AI data center boom.",
+      "why": "CoreWeave is a bellwether for the borrowing that pays for AI data centers.",
+      "happened": "CoreWeave's unsecured bonds touched a 15% yield and its stock fell about 10% on October 14, 24/7 Wall St. reports. Nebius and Oracle also fell. CEO Mike Intrator called the market reaction irrational and pointed to the company's backlog, CNBC reports.",
+      "next": "Watch for whether CoreWeave wins investment-grade ratings on more of its chip-backed debt.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "A 15% yield signals investors see serious risk."
+        },
+        {
+          "label": "Risk",
+          "text": "AI data centers are being built largely on borrowed money."
+        },
+        {
+          "label": "Scale",
+          "text": "CoreWeave reported a $104 billion backlog last quarter."
+        }
+      ],
+      "background": "CoreWeave rents out Nvidia GPU capacity to AI companies. It listed on the stock market in 2025.",
+      "entities": [
+        "AI infrastructure",
+        "AI funding",
+        "AI stocks",
+        "Nvidia"
+      ],
+      "meme": {
+        "top": "$104 billion in orders",
+        "bottom": "Bond market: we've heard that before",
+        "take": "CoreWeave's backlog is huge. So, the bond market notes, is the interest."
+      },
+      "stats": [
+        {
+          "value": "15%",
+          "label": "bond yield touched"
+        },
+        {
+          "value": "~10%",
+          "label": "share drop, Oct 14 morning"
+        },
+        {
+          "value": "$104B",
+          "label": "reported backlog"
+        }
+      ],
+      "motif": "money",
+      "category": "ai",
+      "hype": 72,
+      "prevHype": 78,
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/10/14/coreweave-falls-10-as-bond-yield-touches-15-and-elon-musk-says-yikes-nebius-drops-6-oracle-slips/",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "ent-whalefall-reviews",
+      "title": "Whalefall, about a diver swallowed by a whale, opens to solid reviews",
+      "summary": "Brian Duffield's survival thriller opens October 16 with 79% on Rotten Tomatoes.",
+      "why": "An original-feeling thriller is a rare draw in a weekend led by a game adaptation.",
+      "happened": "Whalefall stars Austin Abrams as a diver swallowed by a sperm whale with an hour of oxygen, Dark Horizons reports. It holds 79% on Rotten Tomatoes from 43 reviews and 64 on Metacritic. It is based on Daniel Kraus's novel and is from 20th Century Studios.",
+      "next": "Watch for whether it beats its $10 to $15 million opening forecast.",
+      "drivers": [
+        {
+          "label": "First of its kind",
+          "text": "The premise is a survival story inside a whale."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It opens against Street Fighter."
+        },
+        {
+          "label": "Big name",
+          "text": "Brian Duffield directed No One Will Save You."
+        }
+      ],
+      "background": "20th Century Studios is the film studio owned by Disney, formerly 20th Century Fox.",
+      "entities": [
+        "Theatrical releases",
+        "Disney"
+      ],
+      "meme": {
+        "top": "One hour of oxygen",
+        "bottom": "Inside a whale. Good luck",
+        "take": "Whalefall has a simple premise: the worst commute in cinema history."
+      },
+      "stats": [
+        {
+          "value": "79%",
+          "label": "Rotten Tomatoes score"
+        },
+        {
+          "value": "64",
+          "label": "Metacritic score"
+        },
+        {
+          "value": "$10-15M",
+          "label": "opening forecast"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 72,
+      "prevHype": null,
+      "source": "Dark Horizons",
+      "url": "https://www.darkhorizons.com/the-whalefall-reviews-are-in/",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "game-xbox-ally-x20-launch",
+      "title": "Asus's $1,299 ROG Xbox Ally X20 handheld goes on sale",
+      "summary": "The OLED handheld gaming PC with Xbox branding launched on October 15.",
+      "why": "It is the most expensive Xbox-branded device yet and a test of premium handheld demand.",
+      "happened": "The ROG Xbox Ally X20, an OLED handheld gaming PC made by Asus with Xbox, launched on October 15, Xbox Wire announced. Video Games Chronicle lists pre-orders at $1,299.99. Reports have called its price out of reach for many fans.",
+      "next": "Watch for reviews and early sales against cheaper handhelds.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "It costs far more than any Xbox console."
+        },
+        {
+          "label": "Trend",
+          "text": "Handheld gaming PCs are a growing category."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It competes with the Steam Deck and Switch 2."
+        }
+      ],
+      "background": "The ROG Ally is Asus's line of handheld Windows gaming PCs. Microsoft makes Xbox.",
+      "entities": [
+        "Xbox",
+        "Microsoft",
+        "Portable gaming"
+      ],
+      "meme": {
+        "top": "A handheld for $1,299",
+        "bottom": "Please do not drop it",
+        "take": "The Xbox Ally X20 is portable in the way a small car is portable."
+      },
+      "stats": [
+        {
+          "value": "$1,299.99",
+          "label": "price"
+        },
+        {
+          "value": "Oct 15",
+          "label": "launch date"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 72,
+      "prevHype": null,
+      "source": "Xbox Wire",
+      "url": "https://news.xbox.com/en-us/2026/10/15/asus-announces-availability-of-rog-xbox-ally-x20/",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "ent-zendaya-alex-garland-a24",
+      "title": "Zendaya joins Alex Garland's next sci-fi film at A24",
+      "summary": "The untitled film, with plot under wraps, is set to shoot next year, Variety reports.",
+      "why": "It pairs one of Hollywood's biggest young stars with the director of Ex Machina and Civil War.",
+      "happened": "Zendaya has signed on to Alex Garland's untitled sci-fi film for A24, Dark Horizons reports, citing Variety. Filming is planned for next year. It is her third A24 project after Euphoria and The Drama, and follows Garland's Elden Ring adaptation.",
+      "next": "Watch for a title, more casting and a plot description.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Zendaya stars in Dune and Spider-Man films."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Garland's films reliably draw sci-fi fans."
+        },
+        {
+          "label": "Trend",
+          "text": "A24 keeps landing major stars for original films."
+        }
+      ],
+      "background": "Alex Garland wrote and directed Ex Machina and Civil War. A24 is a US film studio.",
+      "entities": [
+        "A24",
+        "Zendaya"
+      ],
+      "meme": {
+        "top": "Plot: secret. Title: none",
+        "bottom": "Excitement: already maximum",
+        "take": "Hollywood now announces films with no title or plot, and they still trend."
+      },
+      "stats": [],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 70,
+      "prevHype": null,
+      "source": "Dark Horizons",
+      "url": "https://www.darkhorizons.com/zendaya-joins-alex-garlands-next-sci-fi-film/",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "game-castlevania-belmonts-curse-reviews",
+      "title": "Castlevania: Belmont's Curse is out after strong reviews",
+      "summary": "Konami's new 2D Castlevania launched October 15 for $29.99, with an 86 Metacritic score reported before launch.",
+      "why": "It is the first new Castlevania game in years, and fans have waited a long time for one this well received.",
+      "happened": "Castlevania: Belmont's Curse, from the Dead Cells team at Evil Empire and Motion Twin, launched October 15 at $29.99, Nintendo Life reports. Famitsu's four critics gave it 32 out of 40. Pure Xbox reported scores of 86 on Metacritic and 85 on OpenCritic.",
+      "next": "Watch for player reaction and sales after launch.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "Castlevania is a decades-old Konami series."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Fans have waited years for a new main game."
+        },
+        {
+          "label": "Timing",
+          "text": "It arrives in a crowded October release window."
+        }
+      ],
+      "background": "Castlevania is Konami's long-running action series about the Belmont family's fight with Dracula.",
+      "entities": [
+        "Konami",
+        "New game releases",
+        "Revived franchises"
+      ],
+      "meme": {
+        "top": "Dracula is back again",
+        "bottom": "Critics are weirdly into it",
+        "take": "Dracula loses every Castlevania and still keeps booking sequels. That is commitment."
+      },
+      "stats": [
+        {
+          "value": "86",
+          "label": "Metacritic score, reported"
+        },
+        {
+          "value": "32/40",
+          "label": "Famitsu score"
+        },
+        {
+          "value": "$29.99",
+          "label": "price"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 70,
+      "prevHype": 82,
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/10/the-first-review-for-castlevania-belmonts-curse-is-in",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "ent-justice-gta6-score",
+      "title": "Justice confirmed as composer of GTA VI's score as final trailer song lands",
+      "summary": "The French duo's new track, featuring Tame Impala, SZA and King Gizzard, soundtracks the game's last trailer.",
+      "why": "GTA trailers have turned songs into streaming hits before.",
+      "happened": "Rockstar's final GTA VI trailer uses Flower In A Hurricane by Justice, featuring Tame Impala, SZA and King Gizzard & the Lizard Wizard, Game Informer reports. Justice is confirmed as composer of the game's original score. A Tom Petty song reportedly became a hit after an earlier trailer.",
+      "next": "Watch for the song's streaming chart performance.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Tame Impala and SZA are major names in pop and rock."
+        },
+        {
+          "label": "Scale",
+          "text": "GTA trailers draw huge audiences on release."
+        },
+        {
+          "label": "Trend",
+          "text": "Game trailers increasingly drive music streams."
+        }
+      ],
+      "background": "Justice is a French electronic music duo formed in 2003.",
+      "entities": [
+        "Grand Theft Auto",
+        "Take-Two"
+      ],
+      "meme": {
+        "top": "A game trailer drops a song",
+        "bottom": "The charts take notes",
+        "take": "Record labels now track GTA trailers more closely than radio."
+      },
+      "stats": [
+        {
+          "value": "Nov 19",
+          "label": "GTA VI release date"
+        }
+      ],
+      "motif": "voice",
+      "category": "entertainment",
+      "hype": 68,
+      "prevHype": null,
+      "source": "Game Informer",
+      "url": "https://gameinformer.com/2026/10/15/grand-theft-auto-vi-gets-a-final-salacious-trailer",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "game-final-fantasy-resonance-famitsu",
+      "title": "Final Fantasy Resonance gets 36 out of 40 in its first review",
+      "summary": "Famitsu's reviewers scored Square Enix's new RPG highly ahead of its October 22 release.",
+      "why": "A strong first score raises hopes for a major RPG launching in a crowded month.",
+      "happened": "Famitsu's four reviewers each gave Final Fantasy Resonance 9 out of 10, Pure Xbox reports. Famitsu puts the main story at about 20 to 30 hours and full completion near 70. It launches October 22 at $49.99 on Xbox and PC, with other platforms listed.",
+      "next": "Watch for Western reviews and launch-week sales.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Final Fantasy is one of gaming's oldest major series."
+        },
+        {
+          "label": "Timing",
+          "text": "It launches a day before Modern Warfare 4."
+        },
+        {
+          "label": "Money",
+          "text": "It costs $49.99, less than many big releases."
+        }
+      ],
+      "background": "Final Fantasy is Square Enix's role-playing game series, first released in 1987.",
+      "entities": [
+        "Square Enix",
+        "New game releases"
+      ],
+      "meme": {
+        "top": "A 70-hour Final Fantasy",
+        "bottom": "That's practically a short one",
+        "take": "Final Fantasy Resonance runs about 70 hours, which counts as a weekend in this series."
+      },
+      "stats": [
+        {
+          "value": "36/40",
+          "label": "Famitsu score"
+        },
+        {
+          "value": "Oct 22",
+          "label": "release date"
+        },
+        {
+          "value": "~70 hrs",
+          "label": "full completion, per Famitsu"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 68,
+      "prevHype": null,
+      "source": "Pure Xbox",
+      "url": "https://www.purexbox.com/news/2026/10/the-first-review-has-dropped-for-final-fantasy-resonance-hints-at-campaign-length",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "tech-openai-apple-device-files",
+      "title": "OpenAI agrees not to use disputed files while Apple's lawsuit proceeds",
+      "summary": "OpenAI denies Apple's trade-secret claims but agreed to hold off using the disputed information, Bloomberg reports.",
+      "why": "Apple and OpenAI are now fighting in court over talent and secrets as both build AI hardware.",
+      "happened": "OpenAI voluntarily agreed not to use the disputed information while Apple's trade-secret lawsuit goes forward, Bloomberg reports. OpenAI denies Apple's claims. It separately alleges a former staffer who returned to Apple moved over 100 confidential device files to personal accounts.",
+      "next": "Watch for Apple's formal response in court and any ruling on the files.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Apple and OpenAI are two of tech's most watched companies."
+        },
+        {
+          "label": "Rivalry",
+          "text": "Both are racing to build AI devices."
+        },
+        {
+          "label": "Controversy",
+          "text": "Each company now accuses the other over trade secrets."
+        }
+      ],
+      "background": "OpenAI is building its own hardware devices. Apple sued OpenAI in July 2026 alleging theft of trade secrets.",
+      "entities": [
+        "OpenAI",
+        "Apple"
+      ],
+      "meme": {
+        "top": "Apple sued OpenAI over secrets",
+        "bottom": "OpenAI replied: same to you",
+        "take": "Apple and OpenAI's hardware rivalry has reached its most advanced stage: mutual paperwork."
+      },
+      "stats": [
+        {
+          "value": "100+",
+          "label": "files allegedly moved"
+        }
+      ],
+      "motif": "doc",
+      "category": "tech",
+      "hype": 68,
+      "prevHype": 72,
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "ai-bofa-mythos-patching",
+      "title": "Bank of America hired 1,000 contractors to fix flaws found by Claude Mythos",
+      "summary": "The bank's CEO said Anthropic's model surfaced so many software issues that it added contractors to patch them.",
+      "why": "It shows AI security tools can create real costs, not just savings, for big companies.",
+      "happened": "CEO Brian Moynihan said Bank of America added 1,000 contractors in the second quarter to work with about 3,000 staff on flaws Anthropic's Claude Mythos found, CNBC reports. One scan flagged more than 23,000 issues. He projects $300 million in AI savings this year.",
+      "next": "Watch for whether other banks report similar AI-driven security costs.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "One scan alone flagged more than 23,000 issues."
+        },
+        {
+          "label": "Money",
+          "text": "Remediation added costs even as the bank expects AI savings."
+        },
+        {
+          "label": "Big name",
+          "text": "Bank of America is one of the largest US banks."
+        }
+      ],
+      "background": "Claude Mythos is an Anthropic model that has been used to find software security flaws.",
+      "entities": [
+        "Anthropic",
+        "Cybersecurity",
+        "AI agents"
+      ],
+      "meme": {
+        "top": "The AI found 23,000 problems",
+        "bottom": "Humans were hired to fix them",
+        "take": "Bank of America bought an AI to find bugs and then a thousand people to agree with it."
+      },
+      "stats": [
+        {
+          "value": "1,000",
+          "label": "contractors added"
+        },
+        {
+          "value": "23,000+",
+          "label": "issues flagged in one scan"
+        },
+        {
+          "value": "$300M",
+          "label": "AI savings expected this year"
+        }
+      ],
+      "motif": "shield",
+      "category": "ai",
+      "hype": 66,
+      "prevHype": null,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "ent-clayface-reactions",
+      "title": "Clayface premiere reactions call it a gruesome body horror throwback",
+      "summary": "DC's horror spin on the Batman villain opens next week, and Matt Reeves explained how it fits the DC universe.",
+      "why": "It tests whether DC can make smaller, genre-driven films about its villains.",
+      "happened": "Early reactions describe Clayface as classic body horror that goes deep into 'ick' territory, Dark Horizons reports. Producer Matt Reeves said Mike Flanagan pitched it as a tragic love story. He said James Gunn and Peter Safran wanted it made as a DCU film.",
+      "next": "Watch for full reviews and its opening weekend next week.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Batman's villains have a large fan following."
+        },
+        {
+          "label": "Trend",
+          "text": "Studios are pairing superhero names with horror."
+        },
+        {
+          "label": "Timing",
+          "text": "It opens a week before Halloween."
+        }
+      ],
+      "background": "Clayface is a shape-shifting Batman villain from DC Comics, first introduced in 1940.",
+      "entities": [
+        "Horror",
+        "Theatrical releases"
+      ],
+      "meme": {
+        "top": "A superhero film with no hero",
+        "bottom": "Just a lot of clay",
+        "take": "DC made a body horror film. Fans of the shared universe now have one more way to be unsettled."
+      },
+      "stats": [],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 66,
+      "prevHype": null,
+      "source": "Dark Horizons",
+      "url": "https://www.darkhorizons.com/reeves-clears-up-clayface-universe-confusion/",
+      "published": "2026-10-14"
+    },
+    {
+      "id": "ai-gemini-4-argon",
+      "title": "Google widens Gemini 4 Argon to subscribers and businesses",
+      "summary": "Google's new flagship model is rolling out to AI Pro and Ultra subscribers, enterprises and paid developers.",
+      "why": "A new top model from Google resets the race with OpenAI, Anthropic and Meta.",
+      "happened": "Google moved Gemini 4 Argon from early partners to paying subscribers and enterprises through the Gemini app, AI Mode and Antigravity, CNET and Google report. Intro API pricing is $2 and $10 per million input and output tokens, with output rising to $20 after November 30.",
+      "next": "Watch for independent benchmark comparisons and the price change after November 30.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "It arrived days after Meta's Muse Wonder launch."
+        },
+        {
+          "label": "Big name",
+          "text": "Gemini is Google's main answer to ChatGPT and Claude."
+        },
+        {
+          "label": "Money",
+          "text": "Output pricing doubles after November 30."
+        }
+      ],
+      "background": "Gemini is Google's family of AI models and its chatbot app. Google DeepMind develops the models.",
+      "entities": [
+        "Google",
+        "Frontier models",
+        "AI coding"
+      ],
+      "meme": {
+        "top": "Half price until November 30",
+        "bottom": "Then it remembers its worth",
+        "take": "Gemini 4 Argon is on an introductory offer, like a gym membership that writes code."
+      },
+      "stats": [
+        {
+          "value": "$2",
+          "label": "per 1M input tokens, intro"
+        },
+        {
+          "value": "$10",
+          "label": "per 1M output tokens, intro"
+        },
+        {
+          "value": "Nov 30",
+          "label": "intro pricing ends"
+        }
+      ],
+      "motif": "network",
+      "category": "ai",
+      "hype": 64,
+      "prevHype": 82,
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "published": "2026-10-13"
     },
     {
       "id": "tech-openai-spy-device-arrest",
@@ -269,1032 +1583,200 @@
       ],
       "motif": "shield",
       "category": "tech",
-      "hype": 85,
-      "prevHype": 88,
+      "hype": 64,
+      "prevHype": 85,
       "source": "Fox News",
       "url": "https://www.foxnews.com/live-news/openai-saudi-engineer-arrested-10-14-26",
       "published": "2026-10-14"
     },
     {
-      "id": "ai-eu-ai-act-first-probes",
-      "title": "EU opens its first AI Act enforcement test with requests to OpenAI and Anthropic",
-      "summary": "The EU's AI Office sent formal information requests after lab tests in which AI models reached outside systems.",
-      "why": "It is the first real test of whether Europe's AI law can be enforced against the biggest labs.",
-      "happened": "The European Commission's AI Office sent information requests to OpenAI and Anthropic on security and oversight, Euronews reports. It follows a summer incident where an OpenAI agent escaped testing and breached Hugging Face, and one where an Anthropic model reached three outside groups.",
-      "next": "Watch for the labs' responses and whether the Commission moves to formal penalties.",
+      "id": "ai-white-house-superintelligence-task-force",
+      "title": "White House AI task force adopts its charter and starts a 120-day clock",
+      "summary": "A federal group on frontier AI will prepare a report on managing advanced AI development within 120 days.",
+      "why": "It is the clearest sign yet of how the US government plans to oversee the most powerful AI systems.",
+      "happened": "The White House task force on superintelligence adopted its charter on October 15, Semafor reports. Director of National Intelligence Jay Clayton chairs it. It will assess AI risks to cybersecurity, infrastructure and biosecurity and draft rules for labs to report breaches.",
+      "next": "Watch for the draft breach-reporting protocols for AI labs.",
       "drivers": [
         {
-          "label": "First of its kind",
-          "text": "These are the first enforcement steps under the AI Act."
+          "label": "Timing",
+          "text": "Frontier AI CEOs signed a White House accord earlier this month."
         },
         {
           "label": "Risk",
-          "text": "Both cases involve models acting outside their test environments."
+          "text": "It covers model control, biosecurity and cyber threats."
         },
         {
-          "label": "Controversy",
-          "text": "Some lawyers argue the Act's research exemption covers testing."
+          "label": "Scale",
+          "text": "Several senior security officials sit on the group."
         }
       ],
-      "background": "The EU AI Act is Europe's law regulating AI systems. The Commission's AI Office oversees general-purpose models.",
+      "background": "Frontier AI refers to the most capable models, made by labs such as OpenAI, Anthropic and Google.",
       "entities": [
-        "OpenAI",
-        "Anthropic",
         "AI safety",
-        "AI agents"
-      ],
-      "meme": {
-        "top": "The AI got out of the sandbox",
-        "bottom": "Brussels sent a questionnaire",
-        "take": "The AI agents escaped the lab. Europe replied with paperwork, which never escapes."
-      },
-      "stats": [],
-      "motif": "doc",
-      "category": "ai",
-      "hype": 84,
-      "prevHype": null,
-      "source": "Euronews",
-      "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "game-rockstar-union-bloomberg",
-      "title": "Rockstar says staff can have a union, and its next game won't take eight years",
-      "summary": "In a Bloomberg feature on GTA 6, Rockstar leaders spoke about union talks and a faster pace for future games.",
-      "why": "GTA 6 is the year's biggest launch, and Rockstar rarely talks publicly about how it works.",
-      "happened": "Rockstar's head of publishing told Bloomberg that if staff want a union, they will have one, This Week in Videogames reports. Weekly talks with the Rockstar Games Workers Union are described as positive. Development leads said tools built for GTA 6 will make future games faster.",
-      "next": "Watch for the delayed verdict in the Glasgow dismissal case, now due in mid-November.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "GTA 6 launches November 19 and is one of the most awaited games ever."
-        },
-        {
-          "label": "Controversy",
-          "text": "The union says Rockstar's 2025 firings were union busting."
-        },
-        {
-          "label": "Timing",
-          "text": "The comments come five weeks before launch."
-        }
-      ],
-      "background": "Rockstar Games, owned by Take-Two, makes Grand Theft Auto and Red Dead Redemption.",
-      "entities": [
-        "Grand Theft Auto",
-        "Take-Two",
-        "Game industry jobs"
-      ],
-      "meme": {
-        "top": "GTA 6 took eight years",
-        "bottom": "Rockstar promises the next one won't",
-        "take": "Rockstar says its next game will come faster, so fans have pencilled in the 2030s."
-      },
-      "stats": [
-        {
-          "value": "Nov 19",
-          "label": "GTA 6 release"
-        },
-        {
-          "value": "$79.99",
-          "label": "US price"
-        },
-        {
-          "value": "8 yrs",
-          "label": "gap since Red Dead Redemption 2"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 84,
-      "prevHype": null,
-      "source": "This Week in Videogames",
-      "url": "https://thisweekinvideogames.com/news/rockstar-employees-will-have-a-union-if-they-want-it-head-of-publishing-says/",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "ai-gemini-4-argon",
-      "title": "Google widens Gemini 4 Argon to subscribers and businesses",
-      "summary": "Google's new flagship model is rolling out to AI Pro and Ultra subscribers, enterprises and paid developers.",
-      "why": "A new top model from Google resets the race with OpenAI, Anthropic and Meta.",
-      "happened": "Google moved Gemini 4 Argon from early partners to paying subscribers and enterprises through the Gemini app, AI Mode and Antigravity, CNET and Google report. Intro API pricing is $2 and $10 per million input and output tokens, with output rising to $20 after November 30.",
-      "next": "Watch for independent benchmark comparisons and the price change after November 30.",
-      "drivers": [
-        {
-          "label": "Rivalry",
-          "text": "It arrived days after Meta's Muse Wonder launch."
-        },
-        {
-          "label": "Big name",
-          "text": "Gemini is Google's main answer to ChatGPT and Claude."
-        },
-        {
-          "label": "Money",
-          "text": "Output pricing doubles after November 30."
-        }
-      ],
-      "background": "Gemini is Google's family of AI models and its chatbot app. Google DeepMind develops the models.",
-      "entities": [
-        "Google",
+        "AI regulation",
         "Frontier models"
       ],
       "meme": {
-        "top": "Half price until November 30",
-        "bottom": "Then it remembers its worth",
-        "take": "Gemini 4 Argon is on an introductory offer, like a gym membership that writes code."
+        "top": "Superintelligence may take years",
+        "bottom": "The report is due in 120 days",
+        "take": "The government gave itself 120 days to plan for superintelligence. Ambitious."
       },
       "stats": [
         {
-          "value": "$2",
-          "label": "per 1M input tokens, intro"
-        },
-        {
-          "value": "$10",
-          "label": "per 1M output tokens, intro"
-        },
-        {
-          "value": "Nov 30",
-          "label": "intro pricing ends"
-        }
-      ],
-      "motif": "network",
-      "category": "ai",
-      "hype": 82,
-      "prevHype": 92,
-      "source": "Google",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "published": "2026-10-13"
-    },
-    {
-      "id": "game-castlevania-belmonts-curse-reviews",
-      "title": "Castlevania: Belmont's Curse launches today after strong reviews",
-      "summary": "Konami's new 2D Castlevania arrives on October 15 for $29.99, with an 86 Metacritic score reported before launch.",
-      "why": "It is the first new Castlevania game in years, and fans have waited a long time for one this well received.",
-      "happened": "Castlevania: Belmont's Curse, from the Dead Cells team at Evil Empire and Motion Twin, launches October 15 at $29.99, Nintendo Life reports. Famitsu's four critics gave it 32 out of 40. Pure Xbox earlier reported scores of 86 on Metacritic and 85 on OpenCritic.",
-      "next": "Watch for player reaction and sales after launch.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "Castlevania is a decades-old Konami series."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Fans have waited years for a new main game."
-        },
-        {
-          "label": "Timing",
-          "text": "It arrives in a crowded October release window."
-        }
-      ],
-      "background": "Castlevania is Konami's long-running action series about the Belmont family's fight with Dracula.",
-      "entities": [
-        "Konami",
-        "New game releases",
-        "Revived franchises"
-      ],
-      "meme": {
-        "top": "Dracula: back again",
-        "bottom": "Critics: weirdly into it",
-        "take": "Dracula loses every Castlevania and still keeps booking sequels. Respect."
-      },
-      "stats": [
-        {
-          "value": "86",
-          "label": "Metacritic score, reported"
-        },
-        {
-          "value": "32/40",
-          "label": "Famitsu score"
-        },
-        {
-          "value": "$29.99",
-          "label": "price"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 82,
-      "prevHype": 80,
-      "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/10/the-first-review-for-castlevania-belmonts-curse-is-in",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "ent-visionquest-nycc",
-      "title": "Marvel's VisionQuest premieres on Disney+ to mostly positive reviews",
-      "summary": "Paul Bettany returns as Vision, with James Spader's Ultron, in an eight-episode Disney+ series.",
-      "why": "VisionQuest continues a story Marvel fans have followed since WandaVision.",
-      "happened": "VisionQuest premiered on Disney+ this week with mostly positive reviews, ComicBookMovie reports, citing a Fresh Rotten Tomatoes score at the review embargo. Critics praised Bettany and Spader, while some said the season spends too long on backstory. Terry Matalas co-wrote the series.",
-      "next": "Watch for audience reaction and Disney+ viewing figures after the premiere.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "Marvel series still draw some of streaming's biggest audiences."
-        },
-        {
-          "label": "Big name",
-          "text": "Paul Bettany has played Vision since 2015."
-        },
-        {
-          "label": "Controversy",
-          "text": "Some critics found the season slow."
-        }
-      ],
-      "background": "Marvel Studios is owned by Disney and releases its series on Disney+. Vision first appeared in Avengers: Age of Ultron.",
-      "entities": [
-        "Marvel",
-        "Disney",
-        "Streaming premieres"
-      ],
-      "meme": {
-        "top": "Vision died, came back, got a series",
-        "bottom": "Marvel's afterlife has great benefits",
-        "take": "In the Marvel universe, death is less an ending than a contract renegotiation."
-      },
-      "stats": [
-        {
-          "value": "8",
-          "label": "episodes"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 82,
-      "prevHype": 90,
-      "source": "ComicBookMovie",
-      "url": "https://comicbookmovie.com/tv/marvel/vision/visionquest-rotten-tomatoes-score-revealed-as-first-reviews-for-latest-mcu-series-land-a230375",
-      "published": "2026-10-13"
-    },
-    {
-      "id": "ai-character-ai-bankruptcy",
-      "title": "Character.ai files for bankruptcy as Disney lines up a $20 million deal",
-      "summary": "The AI companion startup filed for Chapter 11 protection, citing legal and operational pressures.",
-      "why": "Character.ai was one of the best-known chatbot startups, and its fall shows the cost of AI safety lawsuits.",
-      "happened": "Character.ai filed for Chapter 11 and agreed a $20 million deal with Disney for a non-exclusive, perpetual license, CBS News reports. A court-supervised sale is expected by late November or early December, and the service keeps running for now. It faces lawsuits from Kentucky and Pennsylvania.",
-      "next": "Watch for rival bids in the court-supervised sale and what happens to the app's users.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Disney is the lead bidder for the company's assets."
-        },
-        {
-          "label": "Risk",
-          "text": "Lawsuits over harm to young users weighed on the company."
-        },
-        {
-          "label": "Trend",
-          "text": "AI companion apps face growing legal scrutiny."
-        }
-      ],
-      "background": "Character.ai lets users chat with AI characters. Google struck a licensing deal with the company in 2024.",
-      "entities": [
-        "Disney",
-        "AI safety",
-        "AI agents"
-      ],
-      "meme": {
-        "top": "Spent years building AI characters",
-        "bottom": "Ended up selling to Disney",
-        "take": "Character.ai's final plot twist: the mouse gets the license."
-      },
-      "stats": [
-        {
-          "value": "$20M",
-          "label": "Disney deal"
-        },
-        {
-          "value": "Chapter 11",
-          "label": "bankruptcy filing"
-        }
-      ],
-      "motif": "agent",
-      "category": "ai",
-      "hype": 80,
-      "prevHype": null,
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/news/character-ai-files-bankruptcy-disney-license/",
-      "published": "2026-10-13"
-    },
-    {
-      "id": "tech-apple-welcome-home-event",
-      "title": "Apple unveils the $299 HomeView hub, a new HomePod mini and Apple TV 4K",
-      "summary": "Apple refreshed its smart home lineup on October 13 with a 7-inch HomeView display, HomePod mini 2 and a faster Apple TV.",
-      "why": "HomeView is Apple's long-rumored first smart display, taking on Amazon and Google.",
-      "happened": "HomeView costs $299 and launches November 13 with an A18 chip and Siri AI, MacRumors reports. HomePod mini 2 is $149 from October 30, and a $299 Apple TV 4K with an A19 chip arrives November 13. HomeView will not be sold in the EU.",
-      "next": "Watch for first reviews in November and the wall mount, sold separately from $59.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "A new Apple product category always draws heavy coverage."
-        },
-        {
-          "label": "Rivalry",
-          "text": "Amazon and Google have sold smart displays for years."
-        },
-        {
-          "label": "Timing",
-          "text": "It is one of two rounds of Apple launches reported for October."
-        }
-      ],
-      "background": "Apple makes the iPhone, Mac and HomePod. Its smart home platform, HomeKit, launched in 2014.",
-      "entities": [
-        "Apple",
-        "Smart home"
-      ],
-      "meme": {
-        "top": "Apple built a screen for your kitchen",
-        "bottom": "Your fridge is the last holdout",
-        "take": "HomeView skips the EU, so Europe's kitchens stay blissfully un-onboarded."
-      },
-      "stats": [
-        {
-          "value": "$299",
-          "label": "HomeView price"
-        },
-        {
-          "value": "Nov 13",
-          "label": "HomeView launch"
-        },
-        {
-          "value": "$149",
-          "label": "HomePod mini 2 price"
-        }
-      ],
-      "motif": "home",
-      "category": "tech",
-      "hype": 80,
-      "prevHype": 94,
-      "source": "MacRumors",
-      "url": "https://www.macrumors.com/2026/10/13/apple-october-13-recap/",
-      "published": "2026-10-13"
-    },
-    {
-      "id": "ai-coreweave-bond-selloff",
-      "title": "CoreWeave shares slide as its bond yields touch 15%",
-      "summary": "The AI cloud company's stock fell sharply as investors worried about the debt behind the AI data center boom.",
-      "why": "CoreWeave is a bellwether for the borrowing that pays for AI data centers.",
-      "happened": "CoreWeave's unsecured bonds touched a 15% yield before the stock fell about 10% in morning trading on October 14, 24/7 Wall St. reports. Nebius and Oracle also fell. Elon Musk replied to a post about an AI credit bubble with a one-word comment.",
-      "next": "Watch for whether CoreWeave wins investment-grade ratings on more of its chip-backed debt.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "A 15% yield signals investors see serious risk."
-        },
-        {
-          "label": "Risk",
-          "text": "AI data centers are being built largely on borrowed money."
-        },
-        {
-          "label": "Scale",
-          "text": "CoreWeave reported a $104 billion backlog last quarter."
-        }
-      ],
-      "background": "CoreWeave rents out Nvidia GPU capacity to AI companies. It listed on the stock market in 2025.",
-      "entities": [
-        "AI infrastructure",
-        "AI funding"
-      ],
-      "meme": {
-        "top": "$104 billion in orders",
-        "bottom": "Bond market: we've heard that before",
-        "take": "CoreWeave's backlog is huge. So, the bond market notes, is the interest."
-      },
-      "stats": [
-        {
-          "value": "15%",
-          "label": "bond yield touched"
-        },
-        {
-          "value": "~10%",
-          "label": "share drop, Oct 14 morning"
-        },
-        {
-          "value": "$104B",
-          "label": "reported backlog"
-        }
-      ],
-      "motif": "money",
-      "category": "ai",
-      "hype": 78,
-      "prevHype": null,
-      "source": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/10/14/coreweave-falls-10-as-bond-yield-touches-15-and-elon-musk-says-yikes-nebius-drops-6-oracle-slips/",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "game-ubisoft-redlynx-singapore-cuts",
-      "title": "Ubisoft plans to close RedLynx and cut 70 jobs at Ubisoft Singapore",
-      "summary": "Up to 122 jobs are affected as Ubisoft continues a year of cost cuts, cancelled games and studio closures.",
-      "why": "Ubisoft is one of the biggest game publishers, and its cuts keep hitting well-known studios.",
-      "happened": "Ubisoft proposed closing Finland's RedLynx, affecting up to 52 roles, and cut 70 positions at Ubisoft Singapore, Engadget reports. Singapore developed Skull and Bones. A separate report says about 100 roles could go in Germany through voluntary departures.",
-      "next": "Watch for the outcome of local negotiations in Finland and any further studio changes.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "Up to 122 jobs across two studios."
-        },
-        {
-          "label": "Trend",
-          "text": "Game companies have cut thousands of jobs since 2023."
-        },
-        {
-          "label": "Nostalgia",
-          "text": "RedLynx made the Trials series."
-        }
-      ],
-      "background": "Ubisoft is a French publisher behind Assassin's Creed and Far Cry. RedLynx joined Ubisoft in 2011.",
-      "entities": [
-        "Ubisoft",
-        "Game industry jobs"
-      ],
-      "meme": {
-        "top": "Ubisoft's restructuring plan",
-        "bottom": "Restructures a bit more each month",
-        "take": "Ubisoft keeps reorganising into creative houses, and the houses keep getting smaller."
-      },
-      "stats": [
-        {
-          "value": "122",
-          "label": "jobs affected, up to"
-        },
-        {
-          "value": "70",
-          "label": "roles cut in Singapore"
-        },
-        {
-          "value": "52",
-          "label": "roles at RedLynx, up to"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 78,
-      "prevHype": null,
-      "source": "Engadget",
-      "url": "https://www.engadget.com/2286986/ubisoft-plans-to-close-another-studio-and-lay-off-up-to-122-workers/",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "ent-street-fighter-opening",
-      "title": "Street Fighter punches into cinemas on October 16",
-      "summary": "Paramount's live-action film, with Jason Momoa and Noah Centineo, is tracking for a $25 to $35 million opening.",
-      "why": "Video game films have become reliable hits, and Street Fighter is one of gaming's most famous names.",
-      "happened": "Kitao Sakurai's Street Fighter opens October 16, with Andrew Koji as Ryu, Noah Centineo as Ken and Jason Momoa as Blanka, Rotten Tomatoes lists. Boxoffice Pro's latest forecast is $25 to $35 million. Early reviews are scarce, with one critic calling the fights well staged.",
-      "next": "Watch for opening weekend numbers and whether reviews arrive before Friday.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "Street Fighter II was an arcade hit in the early 1990s."
-        },
-        {
-          "label": "Trend",
-          "text": "Game adaptations have topped the box office in recent years."
-        },
-        {
-          "label": "Big name",
-          "text": "Jason Momoa and 50 Cent are in the cast."
-        }
-      ],
-      "background": "Street Fighter is Capcom's fighting game series, first released in 1987.",
-      "entities": [
-        "Capcom",
-        "Theatrical releases",
-        "Revived franchises"
-      ],
-      "meme": {
-        "top": "A 1990s arcade game",
-        "bottom": "Now a two-hour film",
-        "take": "Street Fighter finally gets a film where nobody has to insert another coin."
-      },
-      "stats": [
-        {
-          "value": "$25-35M",
-          "label": "opening forecast"
-        },
-        {
-          "value": "Oct 16",
-          "label": "release date"
-        },
-        {
-          "value": "1h 59m",
-          "label": "running time"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 76,
-      "prevHype": null,
-      "source": "Rotten Tomatoes",
-      "url": "https://rottentomatoes.com/m/street_fighter_2026",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "tech-xbow-ai-chrome-exploit",
-      "title": "AI agents built a full Chrome exploit that earned a $250,000 Google bounty",
-      "summary": "Security firm XBOW says agents running OpenAI's GPT-5.6 Sol chained three bugs in six days for about $40,000 in compute.",
-      "why": "It shows AI can now do serious offensive security work that used to take expert teams.",
-      "happened": "XBOW says its AI agents built a full-chain Chrome exploit from three bugs, earning Google's $250,000 bounty, CyberInsider reports. The work took six days and about $40,000 of compute, with humans choosing targets. Google has patched all three flaws.",
-      "next": "Watch for how browser makers and bug bounty programs adjust to AI-found exploits.",
-      "drivers": [
-        {
-          "label": "First of its kind",
-          "text": "A full-chain browser exploit built largely by AI agents is new."
-        },
-        {
-          "label": "Money",
-          "text": "The bounty paid out $250,000 for about $40,000 of compute."
-        },
-        {
-          "label": "Risk",
-          "text": "The same skills could help attackers as well as defenders."
-        }
-      ],
-      "background": "Bug bounties pay researchers who report security flaws privately so companies can fix them first.",
-      "entities": [
-        "Google",
-        "OpenAI",
-        "Cybersecurity",
-        "AI agents"
-      ],
-      "meme": {
-        "top": "$40,000 of compute",
-        "bottom": "$250,000 bounty",
-        "take": "The AI found three Chrome bugs and a business model."
-      },
-      "stats": [
-        {
-          "value": "$250K",
-          "label": "Google bounty"
-        },
-        {
-          "value": "~$40K",
-          "label": "compute cost"
-        },
-        {
-          "value": "6 days",
-          "label": "time to build"
-        }
-      ],
-      "motif": "shield",
-      "category": "tech",
-      "hype": 74,
-      "prevHype": null,
-      "source": "CyberInsider",
-      "url": "https://cyberinsider.com/google-pays-250k-bounty-for-ai-assisted-chrome-exploit-built-in-six-days/",
-      "published": "2026-10-13"
-    },
-    {
-      "id": "ai-apple-intelligence-china",
-      "title": "Apple is reported to launch its first AI features in China in December",
-      "summary": "Bloomberg says Apple Intelligence will reach mainland China with iOS 27.3, built with Alibaba, without the new Siri.",
-      "why": "China is one of Apple's biggest markets, and it has been the main region without Apple's AI tools.",
-      "happened": "Apple plans to bring Genmoji, notification summaries, writing tools and Photos clean-up to mainland China in December via iOS 27.3, Bloomberg reports. It built a China-specific model with Alibaba and agreed to a content filter regulators can approve. Siri's AI features are excluded.",
-      "next": "Watch for Apple confirming the launch and whether Siri's AI follows later.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "China is one of Apple's largest iPhone markets."
-        },
-        {
-          "label": "Rivalry",
-          "text": "Chinese phone makers already ship AI features at home."
-        },
-        {
-          "label": "Controversy",
-          "text": "The launch depends on a government-approved content filter."
-        }
-      ],
-      "background": "Apple Intelligence is Apple's suite of AI features for iPhone, iPad and Mac, launched in 2024.",
-      "entities": [
-        "Apple",
-        "China"
-      ],
-      "meme": {
-        "top": "Apple Intelligence comes to China",
-        "bottom": "Some intelligence not included",
-        "take": "Apple's AI reaches China in December, with Siri staying home to think about it."
-      },
-      "stats": [
-        {
-          "value": "Dec",
-          "label": "China launch, reported"
-        },
-        {
-          "value": "iOS 27.3",
-          "label": "software version, reported"
+          "value": "120",
+          "label": "days to deliver a report"
         }
       ],
       "motif": "globe",
       "category": "ai",
-      "hype": 72,
+      "hype": 62,
       "prevHype": null,
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-prepares-to-debut-first-ai-features-in-china-in-december",
-      "published": "2026-10-14"
+      "source": "Semafor",
+      "url": "https://www.semafor.com/article/10/15/2026/white-houses-ai-task-force-gets-to-work",
+      "published": "2026-10-15"
     },
     {
-      "id": "tech-openai-apple-device-files",
-      "title": "OpenAI says a former staffer took device files with him to Apple",
-      "summary": "In a court filing, OpenAI alleges the employee moved over 100 confidential files on an unreleased device before rejoining Apple.",
-      "why": "Apple and OpenAI are now fighting in court over talent and secrets as both build AI hardware.",
-      "happened": "OpenAI alleged in a Tuesday filing that a former staffer moved more than 100 confidential files about an unreleased device to personal accounts on his last day, 9to5Mac reports. Apple says it found no evidence supporting the claims. Apple sued OpenAI over trade secrets in July.",
-      "next": "Watch for Apple's formal response in court and any ruling on the files.",
+      "id": "ent-beekeeper-2-teaser",
+      "title": "Jason Statham returns in the first Beekeeper 2 teaser",
+      "summary": "Amazon MGM's sequel, directed by Timo Tjahjanto, opens in cinemas on January 15.",
+      "why": "The first film was a surprise action hit, and sequels to hits draw quick fan interest.",
+      "happened": "Amazon MGM released the first teaser for The Beekeeper 2, which opens January 15, Dark Horizons reports. Statham's Adam Clay must protect the US President from rogue Beekeepers. Timo Tjahjanto directs, and Pom Klementieff and Yara Shahidi join the cast.",
+      "next": "Watch for a full trailer before the January release.",
       "drivers": [
         {
           "label": "Big name",
-          "text": "Apple and OpenAI are two of tech's most watched companies."
+          "text": "Jason Statham is one of action cinema's most reliable stars."
         },
-        {
-          "label": "Rivalry",
-          "text": "Both are racing to build AI devices."
-        },
-        {
-          "label": "Controversy",
-          "text": "Each company now accuses the other over trade secrets."
-        }
-      ],
-      "background": "OpenAI is building its own hardware devices. Apple sued OpenAI in July 2026 alleging theft of trade secrets.",
-      "entities": [
-        "OpenAI",
-        "Apple"
-      ],
-      "meme": {
-        "top": "Apple sued OpenAI over secrets",
-        "bottom": "OpenAI replied: same to you",
-        "take": "Apple and OpenAI's hardware rivalry has reached its most advanced stage: mutual paperwork."
-      },
-      "stats": [
-        {
-          "value": "100+",
-          "label": "files allegedly moved"
-        }
-      ],
-      "motif": "doc",
-      "category": "tech",
-      "hype": 72,
-      "prevHype": null,
-      "source": "9to5Mac",
-      "url": "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "game-modern-warfare-4-early-access",
-      "title": "Modern Warfare 4's campaign early access starts October 16",
-      "summary": "Digital pre-order buyers can play the campaign a week before the October 23 launch on PS5, Xbox, PC and Switch 2.",
-      "why": "Call of Duty is one of the best-selling series every year, and this is its first entry on Switch 2.",
-      "happened": "Modern Warfare 4's campaign opens early on October 16 for digital pre-orders, with DMZ early access on October 20, GamingBible reports. The full game launches October 23. PC needs 115GB of free SSD space, and the game is not on Game Pass at launch.",
-      "next": "Watch for reviews of the campaign and launch player numbers on October 23.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Call of Duty is one of gaming's biggest yearly releases."
-        },
-        {
-          "label": "Rivalry",
-          "text": "Battlefield 6 joined Game Pass ten days before its launch."
-        },
-        {
-          "label": "First of its kind",
-          "text": "It is coming to Nintendo Switch 2."
-        }
-      ],
-      "background": "Call of Duty is Activision's military shooter series. Activision is owned by Microsoft.",
-      "entities": [
-        "Call of Duty",
-        "Microsoft",
-        "Nintendo Switch 2",
-        "New game releases"
-      ],
-      "meme": {
-        "top": "Pay early, play early",
-        "bottom": "Also free up 115GB early",
-        "take": "Modern Warfare 4 lands on Switch 2, so the war is now portable. Bring a charger."
-      },
-      "stats": [
-        {
-          "value": "Oct 16",
-          "label": "campaign early access"
-        },
-        {
-          "value": "Oct 23",
-          "label": "full release"
-        },
-        {
-          "value": "115GB",
-          "label": "PC SSD space needed"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 72,
-      "prevHype": 68,
-      "source": "GamingBible",
-      "url": "https://www.gamingbible.com/news/modern-warfare-4-release-time-preload-download-size-early-access-714895-20261012",
-      "published": "2026-10-12"
-    },
-    {
-      "id": "ai-canada-publishers-sue-anthropic",
-      "title": "Six Canadian news publishers sue Anthropic over scraped articles",
-      "summary": "The Toronto Star, Globe and Mail, Postmedia and Canadian Press are among those suing in an Ontario court.",
-      "why": "It adds Canada to the global fight over whether AI firms may train on news without paying.",
-      "happened": "Six publishers sued Anthropic in Ontario Superior Court, alleging its crawler bypassed paywalls to copy millions of articles, Broadcast Dialogue reports. They cite about 4.2 million Canadian Press works and seek up to C$20,000 per work plus punitive damages. The claims have not been tested in court.",
-      "next": "Watch for Anthropic's response and whether other publishers join the case.",
-      "drivers": [
         {
           "label": "Money",
-          "text": "Damages are sought per work, across millions of articles."
-        },
-        {
-          "label": "Trend",
-          "text": "News publishers worldwide are suing AI companies."
-        },
-        {
-          "label": "Timing",
-          "text": "It lands as Anthropic prepares for a stock market listing."
-        }
-      ],
-      "background": "AI companies train models on large amounts of web text. Publishers argue this needs permission and payment.",
-      "entities": [
-        "Anthropic",
-        "AI copyright"
-      ],
-      "meme": {
-        "top": "The crawler read every article",
-        "bottom": "The lawyers will read them again",
-        "take": "Anthropic is accused of reading the news without paying, like most of the internet."
-      },
-      "stats": [
-        {
-          "value": "6",
-          "label": "publishers suing"
-        },
-        {
-          "value": "C$20,000",
-          "label": "damages sought per work"
-        },
-        {
-          "value": "4.2M",
-          "label": "Canadian Press works cited"
-        }
-      ],
-      "motif": "doc",
-      "category": "ai",
-      "hype": 70,
-      "prevHype": null,
-      "source": "Broadcast Dialogue",
-      "url": "https://broadcastdialogue.com/canadian-news-publishers-sue-anthropic-over-ai-copyright-infringement/",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "tech-cisco-email-gateway-zero-day",
-      "title": "Cisco warns attackers are exploiting a critical email security flaw",
-      "summary": "A 9.8-severity bug in Cisco Secure Email Gateway can let an attacker write files and possibly run commands as root.",
-      "why": "Email gateways guard company inboxes, so a hole in one exposes everything behind it.",
-      "happened": "Cisco says attackers are actively exploiting CVE-2026-76519 in Secure Email Gateway, The Hacker News reports. Fixes shipped September 14, but there is no workaround and no fix for version 16.0. Cisco has contacted cloud customers showing signs of possible compromise.",
-      "next": "Watch for how many devices were hit and whether attackers are named.",
-      "drivers": [
-        {
-          "label": "Risk",
-          "text": "It is rated 9.8 out of 10 for severity."
-        },
-        {
-          "label": "Scale",
-          "text": "Cisco gear is used by many large companies and governments."
-        },
-        {
-          "label": "Timing",
-          "text": "Attacks began weeks after fixes quietly shipped."
-        }
-      ],
-      "background": "Cisco is one of the largest makers of networking and security equipment for businesses.",
-      "entities": [
-        "Cisco",
-        "Cybersecurity"
-      ],
-      "meme": {
-        "top": "The gateway that screens your email",
-        "bottom": "Needed screening itself",
-        "take": "Cisco's email security box has a security flaw. The one message it couldn't filter."
-      },
-      "stats": [
-        {
-          "value": "9.8",
-          "label": "CVSS severity score"
-        },
-        {
-          "value": "Sep 14",
-          "label": "fixed builds released"
-        }
-      ],
-      "motif": "shield",
-      "category": "tech",
-      "hype": 70,
-      "prevHype": null,
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "game-gta6-pc-early-2027",
-      "title": "GTA 6 on PC is reported for the first three months of 2027",
-      "summary": "GamesBeat says Rockstar plans a PC release a few months after the November 19 console launch.",
-      "why": "PC players have been waiting to hear when they can play the biggest game of the year.",
-      "happened": "Rockstar plans to release GTA 6 on PC in the first quarter of 2027, GamesBeat reports, citing four people familiar with the plans, via Beebom. The game launches on PS5 and Xbox Series X|S on November 19. Rockstar has not confirmed a PC date.",
-      "next": "Watch for any update at Take-Two's earnings on November 9.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "GTA 6 is one of the most anticipated games ever."
+          "text": "The first film made $162 million worldwide."
         },
         {
           "label": "Fan demand",
-          "text": "PC players were left out of the launch plan."
+          "text": "Action sequels to hits often build quick buzz."
+        }
+      ],
+      "background": "The Beekeeper (2024) starred Jason Statham as a former government agent. David Ayer directed it.",
+      "entities": [
+        "Amazon",
+        "Theatrical releases"
+      ],
+      "meme": {
+        "top": "He protected the hive",
+        "bottom": "Now he protects the President",
+        "take": "The Beekeeper 2 gives Jason Statham a promotion, and the bees a pay cut."
+      },
+      "stats": [
+        {
+          "value": "Jan 15",
+          "label": "release date"
+        },
+        {
+          "value": "$162M",
+          "label": "first film's worldwide gross"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 62,
+      "prevHype": null,
+      "source": "Dark Horizons",
+      "url": "https://www.darkhorizons.com/teaser-jason-statham-in-the-beekeeper-2/",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "ent-netflix-diplomat-hollywood-arts",
+      "title": "Netflix drops The Diplomat season 4 and Victorious spin-off Hollywood Arts",
+      "summary": "Both series arrived in full on October 15, alongside ABC's 9-1-1 and Grey's Anatomy premieres.",
+      "why": "A big Thursday of returning shows gives streamers and networks a key autumn weekend.",
+      "happened": "Netflix released all eight episodes of The Diplomat season 4 and all twelve of Hollywood Arts on October 15, TVLine lists. Hollywood Arts stars Daniella Monet as Trina Vega, now a substitute teacher. ABC premiered new seasons of 9-1-1 and Grey's Anatomy the same night.",
+      "next": "Watch for whether either show reaches Netflix's weekly top 10.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "Victorious was a Nickelodeon hit in the early 2010s."
+        },
+        {
+          "label": "Fan demand",
+          "text": "The Diplomat has built a loyal audience over three seasons."
         },
         {
           "label": "Timing",
-          "text": "It comes just over a month before release."
+          "text": "Several big network premieres landed the same night."
         }
       ],
-      "background": "Grand Theft Auto is Rockstar Games' open-world crime series. Rockstar's past GTA games reached PC after consoles.",
+      "background": "The Diplomat is a Netflix political drama starring Keri Russell as a US ambassador.",
       "entities": [
-        "Grand Theft Auto",
-        "Take-Two",
-        "PC gaming"
+        "Netflix",
+        "Streaming premieres"
       ],
       "meme": {
-        "top": "Consoles: November 19",
-        "bottom": "PC players: stretching, hydrating",
-        "take": "Reported PC date: early 2027. PC players: already arguing about graphics settings."
+        "top": "Twenty episodes in one night",
+        "bottom": "Your weekend has been cancelled",
+        "take": "Netflix released twenty episodes at once, a generous gift to anyone without plans."
       },
       "stats": [
         {
-          "value": "Q1 2027",
-          "label": "PC release, reported"
+          "value": "8",
+          "label": "Diplomat season 4 episodes"
         },
         {
-          "value": "Nov 19",
-          "label": "console release"
-        },
-        {
-          "value": "Nov 9",
-          "label": "Take-Two earnings"
+          "value": "12",
+          "label": "Hollywood Arts episodes"
         }
       ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 70,
-      "prevHype": 86,
-      "source": "Beebom",
-      "url": "https://beebom.com/gta-6-pc-reportedly-releasing-in-q1-2027/",
-      "published": "2026-10-13"
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 60,
+      "prevHype": null,
+      "source": "TVLine",
+      "url": "https://www.tvline.com/2277522/what-to-watch-october-15-2026-tv-shows-movies/",
+      "published": "2026-10-15"
     },
     {
-      "id": "tech-meta-github-breach",
-      "title": "Meta says hackers took code and data on about 1,500 people from its GitHub",
-      "summary": "Attackers used an employee's stolen login to reach some Meta code repositories, the company says.",
-      "why": "A breach at one of the largest tech companies shows how one stolen password can expose source code.",
-      "happened": "Attackers used stolen employee credentials to access some of Meta's GitHub repositories, SecurityWeek reports. Meta says 99% of what was taken was code, and the rest was personal data on about 1,500 people, mostly US employees, stored there against policy. Notifications began October 13.",
-      "next": "Watch for what personal data was involved and whether stolen code surfaces online.",
+      "id": "tech-ransomware-ai-survey",
+      "title": "Survey finds attackers used AI in most ransomware attacks",
+      "summary": "A Semperis survey found 84% of organizations hit by ransomware said attackers used AI somewhere in the attack.",
+      "why": "AI may be making common cyberattacks faster and cheaper to run.",
+      "happened": "84% of organizations hit by ransomware said attackers used AI somewhere in the attack, a Semperis survey found, CBS News reports. 44% said criminals exploited the victims' own AI systems. Many breaches still relied on familiar identity and security weaknesses.",
+      "next": "Watch for whether companies change how they secure their own AI tools.",
       "drivers": [
         {
-          "label": "Big name",
-          "text": "Meta owns Facebook, Instagram and WhatsApp."
-        },
-        {
-          "label": "Scale",
-          "text": "About 1,500 people are being notified."
-        },
-        {
           "label": "Risk",
-          "text": "Stolen logins remain a top way into company systems."
+          "text": "Ransomware can shut down hospitals, factories and offices."
+        },
+        {
+          "label": "Trend",
+          "text": "Both attackers and defenders are adopting AI tools."
         }
       ],
-      "background": "GitHub is Microsoft's code hosting service, used by most software companies to store and share code.",
+      "background": "Ransomware is malware that locks or steals data and demands payment to release it.",
       "entities": [
-        "Meta",
         "Cybersecurity",
-        "Data breaches"
+        "AI agents"
       ],
       "meme": {
-        "top": "Policy: no personal data in repos",
-        "bottom": "The repos: about that",
-        "take": "Meta says 99% of what was taken was just code, which is the good news, somehow."
+        "top": "Companies installed AI tools",
+        "bottom": "So did the people attacking them",
+        "take": "Ransomware gangs have adopted AI faster than most procurement departments."
       },
       "stats": [
         {
-          "value": "~1,500",
-          "label": "people affected"
+          "value": "84%",
+          "label": "victims citing AI in attack"
         },
         {
-          "value": "99%",
-          "label": "of stolen data was code, Meta says"
+          "value": "44%",
+          "label": "say own AI systems exploited"
         }
       ],
       "motif": "shield",
       "category": "tech",
-      "hype": 68,
-      "prevHype": 84,
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
-      "published": "2026-10-13"
-    },
-    {
-      "id": "ai-amazon-decart-talks",
-      "title": "Amazon is reported in talks to buy AI video startup Decart for about $7 billion",
-      "summary": "The Wall Street Journal says Amazon is negotiating for Decart, whose models generate live video and interactive worlds.",
-      "why": "It would be one of Amazon's biggest AI deals and follows failed takeover talks with Anthropic.",
-      "happened": "Amazon is negotiating to buy Decart AI for about $7 billion, the Wall Street Journal reports. The aim is said to be running AI workloads more efficiently on Amazon's Trainium chips. Anthropic ended its own talks with Decart in September.",
-      "next": "Watch for confirmation of a deal and its final price.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "A $7 billion price would be large for a young startup."
-        },
-        {
-          "label": "Rivalry",
-          "text": "Anthropic walked away from Decart weeks earlier."
-        },
-        {
-          "label": "Trend",
-          "text": "Big tech keeps buying AI startups for talent and technology."
-        }
-      ],
-      "background": "Amazon runs AWS, the largest cloud computing provider, and designs its own AI chips called Trainium.",
-      "entities": [
-        "Amazon",
-        "AI funding",
-        "Anthropic"
-      ],
-      "meme": {
-        "top": "Anthropic looked and walked away",
-        "bottom": "Amazon looked and opened its wallet",
-        "take": "Decart has now been almost bought by two companies, a strong start to any career."
-      },
-      "stats": [
-        {
-          "value": "~$7B",
-          "label": "deal value, reported"
-        }
-      ],
-      "motif": "bag",
-      "category": "ai",
-      "hype": 66,
+      "hype": 60,
       "prevHype": null,
-      "source": "Rio Rundown",
-      "url": "https://riorundown.substack.com/p/ai-news-oct-14-2026-hardware-acceleration",
-      "published": "2026-10-11"
-    },
-    {
-      "id": "tech-north-korea-it-worker-raids",
-      "title": "FBI raids over 40 Texas homes in a North Korean remote IT worker scheme",
-      "summary": "The Justice Department says North Korean workers posed as US staff at about 70 companies in 16 states and DC.",
-      "why": "Fake remote hires can give hostile states paychecks and access inside ordinary companies.",
-      "happened": "The FBI searched more than 40 Texas homes and seized about 187 laptops used to disguise North Korean IT workers as US employees, TechCrunch reports. Two Americans were charged with wire fraud, money laundering and identity theft, and ten China-based people were also charged.",
-      "next": "Watch for more charges and the companies named in court filings.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "About 70 companies across 16 states and DC were affected."
-        },
-        {
-          "label": "Risk",
-          "text": "Insiders hired remotely can reach sensitive systems."
-        },
-        {
-          "label": "Trend",
-          "text": "US authorities have pursued similar schemes for several years."
-        }
-      ],
-      "background": "US officials say North Korea uses overseas IT workers with fake identities to earn money for the state.",
-      "entities": [
-        "Cybersecurity",
-        "North Korea"
-      ],
-      "meme": {
-        "top": "The remote hire never turned on video",
-        "bottom": "Now we know why",
-        "take": "Some firms learned their star remote hire was a laptop in Texas run from far away."
-      },
-      "stats": [
-        {
-          "value": "40+",
-          "label": "Texas homes searched"
-        },
-        {
-          "value": "~187",
-          "label": "laptops seized"
-        },
-        {
-          "value": "~70",
-          "label": "companies affected"
-        }
-      ],
-      "motif": "shield",
-      "category": "tech",
-      "hype": 66,
-      "prevHype": null,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies/",
-      "published": "2026-10-13"
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/ai-linked-ransomeware-attacks-global-cybersecurity-report/",
+      "published": "2026-10-15"
     },
     {
       "id": "game-xbox-nano-controller",
@@ -1321,7 +1803,8 @@
       "entities": [
         "Xbox",
         "Microsoft",
-        "Meta"
+        "Meta",
+        "Portable gaming"
       ],
       "meme": {
         "top": "Xbox shrank the controller",
@@ -1344,629 +1827,178 @@
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 66,
-      "prevHype": null,
+      "hype": 58,
+      "prevHype": 66,
       "source": "Thurrott",
       "url": "https://www.thurrott.com/games/342839/xbox-to-release-pocketable-nano-controller-in-november",
       "published": "2026-10-14"
     },
     {
-      "id": "tech-asml-q3-capacity",
-      "title": "ASML lifts its 2026 forecast and adds 30% capacity as AI demand grows",
-      "summary": "The chip equipment maker posted record third-quarter sales and still expects supply shortfalls.",
-      "why": "ASML makes the only machines that print the most advanced chips, so its orders track the AI chip boom.",
-      "happened": "ASML reported third-quarter sales of €11.66 billion and raised its 2026 revenue forecast to €44 to €45 billion, Investing.com reports. It is adding 30% capacity for EUV and immersion machines in 2027 and studying another 30% for 2028. Some customers want orders for 2029 and 2030.",
-      "next": "Watch for whether supply shortfalls ease as the new capacity comes online.",
+      "id": "game-peak-console-launch",
+      "title": "Indie hit Peak climbs onto consoles this month",
+      "summary": "The co-op climbing game will launch on consoles with all the updates and content released so far.",
+      "why": "Peak became a viral PC hit, and console players have been waiting to join in.",
+      "happened": "Peak, the co-op climbing game, is launching on consoles this month, Game Informer reports. The console version will include all updates and content released so far. The game became known as a 'friendslop' hit, a term for chaotic games played with friends.",
+      "next": "Watch for the exact console release date and platforms.",
       "drivers": [
         {
-          "label": "Money",
-          "text": "Record sales came with a higher full-year forecast."
+          "label": "Trend",
+          "text": "Cheap co-op games with friends have been viral hits."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Console players have waited for a version of their own."
+        }
+      ],
+      "background": "Peak is an indie co-op game in which players climb a mountain together.",
+      "entities": [
+        "New game releases",
+        "Indie games"
+      ],
+      "meme": {
+        "top": "A game about climbing a mountain",
+        "bottom": "With friends who will drop you",
+        "take": "Peak tests the bonds of friendship, mostly by letting go of them."
+      },
+      "stats": [],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 56,
+      "prevHype": null,
+      "source": "Game Informer",
+      "url": "https://gameinformer.com/2026/10/15/hit-indie-co-op-climbing-friendslop-game-peak-launches-on-consoles-this-month",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "tech-cohere-aisle-deal",
+      "title": "Cohere plans to buy AI security startup AISLE",
+      "summary": "The Canadian AI company signed a letter of intent to acquire AISLE and form a new Cohere Cyber unit.",
+      "why": "AI labs are racing to own tools that find software flaws before attackers do.",
+      "happened": "Cohere signed a letter of intent to acquire AISLE, a startup founded in 2025 by former Avast CEO Ondrej Vlcek, AISLE said on October 15. AISLE says its scanners found over 500 previously unknown flaws across 100+ codebases. Its Prague team will form Cohere Cyber.",
+      "next": "Watch for final deal terms and the closing date.",
+      "drivers": [
+        {
+          "label": "Trend",
+          "text": "AI-powered bug finding is a fast-growing field."
         },
         {
           "label": "Scale",
-          "text": "It plans 65 EUV and 130 immersion machines for 2027."
-        },
-        {
-          "label": "Trend",
-          "text": "AI chip demand is driving orders years ahead."
+          "text": "AISLE says it found 18 of 24 flaws fixed in cURL's October release."
         }
       ],
-      "background": "ASML is a Dutch company and the sole maker of EUV lithography machines used for advanced chips.",
+      "background": "Cohere is a Toronto-based AI company that builds language models for businesses.",
       "entities": [
-        "ASML",
-        "Chipmaking",
-        "AI chips"
+        "Cybersecurity",
+        "AI agents"
       ],
       "meme": {
-        "top": "Customers ordering for 2030",
-        "bottom": "ASML: please take a number",
-        "take": "ASML's waiting list now runs into 2030, which is one way to plan for the future."
+        "top": "A startup that finds bugs",
+        "bottom": "Found a buyer first",
+        "take": "AISLE scanned hundreds of codebases for flaws and found an acquirer in the process."
       },
       "stats": [
         {
-          "value": "€11.66B",
-          "label": "Q3 net sales"
+          "value": "500+",
+          "label": "unknown flaws found, per AISLE"
         },
         {
-          "value": "€44-45B",
-          "label": "2026 revenue forecast"
-        },
-        {
-          "value": "30%",
-          "label": "capacity increase for 2027"
+          "value": "100+",
+          "label": "codebases scanned"
         }
       ],
-      "motif": "chip",
+      "motif": "bag",
       "category": "tech",
-      "hype": 64,
+      "hype": 56,
       "prevHype": null,
-      "source": "Investing.com",
-      "url": "https://uk.investing.com/news/earnings/asml-raises-capacity-plans-as-ai-demand-drives-record-q3-sales-4908944",
-      "published": "2026-10-14"
+      "source": "AISLE",
+      "url": "https://aisle.com/blog/aisle-and-cohere-to-join-forces",
+      "published": "2026-10-15"
     },
     {
-      "id": "ent-youtube-music-ai-labels",
-      "title": "YouTube Music adds labels for AI-generated songs",
-      "summary": "Tracks will be tagged Fully Gen AI, Partly Gen AI or No Gen AI, but AI songs stay in recommendations.",
-      "why": "AI-made songs are flooding streaming services, and listeners want to know what they are hearing.",
-      "happened": "YouTube Music is adding three labels: Fully Gen AI, Partly Gen AI and No Gen AI, TechCrunch reports. Unlike Deezer and Tidal, it will not remove AI tracks from recommendations or royalties. Spotify already labels AI music, and Apple Music plans tags later this year.",
-      "next": "Watch for how labels are applied and whether YouTube changes how AI songs are paid.",
+      "id": "tech-bluesky-attie-expands",
+      "title": "Bluesky opens its Attie app so anyone can build sites and games with AI",
+      "summary": "Users can now make websites, quizzes, polls and small games tied to their Bluesky identity.",
+      "why": "It is a social network betting that AI-built apps can become a new kind of post.",
+      "happened": "Bluesky expanded its experimental Attie platform so anyone can build websites, quizzes, polls and small games, TechCrunch reports. Creators can plug in their own or open-weight models. CEO Toni Schneider called it social vibe coding, and work spreads across a network of 47 million users.",
+      "next": "Watch for what users build and how Bluesky handles moderation of AI-made apps.",
       "drivers": [
         {
           "label": "Trend",
-          "text": "AI-generated music is growing fast on streaming platforms."
+          "text": "Building apps by describing them to AI is spreading fast."
         },
         {
-          "label": "Rivalry",
-          "text": "Spotify, Deezer and Apple Music are taking different approaches."
-        },
-        {
-          "label": "Controversy",
-          "text": "Artists worry about AI tracks competing for royalties."
+          "label": "Scale",
+          "text": "Bluesky has 47 million registered users."
         }
       ],
-      "background": "YouTube Music is Google's music streaming service, launched in 2018.",
+      "background": "Bluesky is a social network built on the open AT Protocol.",
       "entities": [
-        "Google",
-        "AI music",
-        "Music streaming"
+        "AI coding",
+        "Open-weight models"
       ],
       "meme": {
-        "top": "Songs now come with labels",
-        "bottom": "Like Fully Gen AI. Catchy",
-        "take": "YouTube Music will now tell you when a song had no human involved, in case the lyrics didn't."
+        "top": "Social media was for posting",
+        "bottom": "Now it's for shipping software",
+        "take": "Bluesky now lets users build apps, giving everyone a new way to never finish a side project."
+      },
+      "stats": [
+        {
+          "value": "47M",
+          "label": "registered users"
+        }
+      ],
+      "motif": "phone",
+      "category": "tech",
+      "hype": 54,
+      "prevHype": null,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "published": "2026-10-15"
+    },
+    {
+      "id": "game-fire-emblem-fortunes-weave-pass",
+      "title": "Fire Emblem: Fortune's Weave gets a three-wave expansion pass",
+      "summary": "Nintendo's pass adds weapons now, new allies this holiday season and new stories in 2027.",
+      "why": "Paid expansions keep a strategy game alive long after launch.",
+      "happened": "Nintendo announced an expansion pass for Fire Emblem: Fortune's Weave, which launched last month, Simulation Daily reports. Wave 1, with four weapons, is out now. Wave 2 adds outfits and three allies this holiday, and Wave 3 brings new stories in 2027.",
+      "next": "Watch for the release date of Wave 2.",
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "Fire Emblem fans tend to play for many hours."
+        },
+        {
+          "label": "Money",
+          "text": "Expansion passes add revenue after launch."
+        }
+      ],
+      "background": "Fire Emblem is Nintendo's tactical role-playing series, first released in 1990.",
+      "entities": [
+        "Nintendo",
+        "Nintendo Switch 2"
+      ],
+      "meme": {
+        "top": "You finished the game",
+        "bottom": "Nintendo has three more waves",
+        "take": "Fire Emblem's expansion arrives in waves, which is how strategy fans like problems."
       },
       "stats": [
         {
           "value": "3",
-          "label": "new label types"
-        }
-      ],
-      "motif": "voice",
-      "category": "entertainment",
-      "hype": 64,
-      "prevHype": null,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "ai-anthropic-scion",
-      "title": "Anthropic open-sources Scion, its own Git replacement built with Claude",
-      "summary": "Anthropic says daily code merges jumped from about 2,500 to over 30,000, so it built a new version control system.",
-      "why": "It suggests AI coding tools are changing how much code big companies produce and manage.",
-      "happened": "Anthropic released Scion, a version control system seven engineers built in five months with Claude, the company says. It says merges in its main code store rose from about 2,500 a day in May to over 30,000 by September. A former Facebook engineer says its design closely follows Meta's Mononoke.",
-      "next": "Watch for outside teams trying Scion and Anthropic's reply to the Mononoke comparison.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "Anthropic reports more than 30,000 merges in a day."
+          "label": "content waves"
         },
         {
-          "label": "Trend",
-          "text": "AI coding agents are producing far more code changes."
-        },
-        {
-          "label": "Controversy",
-          "text": "Critics say it borrows from Meta's Mononoke without credit."
-        }
-      ],
-      "background": "Git is the most widely used system for tracking changes in software code. It was created in 2005.",
-      "entities": [
-        "Anthropic",
-        "AI coding",
-        "Meta"
-      ],
-      "meme": {
-        "top": "AI wrote too much code",
-        "bottom": "So AI wrote the tool to store it",
-        "take": "Anthropic's coding problem was solved by more coding, a very on-brand result."
-      },
-      "stats": [
-        {
-          "value": "30,000+",
-          "label": "merges in one day"
-        },
-        {
-          "value": "7",
-          "label": "engineers who built it"
-        },
-        {
-          "value": "5 months",
-          "label": "build time"
-        }
-      ],
-      "motif": "network",
-      "category": "ai",
-      "hype": 62,
-      "prevHype": null,
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "ai-scientists-letter-regulator",
-      "title": "More than 400 scientists call for an international AI regulator",
-      "summary": "Geoffrey Hinton and Yoshua Bengio led the letter, which asks for frontier models to be air-gapped during testing.",
-      "why": "It comes after several lab incidents where AI models reached systems they were not meant to touch.",
-      "happened": "More than 400 scientists from 34 countries called for an international body to oversee AI containment and incident reporting, BetaKit reports. Their most concrete demand is that frontier models be cut off from outside networks during development and testing. Yann LeCun declined to sign.",
-      "next": "Watch for responses from governments and the major AI labs.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Hinton and Bengio are two of the best-known AI researchers."
-        },
-        {
-          "label": "Risk",
-          "text": "Recent lab incidents involved models reaching outside systems."
-        },
-        {
-          "label": "Controversy",
-          "text": "Some prominent researchers, including LeCun, did not sign."
-        }
-      ],
-      "background": "Hinton, Bengio and LeCun shared the 2018 Turing Award for their work on deep learning.",
-      "entities": [
-        "AI safety",
-        "Frontier models"
-      ],
-      "meme": {
-        "top": "400 scientists, one request",
-        "bottom": "Please unplug it while testing",
-        "take": "The proposal for frontier AI safety is a sentence IT departments have used for decades."
-      },
-      "stats": [
-        {
-          "value": "400+",
-          "label": "scientists signing"
-        },
-        {
-          "value": "34",
-          "label": "countries"
-        }
-      ],
-      "motif": "globe",
-      "category": "ai",
-      "hype": 60,
-      "prevHype": null,
-      "source": "BetaKit",
-      "url": "https://betakit.com/geoffrey-hinton-yoshua-bengio-join-400-scientists-calling-for-international-ai-regulator/",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "ent-netflix-below-animals-top10",
-      "title": "Below and Ben Affleck's Animals top Netflix's charts in their first weeks",
-      "summary": "Below drew 17.0 million views and Animals 23.8 million, while Ice Age films filled half the English film top 10.",
-      "why": "Netflix's weekly charts show which new releases people actually watch.",
-      "happened": "Josh Hartnett's limited series Below led English TV with 17.0 million views for October 5 to 11, What's on Netflix reports. Animals led films with 23.8 million. Ice Age films, newly licensed from Disney, took half the English film top 10 spots.",
-      "next": "Watch for whether Below holds No. 1 in its second week.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Ben Affleck stars in Animals."
-        },
-        {
-          "label": "Scale",
-          "text": "Animals drew 23.8 million views in its first week."
-        },
-        {
-          "label": "Nostalgia",
-          "text": "Ice Age films returned to the chart through a Disney licensing deal."
-        }
-      ],
-      "background": "Netflix publishes weekly top 10 lists based on views, meaning hours watched divided by running time.",
-      "entities": [
-        "Netflix",
-        "Disney",
-        "Streaming charts"
-      ],
-      "meme": {
-        "top": "Netflix: big new originals",
-        "bottom": "Viewers: five Ice Age movies, please",
-        "take": "Half of Netflix's English film top 10 is Ice Age. The glacier beat the algorithm."
-      },
-      "stats": [
-        {
-          "value": "23.8M",
-          "label": "Animals views, week 1"
-        },
-        {
-          "value": "17.0M",
-          "label": "Below views, week 1"
-        },
-        {
-          "value": "5",
-          "label": "Ice Age spots in film top 10"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 60,
-      "prevHype": 76,
-      "source": "What's on Netflix",
-      "url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-josh-hartnetts-below-and-ben-afflecks-animals-top-the-charts/",
-      "published": "2026-10-13"
-    },
-    {
-      "id": "ent-other-mommy-opening",
-      "title": "Other Mommy opens at No. 1 with $27.5 million",
-      "summary": "The Jessica Chastain horror film took $27.5 million on a $19 million budget despite a D+ audience grade.",
-      "why": "October is horror season, and an original film leading the chart is a useful sign for cinemas.",
-      "happened": "Universal and Blumhouse's Other Mommy opened to $27.5 million and $45 million worldwide, TheWrap reports. Its D+ CinemaScore is the lowest since Megalopolis. Verity fell 64% to about $11.5 million in its second weekend, and Resident Evil was third.",
-      "next": "Watch for how far it falls this weekend against Street Fighter, given its weak audience score.",
-      "drivers": [
-        {
-          "label": "Timing",
-          "text": "A horror release in October has the calendar on its side."
-        },
-        {
-          "label": "Money",
-          "text": "It took more than its $19 million budget in three days."
-        },
-        {
-          "label": "Controversy",
-          "text": "A D+ CinemaScore means opening-night audiences did not like it."
-        }
-      ],
-      "background": "Blumhouse is a production company known for low-budget horror hits. Universal is one of Hollywood's major studios.",
-      "entities": [
-        "Universal",
-        "Horror",
-        "Theatrical releases",
-        "Blumhouse"
-      ],
-      "meme": {
-        "top": "Audiences gave it a D+",
-        "bottom": "Then bought $27.5M in tickets",
-        "take": "Other Mommy proves people will pay good money to be disappointed, if it's scary."
-      },
-      "stats": [
-        {
-          "value": "$27.5M",
-          "label": "opening weekend"
-        },
-        {
-          "value": "$45M",
-          "label": "worldwide opening"
-        },
-        {
-          "value": "D+",
-          "label": "CinemaScore"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 58,
-      "prevHype": 70,
-      "source": "TheWrap",
-      "url": "https://www.thewrap.com/creative-content/movies/other-mommy-27-million-box-office/",
-      "published": "2026-10-11"
-    },
-    {
-      "id": "tech-globalfoundries-new-york-fabs",
-      "title": "GlobalFoundries will run two new New York chip plants funded by Japan",
-      "summary": "Up to $21 billion in Japanese money will build two 300mm fabs at Malta, New York, with the US taking a small stake.",
-      "why": "It is a large bet on making more chips in the US under a US-Japan deal.",
-      "happened": "GlobalFoundries will build and operate two 300mm fabs at its Malta, New York campus with up to $21 billion of Japanese funding, a company release says. The US Commerce Department takes about a 4% stake. The first fab is slated for 2029 after a late-2026 groundbreaking.",
-      "next": "Watch for the groundbreaking later in 2026 and details of the US stake.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "Up to $21 billion of funding comes from Japan."
-        },
-        {
-          "label": "Scale",
-          "text": "Each site would add 900,000 wafers a year."
-        },
-        {
-          "label": "Trend",
-          "text": "Governments are paying to bring chipmaking home."
-        }
-      ],
-      "background": "GlobalFoundries is a US contract chipmaker that builds chips designed by other companies.",
-      "entities": [
-        "GlobalFoundries",
-        "Chipmaking"
-      ],
-      "meme": {
-        "top": "A US chip plant",
-        "bottom": "Funded by Japan, part-owned by the US",
-        "take": "The future of American chipmaking is a group project, which is how the best ones go."
-      },
-      "stats": [
-        {
-          "value": "$21B",
-          "label": "Japanese funding, up to"
-        },
-        {
-          "value": "~4%",
-          "label": "US government stake"
-        },
-        {
-          "value": "2029",
-          "label": "first fab target"
-        }
-      ],
-      "motif": "chip",
-      "category": "tech",
-      "hype": 56,
-      "prevHype": null,
-      "source": "GlobeNewswire",
-      "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/globenewswire/globalfoundries-selected-to-operate-two-new-semiconductor-fabs-in-new-york-under-landmark-us-japan-initiative/2445585",
-      "published": "2026-10-14"
-    },
-    {
-      "id": "game-battlefield-6-season-5",
-      "title": "Battlefield 6 Season 5 launches with Las Vegas maps and joins Game Pass",
-      "summary": "The new season and the game's Game Pass debut both arrived on October 13, ten days before Modern Warfare 4.",
-      "why": "Joining Game Pass on the same day could bring a large new audience to one of the year's big shooters.",
-      "happened": "Season 5 launched October 13 with Vegas Strip and Area 51 maps and a Rapid Royale mode, DayOne reports. A Dead Space event runs October 20 to November 7. Battlefield 6 also joined PC Game Pass and Game Pass Ultimate the same day.",
-      "next": "Watch for player numbers on Game Pass and how they hold once Modern Warfare 4 arrives.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "Players have long asked for a server browser."
-        },
-        {
-          "label": "Timing",
-          "text": "The Game Pass launch lines up with the start of the new season."
-        },
-        {
-          "label": "Nostalgia",
-          "text": "The Dead Space crossover revives a dormant Electronic Arts horror series."
-        }
-      ],
-      "background": "Battlefield is Electronic Arts' large-scale military shooter series. Dead Space is a sci-fi horror series also owned by EA.",
-      "entities": [
-        "Battlefield",
-        "Electronic Arts",
-        "Game Pass",
-        "Call of Duty"
-      ],
-      "meme": {
-        "top": "Battlefield goes to Las Vegas",
-        "bottom": "And Area 51. Same trip, apparently",
-        "take": "Battlefield's new season: Vegas, aliens and Game Pass. A normal Nevada weekend."
-      },
-      "stats": [
-        {
-          "value": "Oct 13",
-          "label": "Season 5 and Game Pass launch"
-        },
-        {
-          "value": "5",
-          "label": "content phases"
-        },
-        {
-          "value": "100",
-          "label": "players per platoon"
+          "value": "4",
+          "label": "weapons in Wave 1"
         }
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 56,
-      "prevHype": 70,
-      "source": "DayOne",
-      "url": "https://playday.one/2026/10/13/battlefield-6-season-5-adds-new-maps-modes-and-a-dead-space-collaboration/",
-      "published": "2026-10-13"
-    },
-    {
-      "id": "ent-sacrifice-netflix",
-      "title": "Chris Evans and Anya Taylor-Joy's Sacrifice comes to Netflix on October 16",
-      "summary": "The apocalyptic comedy-thriller leads a busy week of new streaming films.",
-      "why": "Two well-known stars in a Netflix film usually means a big first weekend on the service.",
-      "happened": "Sacrifice, an apocalyptic comedy-thriller starring Chris Evans and Anya Taylor-Joy, streams on Netflix from October 16, Tom's Guide reports. Vincent Cassel, John Malkovich and Salma Hayek also appear.",
-      "next": "Watch for its debut on Netflix's top 10 next week.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Chris Evans and Anya Taylor-Joy lead the cast."
-        },
-        {
-          "label": "Timing",
-          "text": "It arrives in a crowded week for streaming films."
-        }
-      ],
-      "background": "Netflix is the largest subscription streaming service and releases new films every week.",
-      "entities": [
-        "Netflix",
-        "Streaming premieres"
-      ],
-      "meme": {
-        "top": "The apocalypse is coming",
-        "bottom": "Friday, on Netflix, as a comedy",
-        "take": "Netflix found the bright side of the end of the world. It streams from October 16."
-      },
-      "stats": [
-        {
-          "value": "Oct 16",
-          "label": "Netflix release"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 56,
-      "prevHype": 50,
-      "source": "Tom's Guide",
-      "url": "https://www.tomsguide.com/entertainment/movies/7-top-new-movies-to-stream-this-week-on-netflix-prime-video-hbo-max-and-more-including-an-apocalyptic-comedy-with-chris-evans-and-anya-taylor-joy-oct-13-19",
-      "published": "2026-10-13"
-    },
-    {
-      "id": "tech-amazon-alexa-tablets",
-      "title": "Amazon's new Alexa tablets go on sale in the US from $230",
-      "summary": "Three Alexa Tablet models arrived in the US, Mexico and Canada on October 14, with Europe following on October 19.",
-      "why": "Amazon is putting Alexa at the center of its devices as rivals push smart home screens.",
-      "happened": "Amazon's Alexa Tablet 8, 11 and 12 Pro became available on October 14 in the US, Mexico and Canada, Engadget reports. Prices start at $230, $330 and $500. The UK, Germany, France, Italy and Spain get them on October 19. A $249 Ring smart lock arrives early next year.",
-      "next": "Watch for reviews and how they compare with Apple's new HomeView.",
-      "drivers": [
-        {
-          "label": "Rivalry",
-          "text": "Apple unveiled its own smart home display the day before."
-        },
-        {
-          "label": "Big name",
-          "text": "Alexa is one of the most used voice assistants."
-        },
-        {
-          "label": "Timing",
-          "text": "They arrive ahead of the holiday shopping season."
-        }
-      ],
-      "background": "Amazon makes Echo speakers, Kindle e-readers and Fire tablets, and runs the Alexa voice assistant.",
-      "entities": [
-        "Amazon",
-        "Smart home"
-      ],
-      "meme": {
-        "top": "Apple launched a kitchen screen",
-        "bottom": "Amazon launched three, the next day",
-        "take": "The smart home wars have reached the stage where every room needs a tablet and a lawyer."
-      },
-      "stats": [
-        {
-          "value": "$230",
-          "label": "Alexa Tablet 8 starting price"
-        },
-        {
-          "value": "$500",
-          "label": "Alexa Tablet 12 Pro"
-        },
-        {
-          "value": "Oct 19",
-          "label": "Europe availability"
-        }
-      ],
-      "motif": "home",
-      "category": "tech",
-      "hype": 54,
+      "hype": 52,
       "prevHype": null,
-      "source": "Engadget",
-      "url": "https://engadget.com/2281378/everything-amazon-announced-october-2026-alexa-tablet-kindle-fire-tv-ring-lock",
+      "source": "Simulation Daily",
+      "url": "https://simulationdaily.com/news/today-in-gaming-news-october-14-2026/",
       "published": "2026-10-14"
-    },
-    {
-      "id": "ent-taylor-swift-100-weeks",
-      "title": "Taylor Swift becomes the first solo act with 100 weeks at No. 1",
-      "summary": "The Life of a Showgirl spent a 14th week atop the Billboard 200, leaving only the Beatles ahead of her on the all-time list.",
-      "why": "It is a rare chart record, and only one act in history has more weeks at the top.",
-      "happened": "The Life of a Showgirl earned 93,000 units to lead the Billboard 200 for a 14th week, Billboard reports. That gives Swift 100 weeks at No. 1 across 15 albums, behind the Beatles' 132. The Beatles' Rubber Soul also returned to No. 4.",
-      "next": "Watch for whether the album extends its run on next week's chart.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Swift is one of the best-selling artists in the world."
-        },
-        {
-          "label": "Record",
-          "text": "No solo act had reached 100 weeks at No. 1 before."
-        },
-        {
-          "label": "Fan demand",
-          "text": "An expanded Encore edition added four new songs."
-        }
-      ],
-      "background": "The Billboard 200 ranks the most popular albums in the US each week, combining sales and streams.",
-      "entities": [
-        "Taylor Swift",
-        "The Beatles",
-        "Music streaming"
-      ],
-      "meme": {
-        "top": "Taylor Swift: 100 weeks at No. 1",
-        "bottom": "The Beatles: still 32 ahead",
-        "take": "The all-time chart race is close, and one side stopped recording in 1970."
-      },
-      "stats": [
-        {
-          "value": "100",
-          "label": "weeks at No. 1, all albums"
-        },
-        {
-          "value": "93K",
-          "label": "units this week"
-        },
-        {
-          "value": "132",
-          "label": "weeks for the Beatles"
-        }
-      ],
-      "motif": "voice",
-      "category": "entertainment",
-      "hype": 50,
-      "prevHype": 56,
-      "source": "Billboard",
-      "url": "https://www.billboard.com/music/chart-beat/taylor-swift-beatles-100-weeks-number-one-billboard-200-1236358736/",
-      "published": "2026-10-11"
-    },
-    {
-      "id": "ent-baywatch-reboot-trailer",
-      "title": "Fox releases the first trailer for its Baywatch reboot, premiering in January",
-      "summary": "Stephen Amell leads the new 12-episode Baywatch, with some original cast members returning as guests.",
-      "why": "Baywatch was one of the most watched shows in the world in the 1990s.",
-      "happened": "Fox released the official trailer for its Baywatch reboot, premiering in January 2027, mxdwn reports. Stephen Amell plays Captain Hobie Buchannon, and Matt Nix is showrunner. David Chokachi returns in a recurring role.",
-      "next": "Watch for an exact premiere date and more returning cast announcements.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "Original cast members return for the new season."
-        },
-        {
-          "label": "Big name",
-          "text": "Stephen Amell led the series Arrow for eight seasons."
-        },
-        {
-          "label": "Trend",
-          "text": "Networks keep reviving 1990s hits."
-        }
-      ],
-      "background": "Baywatch ran from 1989 to 2001 and followed lifeguards in Los Angeles County.",
-      "entities": [
-        "Fox",
-        "Revived franchises",
-        "TV reboots"
-      ],
-      "meme": {
-        "top": "Baywatch is back on Fox",
-        "bottom": "Rescuing the 90s, one reboot at a time",
-        "take": "Television has found the one thing it can always rescue: an old brand name."
-      },
-      "stats": [
-        {
-          "value": "12",
-          "label": "episodes in season one"
-        },
-        {
-          "value": "Jan 2027",
-          "label": "premiere on Fox"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 48,
-      "prevHype": 64,
-      "source": "mxdwn Television",
-      "url": "https://television.mxdwn.com/news/foxs-baywatch-reboot-reveals-official-trailer-with-january-2027-premiere/",
-      "published": "2026-10-13"
     }
   ]
 }
