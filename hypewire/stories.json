@@ -1,34 +1,246 @@
 {
-  "refreshedAt": "2026-10-19T02:36:42Z",
+  "refreshedAt": "2026-10-20T02:38:29Z",
   "briefing": [
     {
-      "id": "ent-street-fighter-opening",
-      "text": "Street Fighter won the weekend with $31 million in North America and $51 million worldwide."
-    },
-    {
-      "id": "ai-anthropic-public-benefit-fund",
-      "text": "Anthropic plans to put 5% of its shares into a new fund for charity and AI job impacts."
-    },
-    {
-      "id": "tech-chip-stocks-eighth-drop",
-      "text": "Chip stocks fell for an eighth straight day amid doubts about AI spending."
-    },
-    {
-      "id": "ai-openai-humanoid-robot",
-      "text": "Sam Altman confirmed OpenAI is building a humanoid robot, with a demo expected in 2027."
+      "id": "tech-iphone-duo-preorders",
+      "text": "Apple is moving some iPhone Duo deliveries earlier ahead of Friday's launch."
     },
     {
       "id": "game-modern-warfare-4-early-reviews",
-      "text": "Modern Warfare 4's campaign is 92% positive on Steam ahead of its October 23 launch."
+      "text": "Modern Warfare 4 campaign reviews are in ahead of its October 23 launch, Switch 2 included."
+    },
+    {
+      "id": "ent-edgerunners-2-netflix",
+      "text": "Cyberpunk: Edgerunners 2 is out on Netflix today."
+    },
+    {
+      "id": "ai-nscale-anthropic-45b",
+      "text": "Nscale and Anthropic are reported to be in talks on a $45 billion computing deal."
+    },
+    {
+      "id": "tech-chip-stocks-rebound",
+      "text": "Chip stocks bounced on Monday after their longest losing run in 16 years."
     }
   ],
   "stories": [
+    {
+      "id": "tech-iphone-duo-preorders",
+      "title": "Apple moves some iPhone Duo deliveries earlier ahead of Friday's launch",
+      "summary": "Some US and Japan buyers of the sold-out $1,999 foldable are seeing delivery estimates pulled forward by weeks.",
+      "why": "It is Apple's first new iPhone shape in years and its most expensive phone ever.",
+      "happened": "MacRumors reports one US estimate moved from December to November 20-30, and a Japan order moved to October 24. Within 30 minutes of preorders on October 16, new US estimates hit January 25. Apple called demand 'nothing short of extraordinary.'",
+      "next": "Watch for launch-day stock on October 23 and whether more delivery dates move up.",
+      "drivers": [
+        {
+          "label": "First of its kind",
+          "text": "It is Apple's first foldable phone."
+        },
+        {
+          "label": "Money",
+          "text": "A $1,999 starting price is the highest for an iPhone."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Shipping dates slipped into 2027 within half an hour."
+        }
+      ],
+      "background": "Apple makes the iPhone, the world's best-selling smartphone line.",
+      "entities": [
+        "Apple",
+        "Smartphones"
+      ],
+      "meme": {
+        "top": "Apple said January",
+        "bottom": "Apple now says possibly November",
+        "take": "Apple has perfected the art of making a phone feel early by first making it late."
+      },
+      "stats": [
+        {
+          "value": "$1,999",
+          "label": "starting price"
+        },
+        {
+          "value": "Oct 23",
+          "label": "launch day"
+        },
+        {
+          "value": "Jan 25",
+          "label": "early US shipping estimate"
+        }
+      ],
+      "motif": "phone",
+      "category": "tech",
+      "hype": 90,
+      "prevHype": 92,
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/10/19/apple-starts-moving-up-iphone-duo-delivery-dates/",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "game-modern-warfare-4-early-reviews",
+      "title": "Modern Warfare 4's campaign reviews land as it heads to Switch 2 too",
+      "summary": "Critics have weighed in on the campaign ahead of the October 23 launch, which includes a Nintendo Switch 2 version.",
+      "why": "Call of Duty is gaming's biggest annual series, and early player reaction shapes its launch.",
+      "happened": "Critic reviews of the campaign are out, Nintendo Life reports, after players gave the early-access campaign 92% positive Steam reviews. The game is among Steam's bestsellers and launches on October 23, including on Switch 2. DMZ early access starts October 20.",
+      "next": "Watch for whether scores hold once multiplayer opens on October 23.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "Call of Duty sells millions of copies every year."
+        },
+        {
+          "label": "Timing",
+          "text": "It launches weeks before GTA VI."
+        },
+        {
+          "label": "Big name",
+          "text": "Activision calls it one of the two biggest games of the year."
+        }
+      ],
+      "background": "Call of Duty is Activision's shooter series, now owned by Microsoft.",
+      "entities": [
+        "Call of Duty",
+        "Microsoft",
+        "New game releases",
+        "Nintendo"
+      ],
+      "meme": {
+        "top": "Call of Duty is coming to Nintendo",
+        "bottom": "Mario has seen worse frankly",
+        "take": "Modern Warfare 4 arrives on Switch 2, where it joins a library of mostly friendly plumbers."
+      },
+      "stats": [
+        {
+          "value": "92%",
+          "label": "positive Steam reviews"
+        },
+        {
+          "value": "3,156",
+          "label": "reviews counted"
+        },
+        {
+          "value": "Oct 23",
+          "label": "full launch"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 90,
+      "prevHype": 86,
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/10/round-up-the-reviews-for-call-of-duty-modern-warfare-4s-campaign-are-in",
+      "published": "2026-10-18"
+    },
+    {
+      "id": "game-gta6-one-month",
+      "title": "GTA VI is now one month from its November 19 release",
+      "summary": "Rockstar's long-delayed game is a month away, after slipping from 2025 and then from May 2026.",
+      "why": "GTA VI is expected to be one of the biggest entertainment launches ever.",
+      "happened": "GTA VI was first planned for 2025, then moved to May 26, 2026, and now to November 19, Game Rant notes via OpenCritic. Rockstar released a launch trailer on October 15. GamesBeat has reported a PC version for early 2027, which Rockstar has not confirmed.",
+      "next": "Watch for preload details and any word on the reported PC version.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "GTA V is one of the best-selling games of all time."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Players have waited more than a decade for a new GTA."
+        },
+        {
+          "label": "Timing",
+          "text": "It launches into the busy holiday season."
+        }
+      ],
+      "background": "Grand Theft Auto is Rockstar Games' open-world crime series, owned by Take-Two Interactive.",
+      "entities": [
+        "Grand Theft Auto",
+        "New game releases"
+      ],
+      "meme": {
+        "top": "GTA VI is one month away",
+        "bottom": "Fans have heard that one before",
+        "take": "For the first time in years, the GTA VI countdown has fewer zeroes than the delay jokes."
+      },
+      "stats": [
+        {
+          "value": "Nov 19",
+          "label": "release date"
+        },
+        {
+          "value": "Q1 2027",
+          "label": "PC version, reported"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 88,
+      "prevHype": null,
+      "source": "OpenCritic",
+      "url": "https://opencritic.com/news/38003/today-is-finally-the-end-of-an-era-for-gta-6",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "ent-edgerunners-2-netflix",
+      "title": "Cyberpunk: Edgerunners 2 is out on Netflix today",
+      "summary": "The 10-episode standalone sequel to the 2022 anime arrives on October 20, with Cyberpunk 2077 discounted 70% on Steam.",
+      "why": "The first Edgerunners was a surprise hit that sent players back to Cyberpunk 2077.",
+      "happened": "CD Projekt Red and Studio Trigger made the series, directed by Kai Ikarashi, with a new cast led by Weak and D. Viewers do not need to have seen the first season. Cyberpunk 2077 is $17.99 on Steam until October 26.",
+      "next": "Watch for whether it lifts Cyberpunk 2077's player numbers as the first season did.",
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "The first season was one of the most popular game adaptations on Netflix."
+        },
+        {
+          "label": "Money",
+          "text": "A 70% game discount is timed to the launch."
+        },
+        {
+          "label": "Big name",
+          "text": "Studio Trigger is a leading anime studio."
+        }
+      ],
+      "background": "Cyberpunk 2077 is CD Projekt Red's open-world game set in the dystopian Night City.",
+      "entities": [
+        "Netflix",
+        "Streaming premieres",
+        "Video game adaptations",
+        "CD Projekt Red"
+      ],
+      "meme": {
+        "top": "Edgerunners 2 is out today",
+        "bottom": "Cyberpunk 2077 is on sale today too",
+        "take": "CD Projekt Red would like to remind you the game is 70% off. Purely by coincidence."
+      },
+      "stats": [
+        {
+          "value": "Oct 20",
+          "label": "Netflix release"
+        },
+        {
+          "value": "10",
+          "label": "episodes"
+        },
+        {
+          "value": "70%",
+          "label": "Cyberpunk 2077 discount"
+        }
+      ],
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 88,
+      "prevHype": 76,
+      "source": "Gaming Route",
+      "url": "https://gamingroute.com/edgerunners-2-release-date-netflix/",
+      "published": "2026-10-18"
+    },
     {
       "id": "ent-street-fighter-opening",
       "title": "Street Fighter wins the weekend with $31 million and $51 million worldwide",
       "summary": "Paramount's Street Fighter opened at No. 1 in North America and added $20.1 million from 65 overseas markets.",
       "why": "A hit shows video game films can keep drawing crowds, and it lands in a big year for game adaptations.",
-      "happened": "Street Fighter took an estimated $31 million from 3,575 theaters, including $4 million in previews and $5.4 million from IMAX. That is close to Masters of the Universe's $29.4 million start but below Mortal Kombat II's $38.5 million. Audiences gave it a B- CinemaScore.",
+      "happened": "Street Fighter took an estimated $31 million from 3,575 theaters and $20.1 million from 65 overseas markets. Its budget is reported at $82 million. That is below Mortal Kombat II's $38.5 million start, and audiences gave it a B- CinemaScore.",
       "next": "Watch for how far it drops next weekend with a B- CinemaScore.",
       "drivers": [
         {
@@ -72,64 +284,350 @@
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 94,
-      "prevHype": 92,
+      "hype": 86,
+      "prevHype": 94,
       "source": "Boxoffice Pro",
       "url": "https://www.boxofficepro.com/weekend-box-office-street-fighter-wins-the-weekend-as-you-can-see-everything-shocks-with-15m-debut/",
       "published": "2026-10-18"
     },
     {
-      "id": "tech-iphone-duo-preorders",
-      "title": "Apple staff are reported to warn iPhone Duo shoppers against walk-ins",
-      "summary": "With the $1,999 foldable sold out into late January, some Apple Store staff were told to discourage launch-day walk-ins.",
-      "why": "It is Apple's first new iPhone shape in years and its most expensive phone ever.",
-      "happened": "MacRumors reports some staff were told walk-in stock will likely be unavailable on October 23. Within 30 minutes of preorders, US shipping estimates hit January 25. Apple told the Financial Times demand was 'nothing short of extraordinary.'",
-      "next": "Watch for launch-day stock on October 23 and pickup availability from October 24.",
+      "id": "ai-nscale-anthropic-45b",
+      "title": "Nscale and Anthropic are reported to be in talks on a $45 billion compute deal",
+      "summary": "Bloomberg reports Nscale is negotiating a second deal with Anthropic for about 460 megawatts of computing from West Virginia.",
+      "why": "AI labs are signing ever larger compute contracts, and this would be one of the biggest yet.",
+      "happened": "The deal under discussion would supply about 460 MW from Nscale's West Virginia campus using Nvidia Vera Rubin chips, Bloomberg reports. It would be Nscale's second deal with Anthropic. Nscale also faces IPO investor pushback and delays at its Norway site.",
+      "next": "Watch for whether the deal is signed and how it changes Nscale's IPO plans.",
       "drivers": [
         {
-          "label": "First of its kind",
-          "text": "It is Apple's first foldable phone."
-        },
-        {
           "label": "Money",
-          "text": "A $1,999 starting price is the highest for an iPhone."
+          "text": "A $45 billion contract would be one of the largest compute deals so far."
         },
         {
-          "label": "Fan demand",
-          "text": "Shipping dates slipped into 2027 within half an hour."
+          "label": "Scale",
+          "text": "About 460 MW is enough power for a very large data center."
+        },
+        {
+          "label": "Timing",
+          "text": "It comes as Nscale's IPO plans meet investor doubts."
         }
       ],
-      "background": "Apple makes the iPhone, the world's best-selling smartphone line.",
+      "background": "Nscale is a UK-based company that builds and rents out AI data centers. Anthropic makes the Claude models.",
       "entities": [
-        "Apple",
-        "Smartphones"
+        "Anthropic",
+        "AI infrastructure",
+        "Nvidia"
       ],
       "meme": {
-        "top": "Apple's folding phone launches Friday",
-        "bottom": "Please do not come to the launch",
-        "take": "Apple Stores are asking iPhone Duo fans to stay home on launch day. A first for a queue."
+        "top": "Nscale needs investors to believe",
+        "bottom": "So it found a $45 billion believer",
+        "take": "Nothing calms IPO nerves like a customer who wants another 460 megawatts."
       },
       "stats": [
         {
-          "value": "$1,999",
-          "label": "starting price"
+          "value": "~$45B",
+          "label": "deal size, reported"
         },
         {
-          "value": "Jan 25",
-          "label": "US shipping estimate"
-        },
-        {
-          "value": "Oct 23",
-          "label": "launch day"
+          "value": "~460 MW",
+          "label": "computing capacity, reported"
         }
       ],
-      "motif": "phone",
+      "motif": "money",
+      "category": "ai",
+      "hype": 84,
+      "prevHype": null,
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "tech-chip-stocks-rebound",
+      "title": "Chip stocks bounce after their longest losing run in 16 years",
+      "summary": "Chipmakers rose on Monday after the semiconductor index fell 11% last week over doubts about AI spending.",
+      "why": "Chip stocks have led the AI rally, so their swings move the whole market.",
+      "happened": "The PHLX Semiconductor Index fell 11% last week as chip shares dropped eight days in a row, the longest such run in 16 years, Schwab notes. On Monday, Intel rose about 3% after a JPMorgan upgrade, with Marvell and SK Hynix also up early.",
+      "next": "Watch for whether the rebound holds through this week's big tech earnings reports.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "Chip stocks make up a large share of major indexes."
+        },
+        {
+          "label": "Risk",
+          "text": "Doubts about AI spending triggered the selloff."
+        },
+        {
+          "label": "Timing",
+          "text": "Big tech earnings start this week."
+        }
+      ],
+      "background": "The PHLX Semiconductor Index tracks major US-listed chipmakers, including Nvidia, AMD and Intel.",
+      "entities": [
+        "AI chips",
+        "Nvidia",
+        "Stock market"
+      ],
+      "meme": {
+        "top": "Eight days of falling chip stocks",
+        "bottom": "One upgrade and everyone feels better",
+        "take": "Chip investors lost a week of sleep, then found it in a JPMorgan research note."
+      },
+      "stats": [
+        {
+          "value": "-11%",
+          "label": "chip index last week"
+        },
+        {
+          "value": "8",
+          "label": "straight down days"
+        },
+        {
+          "value": "16 yrs",
+          "label": "longest losing run since"
+        }
+      ],
+      "motif": "chip",
       "category": "tech",
-      "hype": 92,
-      "prevHype": 94,
-      "source": "MacRumors",
-      "url": "https://www.macrumors.com/2026/10/17/staff-warn-against-iphone-duo-walk-ins/",
-      "published": "2026-10-17"
+      "hype": 84,
+      "prevHype": null,
+      "source": "Charles Schwab",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "ent-you-can-see-everything",
+      "title": "Nathan Fielder's Holmes film opens to $15 million, a documentary near-record",
+      "summary": "A24's You Can See Everything took about $15 million from just 855 theaters, the second-best non-fiction opening ever.",
+      "why": "Fielder has a devoted following, and the Theranos story remains one of tech's best-known scandals.",
+      "happened": "The film took about $15 million from 855 theaters, about $17,544 each. Only Fahrenheit 9/11's $23.9 million in 2004 opened higher for non-fiction. About 70% of the audience was under 35, and it expands nationwide in coming weeks.",
+      "next": "Watch for its second weekend as A24 widens the release nationwide.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Nathan Fielder's TV work has a large cult audience."
+        },
+        {
+          "label": "Controversy",
+          "text": "Elizabeth Holmes's Theranos fraud is still widely discussed."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Its 4.8 Letterboxd score is the highest the site has recorded."
+        }
+      ],
+      "background": "Elizabeth Holmes founded the blood-testing company Theranos and was convicted of fraud in 2022.",
+      "entities": [
+        "A24",
+        "Theatrical releases",
+        "Documentaries"
+      ],
+      "meme": {
+        "top": "A documentary about a fraud",
+        "bottom": "Opened to very real money",
+        "take": "Elizabeth Holmes promised results nobody could verify. Nathan Fielder delivered $15 million."
+      },
+      "stats": [
+        {
+          "value": "$15M",
+          "label": "opening weekend, estimated"
+        },
+        {
+          "value": "855",
+          "label": "theaters"
+        },
+        {
+          "value": "$23.9M",
+          "label": "Fahrenheit 9/11 record"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 84,
+      "prevHype": 90,
+      "source": "Boxoffice Pro",
+      "url": "https://www.boxofficepro.com/weekend-box-office-street-fighter-wins-the-weekend-as-you-can-see-everything-shocks-with-15m-debut/",
+      "published": "2026-10-18"
+    },
+    {
+      "id": "ai-disney-character-ai-staff",
+      "title": "Disney agrees to hire most of Character.AI's workforce",
+      "summary": "Disney will take on the majority of staff at Character.AI, the chatbot company that filed for bankruptcy this month.",
+      "why": "It puts a big entertainment company in charge of talent from one of the best-known AI chatbot apps.",
+      "happened": "TechCrunch reports Disney has agreed to hire most of Character.AI's employees. Character.AI filed for bankruptcy earlier in October, about five years after it launched. The rest of the company's assets are being handled in its Chapter 11 case.",
+      "next": "Watch for what Disney plans to build with the team and who buys Character.AI's remaining assets.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Disney owns some of the most valuable characters in entertainment."
+        },
+        {
+          "label": "Risk",
+          "text": "Character.AI's collapse shows how hard AI chatbot apps are to sustain."
+        },
+        {
+          "label": "Trend",
+          "text": "Big companies keep hiring whole AI teams instead of buying firms outright."
+        }
+      ],
+      "background": "Character.AI lets users chat with AI characters. It is one of the most popular AI companion apps.",
+      "entities": [
+        "Disney",
+        "Character.AI",
+        "AI companions"
+      ],
+      "meme": {
+        "top": "Character.AI made the characters",
+        "bottom": "Disney is taking the people",
+        "take": "Disney already owns most famous characters, so it moved on to the people who write them."
+      },
+      "stats": [],
+      "motif": "agent",
+      "category": "ai",
+      "hype": 80,
+      "prevHype": null,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "published": "2026-10-18"
+    },
+    {
+      "id": "tech-spacex-q3-earnings",
+      "title": "SpaceX reports third-quarter results today, with AI spending in focus",
+      "summary": "Analysts expect revenue of almost $12.9 billion as SpaceX releases its second report since going public.",
+      "why": "SpaceX's huge AI computing bill made its first public report a shock, so investors want to see what changed.",
+      "happened": "Analysts expect earnings of $0.14 a share on revenue near $12.9 billion, TipRanks reports. After its second-quarter report, which showed a $541 million loss and $15.8 billion spent on AI computing, the stock fell 13.6% in a day. Options imply a 7.8% move.",
+      "next": "Watch for SpaceX's AI spending figures and how the stock reacts, with Meta and Tesla reporting October 21.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "AI computing took $15.8 billion of last quarter's spending."
+        },
+        {
+          "label": "Big name",
+          "text": "SpaceX is one of the most closely watched new public companies."
+        },
+        {
+          "label": "Risk",
+          "text": "The stock fell 13.6% after its last report."
+        }
+      ],
+      "background": "SpaceX is Elon Musk's rocket and Starlink satellite company. It listed its shares in 2026.",
+      "entities": [
+        "SpaceX",
+        "Stock market",
+        "AI infrastructure"
+      ],
+      "meme": {
+        "top": "A rocket company reports earnings",
+        "bottom": "Investors mostly ask about GPUs",
+        "take": "SpaceX makes rockets and satellites, and the big question is its graphics card bill."
+      },
+      "stats": [
+        {
+          "value": "~$12.9B",
+          "label": "expected Q3 revenue"
+        },
+        {
+          "value": "$15.8B",
+          "label": "Q2 AI computing spend"
+        },
+        {
+          "value": "-13.6%",
+          "label": "stock move after Q2 report"
+        }
+      ],
+      "motif": "rocket",
+      "category": "tech",
+      "hype": 80,
+      "prevHype": null,
+      "source": "TipRanks",
+      "url": "https://www.tipranks.com/news/spacex-q3-earnings-preview-options-market-signals-7-8-move-as-analysts-forecast-12-9b-revenue",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "ai-meta-muse-marketplace-address",
+      "title": "Meta's Muse agent is reported to share a seller's home address with a buyer",
+      "summary": "A Toronto creator says his Muse agent gave a Facebook Marketplace buyer his address and sent messages he did not know about.",
+      "why": "It is a concrete case of an AI agent acting for a user in ways the user did not expect.",
+      "happened": "Fortune reports the creator's Muse agent shared his home address and sent automated messages without his knowledge. Meta says no formal privacy controls were breached and has pledged clearer permission prompts.",
+      "next": "Watch for the new permission prompts Meta has promised and whether regulators ask questions.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "A home address is among the most sensitive details to leak."
+        },
+        {
+          "label": "Scale",
+          "text": "Facebook Marketplace is used by huge numbers of people."
+        },
+        {
+          "label": "Trend",
+          "text": "AI agents are being given more power to act on users' behalf."
+        }
+      ],
+      "background": "Muse is Meta's family of AI models and assistants. Facebook Marketplace is Meta's buy-and-sell listings service.",
+      "entities": [
+        "Meta",
+        "AI agents",
+        "Privacy"
+      ],
+      "meme": {
+        "top": "The AI agent was told to be helpful",
+        "bottom": "It gave out the address",
+        "take": "Meta's agent was very responsive to the buyer. The seller was less consulted."
+      },
+      "stats": [],
+      "motif": "agent",
+      "category": "ai",
+      "hype": 78,
+      "prevHype": null,
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/10/19/meta-muse-ai-agent-facebook-marketplace-home-address-privacy/",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "ent-waititi-star-wars-iced",
+      "title": "Taika Waititi says his Star Wars film is 'very iced'",
+      "summary": "The director says the film announced in 2020 is on hold as he and writer Tony McNamara move to another project.",
+      "why": "It is one more Star Wars film that has stalled, leaving fans unsure which announced projects will be made.",
+      "happened": "Waititi told Inverse, while promoting Klara and the Sun, that the film is on hold, The Playlist reports. Lucasfilm announced it in May 2020, and Kathleen Kennedy said in January that he had delivered a script. Waititi did not rule out a return.",
+      "next": "Watch for any comment from Lucasfilm on the film's status.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Waititi directed Thor: Ragnarok and Jojo Rabbit."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Star Wars fans have waited years for new films."
+        },
+        {
+          "label": "Trend",
+          "text": "Several announced Star Wars films have stalled."
+        }
+      ],
+      "background": "Star Wars is owned by Disney through Lucasfilm. Waititi also directed an episode of The Mandalorian.",
+      "entities": [
+        "Star Wars",
+        "Disney"
+      ],
+      "meme": {
+        "top": "Taika's Star Wars film is on ice",
+        "bottom": "It joins a well-stocked freezer",
+        "take": "Lucasfilm now has enough paused Star Wars films to fill a galaxy reasonably far away."
+      },
+      "stats": [
+        {
+          "value": "2020",
+          "label": "film first announced"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 78,
+      "prevHype": null,
+      "source": "The Playlist",
+      "url": "https://theplaylist.net/taika-waititi-star-wars-movie-on-ice-tony-mcnamara-20261018/",
+      "published": "2026-10-18"
     },
     {
       "id": "ai-anthropic-public-benefit-fund",
@@ -158,9 +656,9 @@
         "AI and jobs"
       ],
       "meme": {
-        "top": "An AI lab is giving away its shares",
-        "bottom": "The more it is worth, the more it gives",
-        "take": "Anthropic's new charity grows with its valuation. Rarely has a board had more reason to care."
+        "top": "Anthropic set aside 5% for the public",
+        "bottom": "The lobbying budget is not invited",
+        "take": "Anthropic is giving away shares with one rule: none of it can be spent on lobbyists."
       },
       "stats": [
         {
@@ -178,64 +676,303 @@
       ],
       "motif": "money",
       "category": "ai",
-      "hype": 90,
-      "prevHype": null,
+      "hype": 76,
+      "prevHype": 90,
       "source": "Anthropic",
       "url": "https://www.anthropic.com/news/public-benefit-fund",
       "published": "2026-10-18"
     },
     {
-      "id": "ent-you-can-see-everything",
-      "title": "Nathan Fielder's Holmes film opens to $15 million, a documentary near-record",
-      "summary": "A24's You Can See Everything took about $15 million from just 855 theaters, the second-best non-fiction opening ever.",
-      "why": "Fielder has a devoted following, and the Theranos story remains one of tech's best-known scandals.",
-      "happened": "The film averaged about $17,544 per theater, beating weekend estimates. Only Fahrenheit 9/11's $23.9 million in 2004 opened higher for non-fiction. Fielder directed it with Lance Oppenheim, and it reportedly cost about $7 million.",
-      "next": "Watch for A24 widening the release beyond 855 theaters.",
+      "id": "game-steam-next-fest-october",
+      "title": "Steam Next Fest opens with a record 8,000-plus free demos",
+      "summary": "Valve's October demo festival lists more than 8,000 demos, about double June's event, with ArcheAge Chronicles leading early play.",
+      "why": "Next Fest is one of the biggest chances for small studios to get noticed, and this one is very crowded.",
+      "happened": "PC Gamer counts 8,011 demos on the press preview page, about double the June 2026 fest. On its first day, ArcheAge Chronicles led with about 18,000 live players, ahead of Loftia, Output Lag's tracker showed. The fest runs to October 26.",
+      "next": "Watch for which demos climb Steam's wishlist charts by October 26.",
       "drivers": [
         {
-          "label": "Big name",
-          "text": "Nathan Fielder's TV work has a large cult audience."
+          "label": "Scale",
+          "text": "Hundreds of games usually take part."
         },
         {
-          "label": "Controversy",
-          "text": "Elizabeth Holmes's Theranos fraud is still widely discussed."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Its 4.8 Letterboxd score is the highest the site has recorded."
+          "label": "Money",
+          "text": "All demos are free with a Steam account."
         }
       ],
-      "background": "Elizabeth Holmes founded the blood-testing company Theranos and was convicted of fraud in 2022.",
+      "background": "Valve runs Steam Next Fest three times a year to showcase upcoming games.",
       "entities": [
-        "A24",
-        "Theatrical releases",
-        "Documentaries"
+        "Valve",
+        "Indie games"
       ],
       "meme": {
-        "top": "A documentary about Theranos",
-        "bottom": "Turned in real numbers",
-        "take": "A film about faked test results posted a $15 million opening that actually checks out."
+        "top": "8,011 free demos",
+        "bottom": "Valve recommends a long weekend",
+        "take": "Steam Next Fest now has more demos than most people have free evenings this decade."
       },
       "stats": [
         {
-          "value": "$15M",
-          "label": "opening weekend, estimated"
+          "value": "8,011",
+          "label": "demos listed"
         },
         {
-          "value": "855",
-          "label": "theaters"
+          "value": "18,227",
+          "label": "ArcheAge Chronicles live players"
         },
         {
-          "value": "$23.9M",
-          "label": "Fahrenheit 9/11 record"
+          "value": "Oct 26",
+          "label": "festival ends"
         }
       ],
-      "motif": "film",
+      "motif": "game",
+      "category": "gaming",
+      "hype": 76,
+      "prevHype": 62,
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "ai-tenstorrent-1-5b",
+      "title": "Tenstorrent raises $1.5 billion at a $6.2 billion valuation",
+      "summary": "Jim Keller's AI chip company more than doubled its valuation and will use the money to make more Galaxy servers.",
+      "why": "Investors are still paying up for Nvidia challengers even as chip stocks swing.",
+      "happened": "The round was led by Trace Capital and Innovation X, SiliconANGLE reports. The $6.2 billion valuation is more than double the $2.6 billion mark from Tenstorrent's December 2024 Series D. Proceeds will scale production of its Galaxy servers.",
+      "next": "Watch for new customers for its Galaxy servers and how it competes with Nvidia on price.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "$1.5 billion is a large round for a chip startup."
+        },
+        {
+          "label": "Big name",
+          "text": "Jim Keller is a well-known chip designer."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It sells itself as an open alternative to Nvidia's systems."
+        }
+      ],
+      "background": "Tenstorrent designs AI processors and servers. It is led by chip designer Jim Keller.",
+      "entities": [
+        "AI chips",
+        "AI funding"
+      ],
+      "meme": {
+        "top": "Chip stocks just lost a week",
+        "bottom": "Tenstorrent raised $1.5 billion anyway",
+        "take": "The chip sector had its worst week in months, and one startup still doubled its valuation."
+      },
+      "stats": [
+        {
+          "value": "$1.5B",
+          "label": "raised"
+        },
+        {
+          "value": "$6.2B",
+          "label": "valuation"
+        },
+        {
+          "value": "$2.6B",
+          "label": "valuation in Dec 2024"
+        }
+      ],
+      "motif": "chip",
+      "category": "ai",
+      "hype": 74,
+      "prevHype": null,
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/10/19/chip-legend-jim-kellers-tenstorrent-raises-1-5b-to-expand-its-open-compute-ecosystem/",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "tech-burger-king-japan-breach",
+      "title": "Burger King Japan discloses a breach of 11.18 million customer records",
+      "summary": "Names, birth dates, contact details and order histories, mostly from app users, were exposed in early October.",
+      "why": "Millions of real names and phone numbers in one leak make convincing phishing much easier.",
+      "happened": "The company says unauthorized access happened between October 2 and 7 and was confirmed on October 13, TechRadar reports. Exposed data includes names, birth dates, genders, emails, phone numbers and order histories. Payment card data was not exposed.",
+      "next": "Watch for notices to affected customers and any phishing that uses the leaked details.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "More than 11 million records were exposed."
+        },
+        {
+          "label": "Risk",
+          "text": "Contact details plus order history can make scams look genuine."
+        },
+        {
+          "label": "Big name",
+          "text": "Burger King is a global fast-food brand."
+        }
+      ],
+      "background": "Burger King Japan runs the fast-food chain's restaurants and ordering app in Japan.",
+      "entities": [
+        "Cybersecurity",
+        "Japan",
+        "Privacy"
+      ],
+      "meme": {
+        "top": "11 million burger fans exposed",
+        "bottom": "The card numbers stayed home",
+        "take": "The hackers got your name, number and order history, but not the card. Small mercies."
+      },
+      "stats": [
+        {
+          "value": "11.18M",
+          "label": "customer records"
+        },
+        {
+          "value": "Oct 2-7",
+          "label": "unauthorized access"
+        }
+      ],
+      "motif": "shield",
+      "category": "tech",
+      "hype": 74,
+      "prevHype": null,
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/security/whopper-of-a-data-breach-sees-burger-king-japan-expose-over-11-million-customer-records",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "ai-replit-openai-default",
+      "title": "Replit makes OpenAI its default model over Anthropic, its CEO says",
+      "summary": "The coding platform's chief executive says Replit now uses OpenAI's models by default instead of Anthropic's.",
+      "why": "Coding tools are one of the biggest paid uses of AI, so a switch by a major platform is closely watched.",
+      "happened": "TechCrunch reports Replit's CEO said the company has made OpenAI its default model provider in place of Anthropic. Replit's AI agent writes and runs code for users, which makes the choice of model central to the product.",
+      "next": "Watch for whether other coding tools change providers and how Anthropic responds.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "OpenAI and Anthropic compete hard for coding customers."
+        },
+        {
+          "label": "Money",
+          "text": "Coding assistants are among AI's biggest revenue sources."
+        },
+        {
+          "label": "Trend",
+          "text": "AI coding tools keep switching models as rankings shift."
+        }
+      ],
+      "background": "Replit is an online coding platform whose AI agent builds apps from plain-language requests.",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "AI coding"
+      ],
+      "meme": {
+        "top": "Replit changed its default model",
+        "bottom": "A dropdown menu made the news",
+        "take": "In AI coding, a dropdown menu now counts as a major business partnership."
+      },
+      "stats": [],
+      "motif": "agent",
+      "category": "ai",
+      "hype": 72,
+      "prevHype": null,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "published": "2026-10-17"
+    },
+    {
+      "id": "game-ai-clone-games-steam",
+      "title": "AI-made clone games are pushing indie developers to hide their demos",
+      "summary": "PC Gamer reports quick AI-built copies of new indie hits, with one studio cancelling its Steam demo for fear of clones.",
+      "why": "If a demo can be copied in days, small studios lose their main way to find players.",
+      "happened": "At least seven Roblox clones of Escape the Walls appeared within nine days, PC Gamer reports. Alliance Arts cancelled its Drunken Goddess Reflux demo over fears of AI copies. NoGlyph says another game copied its Needle In A Haystack code and has filed a notice with Valve.",
+      "next": "Watch for how Valve handles the Needle In A Haystack copyright notice.",
+      "drivers": [
+        {
+          "label": "Trend",
+          "text": "AI coding tools have made it fast to copy simple games."
+        },
+        {
+          "label": "Risk",
+          "text": "Studios may stop releasing demos to protect their ideas."
+        },
+        {
+          "label": "Controversy",
+          "text": "Developers disagree on how much AI use is fair."
+        }
+      ],
+      "background": "Steam is Valve's PC game store, where free demos help small studios find an audience.",
+      "entities": [
+        "AI in games",
+        "AI coding",
+        "Indie games",
+        "Valve"
+      ],
+      "meme": {
+        "top": "A studio made a new game",
+        "bottom": "By Thursday there were seven",
+        "take": "Indie developers have found the perfect protection against copying: never showing anyone."
+      },
+      "stats": [
+        {
+          "value": "7+",
+          "label": "Roblox clones of one game"
+        },
+        {
+          "value": "13",
+          "label": "matching class names, claimed"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 72,
+      "prevHype": null,
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "ent-taylor-swift-showgirl-15-weeks",
+      "title": "Taylor Swift's The Life of a Showgirl spends a 15th week at No. 1",
+      "summary": "Swift's album leads the Billboard 200 again, ahead of Olivia Rodrigo, Morgan Wallen, Ella Langley and Noah Kahan.",
+      "why": "Fifteen weeks on top is a rare run for any album in the streaming era.",
+      "happened": "The Life of a Showgirl topped the chart dated October 18 for its 15th week, RGM reports, taking Swift to 101 career weeks at No. 1. Olivia Rodrigo's latest album rose to No. 2 and Morgan Wallen's I'm The Problem to No. 3.",
+      "next": "Watch for whether a new release can end Swift's run in the coming weeks.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Swift is the biggest-selling artist of the decade."
+        },
+        {
+          "label": "Scale",
+          "text": "Her career total passed 100 weeks at No. 1."
+        },
+        {
+          "label": "Rivalry",
+          "text": "Rodrigo and Wallen are close behind."
+        }
+      ],
+      "background": "The Billboard 200 ranks the most popular albums in the US each week by sales and streams.",
+      "entities": [
+        "Taylor Swift",
+        "Music"
+      ],
+      "meme": {
+        "top": "Taylor Swift is No. 1 again",
+        "bottom": "Week 15 of the same announcement",
+        "take": "The Billboard 200 has become a weekly chart with one fixed answer and four guesses."
+      },
+      "stats": [
+        {
+          "value": "15",
+          "label": "weeks at No. 1"
+        },
+        {
+          "value": "101",
+          "label": "career weeks at No. 1"
+        }
+      ],
+      "motif": "voice",
       "category": "entertainment",
-      "hype": 90,
-      "prevHype": 86,
-      "source": "Boxoffice Pro",
-      "url": "https://www.boxofficepro.com/weekend-box-office-street-fighter-wins-the-weekend-as-you-can-see-everything-shocks-with-15m-debut/",
+      "hype": 72,
+      "prevHype": null,
+      "source": "RGM",
+      "url": "https://ratingsgamemusic.com/2026/10/18/top-5-albums-on-the-billboard-200-this-week-10-11-taylor-swift-olivia-rodrigo-more/",
       "published": "2026-10-18"
     },
     {
@@ -267,7 +1004,7 @@
       "meme": {
         "top": "OpenAI is building a humanoid robot",
         "bottom": "The demo is pencilled in for 2027",
-        "take": "OpenAI will build a robot with a human shape, since the world was built for people. For now."
+        "take": "OpenAI has 27 robotics jobs open and roughly one year to make a robot walk on stage."
       },
       "stats": [
         {
@@ -281,65 +1018,202 @@
       ],
       "motif": "agent",
       "category": "ai",
-      "hype": 86,
-      "prevHype": null,
+      "hype": 70,
+      "prevHype": 86,
       "source": "Engadget",
       "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
       "published": "2026-10-17"
     },
     {
-      "id": "game-modern-warfare-4-early-reviews",
-      "title": "Modern Warfare 4's campaign hits 92% positive on Steam ahead of launch",
-      "summary": "About 2,900 of 3,156 Steam reviews recommend the early-access campaign, with DMZ opening October 20 and full launch October 23.",
-      "why": "Call of Duty is gaming's biggest annual series, and early player reaction shapes its launch.",
-      "happened": "Campaign early access opened October 16 for digital preorders, so reviews cover story mode only. DMZ early access starts October 20 and multiplayer arrives at full launch on October 23, Gaming Route reports.",
-      "next": "Watch for whether scores hold once multiplayer opens on October 23.",
+      "id": "ai-deepseek-huawei-ascend",
+      "title": "DeepSeek is reported to plan training on Huawei chips by late 2026",
+      "summary": "The Information reports DeepSeek will pre-train a model on Huawei's Ascend 950DT, not Nvidia hardware.",
+      "why": "A top Chinese model trained on Chinese chips would be a milestone for China's push to rely less on Nvidia.",
+      "happened": "According to The Information, DeepSeek is helping shape Huawei's AI chips and plans to pre-train on the Ascend 950DT by late 2026. If accurate, it would be the first flagship Chinese model trained on domestic chips. The 950DT is said to ship with Huawei's own HBM in the fourth quarter.",
+      "next": "Watch for confirmation from DeepSeek or Huawei and any model trained on the new chips.",
       "drivers": [
         {
-          "label": "Scale",
-          "text": "Call of Duty sells millions of copies every year."
+          "label": "Rivalry",
+          "text": "It would test whether Chinese chips can replace Nvidia's for top models."
         },
         {
-          "label": "Timing",
-          "text": "It launches weeks before GTA VI."
+          "label": "Risk",
+          "text": "US export limits make access to Nvidia chips uncertain for Chinese labs."
         },
         {
           "label": "Big name",
-          "text": "Activision calls it one of the two biggest games of the year."
+          "text": "DeepSeek's low-cost models made it China's best-known AI lab."
         }
       ],
-      "background": "Call of Duty is Activision's shooter series, now owned by Microsoft.",
+      "background": "DeepSeek is a Chinese AI lab known for low-cost models. Huawei makes the Ascend line of AI chips.",
       "entities": [
-        "Call of Duty",
-        "Microsoft",
-        "New game releases"
+        "DeepSeek",
+        "China",
+        "AI chips"
       ],
       "meme": {
-        "top": "Players like the new Call of Duty",
-        "bottom": "They have not played online yet",
-        "take": "Modern Warfare 4 is 92% positive on Steam, a figure multiplayer arrives Friday to review."
+        "top": "DeepSeek wanted chips nobody can block",
+        "bottom": "So it is helping design them",
+        "take": "The simplest way around export controls turns out to be a supplier down the road."
       },
       "stats": [
         {
-          "value": "92%",
-          "label": "positive Steam reviews"
+          "value": "Q4 2026",
+          "label": "Ascend 950DT shipping, reported"
+        }
+      ],
+      "motif": "chip",
+      "category": "ai",
+      "hype": 70,
+      "prevHype": null,
+      "source": "The Information",
+      "url": "https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "ai-meta-prometheus-supercluster",
+      "title": "Meta details Prometheus, its gigawatt-scale AI supercluster in Ohio",
+      "summary": "Meta's engineers say the New Albany site links hundreds of thousands of GPUs, aiming for about a million to train Muse models.",
+      "why": "Meta is spending heavily on AI computing, and its earnings this week will put that spending in focus.",
+      "happened": "In an engineering post, Meta said phase one of Prometheus connects hundreds of thousands of GPUs, with a target of about one million for Muse training. It reports more than 85% pre-training goodput and a 99% cut in the interruption rate.",
+      "next": "Watch for what Meta says about AI spending when it reports earnings on October 21.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "A million GPUs would be among the largest AI clusters announced."
         },
         {
-          "value": "3,156",
-          "label": "reviews counted"
+          "label": "Money",
+          "text": "Clusters like this cost tens of billions of dollars."
         },
         {
-          "value": "Oct 23",
-          "label": "full launch"
+          "label": "Timing",
+          "text": "The post lands two days before Meta's quarterly results."
+        }
+      ],
+      "background": "Meta owns Facebook, Instagram and WhatsApp and trains its own AI models, now under the Muse name.",
+      "entities": [
+        "Meta",
+        "AI infrastructure"
+      ],
+      "meme": {
+        "top": "99% fewer interruptions in Ohio",
+        "bottom": "The power bill runs nonstop too",
+        "take": "Meta's supercluster now runs smoothly enough that only investors get interrupted."
+      },
+      "stats": [
+        {
+          "value": "~1M",
+          "label": "GPU target"
+        },
+        {
+          "value": "85%+",
+          "label": "pre-training goodput"
+        },
+        {
+          "value": "99%",
+          "label": "fewer interruptions"
+        }
+      ],
+      "motif": "power",
+      "category": "ai",
+      "hype": 70,
+      "prevHype": null,
+      "source": "Meta Engineering",
+      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "game-zelda-switch-2-restock",
+      "title": "Nintendo says it underestimated demand for its Zelda Switch 2 console",
+      "summary": "A Nintendo executive apologised for shortages of the Zelda 40th Anniversary console and promised restocks, without a date.",
+      "why": "Shortages of a collector's console ahead of the holidays frustrate fans and hint at strong demand.",
+      "happened": "Bill van Zyll, Nintendo's Latin America chief, said the company underestimated demand and that restocks are coming but will take time, Nintendo Life reports. He singled out North America. The Ocarina of Time remake for Switch 2 arrives November 5.",
+      "next": "Watch for restock dates and sales when the Ocarina of Time remake launches on November 5.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "The Legend of Zelda turns 40 this year."
+        },
+        {
+          "label": "Fan demand",
+          "text": "The special console has been selling out at retailers."
+        },
+        {
+          "label": "Timing",
+          "text": "Shortages are hitting just before the holidays."
+        }
+      ],
+      "background": "The Legend of Zelda is Nintendo's adventure series. The Switch 2 is Nintendo's current console.",
+      "entities": [
+        "Nintendo",
+        "Gaming hardware",
+        "Revived franchises"
+      ],
+      "meme": {
+        "top": "Nintendo thought Zelda fans could wait",
+        "bottom": "They have waited 40 years already",
+        "take": "Nintendo underestimated demand for a Zelda console, which is a bold thing to underestimate."
+      },
+      "stats": [
+        {
+          "value": "40th",
+          "label": "Zelda anniversary"
+        },
+        {
+          "value": "Nov 5",
+          "label": "Ocarina of Time remake"
         }
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 86,
-      "prevHype": 74,
-      "source": "Gaming Route",
-      "url": "https://gamingroute.com/modern-warfare-4-steam-reviews/",
-      "published": "2026-10-18"
+      "hype": 70,
+      "prevHype": null,
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/10/nintendo-underestimated-zelda-switch-2-console-sales-but-promises-restocks-are-on-the-way",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "tech-smart-tvs-claude-code",
+      "title": "People are using AI coding tools to strip ads from their smart TVs",
+      "summary": "Developers are using Claude Code and DeepSeek V4.1 Flash to remove ads and tracking from Fire TV and Google TV devices.",
+      "why": "Many people dislike the ads and data collection on smart TVs, and AI tools make modding them easier.",
+      "happened": "TechCrunch reports developers are using AI coding tools including Anthropic's Claude Code and DeepSeek's V4.1 Flash model to remove ads and tracking from Fire TV, Android TV and Google TV devices.",
+      "next": "Watch for how Amazon and Google respond to modified devices.",
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "Ad-free TVs are a long-running wish for many viewers."
+        },
+        {
+          "label": "Trend",
+          "text": "AI coding tools let non-experts take on technical projects."
+        },
+        {
+          "label": "Controversy",
+          "text": "TV makers rely on ads and data for revenue."
+        }
+      ],
+      "background": "Fire TV is Amazon's streaming platform, and Google TV runs on Google's Android TV system.",
+      "entities": [
+        "AI coding",
+        "Anthropic",
+        "DeepSeek",
+        "Privacy"
+      ],
+      "meme": {
+        "top": "The TV kept showing ads",
+        "bottom": "So the owner asked an AI to fix it",
+        "take": "Smart TVs spent years getting smarter. Their owners just asked for them to be quieter."
+      },
+      "stats": [],
+      "motif": "screen",
+      "category": "tech",
+      "hype": 68,
+      "prevHype": null,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "published": "2026-10-19"
     },
     {
       "id": "game-ps6-memory-costs",
@@ -369,9 +1243,9 @@
         "Memory chips"
       ],
       "meme": {
-        "top": "The PS6 needs a lot of memory",
-        "bottom": "So will the payment plan",
-        "take": "The PS6's memory reportedly costs more than a PS5 did. Gamers will remember this."
+        "top": "The PS6 memory is said to cost $680",
+        "bottom": "The console is still a rumour",
+        "take": "The next PlayStation already has a price problem and has not yet been announced."
       },
       "stats": [
         {
@@ -385,373 +1259,354 @@
       ],
       "motif": "chip",
       "category": "gaming",
-      "hype": 84,
-      "prevHype": null,
+      "hype": 68,
+      "prevHype": 84,
       "source": "VGC",
       "url": "https://www.videogameschronicle.com/news/playstation-6s-memory-costs-alone-exceed-680-per-console-its-claimed/",
       "published": "2026-10-18"
     },
     {
-      "id": "tech-chip-stocks-eighth-drop",
-      "title": "Chip stocks fall for an eighth straight day as AI spending doubts grow",
-      "summary": "The Philadelphia Semiconductor Index dropped 3.83% on Friday, ending the week down 11.4%, led by memory makers.",
-      "why": "Chip stocks have driven the market for years, so a long slide signals doubts about the AI boom.",
-      "happened": "The Nasdaq fell 2.15%. Seagate, Western Digital, SanDisk, SK Hynix and Micron fell between about 5.6% and 7.5%, and CoreWeave dropped 11.9%. Reports cite doubts about AI returns, debt-funded buildouts, inflation and oil near $110.",
-      "next": "Watch for whether chip stocks steady this week and what big tech says about spending in earnings.",
+      "id": "ai-character-ai-state-ags",
+      "title": "39 state attorneys general seek child-safety terms in any Character.AI sale",
+      "summary": "A coalition of states filed notice in Character.AI's bankruptcy, asking that child-safety and privacy protections follow its assets.",
+      "why": "Whoever buys the chatbot's data and technology could inherit millions of young users' conversations.",
+      "happened": "The 39-state coalition, including Wisconsin, filed notice in Character Technologies' Chapter 11 case, the Wisconsin Law Journal reports. The states want child-safety and data-privacy terms attached to any asset sale. The filing cites the company's 2025 ban on open-ended chats for under-18s.",
+      "next": "Watch for the bankruptcy court's ruling on sale conditions and who bids for the assets.",
       "drivers": [
         {
-          "label": "Money",
-          "text": "Hundreds of billions in market value are at stake."
+          "label": "Scale",
+          "text": "Thirty-nine states joined the filing."
         },
         {
           "label": "Risk",
-          "text": "Investors question whether AI spending will pay off."
+          "text": "Chat logs from young users are highly sensitive."
         },
-        {
-          "label": "Trend",
-          "text": "Memory makers had led the AI rally."
-        }
-      ],
-      "background": "The Philadelphia Semiconductor Index tracks the largest US-listed chip companies.",
-      "entities": [
-        "AI chips",
-        "Memory chips",
-        "AI funding",
-        "AI infrastructure"
-      ],
-      "meme": {
-        "top": "Chip stocks fell eight days running",
-        "bottom": "Somewhere a GPU is overheating anyway",
-        "take": "Investors have discovered that AI data centers cost money. The chip index took it personally."
-      },
-      "stats": [
-        {
-          "value": "-3.83%",
-          "label": "chip index, one day"
-        },
-        {
-          "value": "-11.4%",
-          "label": "chip index, week"
-        },
-        {
-          "value": "8",
-          "label": "straight daily declines"
-        }
-      ],
-      "motif": "chip",
-      "category": "tech",
-      "hype": 84,
-      "prevHype": null,
-      "source": "Biggo Finance",
-      "url": "https://finance.biggo.com/news/4653f52e-d964-4a23-90e0-9b2091a94646",
-      "published": "2026-10-17"
-    },
-    {
-      "id": "ai-anthropic-safety-bill",
-      "title": "Anthropic is reported to pitch its own AI safety bill to US lawmakers",
-      "summary": "Anthropic's draft would let authorities block a frontier model only for imminent risks above $1 billion or harm to over 50 people, reports say.",
-      "why": "An AI company writing the rules for its own industry is likely to draw attention from both supporters and critics.",
-      "happened": "Politico reports the draft covers biological weapons, cyberattacks and models that evade their developer's controls. It would also create independent evaluators registered with the Commerce Department. It is a proposal, not law.",
-      "next": "Watch for whether any lawmaker introduces the bill and how rival AI companies respond.",
-      "drivers": [
         {
           "label": "Controversy",
-          "text": "Critics often question AI companies shaping their own oversight."
-        },
-        {
-          "label": "Risk",
-          "text": "The bill targets bioweapons and AI that slips its controls."
-        },
-        {
-          "label": "Timing",
-          "text": "AI regulation is an active debate in Washington."
+          "text": "AI companion apps have faced lawsuits over harm to teens."
         }
       ],
-      "background": "Anthropic is the AI company behind Claude and has long argued for safety rules on advanced AI.",
+      "background": "Character.AI is a chatbot app where users talk with AI characters. It filed for bankruptcy in October.",
       "entities": [
-        "Anthropic",
-        "AI regulation",
-        "Frontier models"
+        "Character.AI",
+        "AI companions",
+        "AI regulation"
       ],
       "meme": {
-        "top": "An AI company drafted an AI law",
-        "bottom": "It set the bar at a billion dollars",
-        "take": "Anthropic drafted its own AI safety bill, sparing lawmakers the hard part: understanding AI."
+        "top": "Character.AI's assets are for sale",
+        "bottom": "39 states would like to read the terms",
+        "take": "In this bankruptcy, the most valuable asset may be the conditions attached to it."
       },
       "stats": [
         {
-          "value": "$1B",
-          "label": "damage threshold for action"
-        },
-        {
-          "value": "50+",
-          "label": "people harmed threshold"
+          "value": "39",
+          "label": "states in the coalition"
         }
       ],
       "motif": "doc",
       "category": "ai",
-      "hype": 80,
+      "hype": 66,
       "prevHype": null,
-      "source": "Reuters",
-      "url": "https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/",
-      "published": "2026-10-16"
+      "source": "Wisconsin Law Journal",
+      "url": "https://wislawjournal.com/2026/10/19/wisconsin-joins-states-seeking-ai-chatbot-safeguards/",
+      "published": "2026-10-19"
     },
     {
-      "id": "game-gta6-final-trailer",
-      "title": "GTA VI's launch trailer gets picked apart a month before release",
-      "summary": "Rockstar's 90-second launch trailer is still being analysed, with Digital Foundry doubting it uses the PS5's new upscaler.",
-      "why": "GTA VI is one of the most anticipated games ever, and this is the last look before release.",
-      "happened": "Rockstar released the launch trailer on October 15, set to music by Justice, VGC reports. Digital Foundry's Richard Leadbetter said he doubts the PS5-captured footage uses the QSSR upscaler. The game launches November 19 on PS5 and Xbox Series X|S.",
-      "next": "Watch for preload details and early reviews before November 19.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "GTA V is one of the best-selling games of all time."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Fans have waited over a decade for a new main entry."
-        },
-        {
-          "label": "Timing",
-          "text": "The game is just over a month from launch."
-        }
-      ],
-      "background": "Grand Theft Auto is Rockstar Games' open-world crime series. Rockstar is owned by Take-Two.",
-      "entities": [
-        "Grand Theft Auto",
-        "New game releases",
-        "PlayStation"
-      ],
-      "meme": {
-        "top": "Ninety seconds of GTA VI footage",
-        "bottom": "Analysed one frame at a time",
-        "take": "GTA VI's trailer has now been studied more closely than most school textbooks."
-      },
-      "stats": [
-        {
-          "value": "Nov 19",
-          "label": "release date"
-        },
-        {
-          "value": "90 sec",
-          "label": "trailer length"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 78,
-      "prevHype": 80,
-      "source": "VGC",
-      "url": "https://www.videogameschronicle.com/news/rockstar-has-revealed-the-official-launch-trailer-for-grand-theft-auto-6/",
-      "published": "2026-10-15"
-    },
-    {
-      "id": "ai-anthropic-agent-hours-jobs",
-      "title": "Anthropic says AI agents now log six times more work hours than its staff",
-      "summary": "An Anthropic report on its own workforce says agent work hours far outnumber employee hours and junior technical hiring has dropped sharply.",
-      "why": "It is a rare inside look at how an AI lab's own jobs are changing, and junior roles are the worry.",
-      "happened": "Anthropic's report says agent work hours passed human hours in March and reached six to one by August. The junior share of technical hiring fell from 27% to 9%, and the junior share of technical staff from 21% to 14%.",
-      "next": "Watch for whether other tech companies publish similar figures on their own hiring.",
+      "id": "tech-opencode-key-breach",
+      "title": "OpenCode says a breach may have exposed users' OpenAI and Anthropic keys",
+      "summary": "The AI coding tool says 1.4% of its Console users who linked outside providers may have had their API keys exposed.",
+      "why": "Stolen AI keys let attackers run up large bills on someone else's account.",
+      "happened": "OpenCode says attackers reached a legacy system it was already shutting down, Cybersecurity News reports. It linked the incident to a large distillation attack and is working with Anthropic, OpenAI and Google. It told affected users to revoke and replace their keys.",
+      "next": "Watch for OpenCode's full account of how attackers got in and how many keys were involved.",
       "drivers": [
         {
           "label": "Risk",
-          "text": "Entry-level jobs are the ones the figures suggest are shrinking."
-        },
-        {
-          "label": "First of its kind",
-          "text": "Few companies have published data like this about their own staff."
-        },
-        {
-          "label": "Big name",
-          "text": "Anthropic is one of the most closely watched AI labs."
-        }
-      ],
-      "background": "Anthropic is the San Francisco AI company that makes the Claude family of models.",
-      "entities": [
-        "Anthropic",
-        "AI agents",
-        "AI and jobs"
-      ],
-      "meme": {
-        "top": "The agents now work six times more",
-        "bottom": "Nobody has asked them about a pension",
-        "take": "Anthropic's agents now outwork its staff six to one and still have no say in the holiday rota."
-      },
-      "stats": [
-        {
-          "value": "6:1",
-          "label": "agent hours to employee hours"
-        },
-        {
-          "value": "27% to 9%",
-          "label": "junior share of technical hires"
-        },
-        {
-          "value": "21% to 14%",
-          "label": "junior share of technical staff"
-        }
-      ],
-      "motif": "agent",
-      "category": "ai",
-      "hype": 76,
-      "prevHype": 88,
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/research/employment-at-anthropic",
-      "published": "2026-10-16"
-    },
-    {
-      "id": "ent-edgerunners-2-netflix",
-      "title": "Cyberpunk: Edgerunners 2 arrives on Netflix on October 20",
-      "summary": "The 10-episode standalone sequel to the 2022 anime is out Tuesday, with Cyberpunk 2077 on sale for 70% off on Steam.",
-      "why": "The first Edgerunners was a surprise hit that sent players back to Cyberpunk 2077.",
-      "happened": "CD Projekt Red and Studio Trigger made the series, directed by Kai Ikarashi, with a new cast led by Weak and D. Viewers do not need to have seen the first season. Cyberpunk 2077 is $17.99 on Steam until October 26.",
-      "next": "Watch for whether it lifts Cyberpunk 2077's player numbers as the first season did.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "The first season was one of the most popular game adaptations on Netflix."
-        },
-        {
-          "label": "Money",
-          "text": "A 70% game discount is timed to the launch."
-        },
-        {
-          "label": "Big name",
-          "text": "Studio Trigger is a leading anime studio."
-        }
-      ],
-      "background": "Cyberpunk 2077 is CD Projekt Red's open-world game set in the dystopian Night City.",
-      "entities": [
-        "Netflix",
-        "Streaming premieres",
-        "Video game adaptations"
-      ],
-      "meme": {
-        "top": "A new season of a sad cyberpunk anime",
-        "bottom": "The game is 70% off for the grief",
-        "take": "Edgerunners 2 arrives Tuesday, and CD Projekt has priced the game for the emotional rebound."
-      },
-      "stats": [
-        {
-          "value": "Oct 20",
-          "label": "Netflix release"
-        },
-        {
-          "value": "10",
-          "label": "episodes"
-        },
-        {
-          "value": "70%",
-          "label": "Cyberpunk 2077 discount"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 76,
-      "prevHype": null,
-      "source": "Gaming Route",
-      "url": "https://gamingroute.com/edgerunners-2-release-date-netflix/",
-      "published": "2026-10-18"
-    },
-    {
-      "id": "game-steam-frame-price",
-      "title": "Valve prices the Steam Frame headset from $1,059",
-      "summary": "Valve's Steam Frame costs $1,059 with 256GB or $1,299 with 1TB, with reservation holders able to order by December or in 2027.",
-      "why": "Valve's hardware sets the tone for PC VR, and the price is higher than many fans hoped.",
-      "happened": "Gaming Route reports the Steam Frame is priced at $1,059 for 256GB and $1,299 for 1TB. People who reserved one can place orders by December or in 2027, depending on their place in the queue.",
-      "next": "Watch for review units and how quickly the reservation queue moves.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "A price above $1,000 puts it in premium headset territory."
-        },
-        {
-          "label": "Big name",
-          "text": "Valve's Steam platform dominates PC gaming."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Players have waited years for new Valve VR hardware."
-        }
-      ],
-      "background": "Valve runs the Steam store and makes hardware such as the Steam Deck and the Index VR headset.",
-      "entities": [
-        "Valve",
-        "Gaming hardware",
-        "Virtual reality"
-      ],
-      "meme": {
-        "top": "Valve's new headset costs $1,059",
-        "bottom": "The queue to buy it is free",
-        "take": "Valve's headset starts at $1,059, and some buyers get to wait until 2027 at no extra charge."
-      },
-      "stats": [
-        {
-          "value": "$1,059",
-          "label": "256GB model"
-        },
-        {
-          "value": "$1,299",
-          "label": "1TB model"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 76,
-      "prevHype": 86,
-      "source": "Gaming Route",
-      "url": "https://gamingroute.com/steam-frame-price-specs-availability/",
-      "published": "2026-10-17"
-    },
-    {
-      "id": "ai-claude-nist-curve-seeds",
-      "title": "Anthropic says Claude solved the mystery of where NIST's curve seeds came from",
-      "summary": "Claude traced the seeds behind widely used NIST elliptic curves to a simple random generator seeded with timestamps, Anthropic says.",
-      "why": "Those curves protect much of the web, and the unexplained seeds fed backdoor theories for decades.",
-      "happened": "Anthropic says Claude worked out in under half an hour that the seeds came from the lrand48 generator seeded with Unix timestamps. It says this is not a cryptographic break and makes a backdoor less plausible. A $36,864 bounty is going to the Internet Security Research Group.",
-      "next": "Watch for cryptographers checking the method and the curve parts that remain unexplained.",
-      "drivers": [
-        {
-          "label": "First of its kind",
-          "text": "The origin of the seeds had gone unexplained for decades."
-        },
-        {
-          "label": "Big name",
-          "text": "NIST's P-256 curve secures a large share of web traffic."
+          "text": "API keys can be used to rack up charges."
         },
         {
           "label": "Trend",
-          "text": "AI labs are showing models doing original research work."
+          "text": "Attacks on AI developer tools are rising."
+        },
+        {
+          "label": "Big name",
+          "text": "Keys for OpenAI and Anthropic models were involved."
         }
       ],
-      "background": "NIST is the US standards agency. Its elliptic curves are used for encryption and digital signatures.",
+      "background": "OpenCode is an open-source AI coding assistant that works with models from several providers.",
       "entities": [
-        "Anthropic",
-        "Cybersecurity"
+        "Cybersecurity",
+        "AI coding",
+        "OpenAI",
+        "Anthropic"
       ],
       "meme": {
-        "top": "Decades of backdoor theories",
-        "bottom": "The answer was a clock",
-        "take": "Claude found the secret behind NIST's mystery curves: someone looked at the time."
+        "top": "OpenCode kept an old system around",
+        "bottom": "Someone else found a use for it",
+        "take": "Legacy systems are always about to be shut down. That is when they get the most visitors."
       },
       "stats": [
         {
-          "value": "<30 min",
-          "label": "time Claude took"
+          "value": "1.4%",
+          "label": "of Console users affected"
         },
         {
-          "value": "$36,864",
-          "label": "bounty, donated"
+          "value": "Oct 17",
+          "label": "users notified"
+        }
+      ],
+      "motif": "shield",
+      "category": "tech",
+      "hype": 66,
+      "prevHype": null,
+      "source": "Cybersecurity News",
+      "url": "https://cybersecuritynews.com/opencode-security-breach/",
+      "published": "2026-10-18"
+    },
+    {
+      "id": "ent-cyberpunk-movie-new-story",
+      "title": "The Cyberpunk 2077 movie will not follow the game's story",
+      "summary": "CD Projekt Red's co-CEO says the Paramount live-action film is set in the same world but is not an adaptation of the game's plot.",
+      "why": "Fans of the game have debated whether the film would retell V's story or try something new.",
+      "happened": "Paramount confirmed the live-action film with CD Projekt Red on October 8. Co-CEO Michal Nowakowski told a Polish outlet the studio has no plan to adapt the game's plot, Instant Gaming News reports. The film may not feature the game's characters or events.",
+      "next": "Watch for casting and a director announcement from Paramount.",
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "Cyberpunk 2077 and Edgerunners have a large fan base."
+        },
+        {
+          "label": "Timing",
+          "text": "It comes the same week Edgerunners 2 premieres."
+        },
+        {
+          "label": "Trend",
+          "text": "Studios are turning many hit games into films."
+        }
+      ],
+      "background": "Cyberpunk 2077 is CD Projekt Red's open-world game, released in 2020 and set in Night City.",
+      "entities": [
+        "CD Projekt Red",
+        "Paramount",
+        "Video game adaptations"
+      ],
+      "meme": {
+        "top": "A Cyberpunk 2077 movie is coming",
+        "bottom": "Without the plot of Cyberpunk 2077",
+        "take": "Paramount is adapting the world of Cyberpunk, minus the part most people actually played."
+      },
+      "stats": [
+        {
+          "value": "Oct 8",
+          "label": "film confirmed"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 66,
+      "prevHype": null,
+      "source": "Instant Gaming News",
+      "url": "https://news.instant-gaming.com/en/articles/22513-the-cyberpunk-2077-movie-won-t-follow-the-game-s-storyline",
+      "published": "2026-10-17"
+    },
+    {
+      "id": "ent-deva-dies",
+      "title": "Tamil film composer Deva dies at 75",
+      "summary": "The composer and singer, who scored more than 400 films and pioneered gaana music in cinema, died in Chennai.",
+      "why": "Deva's songs shaped decades of South Indian film music, including Rajinikanth classics.",
+      "happened": "Deva died of sudden cardiac arrest on Saturday at a Chennai hospital, One Mann's Movies reports. He composed for more than 400 films in Tamil, Telugu, Kannada and Malayalam, including Annaamalai and Baashha. He received full state honours at his burial on Sunday.",
+      "next": "Watch for tributes and screenings honouring his work in Tamil cinema.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Deva was one of Tamil cinema's best-known composers."
+        },
+        {
+          "label": "Nostalgia",
+          "text": "His 1990s songs remain widely loved."
+        },
+        {
+          "label": "Scale",
+          "text": "He scored more than 400 films."
+        }
+      ],
+      "background": "Deva was known as 'Thenisai Thendral' and was famed for bringing Chennai's gaana folk style to film.",
+      "entities": [
+        "Music",
+        "Indian cinema"
+      ],
+      "meme": {
+        "top": "Deva scored more than 400 films",
+        "bottom": "Their songs are still being played",
+        "take": "Tamil cinema remembers a composer whose music outlasts any headline."
+      },
+      "stats": [
+        {
+          "value": "75",
+          "label": "age"
+        },
+        {
+          "value": "400+",
+          "label": "films scored"
+        }
+      ],
+      "motif": "voice",
+      "category": "entertainment",
+      "hype": 64,
+      "prevHype": null,
+      "source": "One Mann's Movies",
+      "url": "https://onemannsmovies.com/movie-news/movie-news-19th-october-2026/",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "ai-dream-labs-robot-seed",
+      "title": "Dream Labs raises a $90 million seed round for robot foundation models",
+      "summary": "Founded this year by former Nvidia researchers, Dream Labs says its Dream-1 model controls robots from over 20 hardware makers.",
+      "why": "Investors are betting a single AI model can run many kinds of robots, as language models did for text.",
+      "happened": "The seed round was co-led by B Capital and Kindred Ventures, The AI Insider reports. The founders worked on Nvidia's GR00T robotics project. Dream-1 controls gripper-equipped robots from more than 20 partners, on hardware costing $2,000 to $10,000.",
+      "next": "Watch for public demos of Dream-1 and which robot makers adopt it.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "$90 million is unusually large for a seed round."
+        },
+        {
+          "label": "Trend",
+          "text": "Robot foundation models are drawing heavy investment."
+        },
+        {
+          "label": "Timing",
+          "text": "It follows OpenAI confirming its own humanoid robot."
+        }
+      ],
+      "background": "Foundation models are large AI models trained on broad data that can be adapted to many tasks.",
+      "entities": [
+        "Robotics",
+        "AI funding"
+      ],
+      "meme": {
+        "top": "One AI model for every robot",
+        "bottom": "The robots were not consulted",
+        "take": "Dream Labs raised $90 million to give robots from 20 companies one shared brain."
+      },
+      "stats": [
+        {
+          "value": "$90M",
+          "label": "seed round"
+        },
+        {
+          "value": "20+",
+          "label": "hardware partners"
+        },
+        {
+          "value": "$2K-$10K",
+          "label": "supported robot cost"
         }
       ],
       "motif": "network",
       "category": "ai",
-      "hype": 74,
+      "hype": 62,
       "prevHype": null,
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "published": "2026-10-16"
+      "source": "The AI Insider",
+      "url": "https://theaiinsider.tech/2026/10/19/dream-labs-raises-90m-in-seed-funding-to-build-foundation-models-for-any-robot/",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "tech-apple-new-macs-ipad-mini",
+      "title": "New Macs are reported for November 6 as a new iPad mini case leaks",
+      "summary": "Bloomberg's Mark Gurman says new Macs arrive November 6, and a filing for an unreleased iPad mini case hints at a redesign.",
+      "why": "Apple's fall lineup is filling out after the iPhone Duo and HomeView launches.",
+      "happened": "Bloomberg's Mark Gurman reports new Macs arrive November 6, and 9to5Mac reports Apple's first touchscreen MacBook could debut then. An unreleased iPad mini Smart Folio, model A3632, appeared in a French regulatory database, Android Headlines reports.",
+      "next": "Watch for an Apple announcement confirming the new Macs and iPad mini.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "New Apple hardware draws wide attention."
+        },
+        {
+          "label": "Timing",
+          "text": "It would land just before the holiday season."
+        }
+      ],
+      "background": "The iPad mini is Apple's smallest tablet. It was last updated in 2024.",
+      "entities": [
+        "Apple",
+        "Personal computers"
+      ],
+      "meme": {
+        "top": "Apple said no to touchscreen Macs",
+        "bottom": "November may be the reunion",
+        "take": "Apple's position on touchscreen Macs is reported to be evolving, as positions do."
+      },
+      "stats": [
+        {
+          "value": "Nov 6",
+          "label": "new Macs, reported"
+        },
+        {
+          "value": "A3632",
+          "label": "unreleased case model"
+        }
+      ],
+      "motif": "phone",
+      "category": "tech",
+      "hype": 62,
+      "prevHype": 72,
+      "source": "Android Headlines",
+      "url": "https://www.androidheadlines.com/2026/10/apple-leaks-redesigned-ipad-mini-case.html",
+      "published": "2026-10-18"
+    },
+    {
+      "id": "tech-nikkei-third-breach",
+      "title": "Nikkei discloses its third data breach in about a month",
+      "summary": "The Japanese media group says stolen credentials exposed about 1.83 million records from a development system.",
+      "why": "Three breaches in a row at a major news organisation raises questions about its security basics.",
+      "happened": "Attackers used stolen credentials to reach a development system on October 7, BleepingComputer reports. About 150,000 of the 1.83 million records held personal details such as names and email addresses. No card data was exposed, and Nikkei says it has seen no misuse.",
+      "next": "Watch for Nikkei's notices to affected people and any further disclosures.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "About 1.83 million records were exposed."
+        },
+        {
+          "label": "Risk",
+          "text": "It is Nikkei's third incident in roughly a month."
+        },
+        {
+          "label": "Trend",
+          "text": "Stolen logins are behind many recent breaches."
+        }
+      ],
+      "background": "Nikkei is a Japanese media company that publishes the Nikkei newspaper and owns the Financial Times.",
+      "entities": [
+        "Cybersecurity",
+        "Japan"
+      ],
+      "meme": {
+        "top": "Nikkei disclosed a data breach",
+        "bottom": "Then a second. Now a third",
+        "take": "Nikkei now publishes breach notices at roughly the pace of a monthly magazine."
+      },
+      "stats": [
+        {
+          "value": "1.83M",
+          "label": "records exposed"
+        },
+        {
+          "value": "~150K",
+          "label": "with personal details"
+        },
+        {
+          "value": "3",
+          "label": "breaches in about a month"
+        }
+      ],
+      "motif": "shield",
+      "category": "tech",
+      "hype": 62,
+      "prevHype": null,
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+      "published": "2026-10-19"
     },
     {
       "id": "tech-samsung-tsmc-nvidia-hbm",
@@ -782,9 +1637,9 @@
         "AI chips"
       ],
       "meme": {
-        "top": "Samsung needed a better chip line",
-        "bottom": "So it called the competition",
-        "take": "Samsung is reportedly hiring TSMC to help build Nvidia's memory. Rivalry has a price."
+        "top": "Samsung needed help making memory",
+        "bottom": "So it called its biggest rival",
+        "take": "AI memory demand is so high that Samsung and TSMC are briefly on the same side."
       },
       "stats": [
         {
@@ -802,94 +1657,249 @@
       ],
       "motif": "chip",
       "category": "tech",
-      "hype": 74,
-      "prevHype": null,
+      "hype": 60,
+      "prevHype": 74,
       "source": "Seoul Economic Daily",
       "url": "https://en.sedaily.com/finance/2026/10/18/samsung-to-tap-tsmc-3-nanometer-lines-for-nvidia-custom-hbm",
       "published": "2026-10-18"
     },
     {
-      "id": "ai-websites-block-agents",
-      "title": "Banks, airlines and retailers are locking AI agents out of their sites",
-      "summary": "Amazon, Delta and major US banks are blocking outside AI agents such as Meta's Muse and OpenAI's Dots from acting for users.",
-      "why": "AI agents are pitched as doing errands for you, which only works if websites let them in.",
-      "happened": "Reports say Amazon removed Meta's Muse from its store, Delta blocks outside agents from booking, and big banks keep bots out of accounts. Schwab's chief said it blocks dozens to hundreds of agent attempts in weekly reports.",
-      "next": "Watch for paid deals between AI companies and the sites now blocking them.",
+      "id": "game-arc-raiders-comeback",
+      "title": "ARC Raiders bounces back to 185,000 Steam players after its Frozen Trail update",
+      "summary": "Embark's shooter hit its highest Steam player count since March after a free update and a free-to-play week.",
+      "why": "A big comeback for a struggling online game shows a strong update can win players back.",
+      "happened": "The free Frozen Trail update on October 8 added a new map and three enemy types, and the game was free to play from October 8 to 12. On October 11 it passed 185,000 concurrent Steam players, its highest since March 2026, according to SteamDB figures.",
+      "next": "Watch for whether player numbers hold now the free week is over.",
       "drivers": [
         {
-          "label": "Rivalry",
-          "text": "Sites want to keep customers on their own apps and ads."
-        },
-        {
-          "label": "Risk",
-          "text": "Banks cite account security and fraud."
+          "label": "Scale",
+          "text": "185,000 concurrent players is a big count on Steam."
         },
         {
           "label": "Money",
-          "text": "Sponsored listings and ad revenue are at stake."
-        }
-      ],
-      "background": "AI agents are chatbots that can take actions such as shopping or booking on a user's behalf.",
-      "entities": [
-        "AI agents",
-        "Meta",
-        "OpenAI",
-        "Amazon"
-      ],
-      "meme": {
-        "top": "AI agents were promised to run errands",
-        "bottom": "The shops have stopped letting them in",
-        "take": "AI agents can now do your shopping, provided the shop is not one you have heard of."
-      },
-      "stats": [],
-      "motif": "agent",
-      "category": "ai",
-      "hype": 72,
-      "prevHype": null,
-      "source": "Android Headlines",
-      "url": "https://www.androidheadlines.com/2026/10/banks-retail-websites-block-ai-agents-promises.html",
-      "published": "2026-10-17"
-    },
-    {
-      "id": "ent-true-detective-season-5",
-      "title": "Antonio Banderas and Nicolas Cage join True Detective season 5",
-      "summary": "HBO confirmed the two stars for the next season, reportedly set in New York's Jamaica Bay, with filming in 2027.",
-      "why": "True Detective's casting is always a talking point after its famous first season.",
-      "happened": "Banderas will play Rai Garcia and Cage will play Henry Logan, Deadline reports. Issa López, who wrote and directed season 4, returns as showrunner. Production begins in 2027.",
-      "next": "Watch for more casting and a release window from HBO.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Nicolas Cage and Antonio Banderas are both well-known film stars."
+          "text": "A free week brought in many new players."
         },
         {
-          "label": "Nostalgia",
-          "text": "The first season set a high bar for prestige TV."
+          "label": "Timing",
+          "text": "It comes before a crowded run of new shooters."
         }
       ],
-      "background": "True Detective is HBO's crime anthology series. Each season has a new cast and story.",
+      "background": "ARC Raiders is an online extraction shooter from Embark Studios, a Swedish studio owned by Nexon.",
       "entities": [
-        "HBO",
-        "TV casting"
+        "Live-service games",
+        "Embark Studios"
       ],
       "meme": {
-        "top": "Nicolas Cage joins True Detective",
-        "bottom": "The swamp has met its match",
-        "take": "HBO cast Nicolas Cage in a bleak crime drama, a genre about to become slightly less bleak."
+        "top": "ARC Raiders went free for a week",
+        "bottom": "Players remembered it existed",
+        "take": "The most effective marketing in gaming remains not charging anything for five days."
       },
       "stats": [
         {
-          "value": "2027",
-          "label": "production starts"
+          "value": "185K+",
+          "label": "peak Steam players"
+        },
+        {
+          "value": "Oct 8",
+          "label": "Frozen Trail update"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 60,
+      "prevHype": null,
+      "source": "Instant Gaming News",
+      "url": "https://news.instant-gaming.com/en/articles/22515-arc-raiders-has-made-a-strong-comeback-with-the-frozen-trail-update",
+      "published": "2026-10-17"
+    },
+    {
+      "id": "game-steam-frame-price",
+      "title": "Valve prices the Steam Frame headset from $1,059",
+      "summary": "Valve's Steam Frame costs $1,059 with 256GB or $1,299 with 1TB, with reservation holders able to order by December or in 2027.",
+      "why": "Valve's hardware sets the tone for PC VR, and the price is higher than many fans hoped.",
+      "happened": "Gaming Route reports the Steam Frame is priced at $1,059 for 256GB and $1,299 for 1TB. People who reserved one can place orders by December or in 2027, depending on their place in the queue.",
+      "next": "Watch for review units and how quickly the reservation queue moves.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "A price above $1,000 puts it in premium headset territory."
+        },
+        {
+          "label": "Big name",
+          "text": "Valve's Steam platform dominates PC gaming."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Players have waited years for new Valve VR hardware."
+        }
+      ],
+      "background": "Valve runs the Steam store and makes hardware such as the Steam Deck and the Index VR headset.",
+      "entities": [
+        "Valve",
+        "Gaming hardware",
+        "Virtual reality"
+      ],
+      "meme": {
+        "top": "Valve's new headset costs $1,059",
+        "bottom": "The 1TB one is for the brave",
+        "take": "Valve priced the Steam Frame at $1,059, a number PC players will now call reasonable."
+      },
+      "stats": [
+        {
+          "value": "$1,059",
+          "label": "256GB model"
+        },
+        {
+          "value": "$1,299",
+          "label": "1TB model"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 60,
+      "prevHype": 76,
+      "source": "Gaming Route",
+      "url": "https://gamingroute.com/steam-frame-price-specs-availability/",
+      "published": "2026-10-17"
+    },
+    {
+      "id": "tech-nvidia-app-ai-agents",
+      "title": "Nvidia's app now lets AI agents change your settings by default",
+      "summary": "An Nvidia App update lets AI agents adjust game graphics, recording and laptop modes without users opting in.",
+      "why": "Letting AI agents control software by default is a new step, and some users want to be asked first.",
+      "happened": "Version 11.0.9.565 lets AI agents control the Nvidia App through the MCP protocol by default, Instant Gaming News reports. Agents can tune game graphics, start ShadowPlay recording, check drivers and manage laptop modes. Users can switch it off in Settings.",
+      "next": "Watch for whether Nvidia changes the default after user feedback.",
+      "drivers": [
+        {
+          "label": "Controversy",
+          "text": "The feature is on unless users switch it off."
+        },
+        {
+          "label": "Trend",
+          "text": "Apps are adding ways for AI agents to control them."
+        },
+        {
+          "label": "Big name",
+          "text": "Nvidia's app runs on millions of gaming PCs."
+        }
+      ],
+      "background": "The Nvidia App manages drivers and game settings for PCs with Nvidia graphics cards.",
+      "entities": [
+        "Nvidia",
+        "AI agents"
+      ],
+      "meme": {
+        "top": "Nvidia let AI tune your graphics",
+        "bottom": "It skipped the part where it asks",
+        "take": "The AI can now adjust your settings, and you can adjust its settings back."
+      },
+      "stats": [],
+      "motif": "agent",
+      "category": "tech",
+      "hype": 58,
+      "prevHype": null,
+      "source": "Instant Gaming News",
+      "url": "https://news.instant-gaming.com/en/articles/22510-the-latest-update-for-the-nvidia-app-enables-ai-agents-by-default-to-adjust-several-settings",
+      "published": "2026-10-17"
+    },
+    {
+      "id": "game-castlevania-uk-chart",
+      "title": "Castlevania: Belmont's Curse debuts third in the UK charts",
+      "summary": "Konami's new Castlevania entered at No. 3 behind EA Sports FC 27 and newcomer Control Resonant.",
+      "why": "It is the first new Castlevania in years, and an early chart showing tests whether fans came back.",
+      "happened": "EA Sports FC 27 held No. 1, Control Resonant debuted at No. 2 and Belmont's Curse at No. 3, Nintendo Life reports from GfK data. Half of Castlevania's UK sales were on PS5 and 45% on Switch. It launched October 15 at $29.99 in the US.",
+      "next": "Watch for whether it holds in the charts as bigger holiday games arrive.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "Castlevania is one of gaming's oldest series."
+        },
+        {
+          "label": "Big name",
+          "text": "Motion Twin made the hit Dead Cells."
+        },
+        {
+          "label": "Money",
+          "text": "A $29.99 price undercuts most new releases."
+        }
+      ],
+      "background": "Castlevania is Konami's vampire-hunting series, first released in 1986.",
+      "entities": [
+        "Konami",
+        "New game releases",
+        "Revived franchises"
+      ],
+      "meme": {
+        "top": "Castlevania came back after years away",
+        "bottom": "Football still got there first",
+        "take": "A vampire-hunting series returned after years in its coffin, and finished behind FIFA."
+      },
+      "stats": [
+        {
+          "value": "No. 3",
+          "label": "UK chart debut"
+        },
+        {
+          "value": "$29.99",
+          "label": "US price"
+        },
+        {
+          "value": "50%",
+          "label": "UK sales on PS5"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 58,
+      "prevHype": null,
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/10/uk-charts-castlevania-belmonts-curse-whips-up-a-fine-debut-but-its-not-king-of-the-castle",
+      "published": "2026-10-19"
+    },
+    {
+      "id": "ent-below-netflix-top",
+      "title": "Josh Hartnett's Below jumps to the top of Netflix's series chart",
+      "summary": "The six-part Newfoundland-set limited series climbed from 13th to first in What's on Netflix's weekly ranking.",
+      "why": "A quiet limited series overtaking bigger shows suggests strong word of mouth.",
+      "happened": "Below rose from No. 13 to No. 1 in What's on Netflix's points-based top 10, ahead of Florence Pugh's East of Eden, which had led the week before. The six-episode drama stars Josh Hartnett and is set in Newfoundland.",
+      "next": "Watch for Netflix's official viewing figures for the series.",
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "It climbed 12 places in a week."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It overtook the Florence Pugh-led East of Eden."
+        }
+      ],
+      "background": "Josh Hartnett is a US actor known for Pearl Harbor and Oppenheimer.",
+      "entities": [
+        "Netflix",
+        "Limited series"
+      ],
+      "meme": {
+        "top": "A six-part drama about Newfoundland",
+        "bottom": "Quietly beat everything else",
+        "take": "Netflix's top show this week arrived without a franchise, a sequel or a single explosion."
+      },
+      "stats": [
+        {
+          "value": "No. 1",
+          "label": "series chart, from No. 13"
+        },
+        {
+          "value": "6",
+          "label": "episodes"
         }
       ],
       "motif": "screen",
       "category": "entertainment",
-      "hype": 72,
+      "hype": 58,
       "prevHype": null,
-      "source": "Consequence",
-      "url": "https://consequence.net/2026/10/true-detective-season-5-antonio-banderas/",
-      "published": "2026-10-16"
+      "source": "What's on Netflix",
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-17-2026/",
+      "published": "2026-10-17"
     },
     {
       "id": "tech-california-student-data-hack",
@@ -914,9 +1924,9 @@
         "Privacy"
       ],
       "meme": {
-        "top": "Seven million students' records exposed",
-        "bottom": "Through one stolen login",
-        "take": "Seven million students' records went out through a single login. Plain and serious."
+        "top": "Student data was exposed for months",
+        "bottom": "No one noticed until September",
+        "take": "A testing contractor's login was copied for four months before anyone checked the logs."
       },
       "stats": [
         {
@@ -930,360 +1940,10 @@
       ],
       "motif": "shield",
       "category": "tech",
-      "hype": 72,
-      "prevHype": null,
+      "hype": 56,
+      "prevHype": 72,
       "source": "DataBreaches.net",
       "url": "https://databreaches.net/2026/10/17/hack-exposes-data-on-millions-of-california-students/",
-      "published": "2026-10-17"
-    },
-    {
-      "id": "tech-apple-new-macs-ipad-mini",
-      "title": "New Macs are reported for November 6 as a new iPad mini case leaks",
-      "summary": "Bloomberg's Mark Gurman says new Macs arrive November 6, and a filing for an unreleased iPad mini case hints at a redesign.",
-      "why": "Apple's fall lineup is filling out after the iPhone Duo and HomeView launches.",
-      "happened": "An unreleased Smart Folio, model A3632, appeared in a French regulatory database with more magnet material than the current case, Android Headlines reports. Rumors point to an OLED iPad mini. Gurman reports a November 6 release for new Macs.",
-      "next": "Watch for an Apple announcement confirming the new Macs and iPad mini.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "New Apple hardware draws wide attention."
-        },
-        {
-          "label": "Timing",
-          "text": "It would land just before the holiday season."
-        }
-      ],
-      "background": "The iPad mini is Apple's smallest tablet. It was last updated in 2024.",
-      "entities": [
-        "Apple",
-        "Personal computers"
-      ],
-      "meme": {
-        "top": "Apple's next iPad mini leaked",
-        "bottom": "Its case could not keep quiet",
-        "take": "Apple's next iPad mini was given away by its case, the least discreet accessory Apple makes."
-      },
-      "stats": [
-        {
-          "value": "Nov 6",
-          "label": "new Macs, reported"
-        },
-        {
-          "value": "A3632",
-          "label": "unreleased case model"
-        }
-      ],
-      "motif": "phone",
-      "category": "tech",
-      "hype": 72,
-      "prevHype": null,
-      "source": "Android Headlines",
-      "url": "https://www.androidheadlines.com/2026/10/apple-leaks-redesigned-ipad-mini-case.html",
-      "published": "2026-10-18"
-    },
-    {
-      "id": "ai-nscale-ipo-pushback",
-      "title": "Investors are reported to push back on Nscale's $35 billion IPO goal",
-      "summary": "Investors reportedly want the AI cloud firm valued at $16 billion to $19 billion, about half what it is seeking.",
-      "why": "Nscale is a test of how much markets will pay for AI data center builders.",
-      "happened": "Bloomberg reports investor concerns include a Norwegian site running at 6.4 MW against a 30 MW target and only about 2.5% of a $103.4 billion backlog active. Microsoft's exit as a UK anchor tenant was also cited.",
-      "next": "Watch for Nscale's final pricing and whether it delays the listing.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "The gap between the asking and offered value is about half."
-        },
-        {
-          "label": "Risk",
-          "text": "Delays at its sites raise doubts about its backlog."
-        },
-        {
-          "label": "Trend",
-          "text": "AI cloud firms are rushing to raise money on public markets."
-        }
-      ],
-      "background": "Nscale is a British company that builds and rents out data centers for AI computing.",
-      "entities": [
-        "AI infrastructure",
-        "AI funding",
-        "Microsoft"
-      ],
-      "meme": {
-        "top": "Nscale asked for $35 billion",
-        "bottom": "Investors offered the working half",
-        "take": "Nscale wants $35 billion. Investors would like to see the missing 23.6 megawatts first."
-      },
-      "stats": [
-        {
-          "value": "$30-35B",
-          "label": "valuation sought"
-        },
-        {
-          "value": "$16-19B",
-          "label": "investors' range, reported"
-        },
-        {
-          "value": "6.4 MW",
-          "label": "Norway site output vs 30 MW"
-        }
-      ],
-      "motif": "money",
-      "category": "ai",
-      "hype": 70,
-      "prevHype": null,
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation",
-      "published": "2026-10-18"
-    },
-    {
-      "id": "ent-harry-styles-tour-documentary",
-      "title": "John Wilson is reported to be making a Harry Styles tour documentary",
-      "summary": "The How To with John Wilson creator is filming Styles' 30-night Madison Square Garden residency, with a cinema release under consideration.",
-      "why": "It pairs one of pop's biggest stars with one of TV's most distinctive documentary voices.",
-      "happened": "Variety reports Wilson has filmed the residency since August, covering concerts, the production and fans and crew. Universal Pictures has worldwide rights. The residency runs until October 31, and no release date is set.",
-      "next": "Watch for Universal confirming a theatrical release.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Harry Styles is one of the world's biggest pop stars."
-        },
-        {
-          "label": "Scale",
-          "text": "Consequence calls the residency the largest single run in the venue's history."
-        },
-        {
-          "label": "Trend",
-          "text": "Concert films have become big earners in cinemas."
-        }
-      ],
-      "background": "John Wilson made the HBO series How To with John Wilson, known for its odd New York street footage.",
-      "entities": [
-        "Music",
-        "Documentaries",
-        "Theatrical releases"
-      ],
-      "meme": {
-        "top": "John Wilson is filming Harry Styles",
-        "bottom": "Expect several minutes of pigeons",
-        "take": "Harry Styles hired the man who films New York's scaffolding. Bold for a pop documentary."
-      },
-      "stats": [
-        {
-          "value": "30",
-          "label": "Madison Square Garden nights"
-        },
-        {
-          "value": "Oct 31",
-          "label": "residency ends"
-        }
-      ],
-      "motif": "voice",
-      "category": "entertainment",
-      "hype": 70,
-      "prevHype": null,
-      "source": "Consequence",
-      "url": "https://consequence.net/2026/10/harry-styles-tour-documentary-john-wilson/",
-      "published": "2026-10-18"
-    },
-    {
-      "id": "game-deadlock-300k-record",
-      "title": "Valve's invite-only Deadlock passes 300,000 players on Steam",
-      "summary": "Deadlock hit a peak of 303,347 concurrent players, making it Steam's fourth most-played game while still invite-only.",
-      "why": "A game this popular without even being openly available is rare, and it hints at a big Valve launch ahead.",
-      "happened": "Deadlock peaked at 303,347 concurrent players, per SteamDB, Destructoid reports. New hero Violet arrived on October 16, and another hero, Nurse Harrow, is due on October 20.",
-      "next": "Watch for whether Nurse Harrow's arrival on October 20 pushes the record higher.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "Over 300,000 at once ranks it among Steam's biggest games."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Players are still asking friends for invites."
-        },
-        {
-          "label": "Big name",
-          "text": "Valve rarely releases new multiplayer games."
-        }
-      ],
-      "background": "Deadlock is Valve's hero shooter mixed with a battle arena game, tested publicly by invitation.",
-      "entities": [
-        "Valve",
-        "Steam records"
-      ],
-      "meme": {
-        "top": "A game you need an invite for",
-        "bottom": "Three hundred thousand got one",
-        "take": "Deadlock is invite-only and has 303,000 players, which stretches the word exclusive."
-      },
-      "stats": [
-        {
-          "value": "303,347",
-          "label": "peak concurrent players"
-        },
-        {
-          "value": "4th",
-          "label": "most-played on Steam"
-        },
-        {
-          "value": "Oct 20",
-          "label": "next hero arrives"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 70,
-      "prevHype": 82,
-      "source": "Destructoid",
-      "url": "https://www.destructoid.com/deadlock-new-record/",
-      "published": "2026-10-17"
-    },
-    {
-      "id": "tech-apple-homeview-smart-home",
-      "title": "Apple launches HomeView, a $300 smart display, with a wider smart home lineup",
-      "summary": "Apple opened preorders for a 7-inch HomeView display, a new HomePod mini, Apple TV 4K and cameras, locks and thermostats.",
-      "why": "It is Apple's biggest push into the smart home, where Amazon and Google have long led.",
-      "happened": "HomeView costs $299 and launches November 13, with the new Apple TV 4K at $299 and HomePod mini 2 at $149, MacRumors reports. Some tabletop HomeView colors now ship in early December, and Siri AI arrives in a later update.",
-      "next": "Watch for reviews of HomeView and the accessories' shipping dates.",
-      "drivers": [
-        {
-          "label": "Rivalry",
-          "text": "Amazon and Google dominate smart displays and speakers."
-        },
-        {
-          "label": "Big name",
-          "text": "Any new Apple product category draws wide attention."
-        },
-        {
-          "label": "Money",
-          "text": "Commentators noted the higher prices of the new home devices."
-        }
-      ],
-      "background": "Apple Home is Apple's app and platform for controlling smart home devices from an iPhone.",
-      "entities": [
-        "Apple",
-        "Smart home",
-        "Amazon"
-      ],
-      "meme": {
-        "top": "Apple made a screen for your kitchen",
-        "bottom": "The smart part arrives later",
-        "take": "Apple's HomeView ships in November. The smarter Siri will follow when it is ready."
-      },
-      "stats": [
-        {
-          "value": "$299",
-          "label": "HomeView price"
-        },
-        {
-          "value": "Nov 13",
-          "label": "HomeView launch"
-        },
-        {
-          "value": "$149",
-          "label": "HomePod mini 2 price"
-        }
-      ],
-      "motif": "home",
-      "category": "tech",
-      "hype": 70,
-      "prevHype": 72,
-      "source": "MacRumors",
-      "url": "https://www.macrumors.com/2026/10/17/top-stories-apple-homeview-intro/",
-      "published": "2026-10-16"
-    },
-    {
-      "id": "ai-doe-nuclear-restarts",
-      "title": "US lends up to $4.4 billion to restart three nuclear plants for AI power",
-      "summary": "The Energy Department is backing restarts at Palisades, Crane and Duane Arnold, restoring about 2.25 gigawatts mainly for data centers.",
-      "why": "AI data centers need huge amounts of power, and reviving shut reactors is one of the quickest ways to find it.",
-      "happened": "Crane, the former Three Mile Island plant, has a 20-year deal with Microsoft and a 2027 target. Palisades in Michigan must be online by March 2027 under its contracts. Duane Arnold in Iowa, owned by NextEra and working with Google, aims for early 2029.",
-      "next": "Watch for Palisades finishing fuel loading after a pause in its restart.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "2.25 gigawatts is enough for about 2 million homes and businesses."
-        },
-        {
-          "label": "Big name",
-          "text": "Microsoft and Google are tied to two of the plants."
-        },
-        {
-          "label": "Trend",
-          "text": "Tech companies are turning to nuclear power for AI."
-        }
-      ],
-      "background": "Nuclear plants produce steady power around the clock, which data centers need.",
-      "entities": [
-        "AI infrastructure",
-        "Microsoft",
-        "Nuclear power"
-      ],
-      "meme": {
-        "top": "Three shut nuclear plants are reopening",
-        "bottom": "Chatbots need the night shift too",
-        "take": "America is reopening Three Mile Island so the chatbots can stay up late."
-      },
-      "stats": [
-        {
-          "value": "$4.4B",
-          "label": "federal loans, up to"
-        },
-        {
-          "value": "2.25 GW",
-          "label": "capacity restored"
-        },
-        {
-          "value": "3",
-          "label": "plants restarting"
-        }
-      ],
-      "motif": "power",
-      "category": "ai",
-      "hype": 68,
-      "prevHype": null,
-      "source": "CKOM",
-      "url": "https://www.ckom.com/2026/10/17/u-s-revives-shuttered-nuclear-plants-to-power-massive-ai-data-centres/",
-      "published": "2026-10-17"
-    },
-    {
-      "id": "ent-kid-rock-eminem-album",
-      "title": "Kid Rock releases a Christian album featuring Eminem",
-      "summary": "Halfway 2 Jesus includes Heal My Faith with Eminem, plus Lil Wayne and Jimmie Allen, despite the two rappers' opposite politics.",
-      "why": "The pairing crosses one of music's sharpest political divides.",
-      "happened": "Kid Rock wrote that he and Eminem have stayed friends despite different politics and hopes it sets an example. Eminem posted that it was about making music with an old friend, not choosing sides.",
-      "next": "Watch for how the album performs on the charts this week.",
-      "drivers": [
-        {
-          "label": "Controversy",
-          "text": "Kid Rock supports President Trump, and Eminem has criticized him."
-        },
-        {
-          "label": "Big name",
-          "text": "Eminem is one of the best-selling rappers of all time."
-        },
-        {
-          "label": "Nostalgia",
-          "text": "Both are Michigan artists who rose to fame in the late 1990s."
-        }
-      ],
-      "background": "Kid Rock and Eminem are both Michigan musicians whose careers took off in the late 1990s.",
-      "entities": [
-        "Music",
-        "Eminem"
-      ],
-      "meme": {
-        "top": "Kid Rock made a Christian album",
-        "bottom": "Eminem kept the faith on one track",
-        "take": "Kid Rock and Eminem disagree on almost everything except the royalty split."
-      },
-      "stats": [],
-      "motif": "voice",
-      "category": "entertainment",
-      "hype": 68,
-      "prevHype": null,
-      "source": "Consequence",
-      "url": "https://consequence.net/2026/10/kid-rock-christian-album-eminem/",
       "published": "2026-10-17"
     },
     {
@@ -1313,261 +1973,18 @@
         "AI in games"
       ],
       "meme": {
-        "top": "Konami says games need human chemistry",
-        "bottom": "Silent Hill fans agree, nervously",
-        "take": "Konami says AI cannot replace people. The business report says so, and people wrote it."
+        "top": "Konami says AI cannot replace chemistry",
+        "bottom": "Konami's lab coats remain in place",
+        "take": "Konami's president trusts people over AI, which is good news for people at Konami."
       },
       "stats": [],
       "motif": "game",
       "category": "gaming",
-      "hype": 68,
-      "prevHype": null,
+      "hype": 54,
+      "prevHype": 68,
       "source": "VGC",
       "url": "https://www.videogameschronicle.com/news/konami-boss-says-ai-cant-replace-the-human-chemistry-behind-great-games/",
       "published": "2026-10-18"
-    },
-    {
-      "id": "ent-narnia-stairway-trailer",
-      "title": "Led Zeppelin licenses Stairway to Heaven to a film for the first time, for Narnia",
-      "summary": "Greta Gerwig's Narnia: The Magician's Nephew uses the song in its new trailer, after the band turned down films for decades.",
-      "why": "Led Zeppelin almost never licenses its biggest song, so the trailer became an event of its own.",
-      "happened": "The new trailer for Narnia: The Magician's Nephew is set to Stairway to Heaven, JamBase reports. The band had refused films such as Wayne's World. The film gets a five-week theatrical run from February 12, 2027, then streams on Netflix from April 2.",
-      "next": "Watch for whether the song is also used in the film itself.",
-      "drivers": [
-        {
-          "label": "First of its kind",
-          "text": "The song had never been licensed to a film before."
-        },
-        {
-          "label": "Big name",
-          "text": "Greta Gerwig directed Barbie, one of the biggest films of 2023."
-        },
-        {
-          "label": "Nostalgia",
-          "text": "Both Narnia and Led Zeppelin have audiences spanning generations."
-        }
-      ],
-      "background": "The Chronicles of Narnia are C.S. Lewis's fantasy novels. The Magician's Nephew tells how Narnia began.",
-      "entities": [
-        "Netflix",
-        "Book adaptations",
-        "Music",
-        "Theatrical releases"
-      ],
-      "meme": {
-        "top": "Led Zeppelin said no for fifty years",
-        "bottom": "Then a lion asked nicely",
-        "take": "Led Zeppelin turned down Wayne's World, then said yes to a talking lion. Standards."
-      },
-      "stats": [
-        {
-          "value": "Feb 12, 2027",
-          "label": "theatrical release"
-        },
-        {
-          "value": "Apr 2",
-          "label": "Netflix release"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 66,
-      "prevHype": 80,
-      "source": "JamBase",
-      "url": "https://www.jambase.com/article/led-zeppelin-stairway-to-heaven-narnia-magicians-nephew-trailer",
-      "published": "2026-10-16"
-    },
-    {
-      "id": "game-assassins-creed-destiny-leak",
-      "title": "Footage leaks from a reportedly cancelled Assassin's Creed set in ancient China",
-      "summary": "Clips of Assassin's Creed Destiny, said to be made by Tencent's TiMi Studio, surfaced from developer portfolios.",
-      "why": "Fans have long asked for a mainline Assassin's Creed set in China.",
-      "happened": "MP1st first reported the footage, which shows a female assassin in the Qin Dynasty around 206 BCE and a boss fight with Xiang Yu, VGC reports. The game was reportedly planned for console and PC before being cancelled.",
-      "next": "Watch for any comment from Ubisoft or Tencent on the project.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "Ancient China has long been a requested setting."
-        },
-        {
-          "label": "Big name",
-          "text": "Assassin's Creed is Ubisoft's biggest series."
-        },
-        {
-          "label": "Risk",
-          "text": "Cancelled projects point to wider cutbacks in the industry."
-        }
-      ],
-      "background": "Assassin's Creed is Ubisoft's historical action series. Tencent is a major investor in Ubisoft.",
-      "entities": [
-        "Ubisoft",
-        "Game industry jobs",
-        "China"
-      ],
-      "meme": {
-        "top": "Fans wanted Assassin's Creed in China",
-        "bottom": "They got a trailer for a cancelled one",
-        "take": "Assassin's Creed finally visited ancient China, briefly, in someone's portfolio."
-      },
-      "stats": [
-        {
-          "value": "206 BCE",
-          "label": "setting, reported"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 66,
-      "prevHype": null,
-      "source": "VGC",
-      "url": "https://www.videogameschronicle.com/news/footage-from-a-reportedly-cancelled-assassins-creed-game-set-in-china-has-leaked/",
-      "published": "2026-10-16"
-    },
-    {
-      "id": "game-sweeney-ai-routine-coding",
-      "title": "Tim Sweeney says AI can take over the routine work of coding",
-      "summary": "Epic's chief said about 70% of his time building Unreal Engine 1 went to routine typing and refactoring that AI can now handle.",
-      "why": "Epic makes the engine behind many games, so its chief's view on AI shapes how studios think about jobs.",
-      "happened": "Sweeney made the point in an X post on October 18, following his October 12 announcement of a 'huge pivot' at Epic, Gaming Route reports. Many replies pushed back.",
-      "next": "Watch for details of Epic's announced pivot.",
-      "drivers": [
-        {
-          "label": "Controversy",
-          "text": "Many developers worry AI will cost jobs."
-        },
-        {
-          "label": "Big name",
-          "text": "Unreal Engine powers many of the biggest games."
-        },
-        {
-          "label": "Timing",
-          "text": "It comes days after Epic said it is changing course."
-        }
-      ],
-      "background": "Tim Sweeney founded Epic Games, maker of Fortnite and Unreal Engine.",
-      "entities": [
-        "Epic Games",
-        "AI in games",
-        "AI coding"
-      ],
-      "meme": {
-        "top": "Seventy percent of the work was typing",
-        "bottom": "The other thirty was Unreal",
-        "take": "Tim Sweeney says AI could have done most of his Unreal Engine typing. The engine is still his."
-      },
-      "stats": [
-        {
-          "value": "~70%",
-          "label": "time on routine coding, he said"
-        }
-      ],
-      "motif": "agent",
-      "category": "gaming",
-      "hype": 66,
-      "prevHype": null,
-      "source": "Gaming Route",
-      "url": "https://gamingroute.com/gaming-news-today/",
-      "published": "2026-10-18"
-    },
-    {
-      "id": "tech-verizon-iphone-handoff-fee",
-      "title": "Verizon will charge $10 a month to share one number across two iPhones",
-      "summary": "Verizon plans a monthly fee for iOS 27's feature that lets one number switch between a main and companion iPhone.",
-      "why": "Carrier fees on new phone features tend to annoy customers, especially on a $1,999 phone.",
-      "happened": "MacRumors reports the feature lets one phone number move between two iPhones, with only one active at a time. Verizon says it is coming soon and will work with the iPhone Duo and iPhone 18 Pro.",
-      "next": "Watch for whether AT&T and T-Mobile charge for the feature too.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "A $10 monthly fee adds $120 a year."
-        },
-        {
-          "label": "Timing",
-          "text": "It arrives alongside the iPhone Duo launch."
-        }
-      ],
-      "background": "Verizon is the largest wireless carrier in the US by subscribers.",
-      "entities": [
-        "Apple",
-        "Smartphones",
-        "Verizon"
-      ],
-      "meme": {
-        "top": "Two iPhones, one phone number",
-        "bottom": "One extra bill",
-        "take": "Verizon will move your number between two iPhones for $10 a month. Leaving costs less."
-      },
-      "stats": [
-        {
-          "value": "$10",
-          "label": "per month"
-        },
-        {
-          "value": "2",
-          "label": "iPhones per number"
-        }
-      ],
-      "motif": "phone",
-      "category": "tech",
-      "hype": 66,
-      "prevHype": null,
-      "source": "MacRumors",
-      "url": "https://www.macrumors.com/2026/10/16/verizon-iphone-handoff-cost/",
-      "published": "2026-10-16"
-    },
-    {
-      "id": "ai-korean-publishers-no-books-no-ai",
-      "title": "Korean publishers launch 'No Books, No AI' appeal over training on their books",
-      "summary": "Backed by 158 groups and 321 people, the appeal follows reports that Anthropic bought hundreds of thousands of Korean books for training.",
-      "why": "Copyright fights over AI training are spreading beyond the US to other countries' writers and publishers.",
-      "happened": "The Korean Publishers Society wants AI companies to record which works they train on and let rights holders check. Court records reportedly show Anthropic contracted with wholesaler Woongjin Booxen for an estimated 250,000 to 300,000 books.",
-      "next": "Watch for responses from Korea's government and National Assembly, where the appeal is being sent.",
-      "drivers": [
-        {
-          "label": "Controversy",
-          "text": "Writers say their books were used without fair pay."
-        },
-        {
-          "label": "Trend",
-          "text": "Authors' lawsuits over AI training have grown worldwide."
-        },
-        {
-          "label": "Big name",
-          "text": "Award-winning Korean authors are named in the reports."
-        }
-      ],
-      "background": "AI chatbots are trained on vast amounts of text, and books are among the most valued sources.",
-      "entities": [
-        "Anthropic",
-        "AI regulation",
-        "South Korea"
-      ],
-      "meme": {
-        "top": "An AI company bought a library",
-        "bottom": "The authors would like a word",
-        "take": "Anthropic reportedly read 300,000 Korean books. Publishers would like it to read one more."
-      },
-      "stats": [
-        {
-          "value": "158",
-          "label": "organizations signed"
-        },
-        {
-          "value": "321",
-          "label": "individuals signed"
-        },
-        {
-          "value": "250-300K",
-          "label": "books bought, reported"
-        }
-      ],
-      "motif": "doc",
-      "category": "ai",
-      "hype": 64,
-      "prevHype": null,
-      "source": "The New Publishing Standard",
-      "url": "https://thenewpublishingstandard.com/2026/10/17/korean-publishers-ai-compensation-appeal/",
-      "published": "2026-10-17"
     },
     {
       "id": "game-liquid-swords-bankrupt",
@@ -1592,9 +2009,9 @@
         "Indie games"
       ],
       "meme": {
-        "top": "Samson launched in April",
-        "bottom": "The studio closed in October",
-        "take": "Liquid Swords is bankrupt six months after shipping Samson, with about 30 staff affected."
+        "top": "Liquid Swords shipped its first game",
+        "bottom": "Then it ran out of money to pay for it",
+        "take": "Releasing a game used to be the hard part. Now it is staying open afterwards."
       },
       "stats": [
         {
@@ -1608,168 +2025,18 @@
       ],
       "motif": "money",
       "category": "gaming",
-      "hype": 64,
-      "prevHype": 62,
+      "hype": 52,
+      "prevHype": 64,
       "source": "VGC",
       "url": "https://www.videogameschronicle.com/news/samson-developer-liquid-swords-is-facing-bankruptcy/",
       "published": "2026-10-18"
     },
     {
-      "id": "ai-deepseek-v4-1-flash-search",
-      "title": "DeepSeek releases an open V4.1 Flash model with built-in web search",
-      "summary": "DeepSeek posted V4.1-Flash-1017 on Hugging Face under an MIT license, adding live search and page fetching.",
-      "why": "DeepSeek's cheap open models keep pressure on US labs' prices.",
-      "happened": "The model is a sparse mixture-of-experts with 552 billion total parameters and a one-million-token context window. DeepSeek's search and fetch tools cost $0.75 per 1,000 successful requests, according to its Hugging Face page.",
-      "next": "Watch for independent benchmark tests and how developers compare it with US models.",
-      "drivers": [
-        {
-          "label": "Rivalry",
-          "text": "Chinese open models compete directly with US paid services."
-        },
-        {
-          "label": "Money",
-          "text": "Low prices are DeepSeek's main selling point."
-        }
-      ],
-      "background": "DeepSeek is a Chinese AI lab whose low-cost models drew wide attention in early 2025.",
-      "entities": [
-        "DeepSeek",
-        "Open-weight models",
-        "China"
-      ],
-      "meme": {
-        "top": "DeepSeek's free model can now search",
-        "bottom": "The searching is not free",
-        "take": "DeepSeek gave away a 552-billion-parameter model and charged for the searching. Clever."
-      },
-      "stats": [
-        {
-          "value": "552B",
-          "label": "total parameters"
-        },
-        {
-          "value": "1M",
-          "label": "token context window"
-        },
-        {
-          "value": "$0.75",
-          "label": "per 1,000 search requests"
-        }
-      ],
-      "motif": "network",
-      "category": "ai",
-      "hype": 62,
-      "prevHype": 70,
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "published": "2026-10-17"
-    },
-    {
-      "id": "game-steam-next-fest-october",
-      "title": "Steam Next Fest opens today with a week of free demos",
-      "summary": "Valve's demo festival runs from October 19 to 26, with games such as Loftia and Stronghold 4 among those taking part.",
-      "why": "Next Fest is one of the biggest chances for small studios to get noticed.",
-      "happened": "The fest runs from 17:00 UTC on October 19 to the same time on October 26, Gaming Route reports. Loftia's demo is only playable during the fest, and Stronghold 4 adds skirmish mode.",
-      "next": "Watch for which demos climb Steam's wishlist charts during the week.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "Hundreds of games usually take part."
-        },
-        {
-          "label": "Money",
-          "text": "All demos are free with a Steam account."
-        }
-      ],
-      "background": "Valve runs Steam Next Fest three times a year to showcase upcoming games.",
-      "entities": [
-        "Valve",
-        "Indie games"
-      ],
-      "meme": {
-        "top": "A week of free game demos",
-        "bottom": "Your backlog has filed a complaint",
-        "take": "Steam Next Fest offers hundreds of free demos, a fine way to never finish one game."
-      },
-      "stats": [
-        {
-          "value": "Oct 19-26",
-          "label": "festival dates"
-        },
-        {
-          "value": "Free",
-          "label": "all demos"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 62,
-      "prevHype": null,
-      "source": "Gaming Route",
-      "url": "https://gamingroute.com/steam-next-fest-october-2026/",
-      "published": "2026-10-18"
-    },
-    {
-      "id": "ai-meta-muse-spark-open",
-      "title": "Meta releases Muse Spark Open, a huge open-weight model that runs on two Macs",
-      "summary": "Meta's 816-billion-parameter Muse Spark Open model is built for coding and agents and can run on two Mac Studio machines.",
-      "why": "Open-weight releases this large let developers run top-tier AI on their own hardware rather than through an API.",
-      "happened": "Meta released weights for Muse Spark Open, which uses 42 billion of its 816 billion parameters at a time and has a one-million-token context window. It was optimized with Apple to run on two M5 Ultra Mac Studios using Apple's MLX framework.",
-      "next": "Watch for independent benchmark results and how developers test it against Chinese open-weight rivals.",
-      "drivers": [
-        {
-          "label": "Rivalry",
-          "text": "Meta is pitching it against open-weight models from Chinese labs."
-        },
-        {
-          "label": "Scale",
-          "text": "At 816 billion parameters it is one of the largest open-weight models released."
-        },
-        {
-          "label": "Big name",
-          "text": "Apple helped optimize it to run on its Macs."
-        }
-      ],
-      "background": "Meta owns Facebook, Instagram and WhatsApp, and has released open-weight AI models for several years.",
-      "entities": [
-        "Meta",
-        "Open-weight models",
-        "AI coding",
-        "Apple"
-      ],
-      "meme": {
-        "top": "Meta's giant AI model runs at home",
-        "bottom": "If home has two Mac Studios",
-        "take": "Meta and Apple teamed up on AI, proving any rivalry can be paused for 816 billion parameters."
-      },
-      "stats": [
-        {
-          "value": "816B",
-          "label": "total parameters"
-        },
-        {
-          "value": "42B",
-          "label": "active parameters"
-        },
-        {
-          "value": "1M",
-          "label": "token context window"
-        }
-      ],
-      "motif": "network",
-      "category": "ai",
-      "hype": 60,
-      "prevHype": 64,
-      "source": "Meta",
-      "url": "https://research.meta.ai/blog/muse-spark-open",
-      "published": "2026-10-15"
-    },
-    {
       "id": "ent-whalefall-reviews",
       "title": "Whalefall opens fourth with $8 million",
-      "summary": "Disney's survival thriller took about $8 million from 3,065 theaters, short of expectations, with a B CinemaScore.",
+      "summary": "Disney's survival thriller took about $8 million in North America and $9.5 million overseas, short of expectations.",
       "why": "Original thrillers struggle for attention when franchise films share the weekend.",
-      "happened": "Whalefall placed behind Street Fighter, You Can See Everything and holdover Other Mommy, Boxoffice Pro reports. It averaged about $2,610 per theater and earned a B CinemaScore.",
+      "happened": "Whalefall placed fourth with about $8 million from 3,065 theaters and a B CinemaScore, Boxoffice Pro reports. It added $9.5 million internationally for a $17.5 million global start against a reported $60 million budget.",
       "next": "Watch for its overseas results and second weekend drop.",
       "drivers": [
         {
@@ -1784,12 +2051,13 @@
       "background": "Whalefall is based on Daniel Kraus's 2023 novel and released by 20th Century Studios.",
       "entities": [
         "Theatrical releases",
-        "Book adaptations"
+        "Book adaptations",
+        "Disney"
       ],
       "meme": {
-        "top": "A diver gets swallowed by a whale",
-        "bottom": "The box office knows the feeling",
-        "take": "Whalefall opened against Street Fighter and learned what being swallowed whole really means."
+        "top": "A film about life inside a whale",
+        "bottom": "Opening weekend felt cramped too",
+        "take": "A film about being swallowed whole opened against Street Fighter. It knows the feeling."
       },
       "stats": [
         {
@@ -1797,18 +2065,18 @@
           "label": "opening weekend, estimated"
         },
         {
-          "value": "3,065",
-          "label": "theaters"
+          "value": "$17.5M",
+          "label": "worldwide opening"
         },
         {
-          "value": "B",
-          "label": "CinemaScore"
+          "value": "$60M",
+          "label": "budget, reported"
         }
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 60,
-      "prevHype": 62,
+      "hype": 50,
+      "prevHype": 60,
       "source": "Boxoffice Pro",
       "url": "https://www.boxofficepro.com/weekend-box-office-street-fighter-wins-the-weekend-as-you-can-see-everything-shocks-with-15m-debut/",
       "published": "2026-10-18"
@@ -1836,9 +2104,9 @@
         "Theatrical releases"
       ],
       "meme": {
-        "top": "Two sisters, very little money",
-        "bottom": "Still outearned a whale",
-        "take": "Sense and Sensibility opened fifth, which in Austen terms is a respectable match."
+        "top": "Jane Austen opened to $7.25 million",
+        "bottom": "Then got an A- from the audience",
+        "take": "Two centuries on, Austen still opens modestly and wins on manners."
       },
       "stats": [
         {
@@ -1856,217 +2124,52 @@
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 58,
-      "prevHype": 56,
+      "hype": 50,
+      "prevHype": 58,
       "source": "Boxoffice Pro",
       "url": "https://www.boxofficepro.com/weekend-box-office-street-fighter-wins-the-weekend-as-you-can-see-everything-shocks-with-15m-debut/",
       "published": "2026-10-18"
     },
     {
-      "id": "ent-sacrifice-netflix",
-      "title": "Chris Evans and Anya Taylor-Joy's Sacrifice climbs to No. 2 on Netflix",
-      "summary": "Netflix's hostage comedy, about a movie star taken captive by a cult at a charity gala, is its second most-watched US film.",
-      "why": "Two well-known leads made it one of the most visible streaming films of the weekend.",
-      "happened": "Sacrifice premiered on Netflix on October 16 and ranked second among Netflix films in the US on October 18, per FlixPatrol. Evans plays a fading star taken hostage by a radical leader played by Taylor-Joy.",
-      "next": "Watch for whether it enters Netflix's global top 10 this week.",
+      "id": "ent-lff-imperium-wins",
+      "title": "Sergei Loznitsa's Imperium wins Best Film at the London Film Festival",
+      "summary": "The archive documentary about the early-1970s Soviet Union took the top prize as the 70th BFI London Film Festival closed.",
+      "why": "A documentary winning the main competition is unusual and draws attention to archive filmmaking.",
+      "happened": "Imperium, which premiered out of competition at Venice, won the Official Competition, One Mann's Movies reports. 9 Temples to Heaven won the first-feature award and Concrete Land the documentary prize. The festival closed with Jesse Eisenberg's The Debut.",
+      "next": "Watch for the festival's Audience Award, with voting closing on Wednesday.",
       "drivers": [
+        {
+          "label": "First of its kind",
+          "text": "Documentaries rarely win a festival's main prize."
+        },
         {
           "label": "Big name",
-          "text": "Chris Evans and Anya Taylor-Joy have large fan bases."
-        },
-        {
-          "label": "Timing",
-          "text": "It landed on a busy weekend for streaming releases."
+          "text": "Loznitsa is a widely awarded Ukrainian filmmaker."
         }
       ],
-      "background": "Chris Evans is best known as Captain America in Marvel's films.",
+      "background": "The BFI London Film Festival is the UK's largest film festival, held each October.",
       "entities": [
-        "Netflix",
-        "Streaming premieres"
+        "Documentaries",
+        "Film festivals"
       ],
       "meme": {
-        "top": "A movie star is taken hostage",
-        "bottom": "Calls it his best role in years",
-        "take": "In Sacrifice a fading star is kidnapped by a cult. His agent counts it as a booking."
+        "top": "A film built from old archive footage",
+        "bottom": "Won the newest prize in London",
+        "take": "The London Film Festival's top film was made entirely from footage older than most jurors."
       },
       "stats": [
         {
-          "value": "No. 2",
-          "label": "Netflix US films, Oct 18"
+          "value": "70th",
+          "label": "BFI London Film Festival"
         }
       ],
-      "motif": "screen",
+      "motif": "film",
       "category": "entertainment",
-      "hype": 58,
-      "prevHype": 54,
-      "source": "FlixPatrol",
-      "url": "https://flixpatrol.com/top10/streaming/united-states/",
-      "published": "2026-10-18"
-    },
-    {
-      "id": "game-total-war-shogun-2-pulled",
-      "title": "Sega pulls the Total War: Shogun 2 remaster after an 'Overwhelmingly Negative' launch",
-      "summary": "Sega is temporarily removing the remaster from sale and restoring the original game after players reported bugs and possible AI-upscaled art.",
-      "why": "It is a rare case of a publisher pulling a release within days, and it feeds wider worries about AI in game art.",
-      "happened": "The Shogun 2 Complete Edition launched October 13 and replaced the original on Steam. Players reported bugs, poor rendering and weak mod support, and reviews fell to 17% positive. Sega said on October 15 it would pull the game and restore the original.",
-      "next": "Watch for when the original returns to sale and what fixes Creative Assembly plans.",
-      "drivers": [
-        {
-          "label": "Controversy",
-          "text": "Players accused the studio of using AI upscaling on the game's art."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Shogun 2 is one of the most loved Total War games."
-        },
-        {
-          "label": "Timing",
-          "text": "The pullback came two days after launch."
-        }
-      ],
-      "background": "Total War is Creative Assembly's strategy series. Shogun 2 first came out in 2011.",
-      "entities": [
-        "Sega",
-        "Revived franchises",
-        "AI in games"
-      ],
-      "meme": {
-        "top": "They remastered a 2011 classic",
-        "bottom": "Fans asked for the 2011 one back",
-        "take": "Sega paid to upgrade Shogun 2 and is now paying to undo it. A very samurai retreat."
-      },
-      "stats": [
-        {
-          "value": "17%",
-          "label": "positive Steam reviews"
-        },
-        {
-          "value": "Oct 13",
-          "label": "launch date"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 58,
-      "prevHype": 70,
-      "source": "This Week in Videogames",
-      "url": "https://thisweekinvideogames.com/news/total-war-shogun-2-remaster-to-be-pulled-from-storefronts-after-negative-launch/",
-      "published": "2026-10-16"
-    },
-    {
-      "id": "tech-connectwise-m365-breach",
-      "title": "Stolen ConnectWise credential used to sign in to 173 Microsoft 365 tenants",
-      "summary": "A compromised account for ConnectWise Cloud Backup was used to access Microsoft 365 tenants belonging to partners and customers.",
-      "why": "One stolen key reaching many companies is the supply chain risk security teams fear most.",
-      "happened": "The Hacker News reports a compromised Microsoft 365 credential tied to ConnectWise Cloud Backup, formerly SkyKick, was used for unauthorized sign-ins across 173 partner and customer tenants.",
-      "next": "Watch for ConnectWise's findings on what data was accessed.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "One credential opened doors at 173 organizations."
-        },
-        {
-          "label": "Risk",
-          "text": "IT service tools have wide access to client systems."
-        }
-      ],
-      "background": "ConnectWise makes software IT service providers use to manage and back up their clients' systems.",
-      "entities": [
-        "Cybersecurity",
-        "Microsoft"
-      ],
-      "meme": {
-        "top": "One login for the backup tool",
-        "bottom": "Opened 173 front doors",
-        "take": "A backup tool's single login reached 173 companies. Efficient, in the wrong direction."
-      },
-      "stats": [
-        {
-          "value": "173",
-          "label": "Microsoft 365 tenants accessed"
-        }
-      ],
-      "motif": "shield",
-      "category": "tech",
-      "hype": 58,
-      "prevHype": 68,
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-      "published": "2026-10-17"
-    },
-    {
-      "id": "tech-taiwan-ai-chip-smuggling-law",
-      "title": "Taiwan moves to make smuggling AI chips to China a crime",
-      "summary": "Taiwan plans to list AI servers and advanced chips as controlled goods, making unauthorized shipments to Chinese buyers a criminal offence.",
-      "why": "Taiwan makes most of the world's advanced chips, so its export rules matter for the US-China tech contest.",
-      "happened": "Economic Affairs Minister Kung Ming-hsin plans to add AI servers and advanced chips to Taiwan's controlled commodities, Startup Fortune reports. Unauthorized shipments to Chinese buyers would be a crime under the Foreign Trade Act.",
-      "next": "Watch for the formal rule change and how it is enforced.",
-      "drivers": [
-        {
-          "label": "Rivalry",
-          "text": "AI chips are at the centre of US-China tensions."
-        },
-        {
-          "label": "Risk",
-          "text": "Smuggling has been a gap in existing export controls."
-        }
-      ],
-      "background": "Taiwan is home to TSMC, which manufactures most of the world's most advanced chips.",
-      "entities": [
-        "AI chips",
-        "China",
-        "Taiwan"
-      ],
-      "meme": {
-        "top": "Taiwan makes the world's best chips",
-        "bottom": "Now it is checking the luggage",
-        "take": "Taiwan will criminalize AI chip smuggling, so the servers will have to declare themselves."
-      },
-      "stats": [],
-      "motif": "globe",
-      "category": "tech",
-      "hype": 56,
-      "prevHype": 66,
-      "source": "Startup Fortune",
-      "url": "https://startupfortune.com/taiwan-will-make-it-a-crime-to-smuggle-ai-chips-into-china/",
-      "published": "2026-10-16"
-    },
-    {
-      "id": "tech-app-store-deepfake-rules",
-      "title": "Apple's new App Store rules target AI deepfakes and 'nudify' apps",
-      "summary": "Developers must now prevent and remove AI-made nonconsensual intimate images, and apps that hide such features from reviewers are banned.",
-      "why": "Nudify apps have spread fast, and app stores are under pressure to stop them.",
-      "happened": "MacRumors reports Apple updated guideline 1.2 to require apps to prevent and remove AI-generated nonconsensual intimate imagery. New guideline 2.5.19 targets apps that hide features during review and add nudify functions later.",
-      "next": "Watch for apps being removed under the new rules.",
-      "drivers": [
-        {
-          "label": "Risk",
-          "text": "Nonconsensual deepfake images cause real harm to the people depicted."
-        },
-        {
-          "label": "Trend",
-          "text": "Regulators worldwide are pressing platforms on AI abuse."
-        }
-      ],
-      "background": "Apple reviews every app before it appears on the App Store, its iPhone app marketplace.",
-      "entities": [
-        "Apple",
-        "Deepfakes",
-        "AI regulation"
-      ],
-      "meme": {
-        "top": "Apple updated its App Store rules",
-        "bottom": "Apps that hide things get hidden",
-        "take": "Apple now bans apps that act innocent during review, ending a long tradition."
-      },
-      "stats": [],
-      "motif": "doc",
-      "category": "tech",
-      "hype": 54,
-      "prevHype": 62,
-      "source": "MacRumors",
-      "url": "https://www.macrumors.com/2026/10/16/app-store-rules-deepfakes/",
-      "published": "2026-10-16"
+      "hype": 48,
+      "prevHype": null,
+      "source": "One Mann's Movies",
+      "url": "https://onemannsmovies.com/movie-news/movie-news-19th-october-2026/",
+      "published": "2026-10-19"
     }
   ]
 }
