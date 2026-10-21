@@ -1,0 +1,18 @@
+name: Hypewire WhatsApp briefing
+
+on:
+  push:
+    branches: [main]
+    paths: [hypewire/stories.json]
+  workflow_dispatch:
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Send briefing to WhatsApp
+        env:
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+        run: python3 .github/scripts/whatsapp_briefing.py
