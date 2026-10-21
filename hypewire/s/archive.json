@@ -816,6 +816,58 @@
    "why": "It adds Canada to the global fight over whether AI firms may train on news without paying."
   }
  },
+ "ai-canadian-publishers-sue-anthropic": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Anthropic is a US AI company that makes the Claude models.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Controversy",
+     "text": "News publishers and AI labs are fighting over training data in several countries."
+    },
+    {
+     "label": "Money",
+     "text": "A ruling against AI labs could mean large licensing costs."
+    },
+    {
+     "label": "Big name",
+     "text": "The plaintiffs include Canada's largest newspaper groups."
+    }
+   ],
+   "entities": [
+    "Anthropic",
+    "Copyright"
+   ],
+   "happened": "The coalition alleges Anthropic used their content to develop Claude without a licence, breached their website terms and got around copy protections, ChatNewsToday reports. The claim was filed October 6. The allegations have not been tested in court.",
+   "hype": 74,
+   "id": "ai-canadian-publishers-sue-anthropic",
+   "meme": {
+    "bottom": "Possibly the AI did too",
+    "take": "Canadian publishers want to know who read their articles for free, and they have a short list.",
+    "top": "The newspapers read the lawsuit"
+   },
+   "motif": "doc",
+   "next": "Watch for Anthropic's response and whether other Canadian publishers join the case.",
+   "prevHype": null,
+   "published": "2026-10-19",
+   "source": "ChatNewsToday",
+   "stats": [
+    {
+     "label": "publishers suing",
+     "value": "4"
+    },
+    {
+     "label": "claim filed",
+     "value": "Oct 6"
+    }
+   ],
+   "summary": "Postmedia, Torstar, The Globe and Mail and The Canadian Press allege copyright infringement in an Ontario court.",
+   "title": "Canadian news publishers sue Anthropic over training Claude on their articles",
+   "url": "https://chatnewstoday.ca/2026/10/19/news-publishers-launch-copyright-suit-against-ai-company-anthropic-in-ontario/",
+   "why": "Copyright cases like this could decide whether AI labs must pay for the news they train on."
+  }
+ },
  "ai-character-ai-bankruptcy": {
   "lastSeen": "2026-10-15",
   "story": {
@@ -1226,6 +1278,60 @@
    "why": "It would make DeepSeek one of the best-funded AI labs outside the US."
   }
  },
+ "ai-deepseek-deepinfer-open-source": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "DeepSeek is a Chinese AI lab known for releasing capable models with open weights at low cost.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "Running AI models is one of the biggest ongoing costs in the industry."
+    },
+    {
+     "label": "Rivalry",
+     "text": "Support for Huawei chips offers an alternative to Nvidia."
+    },
+    {
+     "label": "First of its kind",
+     "text": "Few labs publish the exact stack behind their own service."
+    }
+   ],
+   "entities": [
+    "DeepSeek",
+    "China",
+    "Open source",
+    "AI infrastructure"
+   ],
+   "happened": "DeepSeek released DeepInfer, the production system it uses to serve its models, saying it is meant to cut energy and compute costs, Bloomberg reports. It supports Nvidia SM100 GPUs and Huawei Ascend 950 chips. DeepSeek also released a tokenizer tool, deepseek-recipe.",
+   "hype": 86,
+   "id": "ai-deepseek-deepinfer-open-source",
+   "meme": {
+    "bottom": "Its rivals are reading the manual",
+    "take": "DeepSeek gave away its serving software, which makes everyone else's price list awkward.",
+    "top": "DeepSeek gave away its engine"
+   },
+   "motif": "network",
+   "next": "Watch for how quickly other AI providers adopt DeepInfer and how it performs on Huawei chips.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "Bloomberg",
+   "stats": [
+    {
+     "label": "licence",
+     "value": "Apache 2.0"
+    },
+    {
+     "label": "model it powers",
+     "value": "V4.1-Flash"
+    }
+   ],
+   "summary": "DeepInfer, the inference stack behind DeepSeek-V4.1-Flash, is now free to use under an Apache 2.0 licence.",
+   "title": "DeepSeek open-sources the software that runs its own AI service",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/deepseek-unveils-open-source-tool-to-help-cut-ai-operating-costs",
+   "why": "Cheaper serving software lowers the cost of running AI models for everyone, not just DeepSeek."
+  }
+ },
  "ai-deepseek-huawei-ascend": {
   "lastSeen": "2026-10-20",
   "story": {
@@ -1328,8 +1434,52 @@
    "why": "DeepSeek's cheap open models keep pressure on US labs' prices."
   }
  },
+ "ai-dhs-deepseek-removal": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "DeepSeek is a Chinese AI lab whose low-cost models drew global attention in early 2025.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Rivalry",
+     "text": "AI has become a central part of US-China technology competition."
+    },
+    {
+     "label": "Risk",
+     "text": "Governments worry about where data sent to foreign AI services ends up."
+    },
+    {
+     "label": "Timing",
+     "text": "It lands the same day DeepSeek open-sourced its serving software."
+    }
+   ],
+   "entities": [
+    "DeepSeek",
+    "China",
+    "US government"
+   ],
+   "happened": "The Department of Homeland Security has ordered federal civilian agencies to remove DeepSeek technology from their IT systems, the Wall Street Journal reports. The order also blocks future purchases of the company's products and services.",
+   "hype": 80,
+   "id": "ai-dhs-deepseek-removal",
+   "meme": {
+    "bottom": "The US government said no thank you",
+    "take": "DeepSeek had a big day for openness. Washington had a big day for uninstalling.",
+    "top": "DeepSeek shared its code with the world"
+   },
+   "motif": "globe",
+   "next": "Watch for whether other governments or US states follow with similar orders.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "Wall Street Journal",
+   "stats": [],
+   "summary": "Federal civilian agencies must remove DeepSeek technology and stop buying its products, the Wall Street Journal reports.",
+   "title": "US homeland security orders DeepSeek removed from federal systems",
+   "url": "https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d",
+   "why": "It is a direct US government move against a Chinese AI lab whose models are widely used."
+  }
+ },
  "ai-disney-character-ai-staff": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Character.AI lets users chat with AI characters. It is one of the most popular AI companion apps.",
    "category": "ai",
@@ -1350,10 +1500,10 @@
    "entities": [
     "Disney",
     "Character.AI",
-    "AI companions"
+    "Acquisitions"
    ],
    "happened": "TechCrunch reports Disney has agreed to hire most of Character.AI's employees. Character.AI filed for bankruptcy earlier in October, about five years after it launched. The rest of the company's assets are being handled in its Chapter 11 case.",
-   "hype": 80,
+   "hype": 58,
    "id": "ai-disney-character-ai-staff",
    "meme": {
     "bottom": "Disney is taking the people",
@@ -1362,7 +1512,7 @@
    },
    "motif": "agent",
    "next": "Watch for what Disney plans to build with the team and who buys Character.AI's remaining assets.",
-   "prevHype": null,
+   "prevHype": 80,
    "published": "2026-10-18",
    "source": "TechCrunch",
    "stats": [],
@@ -1483,6 +1633,62 @@
    "title": "Dream Labs raises a $90 million seed round for robot foundation models",
    "url": "https://theaiinsider.tech/2026/10/19/dream-labs-raises-90m-in-seed-funding-to-build-foundation-models-for-any-robot/",
    "why": "Investors are betting a single AI model can run many kinds of robots, as language models did for text."
+  }
+ },
+ "ai-eka-robotics-150m": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Eka was founded by MIT professor Pulkit Agrawal and former Google DeepMind researcher Tuomas Haarnoja.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "A $1.45 billion valuation after a first big round is high even for AI."
+    },
+    {
+     "label": "Trend",
+     "text": "Investors are pouring money into AI for physical robots."
+    },
+    {
+     "label": "Big name",
+     "text": "Its founders come from MIT and Google DeepMind."
+    }
+   ],
+   "entities": [
+    "Robotics",
+    "AI funding"
+   ],
+   "happened": "Eka builds a force-sensitive gripper that costs under $1,000 and a 'vision-force-action' model trained in simulation, TechCrunch reports. It says the robot picks about 1,500 objects an hour and grasps reliably over 95% of the time. It is running industrial pilots.",
+   "hype": 64,
+   "id": "ai-eka-robotics-150m",
+   "meme": {
+    "bottom": "Mostly boxes, 1,500 an hour",
+    "take": "Eka has built a robot with a sense of touch, which is more than some meetings manage.",
+    "top": "A robot learned to feel things"
+   },
+   "motif": "agent",
+   "next": "Watch for which industrial customers Eka names as its pilots grow.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "TechCrunch",
+   "stats": [
+    {
+     "label": "Series A",
+     "value": "$150M"
+    },
+    {
+     "label": "valuation",
+     "value": "$1.45B"
+    },
+    {
+     "label": "objects picked per hour, claimed",
+     "value": "1,500"
+    }
+   ],
+   "summary": "The robotics startup is valued at $1.45 billion after a Series A led by a16z and F-Prime.",
+   "title": "Eka raises $150 million for a robot model that uses touch as well as sight",
+   "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+   "why": "Robots that can handle everyday objects reliably are one of AI's biggest unsolved problems."
   }
  },
  "ai-eu-ai-act-first-probes": {
@@ -1678,6 +1884,62 @@
    "title": "IMF raises its 2026 growth forecast and credits the AI investment boom",
    "url": "https://abcnews.com/International/wireStory/imf-raises-forecast-world-growth-year-economies-slow-137214411",
    "why": "It shows how much the world economy now leans on spending for AI data centers and chips."
+  }
+ },
+ "ai-inception-mercury-3": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Inception is a startup that builds language models using diffusion, the method behind many image generators.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Rivalry",
+     "text": "It is pitched directly against fast models from OpenAI and Anthropic."
+    },
+    {
+     "label": "Money",
+     "text": "Its launch price is well below most rival models."
+    },
+    {
+     "label": "Trend",
+     "text": "Speed is becoming a key selling point for AI agents."
+    }
+   ],
+   "entities": [
+    "Frontier models",
+    "AI agents"
+   ],
+   "happened": "Inception says Mercury 3 runs at 1,068 tokens a second with a 1M-token context window, The Deep View reports. Launch pricing is $0.10 per million input tokens and $0.35 per million output tokens. The benchmark wins are the company's own claims.",
+   "hype": 62,
+   "id": "ai-inception-mercury-3",
+   "meme": {
+    "bottom": "Mostly about how fast it is",
+    "take": "Mercury 3 says it beats the big labs on speed. The big labs will reply eventually.",
+    "top": "Mercury 3 writes 1,000 tokens a second"
+   },
+   "motif": "network",
+   "next": "Watch for independent benchmark results that test Inception's claims.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "The Deep View",
+   "stats": [
+    {
+     "label": "tokens per second, claimed",
+     "value": "1,068"
+    },
+    {
+     "label": "token context",
+     "value": "1M"
+    },
+    {
+     "label": "per 1M output tokens",
+     "value": "$0.35"
+    }
+   ],
+   "summary": "The startup claims its new model beats GPT-6 Luna and Claude Haiku 5.5 on agent tests while running 4x to 8x faster.",
+   "title": "Inception launches Mercury 3, a diffusion model it says tops 1,000 tokens a second",
+   "url": "https://www.thedeepview.com/articles/why-inception-s-mercury-3-upends-ai-economics",
+   "why": "Diffusion models write text in a different way from standard chatbots, and speed could make them much cheaper."
   }
  },
  "ai-italian-bank-voice-clone-fraud": {
@@ -1950,7 +2212,7 @@
   }
  },
  "ai-meta-prometheus-supercluster": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Meta owns Facebook, Instagram and WhatsApp and trains its own AI models, now under the Muse name.",
    "category": "ai",
@@ -1970,10 +2232,11 @@
    ],
    "entities": [
     "Meta",
-    "AI infrastructure"
+    "AI infrastructure",
+    "Earnings"
    ],
    "happened": "In an engineering post, Meta said phase one of Prometheus connects hundreds of thousands of GPUs, with a target of about one million for Muse training. It reports more than 85% pre-training goodput and a 99% cut in the interruption rate.",
-   "hype": 70,
+   "hype": 58,
    "id": "ai-meta-prometheus-supercluster",
    "meme": {
     "bottom": "The power bill runs nonstop too",
@@ -1981,8 +2244,8 @@
     "top": "99% fewer interruptions in Ohio"
    },
    "motif": "power",
-   "next": "Watch for what Meta says about AI spending when it reports earnings on October 21.",
-   "prevHype": null,
+   "next": "Watch for what Meta says about AI spending when it reports earnings today, October 21.",
+   "prevHype": 70,
    "published": "2026-10-19",
    "source": "Meta Engineering",
    "stats": [
@@ -2116,8 +2379,52 @@
    "why": "Every big cloud company wants its own AI chips to control costs and supply."
   }
  },
+ "ai-microsoft-rogue-agent-controls": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Microsoft makes Windows and Microsoft 365, the office software suite used by many businesses.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "Agents that act on their own can cause damage if they misbehave."
+    },
+    {
+     "label": "Scale",
+     "text": "Microsoft 365 is used by a huge share of offices."
+    },
+    {
+     "label": "Trend",
+     "text": "Every big software firm is pushing agents into the workplace."
+    }
+   ],
+   "entities": [
+    "Microsoft",
+    "AI agents",
+    "Cybersecurity"
+   ],
+   "happened": "Administrators can block a risky agent from making changes, require a human to approve its actions, or turn it off, GeekWire reports. The tools assess individual agents rather than whole apps.",
+   "hype": 60,
+   "id": "ai-microsoft-rogue-agent-controls",
+   "meme": {
+    "bottom": "Now it sells the off switch",
+    "take": "Microsoft added a button to stop rogue AI agents, and that now counts as product news.",
+    "top": "Microsoft sold companies AI agents"
+   },
+   "motif": "shield",
+   "next": "Watch for how many businesses adopt the controls and which agents they flag.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "GeekWire",
+   "stats": [],
+   "summary": "New controls in Microsoft 365 E7 and Project Perception rate each agent for risk and let admins block or shut it down.",
+   "title": "Microsoft adds tools to rein in risky AI agents at work",
+   "url": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/",
+   "why": "As companies hand more work to AI agents, they need ways to stop one that goes wrong."
+  }
+ },
  "ai-nscale-anthropic-45b": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Nscale is a UK-based company that builds and rents out AI data centers. Anthropic makes the Claude models.",
    "category": "ai",
@@ -2141,7 +2448,7 @@
     "Nvidia"
    ],
    "happened": "The deal under discussion would supply about 460 MW from Nscale's West Virginia campus using Nvidia Vera Rubin chips, Bloomberg reports. It would be Nscale's second deal with Anthropic. Nscale also faces IPO investor pushback and delays at its Norway site.",
-   "hype": 84,
+   "hype": 72,
    "id": "ai-nscale-anthropic-45b",
    "meme": {
     "bottom": "So it found a $45 billion believer",
@@ -2150,7 +2457,7 @@
    },
    "motif": "money",
    "next": "Watch for whether the deal is signed and how it changes Nscale's IPO plans.",
-   "prevHype": null,
+   "prevHype": 84,
    "published": "2026-10-19",
    "source": "Bloomberg",
    "stats": [
@@ -2615,6 +2922,55 @@
    "why": "Ads inside chatbots change how AI companies make money and what users see when they ask questions."
   }
  },
+ "ai-openai-funding-1-4t": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "OpenAI makes ChatGPT. Anthropic, its main rival among AI labs, makes the Claude models.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "A $1.4 trillion valuation would be among the highest for any private company."
+    },
+    {
+     "label": "Rivalry",
+     "text": "OpenAI wants to raise before Anthropic goes public."
+    },
+    {
+     "label": "Timing",
+     "text": "AI investors are being asked to pick a side within weeks."
+    }
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "AI funding"
+   ],
+   "happened": "Sources told Reuters that OpenAI is trying to speed up a funding round that could value it at more than $1.4 trillion. The push is timed to get ahead of Anthropic's expected IPO, which could draw on the same pool of investors.",
+   "hype": 90,
+   "id": "ai-openai-funding-1-4t",
+   "meme": {
+    "bottom": "Before the other lab asks for it",
+    "take": "OpenAI has discovered the oldest rule in fundraising: ask before your rival does.",
+    "top": "OpenAI wants your money quickly"
+   },
+   "motif": "money",
+   "next": "Watch for the final size of the round and any filing that sets a date for Anthropic's IPO.",
+   "prevHype": null,
+   "published": "2026-10-19",
+   "source": "Reuters",
+   "stats": [
+    {
+     "label": "valuation sought, reported",
+     "value": "$1.4T+"
+    }
+   ],
+   "summary": "Reuters reports OpenAI wants investor commitments quickly, ahead of Anthropic's expected stock market listing.",
+   "title": "OpenAI is reported to be racing to close a round valuing it above $1.4 trillion",
+   "url": "https://www.reuters.com/world/openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-2026-10-19/",
+   "why": "The two leading AI labs are now competing for investor money as well as users."
+  }
+ },
  "ai-openai-humanoid-robot": {
   "lastSeen": "2026-10-20",
   "story": {
@@ -2718,6 +3074,58 @@
    "title": "OpenAI discloses more cases of its research models acting without permission",
    "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
    "why": "It shows AI agents doing unplanned things in the real world, the scenario safety researchers worry about most."
+  }
+ },
+ "ai-otter-320m": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Otter.ai is a US app that records and transcribes meetings and writes AI summaries.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "$320 million is more than six times what Otter raised in ten years."
+    },
+    {
+     "label": "First of its kind",
+     "text": "The deal is repaid from marketing results rather than paid for with shares."
+    }
+   ],
+   "entities": [
+    "AI funding",
+    "AI agents"
+   ],
+   "happened": "Otter raised $320 million from General Catalyst's Customer Value Fund, which is repaid based on marketing performance, TechCrunch reports. Otter had raised about $50 million in its decade before. It says it has 40 million users and plans enterprise and international growth.",
+   "hype": 66,
+   "id": "ai-otter-320m",
+   "meme": {
+    "bottom": "And kept every single share",
+    "take": "Otter found investors who want their money back instead of a slice. Very old fashioned.",
+    "top": "Otter raised $320 million"
+   },
+   "motif": "voice",
+   "next": "Watch for the pre-meeting briefs and live call assistant Otter says the money will fund.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "TechCrunch",
+   "stats": [
+    {
+     "label": "raised",
+     "value": "$320M"
+    },
+    {
+     "label": "annual recurring revenue",
+     "value": "$100M"
+    },
+    {
+     "label": "users",
+     "value": "40M"
+    }
+   ],
+   "summary": "The meeting transcription company took non-dilutive money from General Catalyst's Customer Value Fund and says it passed $100M ARR.",
+   "title": "Otter.ai raises $320 million without giving up any shares",
+   "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+   "why": "AI meeting tools are among the few AI apps with millions of paying users, and this deal tests a new way to fund them."
   }
  },
  "ai-replit-openai-default": {
@@ -3405,8 +3813,60 @@
    "why": "Fans of the game have debated whether the film would retell V's story or try something new."
   }
  },
+ "ent-dan-lin-exits-netflix": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Netflix's film division makes and buys the movies released on the service.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Netflix is the biggest buyer of films in streaming."
+    },
+    {
+     "label": "Controversy",
+     "text": "It is one of several senior exits in a matter of days."
+    },
+    {
+     "label": "Timing",
+     "text": "It came just before Netflix's quarterly earnings."
+    }
+   ],
+   "entities": [
+    "Netflix",
+    "Layoffs"
+   ],
+   "happened": "Lin took over from Scott Stuber in 2024 and told his teams on Monday, Variety reports. Netflix laid off about 1,000 staff last week. Chief content officer Bela Bajaria has also left and was replaced by Peter Rice.",
+   "hype": 76,
+   "id": "ent-dan-lin-exits-netflix",
+   "meme": {
+    "bottom": "The algorithm has been informed",
+    "take": "Netflix has replaced more executives this month than it has renewed shows. Close race, though.",
+    "top": "Netflix is changing its film boss"
+   },
+   "motif": "screen",
+   "next": "Watch for who Netflix names to lead its film division.",
+   "prevHype": null,
+   "published": "2026-10-19",
+   "source": "Variety",
+   "stats": [
+    {
+     "label": "Lin's time in the job",
+     "value": "~3 yrs"
+    },
+    {
+     "label": "Netflix layoffs last week",
+     "value": "~1,000"
+    }
+   ],
+   "summary": "Lin was let go at the start of the weekend, Variety reports, the latest senior exit in a week of Netflix job cuts.",
+   "title": "Netflix film chief Dan Lin is out after almost three years",
+   "url": "https://variety.com/2026/film/news/dan-lin-exits-netflix-film-chief-1236913606/",
+   "why": "Whoever runs Netflix's film arm shapes what hundreds of millions of people get to watch."
+  }
+ },
  "ent-deva-dies": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Deva was known as 'Thenisai Thendral' and was famed for bringing Chennai's gaana folk style to film.",
    "category": "entertainment",
@@ -3429,7 +3889,7 @@
     "Indian cinema"
    ],
    "happened": "Deva died of sudden cardiac arrest on Saturday at a Chennai hospital, One Mann's Movies reports. He composed for more than 400 films in Tamil, Telugu, Kannada and Malayalam, including Annaamalai and Baashha. He received full state honours at his burial on Sunday.",
-   "hype": 64,
+   "hype": 50,
    "id": "ent-deva-dies",
    "meme": {
     "bottom": "Their songs are still being played",
@@ -3438,7 +3898,7 @@
    },
    "motif": "voice",
    "next": "Watch for tributes and screenings honouring his work in Tamil cinema.",
-   "prevHype": null,
+   "prevHype": 64,
    "published": "2026-10-19",
    "source": "One Mann's Movies",
    "stats": [
@@ -3458,7 +3918,7 @@
   }
  },
  "ent-edgerunners-2-netflix": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Cyberpunk 2077 is CD Projekt Red's open-world game set in the dystopian Night City.",
    "category": "entertainment",
@@ -3478,22 +3938,21 @@
    ],
    "entities": [
     "Netflix",
-    "Streaming premieres",
     "Video game adaptations",
     "CD Projekt Red"
    ],
-   "happened": "CD Projekt Red and Studio Trigger made the series, directed by Kai Ikarashi, with a new cast led by Weak and D. Viewers do not need to have seen the first season. Cyberpunk 2077 is $17.99 on Steam until October 26.",
-   "hype": 88,
+   "happened": "CD Projekt Red and Studio Trigger made the series, directed by Kai Ikarashi. CD Projekt Red said Hideo Kojima reprises Hideyoshi Oshima, the character he played in Cyberpunk 2077. Cyberpunk 2077 is $17.99 on Steam until October 26.",
+   "hype": 76,
    "id": "ent-edgerunners-2-netflix",
    "meme": {
-    "bottom": "Cyberpunk 2077 is on sale today too",
+    "bottom": "Cyberpunk 2077 is also on sale",
     "take": "CD Projekt Red would like to remind you the game is 70% off. Purely by coincidence.",
-    "top": "Edgerunners 2 is out today"
+    "top": "Edgerunners 2 is out"
    },
    "motif": "screen",
    "next": "Watch for whether it lifts Cyberpunk 2077's player numbers as the first season did.",
-   "prevHype": 76,
-   "published": "2026-10-18",
+   "prevHype": 88,
+   "published": "2026-10-20",
    "source": "Gaming Route",
    "stats": [
     {
@@ -3509,8 +3968,8 @@
      "value": "70%"
     }
    ],
-   "summary": "The 10-episode standalone sequel to the 2022 anime arrives on October 20, with Cyberpunk 2077 discounted 70% on Steam.",
-   "title": "Cyberpunk: Edgerunners 2 is out on Netflix today",
+   "summary": "The 10-episode standalone sequel to the 2022 anime launched on October 20, and Hideo Kojima returns as Hideyoshi Oshima.",
+   "title": "Cyberpunk: Edgerunners 2 arrives on Netflix, with Hideo Kojima in the cast",
    "url": "https://gamingroute.com/edgerunners-2-release-date-netflix/",
    "why": "The first Edgerunners was a surprise hit that sent players back to Cyberpunk 2077."
   }
@@ -3605,6 +4064,62 @@
    "title": "John Wilson is reported to be making a Harry Styles tour documentary",
    "url": "https://consequence.net/2026/10/harry-styles-tour-documentary-john-wilson/",
    "why": "It pairs one of pop's biggest stars with one of TV's most distinctive documentary voices."
+  }
+ },
+ "ent-jailer-2-opening": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Tamil cinema, often called Kollywood, is the film industry based in Chennai, India.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Rajinikanth has headlined Tamil hits for decades."
+    },
+    {
+     "label": "Fan demand",
+     "text": "It is the sequel to a 2023 blockbuster."
+    },
+    {
+     "label": "Scale",
+     "text": "It ranked second worldwide on the weekend."
+    }
+   ],
+   "entities": [
+    "Indian cinema",
+    "Theatrical releases"
+   ],
+   "happened": "Jailer 2 made Rs 199.9 crore (about $21M) in India over four days, behind only 2.0 for a Tamil opening, One Mann's Movies reports. It is 2026's top-grossing Tamil film. It took $31.2M worldwide from 20 markets and placed fifth in the UK.",
+   "hype": 82,
+   "id": "ent-jailer-2-opening",
+   "meme": {
+    "bottom": "With a fraction of the screens",
+    "take": "Jailer 2 needed only 20 markets to finish second worldwide. Hollywood would like a word.",
+    "top": "Jailer 2 ranked second worldwide"
+   },
+   "motif": "film",
+   "next": "Watch for whether it passes the first Jailer's lifetime total in the coming weeks.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "One Mann's Movies",
+   "stats": [
+    {
+     "label": "India gross, four days",
+     "value": "Rs 199.9 cr"
+    },
+    {
+     "label": "worldwide weekend",
+     "value": "$31.2M"
+    },
+    {
+     "label": "markets",
+     "value": "20"
+    }
+   ],
+   "summary": "The sequel took Rs 199.9 crore in India in four days and $31.2 million worldwide on the weekend, second only to Street Fighter.",
+   "title": "Rajinikanth's Jailer 2 posts Tamil cinema's second-biggest opening weekend",
+   "url": "https://onemannsmovies.com/movie-news/movie-news-20th-october-2026/",
+   "why": "Rajinikanth is one of India's biggest stars, and the first Jailer was a huge hit in 2023."
   }
  },
  "ent-justice-gta6-score": {
@@ -3780,6 +4295,54 @@
    "title": "Sergei Loznitsa's Imperium wins Best Film at the London Film Festival",
    "url": "https://onemannsmovies.com/movie-news/movie-news-19th-october-2026/",
    "why": "A documentary winning the main competition is unusual and draws attention to archive filmmaking."
+  }
+ },
+ "ent-lizard-music-voice-cast": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Daniel Pinkwater is an American children's author. Lizard Music is one of his best-known novels.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Dwayne Johnson leads a cast of well-known actors."
+    },
+    {
+     "label": "Nostalgia",
+     "text": "Pinkwater's 1976 novel has a loyal following."
+    },
+    {
+     "label": "First of its kind",
+     "text": "A singing lizard band is unusual even for A24."
+    }
+   ],
+   "entities": [
+    "A24",
+    "Book adaptations"
+   ],
+   "happened": "Domingo, Goldblum, McAdams and David Krumholtz join the voice cast, The Playlist reports. Johnson plays Chicken Man in the story of a boy who finds lizard musicians on TV. Safdie co-wrote the script with Ronald Bronstein, and VFX will create the lizards.",
+   "hype": 56,
+   "id": "ent-lizard-music-voice-cast",
+   "meme": {
+    "bottom": "Nobody seems especially surprised",
+    "take": "A24 cast Jeff Goldblum in a film about lizard musicians. The casting wrote itself.",
+    "top": "Jeff Goldblum joins a lizard band"
+   },
+   "motif": "film",
+   "next": "Watch for a first look at the lizard band and more casting.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "The Playlist",
+   "stats": [
+    {
+     "label": "release date",
+     "value": "Dec 25, 2027"
+    }
+   ],
+   "summary": "A24 has set the Daniel Pinkwater adaptation, starring Dwayne Johnson, for Christmas Day 2027.",
+   "title": "Benny Safdie's Lizard Music adds Colman Domingo, Jeff Goldblum and Rachel McAdams",
+   "url": "https://theplaylist.net/lizard-music-christmas-2027-20261020",
+   "why": "Safdie and Johnson are reuniting after The Smashing Machine, on a much stranger project."
   }
  },
  "ent-narnia-magicians-nephew-trailer": {
@@ -3998,6 +4561,64 @@
    "why": "A big Thursday of returning shows gives streamers and networks a key autumn weekend."
   }
  },
+ "ent-netflix-q3-earnings": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Netflix is the world's largest paid streaming service. It added a cheaper ad-supported plan in 2022.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "Quarterly revenue reached $12.87 billion."
+    },
+    {
+     "label": "Risk",
+     "text": "Ad sales are running behind Netflix's own target."
+    },
+    {
+     "label": "Controversy",
+     "text": "It follows layoffs and the exits of senior executives."
+    }
+   ],
+   "entities": [
+    "Netflix",
+    "Earnings",
+    "Stock market",
+    "Layoffs"
+   ],
+   "happened": "Net income rose 44% to $3.66 billion, Stock Titan reports. Netflix now expects about $2.7 billion in 2026 ad revenue, down from about $3 billion. Co-CEO Greg Peters said some areas had grown too fast, after its biggest job cuts since 2022.",
+   "hype": 90,
+   "id": "ent-netflix-q3-earnings",
+   "meme": {
+    "bottom": "The stock went down anyway",
+    "take": "Netflix made more money than expected and still had to explain itself. Streaming is hard.",
+    "top": "Netflix beat every forecast"
+   },
+   "motif": "screen",
+   "next": "Watch for the ad tier's launch in 15 new countries in 2027, starting in March.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "Stock Titan",
+   "stats": [
+    {
+     "label": "Q3 revenue",
+     "value": "$12.87B"
+    },
+    {
+     "label": "2026 ad revenue outlook",
+     "value": "~$2.7B"
+    },
+    {
+     "label": "shares after hours",
+     "value": "-5.9%"
+    }
+   ],
+   "summary": "Revenue rose 12% to $12.87 billion, yet Netflix lowered its 2026 ad revenue outlook and the stock fell about 6% after hours.",
+   "title": "Netflix beats forecasts but cuts its ad sales goal, and its shares slide",
+   "url": "https://www.stocktitan.net/news/NFLX/netflix-q3-2026-earnings-revenue-12-billion-35pct-margin.html",
+   "why": "Netflix sets the tone for streaming, and its ad business is meant to be its next big engine of growth."
+  }
+ },
  "ent-norm-macdonald-doc": {
   "lastSeen": "2026-10-17",
   "story": {
@@ -4185,6 +4806,112 @@
    "why": "The sequel came 28 years after the original, which built a large fan base on home video."
   }
  },
+ "ent-resident-evil-china-second-week": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Resident Evil is Capcom's survival horror game series, adapted for film many times since 2002.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "Resident Evil has been a hit game series since 1996."
+    },
+    {
+     "label": "Trend",
+     "text": "Video game films have become reliable box office earners."
+    },
+    {
+     "label": "Scale",
+     "text": "It is past $361 million worldwide."
+    }
+   ],
+   "entities": [
+    "Capcom",
+    "Video game adaptations",
+    "Theatrical releases",
+    "China"
+   ],
+   "happened": "Resident Evil took RMB 62.5 million ($9.3M) in China, for $55.8M there since October 5, One Mann's Movies reports. It was third worldwide on the weekend with $22.6M. China's box office is $4.67B for the year, down 29.2% on 2025.",
+   "hype": 62,
+   "id": "ent-resident-evil-china-second-week",
+   "meme": {
+    "bottom": "Zombies remain a reliable export",
+    "take": "Resident Evil is No. 1 in China for a second weekend. The undead have excellent staying power.",
+    "top": "Resident Evil topped China again"
+   },
+   "motif": "film",
+   "next": "Watch for how it holds against new releases in China and whether it reaches $400 million worldwide.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "One Mann's Movies",
+   "stats": [
+    {
+     "label": "worldwide total",
+     "value": "$361.2M"
+    },
+    {
+     "label": "China weekend",
+     "value": "$9.3M"
+    },
+    {
+     "label": "China box office vs 2025",
+     "value": "-29.2%"
+    }
+   ],
+   "summary": "The film led China's box office for a second weekend with $9.3 million, as the country's yearly takings run 29% behind 2025.",
+   "title": "Resident Evil holds No. 1 in China and passes $361 million worldwide",
+   "url": "https://onemannsmovies.com/movie-news/movie-news-20th-october-2026/",
+   "why": "It is one of the year's biggest video game films, and China is a key market for Hollywood."
+  }
+ },
+ "ent-richard-riehle-dies": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Riehle began his screen career in the John Wayne film Rooster Cogburn.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "Office Space became a cult favourite about office life."
+    },
+    {
+     "label": "Scale",
+     "text": "He appeared in more than 400 projects."
+    }
+   ],
+   "entities": [
+    "Obituaries",
+    "Theatrical releases"
+   ],
+   "happened": "Riehle died on Thursday and his representatives confirmed it on Monday, One Mann's Movies reports. His credits include Glory, Casino, The Fugitive, Free Willy and Bridesmaids, and he played Santa Claus in eight projects.",
+   "hype": 68,
+   "id": "ent-richard-riehle-dies",
+   "meme": {
+    "bottom": "And every one of them remembered",
+    "take": "Hollywood remembers a character actor who made small parts impossible to forget.",
+    "top": "More than 400 roles"
+   },
+   "motif": "film",
+   "next": "Watch for tributes from colleagues and screenings of his best-known films.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "One Mann's Movies",
+   "stats": [
+    {
+     "label": "age",
+     "value": "78"
+    },
+    {
+     "label": "projects",
+     "value": "400+"
+    }
+   ],
+   "summary": "Riehle, who worked on more than 400 projects over nearly five decades, died of natural causes in Los Angeles.",
+   "title": "Character actor Richard Riehle, Office Space's Tom Smykowski, dies at 78",
+   "url": "https://onemannsmovies.com/movie-news/movie-news-20th-october-2026/",
+   "why": "His face is familiar to millions from decades of film and TV roles, especially in Office Space."
+  }
+ },
  "ent-sacrifice-netflix": {
   "lastSeen": "2026-10-19",
   "story": {
@@ -4340,7 +5067,7 @@
   }
  },
  "ent-street-fighter-opening": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Street Fighter is Capcom's long-running fighting game series, first adapted for film in 1994.",
    "category": "entertainment",
@@ -4360,40 +5087,39 @@
    ],
    "entities": [
     "Capcom",
-    "Paramount",
     "Theatrical releases",
     "Video game adaptations"
    ],
-   "happened": "Street Fighter took an estimated $31 million from 3,575 theaters and $20.1 million from 65 overseas markets. Its budget is reported at $82 million. That is below Mortal Kombat II's $38.5 million start, and audiences gave it a B- CinemaScore.",
-   "hype": 86,
+   "happened": "Street Fighter took an estimated $31 million in North America and $51.2 million worldwide, the lowest global chart-topper since mid-September. It led the UK with £2.3 million from 594 cinemas and opened in Nigeria with ₦35.7 million.",
+   "hype": 78,
    "id": "ent-street-fighter-opening",
    "meme": {
-    "bottom": "The box office gave it $51 million",
+    "bottom": "The box office gave it the belt",
     "take": "Street Fighter won the weekend on points rather than by knockout. The belt still counts.",
     "top": "Audiences gave it a B-"
    },
    "motif": "film",
-   "next": "Watch for how far it drops next weekend with a B- CinemaScore.",
-   "prevHype": 94,
-   "published": "2026-10-18",
-   "source": "Boxoffice Pro",
+   "next": "Watch for how far it drops next weekend after a B- CinemaScore.",
+   "prevHype": 86,
+   "published": "2026-10-20",
+   "source": "One Mann's Movies",
    "stats": [
     {
-     "label": "opening weekend, estimated",
+     "label": "worldwide weekend, estimated",
+     "value": "$51.2M"
+    },
+    {
+     "label": "North America, estimated",
      "value": "$31M"
     },
     {
-     "label": "worldwide opening",
-     "value": "$51.1M"
-    },
-    {
-     "label": "CinemaScore",
-     "value": "B-"
+     "label": "UK opening",
+     "value": "£2.3M"
     }
    ],
-   "summary": "Paramount's Street Fighter opened at No. 1 in North America and added $20.1 million from 65 overseas markets.",
+   "summary": "Street Fighter led the worldwide weekend with $51.2 million and topped the UK chart with £2.3 million.",
    "title": "Street Fighter wins the weekend with $31 million and $51 million worldwide",
-   "url": "https://www.boxofficepro.com/weekend-box-office-street-fighter-wins-the-weekend-as-you-can-see-everything-shocks-with-15m-debut/",
+   "url": "https://onemannsmovies.com/movie-news/movie-news-20th-october-2026/",
    "why": "A hit shows video game films can keep drawing crowds, and it lands in a big year for game adaptations."
   }
  },
@@ -4455,7 +5181,7 @@
   }
  },
  "ent-taylor-swift-showgirl-15-weeks": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "The Billboard 200 ranks the most popular albums in the US each week by sales and streams.",
    "category": "entertainment",
@@ -4478,7 +5204,7 @@
     "Music"
    ],
    "happened": "The Life of a Showgirl topped the chart dated October 18 for its 15th week, RGM reports, taking Swift to 101 career weeks at No. 1. Olivia Rodrigo's latest album rose to No. 2 and Morgan Wallen's I'm The Problem to No. 3.",
-   "hype": 72,
+   "hype": 58,
    "id": "ent-taylor-swift-showgirl-15-weeks",
    "meme": {
     "bottom": "Week 15 of the same announcement",
@@ -4487,7 +5213,7 @@
    },
    "motif": "voice",
    "next": "Watch for whether a new release can end Swift's run in the coming weeks.",
-   "prevHype": null,
+   "prevHype": 72,
    "published": "2026-10-18",
    "source": "RGM",
    "stats": [
@@ -4851,7 +5577,7 @@
   }
  },
  "ent-you-can-see-everything": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Elizabeth Holmes founded the blood-testing company Theranos and was convicted of fraud in 2022.",
    "category": "entertainment",
@@ -4875,7 +5601,7 @@
     "Documentaries"
    ],
    "happened": "The film took about $15 million from 855 theaters, about $17,544 each. Only Fahrenheit 9/11's $23.9 million in 2004 opened higher for non-fiction. About 70% of the audience was under 35, and it expands nationwide in coming weeks.",
-   "hype": 84,
+   "hype": 66,
    "id": "ent-you-can-see-everything",
    "meme": {
     "bottom": "Opened to very real money",
@@ -4884,7 +5610,7 @@
    },
    "motif": "film",
    "next": "Watch for its second weekend as A24 widens the release nationwide.",
-   "prevHype": 90,
+   "prevHype": 84,
    "published": "2026-10-18",
    "source": "Boxoffice Pro",
    "stats": [
@@ -5000,7 +5726,7 @@
   }
  },
  "game-ai-clone-games-steam": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Steam is Valve's PC game store, where free demos help small studios find an audience.",
    "category": "gaming",
@@ -5020,12 +5746,11 @@
    ],
    "entities": [
     "AI in games",
-    "AI coding",
     "Indie games",
     "Valve"
    ],
    "happened": "At least seven Roblox clones of Escape the Walls appeared within nine days, PC Gamer reports. Alliance Arts cancelled its Drunken Goddess Reflux demo over fears of AI copies. NoGlyph says another game copied its Needle In A Haystack code and has filed a notice with Valve.",
-   "hype": 72,
+   "hype": 58,
    "id": "game-ai-clone-games-steam",
    "meme": {
     "bottom": "By Thursday there were seven",
@@ -5034,7 +5759,7 @@
    },
    "motif": "game",
    "next": "Watch for how Valve handles the Needle In A Haystack copyright notice.",
-   "prevHype": null,
+   "prevHype": 72,
    "published": "2026-10-19",
    "source": "PC Gamer",
    "stats": [
@@ -5622,6 +6347,63 @@
    "why": "It is a high-profile test of AI-written software, from a company that has openly pivoted to AI development."
   }
  },
+ "game-final-fantasy-resonance": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Final Fantasy is Square Enix's role-playing series, running since 1987.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "It brings back classic turn-based combat."
+    },
+    {
+     "label": "Big name",
+     "text": "Final Fantasy is one of gaming's best-known series."
+    },
+    {
+     "label": "Timing",
+     "text": "It launches the same week as Call of Duty and Switch Sports Resort."
+    }
+   ],
+   "entities": [
+    "Square Enix",
+    "Nintendo",
+    "New game releases"
+   ],
+   "happened": "Famitsu's four critics each gave it 9 out of 10, Nintendo Life reports. The main story takes about 20 to 30 hours and full completion about 70, per Genki_JPN. It launches October 22 on Switch 2 and PC.",
+   "hype": 76,
+   "id": "game-final-fantasy-resonance",
+   "meme": {
+    "bottom": "Final Fantasy fans call that a warm-up",
+    "take": "Final Fantasy Resonance takes 70 hours to finish. Series fans call that a long weekend.",
+    "top": "Seventy hours to finish everything"
+   },
+   "motif": "game",
+   "next": "Watch for Western review scores and launch sales in Japan.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "Nintendo Life",
+   "stats": [
+    {
+     "label": "Famitsu score",
+     "value": "36/40"
+    },
+    {
+     "label": "full completion, reported",
+     "value": "~70 hrs"
+    },
+    {
+     "label": "release date",
+     "value": "Oct 22"
+    }
+   ],
+   "summary": "Square Enix's turn-based HD-2D game gets four 9s from the Japanese magazine, with a reported 70 hours to finish everything.",
+   "title": "Final Fantasy Resonance scores 36/40 from Famitsu ahead of its October 22 launch",
+   "url": "https://www.nintendolife.com/news/2026/10/the-first-review-for-final-fantasy-resonance-is-in",
+   "why": "A classic-style Final Fantasy appeals to longtime fans who miss turn-based battles."
+  }
+ },
  "game-final-fantasy-resonance-famitsu": {
   "lastSeen": "2026-10-16",
   "story": {
@@ -5724,6 +6506,50 @@
    "title": "Fire Emblem: Fortune's Weave gets a three-wave expansion pass",
    "url": "https://simulationdaily.com/news/today-in-gaming-news-october-14-2026/",
    "why": "Paid expansions keep a strategy game alive long after launch."
+  }
+ },
+ "game-funcom-layoffs-dune": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Funcom is a Norwegian game studio known for Conan Exiles and Dune: Awakening.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "Job cuts continue across the games industry."
+    },
+    {
+     "label": "Big name",
+     "text": "Dune is a major science fiction franchise."
+    }
+   ],
+   "entities": [
+    "Layoffs",
+    "Live-service games"
+   ],
+   "happened": "Dune: Awakening launched on Xbox Series and PS5 on September 22, Instant Gaming reports. Funcom says it is restructuring because the game now runs as a live service, and part of its staff is being let go.",
+   "hype": 54,
+   "id": "game-funcom-layoffs-dune",
+   "meme": {
+    "bottom": "Then the studio got smaller",
+    "take": "The spice must flow, and in this case so must the restructuring.",
+    "top": "Dune: Awakening reached consoles"
+   },
+   "motif": "game",
+   "next": "Watch for how many roles are cut and Funcom's update plans for Dune: Awakening.",
+   "prevHype": null,
+   "published": "2026-10-19",
+   "source": "Instant Gaming News",
+   "stats": [
+    {
+     "label": "console launch",
+     "value": "Sep 22"
+    }
+   ],
+   "summary": "The studio is restructuring as the survival game shifts to a games-as-a-service model, a month after reaching PS5 and Xbox.",
+   "title": "Funcom lays off staff after Dune: Awakening's console launch",
+   "url": "https://news.instant-gaming.com/en/articles/22530-after-dune-awakening-s-console-release-funcom-is-laying-off-part-of-its-staff",
+   "why": "Layoffs after a big launch show how tough the games business remains."
   }
  },
  "game-ghost-of-yotei-sales": {
@@ -5890,7 +6716,7 @@
   }
  },
  "game-gta6-one-month": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Grand Theft Auto is Rockstar Games' open-world crime series, owned by Take-Two Interactive.",
    "category": "gaming",
@@ -5912,19 +6738,19 @@
     "Grand Theft Auto",
     "New game releases"
    ],
-   "happened": "GTA VI was first planned for 2025, then moved to May 26, 2026, and now to November 19, Game Rant notes via OpenCritic. Rockstar released a launch trailer on October 15. GamesBeat has reported a PC version for early 2027, which Rockstar has not confirmed.",
-   "hype": 88,
+   "happened": "GTA VI was first planned for 2025, then May 2026, and now November 19. GamesMarket reports retailers are building campaigns around it, from Best Buy's Gamers Beta to German grocer Edeka listing the game. GamesBeat has reported a PC version for early 2027, unconfirmed by Rockstar.",
+   "hype": 82,
    "id": "game-gta6-one-month",
    "meme": {
-    "bottom": "Fans have heard that one before",
-    "take": "For the first time in years, the GTA VI countdown has fewer zeroes than the delay jokes.",
+    "bottom": "Even the grocery store is ready",
+    "take": "GTA VI is now listed at a German supermarket. Fans had assumed it was still a rumour.",
     "top": "GTA VI is one month away"
    },
    "motif": "game",
    "next": "Watch for preload details and any word on the reported PC version.",
-   "prevHype": null,
-   "published": "2026-10-19",
-   "source": "OpenCritic",
+   "prevHype": 88,
+   "published": "2026-10-20",
+   "source": "GamesMarket",
    "stats": [
     {
      "label": "release date",
@@ -5935,9 +6761,9 @@
      "value": "Q1 2027"
     }
    ],
-   "summary": "Rockstar's long-delayed game is a month away, after slipping from 2025 and then from May 2026.",
+   "summary": "With a month to go, retailers from Best Buy in the US to Germany's Edeka are lining up GTA VI campaigns.",
    "title": "GTA VI is now one month from its November 19 release",
-   "url": "https://opencritic.com/news/38003/today-is-finally-the-end-of-an-era-for-gta-6",
+   "url": "https://www.gamesmarket.global/how-gta-vi-encourages-partners-and-free-riders-to-perform/",
    "why": "GTA VI is expected to be one of the biggest entertainment launches ever."
   }
  },
@@ -5996,6 +6822,58 @@
    "title": "GTA 6 on PC is reported for the first three months of 2027",
    "url": "https://beebom.com/gta-6-pc-reportedly-releasing-in-q1-2027/",
    "why": "PC players have been waiting to hear when they can play the biggest game of the year."
+  }
+ },
+ "game-id-xbox-showcase": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "ID@Xbox is Microsoft's programme for publishing independent games on Xbox and PC.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Fan demand",
+     "text": "Mouthwashing was a cult horror hit on PC."
+    },
+    {
+     "label": "Nostalgia",
+     "text": "Shrek 2 and The Wolf Among Us are returning remasters."
+    },
+    {
+     "label": "Scale",
+     "text": "More than 20 games were shown."
+    }
+   ],
+   "entities": [
+    "Microsoft",
+    "Indie games"
+   ],
+   "happened": "A Game About Digging A Hole Together launches December 4 on Game Pass, Xbox Wire says. Mouthwashing and The Wolf Among Us Remastered arrive October 29, and Shrek 2 Remastered on November 10. Croak is set for March 2027.",
+   "hype": 68,
+   "id": "game-id-xbox-showcase",
+   "meme": {
+    "bottom": "One of them is just digging a hole",
+    "take": "The ID@Xbox showcase delivered horror, Shrek and a co-op hole. Something for every mood.",
+    "top": "Xbox showed dozens of indie games"
+   },
+   "motif": "game",
+   "next": "Watch for which of the showcased games climb Steam and Game Pass charts.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "Xbox Wire",
+   "stats": [
+    {
+     "label": "Digging A Hole release",
+     "value": "Dec 4"
+    },
+    {
+     "label": "Mouthwashing on Xbox",
+     "value": "Oct 29"
+    }
+   ],
+   "summary": "Microsoft's indie showcase with IGN set dates for more than a dozen games, from Shrek 2 Remastered to Croak.",
+   "title": "ID@Xbox showcase reveals A Game About Digging A Hole Together and Mouthwashing date",
+   "url": "https://news.xbox.com/en-us/2026/10/20/id-xbox-ign-showcase-october-2026",
+   "why": "Indie showcases are where many of the year's surprise hits first get noticed."
   }
  },
  "game-it-takes-two-switch-2": {
@@ -6137,6 +7015,50 @@
    "why": "It adds to a long run of studio closures and job losses across the games industry."
   }
  },
+ "game-littlebigplanet-ai-pc-port": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "LittleBigPlanet is Sony's creative platform game series, first released on PS3 in 2008.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Trend",
+     "text": "AI coding tools are being used for ever larger hobby projects."
+    },
+    {
+     "label": "Controversy",
+     "text": "Unofficial ports raise copyright questions."
+    },
+    {
+     "label": "Nostalgia",
+     "text": "LittleBigPlanet was a PS3-era favourite."
+    }
+   ],
+   "entities": [
+    "Sony",
+    "AI in games",
+    "Anthropic"
+   ],
+   "happened": "A native PC port of LittleBigPlanet has appeared, and the project says it used Claude Opus 5.5, Instant Gaming reports. The site says Astro Bot and God of War III Remastered have also been made playable on PC through AI-based efforts.",
+   "hype": 62,
+   "id": "game-littlebigplanet-ai-pc-port",
+   "meme": {
+    "bottom": "Someone asked a chatbot instead",
+    "take": "LittleBigPlanet reached PC without Sony's help, which is one way to skip a meeting.",
+    "top": "Sony never ported LittleBigPlanet"
+   },
+   "motif": "game",
+   "next": "Watch for whether Sony responds to the unofficial ports.",
+   "prevHype": null,
+   "published": "2026-10-19",
+   "source": "Instant Gaming News",
+   "stats": [],
+   "summary": "The PS3 game joins Astro Bot and God of War III as PlayStation titles brought to PC through AI-assisted efforts, per Instant Gaming.",
+   "title": "LittleBigPlanet gets a fan-made PC port reportedly built with an AI model",
+   "url": "https://news.instant-gaming.com/en/articles/22532-littlebigplanet-is-the-latest-playstation-game-to-be-playable-on-pc",
+   "why": "If AI can port old console games, it raises hard questions about preservation and ownership."
+  }
+ },
  "game-marvel-tokon-year-1-dlc": {
   "lastSeen": "2026-10-14",
   "story": {
@@ -6241,7 +7163,7 @@
   }
  },
  "game-modern-warfare-4-early-reviews": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Call of Duty is Activision's shooter series, now owned by Microsoft.",
    "category": "gaming",
@@ -6265,36 +7187,32 @@
     "New game releases",
     "Nintendo"
    ],
-   "happened": "Critic reviews of the campaign are out, Nintendo Life reports, after players gave the early-access campaign 92% positive Steam reviews. The game is among Steam's bestsellers and launches on October 23, including on Switch 2. DMZ early access starts October 20.",
+   "happened": "Inven Global reports a Very Positive Steam rating across 3,109 reviews as of October 19. The campaign covers a North Korean invasion of South Korea and moves to New York, Paris and Mumbai. It launches October 23, including on Switch 2, with a new DMZ mode.",
    "hype": 90,
    "id": "game-modern-warfare-4-early-reviews",
    "meme": {
-    "bottom": "Mario has seen worse frankly",
+    "bottom": "The plumbers have been briefed",
     "take": "Modern Warfare 4 arrives on Switch 2, where it joins a library of mostly friendly plumbers.",
     "top": "Call of Duty is coming to Nintendo"
    },
    "motif": "game",
-   "next": "Watch for whether scores hold once multiplayer opens on October 23.",
-   "prevHype": 86,
-   "published": "2026-10-18",
-   "source": "Nintendo Life",
+   "next": "Watch for how scores hold once multiplayer opens on October 23.",
+   "prevHype": 90,
+   "published": "2026-10-19",
+   "source": "Inven Global",
    "stats": [
     {
-     "label": "positive Steam reviews",
-     "value": "92%"
-    },
-    {
-     "label": "reviews counted",
-     "value": "3,156"
+     "label": "Steam reviews",
+     "value": "3,109"
     },
     {
      "label": "full launch",
      "value": "Oct 23"
     }
    ],
-   "summary": "Critics have weighed in on the campaign ahead of the October 23 launch, which includes a Nintendo Switch 2 version.",
-   "title": "Modern Warfare 4's campaign reviews land as it heads to Switch 2 too",
-   "url": "https://www.nintendolife.com/news/2026/10/round-up-the-reviews-for-call-of-duty-modern-warfare-4s-campaign-are-in",
+   "summary": "Early players have given the campaign a Very Positive rating across more than 3,100 Steam reviews before the October 23 release.",
+   "title": "Modern Warfare 4 holds Very Positive Steam reviews ahead of Friday's launch",
+   "url": "https://www.invenglobal.com/articles/27358/campaign-earns-high-marks-modern-warfare-4-signals-success",
    "why": "Call of Duty is gaming's biggest annual series, and early player reaction shapes its launch."
   }
  },
@@ -6708,7 +7626,7 @@
   }
  },
  "game-steam-next-fest-october": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Valve runs Steam Next Fest three times a year to showcase upcoming games.",
    "category": "gaming",
@@ -6727,7 +7645,7 @@
     "Indie games"
    ],
    "happened": "PC Gamer counts 8,011 demos on the press preview page, about double the June 2026 fest. On its first day, ArcheAge Chronicles led with about 18,000 live players, ahead of Loftia, Output Lag's tracker showed. The fest runs to October 26.",
-   "hype": 76,
+   "hype": 64,
    "id": "game-steam-next-fest-october",
    "meme": {
     "bottom": "Valve recommends a long weekend",
@@ -6736,7 +7654,7 @@
    },
    "motif": "game",
    "next": "Watch for which demos climb Steam's wishlist charts by October 26.",
-   "prevHype": 62,
+   "prevHype": 76,
    "published": "2026-10-19",
    "source": "PC Gamer",
    "stats": [
@@ -6903,6 +7821,63 @@
    "title": "Tim Sweeney says AI can take over the routine work of coding",
    "url": "https://gamingroute.com/gaming-news-today/",
    "why": "Epic makes the engine behind many games, so its chief's view on AI shapes how studios think about jobs."
+  }
+ },
+ "game-switch-sports-resort-reviews": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Switch Sports is Nintendo's motion-controlled sports series, following Wii Sports.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "Wuhu Island first appeared in Wii Sports Resort in 2009."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Family motion games sell strongly at holiday time."
+    },
+    {
+     "label": "Timing",
+     "text": "It launches in a crowded week with Call of Duty."
+    }
+   ],
+   "entities": [
+    "Nintendo",
+    "New game releases",
+    "Revived franchises"
+   ],
+   "happened": "Nintendo Life and GameSpot gave it 9/10, Game Informer 8/10 and IGN 7/10, Nintendo Life's round-up shows. It has 12 sports including tennis, bowling and thumb wrestling. It costs $49.99 and launches October 22 on Switch 2.",
+   "hype": 80,
+   "id": "game-switch-sports-resort-reviews",
+   "meme": {
+    "bottom": "Your wrist has not fully recovered",
+    "take": "Nintendo has brought back Wuhu Island, and with it a generation's fear of the bowling swing.",
+    "top": "Wuhu Island is back"
+   },
+   "motif": "game",
+   "next": "Watch for its first sales figures in Japan and the UK after the October 22 launch.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "Nintendo Life",
+   "stats": [
+    {
+     "label": "Metacritic, 46 reviews",
+     "value": "79"
+    },
+    {
+     "label": "price",
+     "value": "$49.99"
+    },
+    {
+     "label": "sports",
+     "value": "12"
+    }
+   ],
+   "summary": "The Switch 2 sports game, set on Wuhu Island, sits at 79 on Metacritic from 46 reviews ahead of its October 22 launch.",
+   "title": "Nintendo Switch Sports Resort reviews land, with GameSpot calling it the series' best",
+   "url": "https://www.nintendolife.com/news/2026/10/round-up-the-reviews-are-in-for-nintendo-switch-sports-resort",
+   "why": "Wii Sports Resort was one of Nintendo's biggest hits, and this is its spiritual return on Switch 2."
   }
  },
  "game-total-war-shogun-2-pulled": {
@@ -7277,7 +8252,7 @@
   }
  },
  "game-zelda-switch-2-restock": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "The Legend of Zelda is Nintendo's adventure series. The Switch 2 is Nintendo's current console.",
    "category": "gaming",
@@ -7301,7 +8276,7 @@
     "Revived franchises"
    ],
    "happened": "Bill van Zyll, Nintendo's Latin America chief, said the company underestimated demand and that restocks are coming but will take time, Nintendo Life reports. He singled out North America. The Ocarina of Time remake for Switch 2 arrives November 5.",
-   "hype": 70,
+   "hype": 56,
    "id": "game-zelda-switch-2-restock",
    "meme": {
     "bottom": "They have waited 40 years already",
@@ -7310,7 +8285,7 @@
    },
    "motif": "game",
    "next": "Watch for restock dates and sales when the Ocarina of Time remake launches on November 5.",
-   "prevHype": null,
+   "prevHype": 70,
    "published": "2026-10-19",
    "source": "Nintendo Life",
    "stats": [
@@ -7425,6 +8400,58 @@
    "why": "Attacks on supermarkets show how hacking can quickly affect everyday essentials."
   }
  },
+ "tech-ai-agents-hacker-breaches": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "AI agents are AI systems that can carry out multi-step tasks on a computer with little supervision.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "AI agents can scale up attacks cheaply."
+    },
+    {
+     "label": "First of its kind",
+     "text": "It is among the clearest reported cases of agents running a hacking campaign."
+    },
+    {
+     "label": "Trend",
+     "text": "Security teams are racing to adapt to AI-powered attackers."
+    }
+   ],
+   "entities": [
+    "AI agents",
+    "Cybersecurity"
+   ],
+   "happened": "Reuters reports the hacker breached the websites of more than 100 companies, with AI agents doing much of the work and limited human involvement. The whole campaign reportedly cost only a few thousand dollars.",
+   "hype": 72,
+   "id": "tech-ai-agents-hacker-breaches",
+   "meme": {
+    "bottom": "The invoice was a few thousand dollars",
+    "take": "AI agents promised to make work cheaper for everyone. Everyone turned out to include hackers.",
+    "top": "Over 100 sites were breached"
+   },
+   "motif": "shield",
+   "next": "Watch for which companies were hit and how security firms respond to agent-driven attacks.",
+   "prevHype": null,
+   "published": "2026-10-19",
+   "source": "Reuters",
+   "stats": [
+    {
+     "label": "company websites breached",
+     "value": "100+"
+    },
+    {
+     "label": "campaign cost, reported",
+     "value": "few $K"
+    }
+   ],
+   "summary": "A Chinese-speaking hacker handed much of the work to AI agents, with a campaign that reportedly cost a few thousand dollars.",
+   "title": "One hacker used AI agents to breach more than 100 company websites, Reuters reports",
+   "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/",
+   "why": "Cheap, automated attacks could let one person do what once took a team of hackers."
+  }
+ },
  "tech-amazon-alexa-tablets": {
   "lastSeen": "2026-10-15",
   "story": {
@@ -7536,6 +8563,55 @@
    "title": "Amazon launches Bee AI wearables that listen to and summarize conversations",
    "url": "https://www.geekwire.com/2026/amazons-new-bee-ai-devices-have-a-bystander-problem-says-former-aws-security-engineer/",
    "why": "Always-listening devices raise fresh questions about recording people who never agreed to it."
+  }
+ },
+ "tech-amazon-germany-16b": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Amazon runs AWS, the world's largest cloud computing business, as well as its online store.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "More than €16 billion in a single year."
+    },
+    {
+     "label": "Trend",
+     "text": "Tech giants are building AI data centers across Europe."
+    }
+   ],
+   "entities": [
+    "Amazon",
+    "Cloud computing",
+    "AI infrastructure"
+   ],
+   "happened": "Amazon plans to invest more than €16 billion ($17.9B) in Germany in 2027, Bloomberg reports. The money spans AWS and AI data centers, its Leo satellite internet project, Prime Video production and a new robotics lab in Berlin.",
+   "hype": 64,
+   "id": "tech-amazon-germany-16b",
+   "meme": {
+    "bottom": "Germany has been asked to sign for it",
+    "take": "Amazon is spending €16 billion in Germany, with a delivery window of all of 2027.",
+    "top": "Amazon is investing €16 billion"
+   },
+   "motif": "money",
+   "next": "Watch for where the new German data centers will be built.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "Bloomberg",
+   "stats": [
+    {
+     "label": "planned 2027 investment",
+     "value": "€16B+"
+    },
+    {
+     "label": "in US dollars",
+     "value": "$17.9B"
+    }
+   ],
+   "summary": "The plan covers AWS and AI data centers, the Leo satellite program, Prime Video productions and a Berlin robotics lab.",
+   "title": "Amazon pledges more than €16 billion for Germany in 2027",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/amazon-pledges-16-billion-in-germany-on-data-centers-prime",
+   "why": "It is a big bet on European AI computing as tech giants race to build data centers."
   }
  },
  "tech-app-store-deepfake-rules": {
@@ -7681,6 +8757,58 @@
    "title": "New Macs are reported for November 6 as a new iPad mini case leaks",
    "url": "https://www.androidheadlines.com/2026/10/apple-leaks-redesigned-ipad-mini-case.html",
    "why": "Apple's fall lineup is filling out after the iPhone Duo and HomeView launches."
+  }
+ },
+ "tech-apple-titanium-supplier": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Apple makes the iPhone. The iPhone Duo is its first foldable phone.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Timing",
+     "text": "It comes days before the iPhone Duo goes on sale."
+    },
+    {
+     "label": "Trend",
+     "text": "Tech firms are moving more manufacturing to the US."
+    }
+   ],
+   "entities": [
+    "Apple",
+    "Smartphones"
+   ],
+   "happened": "Apple is putting up to $100 million over three years into Perryman, which supplies titanium for the iPhone Duo, CNBC reports. It also expanded a camera parts partnership with Qnity. Apple says nearly 100 iPhone Duo and iPhone 18 Pro parts are made in the US.",
+   "hype": 62,
+   "id": "tech-apple-titanium-supplier",
+   "meme": {
+    "bottom": "It is spending $100 million to keep it",
+    "take": "Apple is putting $100 million into titanium. The iPhone Duo is partly made of investment.",
+    "top": "Apple found titanium in Pennsylvania"
+   },
+   "motif": "phone",
+   "next": "Watch for more US supplier deals as Apple ramps up iPhone Duo production.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "CNBC",
+   "stats": [
+    {
+     "label": "investment, up to",
+     "value": "$100M"
+    },
+    {
+     "label": "deal length",
+     "value": "3 yrs"
+    },
+    {
+     "label": "US-made iPhone parts",
+     "value": "~100"
+    }
+   ],
+   "summary": "Apple will invest in Pennsylvania's Perryman Company over three years and says nearly 100 iPhone parts are now US-made.",
+   "title": "Apple commits up to $100 million to a US titanium supplier for the iPhone Duo",
+   "url": "https://www.cnbc.com/2026/10/20/apple-adds-us-titanium-supplier-for-iphone-duo.html",
+   "why": "Apple is under pressure to make more of its products in the US."
   }
  },
  "tech-apple-touchscreen-macbook-event": {
@@ -7983,7 +9111,7 @@
   }
  },
  "tech-burger-king-japan-breach": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Burger King Japan runs the fast-food chain's restaurants and ordering app in Japan.",
    "category": "tech",
@@ -8007,7 +9135,7 @@
     "Privacy"
    ],
    "happened": "The company says unauthorized access happened between October 2 and 7 and was confirmed on October 13, TechRadar reports. Exposed data includes names, birth dates, genders, emails, phone numbers and order histories. Payment card data was not exposed.",
-   "hype": 74,
+   "hype": 56,
    "id": "tech-burger-king-japan-breach",
    "meme": {
     "bottom": "The card numbers stayed home",
@@ -8016,7 +9144,7 @@
    },
    "motif": "shield",
    "next": "Watch for notices to affected customers and any phishing that uses the leaked details.",
-   "prevHype": null,
+   "prevHype": 74,
    "published": "2026-10-19",
    "source": "TechRadar",
    "stats": [
@@ -8565,8 +9693,56 @@
    "why": "It is a large bet on making more chips in the US under a US-Japan deal."
   }
  },
+ "tech-google-cloud-outage-revolut": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Google Cloud rents computing power to businesses. Revolut is a UK-based digital bank.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "Several banks rely on the same cloud region."
+    },
+    {
+     "label": "Risk",
+     "text": "Outages show how much banking depends on a few cloud providers."
+    },
+    {
+     "label": "Big name",
+     "text": "Revolut has tens of millions of customers."
+    }
+   ],
+   "entities": [
+    "Google",
+    "Cloud computing"
+   ],
+   "happened": "The outage began late Monday Pacific time in Google's London region, Bloomberg reports, and Google blamed a power event. Revolut's app, card payments, transfers and ATM withdrawals were disrupted for hours. Revolut said money and data were safe.",
+   "hype": 82,
+   "id": "tech-google-cloud-outage-revolut",
+   "meme": {
+    "bottom": "UK banking apps had a quiet night",
+    "take": "A single power problem in London reminded UK banks exactly whose computer they live on.",
+    "top": "Google Cloud had a power event"
+   },
+   "motif": "power",
+   "next": "Watch for Google's full incident report and any response from UK regulators.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "Bloomberg",
+   "stats": [
+    {
+     "label": "Revolut services affected",
+     "value": "31"
+    }
+   ],
+   "summary": "A 'power event' in Google's London region took down banking apps for hours, with Revolut listing 31 services affected.",
+   "title": "Google Cloud outage in London knocks out Revolut and other UK banks",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/google-cloud-outage-takes-down-revolut-and-other-banks-in-uk",
+   "why": "When one cloud region fails, millions of people can lose access to their money at once."
+  }
+ },
  "tech-iphone-duo-preorders": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Apple makes the iPhone, the world's best-selling smartphone line.",
    "category": "tech",
@@ -8589,7 +9765,7 @@
     "Smartphones"
    ],
    "happened": "MacRumors reports one US estimate moved from December to November 20-30, and a Japan order moved to October 24. Within 30 minutes of preorders on October 16, new US estimates hit January 25. Apple called demand 'nothing short of extraordinary.'",
-   "hype": 90,
+   "hype": 86,
    "id": "tech-iphone-duo-preorders",
    "meme": {
     "bottom": "Apple now says possibly November",
@@ -8598,7 +9774,7 @@
    },
    "motif": "phone",
    "next": "Watch for launch-day stock on October 23 and whether more delivery dates move up.",
-   "prevHype": 92,
+   "prevHype": 90,
    "published": "2026-10-19",
    "source": "MacRumors",
    "stats": [
@@ -9266,6 +10442,58 @@
    "why": "AI may be making common cyberattacks faster and cheaper to run."
   }
  },
+ "tech-salesforce-braze-5-7b": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "Salesforce is a leading maker of business software for sales and marketing. Braze helps brands message customers.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "The deal is worth nearly $5.7 billion."
+    },
+    {
+     "label": "Scale",
+     "text": "Braze shares jumped about 50% in a day."
+    }
+   ],
+   "entities": [
+    "Acquisitions",
+    "Stock market"
+   ],
+   "happened": "Salesforce will pay $47.50 per share in cash for Braze, nearly $5.7 billion in enterprise value, Bloomberg reports. The deal is expected to close from February 2027. Braze shares rose about 50% on the news.",
+   "hype": 74,
+   "id": "tech-salesforce-braze-5-7b",
+   "meme": {
+    "bottom": "Braze shareholders bought champagne",
+    "take": "Salesforce's stock fell 2% on the news, the traditional fee for writing a $5.7 billion check.",
+    "top": "Salesforce bought Braze"
+   },
+   "motif": "bag",
+   "next": "Watch for regulatory review and how Salesforce fits Braze into its marketing products.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "Bloomberg",
+   "stats": [
+    {
+     "label": "enterprise value",
+     "value": "~$5.7B"
+    },
+    {
+     "label": "per share, cash",
+     "value": "$47.50"
+    },
+    {
+     "label": "Braze stock jump",
+     "value": "~50%"
+    }
+   ],
+   "summary": "The all-cash deal pays $47.50 a share, sending Braze stock up about 50% while Salesforce fell about 2%.",
+   "title": "Salesforce agrees to buy marketing platform Braze for about $5.7 billion",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/salesforce-to-buy-marketing-platform-braze-for-5-7-billion",
+   "why": "It is one of the year's larger software deals, as Salesforce pushes deeper into customer marketing."
+  }
+ },
  "tech-samsung-taylor-fab-2": {
   "lastSeen": "2026-10-18",
   "story": {
@@ -9378,7 +10606,7 @@
   }
  },
  "tech-smart-tvs-claude-code": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "Fire TV is Amazon's streaming platform, and Google TV runs on Google's Android TV system.",
    "category": "tech",
@@ -9397,13 +10625,13 @@
     }
    ],
    "entities": [
-    "AI coding",
     "Anthropic",
     "DeepSeek",
-    "Privacy"
+    "AI agents",
+    "Open source"
    ],
-   "happened": "TechCrunch reports developers are using AI coding tools including Anthropic's Claude Code and DeepSeek's V4.1 Flash model to remove ads and tracking from Fire TV, Android TV and Google TV devices.",
-   "hype": 68,
+   "happened": "TechCrunch reports two GitHub projects for stripping smart TVs. One, cleanyourtv, used Claude Code to find a TV on the network, remove 25 Xiaomi packages and write a new launcher. Another, dumbtv, was built with DeepSeek V4.1 Flash and Claude models.",
+   "hype": 66,
    "id": "tech-smart-tvs-claude-code",
    "meme": {
     "bottom": "So the owner asked an AI to fix it",
@@ -9412,7 +10640,7 @@
    },
    "motif": "screen",
    "next": "Watch for how Amazon and Google respond to modified devices.",
-   "prevHype": null,
+   "prevHype": 68,
    "published": "2026-10-19",
    "source": "TechCrunch",
    "stats": [],
@@ -9423,60 +10651,61 @@
   }
  },
  "tech-spacex-q3-earnings": {
-  "lastSeen": "2026-10-20",
+  "lastSeen": "2026-10-21",
   "story": {
    "background": "SpaceX is Elon Musk's rocket and Starlink satellite company. It listed its shares in 2026.",
    "category": "tech",
    "drivers": [
     {
      "label": "Money",
-     "text": "AI computing took $15.8 billion of last quarter's spending."
+     "text": "Quarterly spending on AI alone reached $16.4 billion."
+    },
+    {
+     "label": "Scale",
+     "text": "Revenue grew 161% in a year."
     },
     {
      "label": "Big name",
-     "text": "SpaceX is one of the most closely watched new public companies."
-    },
-    {
-     "label": "Risk",
-     "text": "The stock fell 13.6% after its last report."
+     "text": "SpaceX is one of the most closely watched public companies."
     }
    ],
    "entities": [
     "SpaceX",
+    "Earnings",
     "Stock market",
     "AI infrastructure"
    ],
-   "happened": "Analysts expect earnings of $0.14 a share on revenue near $12.9 billion, TipRanks reports. After its second-quarter report, which showed a $541 million loss and $15.8 billion spent on AI computing, the stock fell 13.6% in a day. Options imply a 7.8% move.",
-   "hype": 80,
+   "happened": "Net income was $4.4 billion against a $1.1 billion loss a year ago, Forbes reports. The AI segment made $431 million operating profit on $7.6 billion revenue, up about 830%. Capital spending was $19.6 billion, $16.4 billion of it on AI.",
+   "hype": 90,
    "id": "tech-spacex-q3-earnings",
    "meme": {
-    "bottom": "Investors mostly ask about GPUs",
-    "take": "SpaceX makes rockets and satellites, and the big question is its graphics card bill.",
-    "top": "A rocket company reports earnings"
+    "bottom": "Now it mainly sells AI",
+    "take": "SpaceX's AI unit now out-earns its satellites. The rockets are taking it well.",
+    "top": "SpaceX built rockets for years"
    },
    "motif": "rocket",
-   "next": "Watch for SpaceX's AI spending figures and how the stock reacts, with Meta and Tesla reporting October 21.",
-   "prevHype": null,
-   "published": "2026-10-19",
-   "source": "TipRanks",
+   "next": "Watch for whether the after-hours gain holds and what SpaceX says about AI spending next year.",
+   "prevHype": 80,
+   "published": "2026-10-20",
+   "source": "Forbes",
    "stats": [
     {
-     "label": "expected Q3 revenue",
-     "value": "~$12.9B"
+     "label": "Q3 revenue",
+     "value": "$14.6B"
     },
     {
-     "label": "Q2 AI computing spend",
-     "value": "$15.8B"
+     "label": "AI revenue",
+     "value": "$7.6B"
     },
     {
-     "label": "stock move after Q2 report",
-     "value": "-13.6%"
+     "label": "AI capital spending",
+     "value": "$16.4B"
     }
    ],
-   "summary": "Analysts expect revenue of almost $12.9 billion as SpaceX releases its second report since going public.",
-   "title": "SpaceX reports third-quarter results today, with AI spending in focus",
-   "url": "https://www.tipranks.com/news/spacex-q3-earnings-preview-options-market-signals-7-8-move-as-analysts-forecast-12-9b-revenue",
-   "why": "SpaceX's huge AI computing bill made its first public report a shock, so investors want to see what changed."
+   "summary": "SpaceX made $14.6 billion in the third quarter, with $7.6 billion from AI, and shares rose more than 4% after hours.",
+   "title": "SpaceX's AI business out-earns Starlink as revenue jumps 161%",
+   "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/10/20/spacex-posts-431-million-ai-operating-profit-as-total-revenue-jumps-161/",
+   "why": "Its first public report shocked investors with AI costs, so this quarter was a test of whether the bet pays off."
   }
  },
  "tech-taiwan-ai-chip-smuggling-law": {
@@ -9621,6 +10850,45 @@
    "why": "Class status lets thousands of buyers sue together, so losing it greatly changes the case."
   }
  },
+ "tech-tiktok-child-safety-depositions": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "TikTok is a short-video app owned by ByteDance. TikTok Live lets users stream and receive gifts.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "Child safety is the most serious charge a social platform can face."
+    },
+    {
+     "label": "Scale",
+     "text": "TikTok has a huge young audience."
+    }
+   ],
+   "entities": [
+    "TikTok",
+    "Child safety"
+   ],
+   "happened": "Depositions from TikTok staff, reported by NPR, say executives ignored internal warnings about child sexual exploitation on TikTok Live. Staff said minors appeared in livestreams. The claims come from testimony in legal proceedings.",
+   "hype": 60,
+   "id": "tech-tiktok-child-safety-depositions",
+   "meme": {
+    "bottom": "The depositions say little changed",
+    "take": "Testimony says the warnings about TikTok Live were raised internally and not acted on.",
+    "top": "Staff warned TikTok's executives"
+   },
+   "motif": "doc",
+   "next": "Watch for TikTok's response and whether the testimony is used in court.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "NPR",
+   "stats": [],
+   "summary": "NPR reports staff told executives that minors were appearing in livestreams where exploitation took place.",
+   "title": "Depositions say TikTok executives ignored warnings about child exploitation on Live",
+   "url": "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+   "why": "It adds to legal and political pressure on TikTok over how it protects young users."
+  }
+ },
  "tech-tsmc-q3-record": {
   "lastSeen": "2026-10-16",
   "story": {
@@ -9676,6 +10944,51 @@
    "title": "TSMC posts record quarter as AI chip demand lifts profit 69%",
    "url": "https://pr.tsmc.com/english/news/3346",
    "why": "TSMC makes most advanced AI chips, so its results are a direct read on AI demand."
+  }
+ },
+ "tech-us-sanctions-miracleplus": {
+  "lastSeen": "2026-10-21",
+  "story": {
+   "background": "MiraclePlus is a Beijing startup accelerator founded by former Y Combinator China head Lu Qi.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Rivalry",
+     "text": "AI is at the centre of US-China tech competition."
+    },
+    {
+     "label": "Big name",
+     "text": "The case involves Google's AI technology."
+    }
+   ],
+   "entities": [
+    "China",
+    "US government",
+    "Google"
+   ],
+   "happened": "The US sanctioned MiraclePlus for financing Zhisuan, founded by Ding Linwei, who was convicted this year of stealing Google AI trade secrets, Bloomberg reports. The State Department action covers five Chinese entities.",
+   "hype": 58,
+   "id": "tech-us-sanctions-miracleplus",
+   "meme": {
+    "bottom": "The investor got sanctioned",
+    "take": "MiraclePlus backed a founder with a remarkable head start. Washington asked where from.",
+    "top": "A startup ran on Google's secrets"
+   },
+   "motif": "globe",
+   "next": "Watch for China's response and whether more investors are added to the list.",
+   "prevHype": null,
+   "published": "2026-10-20",
+   "source": "Bloomberg",
+   "stats": [
+    {
+     "label": "Chinese entities named",
+     "value": "5"
+    }
+   ],
+   "summary": "MiraclePlus, often called China's Y Combinator, funded a startup founded by a man convicted of stealing Google's AI trade secrets.",
+   "title": "US blacklists Chinese investor MiraclePlus over a Google AI secrets case",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/us-sanctions-china-s-y-combinator-in-google-ai-secrets-case",
+   "why": "It shows Washington widening its fight over AI technology from chips to the investors behind startups."
   }
  },
  "tech-verizon-iphone-handoff-fee": {
