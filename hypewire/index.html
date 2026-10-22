@@ -442,7 +442,84 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
   .pb-rings i { width: 34px; height: 34px; }
   .pb-rings i:nth-child(n+4) { display: none; }
 }
+/* ---- Bold look: a dark "night newsroom" by default, saturated category colours, a cover-style lead and a bento grid ---- */
+:root { --c-ai: #6D4AE0; --c-entertainment: #E0245E; --c-gaming: #16A34A; --c-tech: #0284C7;
+  --art-ai-a: #E4DCFF; --art-ai-b: #B7A6FF; --art-ai-ink: #3B1FB8; --art-ai-acc: #7C5CFF;
+  --art-entertainment-a: #FFE0E8; --art-entertainment-b: #FF9DB5; --art-entertainment-ink: #B0103F; --art-entertainment-acc: #FF4D6D;
+  --art-gaming-a: #D9FBE6; --art-gaming-b: #86EFAC; --art-gaming-ink: #0B6B35; --art-gaming-acc: #22C55E;
+  --art-tech-a: #DDF1FF; --art-tech-b: #8FD3FF; --art-tech-ink: #075985; --art-tech-acc: #0EA5E9; }
+:root[data-theme="dark"] {
+  --bg: #09080F; --surface: #14121E; --fg: #F6F4FF; --muted: #A9A4C4; --line: #24212F; --chip: #1C1A28;
+  --heat: #FF2E7E; --heat-soft: #3B0E25; --cool: #8C9BFF; --shadow: 0 1px 2px rgba(0, 0, 0, .7);
+  --c-ai: #A78BFA; --c-entertainment: #FF5C84; --c-gaming: #4ADE80; --c-tech: #38BDF8;
+  --art-ai-a: #1E1150; --art-ai-b: #5B21B6; --art-ai-ink: #EDE6FF; --art-ai-acc: #C4B5FD;
+  --art-entertainment-a: #4A0B24; --art-entertainment-b: #BE123C; --art-entertainment-ink: #FFE4EA; --art-entertainment-acc: #FF9BB3;
+  --art-gaming-a: #052A1A; --art-gaming-b: #15803D; --art-gaming-ink: #DCFCE7; --art-gaming-acc: #86EFAC;
+  --art-tech-a: #071F3D; --art-tech-b: #0369A1; --art-tech-ink: #E0F2FE; --art-tech-acc: #7DD3FC;
+  --art-glow: rgba(255, 255, 255, .22); --art-band: rgba(255, 255, 255, .07); }
+body { background:
+  radial-gradient(900px 420px at 0% -8%, color-mix(in srgb, var(--heat) 16%, transparent), transparent 70%),
+  radial-gradient(800px 420px at 100% -6%, color-mix(in srgb, var(--cool) 14%, transparent), transparent 70%),
+  var(--bg) no-repeat; }
+h1 { font-size: 2rem; letter-spacing: -.045em; }
+:root[data-theme="dark"] h1 span { text-shadow: 0 0 24px color-mix(in srgb, var(--heat) 60%, transparent); }
+.nav { background: color-mix(in srgb, var(--bg) 84%, transparent); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+.tab[aria-selected="true"] { border-bottom-color: var(--heat); }
+.cat-ai { --cc: var(--c-ai); } .cat-entertainment { --cc: var(--c-entertainment); } .cat-gaming { --cc: var(--c-gaming); } .cat-tech { --cc: var(--c-tech); }
+.meta .cat { color: var(--cc, var(--fg)); text-transform: uppercase; letter-spacing: .06em; font-size: .74rem; font-weight: 800; }
+.score b { background: var(--heat); color: #fff; border-radius: 8px; padding: 4px 7px 3px; font-size: .92rem; box-shadow: 0 6px 18px -8px var(--heat); }
+
+/* Cards: solid tiles with a category-coloured glow on hover */
+.grid { gap: 22px; grid-auto-flow: dense; }
+.grid .card { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; overflow: hidden; transition: transform .25s cubic-bezier(.2,.7,.2,1), box-shadow .25s, border-color .25s; }
+.grid .card > .art, .grid .card > .meme { border-radius: 0; }
+.grid .card .body { padding: 16px 18px 18px; }
+.grid .card:hover { transform: translateY(-5px); border-color: color-mix(in srgb, var(--cc) 55%, var(--line)); box-shadow: 0 24px 50px -24px color-mix(in srgb, var(--cc) 70%, transparent); }
+.grid .card h2 { font-size: 1.25rem; font-weight: 800; letter-spacing: -.015em; }
+@media (min-width: 900px) {
+  .grid li:nth-child(7n+1), .grid li:nth-child(7n+5) { grid-column: span 2; }
+  .grid li:nth-child(7n+1) .card h2, .grid li:nth-child(7n+5) .card h2 { font-size: 1.75rem; line-height: 1.08; }
+  .grid li:nth-child(7n+1) .card > .art, .grid li:nth-child(7n+5) .card > .art { aspect-ratio: 2.6 / 1; }
+}
+
+/* Lead story as a magazine cover: art fills the frame, the headline sits on it */
+.card.cover { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 500px; border-radius: 26px; overflow: hidden; isolation: isolate; color: #fff; }
+.hero.solo .card.cover { display: flex; }
+.card.cover > .art { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: 0; z-index: -2; transition: transform 6s ease-out; }
+.card.cover:hover > .art { transform: scale(1.05); }
+.card.cover::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(9,8,15,.08) 0%, rgba(9,8,15,.52) 40%, rgba(9,8,15,.94) 100%); }
+.card.cover .body, .hero.solo .card.cover .body { padding: 30px 32px 30px; gap: 12px; flex: 0 0 auto; }
+.card.cover h2 { font-size: clamp(2rem, 4.6vw, 3.6rem); line-height: .98; letter-spacing: -.035em; max-width: 22ch; }
+.card.cover .sum { color: rgba(255,255,255,.82); }
+.card.cover .meta { color: rgba(255,255,255,.75); }
+.card.cover .meta .cat { color: #fff; background: var(--cc); padding: 2px 8px; border-radius: 6px; }
+.card.cover .meta span.cat::before { display: none; }
+.card.cover .meta .cat + span::before, .card.cover .meta span + .cat::before { color: rgba(255,255,255,.5); }
+.card.cover .score b { font-size: 1.6rem; padding: 6px 10px 5px; border-radius: 10px; }
+.card.cover .more { background: #fff; color: #09080F; padding: 10px 22px; }
+.card.cover .more:hover { background: var(--heat); color: #fff; }
+.card.cover .src { color: rgba(255,255,255,.8); }
+.card.cover .unseen { color: #fff; } .card.cover .unseen::before { background: #fff; }
+.card.cover .delta.new { color: #fff; }
+
+/* Briefing: big gradient numerals */
+.brief h2 { font-size: 1.9rem; letter-spacing: -.03em; }
+.brief button::before { font-size: 1.6rem; line-height: 1; background: linear-gradient(160deg, var(--heat), var(--cool)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.brief button { grid-template-columns: 2rem minmax(0, 1fr); font-weight: 600; }
+.hero { gap: 32px; }
+@media (max-width: 640px) {
+  .card.cover { min-height: 440px; border-radius: 22px; }
+  .streak:not([hidden]) + .stamp { display: none; }
+  h1 { font-size: 1.6rem; }
+  .top-right { min-width: 0; } .stamp { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .card.cover .meta > span:nth-child(-n+2):not(.cat):not(.unseen) { display: none; }
+  .card.cover .body, .hero.solo .card.cover .body { padding: 22px 20px; }
+  .card.cover h2 { font-size: clamp(1.9rem, 9vw, 2.4rem); }
+  .grid { gap: 18px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .grid .card, .card.cover > .art { transition: none; }
   .tick-track { animation: none; } .tick-win { overflow-x: auto; } .live::before, .playbar::after { animation: none; }
   .slide.in > *, .slide.in .bg { animation: none !important; }
 }
@@ -555,7 +632,7 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
   var sm = store("hw-mode"); if (sm === "meme" || sm === "data") mode = sm;
 
   // Theme
-  var saved = store("hw-theme"); if (saved === "dark" || saved === "light") root.setAttribute("data-theme", saved);
+  var saved = store("hw-theme"); root.setAttribute("data-theme", saved === "light" ? "light" : "dark"); // dark is the house look
   function theme() { return root.getAttribute("data-theme") || (window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"); }
   function paintTheme() { var l = theme() === "dark" ? "Switch to light mode" : "Switch to dark mode"; $("theme").setAttribute("aria-label", l); $("theme").title = l; }
   $("theme").onclick = function () { var t = theme() === "dark" ? "light" : "dark"; root.setAttribute("data-theme", t); store("hw-theme", t); paintTheme(); };
@@ -611,7 +688,7 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
   // A soft wash of the page surface over the picture, stronger behind meme captions, so the artwork stays in the background.
   function veil(g) {
     var vb = g.getAttribute("viewBox").split(" ");
-    g.appendChild(sv("rect", { width: vb[2], height: vb[3], style: "fill:var(--surface);fill-opacity:" + (g.__cap ? .4 : .22) }));
+    g.appendChild(sv("rect", { width: vb[2], height: vb[3], style: "fill:var(--surface);fill-opacity:" + (g.__cap ? .4 : .06) }));
     return g;
   }
   function art(s, W, caption) {
@@ -641,7 +718,7 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
       if (i % 2) g.appendChild(sv("circle", { cx: ax, cy: ay, r: sz, style: st }));
       else g.appendChild(sv("path", { d: "M" + (ax - sz) + " " + ay + "H" + (ax + sz) + "M" + ax + " " + (ay - sz) + "V" + (ay + sz), style: st }));
     }
-    var fade = caption ? .22 : .42;
+    var fade = caption ? .3 : .85;
     if (C === "gaming") {
       var cell = (caption ? 44 : (W > 200 ? 68 : 60)) / 7, pcx = caption || W <= 200 ? W / 2 : W * (.62 + r() * .16), x0 = pcx - cell * 3.5, y0 = 50 - cell * 3.5, j, cells = [];
       for (j = 0; j < 7; j++) for (i = 0; i < 4; i++) if (r() > .45) { var col = r() > .8 ? "acc" : "ink"; cells.push([i, j, col]); if (i < 3) cells.push([6 - i, j, col]); }
@@ -658,7 +735,7 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
     var cx = caption || W <= 200 ? W / 2 : W * (.62 + r() * .16), cy = 50 + (caption ? 0 : (r() - .5) * 6), rot = (r() - .5) * 16;
     // Per-story variety: mirror the motif on some stories and set a large, faint copy of it elsewhere in the frame,
     // so two stories with the same motif never look like the same picture.
-    var flip = r() > .5 ? -1 : 1, line = "fill:none;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.6;vector-effect:non-scaling-stroke;";
+    var flip = r() > .5 ? -1 : 1, line = "fill:none;stroke-linejoin:round;stroke-linecap:round;stroke-width:2.4;vector-effect:non-scaling-stroke;";
     var gk = size * (2 + r() * .8) / 100, gx = cx > W / 2 ? W * (.04 + r() * .22) : W * (.72 + r() * .24), gy = 15 + r() * 70;
     drawMotif(g, name, { transform: "translate(" + gx.toFixed(1) + " " + gy.toFixed(1) + ") rotate(" + ((r() - .5) * 50).toFixed(1) + ") scale(" + gk.toFixed(3) + ") translate(-50 -50)", style: line + "stroke:" + v("ink") + ";stroke-opacity:" + (.1 * fade) });
     var base = "translate(" + cx + " " + cy + ") rotate(" + rot.toFixed(1) + ") scale(" + (k * flip) + " " + k + ") translate(-50 -50)";
@@ -782,8 +859,8 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
 
   // A card is a picture, a headline and one sentence. Everything else lives in the story view, one tap away.
   function card(s, lead) {
-    var c = el("article", lead ? "card lead" : "card");
     var memed = mode === "meme" && s.meme;
+    var c = el("article", (lead ? "card lead" : "card") + " cat-" + s.category + (lead && !memed ? " cover" : ""));
     c.appendChild(memed ? memePanel(s) : art(s, 240));
     var body = el("div", "body"), k = el("div", "kicker");
     k.appendChild(metaline(s, lead)); k.appendChild(score(s)); body.appendChild(k);
