@@ -374,6 +374,43 @@ details.guide summary { cursor: pointer; font-weight: 600; color: var(--fg); wid
 .newpill::before, .unseen::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--heat); flex: none; }
 .unseen { display: inline-flex; align-items: center; gap: 5px; font: 700 .66rem var(--mono); letter-spacing: .06em; color: var(--heat); }
 
+.today-row { display: grid; grid-template-columns: minmax(0, 2.2fr) minmax(0, 1fr); gap: 14px; }
+.today-row:has(.gamebar[hidden]) { grid-template-columns: minmax(0, 1fr); }
+.gamebar { position: relative; display: flex; flex-direction: column; justify-content: center; gap: 2px; text-align: left; border: 0; cursor: pointer; border-radius: 20px; padding: 14px 20px; overflow: hidden; color: #09080F;
+  background: linear-gradient(135deg, #D9FF5B 0%, #5BFFB0 100%); box-shadow: 0 18px 40px -22px rgba(91, 255, 176, .8); }
+.gamebar::before { content: "?"; position: absolute; right: -6px; bottom: -34px; font: 800 9rem/1 var(--display); color: rgba(9, 8, 15, .1); }
+.gamebar:hover { filter: brightness(1.05); }
+.gb-tag { font: 700 .7rem var(--mono); letter-spacing: .08em; text-transform: uppercase; opacity: .75; }
+.gamebar strong { font: 800 1.35rem/1.1 var(--display); letter-spacing: -.02em; }
+.gamebar > span:last-child { font-size: .88rem; font-weight: 600; }
+@media (max-width: 640px) { .today-row { grid-template-columns: minmax(0, 1fr); gap: 10px; } .gamebar { padding: 12px 16px; } .gamebar strong { font-size: 1.15rem; } }
+
+/* Hype or Hoax: reuses the player frame */
+.hh-q { justify-content: center; gap: 18px; }
+.hh-stamp { font: 800 .8rem var(--mono); letter-spacing: .14em; color: #D9FF5B; }
+.hh-card { background: #fff; color: #09080F; border-radius: 22px; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 30px 60px -30px #000; transform: rotate(-1.2deg); }
+.hh-card .hh-cat { align-self: flex-start; font: 700 .72rem var(--mono); letter-spacing: .08em; text-transform: uppercase; background: #09080F; color: #fff; border-radius: 6px; padding: 3px 8px; }
+.hh-card h2 { color: #09080F; font-size: clamp(1.45rem, 6.4vw, 1.9rem); }
+.hh-card .hh-wm { font: 700 .66rem var(--mono); letter-spacing: .1em; color: #8a86a3; }
+.hh-btns { position: absolute; z-index: 3; left: 24px; right: 24px; bottom: calc(22px + env(safe-area-inset-bottom)); display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.hh-btns button { min-height: 60px; border: 0; border-radius: 18px; font: 800 1.25rem var(--display); letter-spacing: .02em; cursor: pointer; transition: transform .12s; }
+.hh-btns button:active { transform: scale(.96); }
+.hh-real { background: #5BFFB0; color: #09080F; } .hh-hoax { background: #FF2E7E; color: #fff; }
+.hh-verdict { font: 800 2.6rem/1 var(--display); letter-spacing: -.03em; }
+.hh-verdict.ok { color: #5BFFB0; } .hh-verdict.no { color: #FF5C97; }
+.hh-was { display: inline-flex; align-self: flex-start; font: 700 .76rem var(--mono); letter-spacing: .08em; text-transform: uppercase; border-radius: 6px; padding: 4px 9px; }
+.hh-was.real { background: #5BFFB0; color: #09080F; } .hh-was.hoax { background: #FF2E7E; color: #fff; }
+.hh-reveal .hh-card { transform: none; opacity: .9; }
+.hh-reveal a { color: #D9FF5B; font-weight: 700; }
+.hh-grid { display: flex; gap: 8px; justify-content: center; }
+.hh-grid i { width: 44px; height: 44px; border-radius: 10px; display: block; }
+.hh-grid i.ok { background: #5BFFB0; } .hh-grid i.no { background: #FF2E7E; }
+.slide.in .hh-grid i { animation: pop .4s cubic-bezier(.2,.9,.3,1.4) both; }
+.slide.in .hh-grid i:nth-child(2) { animation-delay: .08s; } .slide.in .hh-grid i:nth-child(3) { animation-delay: .16s; } .slide.in .hh-grid i:nth-child(4) { animation-delay: .24s; } .slide.in .hh-grid i:nth-child(5) { animation-delay: .32s; }
+@keyframes pop { from { transform: scale(0); } }
+.hh-shake { animation: shake .4s; }
+@keyframes shake { 20%, 60% { transform: translateX(-8px); } 40%, 80% { transform: translateX(8px); } }
+
 /* The player: full screen on phones, a tall card on desktop. */
 .player { position: fixed; inset: 0; z-index: 50; background: rgba(8, 6, 20, .92); display: grid; place-items: center; -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
 .pl-frame { --surface: #120F24; --art-glow: rgba(255, 255, 255, .14); --art-band: rgba(255, 255, 255, .05);
@@ -552,7 +589,10 @@ h1 { font-size: 2rem; letter-spacing: -.045em; }
   </div>
 
   <div class="ticker" id="ticker" hidden aria-label="Live headlines"><span class="live">LIVE</span><div class="tick-win"><div class="tick-track" id="tickTrack"></div></div></div>
-  <button class="playbar" type="button" id="playbar" hidden><span class="pb-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></span><span class="pb-txt"><strong id="pbTitle">Watch today in 60 seconds</strong><span id="pbSub"></span></span><span class="pb-rings" id="pbRings" aria-hidden="true"></span></button>
+  <div class="today-row" id="todayRow" hidden>
+  <button class="playbar" type="button" id="playbar"><span class="pb-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg></span><span class="pb-txt"><strong id="pbTitle">Watch today in 60 seconds</strong><span id="pbSub"></span></span><span class="pb-rings" id="pbRings" aria-hidden="true"></span></button>
+  <button class="gamebar" type="button" id="gamebar" hidden><span class="gb-tag">Daily game <b id="gbNum"></b></span><strong>Hype or Hoax?</strong><span id="gbSub">Spot the made-up headlines.</span></button>
+  </div>
   <div class="hero solo" id="hero" hidden>
     <div id="lead"></div>
     <section class="brief" id="brief" hidden aria-labelledby="briefTitle">
@@ -1244,7 +1284,10 @@ h1 { font-size: 2rem; letter-spacing: -.045em; }
     if (d.kind === "end") {
       store("hw-watched", feedStamp); renderPlaybar();
       var rp = el("button", null, "Replay"); rp.type = "button"; rp.onclick = function () { plShow(0); plRun(); }; cta.appendChild(rp);
-      var go = el("button", "pri", "Browse the feed"); go.type = "button"; go.onclick = plClose; cta.appendChild(go);
+      var toGame = hoaxes.length && gameSaved().length < 5;
+      var go = el("button", "pri", toGame ? "Play Hype or Hoax" : "Browse the feed"); go.type = "button";
+      go.onclick = function () { plClose(); if (toGame) gOpen(); }; cta.appendChild(go);
+      track("player-finished");
       fr.querySelector(".pl-tap.r").hidden = true;
     } else {
       fr.querySelector(".pl-tap.r").hidden = false;
@@ -1277,7 +1320,154 @@ h1 { font-size: 2rem; letter-spacing: -.045em; }
     if (P.back && P.back.focus) P.back.focus();
   }
   document.addEventListener("visibilitychange", function () { if (document.hidden && player && !player.hidden) plPause(true); });
-  $("playbar").onclick = plOpen;
+  $("playbar").onclick = function () { track("player-open"); plOpen(); };
+
+  // Visitor stats: counts named events when GoatCounter is switched on (see the bottom of the page); otherwise does nothing.
+  function track(name) { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "event/" + name, title: name, event: true }); } catch (e) {} }
+
+  // ---- Hype or Hoax: the daily game ----------------------------------------------------------------------------
+  // Five headlines from today's edition, some real (from stories.json) and some made up (from hoax.json).
+  // Everyone gets the same five, in the same order, for the whole edition, so scores can be compared and shared.
+  var hoaxes = [], GAME_START = "2026-10-22", game = null, G = { rounds: [], picks: [] };
+  function edition() { return (feedStamp || "").slice(0, 10) || TODAY; }
+  function gameNo() { return Math.max(1, Math.round((new Date(edition() + "T00:00:00") - new Date(GAME_START + "T00:00:00")) / 864e5) + 1); }
+  function gameSaved() {
+    try { var g = JSON.parse(store("hw-game") || "null"); if (g && g.ed === edition() && Array.isArray(g.picks)) return g.picks; } catch (e) {}
+    return [];
+  }
+  function gameRounds() {
+    var r = rng("hype-or-hoax-" + edition());
+    function shuf(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(r() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+    var pool = stories.slice().sort(function (a, b) { return b.hype - a.hype || (a.id < b.id ? -1 : 1); }).slice(0, 18);
+    var nh = Math.min(hoaxes.length, r() < .5 ? 2 : 3);
+    var fakes = shuf(hoaxes).slice(0, nh).map(function (h) { return { fake: true, title: h.title, category: h.category, truth: h.truth }; });
+    var reals = shuf(pool).slice(0, 5 - nh).map(function (s) { return { fake: false, title: s.title, category: s.category, s: s }; });
+    return shuf(fakes.concat(reals));
+  }
+  function renderGamebar() {
+    var gb = $("gamebar"); if (!hoaxes.length || stories.length < 5) { gb.hidden = true; return; }
+    var p = gameSaved(), n = p.filter(Boolean).length;
+    $("gbNum").textContent = "#" + gameNo();
+    $("gbSub").textContent = p.length >= 5 ? "You scored " + n + "/5. Share it, then come back tomorrow." : p.length ? "Round " + (p.length + 1) + " of 5. Pick up where you left off." : "Five headlines. Some are made up. Can you tell?";
+    gb.hidden = false;
+  }
+  function gBuild() {
+    game = el("div", "player"); game.hidden = true; game.setAttribute("role", "dialog"); game.setAttribute("aria-modal", "true"); game.setAttribute("aria-label", "Hype or Hoax, the daily game");
+    var fr = el("div", "pl-frame"); fr.tabIndex = -1; game.appendChild(fr);
+    fr.innerHTML = '<div class="pl-bars"></div><div class="pl-top"><div class="who"><b>Hype<span>wire</span></b><em></em></div><div class="pl-btns">' +
+      '<button type="button" data-a="close" aria-label="Close game"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div></div><div class="pl-stage"></div><div class="pl-cta"></div>';
+    fr.querySelector('[data-a="close"]').onclick = gClose;
+    game.addEventListener("click", function (e) { if (e.target === game) gClose(); });
+    game.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") { e.preventDefault(); gClose(); return; }
+      var b = fr.querySelector(".hh-btns"); if (!b) return;
+      if (e.key === "r" || e.key === "R" || e.key === "ArrowLeft") b.firstChild.click();
+      else if (e.key === "h" || e.key === "H" || e.key === "ArrowRight") b.lastChild.click();
+    });
+    document.body.appendChild(game);
+  }
+  function gFrame(label) {
+    var fr = game.firstChild, bars = fr.querySelector(".pl-bars"); bars.textContent = "";
+    for (var i = 0; i < 5; i++) { var sp = el("span"), f = el("i"); if (i < G.picks.length) { f.style.width = "100%"; f.style.background = G.picks[i] ? "#5BFFB0" : "#FF2E7E"; } sp.appendChild(f); bars.appendChild(sp); }
+    fr.querySelector(".who em").textContent = label;
+    var old = fr.querySelector(".hh-btns"); if (old) old.remove();
+    fr.querySelector(".pl-cta").textContent = "";
+    var stage = fr.querySelector(".pl-stage"); stage.textContent = "";
+    return { fr: fr, stage: stage, cta: fr.querySelector(".pl-cta") };
+  }
+  function gSlide(stage, cls) { var sl = el("section", "slide " + cls); stage.appendChild(sl); requestAnimationFrame(function () { sl.classList.add("in"); }); return sl; }
+  function gCard(round) {
+    var c = el("div", "hh-card"); c.appendChild(el("span", "hh-cat", catName(round.category)));
+    c.appendChild(el("h2", null, round.title)); c.appendChild(el("span", "hh-wm", "HYPEWIRE DAILY GAME · REAL OR MADE UP?")); return c;
+  }
+  function gQuestion() {
+    var i = G.picks.length, round = G.rounds[i], f = gFrame("Hype or Hoax #" + gameNo() + " · Round " + (i + 1) + " of 5");
+    var sl = gSlide(f.stage, "hh-q");
+    sl.appendChild(el("div", "hh-stamp", "REAL NEWS OR MADE UP?"));
+    sl.appendChild(gCard(round));
+    sl.appendChild(el("p", null, "Tap Real if this happened, Hoax if we made it up."));
+    var btns = el("div", "hh-btns"), yes = el("button", "hh-real", "REAL"), no = el("button", "hh-hoax", "HOAX");
+    yes.type = no.type = "button"; yes.onclick = function () { gAnswer(true); }; no.onclick = function () { gAnswer(false); };
+    btns.appendChild(yes); btns.appendChild(no); f.fr.appendChild(btns); yes.focus();
+  }
+  function gAnswer(saysReal) {
+    var round = G.rounds[G.picks.length]; if (!round) return;
+    var ok = saysReal === !round.fake; G.picks.push(ok);
+    store("hw-game", JSON.stringify({ ed: edition(), picks: G.picks }));
+    if (G.picks.length === 5) gFinish();
+    gReveal(round, ok); renderGamebar();
+  }
+  function gReveal(round, ok) {
+    var f = gFrame("Hype or Hoax #" + gameNo() + " · Round " + G.picks.length + " of 5"), sl = gSlide(f.stage, "hh-q hh-reveal");
+    if (!ok) { f.fr.classList.remove("hh-shake"); void f.fr.offsetWidth; f.fr.classList.add("hh-shake"); }
+    sl.appendChild(el("div", "hh-verdict " + (ok ? "ok" : "no"), ok ? "Correct." : "Not quite."));
+    sl.appendChild(el("span", "hh-was " + (round.fake ? "hoax" : "real"), round.fake ? "This was a hoax" : "This is real"));
+    sl.appendChild(gCard(round));
+    if (round.fake) sl.appendChild(el("p", null, round.truth || "We made this one up."));
+    else {
+      var p = el("p", null, round.s.summary + " "), a = el("a", null, "Read the story"); a.href = "#";
+      a.onclick = function (e) { e.preventDefault(); gClose(); openStory(round.s); }; p.appendChild(a); sl.appendChild(p);
+    }
+    var nx = el("button", "pri", G.picks.length >= 5 ? "See your score" : "Next headline"); nx.type = "button";
+    nx.onclick = function () { if (G.picks.length >= 5) gResult(); else gQuestion(); };
+    f.cta.appendChild(nx); nx.focus();
+  }
+  function gFinish() {
+    var last = store("hw-gday"), n = parseInt(store("hw-gstreak"), 10) || 0;
+    if (last !== TODAY) {
+      var gap = last ? Math.round((new Date(TODAY + "T00:00:00") - new Date(last + "T00:00:00")) / 864e5) : 0;
+      store("hw-gstreak", String(gap === 1 ? n + 1 : 1)); store("hw-gday", TODAY);
+    }
+    track("game-finished-" + G.picks.filter(Boolean).length);
+  }
+  function shareText() {
+    var n = G.picks.filter(Boolean).length;
+    return "Hype or Hoax #" + gameNo() + " · " + n + "/5\n" + G.picks.map(function (x) { return x ? "🟩" : "🟥"; }).join("") + "\nCan you spot the fake headlines? " + location.origin + location.pathname + "#game";
+  }
+  function gResult() {
+    var n = G.picks.filter(Boolean).length, f = gFrame("Hype or Hoax #" + gameNo() + " · Done"), sl = gSlide(f.stage, "pl-end");
+    sl.appendChild(el("div", "pl-label", "Your score"));
+    sl.appendChild(el("div", "pl-big", n + "/5"));
+    var grid = el("div", "hh-grid"); G.picks.forEach(function (x) { grid.appendChild(el("i", x ? "ok" : "no")); }); sl.appendChild(grid);
+    var lines = ["Fooled by every one. The hoaxes thank you.", "One right. The hoaxes are feeling confident.", "Two right. Half a detective.", "Three right. A healthy amount of suspicion.", "Four right. Hard to fool.", "Five for five. Nobody gets anything past you."];
+    sl.appendChild(el("div", "pl-quote", lines[n]));
+    var gs = parseInt(store("hw-gstreak"), 10) || 1;
+    sl.appendChild(el("p", null, (gs >= 2 ? gs + " games in a row. " : "") + "A new game arrives with tomorrow morning's edition."));
+    var sh = el("button", "pri", "Share my score"); sh.type = "button";
+    sh.onclick = function () {
+      var t = shareText(); track("game-share");
+      if (navigator.share) { navigator.share({ text: t }).catch(function () {}); return; }
+      var done = function () { sh.textContent = "Copied. Paste it anywhere"; setTimeout(function () { sh.textContent = "Share my score"; }, 2200); };
+      if (navigator.clipboard) navigator.clipboard.writeText(t).then(done, function () { prompt("Copy your score", t); }); else prompt("Copy your score", t);
+    };
+    var pl = el("button", null, playlist.length && !watched() ? "Today's top 5" : "Browse the feed"); pl.type = "button";
+    pl.onclick = function () { gClose(); if (playlist.length && !watched()) plOpen(); };
+    f.cta.appendChild(pl); f.cta.appendChild(sh); sh.focus();
+  }
+  function gOpen() {
+    if (!hoaxes.length || stories.length < 5) return;
+    if (dlg.open) closeStory(); if (player && !player.hidden) plClose();
+    G.back = document.activeElement; if (!game) gBuild();
+    G.rounds = gameRounds(); G.picks = gameSaved().slice(0, 5);
+    game.hidden = false; document.body.style.overflow = "hidden"; setHash("game"); track("game-open");
+    if (G.picks.length >= 5) gResult(); else gQuestion();
+    if (!game.contains(document.activeElement)) game.firstChild.focus();
+  }
+  function gClose() {
+    if (!game || game.hidden) return;
+    game.hidden = true; document.body.style.overflow = ""; if (location.hash === "#game") setHash("");
+    if (G.back && G.back.focus) G.back.focus();
+  }
+  $("gamebar").onclick = gOpen;
+  function loadHoaxes() {
+    fetch("hoax.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) {
+      hoaxes = (d && Array.isArray(d.hoaxes) ? d.hoaxes : []).filter(function (h) { return h && h.title; }).map(function (h) {
+        return { title: String(h.title), category: String(h.category || "tech"), truth: String(h.truth || "") };
+      });
+      renderGamebar(); render();
+      if ((location.hash || "") === "#game") gOpen();
+    }).catch(function () { hoaxes = []; renderGamebar(); });
+  }
 
   function render() {
     renderTabs(); renderBands();
@@ -1302,7 +1492,7 @@ h1 { font-size: 2rem; letter-spacing: -.045em; }
     var unread = shown.filter(isNew).length, np = $("newpill");
     if (!np) { np = el("span", "newpill"); np.id = "newpill"; $("count").parentNode.appendChild(np); }
     np.textContent = unread ? unread + " unread since your last visit" : ""; np.hidden = !unread || cur === "map";
-    $("playbar").hidden = !(loaded && playlist.length && view !== "map" && active === "all" && !q && !band);
+    $("todayRow").hidden = !(loaded && playlist.length && view !== "map" && active === "all" && !q && !band);
     $("empty").hidden = shown.length > 0;
     if (!shown.length) {
       if (failed) { $("emptyTitle").textContent = "The feed could not be loaded"; $("emptyText").textContent = "Reload the page to try again."; }
@@ -1351,12 +1541,24 @@ h1 { font-size: 2rem; letter-spacing: -.045em; }
     stories = (data.stories || []).map(norm).filter(function (s) { return s.title; });
     loaded = true; trackSeen(String(data.refreshedAt || "")); renderTicker(); renderBrief(data.briefing); renderMovers();
     if ((location.hash || "") === "#play") plOpen();
+    loadHoaxes();
     var want = (location.hash || "").slice(1);
     if (want.indexOf("s-") === 0) { var hit = stories.filter(function (s) { return "s-" + s.id === want; })[0]; if (hit) openStory(hit); else if (/^s-[a-z0-9-]+$/.test(want)) { var arch = "s/" + want.slice(2) + "/"; fetch(arch, { method: "HEAD" }).then(function (r) { if (r.ok) location.replace(arch); }).catch(function () {}); } }
     var d = new Date(data.refreshedAt);
     $("stamp").textContent = isNaN(d) ? "Updated daily" : "Updated " + d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
   }).catch(function () { loaded = true; failed = true; render(); $("stamp").textContent = "Feed offline"; });
 })();
+</script>
+<script>
+  // Visitor stats with GoatCounter (free, no cookies). To switch it on, sign up at goatcounter.com and put your
+  // site code between the quotes, for example "hypewire". Empty means no stats are collected.
+  (function () {
+    var code = "";
+    if (!code) return;
+    var s = document.createElement("script"); s.async = true; s.src = "https://gc.zgo.at/count.js";
+    s.setAttribute("data-goatcounter", "https://" + code + ".goatcounter.com/count");
+    document.body.appendChild(s);
+  })();
 </script>
 </body>
 </html>
