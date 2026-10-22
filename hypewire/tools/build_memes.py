@@ -23,6 +23,7 @@ SITE = "https://rahuloo7.github.io/hypewire/"
 COUNT = 4
 W, H = 1080, 1350
 
+sys.dont_write_bytecode = True  # keep the repository clean: no __pycache__ next to the tools
 sys.path.insert(0, HERE)
 import build_pages as bp  # noqa: E402  (shared fonts, colours and text wrapping)
 
