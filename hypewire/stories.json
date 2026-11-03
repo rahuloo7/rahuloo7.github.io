@@ -1,34 +1,88 @@
 {
-  "refreshedAt": "2026-11-02T02:36:57Z",
+  "refreshedAt": "2026-11-03T02:32:11Z",
   "briefing": [
     {
-      "id": "tech-binance-breach",
-      "text": "Binance is reopening withdrawals after covering about 95% of its $6.3 billion hack."
+      "id": "ai-anthropic-s1-q3-revenue",
+      "text": "Anthropic's updated IPO filing shows about $17 billion in third-quarter revenue."
     },
     {
-      "id": "ai-apple-qwen-china",
-      "text": "Apple Intelligence comes to China in December, with Alibaba's Qwen powering Siri."
+      "id": "tech-binance-breach",
+      "text": "The FBI tied the $6.4 billion Binance theft to North Korean hackers."
     },
     {
       "id": "game-gta-vi-november-19",
-      "text": "GTA VI is now in its launch month and arrives on PS5 and Xbox on November 19."
+      "text": "GTA VI is 16 days away, and Sony shipped another PS5 security patch."
     },
     {
-      "id": "ai-deepseek-super-agent",
-      "text": "DeepSeek released Super-agent, an open-source coding agent aimed at Claude Code."
+      "id": "tech-apple-q4-record",
+      "text": "Apple posted a record $114.5 billion quarter in John Ternus's first results as CEO."
     },
     {
-      "id": "ent-you-can-see-everything",
-      "text": "A24's You Can See Everything held No. 1 at the box office, narrowly beating Clayface."
+      "id": "ent-resident-evil-400m",
+      "text": "Zach Cregger's Resident Evil passed $400 million worldwide, a series record."
     }
   ],
   "stories": [
     {
+      "id": "ai-anthropic-s1-q3-revenue",
+      "title": "Anthropic's updated IPO filing shows about $17 billion in third-quarter revenue",
+      "summary": "An amended S-1 shows Anthropic's Q3 revenue at about $17 billion, up roughly elevenfold, with a $23.3 billion net loss.",
+      "why": "It is the clearest look yet at the finances of a frontier AI lab weeks before a planned listing.",
+      "happened": "Nine-month revenue reached $33.24 billion. CNBC says the Q3 loss came mainly from non-cash changes in the value of convertible notes and derivatives. Purchase commitments and leases total about $895.4 billion.",
+      "next": "Watch for the final IPO price range and how investors react to the commitments.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "Quarterly revenue of about $17 billion is reported to be up roughly 1,127% from a year earlier."
+        },
+        {
+          "label": "Scale",
+          "text": "Compute commitments and leases add up to almost $900 billion."
+        },
+        {
+          "label": "Timing",
+          "text": "The filing lands weeks before a planned November Nasdaq listing."
+        }
+      ],
+      "background": "Anthropic is the San Francisco AI company behind the Claude models, founded in 2021.",
+      "entities": [
+        "Anthropic",
+        "AI funding",
+        "AI infrastructure"
+      ],
+      "meme": {
+        "top": "Anthropic made $17 billion",
+        "bottom": "and lost $23 billion on paper",
+        "take": "Anthropic's quarter shows you can earn $17 billion and still need an accountant to explain it."
+      },
+      "stats": [
+        {
+          "value": "~$17B",
+          "label": "Q3 revenue"
+        },
+        {
+          "value": "$23.29B",
+          "label": "Q3 net loss, mostly non-cash"
+        },
+        {
+          "value": "$895.4B",
+          "label": "commitments and leases"
+        }
+      ],
+      "motif": "money",
+      "category": "ai",
+      "hype": 94,
+      "prevHype": null,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "published": "2026-11-02"
+    },
+    {
       "id": "game-gta-vi-november-19",
-      "title": "GTA VI enters its launch month, 17 days from release",
-      "summary": "Grand Theft Auto VI arrives November 19 on PS5 and Xbox Series X|S, after two delays, with no PC version announced.",
+      "title": "GTA VI is 16 days away as Sony patches PS5 security",
+      "summary": "Grand Theft Auto VI arrives November 19 on PS5 and Xbox Series X|S, and Sony shipped another PS5 security update ahead of it.",
       "why": "It is the most anticipated game in years and will dominate the holiday season.",
-      "happened": "November 19 is the third release date Rockstar has set, after earlier targets of 2025 and May 26, 2026. Launch-month posts spread across social media on October 31. Its download size has been reported at 210 GB.",
+      "happened": "November 19 is the third release date Rockstar has set. Sony released PS5 firmware 26.07-14.22.00 on November 2, about 1.27 GB, with security fixes as it fights console jailbreaks. Its download size has been reported at 210 GB.",
       "next": "Watch for preload dates, edition details and the first reviews ahead of November 19.",
       "drivers": [
         {
@@ -51,9 +105,9 @@
         "Delays"
       ],
       "meme": {
-        "top": "GTA VI is out this month",
-        "bottom": "the calendar has been notified",
-        "take": "GTA VI is finally this month's problem, after being next year's problem twice."
+        "top": "GTA VI is 16 days away",
+        "bottom": "the PS5 is checking its locks",
+        "take": "Sony is securing the PS5 before GTA VI, the one game everyone will actually show up for."
       },
       "stats": [
         {
@@ -71,19 +125,128 @@
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 93,
-      "prevHype": 92,
+      "hype": 92,
+      "prevHype": 93,
       "source": "HappyGamer",
       "url": "https://happygamer.com/gta-6-release-date-november-19-launch-month-170840/",
       "published": "2026-11-01"
     },
     {
+      "id": "tech-apple-q4-record",
+      "title": "Apple reports a record $114.5 billion quarter in Ternus's first results as CEO",
+      "summary": "Apple's fiscal fourth-quarter revenue rose 12% to $114.5 billion, with iPhone up 17% and China sales up 21%.",
+      "why": "Apple's results show whether people are still upgrading phones in an AI-heavy market.",
+      "happened": "Services hit a record $31.57 billion and net income was $30.71 billion, 9to5Mac reports. The shares slipped about 2.8% after hours on a weak gross margin forecast and iPad sales below estimates.",
+      "next": "Watch for holiday-quarter demand for the iPhone Duo and the new Macs.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "It is John Ternus's first earnings report as Apple's CEO."
+        },
+        {
+          "label": "Money",
+          "text": "iPhone revenue alone reached $57.58 billion."
+        },
+        {
+          "label": "Scale",
+          "text": "Apple is among the world's most valuable companies."
+        }
+      ],
+      "background": "Apple's fiscal fourth quarter covers July to September and includes the first weeks of new iPhone sales.",
+      "entities": [
+        "Apple",
+        "Earnings",
+        "China",
+        "iPhone"
+      ],
+      "meme": {
+        "top": "Apple had its best quarter ever",
+        "bottom": "and the stock still went down",
+        "take": "Apple earned $30 billion in three months and investors asked about the iPad."
+      },
+      "stats": [
+        {
+          "value": "$114.5B",
+          "label": "Q4 revenue"
+        },
+        {
+          "value": "+17%",
+          "label": "iPhone revenue growth"
+        },
+        {
+          "value": "+21%",
+          "label": "China revenue growth"
+        }
+      ],
+      "motif": "money",
+      "category": "tech",
+      "hype": 88,
+      "prevHype": null,
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/02/apple-reports-q4-2026-earnings/",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "game-phantom-blade-zero-4m",
+      "title": "Phantom Blade Zero sells over 4 million copies in three days",
+      "summary": "S-GAME says its action game Phantom Blade Zero sold more than 4 million copies in 72 hours after its October 29 launch.",
+      "why": "It is another sign that big Chinese-made action games can sell worldwide.",
+      "happened": "The game peaked at over 830,000 concurrent players on Steam. About 90% of nearly 50,000 Steam reviews are positive. It launched on PC and PS5.",
+      "next": "Watch for updated sales figures and how long it holds its Steam player count.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "Four million copies in three days is a top-tier launch."
+        },
+        {
+          "label": "Trend",
+          "text": "It follows Black Myth: Wukong as another big Chinese action game."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Pre-orders reportedly topped Steam's global charts."
+        }
+      ],
+      "background": "S-GAME is a Chinese developer. Phantom Blade Zero is its first major console and PC release.",
+      "entities": [
+        "New game releases",
+        "China",
+        "PlayStation"
+      ],
+      "meme": {
+        "top": "Phantom Blade Zero sold 4 million",
+        "bottom": "the zero was just branding",
+        "take": "Phantom Blade Zero moved 4 million copies in three days, so the zero was clearly decorative."
+      },
+      "stats": [
+        {
+          "value": "4M+",
+          "label": "copies in 72 hours"
+        },
+        {
+          "value": "830K+",
+          "label": "peak Steam players"
+        },
+        {
+          "value": "90%",
+          "label": "positive Steam reviews"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 86,
+      "prevHype": null,
+      "source": "IG News",
+      "url": "https://news.instant-gaming.com/en/articles/22813-phantom-blade-zero-sold-over-4-million-copies-in-just-three-days",
+      "published": "2026-11-02"
+    },
+    {
       "id": "tech-binance-breach",
-      "title": "Binance resumes withdrawals after recovering most of the $6.3 billion hack",
-      "summary": "Binance is restarting withdrawals in phases after covering about 95% of the $6.3 billion stolen, as the FBI blames North Korea.",
+      "title": "FBI ties the $6.4 billion Binance theft to North Korea's TraderTraitor",
+      "summary": "The FBI attributed the Binance theft, now put at $6.43 billion across 11 blockchains, to North Korean group TraderTraitor.",
       "why": "Analysts call it the largest crypto theft on record, about four times the Bybit hack.",
-      "happened": "The FBI attributes the theft to TraderTraitor, the group it blamed for the $1.5 billion Bybit hack. Bitcoin and ether withdrawals are among the first to resume. Most funds were moved within about 20 minutes, and about half may be lost for good.",
-      "next": "Watch for Binance's root-cause report and whether all withdrawals reopen.",
+      "happened": "The Hacker News reports $2.85 billion has been frozen. It is the largest crypto theft on record, well above the $1.46 billion Bybit hack in February 2025. Binance has resumed withdrawals after covering most of the loss.",
+      "next": "Watch for further freezes of stolen funds and any sanctions linked to the attack.",
       "drivers": [
         {
           "label": "Scale",
@@ -105,31 +268,287 @@
         "North Korea"
       ],
       "meme": {
-        "top": "Binance lost $6.3 billion",
-        "bottom": "and reopened by Sunday",
-        "take": "Binance has covered 95% of the hack, a recovery rate most people never get on a lost wallet."
+        "top": "The FBI named the Binance hackers",
+        "bottom": "the money did not come with them",
+        "take": "The FBI found who took $6.4 billion, which is a different question from where it went."
       },
       "stats": [
         {
-          "value": "$6.3B",
-          "label": "stolen in the hack"
+          "value": "$6.43B",
+          "label": "stolen"
         },
         {
-          "value": "~95%",
-          "label": "covered, per Reuters"
+          "value": "$2.85B",
+          "label": "frozen"
         },
         {
-          "value": "~20 min",
-          "label": "theft window, reported"
+          "value": "11",
+          "label": "blockchains used"
         }
       ],
       "motif": "shield",
       "category": "tech",
-      "hype": 92,
-      "prevHype": 88,
-      "source": "Reuters",
-      "url": "https://www.reuters.com/legal/government/binance-resume-withdrawals-after-recovering-bulk-6-billion-stolen-funds-2026-11-01/",
-      "published": "2026-11-01"
+      "hype": 86,
+      "prevHype": 92,
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "ent-resident-evil-400m",
+      "title": "Zach Cregger's Resident Evil passes $400 million worldwide",
+      "summary": "Sony's Resident Evil reboot has crossed $400 million globally, a record for the film series and for its director.",
+      "why": "A video game horror film reaching this level shows how strong both genres are at the box office.",
+      "happened": "It passes Cregger's Weapons, which made $270 million, and Resident Evil: The Final Chapter at $312 million. The film opened in September with a series-best $108 million worldwide.",
+      "next": "Watch for its final global total and any sequel news from Sony.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Cregger is coming off the hits Barbarian and Weapons."
+        },
+        {
+          "label": "Nostalgia",
+          "text": "Resident Evil is one of gaming's best-known horror series."
+        },
+        {
+          "label": "Trend",
+          "text": "Horror has been one of the strongest genres in cinemas this year."
+        }
+      ],
+      "background": "Resident Evil began as a Capcom video game in 1996 and became a long-running film series.",
+      "entities": [
+        "Sony",
+        "Capcom",
+        "Game adaptations",
+        "Horror"
+      ],
+      "meme": {
+        "top": "A zombie film made $400 million",
+        "bottom": "the zombies are not seeing any of it",
+        "take": "Resident Evil is the rare outbreak everyone involved would happily repeat."
+      },
+      "stats": [
+        {
+          "value": "$400M",
+          "label": "global box office"
+        },
+        {
+          "value": "$108M",
+          "label": "global opening"
+        },
+        {
+          "value": "$312M",
+          "label": "previous series best"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 84,
+      "prevHype": null,
+      "source": "Variety",
+      "url": "https://variety.com/2026/film/box-office/resident-evil-box-office-milestone-highest-grossing-zach-cregger-reboot-1236936847/",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "game-zelda-ocarina-remake",
+      "title": "Ocarina of Time remake launches November 5 as Google joins the celebration",
+      "summary": "Nintendo's Switch 2 rebuild of The Legend of Zelda: Ocarina of Time can now be pre-loaded, and a new video lists eight added features.",
+      "why": "Ocarina of Time is one of the most celebrated games ever made.",
+      "happened": "The Switch 2 exclusive rebuilds the 1998 original with new visuals, orchestral music and voice acting. Pre-loads are open. Searching for it on Google now shows a 1998-style Google page.",
+      "next": "Watch for reviews and first sales figures after the November 5 launch.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "The 1998 original is a landmark of 3D game design."
+        },
+        {
+          "label": "Timing",
+          "text": "It arrives two weeks before GTA VI."
+        }
+      ],
+      "background": "Ocarina of Time first came out on the Nintendo 64 in 1998. The Switch 2 is Nintendo's newest console.",
+      "entities": [
+        "Nintendo",
+        "Switch 2",
+        "Zelda",
+        "Remakes"
+      ],
+      "meme": {
+        "top": "Link finally gets a voice",
+        "bottom": "after 28 years of saying 'hyah'",
+        "take": "Ocarina of Time is back on November 5, ready to make adults feel 12 and also 40."
+      },
+      "stats": [
+        {
+          "value": "Nov 5",
+          "label": "Switch 2 release"
+        },
+        {
+          "value": "8",
+          "label": "new features listed"
+        },
+        {
+          "value": "1998",
+          "label": "original release"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 84,
+      "prevHype": 82,
+      "source": "Gaming Route",
+      "url": "https://gamingroute.com/ocarina-of-time-switch-2-new-features/",
+      "published": "2026-10-31"
+    },
+    {
+      "id": "tech-marvell-lumentum",
+      "title": "Marvell agrees to buy Lumentum in a $115 billion all-stock deal",
+      "summary": "Marvell will pay 4.5 of its shares for each Lumentum share, valuing the optical-parts maker at about $115 billion including debt.",
+      "why": "It is a huge bet that AI data centers will need far more high-speed optical links.",
+      "happened": "Both stocks fell on Monday: Lumentum 18.6% and Marvell 12.7%, StockTitan reports. Marvell holders will own 67% of the combined company. The deal is expected to close in the first half of 2028.",
+      "next": "Watch for regulatory reviews and how shareholders of both companies vote.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "It is reported as the largest merger of two public tech companies."
+        },
+        {
+          "label": "Trend",
+          "text": "AI clusters rely on optical links to move data between chips."
+        },
+        {
+          "label": "Money",
+          "text": "The deal dwarfs Marvell's $10 billion Inphi purchase in 2021."
+        }
+      ],
+      "background": "Marvell designs chips for data centers and networking. Lumentum makes lasers and optical components.",
+      "entities": [
+        "AI chips",
+        "AI infrastructure",
+        "Acquisitions"
+      ],
+      "meme": {
+        "top": "Marvell paid $115 billion for Lumentum",
+        "bottom": "both stocks celebrated by falling",
+        "take": "Marvell and Lumentum merged, and investors responded by marking down both companies."
+      },
+      "stats": [
+        {
+          "value": "$115B",
+          "label": "deal value incl. debt"
+        },
+        {
+          "value": "4.5",
+          "label": "Marvell shares per Lumentum share"
+        },
+        {
+          "value": "-18.6%",
+          "label": "Lumentum stock, Monday"
+        }
+      ],
+      "motif": "bag",
+      "category": "tech",
+      "hype": 84,
+      "prevHype": null,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet-.html",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "ai-anthropic-ipo-valuation",
+      "title": "Investors are said to push Anthropic toward a $1.5 trillion IPO valuation",
+      "summary": "Institutional investors reportedly want Anthropic priced at $1.5 trillion to $1.6 trillion, below the roughly $2 trillion talked about earlier.",
+      "why": "The price will set the tone for every other AI company hoping to go public.",
+      "happened": "The Wall Street Journal, citing people familiar with the talks, says the pushback follows a sharp tech sell-off last week. Anthropic is planning a November listing on Nasdaq. The company has not commented on the terms.",
+      "next": "Watch for the official price range in Anthropic's roadshow filings.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "A $400 billion gap between targets is larger than most listed companies."
+        },
+        {
+          "label": "Timing",
+          "text": "The talks come right after a week of falling tech stocks."
+        }
+      ],
+      "background": "An IPO valuation is set by bankers and big investors before shares start trading.",
+      "entities": [
+        "Anthropic",
+        "AI funding",
+        "AI stocks"
+      ],
+      "meme": {
+        "top": "Investors asked for a discount",
+        "bottom": "and the discount is $400 billion",
+        "take": "Anthropic's investors are haggling, at a scale where haggling has its own GDP."
+      },
+      "stats": [
+        {
+          "value": "$1.5-1.6T",
+          "label": "valuation sought, reported"
+        },
+        {
+          "value": "~$2T",
+          "label": "earlier target, reported"
+        }
+      ],
+      "motif": "money",
+      "category": "ai",
+      "hype": 82,
+      "prevHype": null,
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-investors-push-for-cautious-valuation-closer-to-1-5-trillion-2f2df9cf",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "ai-gpt-6-2-claude-mythos-leaks",
+      "title": "Leaks point to GPT-6.2 Astra and Claude Mythos 5.5 arriving soon",
+      "summary": "Developers report spotting OpenAI's gpt-6.2-astra in API responses and the name Claude Mythos 5.5 in Anthropic site code.",
+      "why": "New frontier models from the two biggest AI labs could reset the leaderboards within days.",
+      "happened": "BitPush reports a developer saw the API return gpt-6.2-astra while ChatGPT still showed GPT-6 Astra. It says Mythos 5.5 is a restricted research edition and Fable 5.5 a general version. Neither company has announced either model.",
+      "next": "Watch for official announcements, which developers reportedly expect around November 3 or 4.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "Both labs' next models surfaced in the same week."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Developers track model names in APIs and catalogs for early signs of launches."
+        },
+        {
+          "label": "Risk",
+          "text": "The report says OpenAI skipped a GPT-6.1 that failed internal safety tests."
+        }
+      ],
+      "background": "OpenAI makes ChatGPT and the GPT models. Anthropic makes the Claude models.",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Frontier models"
+      ],
+      "meme": {
+        "top": "Two new AI models leaked",
+        "bottom": "through the usual channel: a dropdown",
+        "take": "AI labs keep model launches secret right up until someone reads a JSON response."
+      },
+      "stats": [
+        {
+          "value": "19.8%",
+          "label": "one user's usage on 6.2, reported"
+        },
+        {
+          "value": "1M",
+          "label": "Fable 5.5 input tokens, reported"
+        }
+      ],
+      "motif": "network",
+      "category": "ai",
+      "hype": 80,
+      "prevHype": null,
+      "source": "BitPush via KuCoin",
+      "url": "https://www.kucoin.com/news/flash/openai-and-anthropic-unveil-next-gen-ai-models-gpt-6-2-astra-and-claude-5-5",
+      "published": "2026-11-02"
     },
     {
       "id": "ai-apple-qwen-china",
@@ -137,7 +556,7 @@
       "summary": "Apple confirmed its AI features arrive in China with iOS 27.3 in December, using Alibaba's Qwen model in Siri, Writing Tools and Visual Intelligence.",
       "why": "China is one of Apple's biggest markets, and it has gone two years without Apple's AI features.",
       "happened": "Developers can test the features in a beta from November 4. Live Translation, Clean Up and Genmoji run on Apple's own models. The rebuilt Siri shown at WWDC 2026 is not included, and features need an iPhone 15 Pro or newer.",
-      "next": "Watch for how the iOS 27.3 beta behaves on November 4 and the December public rollout.",
+      "next": "Watch for the developer beta on November 4 and which features reach users in December.",
       "drivers": [
         {
           "label": "Scale",
@@ -179,62 +598,267 @@
       ],
       "motif": "phone",
       "category": "ai",
-      "hype": 90,
-      "prevHype": null,
+      "hype": 80,
+      "prevHype": 90,
       "source": "The Next Web",
       "url": "https://thenextweb.com/news/apple-intelligence-china-ios-27-3-alibaba-qwen",
       "published": "2026-10-31"
     },
     {
-      "id": "ai-deepseek-super-agent",
-      "title": "DeepSeek open-sources Super-agent, a coding agent aimed at Claude Code",
-      "summary": "DeepSeek released Super-agent, an MIT-licensed prototype that watches a GitHub repo and team chats, works on issues in parallel and replies with pull requests.",
-      "why": "DeepSeek's open releases have repeatedly shaken up the AI market, and coding agents are the hottest product area.",
-      "happened": "Bloomberg describes it as a rival to Anthropic's Claude Code. It runs work items in parallel worker sessions under a persistent router and can watch Feishu group chats. It reportedly passed 4,000 GitHub stars within a day.",
-      "next": "Watch for whether developers adopt it and whether DeepSeek turns the prototype into a product.",
+      "id": "ent-jailer-2-box-office",
+      "title": "Jailer 2 passes ₹800 crore to become the top-grossing Tamil film",
+      "summary": "Rajinikanth's Jailer 2 has taken about ₹807 crore worldwide in 18 days, passing his own 2.0 as the biggest Tamil film ever.",
+      "why": "Rajinikanth is one of India's biggest stars, and records like this are closely followed.",
+      "happened": "Sacnilk figures cited by The Hollywood Reporter India put its India gross at ₹533.75 crore and overseas at ₹273.50 crore. It crossed ₹800 crore on its third Sunday. PVR INOX and Cinepolis did not screen the Hindi version.",
+      "next": "Watch for its final total and the date of its streaming release.",
       "drivers": [
         {
+          "label": "Big name",
+          "text": "Rajinikanth has led Tamil cinema for decades."
+        },
+        {
           "label": "Rivalry",
-          "text": "Bloomberg frames it as a direct challenge to Claude Code."
+          "text": "It is chasing 2.0, another Rajinikanth film."
         },
         {
-          "label": "Fan demand",
-          "text": "It reportedly gathered 4,000 GitHub stars in a day."
-        },
-        {
-          "label": "Trend",
-          "text": "Coding agents are where AI labs are competing hardest."
+          "label": "Scale",
+          "text": "About $81 million worldwide in 16 days."
         }
       ],
-      "background": "DeepSeek is a Chinese AI lab known for releasing strong models with open weights at low cost.",
+      "background": "Jailer 2 is the sequel to the 2023 hit Jailer. Tamil cinema is based in Chennai in southern India.",
       "entities": [
-        "DeepSeek",
-        "AI agents",
-        "AI coding",
-        "China"
+        "India",
+        "Box office",
+        "Theatrical releases"
       ],
       "meme": {
-        "top": "DeepSeek made an agent that reads",
-        "bottom": "your team chat and still wants to help",
-        "take": "DeepSeek's new agent reads group chats looking for problems, braver than most managers."
+        "top": "Rajinikanth broke a record",
+        "bottom": "previously held by Rajinikanth",
+        "take": "Jailer 2 beat the biggest Tamil film ever, also a Rajinikanth film, so nobody is upset."
       },
       "stats": [
         {
-          "value": "4,000",
-          "label": "GitHub stars in a day, reported"
+          "value": "₹807 cr",
+          "label": "worldwide gross, 18 days"
         },
         {
-          "value": "MIT",
-          "label": "open-source license"
+          "value": "₹533.75 cr",
+          "label": "India gross"
+        },
+        {
+          "value": "₹273.5 cr",
+          "label": "overseas gross"
         }
       ],
-      "motif": "agent",
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 80,
+      "prevHype": 60,
+      "source": "The Hollywood Reporter India",
+      "url": "https://www.hollywoodreporterindia.com/features/insight/jailer-2-box-office-rajinikanth-breaks-his-own-record-to-set-new-milestone-of-800-crore",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "ent-clayface-second-weekend",
+      "title": "Clayface leads the worldwide box office in its second weekend",
+      "summary": "DC Studios' Clayface topped the global chart with about $23 million, taking its worldwide total to about $83 million.",
+      "why": "It is a test of whether smaller, cheaper DC films can work under the new DC Studios plan.",
+      "happened": "Clayface placed second in North America behind You Can See Everything but led worldwide. Its global total reached about $83 million. It is DC Studios' first R-rated horror film.",
+      "next": "Watch for how it holds against new releases in its third weekend.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "It has passed its reported $40 million budget."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It lost the top spot by about $200,000."
+        }
+      ],
+      "background": "Clayface is a Batman villain. The film is part of the DC Universe run by James Gunn and Peter Safran.",
+      "entities": [
+        "DC",
+        "Warner Bros.",
+        "Superhero films",
+        "Box office"
+      ],
+      "meme": {
+        "top": "Clayface came second at home",
+        "bottom": "and first everywhere else",
+        "take": "Clayface lost the domestic race and won the planet, a shape-shifter's idea of a fair result."
+      },
+      "stats": [
+        {
+          "value": "~$23M",
+          "label": "global weekend, reported"
+        },
+        {
+          "value": "~$83M",
+          "label": "global total"
+        },
+        {
+          "value": "No. 2",
+          "label": "North American rank"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 76,
+      "prevHype": 72,
+      "source": "Geek Culture",
+      "url": "https://geekculture.co/zach-creggers-resident-evil-usd-400m-clayface-usd-83m/",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "tech-oracle-20b-raise",
+      "title": "Oracle files to raise $20 billion in stock and bonds for its AI build-out",
+      "summary": "Oracle plans to sell $10 billion of new shares and $10 billion of bonds, and its stock closed down 8.8%.",
+      "why": "Oracle is one of the most heavily indebted players in the race to build AI data centers.",
+      "happened": "CNBC reports the raise was previewed at Oracle's investor day. Its debt stood at $125.34 billion as of late August. Credit default swaps on its debt have priced risk at junk-like levels.",
+      "next": "Watch for the pricing of the share sale and any move by credit rating agencies.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "A $20 billion raise is large even for Oracle."
+        },
+        {
+          "label": "Risk",
+          "text": "Selling shares dilutes existing investors."
+        },
+        {
+          "label": "Trend",
+          "text": "Several AI spenders are tapping debt markets at once."
+        }
+      ],
+      "background": "Oracle is a US database and cloud company that has become a major AI data center provider.",
+      "entities": [
+        "Oracle",
+        "AI infrastructure",
+        "AI debt"
+      ],
+      "meme": {
+        "top": "Oracle needs $20 billion",
+        "bottom": "and has asked politely, twice",
+        "take": "Oracle is raising $20 billion in two flavors so investors can pick their favorite risk."
+      },
+      "stats": [
+        {
+          "value": "$20B",
+          "label": "total raise"
+        },
+        {
+          "value": "-8.8%",
+          "label": "stock on Monday"
+        },
+        {
+          "value": "$125.34B",
+          "label": "debt in late August"
+        }
+      ],
+      "motif": "money",
+      "category": "tech",
+      "hype": 76,
+      "prevHype": null,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "ai-big-tech-bond-sales",
+      "title": "Meta and Alphabet line up big bond sales to pay for AI data centers",
+      "summary": "Meta is sounding out investors for a bond of at least $20 billion, while Alphabet's euro bond drew over €17 billion in orders.",
+      "why": "Borrowing at this scale shows how expensive the AI build-out has become even for the richest companies.",
+      "happened": "Bloomberg reports Meta is preparing a cross-border investment-grade deal after negative third-quarter free cash flow. Alphabet's seven-part, €6 billion sale runs from 2 to 19 years, TNW reports. Oracle also filed to raise $20 billion.",
+      "next": "Watch for final pricing on both deals and whether other cloud giants follow.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "Meta guides full-year data center spending to $135-145 billion."
+        },
+        {
+          "label": "Trend",
+          "text": "Several AI spenders went to the bond market in the same week."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Alphabet's orders were nearly three times the size of its deal."
+        }
+      ],
+      "background": "Companies sell bonds to borrow money from investors, paying interest until the debt is due.",
+      "entities": [
+        "Meta",
+        "Google",
+        "AI infrastructure",
+        "AI debt"
+      ],
+      "meme": {
+        "top": "The richest companies on Earth",
+        "bottom": "would like to borrow a little",
+        "take": "Big Tech is printing money from AI and borrowing more to keep the printers on."
+      },
+      "stats": [
+        {
+          "value": "$20B+",
+          "label": "Meta bond size, reported"
+        },
+        {
+          "value": "€17.1B+",
+          "label": "orders for Alphabet's €6B sale"
+        }
+      ],
+      "motif": "money",
       "category": "ai",
-      "hype": 86,
+      "hype": 74,
       "prevHype": null,
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
-      "published": "2026-11-01"
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/meta-readies-cross-border-investment-bond-offering",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "game-nagoshi-studio-closes",
+      "title": "Nagoshi Studio, maker of Gang of Dragon, has been dissolved",
+      "summary": "Toshihiro Nagoshi's NetEase-funded studio has closed, a Japanese government gazette shows, less than a year after revealing its first game.",
+      "why": "Gang of Dragon was pitched as a spiritual successor to Yakuza, and its future is now unclear.",
+      "happened": "Bloomberg reported in March that NetEase would stop funding the game, which reportedly needed ¥7 billion more. NetEase has not formally cancelled Gang of Dragon. Several studios have left NetEase as it pulls back from gaming.",
+      "next": "Watch for any word from NetEase or Nagoshi on Gang of Dragon.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Nagoshi led Sega's Ryu Ga Gotoku Studio, home of Yakuza."
+        },
+        {
+          "label": "Risk",
+          "text": "It adds to a run of NetEase studio exits and closures."
+        }
+      ],
+      "background": "Nagoshi left Sega in 2021 to found his own studio with backing from Chinese publisher NetEase.",
+      "entities": [
+        "NetEase",
+        "Sega",
+        "Studio closures"
+      ],
+      "meme": {
+        "top": "A studio made one trailer",
+        "bottom": "and then the funding left the chat",
+        "take": "Gang of Dragon got a Game Awards reveal and a closing notice within eleven months."
+      },
+      "stats": [
+        {
+          "value": "¥7B",
+          "label": "extra funding needed, reported"
+        },
+        {
+          "value": "2021",
+          "label": "studio founded"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 74,
+      "prevHype": null,
+      "source": "Game Developer",
+      "url": "https://www.gamedeveloper.com/business/nagoshi-studio-toshihiro-nagoshi-s-game-development-studio-after-leaving-sega-closes-as-netease-cuts-its-funding",
+      "published": "2026-11-02"
     },
     {
       "id": "ent-you-can-see-everything",
@@ -285,112 +909,345 @@
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 86,
-      "prevHype": 84,
+      "hype": 72,
+      "prevHype": 86,
       "source": "Awards Radar",
       "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/",
       "published": "2026-11-01"
     },
     {
-      "id": "ent-patrick-stewart-dies",
-      "title": "Patrick Stewart, Star Trek's Picard and X-Men's Professor X, dies at 86",
-      "summary": "Sir Patrick Stewart died at 86; Marvel confirmed Avengers: Doomsday on December 18 will be his final screen performance.",
-      "why": "He led two of the most loved screen franchises and had a long stage career.",
-      "happened": "His spokesperson said he had Alzheimer's disease and Lewy body dementia. Marvel says Doomsday ends his 26-year run as Professor Xavier and he will not appear in Avengers: Secret Wars. Ian McKellen, Hugh Jackman and William Shatner paid tribute.",
-      "next": "Watch for how Avengers: Doomsday honors him when it opens December 18.",
+      "id": "tech-apple-touchscreen-macs-friday",
+      "title": "Apple's first touchscreen Macs and an OLED iPad mini go on sale Friday",
+      "summary": "Apple releases five products on November 6, including OLED touchscreen MacBook Pros from $2,899 and an OLED iPad mini at $699.",
+      "why": "Touchscreen Macs are a big change after years of Apple resisting them.",
+      "happened": "MacRumors lists a $1,499 M6 iMac, a $1,999 M6 MacBook Pro and 14- and 16-inch OLED touchscreen MacBook Pros. The iPad mini gets an 8.5-inch OLED screen and IP67 rating. Some touchscreen models ship in weeks.",
+      "next": "Watch for the first hands-on reviews of the touchscreen MacBook Pro.",
       "drivers": [
         {
-          "label": "Big name",
-          "text": "He was one of the most recognized actors in science fiction and superhero film."
-        },
-        {
-          "label": "Nostalgia",
-          "text": "Generations grew up with Picard on The Next Generation."
-        }
-      ],
-      "background": "Stewart, from Mirfield in Yorkshire, was a Royal Shakespeare Company actor before Star Trek. He was knighted in 2010.",
-      "entities": [
-        "Remembrances",
-        "Marvel",
-        "Superhero films"
-      ],
-      "meme": {
-        "top": "Patrick Stewart, 1940 to 2026",
-        "bottom": "Captain, professor, Shakespearean",
-        "take": "Patrick Stewart made calm authority look easy, on the bridge and on the stage."
-      },
-      "stats": [
-        {
-          "value": "86",
-          "label": "age"
-        },
-        {
-          "value": "26 years",
-          "label": "as Professor Xavier"
-        },
-        {
-          "value": "Dec 18",
-          "label": "Avengers: Doomsday opens"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 84,
-      "prevHype": 86,
-      "source": "Forbes",
-      "url": "https://www.forbes.com/sites/paultassi/2026/10/30/patrick-stewarts-26-year-professor-x-run-ends-with-avengers-doomsday-marvel-confirms/",
-      "published": "2026-10-29"
-    },
-    {
-      "id": "game-zelda-ocarina-remake",
-      "title": "Ocarina of Time remake opens pre-loads ahead of its November 5 launch",
-      "summary": "Nintendo's Switch 2 rebuild of The Legend of Zelda: Ocarina of Time can now be pre-loaded, and a new video lists eight added features.",
-      "why": "Ocarina of Time is one of the most celebrated games ever made.",
-      "happened": "The Switch 2 exclusive rebuilds the 1998 original with new visuals, orchestral music and voice acting. Nintendo's video details eight new features. It launches November 5, the same day as Stellar Blade's Switch 2 edition.",
-      "next": "Watch for reviews and how the voice acting lands with longtime fans.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "The 1998 original is a landmark of 3D game design."
+          "label": "First of its kind",
+          "text": "These are Apple's first touchscreen Macs."
         },
         {
           "label": "Timing",
-          "text": "It arrives two weeks before GTA VI."
+          "text": "They land just ahead of the holiday shopping season."
         }
       ],
-      "background": "Ocarina of Time first came out on the Nintendo 64 in 1998. The Switch 2 is Nintendo's newest console.",
+      "background": "Apple long argued against touchscreens on Macs, keeping touch for the iPad and iPhone.",
       "entities": [
-        "Nintendo",
-        "Switch 2",
-        "Zelda",
-        "Remakes"
+        "Apple",
+        "Macs"
       ],
       "meme": {
-        "top": "Link finally gets a voice",
-        "bottom": "after 28 years of saying 'hyah'",
-        "take": "Ocarina of Time is back on November 5, ready to make adults feel 12 and also 40."
+        "top": "Apple made a touchscreen Mac",
+        "bottom": "your screen now needs a cloth",
+        "take": "Apple's first touchscreen Mac arrives Friday, along with years of fingerprints."
       },
       "stats": [
         {
-          "value": "Nov 5",
-          "label": "Switch 2 release"
+          "value": "$2,899",
+          "label": "14-inch OLED touch MacBook Pro"
         },
         {
-          "value": "8",
-          "label": "new features listed"
+          "value": "$699",
+          "label": "OLED iPad mini"
         },
         {
-          "value": "1998",
-          "label": "original release"
+          "value": "Nov 6",
+          "label": "release date"
+        }
+      ],
+      "motif": "screen",
+      "category": "tech",
+      "hype": 72,
+      "prevHype": null,
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/11/02/apple-launching-five-new-products-this-friday/",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "ai-deepseek-super-agent",
+      "title": "DeepSeek open-sources Super-agent, a coding agent aimed at Claude Code",
+      "summary": "DeepSeek released Super-agent, an MIT-licensed prototype that watches a GitHub repo and team chats, works on issues in parallel and replies with pull requests.",
+      "why": "DeepSeek's open releases have repeatedly shaken up the AI market, and coding agents are the hottest product area.",
+      "happened": "Bloomberg describes it as a rival to Anthropic's Claude Code. It runs work items in parallel worker sessions under a persistent router and can watch Feishu group chats. It reportedly passed 4,000 GitHub stars within a day.",
+      "next": "Watch for whether developers adopt it and whether DeepSeek turns the prototype into a product.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "Bloomberg frames it as a direct challenge to Claude Code."
+        },
+        {
+          "label": "Fan demand",
+          "text": "It reportedly gathered 4,000 GitHub stars in a day."
+        },
+        {
+          "label": "Trend",
+          "text": "Coding agents are where AI labs are competing hardest."
+        }
+      ],
+      "background": "DeepSeek is a Chinese AI lab known for releasing strong models with open weights at low cost.",
+      "entities": [
+        "DeepSeek",
+        "AI agents",
+        "AI coding",
+        "China"
+      ],
+      "meme": {
+        "top": "DeepSeek made an agent that reads",
+        "bottom": "your team chat and still wants to help",
+        "take": "DeepSeek's new agent reads group chats looking for problems, braver than most managers."
+      },
+      "stats": [
+        {
+          "value": "4,000",
+          "label": "GitHub stars in a day, reported"
+        },
+        {
+          "value": "MIT",
+          "label": "open-source license"
+        }
+      ],
+      "motif": "agent",
+      "category": "ai",
+      "hype": 70,
+      "prevHype": 86,
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
+      "published": "2026-11-01"
+    },
+    {
+      "id": "ai-gdpx-benchmark",
+      "title": "SemiAnalysis's new GDPx test finds the best AI model scores 12%",
+      "summary": "GDPx tests frontier models on hard work in 11 fields, and Claude Opus 5.5 leads with 12.0%.",
+      "why": "Low scores on real work tasks are a check on the hype around AI replacing experts.",
+      "happened": "Gemini 4 Carbon scored 10.9% and GPT-6 Astra 9.6%. Every model scored 0% on finance and legal tasks. The fields include chip design, cybersecurity, biology and quant trading, and SemiAnalysis plans refreshes every 3-6 months.",
+      "next": "Watch for how the new models expected this month score on the next GDPx refresh.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "The three leading labs are separated by less than three points."
+        },
+        {
+          "label": "First of its kind",
+          "text": "It targets expert-level work rather than quiz-style questions."
+        }
+      ],
+      "background": "SemiAnalysis is a research firm known for reporting on chips and AI infrastructure.",
+      "entities": [
+        "Frontier models",
+        "Anthropic",
+        "Google",
+        "OpenAI"
+      ],
+      "meme": {
+        "top": "The top AI model scored 12%",
+        "bottom": "and still topped the class",
+        "take": "The new AI benchmark is so hard the winning grade would get a student a meeting."
+      },
+      "stats": [
+        {
+          "value": "12.0%",
+          "label": "top score, Claude Opus 5.5"
+        },
+        {
+          "value": "10.9%",
+          "label": "Gemini 4 Carbon"
+        },
+        {
+          "value": "0%",
+          "label": "finance and legal, all models"
+        }
+      ],
+      "motif": "doc",
+      "category": "ai",
+      "hype": 70,
+      "prevHype": null,
+      "source": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "game-switch-2-lite-rumor",
+      "title": "A Switch 2 Lite is rumored at about $299 with a 7.1-inch screen",
+      "summary": "Leaks reported by GameGPU say Nintendo is planning a handheld-only Switch 2 Lite with a smaller screen and a lower price.",
+      "why": "A cheaper Switch 2 would open the console to many more buyers.",
+      "happened": "The reported model would have a 7.1-inch screen, versus 7.9 inches on the Switch 2, and no TV output. A removable battery is expected in Europe because of a 2027 law. Nintendo has not announced anything.",
+      "next": "Watch for any official word from Nintendo, which has not commented.",
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "The original Switch Lite was a popular cheaper option."
+        },
+        {
+          "label": "Money",
+          "text": "A $299 price would undercut the standard Switch 2."
+        }
+      ],
+      "background": "Nintendo released a handheld-only Switch Lite in 2019, two years after the original Switch.",
+      "entities": [
+        "Nintendo",
+        "Switch 2",
+        "Leaks"
+      ],
+      "meme": {
+        "top": "The Switch 2 Lite is rumored",
+        "bottom": "it is the Switch 2 with less",
+        "take": "Nintendo's rumored Switch 2 Lite removes the TV, which some families will call a feature."
+      },
+      "stats": [
+        {
+          "value": "~$299",
+          "label": "price, reported"
+        },
+        {
+          "value": "7.1 in",
+          "label": "screen, reported"
         }
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 82,
-      "prevHype": 68,
-      "source": "Gaming Route",
-      "url": "https://gamingroute.com/ocarina-of-time-switch-2-new-features/",
-      "published": "2026-10-31"
+      "hype": 70,
+      "prevHype": null,
+      "source": "IG News",
+      "url": "https://news.instant-gaming.com/en/articles/22825-the-switch-2-lite-could-cost-less-than-300-and-feature-a-7-1-inch-screen",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "tech-claude-code-cursor-backdoor",
+      "title": "A tampered Claude Code extension on Cursor's marketplace planted SSH backdoors",
+      "summary": "Two trojanized versions of a Claude Code extension on the Cursor Marketplace installed a persistent SSH backdoor, Cursor says.",
+      "why": "It shows how AI coding tools have become an attractive route into developers' machines.",
+      "happened": "Cursor said up to 5,000 users were affected. The tampered release was version 2.1.313, BleepingComputer and Sophos report. It installed a persistent SSH backdoor on developer machines.",
+      "next": "Watch for guidance from Cursor on checking machines and how marketplace extensions are vetted.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "A backdoor on a developer's machine can reach code and cloud keys."
+        },
+        {
+          "label": "Trend",
+          "text": "Attackers increasingly target extension and package marketplaces."
+        }
+      ],
+      "background": "Cursor is an AI code editor based on VS Code. Claude Code is Anthropic's coding assistant.",
+      "entities": [
+        "Cybersecurity",
+        "AI coding",
+        "Anthropic"
+      ],
+      "meme": {
+        "top": "Developers installed an AI helper",
+        "bottom": "it brought an uninvited friend",
+        "take": "The fake Claude Code extension did write code, mainly for the attacker."
+      },
+      "stats": [
+        {
+          "value": "5,000",
+          "label": "users affected, per Cursor"
+        },
+        {
+          "value": "2.1.313",
+          "label": "tampered version"
+        }
+      ],
+      "motif": "shield",
+      "category": "tech",
+      "hype": 70,
+      "prevHype": null,
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "published": "2026-10-30"
+    },
+    {
+      "id": "ent-nobody-wants-this-s3",
+      "title": "Nobody Wants This season 3 jumps straight to No. 1 on Netflix",
+      "summary": "The romantic comedy's third season went to the top of Netflix's US series chart in the week after it premiered.",
+      "why": "A comedy holding the top spot in its third season is rare for a streaming show.",
+      "happened": "Tom's Guide says the series rocketed to No. 1 on Netflix's most-watched list. FlixPatrol's weekly points also put it first among series, ahead of From and Love Is Blind.",
+      "next": "Watch for Netflix's global viewing figures and any news on a fourth season.",
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "Its first two seasons built a loyal audience."
+        },
+        {
+          "label": "Timing",
+          "text": "It arrived in a week with few big new series."
+        }
+      ],
+      "background": "Nobody Wants This is a Netflix romantic comedy series that first premiered in 2024.",
+      "entities": [
+        "Netflix",
+        "Streaming"
+      ],
+      "meme": {
+        "top": "The show is called Nobody Wants This",
+        "bottom": "everyone wanted this",
+        "take": "Netflix's biggest series this week has a title the viewing figures refuse to respect."
+      },
+      "stats": [
+        {
+          "value": "No. 1",
+          "label": "Netflix US series chart"
+        }
+      ],
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 68,
+      "prevHype": null,
+      "source": "Tom's Guide",
+      "url": "https://www.tomsguide.com/entertainment/netflix/netflix-top-10-shows-here-are-the-3-you-need-to-binge-watch-this-week-oct-27-nov-2",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "tech-korea-record-chip-exports",
+      "title": "South Korea's exports hit a record $115.3 billion on a chip boom",
+      "summary": "South Korea's October exports rose 93.7% to a record, led by a 259% jump in semiconductor exports to $56.4 billion.",
+      "why": "Korea's chip exports are a key gauge of how much the world is spending on AI hardware.",
+      "happened": "Yonhap reports semiconductors made up about half of all exports. Separately, third-quarter GDP grew 1.0%, well above the Bank of Korea's 0.3% forecast, the Korea Herald reports.",
+      "next": "Watch for whether chip export growth holds in November figures.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "Exports nearly doubled from a year earlier."
+        },
+        {
+          "label": "Trend",
+          "text": "AI data centers are driving demand for memory chips."
+        }
+      ],
+      "background": "South Korea is home to Samsung and SK hynix, two of the world's biggest memory chip makers.",
+      "entities": [
+        "South Korea",
+        "AI chips",
+        "Samsung"
+      ],
+      "meme": {
+        "top": "South Korea's exports nearly doubled",
+        "bottom": "half of them fit in a server",
+        "take": "South Korea nearly doubled its exports by selling the world somewhere to keep its AI."
+      },
+      "stats": [
+        {
+          "value": "$115.3B",
+          "label": "October exports"
+        },
+        {
+          "value": "+259%",
+          "label": "chip exports growth"
+        },
+        {
+          "value": "$56.4B",
+          "label": "chip exports"
+        }
+      ],
+      "motif": "chip",
+      "category": "tech",
+      "hype": 68,
+      "prevHype": null,
+      "source": "Yonhap",
+      "url": "https://en.yna.co.kr/view/AEN20261101000952320",
+      "published": "2026-11-01"
     },
     {
       "id": "ai-openai-funding-round-cut",
@@ -441,57 +1298,185 @@
       ],
       "motif": "money",
       "category": "ai",
-      "hype": 80,
-      "prevHype": 92,
+      "hype": 66,
+      "prevHype": 80,
       "source": "AI Weekly",
       "url": "https://aiweekly.co/ai-news-today",
       "published": "2026-10-31"
     },
     {
-      "id": "tech-dhs-okta-breach",
-      "title": "Hackers stole personnel data on more than 40,000 Homeland Security staff",
-      "summary": "Names, emails, phone numbers and work contacts for over 40,000 DHS staff, including CBP and ICE personnel, were taken from an Okta login system.",
-      "why": "A breach of a security agency's own staff list raises questions about how its systems are protected.",
-      "happened": "The data was published as 'Icepick' by DDoSecrets. A search site for the data was briefly knocked offline after DHS asked the domain registrar to take it down, and Bluesky blocked links to DDoSecrets.",
-      "next": "Watch for DHS's account of how the Okta system was accessed and any official response.",
+      "id": "tech-palantir-q3",
+      "title": "Palantir's US commercial revenue jumps 148% and passes government sales",
+      "summary": "Palantir's third-quarter revenue rose 96% to $2.31 billion, and it raised its full-year forecast to about $8.53 billion.",
+      "why": "Palantir has become a bellwether for whether companies are paying for AI software.",
+      "happened": "US commercial revenue reached $984 million, topping US government revenue of $953 million for the first time, CNBC reports. Net income was $1.13 billion. The shares were about 3% lower after hours.",
+      "next": "Watch for how the stock trades as investors weigh growth against its valuation.",
       "drivers": [
         {
-          "label": "Scale",
-          "text": "More than 40,000 staff records were taken."
+          "label": "Money",
+          "text": "Revenue nearly doubled from a year earlier."
         },
         {
-          "label": "Controversy",
-          "text": "Takedown requests and link blocking followed the leak."
-        },
-        {
-          "label": "Risk",
-          "text": "It hit a login system that guards government accounts."
+          "label": "First of its kind",
+          "text": "Commercial sales passed government sales for the first time."
         }
       ],
-      "background": "Okta is a widely used identity and login provider. DHS oversees agencies including CBP and ICE.",
+      "background": "Palantir is a US data analytics company long known for its government and defense work.",
       "entities": [
-        "Cybersecurity",
-        "Data breaches",
-        "Okta"
+        "Earnings",
+        "AI stocks",
+        "Palantir"
       ],
       "meme": {
-        "top": "Homeland Security got breached",
-        "bottom": "through the door marked login",
-        "take": "The agency in charge of securing the homeland learned a login page is also a border."
+        "top": "Palantir nearly doubled its revenue",
+        "bottom": "the stock went down a bit",
+        "take": "Palantir grew 96% and investors reacted like it was a disappointing weather report."
       },
       "stats": [
         {
-          "value": "40,000+",
-          "label": "staff records stolen"
+          "value": "$2.31B",
+          "label": "Q3 revenue"
+        },
+        {
+          "value": "+148%",
+          "label": "US commercial growth"
+        },
+        {
+          "value": "~$8.53B",
+          "label": "full-year forecast"
         }
       ],
-      "motif": "shield",
+      "motif": "money",
       "category": "tech",
-      "hype": 80,
+      "hype": 66,
       "prevHype": null,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
-      "published": "2026-10-28"
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "ai-goldman-limits-ai-coding",
+      "title": "Goldman Sachs pulls Claude Code and Copilot from most of its engineers",
+      "summary": "Goldman is reported to have restricted Claude Code and GitHub Copilot for about 12,000 engineers outside its strats group.",
+      "why": "A top bank stepping back from AI coding tools is a rare counterpoint to fast adoption.",
+      "happened": "Bloomberg says the change followed an October review of productivity and risk. The bank's strats group, its quantitative engineers, keeps access. Goldman has not detailed what the review found.",
+      "next": "Watch for whether other banks review their AI coding tools in the same way.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "Banks are cautious about software that writes code touching client systems."
+        },
+        {
+          "label": "Scale",
+          "text": "The change reportedly covers about 12,000 engineers."
+        }
+      ],
+      "background": "Goldman Sachs is one of the largest US investment banks. Copilot is Microsoft-owned GitHub's coding assistant.",
+      "entities": [
+        "AI coding",
+        "Anthropic",
+        "Microsoft"
+      ],
+      "meme": {
+        "top": "Goldman reviewed its AI tools",
+        "bottom": "and kept them for the math people",
+        "take": "Goldman decided only the quants get the robots, a very Goldman way to share."
+      },
+      "stats": [
+        {
+          "value": "~12,000",
+          "label": "engineers affected, reported"
+        }
+      ],
+      "motif": "doc",
+      "category": "ai",
+      "hype": 64,
+      "prevHype": null,
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/goldman-restricts-traders-and-bankers-from-using-some-ai-tools",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "ent-mouthwashing-movie",
+      "title": "Sony is making a Mouthwashing film with director Karyn Kusama",
+      "summary": "Sony has picked up film rights to the 2024 indie horror game Mouthwashing, with Karyn Kusama set to direct.",
+      "why": "A small indie hit getting a studio film shows how hungry Hollywood is for game stories.",
+      "happened": "Sony acquired the rights from developer Wrong Organ and publisher Critical Reflex, Deadline reports. Matt Manfredi and Phil Hay, writers of The Black Phone, will write it. The game follows five crew members stranded at the edge of space.",
+      "next": "Watch for casting news and a production start date.",
+      "drivers": [
+        {
+          "label": "Trend",
+          "text": "Game adaptations keep landing at studios after recent hits."
+        },
+        {
+          "label": "Big name",
+          "text": "Kusama directed Jennifer's Body and Destroyer."
+        },
+        {
+          "label": "Fan demand",
+          "text": "The game has overwhelmingly positive reviews on Steam."
+        }
+      ],
+      "background": "Mouthwashing is a short psychological horror game released in September 2024.",
+      "entities": [
+        "Sony",
+        "Game adaptations",
+        "Horror"
+      ],
+      "meme": {
+        "top": "A game about being stuck in space",
+        "bottom": "is now stuck in development",
+        "take": "Mouthwashing is getting a film, so its trapped crew now also has to survive Hollywood."
+      },
+      "stats": [
+        {
+          "value": "2024",
+          "label": "game release"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 64,
+      "prevHype": null,
+      "source": "Deadline",
+      "url": "https://deadline.com/2026/10/sony-mouthwashing-videogame-movie-karyn-kusama-1237208566/",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "ai-claude-abuse-policy",
+      "title": "Anthropic adds a rule against sustained, purposeless abuse of Claude",
+      "summary": "Anthropic's updated usage policy lets Claude end conversations that are just sustained abuse, with bans reported for extreme cases.",
+      "why": "It is an unusual step for an AI company to set rules about how people treat a chatbot.",
+      "happened": "Anthropic says the rule does not cover frustration, criticism, creative writing or model research. Ending the conversation is the main response. CNN reported permanent bans could follow in extreme cases.",
+      "next": "Watch for how often the rule is applied and whether other AI companies add similar terms.",
+      "drivers": [
+        {
+          "label": "Controversy",
+          "text": "Rules about treating a chatbot politely split opinion online."
+        },
+        {
+          "label": "First of its kind",
+          "text": "Few chatbot policies address abuse aimed at the model itself."
+        }
+      ],
+      "background": "Usage policies set what customers may and may not do with an AI service.",
+      "entities": [
+        "Anthropic",
+        "AI safety"
+      ],
+      "meme": {
+        "top": "Claude can now end a chat",
+        "bottom": "if the chat is only insults",
+        "take": "Anthropic gave Claude the one feature every customer service worker has wanted."
+      },
+      "stats": [],
+      "motif": "agent",
+      "category": "ai",
+      "hype": 62,
+      "prevHype": null,
+      "source": "CNN",
+      "url": "https://edition.cnn.com/2026/11/01/business/anthropic-dont-be-mean-claude-ban",
+      "published": "2026-11-01"
     },
     {
       "id": "game-persona-1-remake-leak",
@@ -538,516 +1523,98 @@
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 80,
-      "prevHype": null,
+      "hype": 62,
+      "prevHype": 80,
       "source": "Tech Insider",
       "url": "https://tech-insider.org/persona-1-remake-trailer-leak-360p-unconfirmed-atlus-2026/",
       "published": "2026-10-31"
     },
     {
-      "id": "ai-gemini-4-carbon",
-      "title": "Google launches Gemini 4 Carbon, a model that finds and patches software flaws",
-      "summary": "Gemini 4 Carbon hunts for vulnerabilities, tests whether they can be exploited and writes patches, with access limited to vetted cyber defenders.",
-      "why": "AI that can find security holes helps defenders, but the same skill worries people if it spreads.",
-      "happened": "Google says it leads outside cyber benchmarks and scores 59 on the Artificial Analysis Intelligence Index v5. It arrived about two weeks after Gemini 4 Argon. Early access runs through Google's Fairwind program, and benchmarks were run without the usual guardrails.",
-      "next": "Watch for who gets access through Fairwind and what flaws it is credited with finding.",
-      "drivers": [
-        {
-          "label": "Risk",
-          "text": "A model that writes exploits is kept to vetted users only."
-        },
-        {
-          "label": "Rivalry",
-          "text": "It follows OpenAI's own restricted specialist models."
-        },
-        {
-          "label": "Timing",
-          "text": "It is Google's second Gemini 4 model in about two weeks."
-        }
-      ],
-      "background": "Gemini is Google's family of AI models, built by its Google DeepMind lab.",
-      "entities": [
-        "Google",
-        "Cybersecurity",
-        "Frontier models"
-      ],
-      "meme": {
-        "top": "Google built an AI that finds bugs",
-        "bottom": "the bugs have been given notice",
-        "take": "Google's model finds the flaw, tests it and writes the fix, then skips the meeting."
-      },
-      "stats": [
-        {
-          "value": "59",
-          "label": "Intelligence Index v5, per Google"
-        }
-      ],
-      "motif": "shield",
-      "category": "ai",
-      "hype": 78,
-      "prevHype": null,
-      "source": "Google",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "tech-intel-q3-guidance",
-      "title": "Intel stock has its worst day since 1974 after a weak forecast",
-      "summary": "Intel shares fell 28.6% on October 30 after a soft fourth-quarter outlook, capping its worst month on record, down about 45% in October.",
-      "why": "Intel is a national chip champion, and the US government is now a large shareholder.",
-      "happened": "Intel had guided Q4 revenue of $15 billion to $16 billion, below the $17.29 billion consensus. CNBC reports the drop wiped about $12 billion off the government's stake. The Philadelphia semiconductor index fell 7.2% the same day.",
-      "next": "Watch for whether Intel or the government responds to the slide.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "It was Intel's worst single day since 1974."
-        },
-        {
-          "label": "Money",
-          "text": "About $12 billion came off the government's stake, CNBC says."
-        },
-        {
-          "label": "Trend",
-          "text": "AI and chip stocks are in a three-week slide."
-        }
-      ],
-      "background": "Intel is one of the oldest chipmakers and makes processors for PCs and servers. The US government took a stake in 2025.",
-      "entities": [
-        "Intel",
-        "AI stocks",
-        "AI chips",
-        "Earnings"
-      ],
-      "meme": {
-        "top": "Intel had its worst day since 1974",
-        "bottom": "the record held for 52 years",
-        "take": "Intel finally beat a 52-year-old record, just not one it was aiming for."
-      },
-      "stats": [
-        {
-          "value": "-28.6%",
-          "label": "Oct 30 share drop"
-        },
-        {
-          "value": "-45%",
-          "label": "October share move"
-        },
-        {
-          "value": "~$12B",
-          "label": "off government stake, per CNBC"
-        }
-      ],
-      "motif": "chip",
-      "category": "tech",
-      "hype": 76,
-      "prevHype": 94,
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
-      "published": "2026-10-30"
-    },
-    {
-      "id": "ai-chatgpt-codex-shared-pool",
-      "title": "ChatGPT and Codex will share one usage allowance from December",
-      "summary": "OpenAI confirmed that Plus, Pro and Business subscribers will draw ChatGPT and Codex use from a single token-based pool instead of separate limits.",
-      "why": "Usage limits shape how much people can actually do with the AI tools they pay for.",
-      "happened": "The change replaces separate allowances for chat and the Codex coding agent. It follows OpenAI's April move to token-based credits. Pro plans keep their distinction of having no five-hour limit.",
-      "next": "Watch for how the pool is sized for each plan when it takes effect in December.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "It changes what paying subscribers get for their plan."
-        },
-        {
-          "label": "Rivalry",
-          "text": "It lands days after Anthropic changed its own top Claude plan."
-        },
-        {
-          "label": "Trend",
-          "text": "AI subscriptions are moving to token-based metering."
-        }
-      ],
-      "background": "Codex is OpenAI's coding agent, sold alongside ChatGPT in the same subscriptions.",
-      "entities": [
-        "OpenAI",
-        "AI coding",
-        "AI agents"
-      ],
-      "meme": {
-        "top": "ChatGPT and Codex will share a budget",
-        "bottom": "like roommates with one fridge",
-        "take": "OpenAI merged its usage limits, so now your essay and your code can run out together."
-      },
-      "stats": [
-        {
-          "value": "1",
-          "label": "shared usage pool"
-        },
-        {
-          "value": "Dec",
-          "label": "change takes effect"
-        }
-      ],
-      "motif": "agent",
-      "category": "ai",
-      "hype": 74,
-      "prevHype": null,
-      "source": "AI Weekly",
-      "url": "https://aiweekly.co/ai-news-today",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "tech-chatgpt-share-link-flaw",
-      "title": "A ChatGPT share-link flaw could have let attackers take over accounts",
-      "summary": "Researchers chained three flaws so that opening a crafted ChatGPT share link could run attacker code in a logged-in user's session.",
-      "why": "Share links are a common way people pass chats around, so a hidden risk there could reach many users.",
-      "happened": "Parameter researchers reported it on October 18. It combined a math library accepting unchecked messages, HTML injection and an unsandboxed frame. OpenAI rated it P1, its highest severity, fixed it on October 26 and paid a $5,000 bounty.",
-      "next": "Watch for whether other AI chat apps audit their share and embed features.",
-      "drivers": [
-        {
-          "label": "Risk",
-          "text": "Private chats could have been read by a link alone."
-        },
-        {
-          "label": "Scale",
-          "text": "ChatGPT has hundreds of millions of users."
-        },
-        {
-          "label": "Timing",
-          "text": "It was fixed eight days after the report."
-        }
-      ],
-      "background": "Bug bounties are programs where companies pay outside researchers who report security flaws.",
-      "entities": [
-        "OpenAI",
-        "Cybersecurity"
-      ],
-      "meme": {
-        "top": "A bug could hijack ChatGPT accounts",
-        "bottom": "the reward was $5,000",
-        "take": "The flaw could take over your ChatGPT account, and finding it paid about one used car."
-      },
-      "stats": [
-        {
-          "value": "P1",
-          "label": "OpenAI severity rating"
-        },
-        {
-          "value": "$5,000",
-          "label": "bug bounty paid"
-        },
-        {
-          "value": "8 days",
-          "label": "report to fix"
-        }
-      ],
-      "motif": "shield",
-      "category": "tech",
-      "hype": 74,
-      "prevHype": null,
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "game-lol-worlds-quarterfinals",
-      "title": "League of Legends Worlds 2026 quarterfinals are set, with T1 facing Karmine Corp",
-      "summary": "Karmine Corp, LYON and BLG took the last three knockout spots, setting the Worlds 2026 quarterfinals in Allen, Texas.",
-      "why": "Worlds is the biggest event in esports, and the knockout stage draws its largest audiences.",
-      "happened": "The matchups are Dplus KIA vs. BLG, Karmine Corp vs. T1, Gen.G vs. LYON and Top Esports vs. Invictus Gaming. Knockouts run November 3 to 8 in Allen, with the final on November 14 at Barclays Center in New York.",
-      "next": "Watch for whether Karmine Corp can carry Europe's hopes past T1.",
-      "drivers": [
-        {
-          "label": "Rivalry",
-          "text": "Karmine Corp, Europe's last hope, faces T1."
-        },
-        {
-          "label": "Timing",
-          "text": "The knockouts start November 3."
-        },
-        {
-          "label": "Fan demand",
-          "text": "The final is at Barclays Center in New York."
-        }
-      ],
-      "background": "League of Legends is Riot Games' team strategy game. T1 is its most decorated team.",
-      "entities": [
-        "Esports",
-        "Riot Games",
-        "South Korea"
-      ],
-      "meme": {
-        "top": "Europe's last team at Worlds",
-        "bottom": "drew T1, so that is nice",
-        "take": "Karmine Corp made the quarterfinals and was rewarded with the hardest possible next step."
-      },
-      "stats": [
-        {
-          "value": "Nov 3-8",
-          "label": "knockout stage"
-        },
-        {
-          "value": "Nov 14",
-          "label": "final, Barclays Center"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 74,
-      "prevHype": null,
-      "source": "Insider Gaming",
-      "url": "https://insider-gaming.com/kcorp-lyon-blg-secure-lol-worlds-knockouts/",
-      "published": "2026-11-01"
-    },
-    {
-      "id": "ai-cohere-canada-stake",
-      "title": "Canada takes an equity stake in AI company Cohere for up to C$1.6 billion",
-      "summary": "Prime Minister Mark Carney announced up to C$1.6 billion in federal investment in Cohere as part of a Series E round led by Germany's Schwarz Group.",
-      "why": "Governments are starting to buy into AI labs directly to keep the technology at home.",
-      "happened": "The round targets up to C$7 billion at a valuation of about C$35.7 billion. Cohere must stay headquartered in Canada and invest at least C$1.7 billion in domestic computing by 2030. Reuters noted detailed terms were not disclosed.",
-      "next": "Watch for the final size of the round and the full terms of the government's stake.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "The government is putting in up to C$1.6 billion."
-        },
-        {
-          "label": "Trend",
-          "text": "Countries want their own AI champions."
-        },
-        {
-          "label": "Scale",
-          "text": "The round targets up to C$7 billion."
-        }
-      ],
-      "background": "Cohere is a Toronto-based AI company that builds language models for businesses rather than consumers.",
-      "entities": [
-        "Cohere",
-        "AI funding",
-        "AI infrastructure"
-      ],
-      "meme": {
-        "top": "Canada bought part of an AI company",
-        "bottom": "the terms say it has to stay polite",
-        "take": "Canada's investment comes with one firm condition: Cohere has to keep living in Canada."
-      },
-      "stats": [
-        {
-          "value": "C$1.6B",
-          "label": "federal investment, up to"
-        },
-        {
-          "value": "C$7B",
-          "label": "round target, up to"
-        },
-        {
-          "value": "C$35.7B",
-          "label": "valuation, reported"
-        }
-      ],
-      "motif": "money",
-      "category": "ai",
-      "hype": 72,
-      "prevHype": null,
-      "source": "Yahoo News Canada",
-      "url": "https://ca.news.yahoo.com/carney-announces-1-6b-federal-193921071.html",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "tech-hyperscaler-cds-high",
-      "title": "Cost of insuring Big Tech debt hits its highest level since 2021",
-      "summary": "The WSJ reports credit default swaps on Amazon, Alphabet, Microsoft, Meta and Oracle debt now cost the most since 2021 as AI borrowing grows.",
-      "why": "It is a sign that lenders are more nervous about the money borrowed for the AI build-out.",
-      "happened": "Oracle's five-year credit default swap is near a record 288 basis points, Meta's about 108 and Nvidia's about 101, per Solve data. AI-linked companies have reportedly raised an estimated $466 billion in debt this year.",
-      "next": "Watch for whether the rising cost changes how much these companies borrow for data centers.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "AI-linked firms have raised about $466 billion in debt this year."
-        },
-        {
-          "label": "Risk",
-          "text": "Oracle's protection cost is near a record."
-        },
-        {
-          "label": "Trend",
-          "text": "AI stocks have slid for three weeks."
-        }
-      ],
-      "background": "A credit default swap is insurance against a borrower failing to repay; a higher price means more perceived risk.",
-      "entities": [
-        "AI infrastructure",
-        "AI stocks",
-        "Google",
-        "Meta"
-      ],
-      "meme": {
-        "top": "Investors are insuring Big Tech's debt",
-        "bottom": "the most since 2021",
-        "take": "Wall Street still loves AI. It just wants a receipt and a warranty."
-      },
-      "stats": [
-        {
-          "value": "~288bps",
-          "label": "Oracle 5-year CDS"
-        },
-        {
-          "value": "$466B",
-          "label": "AI-linked debt this year, est."
-        },
-        {
-          "value": "2021",
-          "label": "last time costs were this high"
-        }
-      ],
-      "motif": "money",
-      "category": "tech",
-      "hype": 72,
-      "prevHype": null,
-      "source": "Wall Street Journal",
-      "url": "https://www.wsj.com/finance/stocks/ai-investors-are-racing-to-get-insurance-on-the-biggest-market-bet-in-history-a60e296f",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "ent-clayface-second-weekend",
-      "title": "Clayface drops 57% in its second weekend and slips to No. 2",
-      "summary": "DC's Clayface took $10.4 million on Halloween weekend, a 57% fall, finishing just behind You Can See Everything.",
-      "why": "It is a test of whether smaller, cheaper DC films can work under the new DC Studios plan.",
-      "happened": "Awards Radar says the hold was better than expected and puts Clayface's global total at about $83 million, which it says passes The Substance as the top body horror film. It is the third DC Universe feature.",
-      "next": "Watch for its overseas numbers and how it holds against November releases.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "It has passed its reported $40 million budget."
-        },
-        {
-          "label": "Rivalry",
-          "text": "It lost the top spot by about $200,000."
-        }
-      ],
-      "background": "Clayface is a Batman villain. The film is part of the DC Universe run by James Gunn and Peter Safran.",
-      "entities": [
-        "DC",
-        "Warner Bros.",
-        "Superhero films",
-        "Box office"
-      ],
-      "meme": {
-        "top": "Clayface lost 57% of its audience",
-        "bottom": "fitting for a man made of mud",
-        "take": "Clayface made its budget back in ten days and still got described as a slide."
-      },
-      "stats": [
-        {
-          "value": "$10.4M",
-          "label": "second weekend"
-        },
-        {
-          "value": "-57%",
-          "label": "weekend drop"
-        },
-        {
-          "value": "~$83M",
-          "label": "global total, per Awards Radar"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 72,
-      "prevHype": 76,
-      "source": "Awards Radar",
-      "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/",
-      "published": "2026-11-01"
-    },
-    {
-      "id": "game-star-wars-jedi-3-progress",
-      "title": "Bloomberg's Schreier says Star Wars Jedi 3 is far along and Battlefront hasn't started",
-      "summary": "Jason Schreier says Respawn's third Star Wars Jedi game is 'far in development', while EA's next Battlefront 'hasn't even started yet'.",
-      "why": "Star Wars games are some of EA's biggest bets, and fans want to know what is coming next.",
-      "happened": "Schreier posted the claims on Bluesky. EA has not confirmed either one. It follows reports this week about BioWare and Battlefront's place in EA's plans.",
-      "next": "Watch for any official word from EA or Respawn on the next Jedi game.",
+      "id": "ent-god-of-war-bautista",
+      "title": "Dave Bautista shows off his training to play Kratos in the God of War series",
+      "summary": "Bautista shared his physical progress for the role of Kratos in the God of War TV series, which resumes filming next year.",
+      "why": "Fans have argued for years over who should play Kratos, so every update draws attention.",
+      "happened": "IG News reports Bautista is training for the role ahead of production resuming next year. The series adapts Sony's God of War games, in which Kratos is a Spartan warrior turned father.",
+      "next": "Watch for a production start date and more casting for the series.",
       "drivers": [
         {
           "label": "Big name",
-          "text": "Schreier is one of gaming's best-sourced reporters."
+          "text": "Bautista is known for Guardians of the Galaxy and Dune."
         },
         {
           "label": "Fan demand",
-          "text": "The Jedi series is EA's most loved Star Wars line."
-        },
-        {
-          "label": "Rivalry",
-          "text": "It contrasts sharply with recent Battlefront reports."
+          "text": "God of War is one of PlayStation's biggest series."
         }
       ],
-      "background": "Respawn made Star Wars Jedi: Fallen Order and Survivor. EA holds the Star Wars game license with Lucasfilm.",
+      "background": "God of War is a Sony action game series that began in 2005.",
       "entities": [
-        "Star Wars",
-        "EA",
-        "Respawn"
+        "Game adaptations",
+        "PlayStation",
+        "Amazon"
       ],
       "meme": {
-        "top": "One Star Wars game is far along",
-        "bottom": "the other is still a feeling",
-        "take": "EA's Star Wars plans are reportedly split between nearly done and not yet a document."
+        "top": "Kratos is played by a wrestler",
+        "bottom": "which is also how Kratos solves things",
+        "take": "Bautista is training for Kratos, a role that mostly requires shouting at gods with a beard."
       },
       "stats": [],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 70,
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 60,
       "prevHype": null,
-      "source": "Gaming Route",
-      "url": "https://gamingroute.com/gaming-news-today-october-31-2026/",
-      "published": "2026-10-31"
+      "source": "IG News",
+      "url": "https://news.instant-gaming.com/en/articles/22824-dave-bautista-shows-off-his-physical-progress-to-play-kratos-in-the-god-of-war-tv-series",
+      "published": "2026-11-02"
     },
     {
-      "id": "ent-matthew-perry-documentary",
-      "title": "Netflix's The One About Matthew Perry debuts in the top five series",
-      "summary": "The three-part documentary about the Friends star entered Netflix's US Top 10 at No. 4 in its first week.",
-      "why": "Perry's life and death drew huge attention, and Friends remains one of TV's most watched shows.",
-      "happened": "Directed by Mary Robertson, it is built around interviews with Perry's sister and close friends and collaborators. Nobody Wants This led the series chart for the week ending November 1.",
-      "next": "Watch for whether it climbs the global chart in its second week.",
+      "id": "tech-iphone-duo-cracks",
+      "title": "Apple tells stores to check iPhone Duo units for display cracks",
+      "summary": "An Apple memo tells technicians to inspect and repair or replace cracked iPhone Duo displays; Apple says few units are affected and there is no recall.",
+      "why": "Durability is the first worry buyers have about any phone with a hinge.",
+      "happened": "Samsung's Canadian ads now mock the cracks. The 256GB iPhone Duo costs $1,999 and online orders are backordered until January. Apple says customers should contact AppleCare.",
+      "next": "Watch for whether the issue grows or Apple changes its repair policy.",
       "drivers": [
         {
-          "label": "Big name",
-          "text": "Perry played Chandler Bing on Friends."
+          "label": "Rivalry",
+          "text": "Samsung is using the cracks in its ads."
         },
         {
-          "label": "Nostalgia",
-          "text": "Friends still draws new viewers decades later."
+          "label": "Money",
+          "text": "The phone starts at $1,999 for 256GB."
         },
         {
-          "label": "Trend",
-          "text": "Celebrity documentaries keep topping streaming charts."
+          "label": "Risk",
+          "text": "Hinge-related cracks are a known risk for folding designs."
         }
       ],
-      "background": "Matthew Perry starred in Friends from 1994 to 2004 and died in 2023 at 54.",
+      "background": "The iPhone Duo is Apple's first phone with a hinge. Samsung has sold folding Galaxy phones since 2019.",
       "entities": [
-        "Netflix",
-        "Documentaries",
-        "Streaming"
+        "Apple",
+        "iPhone",
+        "Samsung"
       ],
       "meme": {
-        "top": "A new Matthew Perry documentary",
-        "bottom": "told by the people who knew him",
-        "take": "Netflix's Perry documentary leans on his sister and friends, and the plain tone suits it."
+        "top": "Apple's first folding phone",
+        "bottom": "is folding in new places",
+        "take": "The iPhone Duo is having the classic foldable experience, a little earlier than planned."
       },
       "stats": [
         {
-          "value": "No. 4",
-          "label": "US series chart debut"
+          "value": "$1,999",
+          "label": "256GB iPhone Duo"
         },
         {
-          "value": "3",
-          "label": "episodes"
+          "value": "January",
+          "label": "online order backorder"
         }
       ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 70,
-      "prevHype": null,
-      "source": "What's on Netflix",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-1-2026/",
-      "published": "2026-11-01"
+      "motif": "phone",
+      "category": "tech",
+      "hype": 60,
+      "prevHype": 66,
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/10/30/apple-alerts-stores-to-iphone-duo-display-cracking/",
+      "published": "2026-10-30"
     },
     {
       "id": "ai-agents-wallet-caps-study",
@@ -1094,157 +1661,238 @@
       ],
       "motif": "agent",
       "category": "ai",
-      "hype": 68,
-      "prevHype": null,
+      "hype": 58,
+      "prevHype": 68,
       "source": "CoinDesk",
       "url": "https://aiweekly.co/ai-news-today",
       "published": "2026-10-31"
     },
     {
-      "id": "tech-apple-passes-nvidia",
-      "title": "Apple passes Nvidia to become the world's most valuable company",
-      "summary": "Apple closed October 30 worth $5.03 trillion against Nvidia's $4.93 trillion, after a sharp sell-off in chip and AI stocks.",
-      "why": "The top spot is a closely watched signal of where investors see the most value.",
-      "happened": "The semiconductor index fell 7.2% and the Nasdaq had its worst day since June. The Global X AI ETF is down 15% from its summer highs. Intel fell 28.6% on the same day.",
-      "next": "Watch for whether the AI sell-off continues into next week.",
+      "id": "ent-fallout-season-3-wraps",
+      "title": "Filming on Fallout season 3 wraps, with a 2027 release expected",
+      "summary": "Production on the third season of the Fallout series finished on October 31, with no exact premiere date yet.",
+      "why": "Fallout is one of the most successful game adaptations on TV, so each season is closely followed.",
+      "happened": "IG News reports filming wrapped on October 31. The season is expected in 2027. The series adapts Bethesda's post-apocalyptic game franchise.",
+      "next": "Watch for a first teaser and a confirmed premiere date.",
       "drivers": [
         {
-          "label": "Rivalry",
-          "text": "The two have traded the top spot during the AI boom."
+          "label": "Fan demand",
+          "text": "The first seasons drew large audiences for a game adaptation."
+        },
+        {
+          "label": "Nostalgia",
+          "text": "The games have been running since 1997."
+        }
+      ],
+      "background": "Fallout is a Prime Video series based on the Fallout game franchise, now owned by Bethesda.",
+      "entities": [
+        "Game adaptations",
+        "Amazon",
+        "Bethesda"
+      ],
+      "meme": {
+        "top": "Fallout finished filming",
+        "bottom": "civilisation remains unrebuilt",
+        "take": "Fallout season 3 is done shooting, so the apocalypse now enters post-production."
+      },
+      "stats": [
+        {
+          "value": "Oct 31",
+          "label": "filming wrapped"
+        },
+        {
+          "value": "2027",
+          "label": "expected release"
+        }
+      ],
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 58,
+      "prevHype": null,
+      "source": "IG News",
+      "url": "https://news.instant-gaming.com/en/articles/22821-filming-for-fallout-season-3-is-now-done",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "ent-matthew-perry-documentary",
+      "title": "Netflix's The One About Matthew Perry debuts in the top five series",
+      "summary": "The three-part documentary about the Friends star entered Netflix's US Top 10 at No. 4 in its first week.",
+      "why": "Perry's life and death drew huge attention, and Friends remains one of TV's most watched shows.",
+      "happened": "Directed by Mary Robertson, it is built around interviews with Perry's sister and close friends and collaborators. Nobody Wants This led the series chart for the week ending November 1.",
+      "next": "Watch for whether it climbs the global chart in its second week.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Perry played Chandler Bing on Friends."
+        },
+        {
+          "label": "Nostalgia",
+          "text": "Friends still draws new viewers decades later."
         },
         {
           "label": "Trend",
-          "text": "AI stocks have fallen for three straight weeks."
+          "text": "Celebrity documentaries keep topping streaming charts."
         }
       ],
-      "background": "Apple makes the iPhone and Mac. Nvidia makes most of the chips used to train and run AI models.",
+      "background": "Matthew Perry starred in Friends from 1994 to 2004 and died in 2023 at 54.",
       "entities": [
-        "Apple",
-        "Nvidia",
-        "AI stocks"
+        "Netflix",
+        "Documentaries",
+        "Streaming"
       ],
       "meme": {
-        "top": "Apple is the most valuable company",
-        "bottom": "by mostly staying still",
-        "take": "Apple took the crown from Nvidia mostly by standing still while AI stocks fell over."
+        "top": "A new Matthew Perry documentary",
+        "bottom": "told by the people who knew him",
+        "take": "Netflix's Perry documentary leans on his sister and friends, and the plain tone suits it."
       },
       "stats": [
         {
-          "value": "$5.03T",
-          "label": "Apple market value"
+          "value": "No. 4",
+          "label": "US series chart debut"
         },
         {
-          "value": "$4.93T",
-          "label": "Nvidia market value"
-        },
-        {
-          "value": "-7.2%",
-          "label": "chip index, Oct 30"
+          "value": "3",
+          "label": "episodes"
         }
       ],
-      "motif": "money",
-      "category": "tech",
-      "hype": 68,
-      "prevHype": 86,
-      "source": "AI Weekly",
-      "url": "https://aiweekly.co/ai-news-today",
-      "published": "2026-10-30"
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 58,
+      "prevHype": 70,
+      "source": "What's on Netflix",
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-1-2026/",
+      "published": "2026-11-01"
     },
     {
-      "id": "ai-gpt-6-rosalind",
-      "title": "OpenAI releases GPT-6 Rosalind, a biology model for vetted researchers",
-      "summary": "GPT-6 Rosalind uses GPT-6 Astra's weights but relaxes refusals on dual-use biology questions for users in a trusted-access program.",
-      "why": "Biology is where AI could speed up medicine most, and where misuse worries run highest.",
-      "happened": "OpenAI reports MedChemBench v7 rising to 49.6% from 28.9% and GeneBench Pro v13 to 37.7% from 16.7%. It rates the model High for bio and chem capability, below Critical. Amgen, Moderna, Thermo Fisher and the Allen Institute are early partners.",
-      "next": "Watch for how OpenAI vets access and what partners report from early use.",
+      "id": "game-vice-magic-city-mayhem",
+      "title": "A GTA-inspired Vice game is set for Xbox the day before GTA VI",
+      "summary": "Vice: Magic City Mayhem launches on Xbox Series X|S on November 18, one day before Grand Theft Auto VI.",
+      "why": "Launching a Vice City-style game next to GTA VI is a bold bit of timing.",
+      "happened": "Pure Xbox describes it as a GTA-inspired game with Zelda influences. Its November 18 date puts it one day ahead of Rockstar's November 19 launch.",
+      "next": "Watch for reviews and whether players notice it in GTA VI's shadow.",
       "drivers": [
         {
-          "label": "Risk",
-          "text": "It loosens refusals in a field labs usually guard most tightly."
+          "label": "Timing",
+          "text": "It arrives one day before the biggest launch of the year."
         },
-        {
-          "label": "Big name",
-          "text": "Amgen and Moderna are among the first partners."
-        }
-      ],
-      "background": "OpenAI's GPT-6 Astra is its top model tier. Dual-use research is work that could help or harm depending on who uses it.",
-      "entities": [
-        "OpenAI",
-        "Frontier models",
-        "AI safety"
-      ],
-      "meme": {
-        "top": "OpenAI built a biology model",
-        "bottom": "and a very short guest list",
-        "take": "GPT-6 Rosalind is so good at biology that most people may not ask it about biology."
-      },
-      "stats": [
-        {
-          "value": "49.6%",
-          "label": "MedChemBench v7, per OpenAI"
-        },
-        {
-          "value": "37.7%",
-          "label": "GeneBench Pro v13, per OpenAI"
-        }
-      ],
-      "motif": "network",
-      "category": "ai",
-      "hype": 66,
-      "prevHype": 84,
-      "source": "AI Weekly",
-      "url": "https://aiweekly.co/ai-news-today",
-      "published": "2026-10-30"
-    },
-    {
-      "id": "tech-iphone-duo-cracks",
-      "title": "Apple tells stores to check iPhone Duo units for display cracks",
-      "summary": "An Apple memo tells technicians to inspect and repair or replace cracked iPhone Duo displays; Apple says few units are affected and there is no recall.",
-      "why": "Durability is the first worry buyers have about any phone with a hinge.",
-      "happened": "Samsung's Canadian ads now mock the cracks. The 256GB iPhone Duo costs $1,999 and online orders are backordered until January. Apple says customers should contact AppleCare.",
-      "next": "Watch for whether the issue grows or Apple changes its repair policy.",
-      "drivers": [
         {
           "label": "Rivalry",
-          "text": "Samsung is using the cracks in its ads."
-        },
-        {
-          "label": "Money",
-          "text": "The phone starts at $1,999 for 256GB."
-        },
-        {
-          "label": "Risk",
-          "text": "Hinge-related cracks are a known risk for folding designs."
+          "text": "It borrows the setting GTA VI is bringing back."
         }
       ],
-      "background": "The iPhone Duo is Apple's first phone with a hinge. Samsung has sold folding Galaxy phones since 2019.",
+      "background": "Vice City is the Miami-like setting of Grand Theft Auto games, returning in GTA VI.",
       "entities": [
-        "Apple",
-        "iPhone",
-        "Samsung"
+        "Xbox",
+        "New game releases"
       ],
       "meme": {
-        "top": "Apple's first folding phone",
-        "bottom": "is folding in new places",
-        "take": "The iPhone Duo is having the classic foldable experience, a little earlier than planned."
+        "top": "A small game picked its release date",
+        "bottom": "right before the tidal wave",
+        "take": "Vice: Magic City Mayhem gets a full 24 hours as the most-played game set in Vice."
       },
       "stats": [
         {
-          "value": "$1,999",
-          "label": "256GB iPhone Duo"
-        },
-        {
-          "value": "January",
-          "label": "online order backorder"
+          "value": "Nov 18",
+          "label": "Xbox release"
         }
       ],
-      "motif": "phone",
+      "motif": "game",
+      "category": "gaming",
+      "hype": 58,
+      "prevHype": null,
+      "source": "Pure Xbox",
+      "url": "https://www.purexbox.com/news/2026/11/xbox-suddenly-has-two-vice-city-games-releasing-in-mid-november",
+      "published": "2026-11-01"
+    },
+    {
+      "id": "tech-squarespace-layoffs",
+      "title": "Squarespace cuts 19% of its staff as AI tools reshape web building",
+      "summary": "Web host Squarespace is laying off about 19% of employees, roughly 300 jobs, saying it is simplifying how it operates.",
+      "why": "Website builders face new pressure from AI tools that can make a site from a prompt.",
+      "happened": "TechCrunch reports the cuts come as AI coding tools change how people build websites. Squarespace launched its Blueprint AI tool in 2024 and recently unveiled an AI-native platform called Forma.",
+      "next": "Watch for how Squarespace's new AI platform is received.",
+      "drivers": [
+        {
+          "label": "Trend",
+          "text": "AI site builders compete directly with template-based web hosts."
+        },
+        {
+          "label": "Scale",
+          "text": "Nearly one in five employees is affected."
+        }
+      ],
+      "background": "Squarespace is a US company that sells website-building and hosting tools.",
+      "entities": [
+        "Squarespace",
+        "AI coding"
+      ],
+      "meme": {
+        "top": "Squarespace is cutting 300 jobs",
+        "bottom": "as AI changes how sites get built",
+        "take": "The layoffs are a hard day for the people affected, as AI tools keep changing web building."
+      },
+      "stats": [
+        {
+          "value": "19%",
+          "label": "of staff cut"
+        },
+        {
+          "value": "~300",
+          "label": "jobs"
+        }
+      ],
+      "motif": "doc",
       "category": "tech",
-      "hype": 66,
-      "prevHype": 80,
-      "source": "MacRumors",
-      "url": "https://www.macrumors.com/2026/10/30/apple-alerts-stores-to-iphone-duo-display-cracking/",
-      "published": "2026-10-30"
+      "hype": 58,
+      "prevHype": null,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees",
+      "published": "2026-11-02"
+    },
+    {
+      "id": "game-pikmin-4-demo",
+      "title": "Nintendo marks Pikmin Day with a free Pikmin 4 Switch 2 Edition demo",
+      "summary": "A free demo of Pikmin 4's Switch 2 Edition arrives November 2, following a Pikmin Day Direct on November 1.",
+      "why": "A free demo is the easiest way for new Switch 2 owners to try the series.",
+      "happened": "November 1 is Pikmin Day. The Switch 2 Edition, with the new Dandori Academy content, launches November 12. Alongside the demo, the mobile game Pikmin Bloom is adding new caves.",
+      "next": "Watch for the Switch 2 Edition's full launch details.",
+      "drivers": [
+        {
+          "label": "Timing",
+          "text": "It lands on the day after Pikmin Day."
+        },
+        {
+          "label": "Fan demand",
+          "text": "The series has a loyal following on Nintendo consoles."
+        }
+      ],
+      "background": "Pikmin is Nintendo's strategy series about tiny plant creatures, created by Shigeru Miyamoto.",
+      "entities": [
+        "Nintendo",
+        "Switch 2"
+      ],
+      "meme": {
+        "top": "Pikmin got its own day",
+        "bottom": "and the Pikmin are still working",
+        "take": "Nintendo celebrated Pikmin Day by giving the Pikmin more to carry."
+      },
+      "stats": [
+        {
+          "value": "Nov 12",
+          "label": "full release"
+        },
+        {
+          "value": "Free",
+          "label": "demo available now"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 56,
+      "prevHype": 54,
+      "source": "Gaming Route",
+      "url": "https://gamingroute.com/pikmin-day-direct-pikmin-4-demo/",
+      "published": "2026-10-31"
     },
     {
       "id": "game-walmart-zelda-switch-2-preorders",
@@ -1291,64 +1939,18 @@
       ],
       "motif": "bag",
       "category": "gaming",
-      "hype": 66,
-      "prevHype": null,
+      "hype": 54,
+      "prevHype": 66,
       "source": "Kotaku",
       "url": "https://kotaku.com/if-walmart-canceled-your-zelda-switch-2-pre-order-the-stores-giving-you-48-hours-to-get-a-new-one-2000751739",
       "published": "2026-10-31"
-    },
-    {
-      "id": "ai-claude-code-game-clones",
-      "title": "Anthropic tells Claude Code to refuse cloning existing games",
-      "summary": "Anthropic added two sentences to Claude Code's prompt so it declines to recreate specific existing games, even under a new name.",
-      "why": "AI coding tools make it easy to copy games, and stores are already seeing AI-made clones.",
-      "happened": "An Anthropic staff engineer confirmed the change on X on October 30, citing intellectual property concerns. It follows complaints about AI-made game clones on Steam. Some developers say it also blocks legitimate reverse-engineering work.",
-      "next": "Watch for whether other AI coding tools add similar rules or Anthropic adjusts this one.",
-      "drivers": [
-        {
-          "label": "Controversy",
-          "text": "Developers say the rule also catches legitimate work."
-        },
-        {
-          "label": "Trend",
-          "text": "AI-made clones have been showing up on Steam."
-        },
-        {
-          "label": "Big name",
-          "text": "Claude Code is one of the most used AI coding tools."
-        }
-      ],
-      "background": "Claude Code is Anthropic's coding agent, which writes and edits software from plain-language instructions.",
-      "entities": [
-        "Anthropic",
-        "AI coding",
-        "AI in games"
-      ],
-      "meme": {
-        "top": "Claude Code will no longer clone games",
-        "bottom": "even if you rename the plumber",
-        "take": "Anthropic's coding agent will now build almost any game except the one you already played."
-      },
-      "stats": [
-        {
-          "value": "2",
-          "label": "sentences added to prompt"
-        }
-      ],
-      "motif": "game",
-      "category": "ai",
-      "hype": 64,
-      "prevHype": null,
-      "source": "Gaming Route",
-      "url": "https://gamingroute.com/claude-code-game-clone-rule/",
-      "published": "2026-10-30"
     },
     {
       "id": "tech-polymarket-drain",
       "title": "Polymarket halts trading after $2.5 million is drained through third-party code",
       "summary": "Prediction market Polymarket paused trading after attackers used compromised third-party code on its website to drain about $2.5 million.",
       "why": "It is the second big crypto platform hit in a week, after Binance.",
-      "happened": "BleepingComputer reports a crypto-draining script was injected through third-party code on the site. Trading was halted while the company responded.",
+      "happened": "The Hacker News reports attackers compromised DebugBear, a third-party service on the site, and drained about $2.7 million from 33 deposit wallets in under an hour. Trading was briefly suspended.",
       "next": "Watch for Polymarket's account of the breach and when trading fully resumes.",
       "drivers": [
         {
@@ -1377,14 +1979,22 @@
       },
       "stats": [
         {
-          "value": "$2.5M",
+          "value": "~$2.7M",
           "label": "drained, reported"
+        },
+        {
+          "value": "33",
+          "label": "deposit wallets hit"
+        },
+        {
+          "value": "<1 hr",
+          "label": "attack window"
         }
       ],
       "motif": "shield",
       "category": "tech",
-      "hype": 64,
-      "prevHype": null,
+      "hype": 54,
+      "prevHype": 64,
       "source": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
       "published": "2026-10-30"
@@ -1434,106 +2044,51 @@
       ],
       "motif": "voice",
       "category": "entertainment",
-      "hype": 64,
-      "prevHype": null,
+      "hype": 52,
+      "prevHype": 64,
       "source": "Awards Radar",
       "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/",
       "published": "2026-11-01"
     },
     {
-      "id": "tech-moldova-cyberattack",
-      "title": "A cyberattack takes down more than 80 Moldovan public service websites",
-      "summary": "Moldova took over 80 public service sites offline after a cyberattack, and about 750,000 people had personal data stolen.",
-      "why": "About a third of the country's population had data taken, and services were knocked out for days.",
-      "happened": "Nearly two dozen sites remained offline afterwards, RFE/RL reports. The stolen data covers roughly 750,000 people, about a third of Moldova's population.",
-      "next": "Watch for attribution and how quickly the remaining services come back online.",
+      "id": "game-star-wars-jedi-3-progress",
+      "title": "Bloomberg's Schreier says Star Wars Jedi 3 is far along and Battlefront hasn't started",
+      "summary": "Jason Schreier says Respawn's third Star Wars Jedi game is 'far in development', while EA's next Battlefront 'hasn't even started yet'.",
+      "why": "Star Wars games are some of EA's biggest bets, and fans want to know what is coming next.",
+      "happened": "Schreier posted the claims on Bluesky. EA has not confirmed either one. It follows reports this week about BioWare and Battlefront's place in EA's plans.",
+      "next": "Watch for any official word from EA or Respawn on the next Jedi game.",
       "drivers": [
-        {
-          "label": "Scale",
-          "text": "About a third of the population had data stolen."
-        },
-        {
-          "label": "Risk",
-          "text": "Public services stayed offline for days."
-        }
-      ],
-      "background": "Moldova is a small European country between Romania and Ukraine that applied to join the EU.",
-      "entities": [
-        "Cybersecurity",
-        "Data breaches",
-        "Governments"
-      ],
-      "meme": {
-        "top": "Moldova's public websites went down",
-        "bottom": "and stayed down for a while",
-        "take": "Moldova is restoring public services after an attack that reached a third of its people."
-      },
-      "stats": [
-        {
-          "value": "80+",
-          "label": "public sites taken down"
-        },
-        {
-          "value": "~750,000",
-          "label": "people with data stolen"
-        }
-      ],
-      "motif": "globe",
-      "category": "tech",
-      "hype": 62,
-      "prevHype": null,
-      "source": "RFE/RL",
-      "url": "https://www.rferl.org/a/moldova-cyberattack-data-breach-750000-sandu/33886733.html",
-      "published": "2026-10-30"
-    },
-    {
-      "id": "game-ffxiv-evercold-delay",
-      "title": "Final Fantasy XIV: Evercold slips to February 23, 2027",
-      "summary": "Square Enix moved the Evercold expansion from January to February 23, 2027, with early access from February 19 and pre-orders opening November 4.",
-      "why": "Final Fantasy XIV has one of the largest and most loyal player bases among online RPGs.",
-      "happened": "Producer Naoki Yoshida said the team needed about three more weeks. The keynote also revealed the Zephyr, a ranged damage job that uses a crossbow, as the expansion's second new job.",
-      "next": "Watch for pre-order details on November 4 and more job reveals.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "Expansions are the biggest events of the game's calendar."
-        },
         {
           "label": "Big name",
-          "text": "Naoki Yoshida is one of Square Enix's best-known producers."
+          "text": "Schreier is one of gaming's best-sourced reporters."
+        },
+        {
+          "label": "Fan demand",
+          "text": "The Jedi series is EA's most loved Star Wars line."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It contrasts sharply with recent Battlefront reports."
         }
       ],
-      "background": "Final Fantasy XIV is Square Enix's online RPG, relaunched in 2013 and still growing with paid expansions.",
+      "background": "Respawn made Star Wars Jedi: Fallen Order and Survivor. EA holds the Star Wars game license with Lucasfilm.",
       "entities": [
-        "Square Enix",
-        "Delays",
-        "Live-service games"
+        "Star Wars",
+        "EA",
+        "Respawn"
       ],
       "meme": {
-        "top": "Final Fantasy XIV needed three weeks",
-        "bottom": "and asked for them politely",
-        "take": "Square Enix delayed Evercold by a month, which in MMO time counts as early."
+        "top": "One Star Wars game is far along",
+        "bottom": "the other is still a feeling",
+        "take": "EA's Star Wars plans are reportedly split between nearly done and not yet a document."
       },
-      "stats": [
-        {
-          "value": "Feb 23, 2027",
-          "label": "new release date"
-        },
-        {
-          "value": "Feb 19",
-          "label": "early access starts"
-        },
-        {
-          "value": "Nov 4",
-          "label": "pre-orders open"
-        }
-      ],
+      "stats": [],
       "motif": "game",
       "category": "gaming",
-      "hype": 62,
-      "prevHype": 80,
+      "hype": 52,
+      "prevHype": 70,
       "source": "Gaming Route",
-      "url": "https://gamingroute.com/ffxiv-evercold-release-date/",
+      "url": "https://gamingroute.com/gaming-news-today-october-31-2026/",
       "published": "2026-10-31"
     },
     {
@@ -1581,629 +2136,11 @@
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 62,
-      "prevHype": null,
-      "source": "Awards Radar",
-      "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/",
-      "published": "2026-11-01"
-    },
-    {
-      "id": "ai-big-tech-3-trillion-commitments",
-      "title": "Five tech giants have over $3 trillion in future AI spending commitments",
-      "summary": "Bloomberg totaled disclosed leases, construction, energy and equipment commitments at Alphabet, Meta, Microsoft, Amazon and Oracle at more than $3 trillion.",
-      "why": "It shows how much of the AI build-out is already locked in, whatever happens to demand.",
-      "happened": "Alphabet lists more than $1 trillion, nearly eight times a year earlier. Meta lists over $800 billion, almost half in data center leases not yet started. The total includes about $1.3 trillion in future lease payments.",
-      "next": "Watch for whether investors push these companies to slow spending in coming earnings.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "The commitments top $3 trillion across five companies."
-        },
-        {
-          "label": "Risk",
-          "text": "Some lease payments stretch out as far as 30 years."
-        },
-        {
-          "label": "Timing",
-          "text": "It landed as the Nasdaq posted a third straight weekly loss."
-        }
-      ],
-      "background": "Big tech firms are building data centers to train and run AI models, often signing long leases years in advance.",
-      "entities": [
-        "AI infrastructure",
-        "Google",
-        "Meta",
-        "AI stocks"
-      ],
-      "meme": {
-        "top": "Big Tech signed $3 trillion in leases",
-        "bottom": "the landlords are having a lovely year",
-        "take": "The AI boom's most reliable winners so far are people who own land near power lines."
-      },
-      "stats": [
-        {
-          "value": "$3T+",
-          "label": "future commitments, 5 firms"
-        },
-        {
-          "value": "$1T+",
-          "label": "Alphabet commitments"
-        },
-        {
-          "value": "$800B+",
-          "label": "Meta future spending"
-        }
-      ],
-      "motif": "money",
-      "category": "ai",
-      "hype": 60,
-      "prevHype": 78,
-      "source": "DEV Community",
-      "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-1-2026-google-folds-jules-into-antigravity-claude-ultra-drops-the-3e5e",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "tech-sungrow-solar-access",
-      "title": "Hackers had backend access to about 250,000 Sungrow solar systems in Germany",
-      "summary": "Die Zeit reports attackers could reach the backend controlling about 250,000 Sungrow solar systems, mostly on private homes.",
-      "why": "Home solar is now a big part of Europe's power supply, so remote control of it is a grid-level risk.",
-      "happened": "The reports say simultaneous shutdowns could in theory destabilize the grid across Europe. Most affected systems are on private homes in Germany.",
-      "next": "Watch for Sungrow's fix and whether regulators tighten rules on internet-connected inverters.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "About 250,000 systems were reachable."
-        },
-        {
-          "label": "Risk",
-          "text": "Mass shutdowns could strain Europe's power grid."
-        },
-        {
-          "label": "Trend",
-          "text": "Connected home energy devices are spreading fast."
-        }
-      ],
-      "background": "Sungrow is a Chinese maker of solar inverters, the boxes that connect home panels to the grid.",
-      "entities": [
-        "Cybersecurity",
-        "Energy",
-        "Smart home"
-      ],
-      "meme": {
-        "top": "250,000 solar panels had one remote",
-        "bottom": "and someone else was holding it",
-        "take": "Germany's rooftops turned out to share a backend, which is efficient in the worst way."
-      },
-      "stats": [
-        {
-          "value": "~250,000",
-          "label": "systems reachable, reported"
-        }
-      ],
-      "motif": "power",
-      "category": "tech",
-      "hype": 60,
-      "prevHype": null,
-      "source": "Die Zeit",
-      "url": "https://www.zeit.de/digital/2026-10/hackerangriff-solaranlagen-sicherheitsluecke-blackout-solarenergie",
-      "published": "2026-10-30"
-    },
-    {
-      "id": "game-sony-intelligent-pricing-listing",
-      "title": "A Sony job listing mentioning 'Intelligent Pricing' revives personalized-pricing worries",
-      "summary": "A PlayStation listing for a digital monetization director refers to 'Intelligent Pricing' and expanding 'Targeted Offers', prompting player concern.",
-      "why": "Players worry that personalized prices could mean different people pay different amounts for the same game.",
-      "happened": "The listing is for a Senior Director of Digital Games Monetization. It does not explain how either tool works, and Sony has not said what they mean.",
-      "next": "Watch for whether Sony explains what Intelligent Pricing refers to.",
-      "drivers": [
-        {
-          "label": "Controversy",
-          "text": "Players fear prices tailored to each buyer."
-        },
-        {
-          "label": "Big name",
-          "text": "PlayStation Store is one of the largest game shops."
-        },
-        {
-          "label": "Risk",
-          "text": "The listing gives no detail, so speculation fills the gap."
-        }
-      ],
-      "background": "Sony runs PlayStation and its digital PlayStation Store, which sells games for the PS5.",
-      "entities": [
-        "Sony",
-        "PlayStation",
-        "Game prices"
-      ],
-      "meme": {
-        "top": "Sony is hiring for Intelligent Pricing",
-        "bottom": "players would take regular pricing",
-        "take": "A job ad used the word 'intelligent' near 'pricing', and players took it very personally."
-      },
-      "stats": [],
-      "motif": "money",
-      "category": "gaming",
-      "hype": 60,
-      "prevHype": null,
-      "source": "Gaming Route",
-      "url": "https://gamingroute.com/gaming-news-today-october-31-2026/",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "ent-jailer-2-box-office",
-      "title": "Jailer 2 nears the all-time Tamil box office record in India",
-      "summary": "Rajinikanth's Jailer 2 has grossed about 777 crore rupees worldwide in 16 days and is within 10 crore of 2.0's Tamil record in India.",
-      "why": "Rajinikanth is one of India's biggest stars, and records like this are closely followed.",
-      "happened": "Its Indian gross stands at about 509 crore rupees, per Sacnilk figures. Its net in India is about 435 crore rupees, roughly $45 million.",
-      "next": "Watch for whether it passes 2.0's record in the coming days.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Rajinikanth has led Tamil cinema for decades."
-        },
-        {
-          "label": "Rivalry",
-          "text": "It is chasing 2.0, another Rajinikanth film."
-        },
-        {
-          "label": "Scale",
-          "text": "About $81 million worldwide in 16 days."
-        }
-      ],
-      "background": "Jailer 2 is the sequel to the 2023 hit Jailer. Tamil cinema is based in Chennai in southern India.",
-      "entities": [
-        "India",
-        "Box office",
-        "Theatrical releases"
-      ],
-      "meme": {
-        "top": "Rajinikanth is chasing a record",
-        "bottom": "set by Rajinikanth",
-        "take": "Jailer 2's only real competition is another Rajinikanth movie, which feels about right."
-      },
-      "stats": [
-        {
-          "value": "₹776.95 cr",
-          "label": "worldwide gross, 16 days"
-        },
-        {
-          "value": "~$81M",
-          "label": "worldwide, converted"
-        },
-        {
-          "value": "₹509.45 cr",
-          "label": "India gross"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 60,
-      "prevHype": null,
-      "source": "One Mann's Movies",
-      "url": "https://onemannsmovies.com/movie-news/movie-news-1st-november-2026/",
-      "published": "2026-11-01"
-    },
-    {
-      "id": "ai-amd-nvidia-kimi-k3-costs",
-      "title": "SemiAnalysis tests show AMD chips serving Kimi K3 for less than Nvidia's B200",
-      "summary": "SemiAnalysis benchmark data shows AMD's MI355X serving Moonshot's Kimi K3 model at up to 2.3 times lower cost per token than Nvidia's B200.",
-      "why": "Running AI models is becoming the biggest computing bill, so cheaper inference matters to every AI company.",
-      "happened": "At 100 tokens per second per user, the MI355X cost $0.077 per million tokens against $0.179 on the B200. Analysts credit the MI355X's larger high-bandwidth memory and AMD's kernel tuning.",
-      "next": "Watch for Nvidia's response and whether AI providers shift inference work to AMD.",
-      "drivers": [
-        {
-          "label": "Rivalry",
-          "text": "AMD is chasing Nvidia's lead in AI chips."
-        },
-        {
-          "label": "Money",
-          "text": "The cost gap is up to 2.3 times per token."
-        },
-        {
-          "label": "Trend",
-          "text": "Inference is overtaking training as the main AI workload."
-        }
-      ],
-      "background": "Nvidia makes most AI chips; AMD is its main rival. Moonshot is the Chinese AI lab behind the Kimi models.",
-      "entities": [
-        "Nvidia",
-        "AMD",
-        "AI chips",
-        "China"
-      ],
-      "meme": {
-        "top": "AMD ran the model for less",
-        "bottom": "Nvidia ran the numbers again",
-        "take": "AMD's chips came out cheaper in the test, a phrase Nvidia rarely hears about its own products."
-      },
-      "stats": [
-        {
-          "value": "2.3x",
-          "label": "lower cost per token, AMD"
-        },
-        {
-          "value": "$0.077",
-          "label": "per million tokens, MI355X"
-        },
-        {
-          "value": "$0.179",
-          "label": "per million tokens, B200"
-        }
-      ],
-      "motif": "chip",
-      "category": "ai",
-      "hype": 58,
-      "prevHype": null,
-      "source": "SemiAnalysis",
-      "url": "https://aiweekly.co/ai-news-today",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "tech-memory-makers-outearn-big-tech",
-      "title": "Memory chip makers outearn five big US tech firms for the first time",
-      "summary": "Nikkei reports five leading memory suppliers made more combined profit last quarter than five big US tech companies.",
-      "why": "AI's demand for memory has turned a boom-and-bust chip business into one of tech's most profitable.",
-      "happened": "SK Hynix, Samsung and Kioxia reported September-quarter operating margins of around 80%. Micron's fiscal 2026 revenue rose 256% to $133.2 billion.",
-      "next": "Watch for whether memory prices stay this high as new factories come online.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "Operating margins reached around 80%."
-        },
-        {
-          "label": "First of its kind",
-          "text": "Nikkei says it is the first time this has happened."
-        },
-        {
-          "label": "Trend",
-          "text": "AI servers need huge amounts of high-bandwidth memory."
-        }
-      ],
-      "background": "Memory chips store data for processors; SK Hynix and Samsung are both based in South Korea.",
-      "entities": [
-        "AI chips",
-        "Samsung",
-        "South Korea",
-        "Earnings"
-      ],
-      "meme": {
-        "top": "Memory makers out-earned Big Tech",
-        "bottom": "the boring chips had a great quarter",
-        "take": "AI made memory chips so profitable that the storage aisle is now the exciting part of tech."
-      },
-      "stats": [
-        {
-          "value": "~80%",
-          "label": "operating margins, 3 makers"
-        },
-        {
-          "value": "$133.2B",
-          "label": "Micron FY2026 revenue"
-        },
-        {
-          "value": "+256%",
-          "label": "Micron revenue growth"
-        }
-      ],
-      "motif": "chip",
-      "category": "tech",
-      "hype": 58,
-      "prevHype": null,
-      "source": "Nikkei Asia",
-      "url": "https://aiweekly.co/ai-news-today",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "ent-street-fighter-drop",
-      "title": "Paramount's Street Fighter film falls 63% in its third weekend",
-      "summary": "The Street Fighter movie took $3.2 million, the steepest drop in the top 10, as the game adaptation slid to fifth place.",
-      "why": "Game adaptations have been a growth area for studios, so a sharp fall gets noticed.",
-      "happened": "It played in 2,825 theaters. Sony's Resident Evil, another game adaptation, re-entered the top 10 with $2.5 million after a 13% dip.",
-      "next": "Watch for its home release date as it loses screens.",
-      "drivers": [
-        {
-          "label": "Trend",
-          "text": "Game adaptations are a big studio bet right now."
-        },
-        {
-          "label": "Risk",
-          "text": "It had the steepest drop in the top 10."
-        }
-      ],
-      "background": "Street Fighter is Capcom's fighting game series, first released in 1987.",
-      "entities": [
-        "Capcom",
-        "Paramount",
-        "Game adaptations",
-        "Box office"
-      ],
-      "meme": {
-        "top": "Street Fighter lost 63% in a weekend",
-        "bottom": "no special move was announced",
-        "take": "Street Fighter's box office took a combo it could not block."
-      },
-      "stats": [
-        {
-          "value": "$3.2M",
-          "label": "weekend gross"
-        },
-        {
-          "value": "-63%",
-          "label": "weekend drop"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 58,
-      "prevHype": null,
-      "source": "Awards Radar",
-      "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/",
-      "published": "2026-11-01"
-    },
-    {
-      "id": "game-skyblivion-legal-threat",
-      "title": "Skyblivion mod team says a former volunteer is threatening to sue",
-      "summary": "The team remaking Oblivion inside Skyrim says an ex-volunteer is seeking over 30,000 euros, and it has removed that person's work.",
-      "why": "Skyblivion is one of the most anticipated fan projects in gaming.",
-      "happened": "The team is looking for free legal help, PC Gamer reports. No court filing has been made public. The project lead urged fans not to turn it into a witch hunt.",
-      "next": "Watch for whether the dispute affects the mod's progress.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "The mod has been followed by fans for years."
-        },
-        {
-          "label": "Risk",
-          "text": "A legal dispute could slow a volunteer project."
-        }
-      ],
-      "background": "Skyblivion is a free fan remake of Bethesda's 2006 game Oblivion, built in Skyrim's engine.",
-      "entities": [
-        "Bethesda",
-        "Mods"
-      ],
-      "meme": {
-        "top": "A free fan project hit a legal snag",
-        "bottom": "over work nobody was paid for",
-        "take": "Skyblivion has found the one part of game development volunteers cannot do for free."
-      },
-      "stats": [
-        {
-          "value": "30,000+",
-          "label": "euros sought, per team"
-        }
-      ],
-      "motif": "doc",
-      "category": "gaming",
-      "hype": 56,
-      "prevHype": null,
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/the-elder-scrolls/elder-scrolls-skyblivion-mod-faces-lawsuit-from-former-volunteer-project-lead-urges-please-dont-turn-this-into-any-kind-of-witch-hunt/",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "ent-only-living-pickpocket-expands",
-      "title": "The Only Living Pickpocket in New York jumps 1,284% as it goes wide",
-      "summary": "Noah Segan's crime thriller expanded to 1,112 theaters and took $1.9 million, the biggest gain on the weekend chart.",
-      "why": "Critics love it, and a wide expansion tests whether that turns into ticket sales.",
-      "happened": "Sony Pictures Classics is releasing the film. It holds a 97% score on Rotten Tomatoes, according to Franchise Re, and placed ninth for the weekend.",
-      "next": "Watch for whether word of mouth lifts it further next weekend.",
-      "drivers": [
-        {
-          "label": "Trend",
-          "text": "It had the biggest week-on-week rise in the top 10."
-        },
-        {
-          "label": "Fan demand",
-          "text": "It has a 97% Rotten Tomatoes score."
-        }
-      ],
-      "background": "Sony Pictures Classics is Sony's specialty label for smaller, often award-focused films.",
-      "entities": [
-        "Sony",
-        "Theatrical releases"
-      ],
-      "meme": {
-        "top": "A film about a pickpocket",
-        "bottom": "lifted 1,284% more than last week",
-        "take": "The Only Living Pickpocket in New York took $1.9 million from audiences, all of it legally."
-      },
-      "stats": [
-        {
-          "value": "+1,284%",
-          "label": "weekend change"
-        },
-        {
-          "value": "$1.9M",
-          "label": "weekend gross"
-        },
-        {
-          "value": "1,112",
-          "label": "theaters"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 56,
-      "prevHype": null,
-      "source": "Awards Radar",
-      "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/",
-      "published": "2026-11-01"
-    },
-    {
-      "id": "game-pikmin-4-demo",
-      "title": "Nintendo marks Pikmin Day with a free Pikmin 4 Switch 2 Edition demo",
-      "summary": "A free demo of Pikmin 4's Switch 2 Edition arrives November 2, following a Pikmin Day Direct on November 1.",
-      "why": "A free demo is the easiest way for new Switch 2 owners to try the series.",
-      "happened": "November 1 is Pikmin Day. Alongside the demo, the mobile game Pikmin Bloom is adding new caves.",
-      "next": "Watch for the Switch 2 Edition's full launch details.",
-      "drivers": [
-        {
-          "label": "Timing",
-          "text": "It lands on the day after Pikmin Day."
-        },
-        {
-          "label": "Fan demand",
-          "text": "The series has a loyal following on Nintendo consoles."
-        }
-      ],
-      "background": "Pikmin is Nintendo's strategy series about tiny plant creatures, created by Shigeru Miyamoto.",
-      "entities": [
-        "Nintendo",
-        "Switch 2"
-      ],
-      "meme": {
-        "top": "Pikmin got its own day",
-        "bottom": "and the Pikmin are still working",
-        "take": "Nintendo celebrated Pikmin Day by giving the Pikmin more to carry."
-      },
-      "stats": [
-        {
-          "value": "Nov 2",
-          "label": "free demo"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 54,
-      "prevHype": null,
-      "source": "Gaming Route",
-      "url": "https://gamingroute.com/pikmin-day-direct-pikmin-4-demo/",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "ent-paramount-wbd-reshuffle",
-      "title": "Paramount Skydance and Warner Bros. Discovery merger brings a leadership reshuffle",
-      "summary": "The $110 billion Paramount Skydance and Warner Bros. Discovery merger is reported to be bringing executive exits and new reporting lines.",
-      "why": "The combined company will own a huge share of Hollywood's films, shows and streaming.",
-      "happened": "Reports describe senior departures, new structures and consolidated international leadership across streaming and TV. Nickelodeon also cancelled a series after three seasons amid the merger, The Direct reports.",
-      "next": "Watch for which executives lead the combined studio and streaming units.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "The merger is valued at about $110 billion."
-        },
-        {
-          "label": "Risk",
-          "text": "Staff reportedly fear cuts as the companies combine."
-        }
-      ],
-      "background": "Paramount owns CBS and Paramount+. Warner Bros. Discovery owns Warner Bros. studios, HBO and HBO Max.",
-      "entities": [
-        "Paramount",
-        "Warner Bros.",
-        "Media mergers"
-      ],
-      "meme": {
-        "top": "Two studios merged into one",
-        "bottom": "the org chart is now a sequel",
-        "take": "Hollywood's biggest merger is mostly being felt as a lot of new email signatures."
-      },
-      "stats": [
-        {
-          "value": "$110B",
-          "label": "merger value"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 54,
-      "prevHype": 72,
-      "source": "Further&Better",
-      "url": "https://furtherandbetter.substack.com/p/global-tv-film-and-media-industry-51d",
-      "published": "2026-10-31"
-    },
-    {
-      "id": "game-elder-scrolls-vi-sentinel",
-      "title": "The Elder Scrolls VI is reported to be called Sentinel, with a reveal in November",
-      "summary": "The Verge reports the next Elder Scrolls game is titled Sentinel and set in Hammerfell, with a title reveal possibly next month.",
-      "why": "It has been one of gaming's longest waits since Bethesda announced the game in 2018.",
-      "happened": "The Verge cites unnamed sources and expects only a title reveal, not gameplay or a date. The reveal is said to be tied to Skyrim's 15th anniversary, possibly November 11. Bethesda has not confirmed it.",
-      "next": "Watch for an official reveal from Bethesda around Skyrim's anniversary.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "Fans have waited for news since a 2018 teaser."
-        },
-        {
-          "label": "Nostalgia",
-          "text": "The reveal is reportedly tied to Skyrim's 15th anniversary."
-        }
-      ],
-      "background": "Bethesda, owned by Microsoft, makes The Elder Scrolls. Skyrim, the last main game, came out in 2011.",
-      "entities": [
-        "Xbox",
-        "Microsoft",
-        "Bethesda"
-      ],
-      "meme": {
-        "top": "Eight years after the teaser",
-        "bottom": "fans may finally get a word",
-        "take": "The Elder Scrolls VI is reportedly ready to reveal its most important feature: a title."
-      },
-      "stats": [
-        {
-          "value": "Nov 11",
-          "label": "reported reveal date"
-        },
-        {
-          "value": "2018",
-          "label": "game first announced"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 52,
-      "prevHype": 70,
-      "source": "Notebookcheck",
-      "url": "https://www.notebookcheck.net/The-Elder-Scrolls-VI-will-reportedly-be-called-Sentinel-reveal-expected-in-November.1437531.0.html",
-      "published": "2026-10-29"
-    },
-    {
-      "id": "ent-instagram-pays-youtubers",
-      "title": "Instagram is reported to offer YouTubers up to $500,000 for long-form video",
-      "summary": "Business Insider reports Instagram is offering creators $50,000 to $500,000 to post horizontal videos to its Features format the same day they hit YouTube.",
-      "why": "Platforms are fighting to win the long videos people watch on their TVs.",
-      "happened": "The deals do not require exclusivity. Features is Instagram's horizontal long-form format aimed at TV viewing. Meta says its long-term plan for paying creators is not yet set.",
-      "next": "Watch for which big creators sign up and whether YouTube responds.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "Reported offers reach $500,000 per creator."
-        },
-        {
-          "label": "Rivalry",
-          "text": "It targets YouTube's grip on long-form video."
-        }
-      ],
-      "background": "Instagram is owned by Meta. YouTube, owned by Google, is the largest platform for long-form online video.",
-      "entities": [
-        "Meta",
-        "YouTube",
-        "Creator economy"
-      ],
-      "meme": {
-        "top": "Instagram wants your YouTube videos",
-        "bottom": "it will even let you keep them",
-        "take": "Instagram's new strategy is paying creators to upload the video they were already uploading."
-      },
-      "stats": [
-        {
-          "value": "$500K",
-          "label": "top offer per creator, reported"
-        },
-        {
-          "value": "$50K",
-          "label": "low end, reported"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
       "hype": 50,
-      "prevHype": 66,
-      "source": "Tubefilter",
-      "url": "https://www.tubefilter.com/2026/10/29/instagram-offering-youtubers-new-features-format/",
-      "published": "2026-10-29"
+      "prevHype": 62,
+      "source": "Awards Radar",
+      "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/",
+      "published": "2026-11-01"
     }
   ]
 }
