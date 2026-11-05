@@ -1088,7 +1088,7 @@
   }
  },
  "ai-anthropic-rsi-filing": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Recursive self-improvement means AI speeding up the research that produces better AI. Anthropic makes Claude.",
    "category": "ai",
@@ -1112,7 +1112,7 @@
     "Frontier models"
    ],
    "happened": "Anthropic says no current model has crossed the threshold and it is still assessing the data. It also says it may not spot sharp acceleration until after it happens, and does not expect to let Claude build new frontier models without human supervision.",
-   "hype": 92,
+   "hype": 78,
    "id": "ai-anthropic-rsi-filing",
    "meme": {
     "bottom": "the product may improve itself",
@@ -1121,7 +1121,7 @@
    },
    "motif": "network",
    "next": "Watch for changes to Anthropic's Responsible Scaling Policy and how other labs respond.",
-   "prevHype": 92,
+   "prevHype": 78,
    "published": "2026-11-02",
    "source": "TechCrunch",
    "stats": [],
@@ -1132,7 +1132,7 @@
   }
  },
  "ai-anthropic-s1-q3-revenue": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Anthropic is the San Francisco AI company behind the Claude models, founded in 2021.",
    "category": "ai",
@@ -1156,7 +1156,7 @@
     "AI infrastructure"
    ],
    "happened": "Nine-month revenue reached $33.24 billion. CNBC says the Q3 loss came mainly from non-cash changes in the value of convertible notes and derivatives. Purchase commitments and leases total about $895.4 billion.",
-   "hype": 84,
+   "hype": 72,
    "id": "ai-anthropic-s1-q3-revenue",
    "meme": {
     "bottom": "and lost $23 billion on paper",
@@ -1165,7 +1165,7 @@
    },
    "motif": "money",
    "next": "Watch for the final IPO price range and how investors react to the commitments.",
-   "prevHype": 84,
+   "prevHype": 72,
    "published": "2026-11-02",
    "source": "CNBC",
    "stats": [
@@ -1615,6 +1615,59 @@
    "title": "Apple Intelligence reaches China in December, with Alibaba's Qwen inside",
    "url": "https://thenextweb.com/news/apple-intelligence-china-ios-27-3-alibaba-qwen",
    "why": "China is one of Apple's biggest markets, and it has gone two years without Apple's AI features."
+  }
+ },
+ "ai-applied-compute-350m": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Elad Gil is a well-known Silicon Valley investor in AI startups.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "A $3.25 billion valuation for a young cloud company."
+    },
+    {
+     "label": "Big name",
+     "text": "Nvidia joined the round."
+    }
+   ],
+   "entities": [
+    "AI funding",
+    "Nvidia",
+    "AI infrastructure"
+   ],
+   "happened": "SiliconANGLE reports the startup has over $100 million in annual recurring revenue and counts Microsoft and DoorDash among its customers.",
+   "hype": 54,
+   "id": "ai-applied-compute-350m",
+   "meme": {
+    "bottom": "and is now worth $3.25 billion",
+    "take": "Selling shovels in a gold rush still works, especially when Nvidia makes the shovels.",
+    "top": "A startup rents out AI computers"
+   },
+   "motif": "money",
+   "next": "Watch for how it spends the money on chips and capacity.",
+   "prevHype": null,
+   "published": "2026-11-03",
+   "source": "SiliconANGLE",
+   "stats": [
+    {
+     "label": "funding raised",
+     "value": "$350M"
+    },
+    {
+     "label": "valuation",
+     "value": "$3.25B"
+    },
+    {
+     "label": "annual recurring revenue",
+     "value": "$100M+"
+    }
+   ],
+   "summary": "Applied Compute raised $350 million in a round led by Elad Gil, with Nvidia, Shopify Ventures and HubSpot Ventures joining.",
+   "title": "AI cloud startup Applied Compute raises $350 million at a $3.25 billion valuation",
+   "url": "https://aiweekly.co/ai-news-today",
+   "why": "Investors keep funding newer cloud providers that sell AI computing power."
   }
  },
  "ai-artex-china-hackers": {
@@ -3044,6 +3097,63 @@
    "why": "CoreWeave is a bellwether for the borrowing that pays for AI data centers."
   }
  },
+ "ai-data-center-ballots": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "AI data centers are huge computer buildings that use large amounts of electricity and often water for cooling.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "More than 40 measures in 10 states went to voters on the same night."
+    },
+    {
+     "label": "Controversy",
+     "text": "Data centers' power and water use have become a local political fight."
+    },
+    {
+     "label": "Timing",
+     "text": "The votes came as AI companies race to build ever larger campuses."
+    }
+   ],
+   "entities": [
+    "AI infrastructure",
+    "Data centers",
+    "Energy"
+   ],
+   "happened": "Route Fifty says Ohio held almost 20 votes and opponents appear to have won them all. Emporia, Kansas banned high-impact data centers with just over 60%. Harwood, North Dakota was the only place backers prevailed. Some votes are advisory.",
+   "hype": 88,
+   "id": "ai-data-center-ballots",
+   "meme": {
+    "bottom": "the one win was in North Dakota",
+    "take": "Data centers had a rough election night, and they were not even on the ballot as candidates.",
+    "top": "Over 40 towns voted on data centers"
+   },
+   "motif": "power",
+   "next": "Watch for further local votes in North Dakota and Arkansas next month and responses from AI firms.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "Route Fifty",
+   "stats": [
+    {
+     "label": "local data center measures",
+     "value": "40+"
+    },
+    {
+     "label": "states voting",
+     "value": "10"
+    },
+    {
+     "label": "Emporia ban support",
+     "value": "~60%"
+    }
+   ],
+   "summary": "Data center opponents won virtually all of more than 40 local ballot measures across 10 US states in Tuesday's elections, early results show.",
+   "title": "Voters reject AI data centers in nearly every local ballot measure",
+   "url": "https://www.route-fifty.com/artificial-intelligence/2026/11/voters-reject-data-centers-local-ballot-initiatives/417033/",
+   "why": "Local resistance could slow the data center buildout that the AI boom depends on."
+  }
+ },
  "ai-data-centre-pushback": {
   "lastSeen": "2026-11-01",
   "story": {
@@ -4226,7 +4336,7 @@
   }
  },
  "ai-gemini-4-carbon": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Gemini is Google's family of AI models. Artificial Analysis is an independent firm that benchmarks them.",
    "category": "ai",
@@ -4251,16 +4361,16 @@
     "Cybersecurity"
    ],
    "happened": "Tom's Hardware says it also leads a knowledge and hallucination test with 54, though it trails Opus 5.5 at coding. It costs about $7.76 per index task. Google is first offering it to selected cyber defenders before wider access.",
-   "hype": 86,
+   "hype": 74,
    "id": "ai-gemini-4-carbon",
    "meme": {
-    "bottom": "and kept most people off the podium",
-    "take": "Gemini 4 Carbon leads the chart, and for now mostly cyber defenders are allowed to use it.",
+    "bottom": "and kept the trophy in a locked room",
+    "take": "Gemini 4 Carbon leads the chart, and mostly cyber defenders are allowed to touch it.",
     "top": "Google took first place by one point"
    },
    "motif": "network",
    "next": "Watch for when developers get access and whether rival labs answer with new models.",
-   "prevHype": 86,
+   "prevHype": 74,
    "published": "2026-11-03",
    "source": "Tom's Hardware",
    "stats": [
@@ -4281,6 +4391,59 @@
    "title": "Google's Gemini 4 Carbon edges past Claude Opus 5.5 on a key AI leaderboard",
    "url": "https://tomshardware.com/tech-industry/artificial-intelligence/google-reveals-new-gemini-4-carbon-ai-model-narrowly-beating-claude-opus-5-5-frontier-ai-model-is-also-the-least-likely-to-hallucinate-benchmarks-claim",
    "why": "Top spot on the main leaderboards keeps changing hands between Google, Anthropic and OpenAI."
+  }
+ },
+ "ai-gemini-chat-training": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Gemini is Google's AI assistant and model family. Rival chatbots also offer settings to opt out of training.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Controversy",
+     "text": "A Hacker News thread on the setting drew hundreds of upvotes."
+    },
+    {
+     "label": "Risk",
+     "text": "Google warns users not to enter anything they would not want a reviewer to see."
+    },
+    {
+     "label": "Big name",
+     "text": "Gemini is one of the most widely used chatbots."
+    }
+   ],
+   "entities": [
+    "Google",
+    "Privacy",
+    "Gemini"
+   ],
+   "happened": "Turning Keep Activity off stops training on future chats but deletes stored chats after 72 hours. Some chats go to human reviewers and can be kept up to three years. Paid API, Vertex AI and Workspace tiers are exempt, AI Weekly reports.",
+   "hype": 70,
+   "id": "ai-gemini-chat-training",
+   "meme": {
+    "bottom": "and also tutor it for free",
+    "take": "Gemini Pro subscribers have discovered their plan includes unpaid teaching duties.",
+    "top": "You pay for Gemini every month"
+   },
+   "motif": "shield",
+   "next": "Watch for whether Google changes the default or explains it further.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "AI Weekly",
+   "stats": [
+    {
+     "label": "chat storage if opted out",
+     "value": "72 hrs"
+    },
+    {
+     "label": "max reviewer retention",
+     "value": "3 yrs"
+    }
+   ],
+   "summary": "Reports note Gemini trains on saved chats from personal accounts, including paid ones, unless users turn off Keep Activity.",
+   "title": "Gemini uses paid subscribers' saved chats for training by default",
+   "url": "https://aiweekly.co/alerts/google-gemini-trains-on-paid-subscribers-chats-by-default",
+   "why": "Many people assumed paying for an AI service kept their chats out of training."
   }
  },
  "ai-goldman-limits-ai-coding": {
@@ -4419,6 +4582,64 @@
    "title": "Google is shutting down its Jules coding agent and folding it into Antigravity",
    "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-1-2026-google-folds-jules-into-antigravity-claude-ultra-drops-the-3e5e",
    "why": "Developers who built workflows on Jules now have to move them on a short timeline."
+  }
+ },
+ "ai-google-terawulf-anthropic": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "TeraWulf began as a bitcoin miner and now builds data centers for AI companies. Google is a major Anthropic investor.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "About $19 billion in leases rests on Google's AA+ credit."
+    },
+    {
+     "label": "Big name",
+     "text": "It links Anthropic's computing plans even more closely to Google."
+    },
+    {
+     "label": "Scale",
+     "text": "The campus is planned at about 401 megawatts, Unite.ai reports."
+    }
+   ],
+   "entities": [
+    "Anthropic",
+    "Google",
+    "AI infrastructure",
+    "Data centers"
+   ],
+   "happened": "TeraWulf also signed a construction deal with Fluor for three buildings. Phased handovers are expected from late 2027 through mid-2028. Unite.ai reports the leases tie Anthropic to Google-approved TPU chips. TeraWulf shares fell 4%, 24/7 Wall St. says.",
+   "hype": 76,
+   "id": "ai-google-terawulf-anthropic",
+   "meme": {
+    "bottom": "Google agreed to co-sign it",
+    "take": "Even AI labs need a parent with good credit to get the apartment.",
+    "top": "Anthropic signed a $19 billion lease"
+   },
+   "motif": "money",
+   "next": "Watch for the project debt deal and whether Google backs more AI data center leases.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "TeraWulf",
+   "stats": [
+    {
+     "label": "Anthropic lease commitments",
+     "value": "$19B"
+    },
+    {
+     "label": "first buildings ready",
+     "value": "late 2027"
+    },
+    {
+     "label": "TeraWulf shares on the day",
+     "value": "-4%"
+    }
+   ],
+   "summary": "TeraWulf signed credit support deals with Google for debt tied to about $19 billion in Anthropic leases at its Hawesville, Kentucky campus.",
+   "title": "Google backs the financing for Anthropic's $19 billion Kentucky data center leases",
+   "url": "https://investors.terawulf.com/news-events/press-releases/detail/148/terawulf-secures-google-credit-backstop-for-project-financing-in-support-of-19-billion-anthropic-lease-executes-definitive-fluor-epc-agreement",
+   "why": "It shows how big tech balance sheets now underwrite the AI industry's data center boom."
   }
  },
  "ai-gpt-6-1-terra": {
@@ -4839,6 +5060,64 @@
    "why": "Chinese open-weight models keep closing the gap with the top closed systems."
   }
  },
+ "ai-kimi-k3-1-pro-weights": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Moonshot AI is a Beijing-based startup behind the Kimi chatbot and a series of open-weight models.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "At 2.8 trillion parameters it is one of the biggest open models released."
+    },
+    {
+     "label": "Rivalry",
+     "text": "Moonshot's own scores put it near Claude Opus 5.5 at agentic coding."
+    },
+    {
+     "label": "Risk",
+     "text": "Moonshot says it trimmed the model's hacking skills before release."
+    }
+   ],
+   "entities": [
+    "Open-weight models",
+    "China",
+    "Frontier models",
+    "AI coding"
+   ],
+   "happened": "The mixture-of-experts model has 104 billion active parameters and a 1-million-token context. Moonshot reports 65.7% on Terminal-Bench 4.0, just behind Claude Opus 5.5. It says it removed cyberattack material from training before the release.",
+   "hype": 80,
+   "id": "ai-kimi-k3-1-pro-weights",
+   "meme": {
+    "bottom": "is now a free download",
+    "take": "Kimi K3.1 Pro is open to all, assuming everyone has a spare data center at home.",
+    "top": "A 2.8-trillion-parameter model"
+   },
+   "motif": "network",
+   "next": "Watch for independent benchmark results and how other labs answer.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "The Next Web",
+   "stats": [
+    {
+     "label": "total parameters",
+     "value": "2.8T"
+    },
+    {
+     "label": "active parameters",
+     "value": "104B"
+    },
+    {
+     "label": "Terminal-Bench 4.0, self-reported",
+     "value": "65.7%"
+    }
+   ],
+   "summary": "Moonshot AI released full weights for Kimi K3.1 Pro on Hugging Face, where it topped the trending list.",
+   "title": "Moonshot publishes the open weights for its 2.8-trillion-parameter Kimi K3.1 Pro",
+   "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+   "why": "It is among the largest openly available models and is close to top closed models on some coding tests."
+  }
+ },
  "ai-korean-publishers-no-books-no-ai": {
   "lastSeen": "2026-10-19",
   "story": {
@@ -5000,6 +5279,64 @@
    "title": "Meta's new business terms make advertisers liable for its AI mistakes",
    "url": "https://startupfortune.com/metas-new-business-terms-make-customers-liable-for-its-ais-mistakes/",
    "why": "Advertisers lean on Meta's AI tools, and these terms shift the legal risk of errors onto them."
+  }
+ },
+ "ai-meta-conductor": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Meta owns Facebook, Instagram and WhatsApp and builds its own AI models.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Trend",
+     "text": "Running many coding agents side by side has become a hot developer workflow."
+    },
+    {
+     "label": "Rivalry",
+     "text": "OpenAI announced a developer tools acquisition the same day."
+    },
+    {
+     "label": "Big name",
+     "text": "Meta is spending heavily to catch up in AI."
+    }
+   ],
+   "entities": [
+    "Meta",
+    "AI coding",
+    "AI agents",
+    "Acquisitions"
+   ],
+   "happened": "Axios first reported the deal. Conductor says over 100,000 people use it. Its founders join Meta Superintelligence Labs. Sign-ups stopped at once, the cloud service shuts November 20, and the Mac app works until early 2027.",
+   "hype": 72,
+   "id": "ai-meta-conductor",
+   "meme": {
+    "bottom": "now it reports to Meta",
+    "take": "Meta bought a tool for managing AI agents, then started by managing its users out.",
+    "top": "Conductor ran many AI agents at once"
+   },
+   "motif": "agent",
+   "next": "Watch for what Meta builds with the team and where Conductor's users move.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "SiliconANGLE",
+   "stats": [
+    {
+     "label": "users, company says",
+     "value": "100K+"
+    },
+    {
+     "label": "Series A raised in March",
+     "value": "$22M"
+    },
+    {
+     "label": "cloud service shuts",
+     "value": "Nov 20"
+    }
+   ],
+   "summary": "Meta has acquired Conductor, a startup whose app runs Claude Code, Codex and Cursor agents in parallel, for undisclosed terms.",
+   "title": "Meta buys Conductor, an app that runs several AI coding agents at once",
+   "url": "https://siliconangle.com/2026/11/04/meta-acquires-ai-coding-startup-conductor-whose-app-runs-several-coding-agents-at-once/",
+   "why": "Big tech is racing to own the tools developers use to manage AI coding agents."
   }
  },
  "ai-meta-humanoid-fourier": {
@@ -7920,6 +8257,59 @@
    "why": "Governments are deciding which AI tools staff may use, and those choices can shape the market."
   }
  },
+ "ai-tencent-hy4": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Tencent owns WeChat and is one of the world's biggest video game companies.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Trend",
+     "text": "It arrives the same week as Moonshot's even larger Kimi K3.1 Pro weights."
+    },
+    {
+     "label": "Big name",
+     "text": "Tencent is one of China's largest tech companies."
+    }
+   ],
+   "entities": [
+    "Open-weight models",
+    "China",
+    "Tencent"
+   ],
+   "happened": "The mixture-of-experts model is available across Tencent Cloud and other platforms, ChainCatcher reports via AI Weekly. Tencent is offering a 50% launch discount through December 31.",
+   "hype": 60,
+   "id": "ai-tencent-hy4",
+   "meme": {
+    "bottom": "the smaller one this week",
+    "take": "In this week's Chinese open-model releases, 770 billion parameters counts as compact.",
+    "top": "Tencent released a 770B model"
+   },
+   "motif": "network",
+   "next": "Watch for independent benchmarks and uptake by developers outside China.",
+   "prevHype": null,
+   "published": "2026-11-03",
+   "source": "AI Weekly",
+   "stats": [
+    {
+     "label": "parameters",
+     "value": "770B"
+    },
+    {
+     "label": "token context",
+     "value": "1M"
+    },
+    {
+     "label": "launch discount to Dec 31",
+     "value": "50%"
+    }
+   ],
+   "summary": "Tencent released its Hy4 model with open weights, a 1-million-token context, and vision and computer-use skills.",
+   "title": "Tencent fully launches Hy4, a 770-billion-parameter open-weight model",
+   "url": "https://aiweekly.co/ai-news-today",
+   "why": "Chinese tech giants keep releasing large open models that compete with US labs."
+  }
+ },
  "ai-tenstorrent-1-5b": {
   "lastSeen": "2026-10-20",
   "story": {
@@ -8810,6 +9200,64 @@
    "title": "BTS's São Paulo live viewing takes $2.8 million in US cinemas",
    "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/",
    "why": "BTS fans turn concert screenings into events, and cinemas count on them in quiet weeks."
+  }
+ },
+ "ent-cat-in-the-hat": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "The Cat in the Hat is a 1957 Dr. Seuss picture book. A live-action film in 2003 was poorly received.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Rivalry",
+     "text": "It opens against Godzilla Minus Zero."
+    },
+    {
+     "label": "Nostalgia",
+     "text": "The Dr. Seuss book is a childhood staple for generations."
+    },
+    {
+     "label": "Money",
+     "text": "Warner Bros. spent a reported $92 million on it."
+    }
+   ],
+   "entities": [
+    "Warner Bros.",
+    "Box office",
+    "Theatrical releases",
+    "Book adaptations"
+   ],
+   "happened": "Forbes counted 10 fresh and 10 rotten reviews on November 3. Variety reports a $92 million budget and about 4,000 venues. Xochitl Gomez, Quinta Brunson and Bowen Yang also voice roles.",
+   "hype": 74,
+   "id": "ent-cat-in-the-hat",
+   "meme": {
+    "bottom": "critics have split down the middle",
+    "take": "The Cat in the Hat's reviews are exactly half and half, a very Seussian sort of verdict.",
+    "top": "The Cat in the Hat is back"
+   },
+   "motif": "film",
+   "next": "Watch for its Rotten Tomatoes score settling and its weekend fight with Godzilla Minus Zero.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "Variety",
+   "stats": [
+    {
+     "label": "opening weekend, projected",
+     "value": "$20-25M"
+    },
+    {
+     "label": "budget, reported",
+     "value": "$92M"
+    },
+    {
+     "label": "fresh vs rotten, Nov 3",
+     "value": "10-10"
+    }
+   ],
+   "summary": "The animated Dr. Seuss film voiced by Bill Hader opens November 6, with early reviews split evenly and a $20-25 million debut forecast.",
+   "title": "Warner Bros.' animated The Cat in the Hat opens with split reviews",
+   "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/box-office-godzilla-minus-zero-211224926.html",
+   "why": "It is the main family film of the weekend and a big bet on reviving a famous book brand."
   }
  },
  "ent-christmas-kringles-zero": {
@@ -9836,22 +10284,22 @@
   }
  },
  "ent-godzilla-minus-zero": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Toho is the Japanese studio that created Godzilla in 1954.",
    "category": "entertainment",
    "drivers": [
     {
-     "label": "Big name",
-     "text": "Yamazaki's Minus One won the Oscar for visual effects."
+     "label": "Rivalry",
+     "text": "It faces Warner Bros.' animated The Cat in the Hat on the same weekend."
+    },
+    {
+     "label": "First of its kind",
+     "text": "It is the first Japanese production filmed for IMAX."
     },
     {
      "label": "Fan demand",
-     "text": "Early reviews call it bigger than the first film."
-    },
-    {
-     "label": "Rivalry",
-     "text": "It opens the same weekend as a new Dr. Seuss film."
+     "text": "Godzilla Minus One won an Oscar for visual effects and built a big US following."
     }
    ],
    "entities": [
@@ -9860,36 +10308,36 @@
     "Theatrical releases",
     "Japan"
    ],
-   "happened": "Takashi Yamazaki returns as writer, director and visual effects supervisor, Forbes reports. One box office forecast puts its opening at about $36.2 million, ahead of the animated The Cat in the Hat.",
-   "hype": 80,
+   "happened": "Variety puts it on 3,254 screens, the first Japanese production filmed for IMAX. Minus One opened to $11.4 million. TheWrap says a win would make it only the fourth non-English film to top the US box office.",
+   "hype": 88,
    "id": "ent-godzilla-minus-zero",
    "meme": {
-    "bottom": "Tokyo has not been asked",
-    "take": "Godzilla Minus Zero has strong reviews, which is little comfort to the fictional buildings.",
-    "top": "Godzilla is back for another film"
+    "bottom": "Tokyo was not consulted",
+    "take": "Godzilla may nearly triple its last opening, which is still bad news for the buildings.",
+    "top": "Godzilla may win the US box office"
    },
    "motif": "film",
-   "next": "Watch for whether it tops the weekend box office against The Cat in the Hat.",
-   "prevHype": 80,
-   "published": "2026-10-31",
-   "source": "Forbes",
+   "next": "Watch for Friday's numbers and whether it beats The Cat in the Hat for first place.",
+   "prevHype": 88,
+   "published": "2026-11-04",
+   "source": "Variety",
    "stats": [
     {
-     "label": "Rotten Tomatoes, early reviews",
-     "value": "92%"
+     "label": "opening weekend, projected",
+     "value": "~$30M"
     },
     {
-     "label": "North American release",
-     "value": "Nov 6"
+     "label": "North American screens",
+     "value": "3,254"
     },
     {
-     "label": "opening forecast, reported",
-     "value": "~$36.2M"
+     "label": "Minus One's US opening",
+     "value": "$11.4M"
     }
    ],
-   "summary": "Toho's sequel to Godzilla Minus One opens in North America on November 6, with early reviews at 92% on Rotten Tomatoes.",
-   "title": "Godzilla Minus Zero arrives November 6 with a 92% critics' score",
-   "url": "https://www.forbes.com/sites/markhughes/2026/10/31/godzilla-minus-zero-roars-to-life-in-early-reviews-for-2026-sequel/",
+   "summary": "Toho's sequel to Godzilla Minus One is projected to open around $30 million in North America this weekend, ahead of The Cat in the Hat.",
+   "title": "Godzilla Minus Zero is tracking for a $30 million US opening",
+   "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/box-office-godzilla-minus-zero-211224926.html",
    "why": "Minus One was a surprise global hit and an Oscar winner, so the sequel carries big expectations."
   }
  },
@@ -10150,7 +10598,7 @@
   }
  },
  "ent-jailer-2-box-office": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Jailer 2 is the sequel to the 2023 hit Jailer. Tamil cinema is based in Chennai in southern India.",
    "category": "entertainment",
@@ -10174,7 +10622,7 @@
     "Theatrical releases"
    ],
    "happened": "Sacnilk figures cited by The Hollywood Reporter India put its India gross at ₹533.75 crore and overseas at ₹273.50 crore. It crossed ₹800 crore on its third Sunday. PVR INOX and Cinepolis did not screen the Hindi version.",
-   "hype": 64,
+   "hype": 52,
    "id": "ent-jailer-2-box-office",
    "meme": {
     "bottom": "previously held by Rajinikanth",
@@ -10183,7 +10631,7 @@
    },
    "motif": "film",
    "next": "Watch for its final total and the date of its streaming release.",
-   "prevHype": 64,
+   "prevHype": 52,
    "published": "2026-11-02",
    "source": "The Hollywood Reporter India",
    "stats": [
@@ -10753,7 +11201,7 @@
   }
  },
  "ent-lupin-part-4": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Lupin stars Omar Sy as a gentleman thief inspired by the Arsène Lupin novels.",
    "category": "entertainment",
@@ -10773,7 +11221,7 @@
     "France"
    ],
    "happened": "Part 4 logged 65 million hours in its second week, What's on Netflix reports. Parts 1, 2 and 3 all re-entered the top 10 as viewers caught up.",
-   "hype": 72,
+   "hype": 56,
    "id": "ent-lupin-part-4",
    "meme": {
     "bottom": "and stole back three old seasons",
@@ -10782,7 +11230,7 @@
    },
    "motif": "screen",
    "next": "Watch for its third-week figures and any news of a fifth part.",
-   "prevHype": 72,
+   "prevHype": 56,
    "published": "2026-11-03",
    "source": "What's on Netflix",
    "stats": [
@@ -10896,7 +11344,7 @@
   }
  },
  "ent-matthew-perry-documentary": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Matthew Perry starred in Friends from 1994 to 2004 and died in 2023 at 54.",
    "category": "entertainment",
@@ -10920,7 +11368,7 @@
     "Streaming"
    ],
    "happened": "What's on Netflix reports 29 million hours viewed in its first week, ahead of Nobody Wants This season 3. Directed by Mary Robertson, it draws on interviews with Perry's sister and close friends.",
-   "hype": 68,
+   "hype": 60,
    "id": "ent-matthew-perry-documentary",
    "meme": {
     "bottom": "watched by 9.5 million people",
@@ -10929,7 +11377,7 @@
    },
    "motif": "screen",
    "next": "Watch for its second-week numbers against other celebrity documentaries.",
-   "prevHype": 68,
+   "prevHype": 60,
    "published": "2026-11-03",
    "source": "What's on Netflix",
    "stats": [
@@ -10946,7 +11394,7 @@
      "value": "No. 1"
     }
    ],
-   "summary": "The One About Matthew Perry led Netflix's English TV chart for the week to November 1 with 9.5 million views.",
+   "summary": "The One About Matthew Perry led Netflix's English TV chart for the week to November 1 with 9.5 million views and was still No. 1 in the US on November 3.",
    "title": "Netflix's Matthew Perry documentary debuts at No. 1 with 9.5 million views",
    "url": "https://www.whats-on-netflix.com/news/netflix-top-10s-matthew-perry-doc-series-debuts-at-1-as-english-movie-viewership-continues-to-tank/",
    "why": "Perry's life and death drew huge attention, and Friends remains one of TV's most watched shows."
@@ -11702,42 +12150,60 @@
   }
  },
  "ent-noah-kahan-stadium-tour": {
-  "lastSeen": "2026-10-31",
+  "lastSeen": "2026-11-05",
   "story": {
-   "background": "Noah Kahan is a Vermont singer-songwriter whose album Stick Season became a major hit.",
+   "background": "Noah Kahan is a singer-songwriter from Vermont known for the album Stick Season.",
    "category": "entertainment",
    "drivers": [
     {
      "label": "Scale",
-     "text": "Moving to stadiums is a big step up for a folk act."
+     "text": "Thirty-one stadium dates, including multiple nights in Boston and London."
     },
     {
      "label": "Fan demand",
-     "text": "He has built a big following since his 2022 breakout album."
+     "text": "Some European dates were already listed as sold out."
+    },
+    {
+     "label": "Timing",
+     "text": "It lands as his Hunger Games single tops a Spotify debut chart."
     }
    ],
    "entities": [
     "Music",
-    "Tours"
+    "Live Nation",
+    "The Hunger Games"
    ],
-   "happened": "Kahan announced the tour on social media. It covers football stadiums in North America and Europe in 2027. Full dates and ticket details were in his announcement.",
-   "hype": 54,
+   "happened": "The tour opens April 24 in Athens, Georgia, and includes four nights at Fenway Park and three at Wembley. General sale starts November 12. His new single, Draw You Out, leads The Hunger Games: Sunrise on the Reaping soundtrack.",
+   "hype": 66,
    "id": "ent-noah-kahan-stadium-tour",
    "meme": {
-    "bottom": "Now playing in very large stadiums",
-    "take": "Noah Kahan's songs about small-town life are heading for venues bigger than most small towns.",
-    "top": "Sad folk songs about small towns"
+    "bottom": "now he needs four nights at Fenway",
+    "take": "Noah Kahan's music is about quiet small towns, and he will need a stadium to sing it.",
+    "top": "Noah Kahan sings about small towns"
    },
    "motif": "voice",
-   "next": "Watch for ticket demand and any added dates.",
+   "next": "Watch for the presales on November 10 and how fast dates sell out.",
    "prevHype": null,
-   "published": "2026-10-30",
-   "source": "Philip's Music Corner",
-   "stats": [],
-   "summary": "Noah Kahan announced The Last of the Bugs, a 2027 world tour of football stadiums across North America and Europe.",
-   "title": "Noah Kahan announces a 2027 stadium world tour",
-   "url": "https://philipsmusiccorner.substack.com/p/10-music-headlines-103026",
-   "why": "A folk singer filling stadiums shows how far his audience has grown."
+   "published": "2026-11-03",
+   "source": "CelebrityAccess",
+   "stats": [
+    {
+     "label": "stadium dates",
+     "value": "31"
+    },
+    {
+     "label": "general on-sale",
+     "value": "Nov 12"
+    },
+    {
+     "label": "tour opener",
+     "value": "Apr 24"
+    }
+   ],
+   "summary": "Noah Kahan's The Last Of The Bugs World Tour will play stadiums across North America, the UK and Europe in 2027, his biggest headline run yet.",
+   "title": "Noah Kahan announces a 31-date 2027 stadium tour",
+   "url": "https://celebrityaccess.com/2026/11/03/noah-kahan-announces-2027-the-last-of-the-bugs-world-tour/",
+   "why": "Kahan has grown from folk-pop breakout to stadium act in a few years."
   }
  },
  "ent-nobody-wants-this-s3": {
@@ -12324,64 +12790,65 @@
   }
  },
  "ent-ramayana-part-1": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "The Ramayana is an ancient Sanskrit epic about the prince Rama. Nitesh Tiwari directed Dangal.",
    "category": "entertainment",
    "drivers": [
     {
-     "label": "Scale",
-     "text": "Pre-sales cover more than 23,000 shows in India."
+     "label": "Big name",
+     "text": "It stars Ranbir Kapoor and Yash and is directed by Dangal's Nitesh Tiwari."
     },
     {
-     "label": "Big name",
-     "text": "It pairs Ranbir Kapoor with Kannada star Yash."
+     "label": "Scale",
+     "text": "Variety calls it the widest North American release for an Indian film."
     },
     {
      "label": "Fan demand",
-     "text": "The Ramayana is one of India's best-known stories."
+     "text": "Pre-sales passed 27 lakh tickets before opening day."
     }
    ],
    "entities": [
     "India",
     "Box office",
-    "Theatrical releases"
+    "Theatrical releases",
+    "Sony"
    ],
-   "happened": "Sacnilk figures cited by The Week put India pre-sales at ₹34.01 crore and overseas at about $3.5 million, including $2.58 million in North America. Paid previews run November 4.",
-   "hype": 86,
+   "happened": "Sacnilk figures cited by ETV Bharat show ₹104.58 crore in five-day advance gross, including blocked seats, and 27.69 lakh tickets. Trade estimates put the worldwide opening at ₹150-160 crore. Sony opens it on about 1,300 North American screens.",
+   "hype": 91,
    "id": "ent-ramayana-part-1",
    "meme": {
-    "bottom": "still sold out the preview shows",
-    "take": "Ramayana has spoilers that are thousands of years old and pre-sales of ₹63 crore anyway.",
+    "bottom": "still sold 27 lakh tickets early",
+    "take": "Ramayana's spoilers are ancient, and people still paid ₹104 crore in advance.",
     "top": "An epic thousands of years old"
    },
    "motif": "film",
-   "next": "Watch for its opening-day total in India and its first weekend in North America.",
-   "prevHype": 86,
-   "published": "2026-11-01",
-   "source": "The Week",
+   "next": "Watch for confirmed opening-day figures in India and its four-day total in North America.",
+   "prevHype": 91,
+   "published": "2026-11-04",
+   "source": "ETV Bharat",
    "stats": [
     {
-     "label": "global advance bookings",
-     "value": "₹63.48 cr"
+     "label": "advance gross, incl. blocked seats",
+     "value": "₹104.58 cr"
     },
     {
-     "label": "North America pre-sales",
-     "value": "$2.58M"
+     "label": "worldwide opening, projected",
+     "value": "₹150-160 cr"
     },
     {
-     "label": "release date",
-     "value": "Nov 5"
+     "label": "North American screens",
+     "value": "1,300"
     }
    ],
-   "summary": "Nitesh Tiwari's Ramayana: Part 1, starring Ranbir Kapoor, Sai Pallavi and Yash, has about ₹63.48 crore in worldwide advance bookings.",
-   "title": "Ramayana: Part 1 opens November 5 with over ₹63 crore in global advance sales",
-   "url": "https://www.theweek.in/news/entertainment/2026/11/01/ramayana-part-1-advance-bookings-collection-update.html",
+   "summary": "Nitesh Tiwari's Ramayana: Part 1, with Ranbir Kapoor, Sai Pallavi and Yash, opens November 5 after one of India's biggest pre-sale runs of the year.",
+   "title": "Ramayana: Part 1 opens with over ₹104 crore in advance sales",
+   "url": "https://www.etvbharat.com/en/entertainment/ramayana-box-office-day-1-prediction-can-ranbir-kapoor-starrer-deliver-record-breaking-rs-150-crore-worldwide-opening-enn26110402232",
    "why": "It is one of the most expensive and anticipated Indian films in years, based on a central Hindu epic."
   }
  },
  "ent-resident-evil-400m": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Resident Evil began as a Capcom video game in 1996 and became a long-running film series.",
    "category": "entertainment",
@@ -12406,7 +12873,7 @@
     "Horror"
    ],
    "happened": "It passed Cregger's Weapons and Resident Evil: The Final Chapter at $312 million. Dread Central reported a November 3 digital release for purchase and premium rental, which Sony had not confirmed when it was reported.",
-   "hype": 70,
+   "hype": 58,
    "id": "ent-resident-evil-400m",
    "meme": {
     "bottom": "now it is coming to your sofa",
@@ -12415,7 +12882,7 @@
    },
    "motif": "film",
    "next": "Watch for its first digital sales charts and any sequel news from Sony.",
-   "prevHype": 70,
+   "prevHype": 58,
    "published": "2026-11-03",
    "source": "Variety",
    "stats": [
@@ -13149,6 +13616,54 @@
    "title": "The Terminal List returns to Prime Video with Chris Pratt",
    "url": "https://www.tomsguide.com/entertainment/streaming/what-to-watch-tonight-38-new-shows-and-movies-just-added-to-netflix-prime-video-disney-and-more-oct-21-2026",
    "why": "Action thrillers based on bestselling novels are a reliable draw for streamers."
+  }
+ },
+ "ent-the-greatest-prime": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Muhammad Ali was a three-time world heavyweight boxing champion who died in 2016.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Muhammad Ali remains a global icon."
+    },
+    {
+     "label": "Timing",
+     "text": "It arrived on a crowded day of streaming premieres."
+    }
+   ],
+   "entities": [
+    "Amazon",
+    "Streaming"
+   ],
+   "happened": "TVLine lists it among the day's premieres, alongside Hulu's All's Fair season 2 and Apple TV's Stick season 2. The full season arrived at once.",
+   "hype": 54,
+   "id": "ent-the-greatest-prime",
+   "meme": {
+    "bottom": "released all eight rounds at once",
+    "take": "Prime Video gave The Greatest one release day, like a fight that ends in the first round.",
+    "top": "A series about the greatest boxer"
+   },
+   "motif": "screen",
+   "next": "Watch for whether it enters streaming charts in its first week.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "TVLine",
+   "stats": [
+    {
+     "label": "episodes",
+     "value": "8"
+    },
+    {
+     "label": "premiere",
+     "value": "Nov 4"
+    }
+   ],
+   "summary": "Prime Video released all eight episodes of The Greatest, starring Jaalen Best as Muhammad Ali, on November 4.",
+   "title": "Prime Video drops The Greatest, a scripted series about Muhammad Ali",
+   "url": "https://www.tvline.com/2303098/what-to-watch-november-4-2026-tv-shows-movies-streaming/",
+   "why": "Ali is one of the most famous athletes ever, and biopic series tend to draw big audiences."
   }
  },
  "ent-the-invite-hbo-max": {
@@ -14249,7 +14764,7 @@
   }
  },
  "game-arkane-ubisoft-bid": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Arkane is a French studio owned by Microsoft through Bethesda. Ubisoft is a French game publisher.",
    "category": "gaming",
@@ -14271,10 +14786,10 @@
     "Ubisoft",
     "Microsoft",
     "Bethesda",
-    "France"
+    "Acquisitions"
    ],
-   "happened": "Microsoft is also said to be exploring a sale back to Arkane's management, and a closure is possible if no deal is reached. A Microsoft spokesperson said it continues to explore options ahead of a December deadline, Kotaku reports.",
-   "hype": 76,
+   "happened": "Bloomberg reported the bid on November 3. Game Developer says Arkane has several bidders but no deal is close, and a sale to its own management is also possible. Without a buyer, the Lyon studio could face closure.",
+   "hype": 70,
    "id": "game-arkane-ubisoft-bid",
    "meme": {
     "bottom": "while still restructuring itself",
@@ -14283,7 +14798,7 @@
    },
    "motif": "bag",
    "next": "Watch for Microsoft's decision before its December deadline.",
-   "prevHype": 76,
+   "prevHype": 70,
    "published": "2026-11-03",
    "source": "Kotaku",
    "stats": [
@@ -14980,6 +15495,58 @@
    "why": "Console sales show which platforms are winning as prices rise across the board."
   }
  },
+ "game-control-resonant-1m": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Remedy Entertainment is the Finnish studio behind Max Payne, Alan Wake and Control.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "Remedy's quarterly revenue more than tripled."
+    },
+    {
+     "label": "First of its kind",
+     "text": "It is the first game Remedy has published itself."
+    }
+   ],
+   "entities": [
+    "New game releases",
+    "Earnings"
+   ],
+   "happened": "Remedy's third-quarter revenue rose 226% to €39.6 million, Game Developer reports. The game still has 2.4 million outstanding wishlists.",
+   "hype": 62,
+   "id": "game-control-resonant-1m",
+   "meme": {
+    "bottom": "the other half were still confused",
+    "take": "Control Resonant sold a million, and half the buyers skipped the first game entirely.",
+    "top": "Half of Control's buyers were new"
+   },
+   "motif": "game",
+   "next": "Watch for further sales updates and Remedy's plans for the series.",
+   "prevHype": null,
+   "published": "2026-11-03",
+   "source": "Game Developer",
+   "stats": [
+    {
+     "label": "copies in three weeks",
+     "value": "1M+"
+    },
+    {
+     "label": "buyers new to the series",
+     "value": "~50%"
+    },
+    {
+     "label": "Remedy Q3 revenue",
+     "value": "€39.6M"
+    }
+   ],
+   "summary": "Remedy says Control Resonant passed one million sales in three weeks, with about half of buyers new to the series.",
+   "title": "Control Resonant sells over a million copies in three weeks",
+   "url": "https://www.gamedeveloper.com/business/half-of-control-resonant-s-players-were-new-to-the-franchise",
+   "why": "It is Remedy's first self-published game, so its success matters for the studio's future."
+  }
+ },
  "game-control-resonant-million": {
   "lastSeen": "2026-10-17",
   "story": {
@@ -15373,7 +15940,7 @@
   }
  },
  "game-elder-scrolls-6-sentinel": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "The Elder Scrolls is Bethesda's fantasy role-playing series. The last main entry, Skyrim, came out in 2011.",
    "category": "gaming",
@@ -15397,7 +15964,7 @@
     "The Elder Scrolls"
    ],
    "happened": "Todd Howard presented the video. The teaser shows a scroll buried in sand. Sentinel is a city in Hammerfell, widely believed to be the setting, Kotaku notes. There is still no release date.",
-   "hype": 90,
+   "hype": 78,
    "id": "game-elder-scrolls-6-sentinel",
    "meme": {
     "bottom": "the release date is still sand",
@@ -15406,7 +15973,7 @@
    },
    "motif": "game",
    "next": "Watch for a full reveal or a release window from Bethesda.",
-   "prevHype": 90,
+   "prevHype": 78,
    "published": "2026-11-03",
    "source": "Kotaku",
    "stats": [
@@ -16175,7 +16742,7 @@
   }
  },
  "game-gta-vi-november-19": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Rockstar Games makes Grand Theft Auto. GTA V, from 2013, is one of the best-selling games ever.",
    "category": "gaming",
@@ -16200,16 +16767,16 @@
     "Xbox"
    ],
    "happened": "Kotaku reports a 212GB install, about a third of a base PS5's storage. Xbox pre-loads start at 7 p.m. ET on November 9, and boxed codes can pre-load from November 12. New Zealand gets it first, on November 18 UTC.",
-   "hype": 93,
+   "hype": 90,
    "id": "game-gta-vi-november-19",
    "meme": {
     "bottom": "your other games have been informed",
-    "take": "GTA VI is 15 days out and already asking the rest of your library to move out.",
+    "take": "GTA VI is two weeks out and already asking the rest of your library to move out.",
     "top": "GTA VI needs 212GB"
    },
    "motif": "game",
    "next": "Watch for review timing and launch-day server load as release nears.",
-   "prevHype": 93,
+   "prevHype": 90,
    "published": "2026-11-03",
    "source": "Kotaku",
    "stats": [
@@ -16736,6 +17303,54 @@
    "title": "It Takes Two comes to Switch 2 on October 15 with cross-play",
    "url": "https://www.nintendolife.com/news/2026/10/it-takes-two-hops-onto-switch-2-next-week-marrying-visual-upgrades-and-cross-play",
    "why": "It Takes Two is one of the most popular co-op games, and cross-play lets friends on other consoles join."
+  }
+ },
+ "game-itchio-page-surge": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Itch.io is a popular open marketplace for indie and experimental games.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Trend",
+     "text": "Storefronts are struggling with a wave of AI-generated games."
+    },
+    {
+     "label": "Scale",
+     "text": "Daily new pages went from about 3,000 to nearly 8,000."
+    }
+   ],
+   "entities": [
+    "Generative AI",
+    "Indie games"
+   ],
+   "happened": "Itch.io's chart shows about 3,000 new pages a day in August rising to nearly 8,000 in October. Its No AI filter cuts newest games from about 1.77 million to 432,000. Tagging AI use is not required to publish.",
+   "hype": 62,
+   "id": "game-itchio-page-surge",
+   "meme": {
+    "bottom": "and exactly the same number of players",
+    "take": "Itch.io's new games doubled, proving supply can rise without anyone inviting demand.",
+    "top": "Itch.io got twice as many new games"
+   },
+   "motif": "game",
+   "next": "Watch for whether Itch.io makes AI disclosure mandatory.",
+   "prevHype": null,
+   "published": "2026-11-02",
+   "source": "Game Developer",
+   "stats": [
+    {
+     "label": "new pages a day, October",
+     "value": "~8,000"
+    },
+    {
+     "label": "new pages a day, August",
+     "value": "~3,000"
+    }
+   ],
+   "summary": "Itch.io says new game pages per day doubled in two months, without a matching rise in downloads or purchases.",
+   "title": "New game pages on Itch.io have doubled, but sales have not",
+   "url": "https://www.gamedeveloper.com/pc/number-of-game-pages-doubles-on-itch-io-as-ai-clones-flood-the-store",
+   "why": "Like Steam's backlog, it points to a flood of low-effort, often AI-made games."
   }
  },
  "game-kirby-air-riders-event-cancelled": {
@@ -17454,52 +18069,48 @@
   }
  },
  "game-nagoshi-studio-closes": {
-  "lastSeen": "2026-11-03",
+  "lastSeen": "2026-11-05",
   "story": {
-   "background": "Nagoshi left Sega in 2021 to found his own studio with backing from Chinese publisher NetEase.",
+   "background": "NetEase is a major Chinese games company that funded several studios in Japan and the West.",
    "category": "gaming",
    "drivers": [
     {
      "label": "Big name",
-     "text": "Nagoshi led Sega's Ryu Ga Gotoku Studio, home of Yakuza."
+     "text": "Nagoshi led Sega's Ryu Ga Gotoku Studio, maker of Yakuza."
     },
     {
      "label": "Risk",
-     "text": "It adds to a run of NetEase studio exits and closures."
+     "text": "It is another big Chinese-funded studio abroad to close."
     }
    ],
    "entities": [
     "NetEase",
-    "Sega",
+    "Japan",
     "Studio closures"
    ],
-   "happened": "Bloomberg reported in March that NetEase would stop funding the game, which reportedly needed ¥7 billion more. NetEase has not formally cancelled Gang of Dragon. Several studios have left NetEase as it pulls back from gaming.",
-   "hype": 74,
+   "happened": "Bloomberg reported in March that NetEase would stop funding it, and the studio was said to need about ¥7 billion more. NetEase has not officially cancelled Gang of Dragon, revealed at The Game Awards in 2025.",
+   "hype": 58,
    "id": "game-nagoshi-studio-closes",
    "meme": {
-    "bottom": "and then the funding left the chat",
-    "take": "Gang of Dragon got a Game Awards reveal and a closing notice within eleven months.",
-    "top": "A studio made one trailer"
+    "bottom": "and was dissolved by November",
+    "take": "Gang of Dragon's development cycle has so far been one trailer and one gazette entry.",
+    "top": "A studio revealed a game in December"
    },
    "motif": "game",
-   "next": "Watch for any word from NetEase or Nagoshi on Gang of Dragon.",
+   "next": "Watch for any statement from NetEase or Nagoshi on Gang of Dragon.",
    "prevHype": null,
    "published": "2026-11-02",
    "source": "Game Developer",
    "stats": [
     {
-     "label": "extra funding needed, reported",
+     "label": "funding said to be needed",
      "value": "¥7B"
-    },
-    {
-     "label": "studio founded",
-     "value": "2021"
     }
    ],
-   "summary": "Toshihiro Nagoshi's NetEase-funded studio has closed, a Japanese government gazette shows, less than a year after revealing its first game.",
-   "title": "Nagoshi Studio, maker of Gang of Dragon, has been dissolved",
+   "summary": "Toshihiro Nagoshi's studio, founded after he left Sega, is listed as dissolved in Japan's government gazette.",
+   "title": "Nagoshi Studio is dissolved after NetEase cuts its funding",
    "url": "https://www.gamedeveloper.com/business/nagoshi-studio-toshihiro-nagoshi-s-game-development-studio-after-leaving-sega-closes-as-netease-cuts-its-funding",
-   "why": "Gang of Dragon was pitched as a spiritual successor to Yakuza, and its future is now unclear."
+   "why": "It casts doubt on Gang of Dragon, a game from the creator of the Yakuza series."
   }
  },
  "game-next-xbox-price-report": {
@@ -17903,7 +18514,7 @@
   }
  },
  "game-phantom-blade-zero-4m": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "S-GAME is a Chinese developer. Phantom Blade Zero is its first major console and PC release.",
    "category": "gaming",
@@ -17927,7 +18538,7 @@
     "PlayStation"
    ],
    "happened": "The game peaked at over 830,000 concurrent players on Steam. About 90% of nearly 50,000 Steam reviews are positive. It launched on PC and PS5.",
-   "hype": 72,
+   "hype": 56,
    "id": "game-phantom-blade-zero-4m",
    "meme": {
     "bottom": "the zero was just branding",
@@ -17936,7 +18547,7 @@
    },
    "motif": "game",
    "next": "Watch for updated sales figures and how long it holds its Steam player count.",
-   "prevHype": 72,
+   "prevHype": 56,
    "published": "2026-11-02",
    "source": "IG News",
    "stats": [
@@ -19013,7 +19624,7 @@
   }
  },
  "game-steam-review-delays": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Valve runs Steam and checks every game before it can be released on the store.",
    "category": "gaming",
@@ -19036,36 +19647,32 @@
     "Generative AI",
     "Indie games"
    ],
-   "happened": "About 4,000 games came out on Steam in October, and nearly half disclosed some use of generative AI. Valve said it is fully aware of the situation but has not explained the delays. Its usual review time is three to five days.",
-   "hype": 70,
+   "happened": "Valve usually aims to test builds in three to five days but says reviews now take up to 12 business days, Game Developer reports. Some developers told Kotaku they waited two to three weeks with no word. Valve did not directly blame AI-made games.",
+   "hype": 74,
    "id": "game-steam-review-delays",
    "meme": {
-    "bottom": "yours is somewhere in the pile",
-    "take": "Indie developers are learning that the hardest boss this year is the Steam review queue.",
-    "top": "Steam is reviewing 4,000 games a month"
+    "bottom": "the explanation took 12 business days",
+    "take": "Steam's review queue is now long enough to count as a game genre.",
+    "top": "Valve explained the review backlog"
    },
    "motif": "game",
-   "next": "Watch for Valve's promised blog post explaining the review backlog.",
-   "prevHype": 70,
-   "published": "2026-11-03",
-   "source": "Kotaku",
+   "next": "Watch for whether Valve adds reviewers or changes its rules for new submissions.",
+   "prevHype": 74,
+   "published": "2026-11-04",
+   "source": "Game Developer",
    "stats": [
     {
-     "label": "Steam games released in October",
-     "value": "~4,000"
+     "label": "max build review, business days",
+     "value": "12 days"
     },
     {
-     "label": "disclosed generative AI use",
-     "value": "~50%"
-    },
-    {
-     "label": "Valve's usual review time",
+     "label": "Valve's usual target",
      "value": "3-5 days"
     }
    ],
-   "summary": "Developers told Kotaku that Valve's game reviews took two to three weeks in October, and they suspect a flood of AI-made games.",
-   "title": "Indie developers say slow Steam reviews are delaying their launches",
-   "url": "https://kotaku.com/devs-are-being-forced-to-delay-their-games-on-steam-and-they-think-its-because-of-the-ai-slop-flood-2000752839",
+   "summary": "Valve says a big rise in submissions has slowed Steam store and build reviews, after developers reported missed launch dates.",
+   "title": "Valve warns Steam game approvals are taking up to 12 business days",
+   "url": "https://www.gamedeveloper.com/business/valve-warns-of-slower-steam-approval-process-due-to-flood-of-new-games",
    "why": "Small studios depend on hitting launch dates, and Steam is the biggest PC store."
   }
  },
@@ -19826,7 +20433,7 @@
   }
  },
  "game-wow-forever": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "World of Warcraft is Blizzard's long-running online role-playing game, launched in 2004.",
    "category": "gaming",
@@ -19872,7 +20479,7 @@
      "value": "Nov 4"
     }
    ],
-   "summary": "Blizzard's new take on early Azeroth, World of Warcraft: Forever, launches on PC on November 4 with a level-60 cap.",
+   "summary": "Blizzard's new take on early Azeroth, World of Warcraft: Forever, left early access and fully launched on PC on November 4 with a level-60 cap.",
    "title": "World of Warcraft: Forever launches with over 1,000 new quests",
    "url": "https://www.dlcompare.com/gaming-news/this-week-s-video-game-releases-november-2026-week-45",
    "why": "Classic-style WoW servers have drawn huge crowds, and this is Blizzard's biggest new spin on that era."
@@ -20507,22 +21114,22 @@
   }
  },
  "game-zelda-ocarina-remake": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Ocarina of Time first came out on the Nintendo 64 in 1998. The Switch 2 is Nintendo's newest console.",
    "category": "gaming",
    "drivers": [
     {
      "label": "Nostalgia",
-     "text": "The 1998 original is a landmark of 3D game design."
+     "text": "The 1998 original is often called the best-reviewed game ever made."
     },
     {
-     "label": "Fan demand",
-     "text": "It has outpaced GTA VI in Amazon US physical pre-orders."
+     "label": "Scale",
+     "text": "A 96 from about 80 critics puts it at the top of 2026's rankings."
     },
     {
      "label": "Timing",
-     "text": "It arrives two weeks before GTA VI."
+     "text": "It lands two weeks before GTA VI takes over the holiday season."
     }
    ],
    "entities": [
@@ -20531,36 +21138,36 @@
     "Zelda",
     "Remakes"
    ],
-   "happened": "The original director told Kotaku that fixing the Water Temple was overdue homework. TheGamer reported about 60,000 Amazon US pre-orders over a month, against about 11,000 for GTA VI. The N64 original holds Metacritic's top score of 99.",
-   "hype": 88,
+   "happened": "Nintendo Life says the score comes from 81 critic reviews and makes it the top-rated Switch 2 game. Forbes notes it is the highest score since Baldur's Gate 3 in 2023. The 1998 original still holds Metacritic's only 99.",
+   "hype": 95,
    "id": "game-zelda-ocarina-remake",
    "meme": {
-    "bottom": "28 years later, apology accepted",
-    "take": "Nintendo has finally addressed the Water Temple, a complaint old enough to rent a car.",
-    "top": "The Water Temple got fixed"
+    "bottom": "the original is still not impressed",
+    "take": "A 96 is the year's best score, and in this family it still counts as a slight dip.",
+    "top": "The remake scored a 96"
    },
    "motif": "game",
-   "next": "Watch for review scores and whether it can match the original's legacy.",
-   "prevHype": 88,
-   "published": "2026-11-03",
-   "source": "Kotaku",
+   "next": "Watch for launch sales and whether GTA VI challenges it for the year's top score.",
+   "prevHype": 95,
+   "published": "2026-11-04",
+   "source": "Nintendo Life",
    "stats": [
+    {
+     "label": "Metascore, 81 reviews",
+     "value": "96"
+    },
+    {
+     "label": "N64 original's Metascore",
+     "value": "99"
+    },
     {
      "label": "Switch 2 release",
      "value": "Nov 5"
-    },
-    {
-     "label": "Amazon US pre-orders, reported",
-     "value": "~60,000"
-    },
-    {
-     "label": "original's Metacritic score",
-     "value": "99"
     }
    ],
-   "summary": "Nintendo's Switch 2 rebuild of Ocarina of Time launches Thursday, with review scores expected around midweek.",
-   "title": "Ocarina of Time remake launches November 5 with reviews due this week",
-   "url": "https://kotaku.com/original-zelda-ocarina-of-time-director-calls-the-infamous-water-temple-overdue-homework-for-the-remake-2000752762",
+   "summary": "Nintendo's Switch 2 remake of Ocarina of Time launches November 5 with a 96 Metascore, the highest-rated game of the year so far.",
+   "title": "Ocarina of Time remake scores 96 on Metacritic, the best of 2026",
+   "url": "https://www.nintendolife.com/news/2026/11/ocarina-of-time-remake-tops-metacritics-goty-list-and-its-high-on-the-all-time-ranking",
    "why": "Ocarina of Time is one of the most celebrated games ever made."
   }
  },
@@ -20873,6 +21480,59 @@
    "why": "Investors are weighing fast AI-driven cloud growth against soaring spending."
   }
  },
+ "tech-amadeus-airline-breach": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Amadeus is a Spanish travel technology company whose systems handle bookings for many airlines and travel agents.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "Several major airlines have reported affected customers."
+    },
+    {
+     "label": "Risk",
+     "text": "Exposed names and booking details can be used in phishing messages."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Privacy",
+    "Japan"
+   ],
+   "happened": "Japan Airlines reported about 92,000 affected customers, ANA about 37,800 passengers and Cathay about 53,000 bookings, IBTimes says. Amadeus said there is no evidence payment data was accessed. Korean Air and Asiana also issued alerts.",
+   "hype": 68,
+   "id": "tech-amadeus-airline-breach",
+   "meme": {
+    "bottom": "check any unexpected messages carefully",
+    "take": "Passengers are advised to treat surprise airline messages with the usual caution.",
+    "top": "Airline booking data was exposed"
+   },
+   "motif": "shield",
+   "next": "Watch for more airlines confirming whether their passengers were affected.",
+   "prevHype": null,
+   "published": "2026-11-02",
+   "source": "IBTimes UK",
+   "stats": [
+    {
+     "label": "JAL group customers affected",
+     "value": "~92,000"
+    },
+    {
+     "label": "Cathay bookings affected",
+     "value": "~53,000"
+    },
+    {
+     "label": "ANA passengers, reported",
+     "value": "~37,800"
+    }
+   ],
+   "summary": "Travel tech firm Amadeus fixed a flaw that allowed access to airline booking data, with Japan Airlines, ANA and Cathay Pacific reporting affected customers.",
+   "title": "Amadeus flaw exposed booking data from several Asian airlines",
+   "url": "https://www.ibtimes.co.uk/amadeus-breach-exposes-airline-booking-data-1829581",
+   "why": "Amadeus runs booking systems for much of the world's airline industry."
+  }
+ },
  "tech-amazon-alexa-tablets": {
   "lastSeen": "2026-10-15",
   "story": {
@@ -21094,7 +21754,7 @@
   }
  },
  "tech-amd-q3-record": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "AMD designs processors and graphics chips for PCs, game consoles and data centers.",
    "category": "tech",
@@ -21118,7 +21778,7 @@
     "Earnings"
    ],
    "happened": "Non-GAAP earnings were $2.09 a share, up 74%. AMD guided fourth-quarter revenue to about $17 billion, plus or minus 3%. Lisa Su said she expects growth to accelerate further. The stock had fallen nearly 20% in three sessions before the report.",
-   "hype": 88,
+   "hype": 70,
    "id": "tech-amd-q3-record",
    "meme": {
     "bottom": "and promised a better one next",
@@ -21127,7 +21787,7 @@
    },
    "motif": "chip",
    "next": "Watch for how the stock trades on the guidance and for updates on AMD's AI chip customers.",
-   "prevHype": 88,
+   "prevHype": 70,
    "published": "2026-11-03",
    "source": "StockTitan",
    "stats": [
@@ -21148,6 +21808,59 @@
    "title": "AMD posts a record $13.4 billion quarter and guides to about $17 billion",
    "url": "https://www.stocktitan.net/news/AMD/amd-reports-third-quarter-2026-financial-7j6jzo29buqw.html",
    "why": "AMD is Nvidia's main rival in AI chips, and its results show how fast AI spending is still growing."
+  }
+ },
+ "tech-amd-taalas": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "AMD is the second-largest maker of AI data center chips after Nvidia.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "Nearly half the price depends on conditions not yet disclosed."
+    },
+    {
+     "label": "Rivalry",
+     "text": "AMD is trying to close the gap with Nvidia in AI hardware."
+    }
+   ],
+   "entities": [
+    "AMD",
+    "AI chips",
+    "Acquisitions"
+   ],
+   "happened": "The deal, announced in August, still needs regulatory approval, The Globe and Mail reports. Taalas was founded in 2023 and had raised over US$225 million.",
+   "hype": 64,
+   "id": "tech-amd-taalas",
+   "meme": {
+    "bottom": "for $2.9 billion, conditions apply",
+    "take": "AMD's Taalas deal is half price and half conditions, which is how most AI deals are now.",
+    "top": "AMD is buying an AI chip startup"
+   },
+   "motif": "bag",
+   "next": "Watch for regulatory approval and what AMD does with Taalas's chip designs.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "The Globe and Mail",
+   "stats": [
+    {
+     "label": "deal value, cash and stock",
+     "value": "$2.9B"
+    },
+    {
+     "label": "contingent portion",
+     "value": "$1.4B"
+    },
+    {
+     "label": "Taalas funding raised",
+     "value": "$225M+"
+    }
+   ],
+   "summary": "A securities filing shows AMD will pay about US$2.9 billion in cash and stock for AI chip startup Taalas, with US$1.4 billion contingent.",
+   "title": "AMD's filing puts its Taalas deal at about $2.9 billion",
+   "url": "https://aiweekly.co/ai-news-today",
+   "why": "AMD is buying talent and technology to compete with Nvidia in AI chips."
   }
  },
  "tech-amex-ai-job-cuts": {
@@ -21290,6 +22003,63 @@
    "title": "Apple's new App Store rules target AI deepfakes and 'nudify' apps",
    "url": "https://www.macrumors.com/2026/10/16/app-store-rules-deepfakes/",
    "why": "Nudify apps have spread fast, and app stores are under pressure to stop them."
+  }
+ },
+ "tech-apple-ai-spend-caps": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Apple makes the iPhone and Mac and has been slower than rivals to roll out its own AI features.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "AI coding tools can run up hundreds of dollars per engineer a day."
+    },
+    {
+     "label": "Big name",
+     "text": "Apple is the world's most valuable consumer brand."
+    },
+    {
+     "label": "Trend",
+     "text": "Companies are moving from all-out AI use to rationing."
+    }
+   ],
+   "entities": [
+    "Apple",
+    "AI costs",
+    "AI coding"
+   ],
+   "happened": "Apple is also said to be weighing a cap as low as $25 a day for staff outside engineering, TechCrunch reports. Earlier this year many firms pushed staff to use as much AI as possible before token bills climbed.",
+   "hype": 84,
+   "id": "tech-apple-ai-spend-caps",
+   "meme": {
+    "bottom": "now it is a $200 one",
+    "take": "Apple is rationing AI tokens, which is how you know the free snacks are next.",
+    "top": "Apple gave engineers a $300 AI budget"
+   },
+   "motif": "money",
+   "next": "Watch for whether other big tech companies set similar limits.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "TechCrunch",
+   "stats": [
+    {
+     "label": "daily AI cap, was $300",
+     "value": "$200"
+    },
+    {
+     "label": "planned cap for some, reported",
+     "value": "$100"
+    },
+    {
+     "label": "cap weighed for non-engineers",
+     "value": "$25"
+    }
+   ],
+   "summary": "Bloomberg reports Apple cut its engineers' daily AI spending cap from $300 to $200, with some allowances set to fall to $100.",
+   "title": "Apple is reported to be cutting how much its engineers can spend on AI",
+   "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage",
+   "why": "It is a sign that even rich companies are rethinking the cost of heavy AI tool use."
   }
  },
  "tech-apple-homeview": {
@@ -24180,6 +24950,58 @@
    "why": "It is the mini's biggest redesign in years, but the higher starting price has drawn attention."
   }
  },
+ "tech-ipad-mini-oled-reviews": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "The iPad mini is Apple's smallest tablet, first released in 2012.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Apple's tablets are the market's best sellers."
+    },
+    {
+     "label": "Timing",
+     "text": "It launches the same day as Apple's first touchscreen Macs."
+    }
+   ],
+   "entities": [
+    "Apple",
+    "Gadgets"
+   ],
+   "happened": "Gizmodo gave it 4 out of 5, citing the 2nm A20 Pro chip and bright OLED display. Downsides include a 60Hz refresh rate and no Magic Keyboard support. Six Colors and MacRumors also published early looks.",
+   "hype": 72,
+   "id": "tech-ipad-mini-oled-reviews",
+   "meme": {
+    "bottom": "and kept a 60Hz screen for balance",
+    "take": "The iPad mini now has a gorgeous screen that refreshes at a very relaxed pace.",
+    "top": "Apple's smallest iPad got OLED"
+   },
+   "motif": "phone",
+   "next": "Watch for launch-day demand when it and the touchscreen Macs go on sale Friday.",
+   "prevHype": null,
+   "published": "2026-11-03",
+   "source": "Gizmodo",
+   "stats": [
+    {
+     "label": "starting price",
+     "value": "$699"
+    },
+    {
+     "label": "OLED display",
+     "value": "8.5in"
+    },
+    {
+     "label": "Gizmodo score",
+     "value": "4/5"
+    }
+   ],
+   "summary": "Reviewers say the $699 iPad mini with an 8.5-inch OLED screen and A20 Pro chip is Apple's best small tablet, though it lacks 120Hz.",
+   "title": "First reviews praise Apple's OLED iPad mini ahead of Friday's launch",
+   "url": "https://gizmodo.com/a20-pro-ipad-mini-review-2000833963",
+   "why": "It goes on sale alongside Apple's first touchscreen Macs, a big week for Apple hardware."
+  }
+ },
  "tech-iphone-18-pro-china": {
   "lastSeen": "2026-11-01",
   "story": {
@@ -24680,7 +25502,7 @@
   }
  },
  "tech-linux-tcp-flaw": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "The Linux kernel is the core of the Linux operating system. CVSS scores rate bug severity from 0 to 10.",
    "category": "tech",
@@ -24704,16 +25526,16 @@
     "Linux"
    ],
    "happened": "The Hacker News says Anthropic reported in October that an unreleased Claude research model wrote a remote root exploit for servers with an MPTCP listener. The bug dates back to Linux 4.4. Debian, SUSE and Amazon Linux shipped fixes in October.",
-   "hype": 80,
+   "hype": 58,
    "id": "tech-linux-tcp-flaw",
    "meme": {
-    "bottom": "and politely told everyone first",
-    "take": "The most dangerous Linux bug this month was exploited by an AI, which then filed a report.",
+    "bottom": "and filed the paperwork first",
+    "take": "The month's worst Linux bug was found by an AI, which then did the responsible thing.",
     "top": "An AI found a way into Linux"
    },
    "motif": "shield",
    "next": "Watch for Ubuntu's general release of the fix and whether attacks appear in the wild.",
-   "prevHype": 80,
+   "prevHype": 58,
    "published": "2026-11-03",
    "source": "The Hacker News",
    "stats": [
@@ -25053,6 +25875,59 @@
    "title": "Meta is ordered to pay New Mexico a record $25 billion over privacy claims",
    "url": "https://www.cbsnews.com/news/meta-new-mexico-25-billion-privacy-ruling/",
    "why": "It is one of the largest state verdicts in US history and raises the stakes for how platforms describe privacy."
+  }
+ },
+ "tech-meta-euro-bond": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Meta owns Facebook, Instagram and WhatsApp and is spending tens of billions a year on AI.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "Investors offered nearly six times the amount Meta raised."
+    },
+    {
+     "label": "Trend",
+     "text": "Debt is becoming a main way to fund the AI buildout."
+    }
+   ],
+   "entities": [
+    "Meta",
+    "AI infrastructure",
+    "AI debt"
+   ],
+   "happened": "It follows a $15 billion dollar bond the week before. Bloomberg says Meta paid a higher risk premium than Alphabet did on a similar euro deal this week.",
+   "hype": 58,
+   "id": "tech-meta-euro-bond",
+   "meme": {
+    "bottom": "investors offered €53 billion",
+    "take": "Meta asked Europe for €9 billion and was offered six times that, a nice problem to have.",
+    "top": "Meta asked to borrow €9 billion"
+   },
+   "motif": "money",
+   "next": "Watch for more big tech bond sales to fund AI spending.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "Bloomberg",
+   "stats": [
+    {
+     "label": "bond raised",
+     "value": "€9B"
+    },
+    {
+     "label": "orders, a record",
+     "value": "€53B"
+    },
+    {
+     "label": "dollar bond a week earlier",
+     "value": "$15B"
+    }
+   ],
+   "summary": "Meta priced a €9 billion debut euro bond that drew a record €53 billion in orders, Bloomberg reports.",
+   "title": "Meta's first euro bond raises €9 billion from a record order book",
+   "url": "https://aiweekly.co/ai-news-today",
+   "why": "Tech giants are borrowing heavily to pay for AI data centers."
   }
  },
  "tech-meta-github-breach": {
@@ -25732,6 +26607,51 @@
    "why": "Fake remote hires can give hostile states paychecks and access inside ordinary companies."
   }
  },
+ "tech-nothing-ai-device": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Nothing is a London-based consumer tech company that makes phones and earbuds.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Trend",
+     "text": "Many companies are chasing a dedicated AI device."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Nothing has a loyal following for its design-led phones."
+    }
+   ],
+   "entities": [
+    "Gadgets",
+    "Smartphones",
+    "AI agents"
+   ],
+   "happened": "Pei said on X the product could not have been an app, TechCrunch reports. He framed it as a productivity tool and seemed to distance it from AI wearables. No firm date has been given.",
+   "hype": 62,
+   "id": "tech-nothing-ai-device",
+   "meme": {
+    "bottom": "they say it has nothing on screen",
+    "take": "Nothing's new AI gadget has no new screen, so at least the name is finally literal.",
+    "top": "Nothing announced a new AI device"
+   },
+   "motif": "phone",
+   "next": "Watch for a reveal and price before the December launch.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "TechCrunch",
+   "stats": [
+    {
+     "label": "planned ship month",
+     "value": "Dec"
+    }
+   ],
+   "summary": "Nothing CEO Carl Pei says the company's first AI-native product arrives in December, describing it as a tool with no new screen.",
+   "title": "Nothing says its first AI-native product ships in December",
+   "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+   "why": "Startups keep trying to find a new AI gadget beyond the phone."
+  }
+ },
  "tech-nvidia-app-ai-agents": {
   "lastSeen": "2026-10-20",
   "story": {
@@ -25776,7 +26696,7 @@
   }
  },
  "tech-nvidia-china-51-rule": {
-  "lastSeen": "2026-11-04",
+  "lastSeen": "2026-11-05",
   "story": {
    "background": "Nvidia makes the graphics processors that power most AI training and is the world's most valuable chipmaker.",
    "category": "tech",
@@ -25796,7 +26716,7 @@
     "AI chips"
    ],
    "happened": "The reported rule applies to Nvidia's data center cloud partners worldwide, according to the FT's sources. It comes as US limits on chip sales to China remain tight. Nvidia has not publicly detailed the policy.",
-   "hype": 84,
+   "hype": 66,
    "id": "tech-nvidia-china-51-rule",
    "meme": {
     "bottom": "the rule is mostly about geography",
@@ -25805,7 +26725,7 @@
    },
    "motif": "globe",
    "next": "Watch for official comment from Nvidia and reaction from cloud providers in Asia.",
-   "prevHype": 84,
+   "prevHype": 66,
    "published": "2026-11-03",
    "source": "Financial Times",
    "stats": [
@@ -26540,6 +27460,64 @@
    "title": "Jury finds Arm breached Qualcomm's license but awards just $2",
    "url": "https://www.thurrott.com/hardware/342793/qualcomm-prevails-against-arm-holdings-in-court-again",
    "why": "The two companies' chip designs are inside most of the world's phones, so their legal fights matter widely."
+  }
+ },
+ "tech-qualcomm-q4-miss": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Qualcomm designs the Snapdragon chips used in many Android phones.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "Its stock fell more than 6% on the results."
+    },
+    {
+     "label": "Risk",
+     "text": "Rising memory costs are squeezing smartphone demand."
+    },
+    {
+     "label": "Trend",
+     "text": "Car chips are becoming a much bigger part of Qualcomm's business."
+    }
+   ],
+   "entities": [
+    "Qualcomm",
+    "Earnings",
+    "Smartphones",
+    "AI chips"
+   ],
+   "happened": "Phone chip sales fell 26% to $5.14 billion, while automotive revenue rose 89% to $1.99 billion, SiliconANGLE reports. The CEO said Qualcomm has a supply issue, not a demand issue. Arm beat forecasts but its stock slipped about 2%.",
+   "hype": 80,
+   "id": "tech-qualcomm-q4-miss",
+   "meme": {
+    "bottom": "its phone chips stayed parked",
+    "take": "Qualcomm is becoming a car company one disappointing phone quarter at a time.",
+    "top": "Qualcomm's car chips grew 89%"
+   },
+   "motif": "chip",
+   "next": "Watch for how memory prices affect phone makers' orders into next year.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "SiliconANGLE",
+   "stats": [
+    {
+     "label": "fiscal Q4 revenue",
+     "value": "$10.44B"
+    },
+    {
+     "label": "smartphone chip sales",
+     "value": "-26%"
+    },
+    {
+     "label": "automotive revenue",
+     "value": "+89%"
+    }
+   ],
+   "summary": "Qualcomm's fiscal fourth-quarter revenue of $10.44 billion slightly missed forecasts, and its stock fell over 6% after hours.",
+   "title": "Qualcomm shares fall as phone chip sales drop 26%",
+   "url": "https://siliconangle.com/2026/11/04/qualcomms-stock-falls-on-revenue-miss-and-weak-guidance-arm-and-globalfoundries-do-little-better/",
+   "why": "Qualcomm's results are a read on the smartphone market as memory costs rise."
   }
  },
  "tech-quest-diagnostics-breach": {
@@ -28032,6 +29010,63 @@
    "title": "AI agents built a full Chrome exploit that earned a $250,000 Google bounty",
    "url": "https://cyberinsider.com/google-pays-250k-bounty-for-ai-assisted-chrome-exploit-built-in-six-days/",
    "why": "It shows AI can now do serious offensive security work that used to take expert teams."
+  }
+ },
+ "tech-xen-claude-flaws": {
+  "lastSeen": "2026-11-05",
+  "story": {
+   "background": "Xen is a hypervisor, software that runs many virtual machines on one physical server.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "One compromised guest could take over a whole host."
+    },
+    {
+     "label": "Trend",
+     "text": "AI models are increasingly credited with finding major security bugs."
+    },
+    {
+     "label": "Scale",
+     "text": "Every Xen release since 4.6 is affected."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Anthropic",
+    "Linux"
+   ],
+   "happened": "The flaws in Xen's grant copy feature affect version 4.6 and later, The Hacker News reports. Patches are out for supported versions, and XCP-ng rates the impact critical. No attacks are known. Another team reported the same issue independently.",
+   "hype": 78,
+   "id": "tech-xen-claude-flaws",
+   "meme": {
+    "bottom": "the VMs now share more than planned",
+    "take": "An AI found a way for virtual machines to read each other's minds, then reported itself.",
+    "top": "Claude was asked to look at Xen"
+   },
+   "motif": "shield",
+   "next": "Watch for patch rollouts from Linux distributions and cloud providers.",
+   "prevHype": null,
+   "published": "2026-11-04",
+   "source": "The Hacker News",
+   "stats": [
+    {
+     "label": "CVEs",
+     "value": "2"
+    },
+    {
+     "label": "affected Xen versions",
+     "value": "4.6+"
+    },
+    {
+     "label": "advisory published",
+     "value": "Nov 3"
+    }
+   ],
+   "summary": "Xen advisory XSA-523 credits Anthropic's Claude with finding two bugs that let a malicious guest read and write other VMs' memory.",
+   "title": "Claude finds Xen flaws that let one virtual machine reach the others",
+   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "why": "Xen underpins many cloud and security-focused systems, and AI is now finding serious bugs."
   }
  },
  "tech-xreal-aura-glasses": {
