@@ -870,22 +870,22 @@
   }
  },
  "ai-anthropic-ipo-pricing": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "Anthropic is the San Francisco AI company behind the Claude models.",
    "category": "ai",
    "drivers": [
     {
      "label": "Scale",
-     "text": "CNBC reports more than $81 billion raised, the largest offering on record."
+     "text": "About $81.3 billion was raised, the largest US IPO on record."
     },
     {
-     "label": "Fan demand",
-     "text": "Orders were reported at close to seven times the shares on offer."
+     "label": "Timing",
+     "text": "It debuted on a day when the Nasdaq 100 and most AI stocks fell."
     },
     {
      "label": "Big name",
-     "text": "Amazon and Google are set to hold about 15% and 14% of the stock, per a filing."
+     "text": "Amazon and Google are among Anthropic's biggest shareholders."
     }
    ],
    "entities": [
@@ -894,37 +894,37 @@
     "Amazon",
     "Google"
    ],
-   "happened": "Fortune puts the valuation at $1.5 trillion. CNBC reports the offering raised more than $81 billion, a record that tops SpaceX. Orders were reported at close to seven times the 825 million shares first offered, with up to 20% set aside for retail buyers.",
+   "happened": "ANT peaked at $115.10 soon after the open, then fell as low as $93.13 while the wider market slid. It closed with a market value of about $1.27 trillion. The offering raised about $81.3 billion, a US record.",
    "hype": 97,
    "id": "ai-anthropic-ipo-pricing",
    "meme": {
-    "bottom": "for a company that says please",
-    "take": "Anthropic goes public at $83 a share, which is still cheaper than one month of heavy API use.",
-    "top": "A $1.5 trillion valuation"
+    "bottom": "down 16% from lunchtime",
+    "take": "Anthropic's stock rose 17% on its first day, after a short tour of the whole range.",
+    "top": "Up 17% on day one"
    },
    "motif": "money",
-   "next": "Watch for the opening trade on Nasdaq and how far it moves from the $83 price.",
-   "prevHype": 93,
-   "published": "2026-11-18",
-   "source": "Fortune",
+   "next": "Watch for how ANT trades in its first full week and whether the broader AI stock slide continues.",
+   "prevHype": 97,
+   "published": "2026-11-19",
+   "source": "Forbes",
    "stats": [
     {
-     "label": "IPO price per share",
-     "value": "$83"
+     "label": "first-day close",
+     "value": "$97.17"
     },
     {
-     "label": "valuation, Fortune",
-     "value": "$1.5T"
+     "label": "vs $83 IPO price",
+     "value": "+17.1%"
     },
     {
-     "label": "raised, CNBC",
-     "value": "$81B+"
+     "label": "market value at close, Forbes",
+     "value": "$1.27T"
     }
    ],
-   "summary": "Anthropic priced its shares at $83, above the $70 to $78 range, for a reported $1.5 trillion valuation; ANT opens on Nasdaq today.",
-   "title": "Anthropic prices its IPO at $83 a share, above its range, and trades today",
-   "url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
-   "why": "It is one of the largest stock market debuts ever and the first big public test of how investors value an AI lab."
+   "summary": "Anthropic shares opened at $111.50 and closed at $97.17 on their Nasdaq debut, 17% above the $83 IPO price, Forbes reports.",
+   "title": "Anthropic closes its first trading day up 17% after a record IPO",
+   "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/",
+   "why": "It is the largest IPO on record and the first big public test of how investors value an AI lab."
   }
  },
  "ai-anthropic-ipo-valuation": {
@@ -1883,6 +1883,58 @@
    "title": "Axiom says AI agents helped computer-verify a 15,000-page math proof",
    "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/",
    "why": "The classification is one of the longest proofs in mathematics, spread across hundreds of papers."
+  }
+ },
+ "ai-banks-agent-losses": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "AI agents are programs that can act for a user, such as logging in to accounts and making payments.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "Customers are liable even if the agent is hacked."
+    },
+    {
+     "label": "Trend",
+     "text": "Five big US banks have now made similar changes."
+    },
+    {
+     "label": "Money",
+     "text": "It shifts the cost of agent mistakes onto account holders."
+    }
+   ],
+   "entities": [
+    "AI agents",
+    "Banking"
+   ],
+   "happened": "TechCrunch reports the new terms apply even when the AI agent itself is compromised. JPMorgan and Bank of America made similar changes in October. Citi exempts its own AI agents from the rule, AI Weekly reports.",
+   "hype": 70,
+   "id": "ai-banks-agent-losses",
+   "meme": {
+    "bottom": "the bank will manage the blame",
+    "take": "Banks welcome AI agents into your account and leave you to welcome the losses.",
+    "top": "Your AI agent can manage your money"
+   },
+   "motif": "money",
+   "next": "Watch for whether other banks follow and whether consumer regulators weigh in.",
+   "prevHype": null,
+   "published": "2026-11-18",
+   "source": "TechCrunch",
+   "stats": [
+    {
+     "label": "banks updating terms",
+     "value": "3"
+    },
+    {
+     "label": "when JPMorgan and BofA moved first",
+     "value": "Oct"
+    }
+   ],
+   "summary": "Three US banks changed their terms so customers are responsible for losses caused by outside AI agents with account access, even if hacked.",
+   "title": "Citi, PNC and Citizens say customers carry the losses from third-party AI agents",
+   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+   "why": "AI agents that move money are being pitched widely, and this decides who pays when one goes wrong."
   }
  },
  "ai-big-tech-3-trillion-commitments": {
@@ -4541,8 +4593,61 @@
    "why": "Top spot on the main leaderboards keeps changing hands between Google, Anthropic and OpenAI."
   }
  },
+ "ai-gemini-4-neon": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Gemini is Google's family of AI models and its AI assistant, built by Google DeepMind.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Rivalry",
+     "text": "It arrived a day after OpenAI's GPT-6.2 and in the middle of Anthropic's IPO week."
+    },
+    {
+     "label": "Money",
+     "text": "Its $3 input price undercuts OpenAI's GPT-6.2 Astra at $8."
+    },
+    {
+     "label": "Scale",
+     "text": "It is rolling out to Gemini subscribers as well as developers."
+    }
+   ],
+   "entities": [
+    "Google",
+    "Frontier models",
+    "AI coding"
+   ],
+   "happened": "Gemini 4 Neon handles 1 million tokens of context. AI Weekly says Artificial Analysis ranks it third on its Intelligence Index, while another report puts it first on a coding agent index; the rankings differ by source.",
+   "hype": 86,
+   "id": "ai-gemini-4-neon",
+   "meme": {
+    "bottom": "the benchmarks need a weekend",
+    "take": "Google's new model ranks first or third, depending on which leaderboard you trust today.",
+    "top": "Every lab shipped a flagship this week"
+   },
+   "motif": "network",
+   "next": "Watch for independent benchmark results that settle where Neon ranks against GPT-6.2 and Claude.",
+   "prevHype": null,
+   "published": "2026-11-18",
+   "source": "Google",
+   "stats": [
+    {
+     "label": "tokens of context",
+     "value": "1M"
+    },
+    {
+     "label": "per M input/output tokens",
+     "value": "$3 / $15"
+    }
+   ],
+   "summary": "Google released Gemini 4 Neon, its new model, at $3 per million input tokens and $15 per million output, rolling out in its API and Gemini apps.",
+   "title": "Google launches Gemini 4 Neon with a 1 million token context window",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "why": "It is Google's answer to new flagships from OpenAI and Anthropic released in the same week."
+  }
+ },
  "ai-gemini-chat-retention": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "Gemini is Google's AI assistant and model family.",
    "category": "ai",
@@ -4561,16 +4666,16 @@
     "Privacy"
    ],
    "happened": "Google updated its Gemini Privacy Hub. Chats with history off and temporary chats stay on Google's servers for about two months, mainly for safety and service operations. Separately, users can keep history while opting out of model training.",
-   "hype": 64,
+   "hype": 50,
    "id": "ai-gemini-chat-retention",
    "meme": {
-    "bottom": "are now temporary like a lease",
-    "take": "Google's temporary chats will now be kept for two months, a bold new meaning of temporary.",
+    "bottom": "now stay two months",
+    "take": "Google will keep temporary chats for two months, which is a generous reading of temporary.",
     "top": "Gemini's temporary chats"
    },
    "motif": "shield",
    "next": "Watch for whether privacy regulators in Europe question the longer retention period.",
-   "prevHype": null,
+   "prevHype": 64,
    "published": "2026-11-17",
    "source": "TechCrunch",
    "stats": [
@@ -4640,6 +4745,45 @@
    "title": "Gemini uses paid subscribers' saved chats for training by default",
    "url": "https://aiweekly.co/alerts/google-gemini-trains-on-paid-subscribers-chats-by-default",
    "why": "Many people assumed paying for an AI service kept their chats out of training."
+  }
+ },
+ "ai-genie-4-world-model": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Google DeepMind is Google's AI research lab. AI Ultra is Google's top AI subscription.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Trend",
+     "text": "World models are a fast-growing area of AI research."
+    },
+    {
+     "label": "Fan demand",
+     "text": "It is the first time paying users can try Genie 4 directly."
+    }
+   ],
+   "entities": [
+    "Google",
+    "World models"
+   ],
+   "happened": "Project Genie adds a world-building agent and a community gallery for sharing creations. The Decoder calls it Google DeepMind's most realistic world model so far.",
+   "hype": 56,
+   "id": "ai-genie-4-world-model",
+   "meme": {
+    "bottom": "if you have an Ultra plan",
+    "take": "Google lets subscribers build entire worlds, a feature previously limited to the very bored.",
+    "top": "You can now generate a whole world"
+   },
+   "motif": "game",
+   "next": "Watch for what subscribers build and whether game studios start experimenting with it.",
+   "prevHype": null,
+   "published": "2026-11-18",
+   "source": "Google",
+   "stats": [],
+   "summary": "Google's Genie 4 lets AI Ultra subscribers generate interactive worlds, change them with text while exploring, and hear responsive audio.",
+   "title": "Google opens its Genie 4 world model to AI Ultra subscribers",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+   "why": "Interactive world models are one of the most visible new uses of AI, with obvious links to games."
   }
  },
  "ai-goldman-limits-ai-coding": {
@@ -4933,7 +5077,7 @@
   }
  },
  "ai-gpt-6-2-astra-sol": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "OpenAI makes ChatGPT and the GPT models. Codex is its coding tool.",
    "category": "ai",
@@ -4958,16 +5102,16 @@
     "Cybersecurity"
    ],
    "happened": "Astra costs $8 per million input tokens and $40 output; Sol costs $2 and $10. OpenAI's system card says Astra is its first released model at its High threshold for AI self-improvement, and both reached Critical for cybersecurity.",
-   "hype": 84,
+   "hype": 72,
    "id": "ai-gpt-6-2-astra-sol",
    "meme": {
-    "bottom": "and wins a silver medal",
-    "take": "GPT-6.2 Astra is the second-best model, which is a first place in every other industry.",
+    "bottom": "and takes the silver",
+    "take": "GPT-6.2 Astra is the second-best model, which would be first place in most other industries.",
     "top": "OpenAI ships a new flagship"
    },
    "motif": "network",
-   "next": "Watch for more independent benchmarks and whether OpenAI adjusts the models after the feedback.",
-   "prevHype": 90,
+   "next": "Watch for how GPT-6.2 fares against Google's new Gemini 4 Neon in independent tests.",
+   "prevHype": 84,
    "published": "2026-11-17",
    "source": "The Decoder",
    "stats": [
@@ -5775,6 +5919,50 @@
    "why": "It is a concrete case of an AI agent acting for a user in ways the user did not expect."
   }
  },
+ "ai-meta-muse-signal": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Meta owns Facebook, Instagram and WhatsApp. Signal is a nonprofit encrypted messaging app.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "Encrypted chats were reportedly exposed through the phone's notifications."
+    },
+    {
+     "label": "Controversy",
+     "text": "The warnings reportedly came from Meta's own staff."
+    },
+    {
+     "label": "Big name",
+     "text": "Meta's apps are used by billions of people."
+    }
+   ],
+   "entities": [
+    "Meta",
+    "Privacy",
+    "AI agents"
+   ],
+   "happened": "Muse launched in September 2026. According to the reports, Meta staff flagged the problem internally, with one calling it an extreme privacy violation. The issue reportedly came from Muse's access to notifications on Android phones.",
+   "hype": 74,
+   "id": "ai-meta-muse-signal",
+   "meme": {
+    "bottom": "the notifications did not",
+    "take": "Signal encrypted the messages perfectly, and the AI reportedly read them in the preview.",
+    "top": "End-to-end encryption held up"
+   },
+   "motif": "shield",
+   "next": "Watch for Meta's response and whether Signal or privacy regulators act.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "AI Weekly",
+   "stats": [],
+   "summary": "Reuters and Ars Technica report that Meta's Muse assistant could read encrypted Signal messages on Android through push notifications.",
+   "title": "Meta's Muse AI reportedly read Signal messages through Android notifications",
+   "url": "https://aiweekly.co/ai-news-today/edition/2026-11-19",
+   "why": "Signal is used precisely because its messages are encrypted, so an assistant reading them is a big privacy concern."
+  }
+ },
  "ai-meta-muse-spark-open": {
   "lastSeen": "2026-10-19",
   "story": {
@@ -6208,7 +6396,7 @@
   }
  },
  "ai-microsoft-mai-models": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "Ignite is Microsoft's yearly conference for business customers and developers.",
    "category": "ai",
@@ -6233,16 +6421,16 @@
     "AI coding"
    ],
    "happened": "The set covers coding, cybersecurity, image generation and voice. ZDNET reports Microsoft says its new coding model rivals Claude Opus 5.5 at about 5% of the cost. Code 2 Flash targets routine fixes at a lower price.",
-   "hype": 76,
+   "hype": 58,
    "id": "ai-microsoft-mai-models",
    "meme": {
-    "bottom": "to compete with the AI it bought",
-    "take": "Microsoft launches seven models, finally giving its OpenAI investment someone to worry about.",
+    "bottom": "to compete with the AI it invested in",
+    "take": "Microsoft launches seven models, giving its OpenAI investment something new to worry about.",
     "top": "Microsoft built its own AI"
    },
    "motif": "network",
    "next": "Watch for independent tests of Microsoft's cost and quality claims.",
-   "prevHype": null,
+   "prevHype": 76,
    "published": "2026-11-17",
    "source": "Axios",
    "stats": [
@@ -7385,6 +7573,55 @@
    "why": "Ads inside chatbots change how AI companies make money and what users see when they ask questions."
   }
  },
+ "ai-openai-chip-design": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "AMD is a major maker of processors and AI chips. Synopsys makes software used to design chips.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "First of its kind",
+     "text": "AI is being used to design parts of the chips it runs on."
+    },
+    {
+     "label": "Big name",
+     "text": "AMD and Synopsys are involved in the work."
+    }
+   ],
+   "entities": [
+    "OpenAI",
+    "AI chips",
+    "AMD"
+   ],
+   "happened": "OpenAI says one AI-designed multiplier shrank estimated area by about 15% and cut a calculation from two clock cycles to one. The work is for its Jalapeño chip effort with AMD, and it is also working with Synopsys on design software.",
+   "hype": 60,
+   "id": "ai-openai-chip-design",
+   "meme": {
+    "bottom": "and asked for a smaller one",
+    "take": "OpenAI's models shaved 15% off a chip part, which is how you get a raise in hardware.",
+    "top": "The AI helped design its own chip"
+   },
+   "motif": "chip",
+   "next": "Watch for whether the redesigned parts make it into shipping chips.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "OpenAI",
+   "stats": [
+    {
+     "label": "smaller estimated chip area",
+     "value": "~15%"
+    },
+    {
+     "label": "clock cycles for a calculation",
+     "value": "2 to 1"
+    }
+   ],
+   "summary": "OpenAI says an AI-generated circuit redesign cut a chip part's estimated area by about 15% in its chip work with AMD.",
+   "title": "OpenAI says its models are helping redesign parts of its AI chips",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+   "why": "Using AI to design the chips that run AI could speed up and cut the cost of the whole hardware race."
+  }
+ },
  "ai-openai-embedded-evaluators": {
   "lastSeen": "2026-11-18",
   "story": {
@@ -8290,6 +8527,60 @@
    "why": "AI meeting tools are among the few AI apps with millions of paying users, and this deal tests a new way to fund them."
   }
  },
+ "ai-palo-alto-applied-compute": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Palo Alto Networks is one of the largest cybersecurity companies in the world.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "$4.5 billion for a startup that is about one year old."
+    },
+    {
+     "label": "Speed",
+     "text": "The price jumped $1.25 billion in about two weeks."
+    },
+    {
+     "label": "Trend",
+     "text": "Security firms are racing to add AI."
+    }
+   ],
+   "entities": [
+    "AI funding",
+    "Cybersecurity",
+    "Open-weight models",
+    "Earnings"
+   ],
+   "happened": "The WSJ reports the price is $1.25 billion above Applied Compute's valuation from November 2. Palo Alto shares rose about 7% after its earnings, CNBC reports. The deal is subject to adjustments.",
+   "hype": 64,
+   "id": "ai-palo-alto-applied-compute",
+   "meme": {
+    "bottom": "worth $1.25 billion more since November",
+    "take": "Applied Compute sells for $4.5 billion, outpacing most houses, stocks and one-year-olds.",
+    "top": "Founded a year ago"
+   },
+   "motif": "bag",
+   "next": "Watch for regulatory approval and how Palo Alto builds the models into its products.",
+   "prevHype": null,
+   "published": "2026-11-18",
+   "source": "Unite.AI",
+   "stats": [
+    {
+     "label": "all-stock deal value",
+     "value": "$4.5B"
+    },
+    {
+     "label": "over its Nov 2 valuation, WSJ",
+     "value": "+$1.25B"
+    }
+   ],
+   "summary": "Palo Alto Networks agreed to buy Applied Compute, a year-old startup that runs custom open-weight models on company data, in an all-stock deal.",
+   "title": "Palo Alto Networks buys AI startup Applied Compute for $4.5 billion in stock",
+   "url": "https://www.unite.ai/palo-alto-networks-reaches-4-5b-agreement-for-applied-compute/",
+   "why": "Security companies are paying up for AI talent, and this is a big price for a very young company."
+  }
+ },
  "ai-qwen-metadata-probe": {
   "lastSeen": "2026-10-28",
   "story": {
@@ -8540,6 +8831,49 @@
    "title": "Baidu and Xiaomi bosses warn AI spending is outrunning the returns",
    "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
    "why": "Doubts about AI payback are now coming from inside the industry, not only from sceptical investors."
+  }
+ },
+ "ai-schools-google-search": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Google's tools, including Chromebooks and Classroom, are widely used in US schools.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "They are three of the largest districts in the country."
+    },
+    {
+     "label": "Controversy",
+     "text": "Opting out of AI would mean losing Search entirely."
+    },
+    {
+     "label": "Rivalry",
+     "text": "Other search engines get an opening in education."
+    }
+   ],
+   "entities": [
+    "Google",
+    "Education"
+   ],
+   "happened": "The New York Times reports that starting next year, schools cannot turn off Gemini-powered features without losing Google Search. The districts in New York City, Los Angeles and Chicago are examining other options.",
+   "hype": 68,
+   "id": "ai-schools-google-search",
+   "meme": {
+    "bottom": "and the search engine with it",
+    "take": "Google offers schools a choice between AI in Search or no Search, a classic multiple choice.",
+    "top": "Schools can turn off the AI"
+   },
+   "motif": "doc",
+   "next": "Watch for whether Google changes the policy for schools or a district switches search providers.",
+   "prevHype": null,
+   "published": "2026-11-18",
+   "source": "The New York Times",
+   "stats": [],
+   "summary": "Three of the largest US school districts are looking at alternatives after Google said schools that opt out of its AI features will lose Search.",
+   "title": "New York, LA and Chicago schools weigh dropping Google Search over AI features",
+   "url": "https://www.nytimes.com/2026/11/18/technology/google-gemini-ai-search-schools-nyc-la-chicago.html",
+   "why": "Schools are one of the most sensitive places for AI, and these districts serve well over a million students."
   }
  },
  "ai-scientists-letter-regulator": {
@@ -9526,8 +9860,52 @@
    "why": "Ali G was one of the defining British comedy characters of the early 2000s."
   }
  },
+ "ent-artificial-trailer": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Neon is the independent distributor behind Parasite and Anora. OpenAI makes ChatGPT.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Guadagnino directed Call Me by Your Name and Challengers."
+    },
+    {
+     "label": "Timing",
+     "text": "It lands in the week of Anthropic's IPO and new OpenAI models."
+    },
+    {
+     "label": "Controversy",
+     "text": "It dramatises real, recent events at OpenAI."
+    }
+   ],
+   "entities": [
+    "OpenAI",
+    "Neon",
+    "Theatrical releases"
+   ],
+   "happened": "Andrew Garfield plays Sam Altman, with Yura Borisov as Ilya Sutskever, Monica Barbaro as Mira Murati and Ike Barinholtz as Elon Musk. Simon Rich wrote the script.",
+   "hype": 80,
+   "id": "ent-artificial-trailer",
+   "meme": {
+    "bottom": "now has a trailer",
+    "take": "Hollywood turns the OpenAI saga into a film, a product launch with an actual script.",
+    "top": "The OpenAI boardroom saga"
+   },
+   "motif": "film",
+   "next": "Watch for a release date and how the people portrayed respond.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "IndieWire",
+   "stats": [],
+   "summary": "Neon released the first trailer for Luca Guadagnino's Artificial, a drama about the power struggles at OpenAI.",
+   "title": "First trailer for Artificial casts Andrew Garfield as Sam Altman",
+   "url": "https://www.indiewire.com/news/trailers/artificial-trailer-luca-guadagnino-sam-altman-1235229086/",
+   "why": "A film about a living tech boss, released as AI dominates the news, is bound to get talked about."
+  }
+ },
  "ent-avengers-doomsday-posters": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "Marvel Studios, owned by Disney, makes the Marvel Cinematic Universe films.",
    "category": "entertainment",
@@ -9552,16 +9930,16 @@
     "Theatrical releases"
    ],
    "happened": "Ten posters pair up heroes and one shows Downey's Doom alone. In the featurette, Downey says a film is only as good as its villain. The film opens December 18, and December 16 in China.",
-   "hype": 76,
+   "hype": 64,
    "id": "ent-avengers-doomsday-posters",
    "meme": {
-    "bottom": "now he is back to bill it",
-    "take": "Robert Downey Jr. returns as the villain, because in Marvel nobody really leaves, they recast.",
+    "bottom": "now he is back to threaten it",
+    "take": "Robert Downey Jr. returns as the villain, because in Marvel nobody leaves, they get recast.",
     "top": "He saved the universe as Iron Man"
    },
    "motif": "film",
    "next": "Watch for a final trailer and early ticket presales.",
-   "prevHype": null,
+   "prevHype": 76,
    "published": "2026-11-18",
    "source": "Cosmic Book News",
    "stats": [
@@ -10033,6 +10411,55 @@
    "title": "BTS's São Paulo live viewing takes $2.8 million in US cinemas",
    "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/",
    "why": "BTS fans turn concert screenings into events, and cinemas count on them in quiet weeks."
+  }
+ },
+ "ent-canal-disney-dispute": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Canal+ is France's biggest pay-TV group and bundled Disney+ for several years.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "Canal+ is seeking 137 million euros."
+    },
+    {
+     "label": "Rivalry",
+     "text": "Former partners are now fighting over the same subscribers."
+    }
+   ],
+   "entities": [
+    "Disney",
+    "Streaming",
+    "Europe"
+   ],
+   "happened": "The claim covers customers from 2020 to 2024. Disney says those users gave their details to activate its service, and it separately claims 7.6 million euros in unpaid fees. The court declined to merge the two cases.",
+   "hype": 52,
+   "id": "ent-canal-disney-dispute",
+   "meme": {
+    "bottom": "the email list did not",
+    "take": "Canal+ and Disney are in court over who gets to send the reminder emails.",
+    "top": "The streaming partnership ended"
+   },
+   "motif": "doc",
+   "next": "Watch for the Paris commercial court's ruling on either claim.",
+   "prevHype": null,
+   "published": "2026-11-18",
+   "source": "Broadband TV News",
+   "stats": [
+    {
+     "label": "Canal+ claim",
+     "value": "€137M"
+    },
+    {
+     "label": "Disney's counterclaim",
+     "value": "€7.6M"
+    }
+   ],
+   "summary": "Canal+ is suing Disney in Paris, alleging it used emails of customers who activated Disney+ through Canal+ to sign them up directly.",
+   "title": "Canal+ seeks 137 million euros from Disney over former subscribers' emails",
+   "url": "https://www.broadbandtvnews.com/2026/11/18/canal-and-disney-in-e137m-subscriber-data-dispute/",
+   "why": "It is a fight over who owns the customer when streaming bundles end, a common setup across Europe."
   }
  },
  "ent-cat-in-the-hat": {
@@ -10650,6 +11077,63 @@
    "why": "Disney is one of the bellwethers of streaming and theme parks, and its cost cuts affect the whole industry."
   }
  },
+ "ent-disney-content-budget": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Disney owns Disney+, Hulu, Pixar, Marvel and Lucasfilm.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "A $26 billion budget for a single year."
+    },
+    {
+     "label": "Rivalry",
+     "text": "Disney is licensing major titles to its streaming rival Netflix."
+    },
+    {
+     "label": "Scale",
+     "text": "It plans to roughly triple its international originals."
+    }
+   ],
+   "entities": [
+    "Disney",
+    "Netflix",
+    "Streaming"
+   ],
+   "happened": "Disney also licensed all five Ice Age films, Percy Jackson, and Pixar's Soul and Elio to Netflix. CFO Hugh Johnston said international spending will take time to scale.",
+   "hype": 70,
+   "id": "ent-disney-content-budget",
+   "meme": {
+    "bottom": "and lending Ice Age to Netflix",
+    "take": "Disney raises its budget 9% and rents its mammoths to the competition.",
+    "top": "Disney is spending $26 billion"
+   },
+   "motif": "screen",
+   "next": "Watch for which international originals Disney+ greenlights first.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "C21 Media",
+   "stats": [
+    {
+     "label": "2027 content budget",
+     "value": "$26B"
+    },
+    {
+     "label": "increase on 2026",
+     "value": "+9%"
+    },
+    {
+     "label": "Ice Age films licensed to Netflix",
+     "value": "5"
+    }
+   ],
+   "summary": "Disney plans to spend $26 billion on content in 2027 and roughly triple its Disney+ international originals over three years, C21 Media reports.",
+   "title": "Disney raises its 2027 content budget 9% to $26 billion and licenses films to Netflix",
+   "url": "https://www.c21media.net/news/disney-raises-2027-content-budget-9-to-us26bn-targets-more-local-originals/",
+   "why": "Content budgets decide what people get to watch, and Disney is one of the biggest spenders in the business."
+  }
+ },
  "ent-dune-part-three-final-trailer": {
   "lastSeen": "2026-10-31",
   "story": {
@@ -10705,7 +11189,7 @@
   }
  },
  "ent-ebenezer-box-office": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "Ebenezer is a new take on Charles Dickens' A Christmas Carol.",
    "category": "entertainment",
@@ -10725,36 +11209,36 @@
     "Theatrical releases",
     "Book adaptations"
    ],
-   "happened": "The Ti West film opened at No. 1 with $19 million in the US and $42 million worldwide on a reported $38 million budget. Box Office Theory projects a $34.8 million US total by Sunday.",
-   "hype": 62,
+   "happened": "The Ti West film opened at No. 1 with $19 million in the US, slightly under expectations, BoxOfficePro says. It has an A- CinemaScore and 53% on Rotten Tomatoes.",
+   "hype": 54,
    "id": "ent-ebenezer-box-office",
    "meme": {
-    "bottom": "visited by the ghost of week two",
-    "take": "Ebenezer is set to fall 52%, a lesson in thrift its main character would respect.",
+    "bottom": "then the ghost of week two",
+    "take": "Ebenezer is set to drop sharply, a lesson in thrift its main character would respect.",
     "top": "A Christmas Carol in November"
    },
    "motif": "film",
    "next": "Watch for how it holds over the Thanksgiving holiday next week.",
-   "prevHype": 80,
-   "published": "2026-11-18",
-   "source": "Box Office Theory",
+   "prevHype": 62,
+   "published": "2026-11-19",
+   "source": "Boxoffice Pro",
    "stats": [
     {
      "label": "2nd weekend forecast",
-     "value": "$9.2M"
-    },
-    {
-     "label": "forecast drop",
-     "value": "-52%"
+     "value": "$8-13M"
     },
     {
      "label": "US opening",
      "value": "$19M"
+    },
+    {
+     "label": "CinemaScore",
+     "value": "A-"
     }
    ],
-   "summary": "Johnny Depp's Ebenezer is forecast at $9.2 million in its second US weekend, down 52%, as the Hunger Games prequel arrives.",
+   "summary": "Johnny Depp's Ebenezer is forecast at $8 million to $13 million in its second weekend, falling to third as the Hunger Games prequel arrives.",
    "title": "Ebenezer is forecast to drop about half in its second weekend",
-   "url": "https://boxofficetheory.com/weekend-box-office-forecast-hunger-games-sunrise-on-the-reaping-tracking-100-114-million-lionsgate/",
+   "url": "https://www.boxofficepro.com/weekend-preview-hunger-games-sunrise-on-the-reaping-looking-at-100m-debut/",
    "why": "It is a rare box office win for Depp and a test of how a mid-budget holiday film holds up."
   }
  },
@@ -11644,22 +12128,22 @@
   }
  },
  "ent-hunger-games-sunrise": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "The Hunger Games films are based on Suzanne Collins' novels. This is the second prequel.",
    "category": "entertainment",
    "drivers": [
     {
      "label": "Fan demand",
-     "text": "Presales are reported as the best in the franchise's history."
+     "text": "Forecasters see the year's first $100 million opening since July."
     },
     {
      "label": "Nostalgia",
-     "text": "Jennifer Lawrence and Josh Hutcherson return for cameos."
+     "text": "It is a prequel to one of the biggest film series of the 2010s."
     },
     {
      "label": "Rivalry",
-     "text": "Its main competition this weekend is a video game, GTA VI."
+     "text": "It opens the same week GTA VI took over the culture."
     }
    ],
    "entities": [
@@ -11668,37 +12152,94 @@
     "Book adaptations",
     "Theatrical releases"
    ],
-   "happened": "Box Office Theory's point forecast is $114 million. TheWrap reports presales are the best in franchise history and the film sits at 72% on Rotten Tomatoes. Mockingjay Part 2 opened to $102 million in 2015.",
-   "hype": 90,
+   "happened": "BoxOfficePro says it would be the first $100 million opener since Spider-Man: Brand New Day in July. The film is at 76% on Rotten Tomatoes, ahead of the 64% for The Ballad of Songbirds & Snakes, which grossed $347.86 million worldwide.",
+   "hype": 92,
    "id": "ent-hunger-games-sunrise",
    "meme": {
-    "bottom": "and a $114 million forecast",
-    "take": "The Hunger Games returns, proving the odds are very much in Lionsgate's favour.",
-    "top": "Haymitch finally gets his story"
+    "bottom": "now they are a forecast",
+    "take": "The Hunger Games returns, and the odds are once again in Lionsgate's favour.",
+    "top": "The odds were once a famous line"
    },
    "motif": "film",
-   "next": "Watch for Thursday preview numbers and whether it beats the franchise's best opening.",
-   "prevHype": 78,
-   "published": "2026-11-18",
-   "source": "Box Office Theory",
+   "next": "Watch for Thursday preview numbers and Sunday's opening weekend estimate.",
+   "prevHype": 90,
+   "published": "2026-11-19",
+   "source": "Boxoffice Pro",
    "stats": [
     {
-     "label": "opening forecast",
-     "value": "$100-125M"
+     "label": "opening forecast, BoxOfficePro",
+     "value": "$100-120M"
     },
     {
-     "label": "US locations",
+     "label": "US screens",
      "value": "~3,900"
     },
     {
-     "label": "Rotten Tomatoes, TheWrap",
-     "value": "72%"
+     "label": "Rotten Tomatoes",
+     "value": "76%"
     }
    ],
-   "summary": "Sunrise on the Reaping opens November 20 in about 3,900 US locations, with forecasts of $100 million to $125 million.",
-   "title": "Hunger Games prequel opens Friday with forecasts topping $100 million",
-   "url": "https://boxofficetheory.com/weekend-box-office-forecast-hunger-games-sunrise-on-the-reaping-tracking-100-114-million-lionsgate/",
-   "why": "It could be the franchise's biggest opening and the year's big holiday-season film."
+   "summary": "Sunrise on the Reaping opens November 20 on about 3,900 US screens, with BoxOfficePro's panel forecasting $100 million to $120 million.",
+   "title": "Hunger Games prequel opens today with a $100 million-plus debut in sight",
+   "url": "https://www.boxofficepro.com/weekend-preview-hunger-games-sunrise-on-the-reaping-looking-at-100m-debut/",
+   "why": "It is the big film of the pre-Thanksgiving weekend and a test of the franchise's pull a decade on."
+  }
+ },
+ "ent-i-play-rocky-expands": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Rocky (1976) was written by and starred Sylvester Stallone and won the Oscar for best picture.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "It tells the story behind the original Rocky."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Its audience score is a reported 98%."
+    },
+    {
+     "label": "Rivalry",
+     "text": "It goes wide against the Hunger Games prequel."
+    }
+   ],
+   "entities": [
+    "Amazon",
+    "Box office",
+    "Theatrical releases"
+   ],
+   "happened": "BoxOfficePro reports an 87% critic score and a 98% audience score. Its forecast for the wide expansion is $15 million to $20 million, opening against the Hunger Games prequel.",
+   "hype": 58,
+   "id": "ent-i-play-rocky-expands",
+   "meme": {
+    "bottom": "opens against the Hunger Games",
+    "take": "I Play Rocky goes wide against a franchise giant, which is at least on brand.",
+    "top": "A film about the ultimate underdog"
+   },
+   "motif": "film",
+   "next": "Watch for its opening weekend total and whether it holds into Thanksgiving.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "Boxoffice Pro",
+   "stats": [
+    {
+     "label": "wide opening forecast",
+     "value": "$15-20M"
+    },
+    {
+     "label": "audience score",
+     "value": "98%"
+    },
+    {
+     "label": "screens in limited run",
+     "value": "<30"
+    }
+   ],
+   "summary": "Amazon MGM's I Play Rocky expands nationwide this weekend after earning nearly $1 million on fewer than 30 screens.",
+   "title": "Stallone biopic I Play Rocky goes wide with a $15 million to $20 million forecast",
+   "url": "https://www.boxofficepro.com/weekend-preview-hunger-games-sunrise-on-the-reaping-looking-at-100m-debut/",
+   "why": "It is a well-reviewed film about how one of cinema's best-known underdog stories got made."
   }
  },
  "ent-instagram-pays-youtubers": {
@@ -13231,6 +13772,45 @@
    "why": "Big theatrical horror hits often find a second, larger audience once they hit streaming."
   }
  },
+ "ent-netflix-peter-rice": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Netflix is the world's largest subscription streaming service.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Rice previously ran Disney's general entertainment and Fox's TV business."
+    },
+    {
+     "label": "Timing",
+     "text": "It follows a run of executive departures at Netflix."
+    }
+   ],
+   "entities": [
+    "Netflix",
+    "Streaming"
+   ],
+   "happened": "The Hollywood Reporter says Rice is tasked with reviving Netflix's creative output after recent executive departures. Co-CEO Ted Sarandos has said the company's strategy is unchanged.",
+   "hype": 62,
+   "id": "ent-netflix-peter-rice",
+   "meme": {
+    "bottom": "the strategy is unchanged, it says",
+    "take": "Netflix brings in a new content boss to change things, while confirming nothing is changing.",
+    "top": "Netflix hired a new content chief"
+   },
+   "motif": "screen",
+   "next": "Watch for Rice's first big greenlights and any further changes in Netflix's film team.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "The Hollywood Reporter",
+   "stats": [],
+   "summary": "Netflix has named veteran TV and film executive Peter Rice as content chief, with a reported hands-on role in its film division.",
+   "title": "Netflix names Peter Rice as its new content chief",
+   "url": "https://www.hollywoodreporter.com/business/business-news/peter-rice-netflix-1236758024/",
+   "why": "Whoever runs content at Netflix shapes what a huge share of the world streams."
+  }
+ },
  "ent-netflix-pride-prejudice": {
   "lastSeen": "2026-11-19",
   "story": {
@@ -13887,7 +14467,7 @@
   }
  },
  "ent-pattinson-bond": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "Amazon took creative control of James Bond in 2025. Villeneuve directed the Dune films.",
    "category": "entertainment",
@@ -13911,16 +14491,16 @@
     "Theatrical releases"
    ],
    "happened": "Amazon announced the casting on November 16. Steven Knight wrote the script, and Amy Pascal and David Heyman are producing.",
-   "hype": 82,
+   "hype": 70,
    "id": "ent-pattinson-bond",
    "meme": {
     "bottom": "now he has a licence",
-    "take": "Robert Pattinson is Bond, completing the rare set of brooding, more brooding and shaken.",
+    "take": "Robert Pattinson is Bond, completing the set of brooding, more brooding and shaken.",
     "top": "He was a vampire, then Batman"
    },
    "motif": "film",
    "next": "Watch for a release date, a production start and the rest of the cast.",
-   "prevHype": 95,
+   "prevHype": 82,
    "published": "2026-11-16",
    "source": "Amazon",
    "stats": [
@@ -14699,7 +15279,7 @@
   }
  },
  "ent-swift-cma-return": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "The CMA Awards are country music's biggest annual awards show.",
    "category": "entertainment",
@@ -14723,7 +15303,7 @@
     "Music"
    ],
    "happened": "Lainey Wilson hosted at Bridgestone Arena. The night paid tribute to Dolly Parton, who died in August. Ella Langley won music video of the year for 'Choosin' Texas', and 'McArthur' won musical event.",
-   "hype": 80,
+   "hype": 62,
    "id": "ent-swift-cma-return",
    "meme": {
     "bottom": "and she brought her first song",
@@ -14732,7 +15312,7 @@
    },
    "motif": "voice",
    "next": "Watch for the full winners list and the clips that travel furthest online.",
-   "prevHype": 84,
+   "prevHype": 80,
    "published": "2026-11-18",
    "source": "ABC News",
    "stats": [
@@ -15847,6 +16427,45 @@
    "why": "A documentary topping the box office is rare, and it is now in the awards conversation."
   }
  },
+ "ent-youtube-co-viewing": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "YouTube is Google's video platform and one of the most-watched services on TVs.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "View counts feed into advertising and creator deals."
+    },
+    {
+     "label": "Trend",
+     "text": "More YouTube watching is happening on living room TVs."
+    }
+   ],
+   "entities": [
+    "Google",
+    "Streaming"
+   ],
+   "happened": "The change applies to long-form videos, Shorts and livestreams, but only to new views on TVs, The Verge reports. YouTube says it does not use cameras or microphones to make the estimates.",
+   "hype": 56,
+   "id": "ent-youtube-co-viewing",
+   "meme": {
+    "bottom": "without being able to see them",
+    "take": "YouTube will estimate who else is on the sofa, a statistic no family has ever agreed on.",
+    "top": "YouTube can now count your family"
+   },
+   "motif": "screen",
+   "next": "Watch for how much view counts rise and how advertisers react.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "The Verge",
+   "stats": [],
+   "summary": "YouTube will count estimated viewers watching together on connected TVs, using statistical modelling rather than cameras or microphones.",
+   "title": "YouTube will add estimated group viewers on TVs to its view counts",
+   "url": "https://www.theverge.com/streaming/1035683/youtube-co-views-count",
+   "why": "View counts drive creator pay and advertising, so changing how they are counted matters to the whole platform."
+  }
+ },
  "ent-youtube-music-ai-labels": {
   "lastSeen": "2026-10-15",
   "story": {
@@ -16572,6 +17191,50 @@
    "why": "BioWare made some of gaming's most loved RPGs, so its end has hit fans hard."
   }
  },
+ "game-build-a-rocket-boy-debt": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Build A Rocket Boy is a UK studio founded by former Rockstar North president Leslie Benzies.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "The reported debt is 62 million pounds."
+    },
+    {
+     "label": "Risk",
+     "text": "A possible closure was flagged in September."
+    }
+   ],
+   "entities": [
+    "UK games industry",
+    "Game industry finances"
+   ],
+   "happened": "The document puts the debt at 62 million pounds, about 74.4 million euros. A possible closure of the studio was flagged in September.",
+   "hype": 48,
+   "id": "game-build-a-rocket-boy-debt",
+   "meme": {
+    "bottom": "a different studio owes 62 million",
+    "take": "The games industry this week: one studio counting billions, another counting debts.",
+    "top": "GTA VI made $2 billion on day one"
+   },
+   "motif": "money",
+   "next": "Watch for news on the studio's future and the game's support.",
+   "prevHype": null,
+   "published": "2026-11-18",
+   "source": "Instant Gaming News",
+   "stats": [
+    {
+     "label": "reported debt",
+     "value": "£62M"
+    }
+   ],
+   "summary": "A new filing shows Build A Rocket Boy, the studio behind MindsEye, owes about 62 million pounds, Instant Gaming News reports.",
+   "title": "MindsEye developer Build A Rocket Boy reportedly owes 62 million pounds",
+   "url": "https://news.instant-gaming.com/en/articles/23107-build-a-rocket-boy-mindseye-is-reportedly-in-debt-to-the-amount-of-62-million-pounds",
+   "why": "The studio's struggles are a high-profile example of how expensive new games can go wrong."
+  }
+ },
  "game-bungie-destiny-roadmap": {
   "lastSeen": "2026-10-31",
   "story": {
@@ -16978,6 +17641,50 @@
    "title": "Remedy's Control Resonant sells one million copies in three weeks",
    "url": "https://thisweekinvideogames.com/news/",
    "why": "Strong sales matter for a mid-sized studio betting on its own franchises."
+  }
+ },
+ "game-crimson-desert-korea-awards": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Pearl Abyss is the South Korean studio behind Black Desert Online.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Rivalry",
+     "text": "It leads a strong year for South Korean games."
+    },
+    {
+     "label": "Timing",
+     "text": "Awards season runs up to The Game Awards on December 10."
+    }
+   ],
+   "entities": [
+    "Awards season",
+    "South Korea"
+   ],
+   "happened": "The open-world action game swept the ceremony with eight awards, Instant Gaming News reports.",
+   "hype": 52,
+   "id": "game-crimson-desert-korea-awards",
+   "meme": {
+    "bottom": "the trophy shelf is now a wall",
+    "take": "Crimson Desert wins eight Korea Game Awards, leaving the other nominees to share the parking.",
+    "top": "Eight awards in one night"
+   },
+   "motif": "game",
+   "next": "Watch for whether it picks up more honours this awards season.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "Instant Gaming News",
+   "stats": [
+    {
+     "label": "awards won",
+     "value": "8"
+    }
+   ],
+   "summary": "Pearl Abyss's Crimson Desert took eight prizes at the Korea Game Awards, including the top award.",
+   "title": "Crimson Desert wins eight Korea Game Awards, including Game of the Year",
+   "url": "https://news.instant-gaming.com/en/articles/23117-crimson-desert-wins-8-awards-at-the-korea-game-awards",
+   "why": "It is a big win for South Korea's console-style games as the global awards season begins."
   }
  },
  "game-cyberpunk-2077-update-2-5": {
@@ -18396,6 +19103,51 @@
    "why": "GTA 6 is the most anticipated game in years, and its marketing is now spilling into a real city."
   }
  },
+ "game-gta-vi-30fps": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Most big console games now offer a 60 frames per second mode.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Controversy",
+     "text": "Many players expected a 60 fps option on the PS5 Pro."
+    },
+    {
+     "label": "Big name",
+     "text": "Digital Foundry's analysis is widely followed."
+    }
+   ],
+   "entities": [
+    "GTA VI",
+    "Rockstar",
+    "PlayStation"
+   ],
+   "happened": "Digital Foundry says the PS5 Pro version looks significantly better with the same frame rate, and the Xbox Series S runs worse than the Series X but is still pretty good. A 60 fps mode is said to be highly unlikely.",
+   "hype": 74,
+   "id": "game-gta-vi-30fps",
+   "meme": {
+    "bottom": "it gets better shadows at 30",
+    "take": "GTA VI runs at 30 on the PS5 Pro, which now looks great while doing exactly the same.",
+    "top": "The PS5 Pro was built for this"
+   },
+   "motif": "game",
+   "next": "Watch for performance tests of the eventual PC version.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "PC Gamer",
+   "stats": [
+    {
+     "label": "console frame rate",
+     "value": "30 fps"
+    }
+   ],
+   "summary": "GTA VI is capped at 30 frames per second on consoles, and Rockstar says even the PS5 Pro is not powerful enough for its simulation at 60.",
+   "title": "GTA VI runs at 30 frames per second on consoles, even on the PS5 Pro",
+   "url": "https://www.pcgamer.com/games/live/news/grand-theft-auto-6-live-launch-coverage/",
+   "why": "Frame rate is one of the most argued-about topics among console players."
+  }
+ },
  "game-gta-vi-day-off": {
   "lastSeen": "2026-11-19",
   "story": {
@@ -18450,7 +19202,7 @@
   }
  },
  "game-gta-vi-launch": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "Rockstar Games is owned by Take-Two Interactive and also made Red Dead Redemption.",
    "category": "gaming",
@@ -18474,7 +19226,7 @@
     "GTA VI",
     "New game releases"
    ],
-   "happened": "The 99 comes from 150 reviews with none mixed or negative. Sensor Tower put pre-orders above $1.5 billion and about 17.1 million copies. It runs at 30 frames per second on consoles. Take-Two shares rose 7.35% on Wednesday.",
+   "happened": "The score ties The Legend of Zelda: Ocarina of Time. Pre-orders were reported above $1.5 billion by Sensor Tower, and Deadline reports launch-day sales passing $2 billion. Rockstar has not released an official sales figure.",
    "hype": 99,
    "id": "game-gta-vi-launch",
    "meme": {
@@ -18483,27 +19235,27 @@
     "top": "Thirteen years of development"
    },
    "motif": "game",
-   "next": "Watch for Take-Two's first official sales figure and news on a PC date.",
-   "prevHype": 98,
+   "next": "Watch for Take-Two's first official sales number and any news on a PC version.",
+   "prevHype": 99,
    "published": "2026-11-19",
-   "source": "Tech-ish",
+   "source": "Deadline",
    "stats": [
     {
      "label": "Metacritic score",
      "value": "99"
     },
     {
-     "label": "pre-orders, Sensor Tower",
-     "value": "$1.5B+"
+     "label": "launch-day sales, reported",
+     "value": "$2B+"
     },
     {
-     "label": "copies pre-ordered, reported",
-     "value": "17.1M"
+     "label": "pre-orders, Sensor Tower",
+     "value": "$1.5B+"
     }
    ],
-   "summary": "Grand Theft Auto VI launched worldwide on November 19 to a Metacritic score of 99, tied for the highest the site lists.",
-   "title": "GTA VI is out, with a 99 on Metacritic and over $1.5B in reported pre-sales",
-   "url": "https://tech-ish.com/2026/11/19/gta-vi-reviews-99-metacritic-sales-day-off/",
+   "summary": "Grand Theft Auto VI rolled out worldwide from November 18 in New Zealand to the Americas on November 19, with a 99 on Metacritic.",
+   "title": "GTA VI is out and has a 99 on Metacritic, the joint highest score the site lists",
+   "url": "https://deadline.com/2026/11/gta-6-sales-launch-day-surge-videogame-1237229514/",
    "why": "It is the most anticipated game in years, and its sales are seen as a test for the whole console market."
   }
  },
@@ -18565,6 +19317,51 @@
    "why": "It is the most anticipated game in years and will dominate the holiday season."
   }
  },
+ "game-gta-vi-pc-2027": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Rockstar Games is owned by Take-Two Interactive.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Fan demand",
+     "text": "PC players are the only major group still waiting."
+    },
+    {
+     "label": "Timing",
+     "text": "It would be a much shorter wait than for past Rockstar games."
+    }
+   ],
+   "entities": [
+    "GTA VI",
+    "Rockstar",
+    "Take-Two"
+   ],
+   "happened": "PC Gamer relayed the GamesBeat report, which cites five people familiar with the plans. GTA V reached PC about 19 months after its console debut, and Red Dead Redemption 2 about a year after.",
+   "hype": 68,
+   "id": "game-gta-vi-pc-2027",
+   "meme": {
+    "bottom": "a few more months, reportedly",
+    "take": "GTA VI may hit PC in early 2027, which in Rockstar time counts as a same-day release.",
+    "top": "PC players have waited 13 years"
+   },
+   "motif": "game",
+   "next": "Watch for any official PC announcement from Rockstar or Take-Two.",
+   "prevHype": null,
+   "published": "2026-11-17",
+   "source": "PC Gamer",
+   "stats": [
+    {
+     "label": "sources cited by GamesBeat",
+     "value": "5"
+    }
+   ],
+   "summary": "GamesBeat, citing five sources, reports that GTA VI will launch on PC in the first few months of 2027. Rockstar has not announced a date.",
+   "title": "GTA VI could reach PC in early 2027, a report says",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/report-claims-grand-theft-auto-6-will-launch-on-pc-sooner-than-anyone-expected/",
+   "why": "PC players have historically waited a year or more for Rockstar's games."
+  }
+ },
  "game-gta-vi-soundtrack-intent": {
   "lastSeen": "2026-10-31",
   "story": {
@@ -18612,6 +19409,59 @@
    "title": "GTA VI gets a December soundtrack date and record purchase intent",
    "url": "https://news.instant-gaming.com/en/articles/22759-gta-vi-has-a-29-purchase-intent-rating-in-the-united-states",
    "why": "GTA VI is the most anticipated game in years, and every new detail draws huge attention."
+  }
+ },
+ "game-gta-vi-streaming-record": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Twitch is Amazon's live-streaming platform, used mostly for gaming.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "Nearly 8 million people were watching at once, StreamCharts estimates."
+    },
+    {
+     "label": "First of its kind",
+     "text": "It broke Valorant's Twitch viewership record."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Many viewers watched others play before getting it themselves."
+    }
+   ],
+   "entities": [
+    "GTA VI",
+    "Rockstar",
+    "Live streaming"
+   ],
+   "happened": "Riot Games said on X that the 1.7 million viewer Twitch record set by Valorant had been broken. The viewer count across platforms is StreamCharts' estimate.",
+   "hype": 84,
+   "id": "game-gta-vi-streaming-record",
+   "meme": {
+    "bottom": "millions more watched them play",
+    "take": "GTA VI drew nearly 8 million viewers, the largest crowd ever to watch someone else drive.",
+    "top": "Millions bought GTA VI"
+   },
+   "motif": "game",
+   "next": "Watch for whether viewing holds up over the first weekend.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "Instant Gaming News",
+   "stats": [
+    {
+     "label": "peak live viewers, StreamCharts",
+     "value": "~8M"
+    },
+    {
+     "label": "Valorant's Twitch record broken",
+     "value": "1.7M"
+    }
+   ],
+   "summary": "StreamCharts reports nearly 8 million concurrent viewers across five platforms for the GTA VI launch, and it broke Valorant's Twitch record.",
+   "title": "GTA VI launch draws nearly 8 million live viewers and breaks a Twitch record",
+   "url": "https://news.instant-gaming.com/en/articles/23123-streamcharts-reports-nearly-8-million-concurrent-viewers-for-the-gta-vi-launch",
+   "why": "It shows the launch was as much a live event as a game release."
   }
  },
  "game-gta6-final-trailer": {
@@ -19965,6 +20815,45 @@
    "title": "Nagoshi Studio is dissolved after NetEase cuts its funding",
    "url": "https://www.gamedeveloper.com/business/nagoshi-studio-toshihiro-nagoshi-s-game-development-studio-after-leaving-sega-closes-as-netease-cuts-its-funding",
    "why": "It casts doubt on Gang of Dragon, a game from the creator of the Yakuza series."
+  }
+ },
+ "game-netflix-games-layoffs": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Netflix began offering games to subscribers in 2021.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Trend",
+     "text": "It is the second big games layoff story of the week."
+    },
+    {
+     "label": "Big name",
+     "text": "Netflix is the world's largest streaming service."
+    }
+   ],
+   "entities": [
+    "Netflix",
+    "Game industry layoffs"
+   ],
+   "happened": "Instant Gaming News reports the cuts but gives no number of affected staff. They land in the same week Ubisoft cut 166 jobs in Quebec.",
+   "hype": 56,
+   "id": "game-netflix-games-layoffs",
+   "meme": {
+    "bottom": "and then reviewing the investment",
+    "take": "Netflix Games trims staff again, still searching for its first binge-worthy hit.",
+    "top": "Netflix keeps investing in games"
+   },
+   "motif": "game",
+   "next": "Watch for whether Netflix narrows its game plans further.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "Instant Gaming News",
+   "stats": [],
+   "summary": "Netflix's gaming division has carried out a new round of layoffs, Instant Gaming News reports; no headcount was given.",
+   "title": "Netflix Games confirms another round of layoffs",
+   "url": "https://news.instant-gaming.com/en/articles/23119-netflix-games-goes-on-a-new-round-of-layoffs",
+   "why": "Netflix has spent heavily on games and its commitment to them is closely watched."
   }
  },
  "game-next-xbox-price-report": {
@@ -22024,7 +22913,7 @@
   }
  },
  "game-tga-2026-nominees": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "The Game Awards is an annual show hosted by Geoff Keighley, judged by a jury of media outlets.",
    "category": "gaming",
@@ -22045,16 +22934,16 @@
     "Nintendo"
    ],
    "happened": "The Game of the Year nominees are 007 First Light, Control Resonant, GTA VI, Phantom Blade Zero, Resident Evil Requiem and the Ocarina of Time remake. The show is on December 10.",
-   "hype": 72,
+   "hype": 62,
    "id": "game-tga-2026-nominees",
    "meme": {
     "bottom": "the reviews said fair enough",
-    "take": "GTA VI was nominated before reviews and then scored 99, the rare gamble that pays out.",
+    "take": "GTA VI was nominated before reviews and then scored 99, a rare gamble that paid out.",
     "top": "The jury nominated it unseen"
    },
    "motif": "game",
    "next": "Watch for fan voting and the winners on December 10.",
-   "prevHype": 88,
+   "prevHype": 72,
    "published": "2026-11-17",
    "source": "Push Square",
    "stats": [
@@ -22075,6 +22964,46 @@
    "title": "GTA VI's eight Game Awards nominations now come with a 99 review score",
    "url": "https://www.pushsquare.com/news/2026/11/the-game-awards-2026-nominees-revealed-gta-6-up-for-8-awards",
    "why": "It is the industry's biggest awards night, and nominating a game before release had sparked debate."
+  }
+ },
+ "game-tiga-007-first-light": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "TIGA is the trade association for UK games developers.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "It is a James Bond game from the makers of Hitman."
+    },
+    {
+     "label": "Timing",
+     "text": "It came the same week Amazon named a new screen Bond."
+    }
+   ],
+   "entities": [
+    "James Bond",
+    "Awards season",
+    "UK games industry"
+   ],
+   "happened": "The award was voted for by attendees of the TIGA Awards, which celebrate the UK games industry. The game is also a Game of the Year nominee at The Game Awards.",
+   "hype": 50,
+   "id": "game-tiga-007-first-light",
+   "meme": {
+    "bottom": "and a trophy in games",
+    "take": "007 First Light wins a Game of the Year award, so this Bond at least is settled.",
+    "top": "Bond has a new actor in films"
+   },
+   "motif": "game",
+   "next": "Watch for how it fares at The Game Awards on December 10.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "Instant Gaming News",
+   "stats": [],
+   "summary": "IO Interactive's James Bond game 007 First Light was voted Game of the Year by attendees at the UK's TIGA Awards.",
+   "title": "007 First Light wins Game of the Year at the TIGA Awards",
+   "url": "https://news.instant-gaming.com/en/articles/23125-007-first-light-wins-game-of-the-year-at-the-tiga-awards",
+   "why": "It is a strong signal for Bond's first big game in years as it competes at The Game Awards."
   }
  },
  "game-total-war-shogun-2-pulled": {
@@ -22128,6 +23057,50 @@
    "title": "Sega pulls the Total War: Shogun 2 remaster after an 'Overwhelmingly Negative' launch",
    "url": "https://thisweekinvideogames.com/news/total-war-shogun-2-remaster-to-be-pulled-from-storefronts-after-negative-launch/",
    "why": "It is a rare case of a publisher pulling a release within days, and it feeds wider worries about AI in game art."
+  }
+ },
+ "game-ubisoft-quebec-layoffs": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Ubisoft is a French publisher behind Assassin's Creed and Far Cry.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "166 jobs at two of Ubisoft's main studios."
+    },
+    {
+     "label": "Trend",
+     "text": "Layoffs keep hitting the games industry even in a record launch week."
+    }
+   ],
+   "entities": [
+    "Ubisoft",
+    "Game industry layoffs"
+   ],
+   "happened": "The cuts hit two of Ubisoft's biggest studios. They come in a week when another big publisher, Netflix Games, also confirmed layoffs.",
+   "hype": 66,
+   "id": "game-ubisoft-quebec-layoffs",
+   "meme": {
+    "bottom": "was not for everyone",
+    "take": "Ubisoft cuts 166 jobs in Quebec, in a week the industry otherwise spent celebrating.",
+    "top": "The biggest launch week in years"
+   },
+   "motif": "game",
+   "next": "Watch for which projects are affected and whether further cuts follow.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "Instant Gaming News",
+   "stats": [
+    {
+     "label": "jobs cut",
+     "value": "166"
+    }
+   ],
+   "summary": "Ubisoft has cut 166 jobs across its Montreal and Quebec City offices, Instant Gaming News reports.",
+   "title": "Ubisoft lays off 166 employees at its Montreal and Quebec City studios",
+   "url": "https://news.instant-gaming.com/en/articles/23124-ubisoft-lays-off-166-employees-in-montreal-and-quebec",
+   "why": "Ubisoft's Quebec studios are among the largest in the industry and have made Assassin's Creed games."
   }
  },
  "game-ubisoft-redlynx-closure": {
@@ -24251,6 +25224,54 @@
    "why": "It is a sign that even rich companies are rethinking the cost of heavy AI tool use."
   }
  },
+ "tech-apple-black-friday": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Apple has run a gift card promotion instead of price cuts for Black Friday for years.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "Gift cards reach up to $300 in the US."
+    },
+    {
+     "label": "Timing",
+     "text": "It covers Black Friday through Cyber Monday weekend."
+    }
+   ],
+   "entities": [
+    "Apple",
+    "Black Friday"
+   ],
+   "happened": "The iPhone 18 Pro, iPhone 18 Pro Max and iPhone Duo are excluded. The gift cards can only be used on future purchases.",
+   "hype": 52,
+   "id": "tech-apple-black-friday",
+   "meme": {
+    "bottom": "is a reason to shop at Apple again",
+    "take": "Apple offers up to $300 back, in the form of money you can only spend at Apple.",
+    "top": "Apple's Black Friday deal"
+   },
+   "motif": "bag",
+   "next": "Watch for the full list of eligible products and gift card amounts.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "MacRumors",
+   "stats": [
+    {
+     "label": "top US gift card",
+     "value": "$300"
+    },
+    {
+     "label": "event dates",
+     "value": "Nov 27-30"
+    }
+   ],
+   "summary": "Apple's four-day Black Friday event runs November 27 to 30, with US gift cards of up to $300 on eligible purchases, MacRumors reports.",
+   "title": "Apple's Black Friday event offers gift cards up to $300 from November 27",
+   "url": "https://www.macrumors.com/2026/11/19/apple-announces-2026-black-friday-event/",
+   "why": "Apple rarely cuts prices directly, so its holiday gift card offer is the main deal many shoppers watch for."
+  }
+ },
  "tech-apple-health-ai-study": {
   "lastSeen": "2026-11-18",
   "story": {
@@ -24405,7 +25426,7 @@
   }
  },
  "tech-apple-icloud-outage": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "iCloud is Apple's service for syncing and backing up data across its devices.",
    "category": "tech",
@@ -24424,7 +25445,7 @@
     "Outages"
    ],
    "happened": "Devices signed people out at random during the outage. Apple ruled out a cyberattack and blamed an internal update. Most services were restored by late afternoon Eastern time, 9to5Mac reports.",
-   "hype": 80,
+   "hype": 58,
    "id": "tech-apple-icloud-outage",
    "meme": {
     "bottom": "it was an internal update",
@@ -24433,7 +25454,7 @@
    },
    "motif": "phone",
    "next": "Watch for whether Apple publishes more detail on what the update changed.",
-   "prevHype": null,
+   "prevHype": 80,
    "published": "2026-11-17",
    "source": "9to5Mac",
    "stats": [
@@ -26794,6 +27815,51 @@
    "why": "It is a rare attack where hacking caused direct physical damage in everyday shops."
   }
  },
+ "tech-gemini-mac-control": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Gemini is Google's AI assistant. Apple silicon Macs use Apple's own M-series chips.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Rivalry",
+     "text": "Google is putting its agent directly on Apple's platform."
+    },
+    {
+     "label": "Trend",
+     "text": "AI assistants that use computers are spreading fast."
+    }
+   ],
+   "entities": [
+    "Google",
+    "Apple",
+    "AI agents"
+   ],
+   "happened": "The feature is for Google AI Plus, Pro and Ultra subscribers in the US, with plans from $4.99 a month, and needs an Apple silicon Mac, MacRumors reports.",
+   "hype": 66,
+   "id": "tech-gemini-mac-control",
+   "meme": {
+    "bottom": "it will ask before anything big",
+    "take": "Google's AI can now run your Mac, politely checking in before doing anything you will regret.",
+    "top": "Gemini can now use your Mac"
+   },
+   "motif": "agent",
+   "next": "Watch for how it compares with Apple's own Siri plans and rival agents.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "MacRumors",
+   "stats": [
+    {
+     "label": "lowest eligible monthly plan",
+     "value": "$4.99"
+    }
+   ],
+   "summary": "Gemini for Mac can now operate apps, files and websites in the background to complete multi-step tasks, asking approval before key actions.",
+   "title": "Google's Gemini can now use apps on your Mac to finish tasks",
+   "url": "https://www.macrumors.com/2026/11/19/google-gemini-mac-app-control/",
+   "why": "Letting an AI assistant drive a computer is one of the biggest bets in tech right now."
+  }
+ },
  "tech-gitlab-cvss-10-flaw": {
   "lastSeen": "2026-10-22",
   "story": {
@@ -28179,6 +29245,58 @@
    "why": "LiteLLM sits between many apps and AI models, so a bad release can reach a lot of systems."
   }
  },
+ "tech-macbook-pro-touchscreen": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Apple long argued that touchscreens belonged on iPads, not Macs.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "First of its kind",
+     "text": "It is Apple's first laptop with a touchscreen."
+    },
+    {
+     "label": "Nostalgia",
+     "text": "The glowing Apple logo is back on the lid."
+    },
+    {
+     "label": "Money",
+     "text": "It starts at $2,899."
+    }
+   ],
+   "entities": [
+    "Apple",
+    "Laptops"
+   ],
+   "happened": "NBC News says the laptop is marginally thinner and about half a pound lighter than earlier models, and brings back the light-up Apple logo on the lid.",
+   "hype": 76,
+   "id": "tech-macbook-pro-touchscreen",
+   "meme": {
+    "bottom": "here is the touch Mac",
+    "take": "Apple adds a touchscreen to the MacBook Pro and brings back the glowing logo for the occasion.",
+    "top": "Apple said touch Macs made no sense"
+   },
+   "motif": "screen",
+   "next": "Watch for reviews on how well macOS works with touch.",
+   "prevHype": null,
+   "published": "2026-11-18",
+   "source": "NBC News",
+   "stats": [
+    {
+     "label": "listed price",
+     "value": "$2,899"
+    },
+    {
+     "label": "lighter than previous model",
+     "value": "~0.5 lb"
+    }
+   ],
+   "summary": "Apple's new MacBook Pro has a touch-enabled ProLED XDR OLED display and is listed from $2,899, NBC News reports.",
+   "title": "Apple's new MacBook Pro is its first laptop with a touchscreen",
+   "url": "https://www.nbcnews.com/select/shopping/best-new-products-november-2026-rcna610052",
+   "why": "Apple resisted touchscreen Macs for years, so this is a big shift for its laptops."
+  }
+ },
  "tech-maersk-data-theft": {
   "lastSeen": "2026-11-19",
   "story": {
@@ -29064,6 +30182,50 @@
    "why": "About a third of the country's population had data taken, and services were knocked out for days."
   }
  },
+ "tech-n-able-breach": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "N-able makes remote management and security software for IT service providers.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "Its products sit between many businesses and their email."
+    },
+    {
+     "label": "Timing",
+     "text": "It is one of several security incidents disclosed this week."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Email security"
+   ],
+   "happened": "The disruption began November 16 and N-able disclosed the access on November 18. It says it has no evidence customer data, including mailboxes, was compromised. The investigation is ongoing.",
+   "hype": 54,
+   "id": "tech-n-able-breach",
+   "meme": {
+    "bottom": "needed some security of its own",
+    "take": "N-able's email protection cloud was accessed by attackers, and is now under protection itself.",
+    "top": "The email security service"
+   },
+   "motif": "shield",
+   "next": "Watch for the findings of N-able's investigation and when management tools return.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "The Hacker News",
+   "stats": [
+    {
+     "label": "disruption began",
+     "value": "Nov 16"
+    }
+   ],
+   "summary": "N-able said unknown attackers accessed one server in its Mail Assure and SpamExperts hosted cloud, and it disabled management tools.",
+   "title": "N-able confirms hackers accessed a server in its email security cloud",
+   "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+   "why": "N-able's tools are used by IT service companies that manage many businesses, so one breach can reach far."
+  }
+ },
  "tech-navigate360-breach": {
   "lastSeen": "2026-10-24",
   "story": {
@@ -29317,7 +30479,7 @@
   }
  },
  "tech-nvidia-board-huang-return": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "Huang resigned on November 12. CFO Colette Kress is interim CEO.",
    "category": "tech",
@@ -29341,7 +30503,7 @@
     "AI chips"
    ],
    "happened": "Semafor reports some directors are pushing for his return anyway. The WSJ reports the SEC is probing Nvidia, including its disclosures. Huang agreed to appear before House committees on December 1.",
-   "hype": 90,
+   "hype": 74,
    "id": "tech-nvidia-board-huang-return",
    "meme": {
     "bottom": "the board left him on read",
@@ -29350,7 +30512,7 @@
    },
    "motif": "chip",
    "next": "Watch for Huang's December 1 testimony and any change in the board's stance.",
-   "prevHype": null,
+   "prevHype": 90,
    "published": "2026-11-17",
    "source": "Wired",
    "stats": [
@@ -29473,7 +30635,7 @@
   }
  },
  "tech-nvidia-q3-after-huang": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "Nvidia designs the GPUs used to train and run most AI models. Kress has been its CFO since 2013.",
    "category": "tech",
@@ -29497,8 +30659,8 @@
     "Earnings",
     "China"
    ],
-   "happened": "Revenue rose 103% and Nvidia guided to about $130 billion next quarter, assuming no China data center sales. Ending H200 sales also ends its role in a deal that let the US collect a 25% tariff.",
-   "hype": 86,
+   "happened": "Revenue rose 103% and data center revenue reached $107.6 billion. Nvidia guided to about $130 billion next quarter, excluding China data center sales. The Neuron cites about $2.4 billion in quarterly China sales now at stake.",
+   "hype": 82,
    "id": "tech-nvidia-q3-after-huang",
    "meme": {
     "bottom": "the CEO chair is still empty",
@@ -29507,26 +30669,26 @@
    },
    "motif": "chip",
    "next": "Watch for how shares trade and whether the China exit changes guidance.",
-   "prevHype": 95,
-   "published": "2026-11-17",
-   "source": "TechCrunch",
+   "prevHype": 86,
+   "published": "2026-11-18",
+   "source": "The Verge",
    "stats": [
     {
      "label": "Q3 revenue, up 103%",
      "value": "$115.8B"
     },
     {
-     "label": "Q4 revenue guidance",
+     "label": "Q4 guidance",
      "value": "~$130B"
     },
     {
-     "label": "US tariff deal it is leaving",
-     "value": "25%"
+     "label": "data center revenue",
+     "value": "$107.6B"
     }
    ],
-   "summary": "Nvidia's quarterly revenue doubled to $115.8 billion, and TechCrunch reports it will stop selling H200 chips in China.",
-   "title": "Nvidia's $115.8B quarter comes with an exit from China chip sales",
-   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+   "summary": "Interim CEO Colette Kress said Nvidia plans no further licensed H200 shipments to China, after revenue more than doubled to $115.8 billion.",
+   "title": "Nvidia stops shipping H200 chips to China after a $115.8 billion quarter",
+   "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
    "why": "Nvidia's results are read as a check on the whole AI boom, and this one came amid a leadership crisis."
   }
  },
@@ -30066,6 +31228,54 @@
    "title": "Global PC shipments fall 21% as memory and chip prices climb",
    "url": "https://dataconomy.com/2026/10/23/pc-shipments-fall-21-percent-q3-2026-component-costs/",
    "why": "Rising component costs mean higher prices and fewer cheap laptops for buyers this holiday season."
+  }
+ },
+ "tech-php-critical-flaws": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "PHP is a programming language that powers WordPress and many other websites.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "Every supported PHP version needed a fix."
+    },
+    {
+     "label": "Risk",
+     "text": "The worst flaw can allow remote code execution."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Open source"
+   ],
+   "happened": "The main flaw, CVE-2026-115560, is rated 9.2 out of 10 and is fixed in PHP 8.2.36, 8.3.37, 8.4.28, 8.5.13 and 8.6.0. PHP says the critical issues need non-default or uncommon configurations.",
+   "hype": 70,
+   "id": "tech-php-critical-flaws",
+   "meme": {
+    "bottom": "patched on the day they said",
+    "take": "PHP announced its emergency fix a day in advance, the most organised emergency of the week.",
+    "top": "Seven critical flaws in PHP"
+   },
+   "motif": "shield",
+   "next": "Watch for reports of attacks and how quickly hosting companies roll out the fixes.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "The Hacker News",
+   "stats": [
+    {
+     "label": "critical flaws fixed",
+     "value": "7"
+    },
+    {
+     "label": "CVSS score of top flaw",
+     "value": "9.2"
+    }
+   ],
+   "summary": "The PHP project released emergency security updates for all supported versions, fixing flaws that can allow remote code execution on some setups.",
+   "title": "PHP fixes seven critical flaws, including one that can allow remote takeover",
+   "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+   "why": "PHP runs a large share of the world's websites, so even niche flaws affect many servers."
   }
  },
  "tech-php-critical-flaws-ai": {
@@ -31487,6 +32697,46 @@
    "why": "Code that runs before Secure Boot can sit below the operating system's defences."
   }
  },
+ "tech-uk-apple-backdoor-ruling": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "A technical capability notice is a UK legal order that can require a company to help with data access.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Controversy",
+     "text": "It concerns a reported government demand for access to encrypted data."
+    },
+    {
+     "label": "Big name",
+     "text": "Apple is challenging the UK government directly."
+    }
+   ],
+   "entities": [
+    "Apple",
+    "Privacy",
+    "Europe"
+   ],
+   "happened": "The Home Office must now acknowledge that it served Apple with the notice, and much of Apple's legal challenge can now proceed in public, MacRumors reports.",
+   "hype": 68,
+   "id": "tech-uk-apple-backdoor-ruling",
+   "meme": {
+    "bottom": "the tribunal disagreed",
+    "take": "The UK's secret Apple order is now officially less secret, which was never the plan.",
+    "top": "The order was secret"
+   },
+   "motif": "doc",
+   "next": "Watch for the public hearings and whether the UK appeals.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "MacRumors",
+   "stats": [],
+   "summary": "A UK tribunal ruled the government failed to show that confirming its technical capability notice to Apple would harm national security.",
+   "title": "UK loses its fight to keep its Apple encryption order secret",
+   "url": "https://www.macrumors.com/2026/11/19/uk-loses-secrecy-fight-over-apple-backdoor-order/",
+   "why": "The case is a key test of whether governments can force tech companies to weaken encryption in secret."
+  }
+ },
  "tech-unm-hospital-cyber-incident": {
   "lastSeen": "2026-10-28",
   "story": {
@@ -31625,6 +32875,50 @@
    "why": "Carrier fees on new phone features tend to annoy customers, especially on a $1,999 phone."
   }
  },
+ "tech-vmware-vcenter-flaw": {
+  "lastSeen": "2026-11-20",
+  "story": {
+   "background": "Broadcom bought VMware, the maker of widely used virtualisation software, in 2023.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "It is rated 9.8 out of 10, with no workaround."
+    },
+    {
+     "label": "Scale",
+     "text": "vCenter is widely used in company data centers."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Broadcom"
+   ],
+   "happened": "Fixed versions are out for all supported branches. In its advisory Broadcom said it knew of no attacks and no public exploit code, The Hacker News reports.",
+   "hype": 62,
+   "id": "tech-vmware-vcenter-flaw",
+   "meme": {
+    "bottom": "is not a review score here",
+    "take": "VMware's latest flaw scored 9.8, which is only good news in a GTA VI review.",
+    "top": "A 9.8 out of 10"
+   },
+   "motif": "shield",
+   "next": "Watch for reports of exploitation and how fast companies apply the patch.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "The Hacker News",
+   "stats": [
+    {
+     "label": "CVSS severity score",
+     "value": "9.8"
+    }
+   ],
+   "summary": "Broadcom fixed an authentication bypass in VMware vCenter's directory service, tracked as CVE-2026-123890, with no workaround available.",
+   "title": "Broadcom patches a critical VMware vCenter flaw rated 9.8 out of 10",
+   "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+   "why": "vCenter manages the virtual machines that many companies run on, which makes it a prime target."
+  }
+ },
  "tech-volta-infostealer": {
   "lastSeen": "2026-11-01",
   "story": {
@@ -31720,7 +33014,7 @@
   }
  },
  "tech-waymo-freeway-ban": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-20",
   "story": {
    "background": "Waymo is the self-driving car company owned by Alphabet, Google's parent.",
    "category": "tech",
@@ -31744,7 +33038,7 @@
     "Google"
    ],
    "happened": "The DMV cited three Waymo cars entering an active construction zone on Highway 101 and one trying to pass a highway patrol blockade on I-280. Waymo says no one was hurt and surface-street rides continue.",
-   "hype": 78,
+   "hype": 60,
    "id": "tech-waymo-freeway-ban",
    "meme": {
     "bottom": "the DMV took the keys",
@@ -31753,7 +33047,7 @@
    },
    "motif": "rocket",
    "next": "Watch for what Waymo must show the DMV to get freeway service back.",
-   "prevHype": null,
+   "prevHype": 78,
    "published": "2026-11-17",
    "source": "ABC News",
    "stats": [],
