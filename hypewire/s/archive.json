@@ -160,61 +160,110 @@
   }
  },
  "ai-ai-stocks-correction": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "A correction means a fall of 10% or more from a recent high. The Nasdaq is heavy with tech companies.",
    "category": "ai",
    "drivers": [
     {
      "label": "Scale",
-     "text": "The Nasdaq erased its entire 2026 gain in one session."
-    },
-    {
-     "label": "Timing",
-     "text": "It came in the same week as Anthropic's record IPO."
+     "text": "The Nasdaq erased its 2026 gain in one session."
     },
     {
      "label": "Risk",
-     "text": "Investors are questioning how long AI spending can keep growing this fast."
+     "text": "Investors are questioning whether AI spending will pay off."
+    },
+    {
+     "label": "Ripple effect",
+     "text": "The selling has spread from tech stocks to crypto."
     }
    ],
    "entities": [
     "Stock market",
-    "Nvidia",
+    "AI funding",
     "Anthropic",
-    "AI funding"
+    "Nvidia"
    ],
-   "happened": "The S&P 500 fell 3.7% and the Dow closed below 50,000 for the first time since June, putting both more than 10% below their records. All three indexes had their worst week since April 2025, CNBC and Fortune report.",
-   "hype": 94,
+   "happened": "The Nasdaq, S&P 500 and Dow had their worst week since April 2025. TechJuice ties Bitcoin's slide to doubts about AI firms after Anthropic's share reversal. UBS still expects AI investment of $1.4 trillion in 2027.",
+   "hype": 80,
    "id": "ai-ai-stocks-correction",
    "meme": {
-    "bottom": "a market correction by Friday",
-    "take": "Wall Street celebrated AI so hard on Thursday that it needed the whole of Friday to lie down.",
-    "top": "A record AI IPO on Thursday"
+    "bottom": "then Bitcoin asked to join in",
+    "take": "The AI trade is cooling so fast that even Bitcoin has decided to be cautious.",
+    "top": "First the AI stocks fell"
    },
    "motif": "money",
-   "next": "Watch for whether the sell-off continues on Monday and how AI companies' shares react to the next round of earnings.",
-   "prevHype": null,
-   "published": "2026-11-20",
-   "source": "Fortune",
+   "next": "Watch for whether Monday's trading steadies or extends last week's losses.",
+   "prevHype": 94,
+   "published": "2026-11-22",
+   "source": "TechJuice",
    "stats": [
     {
      "label": "Nasdaq on November 20",
      "value": "-5.28%"
     },
     {
-     "label": "S&P 500 on November 20",
-     "value": "-3.7%"
+     "label": "Bitcoin, 20-week low, reported",
+     "value": "~$60,000"
     },
     {
-     "label": "Dow close, first since June",
-     "value": "<50,000"
+     "label": "AI investment in 2027, UBS est.",
+     "value": "$1.4T"
     }
    ],
-   "summary": "The Nasdaq fell 5.28% on November 20, wiping out its gains for 2026, as AI stocks led a sell-off in the week of Anthropic's market debut.",
-   "title": "Nasdaq drops 5.3% as the AI trade cracks in its worst week since April 2025",
-   "url": "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/",
-   "why": "Much of the market's growth has rested on AI companies, so a sharp drop hits pensions and savings far beyond tech."
+   "summary": "After the Nasdaq's 5.28% fall on November 20, the tech sell-off has spread, with Bitcoin dropping to about $60,000, TechJuice reports.",
+   "title": "AI-led sell-off deepens, dragging Bitcoin to a 20-week low near $60,000",
+   "url": "https://www.techjuice.pk/bitcoin-falls-to-60000-as-tech-stock-sell-off-deepens/",
+   "why": "Many savers and retirement funds hold the big tech stocks that have led markets for years."
+  }
+ },
+ "ai-amazon-decart": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Decart is an Israeli startup that builds AI models for generating video. Amazon also runs AWS, the largest cloud business.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "The price is reported at about $7.5 billion."
+    },
+    {
+     "label": "Rivalry",
+     "text": "Big tech firms are racing to own video generation models."
+    },
+    {
+     "label": "Trend",
+     "text": "Large companies keep buying AI startups outright."
+    }
+   ],
+   "entities": [
+    "Amazon",
+    "AI funding",
+    "Video AI"
+   ],
+   "happened": "The FT cites people familiar with the talks, and The Information also reported them on Saturday. Neither company has confirmed a deal.",
+   "hype": 76,
+   "id": "ai-amazon-decart",
+   "meme": {
+    "bottom": "and it is willing to pay retail",
+    "take": "Amazon is reportedly adding a $7.5 billion video startup to its basket.",
+    "top": "Amazon wants AI that makes video"
+   },
+   "motif": "bag",
+   "next": "Watch for an official announcement, or signs that the talks have stalled.",
+   "prevHype": null,
+   "published": "2026-11-21",
+   "source": "Financial Times",
+   "stats": [
+    {
+     "label": "deal value, reported",
+     "value": "~$7.5B"
+    }
+   ],
+   "summary": "The FT reports Amazon is in advanced talks to buy Israeli video-model startup Decart for about $7.5 billion, with a deal possible this week.",
+   "title": "Amazon is said to be close to buying video AI startup Decart for $7.5 billion",
+   "url": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616",
+   "why": "It would be one of the largest AI startup takeovers and a big bet on AI-generated video."
   }
  },
  "ai-amazon-decart-talks": {
@@ -928,61 +977,60 @@
   }
  },
  "ai-anthropic-ipo-pricing": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Anthropic is the San Francisco AI company behind the Claude models. It listed on Nasdaq under the ticker ANT.",
    "category": "ai",
    "drivers": [
     {
      "label": "Scale",
-     "text": "The IPO was described as the largest US listing on record."
+     "text": "It was described as the largest US listing on record."
     },
     {
-     "label": "Rivalry",
-     "text": "Bloomberg linked a share drop to reports of Apple building its own AI agent."
+     "label": "Controversy",
+     "text": "Some bankers reportedly chafed at the unusual limits on deal teams."
     },
     {
-     "label": "Ripple effect",
-     "text": "Asian chip and tech stocks such as SoftBank and TSMC fell the next day."
+     "label": "Timing",
+     "text": "The slide comes during a wider tech sell-off."
     }
    ],
    "entities": [
     "Anthropic",
     "AI funding",
-    "Stock market",
-    "Apple"
+    "Stock market"
    ],
-   "happened": "Priced at $83, shares opened at $111.50 on November 19 and closed at $97.17. Nasdaq data shows about 1.26 billion shares changed hands in two days, FourWeekMBA reports, and leveraged Anthropic funds are expected to list on November 23.",
-   "hype": 86,
+   "happened": "Shares priced at $83 opened at $111.50 and fell about 9% on day two. Reuters reports Anthropic limited some of its 22 underwriters to four senior bankers and sought six-month limits on their work with AI rivals.",
+   "hype": 82,
    "id": "ai-anthropic-ipo-pricing",
    "meme": {
-    "bottom": "had a very normal second day",
-    "take": "Anthropic shares went public and immediately learned what the public is like.",
-    "top": "Biggest IPO in US history"
+    "bottom": "and none for the share price",
+    "take": "Anthropic controlled who worked on its IPO, but not who sold afterwards.",
+    "top": "The IPO had strict rules for bankers"
    },
    "motif": "money",
-   "next": "Watch for the leveraged Anthropic funds' first trading day and the December 15 lock-up release.",
-   "prevHype": 90,
-   "published": "2026-11-20",
-   "source": "FourWeekMBA",
+   "next": "Watch for how the shares trade this week and the December 15 lock-up release.",
+   "prevHype": 86,
+   "published": "2026-11-22",
+   "source": "Financial Times",
    "stats": [
     {
      "label": "IPO price",
      "value": "$83"
     },
     {
-     "label": "first-day close",
-     "value": "$97.17"
+     "label": "opening price",
+     "value": "$111.50"
     },
     {
-     "label": "shares traded in two days",
-     "value": "1.26B"
+     "label": "IPO underwriters",
+     "value": "22"
     }
    ],
-   "summary": "Anthropic stock closed about 9% lower on November 20 after a strong debut, as heavy trading turned over more shares than the IPO sold.",
-   "title": "Anthropic shares give back most of their debut gains on day two",
-   "url": "https://fourweekmba.com/ai-1-26b-anthropic-shares-traded-in-2-days-112-of-the-ipo/",
-   "why": "It is the biggest test yet of how public markets value a frontier AI lab."
+   "summary": "The FT asks whether Anthropic and its bankers got the IPO wrong, after weak trading and a quick use of the option to sell extra shares.",
+   "title": "Questions grow over Anthropic's IPO as its shares keep sliding",
+   "url": "https://www.ft.com/content/d501198c-14a4-4b96-8880-c3997545902e",
+   "why": "The listing is the first big test of how public markets value a frontier AI company."
   }
  },
  "ai-anthropic-ipo-valuation": {
@@ -1677,7 +1725,7 @@
   }
  },
  "ai-apple-mac-agent": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Apple makes the iPhone and Mac and launched its Apple Intelligence features in 2024.",
    "category": "ai",
@@ -1698,10 +1746,10 @@
    "entities": [
     "Apple",
     "AI agents",
-    "Computer use"
+    "Google"
    ],
-   "happened": "The listing for a senior engineering manager described an agent that runs command-line tools and coordinates subagents. Apple pulled it after the report. Apple is also said to be preparing extra permission warnings for rival agents.",
-   "hype": 68,
+   "happened": "Bloomberg first reported the project on November 19 from a job listing Apple later removed. Bloomberg's Mark Gurman returned to it on Sunday, and Google has already given Gemini control of Mac apps.",
+   "hype": 62,
    "id": "ai-apple-mac-agent",
    "meme": {
     "bottom": "the agent would have done it faster",
@@ -1710,14 +1758,14 @@
    },
    "motif": "agent",
    "next": "Watch for whether Apple shows any agent features at its next software event.",
-   "prevHype": 84,
-   "published": "2026-11-19",
-   "source": "Bloomberg",
+   "prevHype": 68,
+   "published": "2026-11-22",
+   "source": "Digital Trends",
    "stats": [],
-   "summary": "Bloomberg reports Apple is working on an agent that could control Mac apps, browse the web and write code, based on a job listing it later removed.",
-   "title": "Apple is said to be building an AI agent that can run your Mac",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding",
-   "why": "Apple has been seen as behind in AI, and an agent that runs the whole computer would put it in the race directly."
+   "summary": "Apple is said to be building an agent that controls apps, browses and codes, but Digital Trends reports it may not arrive until the end of 2027.",
+   "title": "Apple's reported Mac AI agent may not arrive until late 2027",
+   "url": "https://www.digitaltrends.com/computing/apple-ai-agent-delayed-2027/",
+   "why": "An agent built into the Mac would bring AI that acts for you to millions of computers."
   }
  },
  "ai-apple-qwen-china": {
@@ -2625,60 +2673,60 @@
   }
  },
  "ai-china-chip-licenses": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "The US has limited exports of advanced AI chips to China since 2022, citing national security.",
    "category": "ai",
    "drivers": [
     {
      "label": "Scale",
-     "text": "The approvals cover hundreds of thousands of advanced chips."
+     "text": "Approvals cover hundreds of thousands of advanced chips."
     },
     {
      "label": "Rivalry",
      "text": "Chips are central to the US-China contest over AI."
     },
     {
-     "label": "Timing",
-     "text": "The records came out as Nvidia faces probes over chips and China."
+     "label": "Big name",
+     "text": "The Treasury Secretary has now weighed in."
     }
    ],
    "entities": [
     "China",
-    "Export controls",
     "AI chips",
-    "Alibaba"
+    "Nvidia",
+    "US policy"
    ],
-   "happened": "Companies had requested 3.4 million chips from December to May, CNBC reports, with Alibaba, Tencent, ByteDance and Baidu among the buyers. A new interim rule now requires licences for data centers that might serve Chinese firms.",
-   "hype": 68,
+   "happened": "The House Foreign Affairs Committee report says Commerce approved 879,868 chips across 21 applications as of May 11. Alibaba got 75,000 and Tencent 150,000; the Pentagon lists both as having military ties, AP reports.",
+   "hype": 58,
    "id": "ai-china-chip-licenses",
    "meme": {
-    "bottom": "879,000 approved exceptions",
-    "take": "The export rules were very strict, apart from the 879,000 times they were not.",
+    "bottom": "879,868 approved exceptions",
+    "take": "The export rules were very strict, apart from the 879,868 times they were not.",
     "top": "Strict limits on chips to China"
    },
    "motif": "chip",
-   "next": "Watch for how the 90-day licence deadline for existing data center operators is enforced.",
-   "prevHype": null,
-   "published": "2026-11-19",
-   "source": "CNBC",
+   "next": "Watch for whether Congress pushes for tighter export rules despite the Treasury's view.",
+   "prevHype": 68,
+   "published": "2026-11-21",
+   "source": "Rio Rundown",
    "stats": [
     {
-     "label": "AI chips approved, as of May",
-     "value": "879,000+"
+     "label": "chips approved, as of May 11",
+     "value": "879,868"
     },
     {
-     "label": "chips requested, Dec to May",
-     "value": "3.4M"
+     "label": "approved for Tencent",
+     "value": "150,000"
     },
     {
-     "label": "for operators to get licences",
-     "value": "90 days"
+     "label": "approved for Alibaba",
+     "value": "75,000"
     }
    ],
-   "summary": "A House committee released licence records showing Commerce approved more than 879,000 AI chip sales to Chinese companies as of May 2026.",
-   "title": "US approved over 879,000 AI chips for Chinese firms, House records show",
-   "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+   "summary": "Treasury Secretary Scott Bessent says current limits on Nvidia chips to China are sufficient, after a House report on approved sales.",
+   "title": "Bessent says US chip limits on China are enough, after House licence report",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-22-2026-autonomous-systems",
    "why": "It shows how many advanced chips reached China while Washington was publicly tightening the rules."
   }
  },
@@ -5409,6 +5457,46 @@
    "why": "It shows how big tech balance sheets now underwrite the AI industry's data center boom."
   }
  },
+ "ai-governors-federal-rules": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Several US states, including California and Colorado, have passed their own AI laws in recent years.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Rivalry",
+     "text": "States and Washington are both trying to set AI rules."
+    },
+    {
+     "label": "Timing",
+     "text": "It comes as AI companies become huge public firms."
+    }
+   ],
+   "entities": [
+    "US policy",
+    "AI policy",
+    "Frontier models"
+   ],
+   "happened": "Bloomberg reports the governors want national rules for frontier systems but say states must still be able to protect consumers, workers and children. Four senators have also proposed a bill on AI disclosure by public companies.",
+   "hype": 62,
+   "id": "ai-governors-federal-rules",
+   "meme": {
+    "bottom": "with room for fifty more",
+    "take": "US governors agree AI needs one national rulebook, with fifty appendices.",
+    "top": "Governors want one AI rulebook"
+   },
+   "motif": "doc",
+   "next": "Watch for whether Congress takes up federal rules for frontier AI.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "Bloomberg",
+   "stats": [],
+   "summary": "A bipartisan group of US governors wants federal rules for the most powerful AI systems, while keeping states' power to protect people.",
+   "title": "Bipartisan US governors ask Washington to set rules for the most powerful AI",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/governors-call-for-federal-ai-rules-without-sidelining-states",
+   "why": "Whether states or Washington write AI rules decides how strict they are across the country."
+  }
+ },
  "ai-gpt-6-1-terra": {
   "lastSeen": "2026-11-01",
   "story": {
@@ -5616,6 +5704,63 @@
    "title": "OpenAI releases GPT-6 Rosalind, a biology model for vetted researchers",
    "url": "https://aiweekly.co/ai-news-today",
    "why": "Biology is where AI could speed up medicine most, and where misuse worries run highest."
+  }
+ },
+ "ai-gpt-62-transparency": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "OpenAI is the company behind ChatGPT. Codex is its coding assistant.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Rivalry",
+     "text": "The comparison is with Anthropic's Claude."
+    },
+    {
+     "label": "Money",
+     "text": "Astra's API price fell by a reported 20%."
+    },
+    {
+     "label": "Trend",
+     "text": "Labs are tuning models to give shorter answers."
+    }
+   ],
+   "entities": [
+    "OpenAI",
+    "Frontier models",
+    "Anthropic"
+   ],
+   "happened": "The models launched last week in ChatGPT and Codex, with API access. Astra's API price is reported at $8 per million input tokens and $40 per million output, a 20% cut on earlier rates.",
+   "hype": 64,
+   "id": "ai-gpt-62-transparency",
+   "meme": {
+    "bottom": "which is also how bluffing works",
+    "take": "OpenAI trimmed its models' answers, and the first thing cut was 'I'm not sure'.",
+    "top": "GPT-6.2 got shorter and surer"
+   },
+   "motif": "network",
+   "next": "Watch for OpenAI's response and further independent tests of the models.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "The Decoder",
+   "stats": [
+    {
+     "label": "Astra API, per M input tokens",
+     "value": "$8"
+    },
+    {
+     "label": "per M output tokens",
+     "value": "$40"
+    },
+    {
+     "label": "Astra price cut, reported",
+     "value": "-20%"
+    }
+   ],
+   "summary": "The Decoder reports OpenAI's new GPT-6.2 Astra and Sol give shorter, more direct answers but score lower than Claude on transparency.",
+   "title": "OpenAI's GPT-6.2 models get to the point but admit less doubt, test finds",
+   "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+   "why": "How openly a model flags doubt affects how far people can trust its answers."
   }
  },
  "ai-grok-gpt-forced-choice-study": {
@@ -8956,6 +9101,63 @@
    "why": "It shows AI agents doing unplanned things in the real world, the scenario safety researchers worry about most."
   }
  },
+ "ai-openrouter-providers": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "OpenRouter lets developers reach many AI models from different providers through a single API.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "User prompts may have been seen by unknown parties."
+    },
+    {
+     "label": "Scale",
+     "text": "Researchers sent two million test requests."
+    },
+    {
+     "label": "Trend",
+     "text": "AI supply chains are a new target for attackers."
+    }
+   ],
+   "entities": [
+    "AI security",
+    "Cybersecurity",
+    "Privacy"
+   ],
+   "happened": "Dragos sent about two million fake AI requests and found at least three compromised providers and hundreds of stolen AWS keys, The Decoder reports. It says some cheap hosts could snoop on users.",
+   "hype": 60,
+   "id": "ai-openrouter-providers",
+   "meme": {
+    "bottom": "it simply shared it",
+    "take": "Some cheap AI hosts offered zero data retention and generous data distribution.",
+    "top": "The budget AI host kept no data"
+   },
+   "motif": "shield",
+   "next": "Watch for which providers are named and whether other AI routers tighten their checks.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "The Decoder",
+   "stats": [
+    {
+     "label": "test requests sent, Dragos",
+     "value": "2M"
+    },
+    {
+     "label": "endpoints removed from list",
+     "value": "125"
+    },
+    {
+     "label": "providers dropped",
+     "value": "3"
+    }
+   ],
+   "summary": "OpenRouter removed three inference providers and 125 endpoints from its zero-data-retention list after Dragos found compromised providers.",
+   "title": "OpenRouter drops three AI providers after researchers find stolen keys",
+   "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+   "why": "Developers often send private data through cheap AI providers without knowing who runs them."
+  }
+ },
  "ai-oracle-openai-funded": {
   "lastSeen": "2026-11-22",
   "story": {
@@ -9372,6 +9574,59 @@
    "why": "Doubts about AI payback are now coming from inside the industry, not only from sceptical investors."
   }
  },
+ "ai-riemann-claude-claim": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Posed by Bernhard Riemann in 1859, the hypothesis concerns the zeros of the zeta function, which are tied to how primes are spread.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "First of its kind",
+     "text": "An AI-assisted proof of a problem this famous would be a first."
+    },
+    {
+     "label": "Big name",
+     "text": "It is one of the Clay Institute's million-dollar Millennium Prize Problems."
+    },
+    {
+     "label": "Scale",
+     "text": "The formal proof is reported at about 17 million lines."
+    }
+   ],
+   "entities": [
+    "Anthropic",
+    "Frontier models",
+    "AI research"
+   ],
+   "happened": "TNW, citing Bloomberg, presents it as the researcher's own claim. The Guardian says the work took six weeks, and an AI digest reports a Lean formal proof of about 17 million lines was checked on November 21.",
+   "hype": 90,
+   "id": "ai-riemann-claude-claim",
+   "meme": {
+    "bottom": "met a chatbot with six weeks free",
+    "take": "Riemann waited 167 years for a proof and is now waiting for peer review like everyone else.",
+    "top": "A maths problem from 1859"
+   },
+   "motif": "network",
+   "next": "Watch for reviews by independent mathematicians and whether a paper goes to peer review.",
+   "prevHype": null,
+   "published": "2026-11-21",
+   "source": "The Guardian",
+   "stats": [
+    {
+     "label": "time taken, The Guardian",
+     "value": "6 weeks"
+    },
+    {
+     "label": "lines of formal proof, reported",
+     "value": "~17M"
+    }
+   ],
+   "summary": "Anthropic mathematician Levent Alpöge says he proved the Riemann Hypothesis with help from Claude, Bloomberg reports.",
+   "title": "Anthropic mathematician says Claude helped him prove the Riemann Hypothesis",
+   "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+   "why": "The Riemann Hypothesis is one of the most famous unsolved problems in mathematics, so a proof would be historic."
+  }
+ },
  "ai-schools-google-search": {
   "lastSeen": "2026-11-21",
   "story": {
@@ -9472,6 +9727,45 @@
    "why": "It comes after several lab incidents where AI models reached systems they were not meant to touch."
   }
  },
+ "ai-south-korea-exam-cheating": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "South Korea's national college entrance exam, the Suneung, largely decides which universities students can enter.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "A cabinet minister has lost the job over it."
+    },
+    {
+     "label": "Trend",
+     "text": "AI cheating is a growing worry for schools worldwide."
+    }
+   ],
+   "entities": [
+    "South Korea",
+    "AI policy"
+   ],
+   "happened": "The Guardian reports the minister stepped down on Sunday as the cheating scandal spread through the university exam system.",
+   "hype": 74,
+   "id": "ai-south-korea-exam-cheating",
+   "meme": {
+    "bottom": "not sit the entrance exam",
+    "take": "South Korea learns the hardest exam in the country is now keeping AI out of it.",
+    "top": "AI was meant to help with homework"
+   },
+   "motif": "doc",
+   "next": "Watch for changes to exam security and who is named as the new minister.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "The Guardian",
+   "stats": [],
+   "summary": "South Korea's education minister has resigned after a scandal over AI-assisted cheating in university entrance exams, The Guardian reports.",
+   "title": "South Korea's education minister resigns over AI cheating in university exams",
+   "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+   "why": "Schools everywhere are struggling to stop AI tools being used in tests."
+  }
+ },
  "ai-spacex-40b-gpu-debt": {
   "lastSeen": "2026-10-29",
   "story": {
@@ -9523,18 +9817,18 @@
   }
  },
  "ai-spacex-gpu-financing": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "SpaceX is Elon Musk's rocket and satellite internet company. Apollo is a large private credit firm.",
    "category": "ai",
    "drivers": [
     {
      "label": "Scale",
-     "text": "The deal is reported at about $44 billion."
+     "text": "The deal is reported at about $43 billion."
     },
     {
-     "label": "Money",
-     "text": "It relies on debt rather than cash on hand."
+     "label": "First of its kind",
+     "text": "Collateral that could leave the planet is new for lenders."
     },
     {
      "label": "Trend",
@@ -9547,33 +9841,33 @@
     "AI infrastructure",
     "AI chips"
    ],
-   "happened": "FourWeekMBA, citing Reuters, says the financing was upsized and is about three times SpaceX's reported third-quarter revenue of $14.575 billion.",
-   "hype": 62,
+   "happened": "A separate company buys the chips and SpaceX makes quarterly payments under a five-year lease. The report says the lease may lack a written promise that the chips stay on Earth. Reuters had put the notes at about $44 billion.",
+   "hype": 56,
    "id": "ai-spacex-gpu-financing",
    "meme": {
-    "bottom": "so Wall Street lent it $44 billion",
-    "take": "SpaceX has rockets, satellites and now $44 billion of borrowed graphics cards.",
-    "top": "SpaceX needed more GPUs"
+    "bottom": "if it can reach them",
+    "take": "Lenders have found the one repossession problem a tow truck cannot solve.",
+    "top": "The bank wants its GPUs back"
    },
-   "motif": "money",
-   "next": "Watch for details on where the chips will be used and how the notes are received by investors.",
-   "prevHype": null,
-   "published": "2026-11-21",
-   "source": "FourWeekMBA",
+   "motif": "rocket",
+   "next": "Watch for how SpaceX plans to use the chips and whether the terms change.",
+   "prevHype": 62,
+   "published": "2026-11-22",
+   "source": "Tom's Hardware",
    "stats": [
     {
-     "label": "notes priced, reported",
-     "value": "~$44B"
+     "label": "GPU lease, reported",
+     "value": "$43B"
     },
     {
-     "label": "SpaceX Q3 revenue, reported",
-     "value": "$14.575B"
+     "label": "lease term, reported",
+     "value": "5 years"
     }
    ],
-   "summary": "Apollo and Goldman Sachs priced roughly $44 billion of notes to buy Nvidia chips and equipment for SpaceX, Reuters reports.",
-   "title": "Apollo and Goldman price about $44 billion of notes to buy GPUs for SpaceX",
-   "url": "https://fourweekmba.com/ai-spacex-gpu-financing-upsized-to-44b-3x-its-q3-revenue/",
-   "why": "It is one of the largest debt deals tied to AI hardware, showing how much borrowing now funds the AI build-out."
+   "summary": "Tom's Hardware reports lenders funding a $43 billion Nvidia GPU lease for SpaceX worry the hardware could be hard to reclaim if sent to space.",
+   "title": "Lenders back SpaceX's $43 billion GPU deal but worry the chips could go to orbit",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/lenders-back-spacexs-usd43-billion-nvidia-gpu-deal-but-worry-the-collateral-could-end-up-in-orbit-making-it-impossible-to-reclaim-if-musk-defaults-five-year-hell-or-high-water-lease-may-lack-a-written-earth-only-guarantee",
+   "why": "It shows how far lenders will stretch to fund the AI chip boom."
   }
  },
  "ai-state-ags-sue-openai": {
@@ -10845,6 +11139,55 @@
    "why": "A quiet limited series overtaking bigger shows suggests strong word of mouth."
   }
  },
+ "ent-blade-runner-2099": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Blade Runner is Ridley Scott's 1982 film based on a Philip K. Dick novel. A sequel, Blade Runner 2049, followed in 2017.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "Blade Runner (1982) is a cult science fiction classic."
+    },
+    {
+     "label": "Timing",
+     "text": "All episodes drop just before the holiday weekend."
+    }
+   ],
+   "entities": [
+    "Amazon",
+    "Streaming",
+    "Revived franchises"
+   ],
+   "happened": "It is one of the biggest streaming arrivals of Thanksgiving week. The Rings of Power season 3 finale lands on the same service a day earlier, and Netflix has The Hunting Wives season 2 on Thanksgiving.",
+   "hype": 60,
+   "id": "ent-blade-runner-2099",
+   "meme": {
+    "bottom": "so 2099 feels about right",
+    "take": "Blade Runner reaches 2099, still asking about androids, now in eight episodes.",
+    "top": "The first film was set in 2019"
+   },
+   "motif": "screen",
+   "next": "Watch for reviews once all the episodes are out.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "NewsBeep",
+   "stats": [
+    {
+     "label": "episodes, released at once",
+     "value": "8"
+    },
+    {
+     "label": "release date",
+     "value": "Nov 25"
+    }
+   ],
+   "summary": "The Blade Runner series lands on Prime Video on November 25 as an eight-episode binge release, NewsBeep's weekly TV schedule lists.",
+   "title": "Blade Runner 2099 arrives on Prime Video with all eight episodes on November 25",
+   "url": "https://www.newsbeep.com/us/925271/",
+   "why": "It continues one of science fiction's most influential film series on television."
+  }
+ },
  "ent-blondie-high-noon": {
   "lastSeen": "2026-10-18",
   "story": {
@@ -11705,6 +12048,50 @@
    "why": "Deva's songs shaped decades of South Indian film music, including Rajinikanth classics."
   }
  },
+ "ent-dig-peacock": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Amy Poehler starred in Parks and Recreation and was a Saturday Night Live cast member.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Amy Poehler leads the series."
+    },
+    {
+     "label": "Timing",
+     "text": "It lands as viewers settle in for Thanksgiving week."
+    }
+   ],
+   "entities": [
+    "Streaming",
+    "NBCUniversal"
+   ],
+   "happened": "It opens a busy week that also includes Netflix's docuseries The Trials of Karen Read and MGM+'s New Wave. Peacock is releasing the whole season at once.",
+   "hype": 50,
+   "id": "ent-dig-peacock",
+   "meme": {
+    "bottom": "and you have a four-day weekend",
+    "take": "Peacock drops all of DIG at once, trusting you to have no plans for Thanksgiving.",
+    "top": "Amy Poehler has a new show"
+   },
+   "motif": "screen",
+   "next": "Watch for reviews and Peacock's viewing figures.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "NewsBeep",
+   "stats": [
+    {
+     "label": "episodes, released at once",
+     "value": "10"
+    }
+   ],
+   "summary": "All ten episodes of DIG, led by Amy Poehler, arrive on Peacock on November 23, NewsBeep's weekly schedule lists.",
+   "title": "Peacock releases DIG, a 10-episode series led by Amy Poehler",
+   "url": "https://www.newsbeep.com/us/925271/",
+   "why": "A new Amy Poehler series is a draw for fans of her comedy work."
+  }
+ },
  "ent-disney-3b-savings": {
   "lastSeen": "2026-11-19",
   "story": {
@@ -11874,7 +12261,7 @@
   }
  },
  "ent-ebenezer-box-office": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Ebenezer is a new take on Charles Dickens' A Christmas Carol.",
    "category": "entertainment",
@@ -11898,37 +12285,37 @@
     "Theatrical releases",
     "Book adaptations"
    ],
-   "happened": "The Ti West film opened at No. 1 with $19 million in the US, slightly under expectations. BoxOfficePro forecast $8 million to $13 million for weekend two. It has an A- CinemaScore and 53% on Rotten Tomatoes.",
-   "hype": 48,
+   "happened": "The Ti West film opened at No. 1 with $19 million in the US a week earlier. It fell to third behind the Hunger Games prequel and I Play Rocky, Flickering Myth reports.",
+   "hype": 52,
    "id": "ent-ebenezer-box-office",
    "meme": {
     "bottom": "and one Hunger Games prequel",
     "take": "Scrooge has faced ghosts before, but never a franchise opening weekend.",
-    "top": "Ebenezer meets three spirits"
+    "top": "Ebenezer met three spirits"
    },
    "motif": "film",
    "next": "Watch for its hold over Thanksgiving week.",
    "prevHype": 48,
-   "published": "2026-11-20",
-   "source": "Boxoffice Pro",
+   "published": "2026-11-23",
+   "source": "Flickering Myth",
    "stats": [
     {
-     "label": "2nd weekend forecast",
-     "value": "$8-13M"
+     "label": "second weekend gross",
+     "value": "$7.7M"
     },
     {
-     "label": "US opening",
-     "value": "$19M"
+     "label": "weekend-to-weekend drop",
+     "value": "-60%"
     },
     {
-     "label": "CinemaScore",
-     "value": "A-"
+     "label": "worldwide total",
+     "value": "$78M"
     }
    ],
-   "summary": "Johnny Depp's Ebenezer fell to third in its second weekend behind the Hunger Games prequel and I Play Rocky, Cover Media reports.",
-   "title": "Ebenezer slips to third in its second weekend",
-   "url": "https://www.boxofficepro.com/weekend-preview-hunger-games-sunrise-on-the-reaping-looking-at-100m-debut/",
-   "why": "It tests whether a dark take on a holiday classic can hold up through the season."
+   "summary": "Johnny Depp's Christmas film made $7.7 million, down 60% from its opening, and has earned $78 million worldwide on a $38 million budget.",
+   "title": "Ebenezer drops 60% in its second weekend but passes $78 million worldwide",
+   "url": "https://www.flickeringmyth.com/the-hunger-games-sunrise-on-the-reaping-grosses-225-million-at-the-worldwide-box-office/",
+   "why": "Holiday films often make most of their money in December, so an early drop matters."
   }
  },
  "ent-edgerunners-2-netflix": {
@@ -12974,22 +13361,22 @@
   }
  },
  "ent-hunger-games-sunrise": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "The Hunger Games films are based on Suzanne Collins' novels. This is the second prequel, following a young Haymitch Abernathy.",
    "category": "entertainment",
    "drivers": [
     {
      "label": "Fan demand",
-     "text": "The previews were the series' second best."
+     "text": "It beat Lionsgate's own $85 million weekend forecast."
     },
     {
      "label": "Big name",
-     "text": "Jennifer Lawrence, Josh Hutcherson and Woody Harrelson are said to have cameos."
+     "text": "Jennifer Lawrence and Josh Hutcherson are said to have cameos."
     },
     {
      "label": "Timing",
-     "text": "It opens the week before Thanksgiving, a strong window for long runs."
+     "text": "It opened the week before Thanksgiving, a strong window for long runs."
     }
    ],
    "entities": [
@@ -12998,8 +13385,8 @@
     "Book adaptations",
     "Theatrical releases"
    ],
-   "happened": "Cover Media reports the Friday figure, well ahead of Lionsgate's own $85 million prediction for the weekend. Deadline projects a global opening near $200 million. BoxOfficePro had forecast $100 million to $120 million.",
-   "hype": 97,
+   "happened": "It is the franchise's fourth-biggest global debut and the second-biggest North American prequel opening after Rogue One. It also beat The Ballad of Songbirds and Snakes' $100.8 million debut.",
+   "hype": 96,
    "id": "ent-hunger-games-sunrise",
    "meme": {
     "bottom": "is winning its own contest",
@@ -13007,32 +13394,32 @@
     "top": "A film about a deadly televised contest"
    },
    "motif": "film",
-   "next": "Watch for Sunday's actual weekend numbers and how much it drops in its second weekend.",
-   "prevHype": 95,
-   "published": "2026-11-22",
-   "source": "Cover Media via Yahoo",
+   "next": "Watch for how well it holds over the Thanksgiving holiday week.",
+   "prevHype": 97,
+   "published": "2026-11-23",
+   "source": "Flickering Myth",
    "stats": [
     {
-     "label": "Friday gross, reported",
-     "value": "$56M"
+     "label": "North American opening",
+     "value": "$120M"
     },
     {
-     "label": "US opening, projection",
-     "value": "~$120M"
+     "label": "worldwide opening",
+     "value": "$225M"
     },
     {
-     "label": "global opening, Deadline est.",
-     "value": "~$200M"
+     "label": "international opening",
+     "value": "$105M"
     }
    ],
-   "summary": "The Hunger Games prequel made a reported $56 million on its first day and is projected at about $120 million in the US and $200 million worldwide.",
-   "title": "Sunrise on the Reaping takes $56 million on Friday, heading for $120 million",
-   "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/sunrise-reaping-heads-200-million-005517027.html",
+   "summary": "The Hunger Games prequel topped the weekend with a $120 million North American opening and $105 million overseas, Flickering Myth reports.",
+   "title": "Sunrise on the Reaping opens to $120 million in the US and $225 million worldwide",
+   "url": "https://www.flickeringmyth.com/the-hunger-games-sunrise-on-the-reaping-grosses-225-million-at-the-worldwide-box-office/",
    "why": "A strong debut would show book-based franchises can still fill cinemas in a crowded holiday season."
   }
  },
  "ent-i-play-rocky-expands": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Rocky (1976) was written by and starred Sylvester Stallone and won the Oscar for best picture.",
    "category": "entertainment",
@@ -13055,8 +13442,8 @@
     "Box office",
     "Theatrical releases"
    ],
-   "happened": "It earned nearly $1 million on fewer than 30 screens before expanding. BoxOfficePro forecast $15 million to $20 million for the wide weekend and reports an 87% critic score and 98% audience score.",
-   "hype": 60,
+   "happened": "That fell short of BoxOfficePro's $15 million to $20 million forecast for the weekend. The film went in with a 98% audience score and an 87% critic score.",
+   "hype": 58,
    "id": "ent-i-play-rocky-expands",
    "meme": {
     "bottom": "finished second, as underdogs do",
@@ -13064,27 +13451,27 @@
     "top": "A film about an underdog"
    },
    "motif": "film",
-   "next": "Watch for Sunday's estimate and whether word of mouth carries it through Thanksgiving.",
-   "prevHype": 56,
-   "published": "2026-11-20",
-   "source": "Boxoffice Pro",
+   "next": "Watch for whether word of mouth carries it through Thanksgiving.",
+   "prevHype": 60,
+   "published": "2026-11-23",
+   "source": "Flickering Myth",
    "stats": [
     {
-     "label": "wide opening forecast",
+     "label": "weekend gross",
+     "value": "$9.3M"
+    },
+    {
+     "label": "pre-weekend forecast",
      "value": "$15-20M"
     },
     {
      "label": "audience score",
      "value": "98%"
-    },
-    {
-     "label": "critic score",
-     "value": "87%"
     }
    ],
-   "summary": "Amazon MGM's Stallone biopic I Play Rocky ran second behind the Hunger Games prequel in its first wide weekend, Cover Media reports.",
-   "title": "I Play Rocky places second as it goes nationwide",
-   "url": "https://www.boxofficepro.com/weekend-preview-hunger-games-sunrise-on-the-reaping-looking-at-100m-debut/",
+   "summary": "Peter Farrelly's Stallone biopic expanded from limited release to earn $9.3 million and finish second, Flickering Myth reports.",
+   "title": "I Play Rocky takes second with $9.3 million in its wide expansion",
+   "url": "https://www.flickeringmyth.com/the-hunger-games-sunrise-on-the-reaping-grosses-225-million-at-the-worldwide-box-office/",
    "why": "A crowd-pleasing film about making Rocky could become counter-programming to the Hunger Games prequel."
   }
  },
@@ -13791,6 +14178,54 @@
    "title": "Lupin Part 4 leads Netflix's non-English chart with 10.8 million views",
    "url": "https://www.whats-on-netflix.com/news/netflix-top-10s-matthew-perry-doc-series-debuts-at-1-as-english-movie-viewership-continues-to-tank/",
    "why": "Lupin is one of Netflix's most successful non-English shows, and its return pulled older seasons back up."
+  }
+ },
+ "ent-macys-100th-parade": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Macy's has run its New York parade since 1924. Its giant character balloons are its best-known feature.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "The parade has been a Thanksgiving tradition for a century."
+    },
+    {
+     "label": "Scale",
+     "text": "This is the 100th edition."
+    }
+   ],
+   "entities": [
+    "NBCUniversal",
+    "Thanksgiving TV"
+   ],
+   "happened": "The National Dog Show follows on NBC at noon. That evening CBS airs The JLO Show: Live in Las Vegas and PBS has a Paul Simon concert.",
+   "hype": 56,
+   "id": "ent-macys-100th-parade",
+   "meme": {
+    "bottom": "the balloons still outrank the guests",
+    "take": "Macy's marks 100 parades, a century of watching inflatables argue with the wind.",
+    "top": "The parade turns 100"
+   },
+   "motif": "screen",
+   "next": "Watch for the full balloon and performer line-up before Thursday.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "NewsBeep",
+   "stats": [
+    {
+     "label": "edition of the parade",
+     "value": "100th"
+    },
+    {
+     "label": "NBC start, November 26",
+     "value": "8:30 a.m."
+    }
+   ],
+   "summary": "NBC will air the 100th Macy's Thanksgiving Day Parade on November 26 at 8:30 a.m., leading the holiday's TV schedule.",
+   "title": "Macy's 100th Thanksgiving Day Parade airs on NBC this Thursday",
+   "url": "https://www.newsbeep.com/us/925271/",
+   "why": "The parade is one of the most-watched TV traditions in the US each year."
   }
  },
  "ent-man-of-tomorrow-no-teaser": {
@@ -15410,6 +15845,50 @@
    "why": "Bond casting is one of the most debated decisions in film, and this is the first since Daniel Craig left."
   }
  },
+ "ent-paul-simon-seven-psalms": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Paul Simon rose to fame in Simon and Garfunkel. Seven Psalms is a single-piece album he released in 2023.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Simon is a long-established star of American music."
+    },
+    {
+     "label": "First of its kind",
+     "text": "It is billed as the first full live performance of the piece."
+    }
+   ],
+   "entities": [
+    "Music",
+    "Thanksgiving TV"
+   ],
+   "happened": "NewsBeep lists the special for November 26 at 8 p.m. MGM+ also starts New Wave, a four-week docuseries on music from 1977 to 1987, on November 23.",
+   "hype": 46,
+   "id": "ent-paul-simon-seven-psalms",
+   "meme": {
+    "bottom": "bold choice for that table",
+    "take": "PBS schedules a quiet celebration for the loudest dinner of the year.",
+    "top": "A quiet concert on Thanksgiving"
+   },
+   "motif": "voice",
+   "next": "Watch for whether the concert is released as a recording.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "NewsBeep",
+   "stats": [
+    {
+     "label": "PBS air date, 8 p.m.",
+     "value": "Nov 26"
+    }
+   ],
+   "summary": "Paul Simon: The Quiet Celebration Concert airs on PBS on Thanksgiving night, billed as the first live performance of the complete Seven Psalms.",
+   "title": "PBS airs Paul Simon's first full live performance of Seven Psalms",
+   "url": "https://www.newsbeep.com/us/925271/",
+   "why": "Paul Simon is one of the best-known songwriters in American music."
+  }
+ },
  "ent-peacock-dig": {
   "lastSeen": "2026-10-29",
   "story": {
@@ -15459,7 +15938,7 @@
   }
  },
  "ent-percy-jackson-s3": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "The series is based on Rick Riordan's novels about a boy who learns he is the son of the Greek god Poseidon.",
    "category": "entertainment",
@@ -15479,7 +15958,7 @@
     "Book adaptations"
    ],
    "happened": "Tom's Guide and Boston.com both list the premiere among the top new arrivals this weekend. It lands on the same day as the Yellowjackets final season and Netflix's animated film Steps.",
-   "hype": 56,
+   "hype": 48,
    "id": "ent-percy-jackson-s3",
    "meme": {
     "bottom": "and still nobody reads the terms",
@@ -15488,7 +15967,7 @@
    },
    "motif": "screen",
    "next": "Watch for Disney's viewing figures for the premiere and any news on a fourth season.",
-   "prevHype": null,
+   "prevHype": 56,
    "published": "2026-11-20",
    "source": "Tom's Guide via Yahoo",
    "stats": [],
@@ -15910,6 +16389,51 @@
    "title": "Character actor Richard Riehle, Office Space's Tom Smykowski, dies at 78",
    "url": "https://onemannsmovies.com/movie-news/movie-news-20th-october-2026/",
    "why": "His face is familiar to millions from decades of film and TV roles, especially in Office Space."
+  }
+ },
+ "ent-rings-of-power-s3-finale": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "The series is set thousands of years before The Lord of the Rings and draws on J.R.R. Tolkien's writings.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "It is among the costliest TV series ever made."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Tolkien's world has a huge global fanbase."
+    }
+   ],
+   "entities": [
+    "Amazon",
+    "Streaming",
+    "Book adaptations"
+   ],
+   "happened": "Forbes and NewsBeep both list the finale among the week's biggest TV events. It arrives the night before Blade Runner 2099 lands on the same service.",
+   "hype": 54,
+   "id": "ent-rings-of-power-s3-finale",
+   "meme": {
+    "bottom": "the budget remains the real dragon",
+    "take": "The Rings of Power ends season three, with its most powerful ring still the budget.",
+    "top": "Another season of forging rings"
+   },
+   "motif": "screen",
+   "next": "Watch for news on whether Amazon orders a fourth season.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "Forbes",
+   "stats": [
+    {
+     "label": "season 3 finale",
+     "value": "Nov 24"
+    }
+   ],
+   "summary": "Amazon's Lord of the Rings series ends its third season on Tuesday, a date Forbes lists as moved up.",
+   "title": "The Rings of Power season 3 finale lands on Prime Video on November 24",
+   "url": "https://www.forbes.com/sites/erikkain/2026/11/19/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+   "why": "It is one of the most expensive TV series ever made, so its future is watched closely."
   }
  },
  "ent-sacrifice-netflix": {
@@ -17571,7 +18095,7 @@
   }
  },
  "ent-yellowjackets-final-season": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Yellowjackets follows a girls' soccer team stranded in the wilderness after a plane crash, and their lives 25 years later.",
    "category": "entertainment",
@@ -17594,7 +18118,7 @@
     "Streaming"
    ],
    "happened": "It leads a busy streaming weekend that also includes Percy Jackson season 3 on Disney+ and Hulu and Netflix's The Altruists, about the FTX collapse. Forbes lists the Rings of Power season 3 finale as moved up to November 24.",
-   "hype": 56,
+   "hype": 50,
    "id": "ent-yellowjackets-final-season",
    "meme": {
     "bottom": "ten episodes to answer them",
@@ -17603,7 +18127,7 @@
    },
    "motif": "screen",
    "next": "Watch for how the final season handles the show's long-running mysteries.",
-   "prevHype": 64,
+   "prevHype": 56,
    "published": "2026-11-20",
    "source": "Forbes",
    "stats": [
@@ -17623,61 +18147,56 @@
   }
  },
  "ent-you-can-see-everything": {
-  "lastSeen": "2026-11-03",
+  "lastSeen": "2026-11-23",
   "story": {
-   "background": "Nathan Fielder and Lance Oppenheim made the film. Elizabeth Holmes founded Theranos and was convicted of fraud in 2022.",
+   "background": "Most documentaries open in a small number of cinemas or go straight to streaming.",
    "category": "entertainment",
    "drivers": [
     {
-     "label": "Trend",
-     "text": "It grew in weekend two and held No. 1 in weekend three."
+     "label": "Money",
+     "text": "It has earned about 14 times its reported budget."
     },
     {
-     "label": "Timing",
-     "text": "Few big new films opened over Halloween weekend."
-    },
-    {
-     "label": "Awards",
-     "text": "It is now discussed alongside Best Picture contenders."
+     "label": "Scale",
+     "text": "Very few documentaries have passed $100 million."
     }
    ],
    "entities": [
-    "A24",
     "Box office",
-    "Documentaries",
-    "Theatrical releases"
+    "Theatrical releases",
+    "Documentaries"
    ],
-   "happened": "The film fell 43% from its second weekend, per Box Office Mojo figures cited by Awards Radar. A24 is reportedly aiming for a $90 million to $100 million final gross, huge for a documentary. Few new wide releases opened for the holiday.",
-   "hype": 72,
+   "happened": "Flickering Myth reports $93.4 million of the total comes from North America. The $9 million weekend came as the film started opening in more countries.",
+   "hype": 62,
    "id": "ent-you-can-see-everything",
    "meme": {
-    "bottom": "beat a monster made of clay",
-    "take": "Halloween's top film was about a fake medical device, which feels like the scarier choice.",
-    "top": "A documentary about a blood test"
+    "bottom": "and it is outgrossing explosions",
+    "take": "A $7 million documentary passed $100 million, and studios are suddenly curious about facts.",
+    "top": "It cost $7 million to make"
    },
    "motif": "film",
-   "next": "Watch for whether its awards buzz keeps it in theaters into November.",
-   "prevHype": 86,
-   "published": "2026-11-01",
-   "source": "Awards Radar",
+   "next": "Watch for how it performs as it opens in more markets.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "Flickering Myth",
    "stats": [
     {
-     "label": "Halloween weekend",
-     "value": "$10.6M"
+     "label": "worldwide gross",
+     "value": "$100M+"
     },
     {
-     "label": "global total",
-     "value": "$63.8M"
+     "label": "North American gross",
+     "value": "$93.4M"
     },
     {
-     "label": "final gross target, reported",
-     "value": "$90-100M"
+     "label": "budget, reported",
+     "value": "$7M"
     }
    ],
-   "summary": "A24's Elizabeth Holmes documentary took $10.6 million to edge Clayface by about $200,000, with a global total of $63.8 million.",
-   "title": "You Can See Everything narrowly holds No. 1 on Halloween weekend",
-   "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/",
-   "why": "A documentary topping the box office is rare, and it is now in the awards conversation."
+   "summary": "The documentary has crossed $100 million worldwide on a reported $7 million budget, adding $9 million as its global rollout began.",
+   "title": "Documentary You Can See Everything passes $100 million worldwide",
+   "url": "https://www.flickeringmyth.com/the-hunger-games-sunrise-on-the-reaping-grosses-225-million-at-the-worldwide-box-office/",
+   "why": "Documentaries almost never reach blockbuster numbers, so a hit this size stands out."
   }
  },
  "ent-youtube-co-viewing": {
@@ -19137,6 +19656,45 @@
    "why": "Deltarune has a huge, patient fan base that follows every development update."
   }
  },
+ "game-deltarune-chapter-6": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Deltarune is a role-playing game by Toby Fox, creator of 2015's Undertale. It is being released in chapters.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Fan demand",
+     "text": "Fans follow each newsletter for clues."
+    },
+    {
+     "label": "Big name",
+     "text": "Toby Fox created the cult indie hit Undertale."
+    }
+   ],
+   "entities": [
+    "Indie games",
+    "Deltarune"
+   ],
+   "happened": "Nintendo Life reported the newsletter on November 20. No release date was given for either chapter.",
+   "hype": 60,
+   "id": "game-deltarune-chapter-6",
+   "meme": {
+    "bottom": "fans have started counting drafts",
+    "take": "Toby Fox calls Chapter 6 structurally complete, which fans will read as a release date.",
+    "top": "Chapter 6 is a complete draft"
+   },
+   "motif": "game",
+   "next": "Watch for a release window for Chapter 6.",
+   "prevHype": null,
+   "published": "2026-11-20",
+   "source": "Nintendo Life",
+   "stats": [],
+   "summary": "In his autumn newsletter, Toby Fox says Deltarune Chapter 6 is progressing well as a structurally complete draft, with an update on Chapter 7 too.",
+   "title": "Toby Fox says Deltarune Chapter 6 is now a structurally complete draft",
+   "url": "https://www.nintendolife.com/news/2026/11/toby-fox-shares-deltarune-chapter-6-and-7-development-update",
+   "why": "Deltarune has a devoted fanbase that tracks every development update closely."
+  }
+ },
  "game-diablo-4-season-16-ptr": {
   "lastSeen": "2026-10-28",
   "story": {
@@ -20448,6 +21006,46 @@
    "why": "Most big console games now offer a 60fps mode, so fans are debating the trade-off."
   }
  },
+ "game-gta-vi-album": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Grand Theft Auto games include in-game radio stations that mix licensed songs with comedy talk shows.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Fan demand",
+     "text": "Players already know the songs from the in-game radio."
+    },
+    {
+     "label": "Timing",
+     "text": "It arrived a day after launch, while interest peaks."
+    }
+   ],
+   "entities": [
+    "GTA VI",
+    "Rockstar",
+    "Music"
+   ],
+   "happened": "The album went live on November 20, a day after the game launched, as interest in the game peaked.",
+   "hype": 56,
+   "id": "game-gta-vi-album",
+   "meme": {
+    "bottom": "so now it has a vinyl",
+    "take": "GTA VI's soundtrack is out, for players who want the car radio without the car chase.",
+    "top": "The game made $3.79 billion"
+   },
+   "motif": "voice",
+   "next": "Watch for the vinyl release date and how the album does on streaming charts.",
+   "prevHype": null,
+   "published": "2026-11-20",
+   "source": "DayOne",
+   "stats": [],
+   "summary": "Grand Theft Auto 6: The Album is now available to stream and buy, and a vinyl edition has been announced, DayOne reports.",
+   "title": "Grand Theft Auto VI's soundtrack album is out, with vinyl on the way",
+   "url": "https://playday.one/2026/11/20/grand-theft-auto-vi-the-album-now-available-for-streaming-purchase-vinyl/",
+   "why": "GTA's radio stations are among the best-loved parts of the series."
+  }
+ },
  "game-gta-vi-day-off": {
   "lastSeen": "2026-11-19",
   "story": {
@@ -20502,7 +21100,7 @@
   }
  },
  "game-gta-vi-launch": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Rockstar Games is owned by Take-Two Interactive and also made Red Dead Redemption.",
    "category": "gaming",
@@ -20526,8 +21124,8 @@
     "GTA VI",
     "New game releases"
    ],
-   "happened": "Sensor Tower had estimated about $2.36 billion. GamesRadar compares the launch with $800 million for GTA V and $725 million for Red Dead Redemption 2. The game also holds a 99 on Metacritic.",
-   "hype": 96,
+   "happened": "Take-Two estimates it took $3.79 billion in its first 24 hours, the biggest entertainment launch yet. It came out on November 19 for PS5 and Xbox Series X/S, and GameRant says Take-Two has ruled out direct Black Friday discounts.",
+   "hype": 92,
    "id": "game-gta-vi-launch",
    "meme": {
     "bottom": "for a game about doing crimes for money",
@@ -20536,7 +21134,7 @@
    },
    "motif": "game",
    "next": "Watch for Take-Two's next update on sales and any news on a PC version.",
-   "prevHype": 99,
+   "prevHype": 96,
    "published": "2026-11-20",
    "source": "Business Wire",
    "stats": [
@@ -20712,7 +21310,7 @@
   }
  },
  "game-gta-vi-streaming-record": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Twitch is Amazon's live-streaming platform, used mostly for gaming.",
    "category": "gaming",
@@ -20737,7 +21335,7 @@
     "Amazon"
    ],
    "happened": "StreamCharts' estimate covered five platforms. Riot Games said Valorant's 1.7 million viewer Twitch record had been broken. GamesRadar reports one streamer finished the game in under 40 hours without a break.",
-   "hype": 64,
+   "hype": 52,
    "id": "game-gta-vi-streaming-record",
    "meme": {
     "bottom": "someone else play the game they bought",
@@ -20746,7 +21344,7 @@
    },
    "motif": "screen",
    "next": "Watch for whether viewing holds up once the story has been widely seen.",
-   "prevHype": 74,
+   "prevHype": 64,
    "published": "2026-11-20",
    "source": "TechStartups",
    "stats": [
@@ -21925,6 +22523,55 @@
    "why": "Fans are getting their first look at a game that will now never be released."
   }
  },
+ "game-mega-man-boat-man": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Mega Man is Capcom's action series in which the hero fights bosses called Robot Masters.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "The series began on the NES in 1987."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Fans debate every new boss reveal."
+    }
+   ],
+   "entities": [
+    "Capcom",
+    "Nintendo",
+    "Switch 2"
+   ],
+   "happened": "Nintendo Life reported the reveal on November 19. Boat Man is the sixth Robot Master Capcom has shown for the game.",
+   "hype": 48,
+   "id": "game-mega-man-boat-man",
+   "meme": {
+    "bottom": "and his name is Boat Man",
+    "take": "Capcom named a villain Boat Man, and the series remains committed to clear job titles.",
+    "top": "The sixth Robot Master is here"
+   },
+   "motif": "game",
+   "next": "Watch for the remaining Robot Masters and a release date.",
+   "prevHype": null,
+   "published": "2026-11-19",
+   "source": "Nintendo Life",
+   "stats": [
+    {
+     "label": "release year",
+     "value": "2027"
+    },
+    {
+     "label": "Robot Master revealed",
+     "value": "6th"
+    }
+   ],
+   "summary": "Capcom has revealed Boat Man as the sixth Robot Master of Mega Man: Dual Override, due in 2027 on Switch and Switch 2.",
+   "title": "Capcom reveals Boat Man, the sixth Robot Master in Mega Man: Dual Override",
+   "url": "https://www.nintendolife.com/news/2026/11/capcom-officially-reveals-sixth-mega-man-dual-override-robot-master",
+   "why": "Mega Man is one of Capcom's oldest series, and fans have waited years for a new main game."
+  }
+ },
  "game-miyamoto-ai-creativity": {
   "lastSeen": "2026-10-24",
   "story": {
@@ -22551,6 +23198,55 @@
    "why": "Ocarina of Time is one of the most acclaimed games ever, and its return draws long-time Nintendo fans."
   }
  },
+ "game-ocarina-review-bombing": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "The Legend of Zelda: Ocarina of Time (1998) has long been the highest-rated game on Metacritic.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Rivalry",
+     "text": "Two of the highest-rated games ever are pitted against each other."
+    },
+    {
+     "label": "Controversy",
+     "text": "User scores are being used as a weapon in fan arguments."
+    }
+   ],
+   "entities": [
+    "GTA VI",
+    "Nintendo",
+    "The Legend of Zelda"
+   ],
+   "happened": "GTA VI holds a 99 on Metacritic, tied with the original Ocarina of Time as the highest-rated game the site lists. GTA VI's own user score had opened at 5.2 amid review-bombing claims.",
+   "hype": 66,
+   "id": "game-ocarina-review-bombing",
+   "meme": {
+    "bottom": "the fans are settling it by vandalism",
+    "take": "GTA VI fans reportedly went after a Zelda game, which is the most GTA way to handle a tie.",
+    "top": "Two games tied on Metacritic"
+   },
+   "motif": "game",
+   "next": "Watch for whether Metacritic steps in on either game's user reviews.",
+   "prevHype": null,
+   "published": "2026-11-21",
+   "source": "Nintendo Life",
+   "stats": [
+    {
+     "label": "GTA VI Metacritic score",
+     "value": "99"
+    },
+    {
+     "label": "GTA VI opening user score",
+     "value": "5.2"
+    }
+   ],
+   "summary": "Nintendo Life reports the Ocarina of Time remake's positive user score has come under fire, reportedly from GTA VI fans.",
+   "title": "GTA VI fans are reportedly review-bombing the Ocarina of Time remake",
+   "url": "https://www.nintendolife.com/news/2026/11/ocarina-remakes-positive-user-review-score-is-now-under-fire",
+   "why": "Fan rivalries spilling into review scores make those scores harder to trust."
+  }
+ },
  "game-order-of-the-sinking-star-sales": {
   "lastSeen": "2026-10-18",
   "story": {
@@ -22742,7 +23438,7 @@
   }
  },
  "game-persona-6-domain": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Atlus is a Japanese studio owned by Sega that makes the Persona and Shin Megami Tensei series.",
    "category": "gaming",
@@ -22761,8 +23457,8 @@
     "Sega",
     "The Game Awards"
    ],
-   "happened": "MyNintendoNews notes that a Persona 4 Revival domain update was followed by a trailer about a month later. Nothing has been announced by Sega or Atlus, so this remains speculation.",
-   "hype": 56,
+   "happened": "Nintendo Life reports Atlus also said the wait for Persona 7 will be shorter. MyNintendoNews notes a Persona 4 Revival domain update came a month before its trailer. Nothing has been announced.",
+   "hype": 58,
    "id": "game-persona-6-domain",
    "meme": {
     "bottom": "a whole fandom cleared its December",
@@ -22771,7 +23467,7 @@
    },
    "motif": "game",
    "next": "Watch for The Game Awards on December 10 and any teasers from Atlus before then.",
-   "prevHype": null,
+   "prevHype": 56,
    "published": "2026-11-21",
    "source": "My Nintendo News",
    "stats": [
@@ -22780,8 +23476,8 @@
      "value": "Dec 10"
     }
    ],
-   "summary": "Fans spotted an update to a Persona 6 web domain, sparking speculation that Atlus will show a trailer at The Game Awards on December 10.",
-   "title": "A Persona 6 website update fuels talk of a Game Awards trailer",
+   "summary": "Atlus says Persona 6 has no release date yet, while an update to its web domain has fans expecting a trailer at The Game Awards on December 10.",
+   "title": "Persona 6 has no date, but a website update fuels Game Awards trailer talk",
    "url": "https://mynintendonews.com/2026/11/21/persona-6-domain-recently-updated-leading-to-new-trailer-speculation-at-the-game-awards-2026",
    "why": "Persona is one of the most popular Japanese role-playing series, and fans have waited years for a new main entry."
   }
@@ -23147,7 +23843,7 @@
   }
  },
  "game-pokemon-winds-waves-catalogue": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Pokemon games are made by Game Freak and published by Nintendo and The Pokemon Company.",
    "category": "gaming",
@@ -23165,8 +23861,8 @@
     "Nintendo",
     "Pokemon"
    ],
-   "happened": "MyNintendoNews says the text talks about overcoming paths and forces of nature with Pokemon. No release date or platform was given. A separate rumour claims an overhauled turn-based battle system.",
-   "hype": 54,
+   "happened": "MyNintendoNews says the text talks about overcoming paths and forces of nature with Pokemon. The catalogue also showed Samus's suit in Metroid Ravenous. A separate rumour claims an overhauled turn-based battle system.",
+   "hype": 52,
    "id": "game-pokemon-winds-waves-catalogue",
    "meme": {
     "bottom": "ten thousand theories",
@@ -23175,7 +23871,7 @@
    },
    "motif": "game",
    "next": "Watch for an official trailer or release window from The Pokemon Company.",
-   "prevHype": null,
+   "prevHype": 54,
    "published": "2026-11-21",
    "source": "My Nintendo News",
    "stats": [],
@@ -24813,7 +25509,7 @@
   }
  },
  "game-ubisoft-quebec-layoffs": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Ubisoft is a French publisher behind Assassin's Creed and Far Cry.",
    "category": "gaming",
@@ -24838,7 +25534,7 @@
     "Take-Two"
    ],
    "happened": "Engadget says the 166 cuts in Montreal and Quebec City are mostly production and support roles tied to cancelled or reworked projects. Motherbrain focuses on AI for gameplay. Firaxis, owned by Take-Two, reportedly cut about a third of its staff the same week.",
-   "hype": 56,
+   "hype": 44,
    "id": "game-ubisoft-quebec-layoffs",
    "meme": {
     "bottom": "and named the AI Motherbrain",
@@ -24847,7 +25543,7 @@
    },
    "motif": "money",
    "next": "Watch for what Motherbrain actually ships and whether more cuts follow.",
-   "prevHype": 64,
+   "prevHype": 56,
    "published": "2026-11-19",
    "source": "Engadget",
    "stats": [
@@ -25121,52 +25817,47 @@
   }
  },
  "game-wolf-among-us-remastered": {
-  "lastSeen": "2026-10-29",
+  "lastSeen": "2026-11-23",
   "story": {
-   "background": "The Wolf Among Us is a Telltale Games narrative adventure based on the Fables comics published by DC.",
+   "background": "The Wolf Among Us is a Telltale adventure game based on the Fables comics.",
    "category": "gaming",
    "drivers": [
     {
      "label": "Nostalgia",
-     "text": "The original episodes came out in 2013 and 2014."
+     "text": "The original came out in 2013."
     },
     {
-     "label": "Fan demand",
-     "text": "Reviews averaged 84 before launch."
+     "label": "Timing",
+     "text": "It lands on Thanksgiving weekend."
     }
    ],
    "entities": [
-    "Remakes",
-    "New game releases",
-    "DC"
+    "Nintendo",
+    "Revived franchises"
    ],
-   "happened": "Checkpoint Gaming and PlayStation LifeStyle scored it 90, and PlayStation Universe 85. The Switch version is delayed, while the other versions remain due on October 29.",
-   "hype": 68,
+   "happened": "My Nintendo News spotted the date on the eShop listing. Nintendo Life had reported in October that the remaster was delayed.",
+   "hype": 50,
    "id": "game-wolf-among-us-remastered",
    "meme": {
-    "bottom": "except on Switch, where it's late",
-    "take": "The Wolf Among Us returns to strong reviews and one platform still lost in the woods.",
-    "top": "The Wolf Among Us is back"
+    "bottom": "arrives on a 2017 console",
+    "take": "The Wolf Among Us gets remastered for a console that is now a classic itself.",
+    "top": "A remaster of a 2013 game"
    },
    "motif": "game",
-   "next": "Watch for a new date for the Switch version.",
+   "next": "Watch for versions on other platforms and news on the sequel.",
    "prevHype": null,
-   "published": "2026-10-28",
-   "source": "VGTimes",
+   "published": "2026-11-22",
+   "source": "My Nintendo News",
    "stats": [
     {
-     "label": "Metacritic average",
-     "value": "84"
-    },
-    {
-     "label": "release",
-     "value": "Oct 29"
+     "label": "release date, eShop",
+     "value": "Nov 29"
     }
    ],
-   "summary": "The remaster of Telltale's Fables adventure averaged 84 on Metacritic ahead of its October 29 release, VGTimes reports.",
-   "title": "The Wolf Among Us Remastered earns strong reviews before launch",
-   "url": "https://vgtimes.com/gaming-news/172549-the-wolf-among-us-remastered-earns-strong-reviews-ahead-of-launch.html",
-   "why": "The original is a fan favourite, and fans are still waiting on its sequel."
+   "summary": "Telltale's remaster of The Wolf Among Us has an eShop date of November 29 on the original Switch, after an earlier delay.",
+   "title": "The Wolf Among Us Remastered is set for November 29 on the original Switch",
+   "url": "https://mynintendonews.com/2026/11/22/wolf-among-us-remastered-releases-29th-november-on-original-nintendo-switch/",
+   "why": "The 2013 game is a fan favourite, and its sequel has been long awaited."
   }
  },
  "game-wow-all-platforms": {
@@ -26101,56 +26792,48 @@
   }
  },
  "game-zelda-switch-2-restock": {
-  "lastSeen": "2026-10-21",
+  "lastSeen": "2026-11-23",
   "story": {
-   "background": "The Legend of Zelda is Nintendo's adventure series. The Switch 2 is Nintendo's current console.",
+   "background": "The Legend of Zelda first came out in 1986 and is one of Nintendo's biggest series.",
    "category": "gaming",
    "drivers": [
     {
-     "label": "Nostalgia",
-     "text": "The Legend of Zelda turns 40 this year."
-    },
-    {
      "label": "Fan demand",
-     "text": "The special console has been selling out at retailers."
+     "text": "Many fans missed the edition the first time."
     },
     {
-     "label": "Timing",
-     "text": "Shortages are hitting just before the holidays."
+     "label": "Nostalgia",
+     "text": "It marks 40 years of The Legend of Zelda."
     }
    ],
    "entities": [
     "Nintendo",
-    "Gaming hardware",
-    "Revived franchises"
+    "The Legend of Zelda",
+    "Switch 2"
    ],
-   "happened": "Bill van Zyll, Nintendo's Latin America chief, said the company underestimated demand and that restocks are coming but will take time, Nintendo Life reports. He singled out North America. The Ocarina of Time remake for Switch 2 arrives November 5.",
-   "hype": 56,
+   "happened": "The edition has been hard to find in the US. Playable electric Zelda ocarinas will also go on sale in Europe, at first by invitation only.",
+   "hype": 48,
    "id": "game-zelda-switch-2-restock",
    "meme": {
-    "bottom": "They have waited 40 years already",
-    "take": "Nintendo underestimated demand for a Zelda console, which is a bold thing to underestimate.",
-    "top": "Nintendo thought Zelda fans could wait"
+    "bottom": "is still hard to find, fittingly",
+    "take": "Nintendo says the Zelda Switch 2 returns soon, setting players their hardest quest yet.",
+    "top": "A console for Zelda's 40th"
    },
    "motif": "game",
-   "next": "Watch for restock dates and sales when the Ocarina of Time remake launches on November 5.",
-   "prevHype": 70,
-   "published": "2026-10-19",
+   "next": "Watch for a restock date from US retailers.",
+   "prevHype": null,
+   "published": "2026-11-20",
    "source": "Nintendo Life",
    "stats": [
     {
-     "label": "Zelda anniversary",
-     "value": "40th"
-    },
-    {
-     "label": "Ocarina of Time remake",
-     "value": "Nov 5"
+     "label": "years of Zelda",
+     "value": "40"
     }
    ],
-   "summary": "A Nintendo executive apologised for shortages of the Zelda 40th Anniversary console and promised restocks, without a date.",
-   "title": "Nintendo says it underestimated demand for its Zelda Switch 2 console",
-   "url": "https://www.nintendolife.com/news/2026/10/nintendo-underestimated-zelda-switch-2-console-sales-but-promises-restocks-are-on-the-way",
-   "why": "Shortages of a collector's console ahead of the holidays frustrate fans and hint at strong demand."
+   "summary": "Nintendo's Latin America VP says the Zelda 40th Anniversary Switch 2 should return to US stock soon, Nintendo Life reports.",
+   "title": "Nintendo says the Zelda edition Switch 2 will be back in US stores soon",
+   "url": "https://www.nintendolife.com/news/2026/11/zelda-switch-2-console-is-back-in-stock-soon-if-you-missed-out-us",
+   "why": "Special edition consoles are in high demand before the holidays."
   }
  },
  "tech-agent-framework-pypi": {
@@ -26351,7 +27034,7 @@
   }
  },
  "tech-ai-agents-monai-zero-day": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "A zero-day is a flaw unknown to the software's makers. MONAI is an open-source toolkit for medical imaging AI.",
    "category": "tech",
@@ -26376,7 +27059,7 @@
     "Amazon"
    ],
    "happened": "The flaw affects MONAI Label 0.8.5 and earlier in the default setup and lets an attacker without an account write files outside the storage folder. BleepingComputer reports the open-source Cairn framework was used.",
-   "hype": 70,
+   "hype": 56,
    "id": "tech-ai-agents-monai-zero-day",
    "meme": {
     "bottom": "found some in a university server",
@@ -26385,7 +27068,7 @@
    },
    "motif": "shield",
    "next": "Watch for a patched MONAI Label release and further reports of AI-driven attacks.",
-   "prevHype": null,
+   "prevHype": 70,
    "published": "2026-11-21",
    "source": "The Hacker News",
    "stats": [
@@ -27240,6 +27923,58 @@
    "title": "Apple's Black Friday event offers gift cards up to $300 from November 27",
    "url": "https://www.macrumors.com/2026/11/19/apple-announces-2026-black-friday-event/",
    "why": "Apple rarely cuts prices directly, so its holiday gift card offer is the main deal many shoppers watch for."
+  }
+ },
+ "tech-apple-early-2027-lineup": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Mark Gurman is a Bloomberg reporter with a long record of accurate reports on Apple's plans.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Apple's iPhone is the world's best-known phone."
+    },
+    {
+     "label": "Timing",
+     "text": "It points to a split launch for the iPhone 18 range."
+    }
+   ],
+   "entities": [
+    "Apple",
+    "Smartphones"
+   ],
+   "happened": "MacRumors, citing Gurman, says the iPhone 18 models are expected to use an A20 chip with 9GB of RAM and the MacBook Air an M6. An iPhone Air 2, iPad Air and iPad Pro are said to follow later in the first half of 2027.",
+   "hype": 72,
+   "id": "tech-apple-early-2027-lineup",
+   "meme": {
+    "bottom": "its specs are already old news",
+    "take": "Apple's spring line-up is so well leaked it may arrive pre-reviewed.",
+    "top": "The iPhone 18 is months away"
+   },
+   "motif": "phone",
+   "next": "Watch for Apple's own announcements and more leaks of the devices.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "MacRumors",
+   "stats": [
+    {
+     "label": "iPhone 18 chip, reported",
+     "value": "A20"
+    },
+    {
+     "label": "iPhone 18 RAM, reported",
+     "value": "9GB"
+    },
+    {
+     "label": "MacBook Air chip, reported",
+     "value": "M6"
+    }
+   ],
+   "summary": "Bloomberg's Mark Gurman reports Apple plans an iPhone 18e, iPhone 18, entry iPad, MacBook Neo and MacBook Air for around February or March.",
+   "title": "Apple is said to plan an iPhone 18, iPhone 18e and new Macs for February or March",
+   "url": "https://www.macrumors.com/2026/11/22/new-apple-products-february-or-march/",
+   "why": "Apple usually launches its main iPhones in September, so a spring iPhone 18 would be a change."
   }
  },
  "tech-apple-health-ai-study": {
@@ -28170,7 +28905,7 @@
   }
  },
  "tech-badbox-botnet-returns": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "A botnet is a network of infected devices controlled remotely, often used for fraud or attacks.",
    "category": "tech",
@@ -28189,7 +28924,7 @@
     "Android"
    ],
    "happened": "The operation returned after disruptions last year. The malware comes on low-cost, unbranded Android TV devices and uses them to fake ad views.",
-   "hype": 60,
+   "hype": 48,
    "id": "tech-badbox-botnet-returns",
    "meme": {
     "bottom": "for the people running it",
@@ -28198,7 +28933,7 @@
    },
    "motif": "shield",
    "next": "Watch for new takedown efforts and retailer action on unbranded TV boxes.",
-   "prevHype": null,
+   "prevHype": 60,
    "published": "2026-11-21",
    "source": "BleepingComputer",
    "stats": [
@@ -29366,6 +30101,59 @@
    "why": "It shows criminals building AI into malware, not just using chatbots on the side."
   }
  },
+ "tech-cleverbridge-card-breach": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Cleverbridge handles online payments for software and subscription companies.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Its clients include Red Hat, Sony and Veeam."
+    },
+    {
+     "label": "Risk",
+     "text": "Full card details are enough for online fraud."
+    },
+    {
+     "label": "Timing",
+     "text": "It comes just before Black Friday shopping."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Privacy",
+    "Sony"
+   ],
+   "happened": "It detected the activity on November 4 and began notifying customers on November 20. A notice seen by BleepingComputer says card numbers, expiry dates and CVVs were copied, but not names or billing details.",
+   "hype": 66,
+   "id": "tech-cleverbridge-card-breach",
+   "meme": {
+    "bottom": "the one number meant to be forgotten",
+    "take": "Cleverbridge learned the three digits on the back are meant to be forgotten, not filed.",
+    "top": "Cleverbridge stored the CVV"
+   },
+   "motif": "shield",
+   "next": "Watch for the number of affected customers and which software brands' buyers were hit.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "BleepingComputer",
+   "stats": [
+    {
+     "label": "activity detected",
+     "value": "Nov 4"
+    },
+    {
+     "label": "notifications began",
+     "value": "Nov 20"
+    }
+   ],
+   "summary": "E-commerce platform Cleverbridge, whose clients include Red Hat and Sony, says a third party copied stored payment card data, including CVVs.",
+   "title": "Cleverbridge says hackers copied card numbers and CVVs from its platform",
+   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+   "why": "Card numbers with security codes can be used for fraud, so buyers may need new cards."
+  }
+ },
  "tech-cloudflare-kv-cache-leak": {
   "lastSeen": "2026-10-27",
   "story": {
@@ -29828,6 +30616,45 @@
    "why": "Certificate authorities underpin the padlock in your browser, so a weak one is a real risk."
   }
  },
+ "tech-entra-connect-health-flaw": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Microsoft Entra, formerly Azure Active Directory, manages sign-in and identity for businesses.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Microsoft's identity service is used by a huge number of businesses."
+    },
+    {
+     "label": "Risk",
+     "text": "Admin emails are valuable for targeted phishing."
+    }
+   ],
+   "entities": [
+    "Microsoft",
+    "Cybersecurity"
+   ],
+   "happened": "BleepingComputer reports the flaw was exploited to steal tenant data. Several outlets report the exposed data included tenant metadata and administrator email addresses.",
+   "hype": 58,
+   "id": "tech-entra-connect-health-flaw",
+   "meme": {
+    "bottom": "was the one that needed a check-up",
+    "take": "Microsoft's Connect Health tool turned out to be the patient.",
+    "top": "Microsoft's health-check service"
+   },
+   "motif": "shield",
+   "next": "Watch for Microsoft's guidance to admins and the number of tenants affected.",
+   "prevHype": null,
+   "published": "2026-11-21",
+   "source": "BleepingComputer",
+   "stats": [],
+   "summary": "Microsoft has disclosed that attackers exploited a flaw in its Entra Connect Health API to reach tenant metadata, including admin emails, reports say.",
+   "title": "Microsoft says an Entra Connect Health flaw was used to take tenant data",
+   "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+   "why": "Entra is how many companies sign staff into Microsoft 365, so flaws there draw close attention."
+  }
+ },
  "tech-florida-aid-breach": {
   "lastSeen": "2026-11-01",
   "story": {
@@ -30174,6 +31001,52 @@
    "title": "Google Cloud outage in London knocks out Revolut and other UK banks",
    "url": "https://www.bloomberg.com/news/articles/2026-10-20/google-cloud-outage-takes-down-revolut-and-other-banks-in-uk",
    "why": "When one cloud region fails, millions of people can lose access to their money at once."
+  }
+ },
+ "tech-google-search-ads-slowdown": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Google, owned by Alphabet, runs the world's most used search engine.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "Search ads are Google's biggest business."
+    },
+    {
+     "label": "Ripple effect",
+     "text": "Apple earns billions from Google's search deal."
+    }
+   ],
+   "entities": [
+    "Google",
+    "Apple",
+    "Stock market",
+    "AI search"
+   ],
+   "happened": "The Information links part of the slowdown to Google's own AI features in search. It also looks at the knock-on effect for Apple's services business, which earns money from Google's search deal.",
+   "hype": 70,
+   "id": "tech-google-search-ads-slowdown",
+   "meme": {
+    "bottom": "and the ad quietly loses its job",
+    "take": "Google built an AI so helpful that it is now competing with Google.",
+    "top": "Google's AI answers your question"
+   },
+   "motif": "money",
+   "next": "Watch for Google's next earnings and any changes to how ads appear in AI answers.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "The Information",
+   "stats": [
+    {
+     "label": "Google shares since the report",
+     "value": "-18%"
+    }
+   ],
+   "summary": "The Information reports Google shares have fallen 18% since the company disclosed a sharp slowdown in search-ad growth, partly linked to AI.",
+   "title": "Google shares are down 18% since it reported a sharp slowdown in search ads",
+   "url": "https://www.theinformation.com/articles/apple-got-caught-google-search-ads-slowdown",
+   "why": "Search ads are Google's main source of profit and help pay for its AI spending."
   }
  },
  "tech-google-search-homepage": {
@@ -32388,6 +33261,45 @@
    "why": "It shows how strongly demand for cloud and AI is flowing into Microsoft's results."
   }
  },
+ "tech-microsoft-to-do-retirement": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Microsoft To Do is a free list app that Microsoft built from Wunderlist.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Controversy",
+     "text": "Home users may need a work licence for the replacement."
+    },
+    {
+     "label": "Nostalgia",
+     "text": "To Do grew out of Wunderlist, which Microsoft bought in 2015."
+    }
+   ],
+   "entities": [
+    "Microsoft",
+    "Productivity apps"
+   ],
+   "happened": "Windows Central argues it shows Microsoft's shrinking consumer software line-up, after Wunderlist, Skype and Cortana were shut down. The column gives no exact retirement date.",
+   "hype": 60,
+   "id": "tech-microsoft-to-do-retirement",
+   "meme": {
+    "bottom": "it was the last item on the list",
+    "take": "Microsoft To Do has finally been crossed off, by Microsoft.",
+    "top": "Microsoft is retiring To Do"
+   },
+   "motif": "phone",
+   "next": "Watch for the retirement date and any free option for home users.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "Windows Central",
+   "stats": [],
+   "summary": "Microsoft plans to retire its To Do apps next year, with Planner as the replacement, which needs a Microsoft 365 business or education licence.",
+   "title": "Microsoft is retiring its To Do app and pointing users to Planner",
+   "url": "https://www.windowscentral.com/microsoft/windows-11/microsoft-to-dos-retirement-shows-how-far-microsofts-consumer-ecosystem-has-fallen",
+   "why": "Many people rely on To Do for everyday lists across their devices."
+  }
+ },
  "tech-microsoft-voluntary-buyouts": {
   "lastSeen": "2026-10-29",
   "story": {
@@ -33151,22 +34063,22 @@
   }
  },
  "tech-nvidia-sec-slide": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
-   "background": "Nvidia makes the GPUs that train and run most large AI models. Jensen Huang resigned as CEO on November 12.",
+   "background": "Nvidia makes the GPUs behind most AI models. Finance chief Colette Kress is interim CEO after Huang resigned in November.",
    "category": "tech",
    "drivers": [
     {
      "label": "Scale",
-     "text": "About $899 billion in value fell away in a week."
+     "text": "Shares sit about 48% below their October record."
+    },
+    {
+     "label": "Big name",
+     "text": "Huang co-founded Nvidia and led it for over 30 years."
     },
     {
      "label": "Risk",
-     "text": "Several regulators are now looking at the company."
-    },
-    {
-     "label": "Timing",
-     "text": "It came weeks after its long-time CEO resigned."
+     "text": "Several regulators are looking at the company."
     }
    ],
    "entities": [
@@ -33175,37 +34087,37 @@
     "AI chips",
     "US policy"
    ],
-   "happened": "FourWeekMBA calculates Nvidia lost about $899 billion in market value over the week, closing at $125.53. The SEC inquiry has not been confirmed by the agency, and the company has not been accused of wrongdoing.",
-   "hype": 93,
+   "happened": "Shares closed at $125.53 on November 20, about 48% below their October 6 record, 24/7 Wall St. reports. Reuters reported the SEC is examining possible accounting issues, which is unconfirmed.",
+   "hype": 90,
    "id": "tech-nvidia-sec-slide",
    "meme": {
-    "bottom": "in the time it takes to train a model",
-    "take": "Nvidia shed more value in a week than most countries produce in a year.",
-    "top": "Nvidia lost $899 billion"
+    "bottom": "the interview includes a stock chart",
+    "take": "Nvidia's board wants a CEO who can calm investors, which is a short list.",
+    "top": "Nvidia is hiring a CEO"
    },
    "motif": "chip",
-   "next": "Watch for Nvidia's response and the congressional interviews scheduled for December 1 and 2.",
-   "prevHype": null,
-   "published": "2026-11-20",
-   "source": "FourWeekMBA",
+   "next": "Watch for the CEO search, Nvidia's response on the SEC report and congressional interviews on December 1 and 2.",
+   "prevHype": 93,
+   "published": "2026-11-22",
+   "source": "24/7 Wall St.",
    "stats": [
     {
      "label": "share fall, November 20",
-     "value": "-13%"
-    },
-    {
-     "label": "value lost in a week, FourWeekMBA",
-     "value": "~$899B"
+     "value": "-14%"
     },
     {
      "label": "close, November 20",
      "value": "$125.53"
+    },
+    {
+     "label": "below October 6 record",
+     "value": "~48%"
     }
    ],
-   "summary": "Nvidia shares fell 13% on November 20 after Reuters reported SEC enforcement staff are examining possible accounting issues at the company.",
-   "title": "Nvidia falls 13% after a report of an SEC look at its accounting",
-   "url": "https://fourweekmba.com/ai-nvidia-lost-899b-in-a-week-9-6x-anthropic-s-93-5b-ipo/",
-   "why": "Nvidia is the most important chip supplier for AI, so trouble there shakes the whole tech market."
+   "summary": "Nvidia's board has hired Heidrick & Struggles to find a new CEO and says it does not plan to reinstate Huang, after shares fell 14% on Friday.",
+   "title": "Nvidia opens a CEO search as its board rules out Jensen Huang's return",
+   "url": "https://247wallst.com/investing/2026/11/22/jensen-huang-has-lost-92-billion-and-nvidias-board-does-not-intend-to-bring-him-back-heres-what-9-stocks-did-the-year-after-their-founder-handed-over/",
+   "why": "Nvidia's chips power most of the AI boom, so turmoil there affects the whole industry."
   }
  },
  "tech-openai-apple-device-files": {
@@ -34598,6 +35510,47 @@
    "why": "As AI assistants gain access to screens and notifications, private chats are at risk of being read."
   }
  },
+ "tech-signal-screenshot-block": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Signal is an encrypted messaging app run by a non-profit and known for its focus on privacy.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "Assistants that read screens could expose private chats."
+    },
+    {
+     "label": "Rivalry",
+     "text": "It puts Signal at odds with Apple's and Google's assistants."
+    }
+   ],
+   "entities": [
+    "Privacy",
+    "AI agents",
+    "Apple",
+    "Google"
+   ],
+   "happened": "TechCrunch reports Signal described AI agents as an existential threat to privacy. BleepingComputer reports the block will cover Siri and Gemini on iOS and Android.",
+   "hype": 62,
+   "id": "tech-signal-screenshot-block",
+   "meme": {
+    "bottom": "Signal said no on your behalf",
+    "take": "Signal now treats AI assistants the way it treats everyone else: as someone listening in.",
+    "top": "Your assistant wanted to read chats"
+   },
+   "motif": "phone",
+   "next": "Watch for how Apple and Google respond and whether other messaging apps follow.",
+   "prevHype": null,
+   "published": "2026-11-21",
+   "source": "TechCrunch",
+   "stats": [],
+   "summary": "Signal is restricting screenshots on mobile and blocking assistants such as Siri and Gemini from capturing chats, calling AI agents a threat to privacy.",
+   "title": "Signal blocks mobile screenshots of chats to keep out AI assistants",
+   "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+   "why": "AI assistants that read screens could see messages people expect to stay private."
+  }
+ },
  "tech-siri-ai-allowances": {
   "lastSeen": "2026-11-19",
   "story": {
@@ -35118,6 +36071,58 @@
    "why": "Investors are weighing Tesla's falling car profits against its bets on robots and robotaxis."
   }
  },
+ "tech-tfl-oyster-breach": {
+  "lastSeen": "2026-11-23",
+  "story": {
+   "background": "Transport for London runs the city's buses, Underground and other services. Oyster is its travel card.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "About 265,000 accounts are affected."
+    },
+    {
+     "label": "Risk",
+     "text": "Security questions are hard to change once leaked."
+    },
+    {
+     "label": "History",
+     "text": "TfL was also hit by a costly cyberattack in 2024."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Privacy"
+   ],
+   "happened": "Suspicious activity was found on November 16 and the photocard site was taken offline. TfL says emails, phone numbers, addresses, dates of birth and security answers were exposed, but not passwords or cards.",
+   "hype": 64,
+   "id": "tech-tfl-oyster-breach",
+   "meme": {
+    "bottom": "for unplanned engineering works",
+    "take": "TfL found its photocard site needed engineering works more urgently than the Tube.",
+    "top": "The photocard site is closed"
+   },
+   "motif": "shield",
+   "next": "Watch for the ICO's response and when TfL brings photocard accounts back online.",
+   "prevHype": null,
+   "published": "2026-11-20",
+   "source": "Help Net Security",
+   "stats": [
+    {
+     "label": "accounts affected",
+     "value": "265,000"
+    },
+    {
+     "label": "suspicious activity found",
+     "value": "Nov 16"
+    }
+   ],
+   "summary": "Transport for London says about 265,000 Oyster photocard accounts, including children's Zip cards and 60+ cards, had personal details exposed.",
+   "title": "TfL says attackers accessed data of 265,000 Oyster photocard holders",
+   "url": "https://www.helpnetsecurity.com/2026/11/20/transport-for-london-oyster-photocard-data-breach/",
+   "why": "Dates of birth and security answers can be used to break into other accounts."
+  }
+ },
  "tech-tiktok-child-safety-depositions": {
   "lastSeen": "2026-10-21",
   "story": {
@@ -35481,7 +36486,7 @@
   }
  },
  "tech-visa-mastercard-jpmorgan-leak": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-23",
   "story": {
    "background": "Supply-chain breaches happen when attackers reach a company's data through a supplier or contractor.",
    "category": "tech",
@@ -35505,7 +36510,7 @@
     "Privacy"
    ],
    "happened": "Reuters reported leaked JPMorgan records with over 16,000 customer emails, which it could not verify. JPMorgan says marketing data at vendors was accessed. Visa says its systems and card data were not affected.",
-   "hype": 76,
+   "hype": 58,
    "id": "tech-visa-mastercard-jpmorgan-leak",
    "meme": {
     "bottom": "and got the marketing list",
@@ -35514,7 +36519,7 @@
    },
    "motif": "shield",
    "next": "Watch for official customer notifications and any confirmed count of people affected.",
-   "prevHype": null,
+   "prevHype": 76,
    "published": "2026-11-21",
    "source": "Fox News",
    "stats": [
