@@ -160,7 +160,7 @@
   }
  },
  "ai-ai-stocks-correction": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "A correction means a fall of 10% or more from a recent high. The Nasdaq is heavy with tech companies.",
    "category": "ai",
@@ -185,16 +185,16 @@
     "Nvidia"
    ],
    "happened": "The Nasdaq, S&P 500 and Dow had their worst week since April 2025. TechJuice ties Bitcoin's slide to doubts about AI firms after Anthropic's share reversal. UBS still expects AI investment of $1.4 trillion in 2027.",
-   "hype": 80,
+   "hype": 62,
    "id": "ai-ai-stocks-correction",
    "meme": {
-    "bottom": "then Bitcoin asked to join in",
-    "take": "The AI trade is cooling so fast that even Bitcoin has decided to be cautious.",
-    "top": "First the AI stocks fell"
+    "bottom": "Bitcoin offered moral support",
+    "take": "The AI sell-off spread to crypto, proving diversification is mostly a state of mind.",
+    "top": "The AI trade had a bad week"
    },
    "motif": "money",
-   "next": "Watch for whether Monday's trading steadies or extends last week's losses.",
-   "prevHype": 94,
+   "next": "Watch for whether tech shares steady this week as investors debate if AI spending has peaked.",
+   "prevHype": 80,
    "published": "2026-11-22",
    "source": "TechJuice",
    "stats": [
@@ -977,7 +977,7 @@
   }
  },
  "ai-anthropic-ipo-pricing": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Anthropic is the San Francisco AI company behind the Claude models. It listed on Nasdaq under the ticker ANT.",
    "category": "ai",
@@ -1001,7 +1001,7 @@
     "Stock market"
    ],
    "happened": "Shares priced at $83 opened at $111.50 and fell about 9% on day two. Reuters reports Anthropic limited some of its 22 underwriters to four senior bankers and sought six-month limits on their work with AI rivals.",
-   "hype": 82,
+   "hype": 72,
    "id": "ai-anthropic-ipo-pricing",
    "meme": {
     "bottom": "and none for the share price",
@@ -1010,7 +1010,7 @@
    },
    "motif": "money",
    "next": "Watch for how the shares trade this week and the December 15 lock-up release.",
-   "prevHype": 86,
+   "prevHype": 82,
    "published": "2026-11-22",
    "source": "Financial Times",
    "stats": [
@@ -4556,6 +4556,45 @@
    "why": "Robots that can handle everyday objects reliably are one of AI's biggest unsolved problems."
   }
  },
+ "ai-elastic-honeyhive": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Elastic makes Elasticsearch, widely used for search, logging and monitoring software systems.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Trend",
+     "text": "Monitoring AI agents is becoming its own market."
+    },
+    {
+     "label": "Money",
+     "text": "Security and data firms are buying AI tooling startups."
+    }
+   ],
+   "entities": [
+    "AI agents",
+    "Acquisitions"
+   ],
+   "happened": "Dealroom reports the deal alongside other AI control and monitoring investments. HoneyHive's tools record and score how AI agents behave in production.",
+   "hype": 48,
+   "id": "ai-elastic-honeyhive",
+   "meme": {
+    "bottom": "now they are buying the cameras",
+    "take": "Elastic bought a startup that watches AI agents, because trust is easier with logs.",
+    "top": "Companies hired AI agents"
+   },
+   "motif": "bag",
+   "next": "Watch for how Elastic builds HoneyHive into its observability products.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "Dealroom",
+   "stats": [],
+   "summary": "Elastic has agreed to acquire HoneyHive, which makes tools for tracing and evaluating AI agents. Terms were not disclosed.",
+   "title": "Elastic agrees to buy AI agent tracing startup HoneyHive",
+   "url": "https://dealroom.co/news/175065-elastic-buys-honeyhive-as-palo-alto-bets-4-5b-on-ai-control",
+   "why": "As firms deploy AI agents, they need ways to see what those agents are actually doing."
+  }
+ },
  "ai-eu-ai-act-first-probes": {
   "lastSeen": "2026-10-15",
   "story": {
@@ -4745,6 +4784,63 @@
    "title": "AI lab Flapping Airplanes raises $1 billion at a $6 billion value",
    "url": "https://techstartups.com/2026/10/22/startup-funding-news-today-october-22-2026-flapping-airplanes-legora-mach9-peak-energy-whop-more/",
    "why": "Investors are still writing very large cheques for young AI labs with no product yet."
+  }
+ },
+ "ai-frostbite-ai-designed-cpu": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "A CPU's instruction set is the basic language of commands it understands. New ones are rare because software must be rebuilt for them.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "First of its kind",
+     "text": "A full CPU architecture designed by AI agents would be new."
+    },
+    {
+     "label": "Scale",
+     "text": "The claimed efficiency gain is over four times."
+    },
+    {
+     "label": "Risk",
+     "text": "Results come from simulation, not real silicon."
+    }
+   ],
+   "entities": [
+    "AI agents",
+    "AI chips",
+    "AI research"
+   ],
+   "happened": "The company reports 4.59 times the performance per watt of a similar in-order CPU across 25 simulated workloads, and 3.83 times without AI-specific tuning. The 7 nm design has not been built as a chip.",
+   "hype": 70,
+   "id": "ai-frostbite-ai-designed-cpu",
+   "meme": {
+    "bottom": "for future AI agents to run on",
+    "take": "AI has started designing its own hardware, which is one way to skip the job interview.",
+    "top": "AI agents designed a new processor"
+   },
+   "motif": "chip",
+   "next": "Watch for a physical test chip and independent benchmarks.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "Tom's Hardware",
+   "stats": [
+    {
+     "label": "perf per watt, simulated",
+     "value": "4.59x"
+    },
+    {
+     "label": "without AI-specific tuning",
+     "value": "3.83x"
+    },
+    {
+     "label": "pre-silicon design",
+     "value": "7 nm"
+    }
+   ],
+   "summary": "Architect Labs says AI agents designed Frostbite, a processor with a new instruction set, which it says beat a conventional core on efficiency in simulation.",
+   "title": "Startup says AI agents designed a whole new CPU architecture",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests",
+   "why": "Chip design takes large teams years, so AI doing much of it would change how processors are made."
   }
  },
  "ai-ftc-openai-anthropic-demands": {
@@ -6604,6 +6700,63 @@
    "title": "Meta releases Muse Wonder, pitching it as a rival to ChatGPT and Claude",
    "url": "https://qz.com/meta-muse-wonder-ai-model-launch-101226",
    "why": "It is Meta's clearest attempt yet to rejoin the race for the most capable AI models."
+  }
+ },
+ "ai-meta-net-zero-rethink": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Meta owns Facebook, Instagram and WhatsApp and is building large data centres for its AI models.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "Emissions rose about 40% in one year."
+    },
+    {
+     "label": "Trend",
+     "text": "AI data centres are driving up energy use across big tech."
+    },
+    {
+     "label": "Big name",
+     "text": "Meta is one of the largest AI spenders."
+    }
+   ],
+   "entities": [
+    "Meta",
+    "AI infrastructure",
+    "Energy"
+   ],
+   "happened": "Meta's reported total emissions rose from 15.6 million metric tons of CO2 equivalent in 2024 to more than 21.7 million in 2025, roughly 40% higher. It had aimed for net zero across its value chain by 2030.",
+   "hype": 62,
+   "id": "ai-meta-net-zero-rethink",
+   "meme": {
+    "bottom": "AI had other plans",
+    "take": "Meta is rethinking net zero, having found a technology that is very good at the opposite.",
+    "top": "Meta planned net zero by 2030"
+   },
+   "motif": "power",
+   "next": "Watch for whether Meta sets a new target date or changes how it counts emissions.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "Ars Technica",
+   "stats": [
+    {
+     "label": "tons CO2e in 2025",
+     "value": "21.7M+"
+    },
+    {
+     "label": "tons CO2e in 2024",
+     "value": "15.6M"
+    },
+    {
+     "label": "rise in one year",
+     "value": "~40%"
+    }
+   ],
+   "summary": "Meta says it is re-evaluating its net-zero milestones as its AI infrastructure grows, Ars Technica reports.",
+   "title": "Meta reconsiders its 2030 net-zero goal as AI pushes emissions up",
+   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+   "why": "Big tech firms promised to cut emissions, and AI is testing whether those promises hold."
   }
  },
  "ai-meta-prometheus-supercluster": {
@@ -9048,6 +9201,46 @@
    "why": "AI labs see drug discovery as one of the biggest prizes for their models."
   }
  },
+ "ai-openai-perplexity-metric": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Perplexity measures how surprised a language model is by real text; lower is better.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "The proposal comes from OpenAI's chief scientist."
+    },
+    {
+     "label": "Rivalry",
+     "text": "A shared metric would make labs easier to compare."
+    }
+   ],
+   "entities": [
+    "OpenAI",
+    "Frontier models",
+    "AI research"
+   ],
+   "happened": "OpenAI argued that how well a model predicts the next token can track progress across labs. The Neuron notes that this alone cannot show how a model behaves on every real task.",
+   "hype": 56,
+   "id": "ai-openai-perplexity-metric",
+   "meme": {
+    "bottom": "the measure is guessing the next word",
+    "take": "OpenAI wants to grade AI on predicting the next word, which explains a lot of meetings.",
+    "top": "OpenAI proposed a way to measure AI"
+   },
+   "motif": "network",
+   "next": "Watch for whether other labs publish comparable numbers.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "OpenAI",
+   "stats": [],
+   "summary": "OpenAI chief scientist Jakub Pachocki published internal perplexity results and proposed it as a common yardstick across AI labs.",
+   "title": "OpenAI suggests next-word prediction as a shared measure of AI progress",
+   "url": "https://openai.com/index/perplexity-and-intelligence/",
+   "why": "Labs disagree on how to measure progress, and benchmarks are often gamed or quickly outdated."
+  }
+ },
  "ai-openai-rogue-incidents": {
   "lastSeen": "2026-10-18",
   "story": {
@@ -9102,7 +9295,7 @@
   }
  },
  "ai-openrouter-providers": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "OpenRouter lets developers reach many AI models from different providers through a single API.",
    "category": "ai",
@@ -9123,10 +9316,11 @@
    "entities": [
     "AI security",
     "Cybersecurity",
-    "Privacy"
+    "Privacy",
+    "Supply chain attacks"
    ],
    "happened": "Dragos sent about two million fake AI requests and found at least three compromised providers and hundreds of stolen AWS keys, The Decoder reports. It says some cheap hosts could snoop on users.",
-   "hype": 60,
+   "hype": 56,
    "id": "ai-openrouter-providers",
    "meme": {
     "bottom": "it simply shared it",
@@ -9135,7 +9329,7 @@
    },
    "motif": "shield",
    "next": "Watch for which providers are named and whether other AI routers tighten their checks.",
-   "prevHype": null,
+   "prevHype": 60,
    "published": "2026-11-22",
    "source": "The Decoder",
    "stats": [
@@ -9575,7 +9769,7 @@
   }
  },
  "ai-riemann-claude-claim": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Posed by Bernhard Riemann in 1859, the hypothesis concerns the zeros of the zeta function, which are tied to how primes are spread.",
    "category": "ai",
@@ -9598,17 +9792,17 @@
     "Frontier models",
     "AI research"
    ],
-   "happened": "TNW, citing Bloomberg, presents it as the researcher's own claim. The Guardian says the work took six weeks, and an AI digest reports a Lean formal proof of about 17 million lines was checked on November 21.",
-   "hype": 90,
+   "happened": "Levent Alpöge published a computer-checkable proof claim. Independent mathematicians have compiled the Lean code but are still checking whether its formal statement matches the real hypothesis, The Neuron reports.",
+   "hype": 82,
    "id": "ai-riemann-claude-claim",
    "meme": {
-    "bottom": "met a chatbot with six weeks free",
-    "take": "Riemann waited 167 years for a proof and is now waiting for peer review like everyone else.",
-    "top": "A maths problem from 1859"
+    "bottom": "the mathematicians do not, yet",
+    "take": "The code checks out. Now the humans have to check what the code was actually about.",
+    "top": "The proof compiles"
    },
    "motif": "network",
-   "next": "Watch for reviews by independent mathematicians and whether a paper goes to peer review.",
-   "prevHype": null,
+   "next": "Watch for whether reviewers agree the formal statement captures the actual Riemann Hypothesis.",
+   "prevHype": 90,
    "published": "2026-11-21",
    "source": "The Guardian",
    "stats": [
@@ -9727,6 +9921,62 @@
    "why": "It comes after several lab incidents where AI models reached systems they were not meant to touch."
   }
  },
+ "ai-sierra-30b-valuation": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Sierra builds AI agents that answer customer questions for businesses.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "A $30 billion valuation puts it among the largest private AI firms."
+    },
+    {
+     "label": "Trend",
+     "text": "Companies are moving support work to AI agents."
+    },
+    {
+     "label": "Timing",
+     "text": "The raise comes during an AI stock sell-off."
+    }
+   ],
+   "entities": [
+    "AI agents",
+    "AI funding"
+   ],
+   "happened": "Wowtale reports the round values Sierra at $30 billion. The company says its annual recurring revenue has passed $400 million.",
+   "hype": 60,
+   "id": "ai-sierra-30b-valuation",
+   "meme": {
+    "bottom": "private investors did not get the memo",
+    "take": "Public markets are selling AI while private ones keep buying it at full price.",
+    "top": "The stock market is nervous about AI"
+   },
+   "motif": "money",
+   "next": "Watch for confirmation of the investors and how Sierra plans to spend the money.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "Wowtale",
+   "stats": [
+    {
+     "label": "round size, reported",
+     "value": "$1.75B"
+    },
+    {
+     "label": "valuation, reported",
+     "value": "$30B"
+    },
+    {
+     "label": "annual recurring revenue",
+     "value": "$400M+"
+    }
+   ],
+   "summary": "Sierra, which makes AI agents for customer service, has reportedly raised $1.75 billion at a $30 billion valuation.",
+   "title": "Customer-service AI startup Sierra is reported to raise $1.75 billion",
+   "url": "https://en.wowtale.net/2026/11/24/236131",
+   "why": "It shows investors still pay big prices for AI agents even as AI stocks wobble."
+  }
+ },
  "ai-south-korea-exam-cheating": {
   "lastSeen": "2026-11-23",
   "story": {
@@ -9814,6 +10064,59 @@
    "title": "SpaceX's $40 billion GPU debt hits neocloud stocks",
    "url": "https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever",
    "why": "It shows how much borrowed money is now flowing into AI computing."
+  }
+ },
+ "ai-spacex-data-centers-power": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "SpaceX is Elon Musk's rocket and satellite company. Data centres for AI run thousands of power-hungry chips at once.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "About 6 gigawatts is a city-sized amount of power."
+    },
+    {
+     "label": "Money",
+     "text": "The planned spending is about $74 billion."
+    },
+    {
+     "label": "Risk",
+     "text": "Grid upgrades can end up on household bills."
+    }
+   ],
+   "entities": [
+    "SpaceX",
+    "AI infrastructure",
+    "Energy"
+   ],
+   "happened": "Fortune says the Arizona campus alone implies about 6 gigawatts of demand when fully built. Residents and officials want proof the developer, not local ratepayers, will cover grid costs.",
+   "hype": 64,
+   "id": "ai-spacex-data-centers-power",
+   "meme": {
+    "bottom": "residents want to see the bill first",
+    "take": "SpaceX can land rockets on a barge, but the hard part is a town hall about electricity rates.",
+    "top": "SpaceX wants 6 gigawatts"
+   },
+   "motif": "power",
+   "next": "Watch for utility agreements or rulings on who pays for new power lines.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "Fortune",
+   "stats": [
+    {
+     "label": "planned AI facilities",
+     "value": "$74B"
+    },
+    {
+     "label": "Arizona demand at full build",
+     "value": "~6 GW"
+    }
+   ],
+   "summary": "Fortune reports SpaceX has about $74 billion of AI facilities planned in Texas and Arizona, and locals want to know who pays for the grid.",
+   "title": "SpaceX's $74 billion AI data-centre plans raise questions over power bills",
+   "url": "https://fortune.com/2026/11/22/spacex-74-billion-ai-data-centers-texas-arizona-who-pays/",
+   "why": "Big AI data centres need huge amounts of electricity, and households worry about higher bills."
   }
  },
  "ai-spacex-gpu-financing": {
@@ -10432,47 +10735,47 @@
   }
  },
  "ai-trump-xi-military-ai": {
-  "lastSeen": "2026-11-22",
+  "lastSeen": "2026-11-24",
   "story": {
-   "background": "The meeting took place alongside the APEC summit, a yearly gathering of Pacific Rim economies.",
+   "background": "The US has limited exports of advanced AI chips to China for several years, citing national security.",
    "category": "ai",
    "drivers": [
     {
-     "label": "Rivalry",
-     "text": "The US and China are the two leading AI powers."
-    },
-    {
-     "label": "First of its kind",
-     "text": "It is described as a leader-level agreement on military AI."
+     "label": "Big name",
+     "text": "It involves the leaders of the world's two largest economies."
     },
     {
      "label": "Risk",
      "text": "Autonomous weapons are one of the most debated uses of AI."
+    },
+    {
+     "label": "First of its kind",
+     "text": "Shared US-China AI guardrails have been rare."
     }
    ],
    "entities": [
     "China",
     "US policy",
-    "AI safety"
+    "AI policy"
    ],
-   "happened": "Neither side published any text, so the understanding appears to be verbal. At the same meeting in Shenzhen, Trump rejected global AI regulation while Xi called for an international AI body, Euronews reports.",
-   "hype": 74,
+   "happened": "Reuters reported Bessent's comments on November 20. Semafor reports interest in joint US-China AI guardrails even as Washington restricts chip exports. No implementation details have been set.",
+   "hype": 68,
    "id": "ai-trump-xi-military-ai",
    "meme": {
-    "bottom": "nobody wrote it down",
-    "take": "Two AI superpowers agree humans should stay in the loop, just not the note-taking loop.",
+    "bottom": "that someone should be in charge of it",
+    "take": "The US and China found common ground on AI, which is that a person should press the button.",
     "top": "Two superpowers agreed on AI"
    },
    "motif": "globe",
-   "next": "Watch for whether either government puts the understanding in writing.",
+   "next": "Watch for any written agreement or follow-up talks on how the principle would be applied.",
    "prevHype": null,
    "published": "2026-11-20",
-   "source": "CNBC",
+   "source": "Reuters",
    "stats": [],
-   "summary": "Treasury Secretary Scott Bessent said Trump and Xi agreed that no major military operation should be launched by AI without a human involved.",
-   "title": "US and China agree humans must stay in charge of military AI, Bessent says",
-   "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
-   "why": "It is a rare point of agreement between the two AI superpowers on how the technology is used in war."
+   "summary": "US Treasury Secretary Scott Bessent says the two leaders agreed that humans should stay involved in major military decisions that use AI.",
+   "title": "Trump and Xi agreed humans should stay in military AI decisions, Bessent says",
+   "url": "https://www.reuters.com/world/china/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says-2026-11-20/",
+   "why": "The US and China are the two biggest AI powers, so any shared limit on military AI is significant."
   }
  },
  "ai-us-china-ai-blocs": {
@@ -11140,7 +11443,7 @@
   }
  },
  "ent-blade-runner-2099": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Blade Runner is Ridley Scott's 1982 film based on a Philip K. Dick novel. A sequel, Blade Runner 2049, followed in 2017.",
    "category": "entertainment",
@@ -11150,6 +11453,10 @@
      "text": "Blade Runner (1982) is a cult science fiction classic."
     },
     {
+     "label": "Big name",
+     "text": "Michelle Yeoh leads the cast."
+    },
+    {
      "label": "Timing",
      "text": "All episodes drop just before the holiday weekend."
     }
@@ -11157,21 +11464,22 @@
    "entities": [
     "Amazon",
     "Streaming",
-    "Revived franchises"
+    "Revived franchises",
+    "Thanksgiving releases"
    ],
-   "happened": "It is one of the biggest streaming arrivals of Thanksgiving week. The Rings of Power season 3 finale lands on the same service a day earlier, and Netflix has The Hunting Wives season 2 on Thanksgiving.",
-   "hype": 60,
+   "happened": "BillFrost.tv says the series, created by Silka Luisa, had been stuck in development since 2024. TVLine also lists all episodes for November 25.",
+   "hype": 66,
    "id": "ent-blade-runner-2099",
    "meme": {
-    "bottom": "so 2099 feels about right",
-    "take": "Blade Runner reaches 2099, still asking about androids, now in eight episodes.",
-    "top": "The first film was set in 2019"
+    "bottom": "arrives in the year of AI",
+    "take": "Blade Runner 2099 lands just as the question it asks has become an everyday chore.",
+    "top": "A show about spotting the machines"
    },
    "motif": "screen",
    "next": "Watch for reviews once all the episodes are out.",
-   "prevHype": null,
-   "published": "2026-11-22",
-   "source": "NewsBeep",
+   "prevHype": 60,
+   "published": "2026-11-23",
+   "source": "BillFrost.tv",
    "stats": [
     {
      "label": "episodes, released at once",
@@ -11182,9 +11490,9 @@
      "value": "Nov 25"
     }
    ],
-   "summary": "The Blade Runner series lands on Prime Video on November 25 as an eight-episode binge release, NewsBeep's weekly TV schedule lists.",
+   "summary": "The eight-episode Blade Runner series, starring Michelle Yeoh and Hunter Schafer, streams on Prime Video from November 25.",
    "title": "Blade Runner 2099 arrives on Prime Video with all eight episodes on November 25",
-   "url": "https://www.newsbeep.com/us/925271/",
+   "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
    "why": "It continues one of science fiction's most influential film series on television."
   }
  },
@@ -11805,6 +12113,59 @@
    "why": "It brings Tarantino's writing together with Fincher's directing and one of Brad Pitt's best-known roles."
   }
  },
+ "ent-cliff-booth-imax": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Cliff Booth was Brad Pitt's stuntman character in the 2019 film Once Upon a Time in Hollywood.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Timing",
+     "text": "It opens on the busiest moviegoing week of autumn."
+    },
+    {
+     "label": "First of its kind",
+     "text": "Netflix theatrical runs in IMAX are unusual."
+    }
+   ],
+   "entities": [
+    "Netflix",
+    "Theatrical releases",
+    "Thanksgiving releases"
+   ],
+   "happened": "Occupy Cinema lists the IMAX run starting on the Wednesday before Thanksgiving. AP also describes it as a Netflix IMAX release over the holiday corridor.",
+   "hype": 70,
+   "id": "ent-cliff-booth-imax",
+   "meme": {
+    "bottom": "for exactly as long as it takes",
+    "take": "Netflix gives Cliff Booth two weeks on the big screen, then the usual couch residency.",
+    "top": "A Netflix film is in cinemas"
+   },
+   "motif": "film",
+   "next": "Watch for its IMAX box office over the holiday weekend.",
+   "prevHype": null,
+   "published": "2026-11-24",
+   "source": "Occupy Cinema",
+   "stats": [
+    {
+     "label": "IMAX run begins",
+     "value": "Nov 25"
+    },
+    {
+     "label": "IMAX run length",
+     "value": "2 weeks"
+    },
+    {
+     "label": "Netflix premiere",
+     "value": "Dec 23"
+    }
+   ],
+   "summary": "The Netflix film plays in IMAX cinemas from November 25 for two weeks before it premieres on the service on December 23.",
+   "title": "Netflix's The Further Mis-Adventures of Cliff Booth starts a two-week IMAX run",
+   "url": "https://cinemaoccupy.substack.com/p/sunrise-on-the-reaping-opens-to-120",
+   "why": "Netflix rarely puts its films in big-screen cinemas, so a run like this draws attention."
+  }
+ },
  "ent-crystal-lake-peacock": {
   "lastSeen": "2026-10-18",
   "story": {
@@ -12049,14 +12410,14 @@
   }
  },
  "ent-dig-peacock": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Amy Poehler starred in Parks and Recreation and was a Saturday Night Live cast member.",
    "category": "entertainment",
    "drivers": [
     {
      "label": "Big name",
-     "text": "Amy Poehler leads the series."
+     "text": "Amy Poehler and Michael Schur made Parks and Recreation together."
     },
     {
      "label": "Timing",
@@ -12067,28 +12428,28 @@
     "Streaming",
     "NBCUniversal"
    ],
-   "happened": "It opens a busy week that also includes Netflix's docuseries The Trials of Karen Read and MGM+'s New Wave. Peacock is releasing the whole season at once.",
-   "hype": 50,
+   "happened": "Poehler plays an archaeologist on a dig site in Greece, with Hugh Laurie and Geraldine Viswanathan co-starring, BillFrost.tv reports. Jason Mantzoukas and Max Greenfield guest star.",
+   "hype": 54,
    "id": "ent-dig-peacock",
    "meme": {
-    "bottom": "and you have a four-day weekend",
+    "bottom": "from the people who made Parks and Rec",
     "take": "Peacock drops all of DIG at once, trusting you to have no plans for Thanksgiving.",
-    "top": "Amy Poehler has a new show"
+    "top": "A comedy about digging up the past"
    },
    "motif": "screen",
    "next": "Watch for reviews and Peacock's viewing figures.",
-   "prevHype": null,
-   "published": "2026-11-22",
-   "source": "NewsBeep",
+   "prevHype": 50,
+   "published": "2026-11-23",
+   "source": "BillFrost.tv",
    "stats": [
     {
      "label": "episodes, released at once",
      "value": "10"
     }
    ],
-   "summary": "All ten episodes of DIG, led by Amy Poehler, arrive on Peacock on November 23, NewsBeep's weekly schedule lists.",
-   "title": "Peacock releases DIG, a 10-episode series led by Amy Poehler",
-   "url": "https://www.newsbeep.com/us/925271/",
+   "summary": "All ten episodes of DIG, from Amy Poehler and Michael Schur, arrived on Peacock on November 23.",
+   "title": "Peacock's DIG, with Amy Poehler as an archaeologist, is out in full",
+   "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
    "why": "A new Amy Poehler series is a draw for fans of her comedy work."
   }
  },
@@ -12261,7 +12622,7 @@
   }
  },
  "ent-ebenezer-box-office": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Ebenezer is a new take on Charles Dickens' A Christmas Carol.",
    "category": "entertainment",
@@ -12285,19 +12646,19 @@
     "Theatrical releases",
     "Book adaptations"
    ],
-   "happened": "The Ti West film opened at No. 1 with $19 million in the US a week earlier. It fell to third behind the Hunger Games prequel and I Play Rocky, Flickering Myth reports.",
-   "hype": 52,
+   "happened": "It was last week's No. 1 film and fell to third behind the Hunger Games prequel and I Play Rocky. AP puts its international total at $45.9 million.",
+   "hype": 46,
    "id": "ent-ebenezer-box-office",
    "meme": {
-    "bottom": "and one Hunger Games prequel",
-    "take": "Scrooge has faced ghosts before, but never a franchise opening weekend.",
-    "top": "Ebenezer met three spirits"
+    "bottom": "then the Hunger Games",
+    "take": "Ebenezer survived the spirits of Christmas but not the spirit of franchise season.",
+    "top": "Scrooge faced three ghosts"
    },
    "motif": "film",
    "next": "Watch for its hold over Thanksgiving week.",
-   "prevHype": 48,
+   "prevHype": 52,
    "published": "2026-11-23",
-   "source": "Flickering Myth",
+   "source": "ABC News (AP)",
    "stats": [
     {
      "label": "second weekend gross",
@@ -12308,13 +12669,13 @@
      "value": "-60%"
     },
     {
-     "label": "worldwide total",
-     "value": "$78M"
+     "label": "US total",
+     "value": "$32.5M"
     }
    ],
-   "summary": "Johnny Depp's Christmas film made $7.7 million, down 60% from its opening, and has earned $78 million worldwide on a $38 million budget.",
+   "summary": "Johnny Depp's Christmas film made $7.7 million in its second weekend, down about 60%, and has $32.5 million in the US, AP reports.",
    "title": "Ebenezer drops 60% in its second weekend but passes $78 million worldwide",
-   "url": "https://www.flickeringmyth.com/the-hunger-games-sunrise-on-the-reaping-grosses-225-million-at-the-worldwide-box-office/",
+   "url": "https://abcnews.com/amp/Entertainment/wireStory/resurgent-hunger-games-big-box-office-despite-competition-138361740",
    "why": "Holiday films often make most of their money in December, so an early drop matters."
   }
  },
@@ -13258,6 +13619,56 @@
    "why": "It pairs one of pop's biggest stars with one of TV's most distinctive documentary voices."
   }
  },
+ "ent-hexed-thanksgiving-openers": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Disney animation has often released films over Thanksgiving, including Frozen in 2013.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Timing",
+     "text": "Thanksgiving week is a traditional window for family films."
+    },
+    {
+     "label": "Rivalry",
+     "text": "New openers face the Hunger Games prequel in its second week."
+    }
+   ],
+   "entities": [
+    "Disney",
+    "Box office",
+    "Theatrical releases",
+    "Thanksgiving releases"
+   ],
+   "happened": "Occupy Cinema, citing Box Office Mojo's calendar, lists Hexed from Disney, Hershey from Angel Studios and Bitter Christmas from Sony Pictures Classics for Wednesday. AP lists Universal's Focker In-Law for Friday.",
+   "hype": 64,
+   "id": "ent-hexed-thanksgiving-openers",
+   "meme": {
+    "bottom": "on a week of family gatherings",
+    "take": "Hexed arrives on Thanksgiving, a holiday with plenty of family curses already.",
+    "top": "Disney opens a film called Hexed"
+   },
+   "motif": "film",
+   "next": "Watch for the five-day holiday totals and how Hexed fares against the Hunger Games prequel.",
+   "prevHype": null,
+   "published": "2026-11-24",
+   "source": "Occupy Cinema",
+   "stats": [
+    {
+     "label": "Hexed opens wide",
+     "value": "Nov 25"
+    },
+    {
+     "label": "Focker In-Law opens",
+     "value": "Nov 27"
+    }
+   ],
+   "summary": "Disney's Hexed opens wide on November 25, alongside Hershey, Bitter Christmas and A24's Club Kid, with Focker In-Law following on November 27.",
+   "title": "Disney's animated Hexed leads the Thanksgiving week cinema openings",
+   "url": "https://cinemaoccupy.substack.com/p/sunrise-on-the-reaping-opens-to-120",
+   "why": "Thanksgiving is one of the biggest moviegoing weeks of the year, and family films usually lead it."
+  }
+ },
  "ent-how-to-rob-a-bank-flop": {
   "lastSeen": "2026-11-18",
   "story": {
@@ -13361,7 +13772,7 @@
   }
  },
  "ent-hunger-games-sunrise": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "The Hunger Games films are based on Suzanne Collins' novels. This is the second prequel, following a young Haymitch Abernathy.",
    "category": "entertainment",
@@ -13371,8 +13782,8 @@
      "text": "It beat Lionsgate's own $85 million weekend forecast."
     },
     {
-     "label": "Big name",
-     "text": "Jennifer Lawrence and Josh Hutcherson are said to have cameos."
+     "label": "Scale",
+     "text": "It was about 2.7 times the opening of The Ballad of Songbirds and Snakes."
     },
     {
      "label": "Timing",
@@ -13385,8 +13796,8 @@
     "Book adaptations",
     "Theatrical releases"
    ],
-   "happened": "It is the franchise's fourth-biggest global debut and the second-biggest North American prequel opening after Rogue One. It also beat The Ballad of Songbirds and Snakes' $100.8 million debut.",
-   "hype": 96,
+   "happened": "It took $56 million on Friday, including $21 million in previews, and made up about 72% of all weekend ticket sales. Audiences gave it an A- CinemaScore, up from B+ for the last prequel.",
+   "hype": 94,
    "id": "ent-hunger-games-sunrise",
    "meme": {
     "bottom": "is winning its own contest",
@@ -13395,55 +13806,106 @@
    },
    "motif": "film",
    "next": "Watch for how well it holds over the Thanksgiving holiday week.",
-   "prevHype": 97,
+   "prevHype": 96,
    "published": "2026-11-23",
-   "source": "Flickering Myth",
+   "source": "ABC News (AP)",
    "stats": [
     {
-     "label": "North American opening",
+     "label": "North American opening, est.",
      "value": "$120M"
     },
     {
-     "label": "worldwide opening",
+     "label": "worldwide opening, est.",
      "value": "$225M"
     },
     {
-     "label": "international opening",
-     "value": "$105M"
+     "label": "share of weekend ticket sales",
+     "value": "72%"
     }
    ],
-   "summary": "The Hunger Games prequel topped the weekend with a $120 million North American opening and $105 million overseas, Flickering Myth reports.",
+   "summary": "The Hunger Games prequel opened to an estimated $120 million in North America and $225 million worldwide, AP reports.",
    "title": "Sunrise on the Reaping opens to $120 million in the US and $225 million worldwide",
-   "url": "https://www.flickeringmyth.com/the-hunger-games-sunrise-on-the-reaping-grosses-225-million-at-the-worldwide-box-office/",
+   "url": "https://abcnews.com/amp/Entertainment/wireStory/resurgent-hunger-games-big-box-office-despite-competition-138361740",
    "why": "A strong debut would show book-based franchises can still fill cinemas in a crowded holiday season."
   }
  },
+ "ent-hunting-wives-s2": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "The Hunting Wives is a drama thriller based on a novel by May Cobb.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Timing",
+     "text": "Holiday binge releases tend to draw big audiences."
+    },
+    {
+     "label": "Fan demand",
+     "text": "The first season built a loyal following."
+    }
+   ],
+   "entities": [
+    "Netflix",
+    "Streaming",
+    "Book adaptations",
+    "Thanksgiving releases"
+   ],
+   "happened": "BillFrost.tv and TVLine both list all eight episodes for Thanksgiving. BillFrost.tv notes the first season was originally made for Starz.",
+   "hype": 52,
+   "id": "ent-hunting-wives-s2",
+   "meme": {
+    "bottom": "released on Thanksgiving",
+    "take": "Netflix scheduled a show about tense social gatherings for the year's tensest dinner.",
+    "top": "A drama about secrets and family"
+   },
+   "motif": "screen",
+   "next": "Watch for whether it tops Netflix's TV chart over the weekend.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "BillFrost.tv",
+   "stats": [
+    {
+     "label": "episodes, released at once",
+     "value": "8"
+    },
+    {
+     "label": "release date",
+     "value": "Nov 26"
+    }
+   ],
+   "summary": "All eight episodes of The Hunting Wives season 2, with Brittany Snow and Malin Akerman, stream on Netflix on November 26.",
+   "title": "The Hunting Wives season 2 arrives on Netflix on Thanksgiving Day",
+   "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
+   "why": "Its first season became a streaming talking point, so a holiday binge release is a big draw."
+  }
+ },
  "ent-i-play-rocky-expands": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Rocky (1976) was written by and starred Sylvester Stallone and won the Oscar for best picture.",
    "category": "entertainment",
    "drivers": [
     {
+     "label": "Word of mouth",
+     "text": "An A+ CinemaScore is rare."
+    },
+    {
      "label": "Nostalgia",
      "text": "Rocky is one of cinema's best-known underdog stories."
     },
     {
-     "label": "Word of mouth",
-     "text": "Its audience score is 98%."
-    },
-    {
      "label": "Rivalry",
-     "text": "It opens wide against the Hunger Games prequel."
+     "text": "It expanded against the Hunger Games prequel."
     }
    ],
    "entities": [
     "Amazon",
     "Box office",
-    "Theatrical releases"
+    "Theatrical releases",
+    "Sports stories"
    ],
-   "happened": "That fell short of BoxOfficePro's $15 million to $20 million forecast for the weekend. The film went in with a 98% audience score and an 87% critic score.",
-   "hype": 58,
+   "happened": "Audiences gave it a rare A+ CinemaScore, the same grade as Farrelly's Green Book. AP calls it a potential Oscar contender. Anthony Ippolito plays a young Sylvester Stallone.",
+   "hype": 60,
    "id": "ent-i-play-rocky-expands",
    "meme": {
     "bottom": "finished second, as underdogs do",
@@ -13452,26 +13914,26 @@
    },
    "motif": "film",
    "next": "Watch for whether word of mouth carries it through Thanksgiving.",
-   "prevHype": 60,
+   "prevHype": 58,
    "published": "2026-11-23",
-   "source": "Flickering Myth",
+   "source": "ABC News (AP)",
    "stats": [
     {
      "label": "weekend gross",
      "value": "$9.3M"
     },
     {
-     "label": "pre-weekend forecast",
-     "value": "$15-20M"
+     "label": "cinemas",
+     "value": "2,477"
     },
     {
-     "label": "audience score",
-     "value": "98%"
+     "label": "CinemaScore",
+     "value": "A+"
     }
    ],
-   "summary": "Peter Farrelly's Stallone biopic expanded from limited release to earn $9.3 million and finish second, Flickering Myth reports.",
+   "summary": "Peter Farrelly's film about the making of Rocky expanded from 29 to 2,477 cinemas and took second with $9.3 million, AP reports.",
    "title": "I Play Rocky takes second with $9.3 million in its wide expansion",
-   "url": "https://www.flickeringmyth.com/the-hunger-games-sunrise-on-the-reaping-grosses-225-million-at-the-worldwide-box-office/",
+   "url": "https://abcnews.com/amp/Entertainment/wireStory/resurgent-hunger-games-big-box-office-despite-competition-138361740",
    "why": "A crowd-pleasing film about making Rocky could become counter-programming to the Hunger Games prequel."
   }
  },
@@ -14553,6 +15015,52 @@
    "title": "Disney's live-action Moana arrives on Disney+",
    "url": "https://www.tomsguide.com/entertainment/streaming/what-to-watch-tonight-38-new-shows-and-movies-just-added-to-netflix-prime-video-disney-and-more-oct-21-2026",
    "why": "Disney's live-action remakes tend to draw big family audiences when they reach streaming."
+  }
+ },
+ "ent-mosquito-bowl-netflix": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Peter Berg is a director known for Friday Night Lights and Lone Survivor.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Timing",
+     "text": "It lands just before Thanksgiving football."
+    },
+    {
+     "label": "Big name",
+     "text": "Peter Berg directed Friday Night Lights."
+    }
+   ],
+   "entities": [
+    "Netflix",
+    "Streaming",
+    "Sports stories",
+    "Thanksgiving releases"
+   ],
+   "happened": "TVLine lists Nicholas Galitzine, Bill Skarsgard, Ray Nicholson and Tom Francis in the cast. BillFrost.tv says Peter Berg directs.",
+   "hype": 56,
+   "id": "ent-mosquito-bowl-netflix",
+   "meme": {
+    "bottom": "released the day before the big games",
+    "take": "Netflix found the one thing to watch on Thanksgiving that is also football.",
+    "top": "A football film about wartime"
+   },
+   "motif": "screen",
+   "next": "Watch for whether it reaches Netflix's top ten over the holiday weekend.",
+   "prevHype": null,
+   "published": "2026-11-21",
+   "source": "TVLine",
+   "stats": [
+    {
+     "label": "Netflix premiere",
+     "value": "Nov 25"
+    }
+   ],
+   "summary": "The Mosquito Bowl, a football drama set after Pearl Harbor, premieres on Netflix on November 25.",
+   "title": "Peter Berg's football drama The Mosquito Bowl premieres on Netflix",
+   "url": "https://tvline.com/2323631/what-to-watch-week-of-november-22-2026-tv-shows-movies-streaming",
+   "why": "A sports film arriving the day before Thanksgiving football fits the holiday viewing mood."
   }
  },
  "ent-mosquito-bowl-trailer": {
@@ -16392,7 +16900,7 @@
   }
  },
  "ent-rings-of-power-s3-finale": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "The series is set thousands of years before The Lord of the Rings and draws on J.R.R. Tolkien's writings.",
    "category": "entertainment",
@@ -16411,28 +16919,28 @@
     "Streaming",
     "Book adaptations"
    ],
-   "happened": "Forbes and NewsBeep both list the finale among the week's biggest TV events. It arrives the night before Blade Runner 2099 lands on the same service.",
-   "hype": 54,
+   "happened": "TVLine lists the two-episode finale among the week's biggest TV events. Blade Runner 2099 arrives on the same service the next day.",
+   "hype": 58,
    "id": "ent-rings-of-power-s3-finale",
    "meme": {
     "bottom": "the budget remains the real dragon",
     "take": "The Rings of Power ends season three, with its most powerful ring still the budget.",
-    "top": "Another season of forging rings"
+    "top": "Three seasons of forging rings"
    },
    "motif": "screen",
    "next": "Watch for news on whether Amazon orders a fourth season.",
-   "prevHype": null,
-   "published": "2026-11-22",
-   "source": "Forbes",
+   "prevHype": 54,
+   "published": "2026-11-21",
+   "source": "TVLine",
    "stats": [
     {
      "label": "season 3 finale",
      "value": "Nov 24"
     }
    ],
-   "summary": "Amazon's Lord of the Rings series ends its third season on Tuesday, a date Forbes lists as moved up.",
+   "summary": "Amazon's Lord of the Rings series ends its third season with two episodes at 9 p.m. on November 24, TVLine's schedule lists.",
    "title": "The Rings of Power season 3 finale lands on Prime Video on November 24",
-   "url": "https://www.forbes.com/sites/erikkain/2026/11/19/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+   "url": "https://tvline.com/2323631/what-to-watch-week-of-november-22-2026-tv-shows-movies-streaming",
    "why": "It is one of the most expensive TV series ever made, so its future is watched closely."
   }
  },
@@ -18147,7 +18655,7 @@
   }
  },
  "ent-you-can-see-everything": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Most documentaries open in a small number of cinemas or go straight to streaming.",
    "category": "entertainment",
@@ -18163,39 +18671,39 @@
    ],
    "entities": [
     "Box office",
-    "Theatrical releases",
+    "Digital releases",
     "Documentaries"
    ],
-   "happened": "Flickering Myth reports $93.4 million of the total comes from North America. The $9 million weekend came as the film started opening in more countries.",
-   "hype": 62,
+   "happened": "BillFrost.tv lists the digital premiere for November 24 and puts the film's box office near $99 million. AP had it sixth at the weekend box office with $2.5 million.",
+   "hype": 56,
    "id": "ent-you-can-see-everything",
    "meme": {
-    "bottom": "and it is outgrossing explosions",
-    "take": "A $7 million documentary passed $100 million, and studios are suddenly curious about facts.",
-    "top": "It cost $7 million to make"
+    "bottom": "now you can pause it",
+    "take": "You Can See Everything is coming home, where you can finally see everything twice.",
+    "top": "A documentary nearly made $100 million"
    },
    "motif": "film",
-   "next": "Watch for how it performs as it opens in more markets.",
-   "prevHype": null,
+   "next": "Watch for how it charts on digital rental lists over the holiday week.",
+   "prevHype": 62,
    "published": "2026-11-23",
-   "source": "Flickering Myth",
+   "source": "BillFrost.tv",
    "stats": [
     {
-     "label": "worldwide gross",
-     "value": "$100M+"
+     "label": "digital release",
+     "value": "Nov 24"
     },
     {
-     "label": "North American gross",
-     "value": "$93.4M"
+     "label": "box office, reported",
+     "value": "~$99M"
     },
     {
-     "label": "budget, reported",
-     "value": "$7M"
+     "label": "last weekend, AP",
+     "value": "$2.5M"
     }
    ],
-   "summary": "The documentary has crossed $100 million worldwide on a reported $7 million budget, adding $9 million as its global rollout began.",
-   "title": "Documentary You Can See Everything passes $100 million worldwide",
-   "url": "https://www.flickeringmyth.com/the-hunger-games-sunrise-on-the-reaping-grosses-225-million-at-the-worldwide-box-office/",
+   "summary": "Nathan Fielder's documentary arrives to rent or buy on November 24 while still in cinemas, where it made $2.5 million last weekend.",
+   "title": "You Can See Everything comes to digital rental after a near-$100 million run",
+   "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
    "why": "Documentaries almost never reach blockbuster numbers, so a hit this size stands out."
   }
  },
@@ -20270,6 +20778,46 @@
    "why": "AI tools are spreading through studios, and workers want a say in how they are used."
   }
  },
+ "game-ff7-revelation-esrb": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Square Enix has been remaking the 1997 Final Fantasy VII as a trilogy of games since 2020.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Fan demand",
+     "text": "Final Fantasy VII is one of the best-loved role-playing games."
+    },
+    {
+     "label": "Timing",
+     "text": "The Game Awards are just over two weeks away."
+    }
+   ],
+   "entities": [
+    "Square Enix",
+    "The Game Awards",
+    "Remakes and remasters"
+   ],
+   "happened": "My Nintendo News reported the rating on November 23. The game is also nominated for Most Anticipated Game at The Game Awards, Push Square lists.",
+   "hype": 50,
+   "id": "game-ff7-revelation-esrb",
+   "meme": {
+    "bottom": "fans now have a reason to refresh",
+    "take": "An age rating was filed, and Final Fantasy fans read it like a release date.",
+    "top": "Final Fantasy VII got a rating"
+   },
+   "motif": "game",
+   "next": "Watch for a release date, possibly at The Game Awards on December 10.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "My Nintendo News",
+   "stats": [],
+   "summary": "The third part of the Final Fantasy VII remake series has received an ESRB rating, My Nintendo News reports.",
+   "title": "Final Fantasy VII Revelation has been rated by the ESRB",
+   "url": "https://mynintendonews.com/2026/11/23/final-fantasy-vii-revelation-has-been-rated-by-the-esrb/",
+   "why": "Ratings often come shortly before a release date or marketing push, so fans watch for them."
+  }
+ },
  "game-ffxiv-evercold-delay": {
   "lastSeen": "2026-11-02",
   "story": {
@@ -20716,51 +21264,56 @@
   }
  },
  "game-game-pass-late-november": {
-  "lastSeen": "2026-11-19",
+  "lastSeen": "2026-11-24",
   "story": {
-   "background": "Xbox Game Pass is Microsoft's subscription service for games on console, PC and cloud.",
+   "background": "Xbox Game Pass is Microsoft's subscription that gives access to a rotating library of games.",
    "category": "gaming",
    "drivers": [
     {
      "label": "Timing",
-     "text": "The lineup lands during GTA VI's launch week."
+     "text": "New games land over Thanksgiving weekend."
     },
     {
-     "label": "Money",
-     "text": "Five of the nine are limited to the Premium tier."
+     "label": "Trend",
+     "text": "Day-one launches on Game Pass are a key Xbox selling point."
     }
    ],
    "entities": [
     "Microsoft",
+    "Xbox Game Pass",
     "New game releases"
    ],
-   "happened": "High on Life 2 and Call of the Elder Gods arrive November 18, with The Outlast Trials and Hela: of Mice & Magic on December 1. Eight games, including Aliens: Dark Descent, leave on November 30.",
+   "happened": "PlayStationInfo says Arkheron is a three-player team game where found gear, not a fixed class, sets how you play. Eight games leave the service on November 30.",
    "hype": 52,
    "id": "game-game-pass-late-november",
    "meme": {
-    "bottom": "the week nobody plays anything else",
-    "take": "Game Pass adds nine games during GTA VI week, a very brave act of scheduling.",
-    "top": "Nine new games on Game Pass"
+    "bottom": "your backlog remains",
+    "take": "Game Pass adds three games and removes eight, which is still more than most of us finish.",
+    "top": "Eight games are leaving Game Pass"
    },
    "motif": "game",
-   "next": "Watch for which titles land on the cheaper tiers later.",
+   "next": "Watch for Microsoft's December Game Pass line-up.",
    "prevHype": null,
-   "published": "2026-11-17",
-   "source": "Xbox Wire",
+   "published": "2026-11-22",
+   "source": "PlayStationInfo",
    "stats": [
     {
-     "label": "games added",
-     "value": "9"
+     "label": "Motorslice, Sniper Ghost Warrior",
+     "value": "Nov 24"
+    },
+    {
+     "label": "Arkheron Game Preview",
+     "value": "Nov 27"
     },
     {
      "label": "games leaving Nov 30",
      "value": "8"
     }
    ],
-   "summary": "Microsoft named nine games coming to Game Pass between November 18 and December 1, five of them for Premium members only.",
-   "title": "Nine games join Xbox Game Pass through December 1, led by High on Life 2",
-   "url": "https://news.xbox.com/en-us/2026/11/17/xbox-game-pass-november-2026-wave-2/",
-   "why": "Game Pass is Xbox's main subscription, and its lineup decides what millions of players try next."
+   "summary": "Xbox Game Pass adds Motorslice and Sniper Ghost Warrior Contracts 2 on November 24, and Arkheron launches in Game Preview on November 27.",
+   "title": "Game Pass adds Motorslice and Sniper Ghost Warrior, with Arkheron on day one",
+   "url": "https://playstationinfo.de/en/2026/11/22/xbox-game-pass-is-getting-three-games-and-a-new-title-is-launching-directly-on-day-one",
+   "why": "Game Pass additions decide what millions of subscribers try over the holiday."
   }
  },
  "game-ghost-of-yotei-sales": {
@@ -21100,7 +21653,7 @@
   }
  },
  "game-gta-vi-launch": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Rockstar Games is owned by Take-Two Interactive and also made Red Dead Redemption.",
    "category": "gaming",
@@ -21122,10 +21675,10 @@
     "Rockstar",
     "Take-Two",
     "GTA VI",
-    "New game releases"
+    "The Game Awards"
    ],
-   "happened": "Take-Two estimates it took $3.79 billion in its first 24 hours, the biggest entertainment launch yet. It came out on November 19 for PS5 and Xbox Series X/S, and GameRant says Take-Two has ruled out direct Black Friday discounts.",
-   "hype": 92,
+   "happened": "Take-Two estimates it took $3.79 billion in its first 24 hours, the biggest entertainment launch yet. It came out on November 19 for PS5 and Xbox Series X/S and leads The Game Awards with eight nominations.",
+   "hype": 86,
    "id": "game-gta-vi-launch",
    "meme": {
     "bottom": "for a game about doing crimes for money",
@@ -21133,8 +21686,8 @@
     "top": "$3.79 billion in a day"
    },
    "motif": "game",
-   "next": "Watch for Take-Two's next update on sales and any news on a PC version.",
-   "prevHype": 96,
+   "next": "Watch for Take-Two's next sales update and The Game Awards on December 10.",
+   "prevHype": 92,
    "published": "2026-11-20",
    "source": "Business Wire",
    "stats": [
@@ -21155,6 +21708,46 @@
    "title": "GTA VI makes $3.79 billion on day one, Rockstar says",
    "url": "https://www.businesswire.com/news/home/20261120446139/en/Grand-Theft-Auto-VI-Shatters-Entertainment-Box-Office-Records-with-%243.79-Billion-in-Day-One-Retail-Sales",
    "why": "It is one of the biggest entertainment launches ever, and a test for the whole console market."
+  }
+ },
+ "game-gta-vi-mario-easter-egg": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Rockstar games are known for hidden jokes and references to pop culture.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "Mario is gaming's most famous character."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Players are hunting secrets across the new map."
+    }
+   ],
+   "entities": [
+    "GTA VI",
+    "Rockstar",
+    "Mario"
+   ],
+   "happened": "Nintendo Wire reports a YouTube user shared footage of Jason Duval hallucinating near some ruins in a scene that echoes Super Mario. Rockstar has not commented on the reference.",
+   "hype": 56,
+   "id": "game-gta-vi-mario-easter-egg",
+   "meme": {
+    "bottom": "has a Mario tribute",
+    "take": "GTA VI hides a Mario reference, proving even Vice City respects the plumber.",
+    "top": "The most adult game of the year"
+   },
+   "motif": "game",
+   "next": "Watch for more hidden references as players explore the map.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "Nintendo Wire",
+   "stats": [],
+   "summary": "A player's video reportedly shows a GTA VI hallucination scene that references Super Mario, including brick breaking and wearable hats.",
+   "title": "GTA VI players find a Super Mario nod with brick breaking and hats",
+   "url": "https://nintendowire.com/news/2026/11/23/grand-theft-auto-6s-super-mario-easter-egg-includes-brick-breaking-and-wearable-hats/",
+   "why": "Easter egg hunts keep a big game in the conversation weeks after launch."
   }
  },
  "game-gta-vi-november-19": {
@@ -21365,6 +21958,54 @@
    "title": "Twitch calls GTA VI its largest game launch ever",
    "url": "https://techstartups.com/2026/11/20/top-tech-news-roundup-for-today-november-20-2026-anthropic-stock-slides-gta-vi-hits-3-79-billion-nvidia-faces-subpoena-more/",
    "why": "Live viewing numbers show how much of the internet stopped to watch one game come out."
+  }
+ },
+ "game-gta-vi-update-1002": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Rockstar often releases console patches without detailed public notes.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "GTA VI is the biggest launch of the year."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Players are tracking every change after release."
+    }
+   ],
+   "entities": [
+    "Rockstar",
+    "GTA VI"
+   ],
+   "happened": "Xbox players report a 1.2 to 1.6GB download. Some players say the game runs more smoothly, which the outlet says could be placebo. It also says a money glitch still works for some players.",
+   "hype": 60,
+   "id": "game-gta-vi-update-1002",
+   "meme": {
+    "bottom": "and told no one what it does",
+    "take": "GTA VI's first patch arrives with no notes, so players are reviewing it by vibes.",
+    "top": "Rockstar released a patch"
+   },
+   "motif": "game",
+   "next": "Watch for Rockstar's own notes on what the update changed.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "PlayStation LifeStyle",
+   "stats": [
+    {
+     "label": "PS5 update size",
+     "value": "~600MB"
+    },
+    {
+     "label": "Xbox size, players report",
+     "value": "1.2-1.6GB"
+    }
+   ],
+   "summary": "Rockstar's update 1.002.002 is rolling out by region, at about 600MB on PS5, but no patch notes have been published, PlayStation LifeStyle reports.",
+   "title": "GTA VI gets its first big patch, 1.002.002, with no patch notes",
+   "url": "https://www.playstationlifestyle.net/2026/11/23/gta-6-update-1002002-november-23-2026-patch-notes",
+   "why": "Millions of new players want to know what a first patch fixes in a game this big."
   }
  },
  "game-gta-vi-user-score": {
@@ -22392,6 +23033,50 @@
    "title": "League of Legends Worlds 2026 quarterfinals are set, with T1 facing Karmine Corp",
    "url": "https://insider-gaming.com/kcorp-lyon-blg-secure-lol-worlds-knockouts/",
    "why": "Worlds is the biggest event in esports, and the knockout stage draws its largest audiences."
+  }
+ },
+ "game-mario-kart-ds-nintendo-music": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Nintendo Music is an app that lets Nintendo Switch Online subscribers stream music from Nintendo games.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "Mario Kart DS came out in 2005."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Players have long asked for official game music streaming."
+    }
+   ],
+   "entities": [
+    "Nintendo",
+    "Mario"
+   ],
+   "happened": "Nintendo Wire says the soundtrack was uploaded on the night of November 19. Nintendo adds new soundtracks to the app each month.",
+   "hype": 44,
+   "id": "game-mario-kart-ds-nintendo-music",
+   "meme": {
+    "bottom": "zero tracks of the rage it caused",
+    "take": "Nintendo re-released the soundtrack of a thousand school bus arguments.",
+    "top": "78 tracks of Mario Kart DS"
+   },
+   "motif": "voice",
+   "next": "Watch for the next soundtracks Nintendo adds in December.",
+   "prevHype": null,
+   "published": "2026-11-20",
+   "source": "Nintendo Wire",
+   "stats": [
+    {
+     "label": "tracks added",
+     "value": "78"
+    }
+   ],
+   "summary": "Nintendo has added all 78 tracks of the Mario Kart DS soundtrack to its Nintendo Music app for Switch Online members.",
+   "title": "The full Mario Kart DS soundtrack is now on Nintendo Music",
+   "url": "https://nintendowire.com/news/2026/11/20/mario-kart-ds-soundtrack-now-streamable-via-nintendo-music-app/",
+   "why": "Game music has a big following, and Mario Kart DS is a favourite for many players who grew up with it."
   }
  },
  "game-marvel-tokon-year-1-dlc": {
@@ -23438,7 +24123,7 @@
   }
  },
  "game-persona-6-domain": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Atlus is a Japanese studio owned by Sega that makes the Persona and Shin Megami Tensei series.",
    "category": "gaming",
@@ -23458,7 +24143,7 @@
     "The Game Awards"
    ],
    "happened": "Nintendo Life reports Atlus also said the wait for Persona 7 will be shorter. MyNintendoNews notes a Persona 4 Revival domain update came a month before its trailer. Nothing has been announced.",
-   "hype": 58,
+   "hype": 50,
    "id": "game-persona-6-domain",
    "meme": {
     "bottom": "a whole fandom cleared its December",
@@ -23467,7 +24152,7 @@
    },
    "motif": "game",
    "next": "Watch for The Game Awards on December 10 and any teasers from Atlus before then.",
-   "prevHype": 56,
+   "prevHype": 58,
    "published": "2026-11-21",
    "source": "My Nintendo News",
    "stats": [
@@ -23843,7 +24528,7 @@
   }
  },
  "game-pokemon-winds-waves-catalogue": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Pokemon games are made by Game Freak and published by Nintendo and The Pokemon Company.",
    "category": "gaming",
@@ -23862,7 +24547,7 @@
     "Pokemon"
    ],
    "happened": "MyNintendoNews says the text talks about overcoming paths and forces of nature with Pokemon. The catalogue also showed Samus's suit in Metroid Ravenous. A separate rumour claims an overhauled turn-based battle system.",
-   "hype": 52,
+   "hype": 50,
    "id": "game-pokemon-winds-waves-catalogue",
    "meme": {
     "bottom": "ten thousand theories",
@@ -23871,7 +24556,7 @@
    },
    "motif": "game",
    "next": "Watch for an official trailer or release window from The Pokemon Company.",
-   "prevHype": 54,
+   "prevHype": 52,
    "published": "2026-11-21",
    "source": "My Nintendo News",
    "stats": [],
@@ -24626,6 +25311,58 @@
    "why": "Star Wars games are some of EA's biggest bets, and fans want to know what is coming next."
   }
  },
+ "game-steam-awards-2026": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "The Steam Awards are fan-voted prizes run by Valve on its Steam PC store each year since 2016.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "Ten years of winners compete at once."
+    },
+    {
+     "label": "Rivalry",
+     "text": "Fans of Elden Ring and Baldur's Gate 3 will want their pick to win."
+    }
+   ],
+   "entities": [
+    "Valve",
+    "Steam Awards"
+   ],
+   "happened": "PC Gamer says the Hall of Fame includes GTA V, The Witcher 3, Elden Ring, Baldur's Gate 3 and Hollow Knight: Silksong. Three new categories were added, and voting starts with the Steam Winter Sale on December 17.",
+   "hype": 62,
+   "id": "game-steam-awards-2026",
+   "meme": {
+    "bottom": "one of them is about to lose",
+    "take": "Valve asked fans to rank ten masterpieces, which is a fine way to end a friendship.",
+    "top": "Ten Games of the Year"
+   },
+   "motif": "game",
+   "next": "Watch for the finalists when voting opens on December 17.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "PC Gamer",
+   "stats": [
+    {
+     "label": "nominations close",
+     "value": "Nov 30"
+    },
+    {
+     "label": "voting starts",
+     "value": "Dec 17"
+    },
+    {
+     "label": "past winners in Hall of Fame",
+     "value": "10"
+    }
+   ],
+   "summary": "Nominations for the tenth Steam Awards run until November 30, with a new Hall of Fame pitting past winners against each other.",
+   "title": "Steam Awards add a Hall of Fame vote between ten past Games of the Year",
+   "url": "https://www.pcgamer.com/games/2026-steam-awards-pit-the-goty-winners-of-the-past-10-years-against-each-other-in-an-all-out-battle-for-supremacy/",
+   "why": "It turns ten years of Steam's top games into one fan vote, which invites argument."
+  }
+ },
  "game-steam-frame-price": {
   "lastSeen": "2026-10-20",
   "story": {
@@ -25160,6 +25897,64 @@
    "title": "Tim Sweeney says AI can take over the routine work of coding",
    "url": "https://gamingroute.com/gaming-news-today/",
    "why": "Epic makes the engine behind many games, so its chief's view on AI shapes how studios think about jobs."
+  }
+ },
+ "game-switch-2-black-friday": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "The Switch 2 is Nintendo's latest console, the follow-up to the 2017 Switch.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "It is $50 off the bundle's usual price."
+    },
+    {
+     "label": "Timing",
+     "text": "Black Friday is the biggest console sales week."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Mario Kart is among Nintendo's best-selling series."
+    }
+   ],
+   "entities": [
+    "Nintendo",
+    "Switch 2",
+    "Mario",
+    "Black Friday"
+   ],
+   "happened": "Nintendo Wire calls it one of the biggest Switch 2 deals yet. Walmart is also listing Mario Galaxy 1 and 2, Donkey Kong Bananza and other Nintendo games at $30 each, My Nintendo News reports.",
+   "hype": 66,
+   "id": "game-switch-2-black-friday",
+   "meme": {
+    "bottom": "the shells are still full price",
+    "take": "Black Friday takes $50 off Mario Kart, which will be lost to a blue shell by Saturday.",
+    "top": "Fifty dollars off a Switch 2"
+   },
+   "motif": "bag",
+   "next": "Watch for whether stock lasts through Black Friday weekend.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "Nintendo Wire",
+   "stats": [
+    {
+     "label": "Black Friday bundle price",
+     "value": "$499"
+    },
+    {
+     "label": "regular price",
+     "value": "$549"
+    },
+    {
+     "label": "selected Walmart games",
+     "value": "$30"
+    }
+   ],
+   "summary": "Amazon and Walmart are selling the Switch 2 with Mario Kart World for $499, $50 below its $549 price, for a limited time.",
+   "title": "Switch 2 Mario Kart World bundle drops to $499 for Black Friday",
+   "url": "https://nintendowire.com/news/2026/11/22/nintendo-switch-2-mario-kart-world-bundle-is-50-off-but-only-for-a-limited-time/",
+   "why": "It is one of the first real price cuts on Nintendo's new console in its first holiday season."
   }
  },
  "game-switch-2-jailbreak-ai": {
@@ -25817,7 +26612,7 @@
   }
  },
  "game-wolf-among-us-remastered": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "The Wolf Among Us is a Telltale adventure game based on the Fables comics.",
    "category": "gaming",
@@ -25833,10 +26628,11 @@
    ],
    "entities": [
     "Nintendo",
-    "Revived franchises"
+    "Remakes and remasters",
+    "New game releases"
    ],
    "happened": "My Nintendo News spotted the date on the eShop listing. Nintendo Life had reported in October that the remaster was delayed.",
-   "hype": 50,
+   "hype": 46,
    "id": "game-wolf-among-us-remastered",
    "meme": {
     "bottom": "arrives on a 2017 console",
@@ -25845,7 +26641,7 @@
    },
    "motif": "game",
    "next": "Watch for versions on other platforms and news on the sequel.",
-   "prevHype": null,
+   "prevHype": 50,
    "published": "2026-11-22",
    "source": "My Nintendo News",
    "stats": [
@@ -29914,6 +30710,59 @@
    "why": "Expressway handles video and voice calls for many large organizations, so a flaw opens a door into company networks."
   }
  },
+ "tech-cisco-expressway-exploited": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "CISA, the US cybersecurity agency, keeps a list of flaws known to be exploited and sets patch deadlines for agencies.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "It gives an unauthenticated attacker root access."
+    },
+    {
+     "label": "Scale",
+     "text": "Expressway is used widely for business video calls."
+    },
+    {
+     "label": "Timing",
+     "text": "CISA has told US agencies to patch."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Exploited vulnerabilities",
+    "CISA"
+   ],
+   "happened": "Security firm F6 says attackers took over two internet-facing devices, then reached two internal cluster nodes. CISA added the flaw to its exploited list on November 20. Cisco's fix is version X15.5.20.",
+   "hype": 70,
+   "id": "tech-cisco-expressway-exploited",
+   "meme": {
+    "bottom": "let the callers in",
+    "take": "Cisco's video gateway was a little too welcoming to uninvited guests.",
+    "top": "A device built to keep calls secure"
+   },
+   "motif": "shield",
+   "next": "Watch for further victims and how quickly organisations apply the patch.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "Help Net Security",
+   "stats": [
+    {
+     "label": "added to CISA exploited list",
+     "value": "Nov 20"
+    },
+    {
+     "label": "fixed version",
+     "value": "X15.5.20"
+    }
+   ],
+   "summary": "Attackers used a critical Cisco Expressway flaw, CVE-2026-76466, to get root access on devices and move into internal networks, Help Net Security reports.",
+   "title": "Cisco Expressway flaw exploited to break into internal networks",
+   "url": "https://helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466",
+   "why": "Expressway handles video calls at the edge of many company networks, so a flaw there opens the door inside."
+  }
+ },
  "tech-cisco-sdwan-keydrift": {
   "lastSeen": "2026-10-30",
   "story": {
@@ -30102,7 +30951,7 @@
   }
  },
  "tech-cleverbridge-card-breach": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Cleverbridge handles online payments for software and subscription companies.",
    "category": "tech",
@@ -30123,10 +30972,11 @@
    "entities": [
     "Cybersecurity",
     "Privacy",
+    "Payment data",
     "Sony"
    ],
    "happened": "It detected the activity on November 4 and began notifying customers on November 20. A notice seen by BleepingComputer says card numbers, expiry dates and CVVs were copied, but not names or billing details.",
-   "hype": 66,
+   "hype": 56,
    "id": "tech-cleverbridge-card-breach",
    "meme": {
     "bottom": "the one number meant to be forgotten",
@@ -30135,7 +30985,7 @@
    },
    "motif": "shield",
    "next": "Watch for the number of affected customers and which software brands' buyers were hit.",
-   "prevHype": null,
+   "prevHype": 66,
    "published": "2026-11-22",
    "source": "BleepingComputer",
    "stats": [
@@ -30617,7 +31467,7 @@
   }
  },
  "tech-entra-connect-health-flaw": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Microsoft Entra, formerly Azure Active Directory, manages sign-in and identity for businesses.",
    "category": "tech",
@@ -30633,10 +31483,11 @@
    ],
    "entities": [
     "Microsoft",
-    "Cybersecurity"
+    "Cybersecurity",
+    "Exploited vulnerabilities"
    ],
    "happened": "BleepingComputer reports the flaw was exploited to steal tenant data. Several outlets report the exposed data included tenant metadata and administrator email addresses.",
-   "hype": 58,
+   "hype": 52,
    "id": "tech-entra-connect-health-flaw",
    "meme": {
     "bottom": "was the one that needed a check-up",
@@ -30645,7 +31496,7 @@
    },
    "motif": "shield",
    "next": "Watch for Microsoft's guidance to admins and the number of tenants affected.",
-   "prevHype": null,
+   "prevHype": 58,
    "published": "2026-11-21",
    "source": "BleepingComputer",
    "stats": [],
@@ -31674,6 +32525,45 @@
    "why": "China is Apple's most competitive major market, so growth there matters a lot."
   }
  },
+ "tech-iphone-air-2-dummies": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Dummy units are non-working models often made for case makers ahead of a launch. They are not always accurate.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "New iPhone designs always draw attention."
+    },
+    {
+     "label": "Fan demand",
+     "text": "The single camera was a common complaint about the first Air."
+    }
+   ],
+   "entities": [
+    "Apple",
+    "Smartphones"
+   ],
+   "happened": "9to5Mac reports the dummy units show a new dual-camera layout. MacTech, citing MacRumors, says the standard iPhone 18 dummies look largely unchanged. Apple has announced nothing.",
+   "hype": 60,
+   "id": "tech-iphone-air-2-dummies",
+   "meme": {
+    "bottom": "it will still not fit in the case",
+    "take": "Apple's skinniest phone is reportedly bulking up, one lens at a time.",
+    "top": "The thinnest iPhone got a second camera"
+   },
+   "motif": "phone",
+   "next": "Watch for further leaks and Apple's reported early-2027 launch plans.",
+   "prevHype": null,
+   "published": "2026-11-20",
+   "source": "9to5Mac",
+   "stats": [],
+   "summary": "Dummy models said to show the iPhone Air 2 have a dual rear camera, while the standard iPhone 18 looks largely unchanged, reports say.",
+   "title": "iPhone Air 2 dummy units point to a new dual-camera design",
+   "url": "https://9to5mac.com/2026/11/20/iphone-air-2-dual-camera-system/",
+   "why": "The first iPhone Air was criticised for having one rear camera, so a second lens would answer that."
+  }
+ },
  "tech-iphone-duo-cracks": {
   "lastSeen": "2026-11-03",
   "story": {
@@ -31923,6 +32813,55 @@
    "title": "Ivanti warns a Connect Secure zero-day is being exploited in attacks",
    "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
    "why": "Remote access gateways guard company networks, so exploited flaws there can let attackers in."
+  }
+ },
+ "tech-java4shell": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "AVX-512 is a set of fast maths instructions on many Intel and AMD server processors.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "Java is one of the most widely used server platforms."
+    },
+    {
+     "label": "Nostalgia",
+     "text": "The name recalls 2021's Log4Shell crisis."
+    },
+    {
+     "label": "Risk",
+     "text": "It can lead to remote code execution."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Open-source software",
+    "CISA"
+   ],
+   "happened": "Oracle fixed the flaw on November 17, and CISA has urged organisations to patch, The Layman Security reports. Horizon3.ai published the research.",
+   "hype": 58,
+   "id": "tech-java4shell",
+   "meme": {
+    "bottom": "can now run your server",
+    "take": "Java4Shell shows that the most dangerous thing on a server is still a well-chosen sentence.",
+    "top": "A string of text"
+   },
+   "motif": "shield",
+   "next": "Watch for signs of active exploitation and vendor updates for Java-based products.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "The Layman Security",
+   "stats": [
+    {
+     "label": "Oracle fix",
+     "value": "Nov 17"
+    }
+   ],
+   "summary": "CVE-2026-114938 lets a crafted Base64 string corrupt Java's memory on servers with AVX-512 chips, which can lead to code execution.",
+   "title": "Java4Shell flaw lets a crafted text string take over some Java servers",
+   "url": "https://thelaymansecurity.com/java4shell-cve-2026-114938-openjdk/",
+   "why": "Java runs huge amounts of business software, including tools like Jenkins, Jira and Tomcat."
   }
  },
  "tech-java4shell-flaw": {
@@ -33498,6 +34437,62 @@
    "why": "Anonymous tip lines exist to protect students, so a breach of them is especially serious."
   }
  },
+ "tech-nginx-http2-flaws": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "NGINX is open-source web server software, now owned by F5, used to serve and balance traffic for websites.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "NGINX runs a large share of web servers."
+    },
+    {
+     "label": "Risk",
+     "text": "Public exploit code makes attacks easier."
+    },
+    {
+     "label": "Timing",
+     "text": "The oldest bug went unnoticed for about 11 years."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Open-source software"
+   ],
+   "happened": "The HTTP/2 bug, CVE-2026-123007, dates back to 2015, The Layman Security reports, citing Rapid7. All five flaws are rated 9.2 out of 10.",
+   "hype": 54,
+   "id": "tech-nginx-http2-flaws",
+   "meme": {
+    "bottom": "finally got noticed",
+    "take": "NGINX fixed a flaw old enough to have outlived several of the frameworks it served.",
+    "top": "A bug from 2015"
+   },
+   "motif": "shield",
+   "next": "Watch for reports of attacks using the public exploit.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "The Layman Security",
+   "stats": [
+    {
+     "label": "critical flaws fixed",
+     "value": "5"
+    },
+    {
+     "label": "CVSS score each",
+     "value": "9.2"
+    },
+    {
+     "label": "HTTP/2 bug introduced",
+     "value": "2015"
+    }
+   ],
+   "summary": "NGINX patched five code-execution flaws rated 9.2 on November 18, and one HTTP/2 bug now has a public proof-of-concept exploit.",
+   "title": "NGINX fixes five critical flaws, including an HTTP/2 bug from 2015",
+   "url": "https://thelaymansecurity.com/nginx-http2-rce-cve-2026-123007/",
+   "why": "NGINX powers a large share of the world's websites, so a public exploit raises the pressure to patch."
+  }
+ },
  "tech-nginx2root": {
   "lastSeen": "2026-11-21",
   "story": {
@@ -34063,7 +35058,7 @@
   }
  },
  "tech-nvidia-sec-slide": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Nvidia makes the GPUs behind most AI models. Finance chief Colette Kress is interim CEO after Huang resigned in November.",
    "category": "tech",
@@ -34087,17 +35082,17 @@
     "AI chips",
     "US policy"
    ],
-   "happened": "Shares closed at $125.53 on November 20, about 48% below their October 6 record, 24/7 Wall St. reports. Reuters reported the SEC is examining possible accounting issues, which is unconfirmed.",
-   "hype": 90,
+   "happened": "Huang posted on November 17 that he would be honoured to return, but board chair Harvey Jones said the board does not intend to reinstate him. CFO Colette Kress is interim CEO. Shares closed at $125.53 on November 20.",
+   "hype": 78,
    "id": "tech-nvidia-sec-slide",
    "meme": {
-    "bottom": "the interview includes a stock chart",
-    "take": "Nvidia's board wants a CEO who can calm investors, which is a short list.",
+    "bottom": "the founder applied",
+    "take": "Nvidia's former CEO says he would come back, and the board has said no thank you.",
     "top": "Nvidia is hiring a CEO"
    },
    "motif": "chip",
-   "next": "Watch for the CEO search, Nvidia's response on the SEC report and congressional interviews on December 1 and 2.",
-   "prevHype": 93,
+   "next": "Watch for Huang's December 1 House committee interview and any news from the CEO search.",
+   "prevHype": 90,
    "published": "2026-11-22",
    "source": "24/7 Wall St.",
    "stats": [
@@ -34365,6 +35360,60 @@
    "title": "Attackers used Optimizely to A/B test malware on top websites",
    "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
    "why": "Visitors could be targeted just by loading a trusted site, with no click or download needed."
+  }
+ },
+ "tech-optimizely-skimmer": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "Optimizely makes tools that let websites test different page designs, using scripts loaded on customers' sites.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "178 brands were affected."
+    },
+    {
+     "label": "Timing",
+     "text": "It hit just before the biggest online shopping week."
+    },
+    {
+     "label": "Trend",
+     "text": "Attackers target shared scripts to reach many sites."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Supply chain attacks",
+    "Payment data",
+    "Black Friday"
+   ],
+   "happened": "The Layman Security, citing Report URI's research, says the code targeted iPhone users, skimmed payment card data and replaced crypto wallet addresses. It ran through Optimizely's experiment scripts.",
+   "hype": 66,
+   "id": "tech-optimizely-skimmer",
+   "meme": {
+    "bottom": "someone tested a very bad one",
+    "take": "Optimizely's script ran an experiment on 178 brands. The control group was your card.",
+    "top": "Optimizely helps sites test changes"
+   },
+   "motif": "shield",
+   "next": "Watch for the list of affected brands and notices to shoppers.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "The Layman Security",
+   "stats": [
+    {
+     "label": "brands' sites affected",
+     "value": "178"
+    },
+    {
+     "label": "date the code ran",
+     "value": "Nov 16"
+    }
+   ],
+   "summary": "Malicious code in Optimizely's JavaScript ran on 178 brands' websites on November 16, skimming card data and swapping crypto addresses, reports say.",
+   "title": "Optimizely supply-chain attack put a card skimmer on 178 brands' sites",
+   "url": "https://thelaymansecurity.com/optimizely-supply-chain-attack-skimmer/",
+   "why": "One compromised supplier script can reach shoppers on many big sites at once, days before Black Friday."
   }
  },
  "tech-oracle-20b-raise": {
@@ -36263,6 +37312,50 @@
    "why": "TSMC makes most advanced AI chips, so its results are a direct read on AI demand."
   }
  },
+ "tech-tsmc-samsung-china-pause": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "TSMC in Taiwan is the world's largest contract chipmaker. Samsung is the other major maker of advanced chips.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "TSMC and Samsung make most of the world's advanced chips."
+    },
+    {
+     "label": "Risk",
+     "text": "Supply gaps could raise device prices."
+    },
+    {
+     "label": "Rivalry",
+     "text": "Chips are central to US-China tech competition."
+    }
+   ],
+   "entities": [
+    "China",
+    "US policy",
+    "AI chips"
+   ],
+   "happened": "TrendForce says the impact could extend to consumer electronics and some 16nm orders. Impact Newswire separately reports TSMC suspended some approved advanced-chip orders from Chinese designers. Neither firm has confirmed it.",
+   "hype": 68,
+   "id": "tech-tsmc-samsung-china-pause",
+   "meme": {
+    "bottom": "now covering the boring chips too",
+    "take": "Export controls have moved from AI processors to the parts in your microwave.",
+    "top": "New rules on chips to China"
+   },
+   "motif": "globe",
+   "next": "Watch for statements from TSMC or Samsung and any clarification of the US rules.",
+   "prevHype": null,
+   "published": "2026-11-20",
+   "source": "TrendForce",
+   "stats": [],
+   "summary": "TrendForce reports TSMC and Samsung have suspended some chip shipments to Chinese customers after tighter US export rules.",
+   "title": "TSMC and Samsung reportedly pause some chip shipments to China",
+   "url": "https://www.trendforce.com/news/2026/11/20/news-tsmc-samsung-reportedly-pause-china-consumer-chip-shipments-under-new-u-s-rules-16nm-orders-affected/",
+   "why": "The pause could reach everyday electronics, not just AI processors."
+  }
+ },
  "tech-uefi-16-year-flaw": {
   "lastSeen": "2026-10-29",
   "story": {
@@ -36436,6 +37529,59 @@
    "why": "It shows Washington widening its fight over AI technology from chips to the investors behind startups."
   }
  },
+ "tech-vcenter-zero-day": {
+  "lastSeen": "2026-11-24",
+  "story": {
+   "background": "VMware, owned by Broadcom, makes vSphere and vCenter, software used to run many virtual machines on shared hardware.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "It gave attackers top-level control of virtual servers."
+    },
+    {
+     "label": "Scale",
+     "text": "vCenter is used across large enterprises."
+    },
+    {
+     "label": "Timing",
+     "text": "It was exploited for months before a fix."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "Exploited vulnerabilities",
+    "CISA"
+   ],
+   "happened": "The flaw is rated 9.8 out of 10. Broadcom patched it on November 19 and CISA added it to its exploited list. Help Net Security says the suspected group is linked to espionage.",
+   "hype": 62,
+   "id": "tech-vcenter-zero-day",
+   "meme": {
+    "bottom": "and nobody asked for ID",
+    "take": "The vCenter flaw handed out admin rights with the care of a free sample stand.",
+    "top": "Attackers made themselves admins"
+   },
+   "motif": "shield",
+   "next": "Watch for further victim disclosures and CISA's patch deadline.",
+   "prevHype": null,
+   "published": "2026-11-22",
+   "source": "The Layman Security",
+   "stats": [
+    {
+     "label": "CVSS severity score",
+     "value": "9.8"
+    },
+    {
+     "label": "Broadcom patch",
+     "value": "Nov 19"
+    }
+   ],
+   "summary": "Mandiant says a group it calls ARMORY CASTLE used vCenter flaw CVE-2026-123890 from September to make itself a sign-in administrator.",
+   "title": "VMware vCenter zero-day was used for months before Broadcom's patch",
+   "url": "https://thelaymansecurity.com/vcenter-cve-2026-123890-armory-castle/",
+   "why": "vCenter runs the virtual servers behind many company data centres, so admin access there is very powerful."
+  }
+ },
  "tech-verizon-iphone-handoff-fee": {
   "lastSeen": "2026-10-19",
   "story": {
@@ -36486,7 +37632,7 @@
   }
  },
  "tech-visa-mastercard-jpmorgan-leak": {
-  "lastSeen": "2026-11-23",
+  "lastSeen": "2026-11-24",
   "story": {
    "background": "Supply-chain breaches happen when attackers reach a company's data through a supplier or contractor.",
    "category": "tech",
@@ -36506,10 +37652,11 @@
    ],
    "entities": [
     "Cybersecurity",
-    "JPMorgan",
-    "Privacy"
+    "Privacy",
+    "Payment data",
+    "Supply chain attacks"
    ],
-   "happened": "Reuters reported leaked JPMorgan records with over 16,000 customer emails, which it could not verify. JPMorgan says marketing data at vendors was accessed. Visa says its systems and card data were not affected.",
+   "happened": "The Layman Security says the exposed data was names and email addresses, not card numbers. Reuters earlier reported leaked JPMorgan records with over 16,000 customer emails, which it could not verify.",
    "hype": 58,
    "id": "tech-visa-mastercard-jpmorgan-leak",
    "meme": {
@@ -36519,9 +37666,9 @@
    },
    "motif": "shield",
    "next": "Watch for official customer notifications and any confirmed count of people affected.",
-   "prevHype": 76,
-   "published": "2026-11-21",
-   "source": "Fox News",
+   "prevHype": 58,
+   "published": "2026-11-22",
+   "source": "The Layman Security",
    "stats": [
     {
      "label": "JPMorgan emails, reported",
@@ -36532,9 +37679,9 @@
      "value": "124"
     }
    ],
-   "summary": "A group called n0n claims it stole data tied to Visa, Mastercard and JPMorgan, and the banks say marketing data at vendors was exposed.",
-   "title": "Extortion group claims leak of Visa, Mastercard and JPMorgan customer data",
-   "url": "https://www.foxnews.com/tech/visa-mastercard-jpmorgan-customer-data-leaked",
+   "summary": "The three firms have confirmed breaches at vendors after the n0n group's leak claim, with names and emails exposed, The Layman Security reports.",
+   "title": "JPMorgan, Visa and Mastercard confirm vendor breaches after n0n leak claim",
+   "url": "https://thelaymansecurity.com/jpmorgan-visa-mastercard-vendor-breach-n0n/",
    "why": "Data linked to three of the biggest names in payments can fuel convincing phishing scams against customers."
   }
  },
