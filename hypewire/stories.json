@@ -1,35 +1,172 @@
 {
-  "refreshedAt": "2026-11-24T02:32:49Z",
+  "refreshedAt": "2026-11-25T02:35:41Z",
   "briefing": [
     {
+      "id": "tech-nvidia-huang-reinstated",
+      "text": "Nvidia's board brought Jensen Huang back as CEO, and its shares rose about 30%."
+    },
+    {
+      "id": "game-gta-vi-44m-estimate",
+      "text": "GTA VI sold an estimated 44.9 million copies in four days, analysts say."
+    },
+    {
+      "id": "ai-gpt-6-2-sol",
+      "text": "OpenAI is rolling out GPT-6.2 Sol to paid ChatGPT users."
+    },
+    {
       "id": "ent-hunger-games-sunrise",
-      "text": "The Hunger Games prequel opened to about $120 million in the US and $225 million worldwide."
+      "text": "The Hunger Games prequel heads into Thanksgiving after a $225 million global opening."
     },
     {
-      "id": "game-gta-vi-launch",
-      "text": "GTA VI's record $3.79 billion launch still leads gaming, plus eight Game Awards nominations."
-    },
-    {
-      "id": "ai-riemann-claude-claim",
-      "text": "Mathematicians are checking a Claude-assisted Riemann Hypothesis proof; the code compiles."
-    },
-    {
-      "id": "tech-nvidia-sec-slide",
-      "text": "Nvidia's board says Jensen Huang will not return, ahead of his December 1 House interview."
-    },
-    {
-      "id": "tech-cisco-expressway-exploited",
-      "text": "Attackers used a critical Cisco Expressway flaw to get into internal company networks."
+      "id": "tech-cia-odni-breach",
+      "text": "Some unclassified CIA and US intelligence data was breached, reports say."
     }
   ],
   "stories": [
+    {
+      "id": "tech-nvidia-huang-reinstated",
+      "title": "Nvidia's board reinstates Jensen Huang as CEO, and the shares jump about 30%",
+      "summary": "Nvidia's board voted unanimously on November 23 to bring back Jensen Huang as president, CEO and director, days after his resignation.",
+      "why": "Nvidia is the most important supplier of AI chips, so who runs it moves markets and politics.",
+      "happened": "Nvidia confirmed the reinstatement. Reuters reported Trump and Vance intervened, and Bloomberg said the shares rose 31%. The Senate Banking Committee set a December 3 hearing with Huang as sole witness.",
+      "next": "Watch for the December 3 Senate hearing and the board's ongoing independent investigation.",
+      "drivers": [
+        {
+          "label": "U-turn",
+          "text": "The board had ruled out his return only days earlier."
+        },
+        {
+          "label": "Money",
+          "text": "Reports put the one-day share gain near 30%, its biggest since 2003."
+        },
+        {
+          "label": "Politics",
+          "text": "Lawmakers from both parties have criticised the decision."
+        }
+      ],
+      "background": "Jensen Huang co-founded Nvidia in 1993 and ran it for over three decades as it became the leading maker of AI chips.",
+      "entities": [
+        "Nvidia",
+        "US policy",
+        "AI chips",
+        "Stock market"
+      ],
+      "meme": {
+        "top": "Nvidia searched far and wide for a CEO",
+        "bottom": "and found him in the old office",
+        "take": "Nvidia ran a thorough CEO search and found the candidate had excellent references."
+      },
+      "stats": [
+        {
+          "value": "~30%",
+          "label": "one-day share rise, reported"
+        },
+        {
+          "value": "Dec 3",
+          "label": "Senate Banking hearing"
+        }
+      ],
+      "motif": "chip",
+      "category": "tech",
+      "hype": 96,
+      "prevHype": null,
+      "source": "Nvidia",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "game-gta-vi-44m-estimate",
+      "title": "GTA VI sold an estimated 44.9 million copies in its first four days",
+      "summary": "Alinea Analytics estimates GTA VI sold 44.9 million units and grossed over $4 billion by the end of its launch weekend.",
+      "why": "GTA VI is the most anticipated game in years, and its sales are a benchmark for the whole industry.",
+      "happened": "The figures are a third-party estimate reported by The Fly; Take-Two has not confirmed them. The game launched on November 19 on PS5 and Xbox Series X|S at $79.99, with no PC date yet.",
+      "next": "Watch for Take-Two's own sales figures and any PC release date.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "Tens of millions of copies in days is close to unheard of."
+        },
+        {
+          "label": "Money",
+          "text": "The game sells at $79.99, above the usual price."
+        }
+      ],
+      "background": "Grand Theft Auto is Rockstar Games' best-selling series; GTA V came out in 2013. Rockstar is owned by Take-Two.",
+      "entities": [
+        "Rockstar",
+        "Take-Two",
+        "GTA VI"
+      ],
+      "meme": {
+        "top": "GTA VI sold 44.9 million copies",
+        "bottom": "the traffic in Vice City is now real",
+        "take": "GTA VI sold an estimated 44.9 million copies, and every one of them is stuck in traffic."
+      },
+      "stats": [
+        {
+          "value": "44.9M",
+          "label": "units in four days, estimate"
+        },
+        {
+          "value": ">$4B",
+          "label": "gross revenue, estimate"
+        },
+        {
+          "value": "$79.99",
+          "label": "launch price"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 90,
+      "prevHype": null,
+      "source": "TipRanks (The Fly)",
+      "url": "https://www.tipranks.com/news/the-fly/gta-vi-sold-44-9m-units-by-the-end-of-the-weekend-says-alinea-analytics-thefly-news",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ai-gpt-6-2-sol",
+      "title": "OpenAI rolls out GPT-6.2 Sol to paid ChatGPT users",
+      "summary": "OpenAI is rolling out GPT-6.2 Sol to ChatGPT Plus, Pro, Business and Enterprise users, promising better instruction-following.",
+      "why": "ChatGPT is the most used AI chatbot, so a new default model reaches a huge audience at once.",
+      "happened": "MacRumors reports the rollout to paid plans, with improvements in following instructions and reading small details. Roundups say it reached paid users worldwide on November 24.",
+      "next": "Watch for independent tests comparing it with the latest models from Anthropic and Google.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "OpenAI's model updates set the pace for the industry."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It lands amid a busy month of releases from rival labs."
+        }
+      ],
+      "background": "OpenAI makes ChatGPT and the GPT family of AI models.",
+      "entities": [
+        "OpenAI",
+        "Frontier models"
+      ],
+      "meme": {
+        "top": "OpenAI has a new model that listens",
+        "bottom": "it was told to ship another model",
+        "take": "OpenAI's new model is better at following instructions, a rare quality this month."
+      },
+      "stats": [],
+      "motif": "network",
+      "category": "ai",
+      "hype": 86,
+      "prevHype": null,
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+      "published": "2026-11-23"
+    },
     {
       "id": "ent-hunger-games-sunrise",
       "title": "Sunrise on the Reaping opens to $120 million in the US and $225 million worldwide",
       "summary": "The Hunger Games prequel opened to an estimated $120 million in North America and $225 million worldwide, AP reports.",
       "why": "A strong debut would show book-based franchises can still fill cinemas in a crowded holiday season.",
       "happened": "It took $56 million on Friday, including $21 million in previews, and made up about 72% of all weekend ticket sales. Audiences gave it an A- CinemaScore, up from B+ for the last prequel.",
-      "next": "Watch for how well it holds over the Thanksgiving holiday week.",
+      "next": "Watch for how it holds over the Thanksgiving five-day weekend against Hexed and Focker In-Law.",
       "drivers": [
         {
           "label": "Fan demand",
@@ -72,54 +209,413 @@
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 94,
-      "prevHype": 96,
+      "hype": 84,
+      "prevHype": 84,
       "source": "ABC News (AP)",
       "url": "https://abcnews.com/amp/Entertainment/wireStory/resurgent-hunger-games-big-box-office-despite-competition-138361740",
       "published": "2026-11-23"
     },
     {
-      "id": "game-gta-vi-launch",
-      "title": "GTA VI makes $3.79 billion on day one, Rockstar says",
-      "summary": "Rockstar says Grand Theft Auto VI took $3.79 billion in first-day worldwide retail sales, and 32.5 million copies were pre-sold.",
-      "why": "It is one of the biggest entertainment launches ever, and a test for the whole console market.",
-      "happened": "Take-Two estimates it took $3.79 billion in its first 24 hours, the biggest entertainment launch yet. It came out on November 19 for PS5 and Xbox Series X/S and leads The Game Awards with eight nominations.",
-      "next": "Watch for Take-Two's next sales update and The Game Awards on December 10.",
+      "id": "tech-spacex-tesla-merger-talks",
+      "title": "SpaceX and Tesla reportedly name directors to negotiate a $3.5 trillion merger",
+      "summary": "SpaceX and Tesla have each named directors to negotiate a possible merger valued at $3.5 trillion, the Financial Times reports.",
+      "why": "Combining two of Elon Musk's biggest companies would create one of the most valuable firms ever.",
+      "happened": "The FT reports five directors were named to negotiate a potential deal, with a target of closing by the end of the year. Neither company has announced a merger.",
+      "next": "Watch for any formal announcement or shareholder vote from either company.",
       "drivers": [
         {
           "label": "Scale",
-          "text": "The day-one figure beats GTA V's launch several times over."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Fans waited 13 years since GTA V."
+          "text": "A $3.5 trillion combination would be among the largest deals on record."
         },
         {
           "label": "Big name",
-          "text": "Its 99 on Metacritic ties the highest score the site lists."
+          "text": "Both companies are led by Elon Musk."
         }
       ],
-      "background": "Rockstar Games is owned by Take-Two Interactive and also made Red Dead Redemption.",
+      "background": "SpaceX builds rockets and runs Starlink; Tesla makes electric cars and batteries. Both are run by Elon Musk.",
       "entities": [
-        "Rockstar",
-        "Take-Two",
-        "GTA VI",
-        "The Game Awards"
+        "SpaceX",
+        "Acquisitions",
+        "Stock market"
       ],
       "meme": {
-        "top": "$3.79 billion in a day",
-        "bottom": "for a game about doing crimes for money",
-        "take": "GTA VI earns in one day what its characters spend a whole campaign trying to steal."
+        "top": "Two Musk companies may merge",
+        "bottom": "so the meetings get shorter",
+        "take": "Two Musk companies may merge, saving everyone the trouble of telling them apart."
       },
       "stats": [
         {
-          "value": "$3.79B",
-          "label": "day-one retail sales, Rockstar"
+          "value": "$3.5T",
+          "label": "potential merger value, reported"
         },
         {
-          "value": "32.5M",
-          "label": "copies pre-sold"
+          "value": "5",
+          "label": "directors named to negotiate"
+        }
+      ],
+      "motif": "money",
+      "category": "tech",
+      "hype": 80,
+      "prevHype": null,
+      "source": "BitDigest (Financial Times)",
+      "url": "https://bitdigest.substack.com/p/tuesday-november-24-2026",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "tech-cia-odni-breach",
+      "title": "CIA and US intelligence office reportedly hit by breach of unclassified data",
+      "summary": "Some unclassified information at the CIA and the Office of the Director of National Intelligence was breached, The New York Times reports.",
+      "why": "A breach at the top US spy agencies, even of unclassified systems, raises questions about government security.",
+      "happened": "Reuters relayed the New York Times report that the CIA and ODNI had some unclassified information breached. AP, citing a source, said an unclassified CIA system was hit in a cyberattack. Details remain limited.",
+      "next": "Watch for an official statement on what was taken and who was behind it.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "The CIA is among the most security-conscious organisations in the world."
         },
+        {
+          "label": "Risk",
+          "text": "Even unclassified government data can be useful to attackers."
+        }
+      ],
+      "background": "The Office of the Director of National Intelligence oversees the US intelligence agencies, including the CIA.",
+      "entities": [
+        "Cybersecurity",
+        "US government"
+      ],
+      "meme": {
+        "top": "The spy agency lost some files",
+        "bottom": "the unclassified kind, they stress",
+        "take": "Some unclassified CIA data is now, presumably, even less classified."
+      },
+      "stats": [],
+      "motif": "shield",
+      "category": "tech",
+      "hype": 76,
+      "prevHype": null,
+      "source": "Federal News Network (AP)",
+      "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ai-amazon-decart",
+      "title": "Amazon agrees to buy Decart's AI optimisation technology and team",
+      "summary": "Amazon agreed to buy Decart's AI optimisation stack and bring in its team; TechCrunch reports the deal is worth $7.5 billion.",
+      "why": "Software that makes AI run faster on Amazon's own chips could help it compete with Nvidia.",
+      "happened": "Amazon's announcement does not give a price and says the deal needs regulatory clearance. TechCrunch reports $7.5 billion and links it to Amazon's plans to sell its Trainium chips.",
+      "next": "Watch for regulatory review and how Amazon uses the technology with Trainium.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "The reported price is $7.5 billion."
+        },
+        {
+          "label": "Rivalry",
+          "text": "Amazon is pushing its own chips as an alternative to Nvidia."
+        }
+      ],
+      "background": "Amazon Web Services is the largest cloud provider and designs its own AI chips, called Trainium.",
+      "entities": [
+        "Amazon",
+        "Acquisitions",
+        "AI chips"
+      ],
+      "meme": {
+        "top": "Amazon bought software to speed up AI",
+        "bottom": "checkout was, as ever, one click",
+        "take": "Amazon spent a reported $7.5 billion to make its own chips feel less lonely."
+      },
+      "stats": [
+        {
+          "value": "$7.5B",
+          "label": "deal value, reported"
+        }
+      ],
+      "motif": "bag",
+      "category": "ai",
+      "hype": 76,
+      "prevHype": null,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "ai-anthropic-vp-vnp-paper",
+      "title": "Anthropic posts a Claude-authored paper claiming a major result in complexity theory",
+      "summary": "Anthropic published a 70-page paper credited to Claude that claims VP is not equal to VNP, with a Lean formalisation; no human has checked it yet.",
+      "why": "It comes days after the Riemann claim, adding to a debate about AI doing frontier mathematics.",
+      "happened": "The paper and proof code were pushed to Anthropic's formal-math repository on November 23. Anthropic says no human mathematician has checked it. It explicitly does not settle P vs NP.",
+      "next": "Watch for whether mathematicians confirm the formal statement and the proof.",
+      "drivers": [
+        {
+          "label": "First of its kind",
+          "text": "A paper with an AI as its author line is unusual."
+        },
+        {
+          "label": "Timing",
+          "text": "It follows the Riemann Hypothesis claim by days."
+        }
+      ],
+      "background": "VP and VNP are algebraic versions of the famous P and NP classes, which ask which problems are easy to compute.",
+      "entities": [
+        "Anthropic",
+        "AI research",
+        "Mathematics"
+      ],
+      "meme": {
+        "top": "Claude wrote a 70-page proof",
+        "bottom": "now 70 pages need a human",
+        "take": "Claude wrote the proof and signed it. The peer reviewers have yet to RSVP."
+      },
+      "stats": [
+        {
+          "value": "70",
+          "label": "pages in the paper"
+        }
+      ],
+      "motif": "doc",
+      "category": "ai",
+      "hype": 74,
+      "prevHype": null,
+      "source": "Bitdoze",
+      "url": "https://www.bitdoze.com/news/2026-11-24/",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "ai-spacex-compute-rivals",
+      "title": "SpaceX is reportedly selling computing capacity to Anthropic and Google",
+      "summary": "SpaceX is selling computing capacity to AI rivals Anthropic and Google, The New York Times reports.",
+      "why": "Elon Musk's companies compete in AI, so renting compute to rivals shows how scarce AI capacity is.",
+      "happened": "The New York Times reported the arrangements on November 23. They come as SpaceX expands its AI data-centre plans and as compute demand keeps rising across the industry.",
+      "next": "Watch for the size of the deals and whether more AI labs sign up.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "SpaceX's own AI unit competes with the labs it is serving."
+        },
+        {
+          "label": "Trend",
+          "text": "AI labs are buying compute wherever they can find it."
+        }
+      ],
+      "background": "SpaceX, best known for rockets and Starlink, now also owns Elon Musk's AI business.",
+      "entities": [
+        "SpaceX",
+        "Anthropic",
+        "Google",
+        "AI infrastructure"
+      ],
+      "meme": {
+        "top": "SpaceX is renting servers to its rivals",
+        "bottom": "the competition is also the customer",
+        "take": "SpaceX competes with Anthropic and Google, and also sends them an invoice."
+      },
+      "stats": [],
+      "motif": "money",
+      "category": "ai",
+      "hype": 72,
+      "prevHype": null,
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "game-witcher-4-sony-deal",
+      "title": "CD Projekt signs a Sony marketing deal for The Witcher 4",
+      "summary": "CD Projekt has signed a marketing deal with Sony for The Witcher 4, and compares its leap over Witcher 3 to GTA V to GTA VI.",
+      "why": "Marketing deals shape where big games are shown first, and The Witcher 4 is one of the most awaited RPGs.",
+      "happened": "Gamingroute reports the Sony deal. CD Projekt compares the jump from The Witcher 3 to the jump from GTA V to GTA VI. No release date has been given.",
+      "next": "Watch for a release window and what the Sony deal includes for PlayStation players.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "The Witcher 3 is one of the best-selling RPGs ever."
+        },
+        {
+          "label": "Rivalry",
+          "text": "Marketing deals are a long-running PlayStation and Xbox battleground."
+        }
+      ],
+      "background": "CD Projekt Red is the Polish studio behind The Witcher 3 and Cyberpunk 2077.",
+      "entities": [
+        "CD Projekt",
+        "Sony",
+        "New game releases"
+      ],
+      "meme": {
+        "top": "CD Projekt compared itself to GTA VI",
+        "bottom": "during the week of GTA VI",
+        "take": "CD Projekt compared its next leap to GTA VI, a brave move during GTA VI's week."
+      },
+      "stats": [],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 72,
+      "prevHype": null,
+      "source": "Gamingroute",
+      "url": "https://gamingroute.com/witcher-4-sony-marketing-deal/",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ent-blade-runner-2099",
+      "title": "Blade Runner 2099 arrives on Prime Video with all eight episodes on November 25",
+      "summary": "All eight episodes of Blade Runner 2099, starring Michelle Yeoh and Hunter Schafer, stream on Prime Video from today, November 25.",
+      "why": "It continues one of science fiction's most influential film series on television.",
+      "happened": "BillFrost.tv says the series, created by Silka Luisa, had been stuck in development since 2024. TVLine also lists all episodes for November 25.",
+      "next": "Watch for reviews once all the episodes are out.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "Blade Runner (1982) is a cult science fiction classic."
+        },
+        {
+          "label": "Big name",
+          "text": "Michelle Yeoh leads the cast."
+        },
+        {
+          "label": "Timing",
+          "text": "All episodes drop just before the holiday weekend."
+        }
+      ],
+      "background": "Blade Runner is Ridley Scott's 1982 film based on a Philip K. Dick novel. A sequel, Blade Runner 2049, followed in 2017.",
+      "entities": [
+        "Amazon",
+        "Streaming",
+        "Revived franchises",
+        "Thanksgiving releases"
+      ],
+      "meme": {
+        "top": "A show about spotting the machines",
+        "bottom": "arrives in the year of AI",
+        "take": "Blade Runner 2099 lands just as the question it asks has become an everyday chore."
+      },
+      "stats": [
+        {
+          "value": "8",
+          "label": "episodes, released at once"
+        },
+        {
+          "value": "Nov 25",
+          "label": "release date"
+        }
+      ],
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 72,
+      "prevHype": 72,
+      "source": "BillFrost.tv",
+      "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "tech-megaspeed-blacklist",
+      "title": "US blacklists chip firm Megaspeed, and Malaysia orders data centres to cut it off",
+      "summary": "The US added Singapore's Megaspeed to its trade blacklist amid claims about Nvidia chip exports to China; Malaysia then ordered data centres to cut it off.",
+      "why": "It shows how US export controls on AI chips now reach data centres across Southeast Asia.",
+      "happened": "Reuters reported the blacklisting, citing a source. Bloomberg says Malaysia told data centres to cut off Megaspeed and six other blacklisted firms. The BBC says the company denies wrongdoing.",
+      "next": "Watch for whether other countries in the region follow Malaysia's lead.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "It is part of the US effort to keep advanced AI chips out of China."
+        },
+        {
+          "label": "Ripple effect",
+          "text": "Malaysia acted within a day of the US move."
+        }
+      ],
+      "background": "The US 'entity list' restricts exports to listed firms, and has been used heavily to limit China's access to AI chips.",
+      "entities": [
+        "Nvidia",
+        "US policy",
+        "China",
+        "AI chips"
+      ],
+      "meme": {
+        "top": "One blacklist in Washington",
+        "bottom": "seven unplugged racks in Malaysia",
+        "take": "Washington updated a list, and data centres in Malaysia started pulling cables."
+      },
+      "stats": [
+        {
+          "value": "6",
+          "label": "other firms Malaysia cut off"
+        }
+      ],
+      "motif": "globe",
+      "category": "tech",
+      "hype": 70,
+      "prevHype": null,
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/us-blacklist-megaspeed-chip-firm-linked-nvidia-scandal-source-says-2026-11-23/",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "ai-claude-ship",
+      "title": "Anthropic launches Claude Ship to help get code changes merged",
+      "summary": "Anthropic's Claude Ship beta adds PR Steward and Claude Approvals agents to help move pull requests through review on GitHub.",
+      "why": "Coding is the busiest use of AI agents, and this moves them closer to the final step of shipping code.",
+      "happened": "PR Steward fixes failing checks, conflicts and review feedback but does not approve or merge. Approvals follow each repository's policy, with an observe-only mode advised first. It runs with a /ship command.",
+      "next": "Watch for how teams use the approval agent and what limits they set on it.",
+      "drivers": [
+        {
+          "label": "Trend",
+          "text": "Coding agents are moving from writing code to shipping it."
+        },
+        {
+          "label": "Big name",
+          "text": "Anthropic's Claude is widely used for coding."
+        }
+      ],
+      "background": "Anthropic makes the Claude AI models and the Claude Code coding tool.",
+      "entities": [
+        "Anthropic",
+        "AI agents",
+        "AI coding"
+      ],
+      "meme": {
+        "top": "The AI fixes your pull request",
+        "bottom": "a human still presses merge",
+        "take": "Claude can now fix your pull request, then wait politely for a human to press merge."
+      },
+      "stats": [],
+      "motif": "agent",
+      "category": "ai",
+      "hype": 70,
+      "prevHype": null,
+      "source": "ZDNET",
+      "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "game-gta-vi-metacritic-99",
+      "title": "GTA VI ties Ocarina of Time with a 99 on Metacritic",
+      "summary": "GTA VI's reviews give it a Metacritic score of 99, level with The Legend of Zelda: Ocarina of Time, Shattered reports.",
+      "why": "Ocarina of Time has held the top Metacritic spot for decades, so matching it is a rare feat.",
+      "happened": "Shattered calls it a tie rather than a record broken. GameRant has also covered the gap between critic and user scores on the PlayStation Store and Metacritic.",
+      "next": "Watch for whether the score holds as more reviews arrive.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "Ocarina of Time has long been the benchmark for review scores."
+        },
+        {
+          "label": "Big name",
+          "text": "GTA VI is the biggest release of the year."
+        }
+      ],
+      "background": "Metacritic averages critics' reviews into a score out of 100. Ocarina of Time launched on the Nintendo 64 in 1998.",
+      "entities": [
+        "GTA VI",
+        "Rockstar",
+        "Nintendo"
+      ],
+      "meme": {
+        "top": "GTA VI matched Ocarina of Time",
+        "bottom": "it only took 28 years and helicopters",
+        "take": "GTA VI tied Ocarina of Time, and Ocarina did it without a single helicopter."
+      },
+      "stats": [
         {
           "value": "99",
           "label": "Metacritic score"
@@ -127,11 +623,58 @@
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 86,
-      "prevHype": 92,
-      "source": "Business Wire",
-      "url": "https://www.businesswire.com/news/home/20261120446139/en/Grand-Theft-Auto-VI-Shatters-Entertainment-Box-Office-Records-with-%243.79-Billion-in-Day-One-Retail-Sales",
-      "published": "2026-11-20"
+      "hype": 70,
+      "prevHype": null,
+      "source": "Shattered",
+      "url": "https://shattered.io/gta-vi-ties-ocarina-of-time-99-metacritic-record-tie-not-record-break/",
+      "published": "2026-11-22"
+    },
+    {
+      "id": "ent-mario-galaxy-netflix",
+      "title": "The Super Mario Galaxy Movie comes to Netflix on November 30",
+      "summary": "The Super Mario Galaxy Movie joins Netflix's US library on November 30 after its Peacock run, Collider reports.",
+      "why": "It was the year's first billion-dollar film, so its streaming debut is a big holiday draw.",
+      "happened": "Collider says the film was the first 2026 release to pass $1 billion at the box office, short of the $1.3 billion of the 2023 original. A further sequel is said not to be expected before 2029.",
+      "next": "Watch for whether it tops Netflix's film chart in its first week.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Mario is Nintendo's most famous character."
+        },
+        {
+          "label": "Scale",
+          "text": "It passed $1 billion at the box office."
+        }
+      ],
+      "background": "The Super Mario Bros. Movie from Illumination and Nintendo was one of 2023's biggest hits.",
+      "entities": [
+        "Netflix",
+        "Nintendo",
+        "Mario",
+        "Video game adaptations"
+      ],
+      "meme": {
+        "top": "A billion-dollar film reaches Netflix",
+        "bottom": "Mario has seen tougher pipes",
+        "take": "A billion-dollar Mario film lands on Netflix, the couch finally beating the cinema."
+      },
+      "stats": [
+        {
+          "value": "Nov 30",
+          "label": "Netflix US release"
+        },
+        {
+          "value": "$1B+",
+          "label": "box office, reported"
+        }
+      ],
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 70,
+      "prevHype": null,
+      "source": "Collider",
+      "url": "https://collider.com/anya-taylor-joy-super-mario-galaxy-movie-netflix-streaming-release-date-november-2026/",
+      "published": "2026-11-24"
     },
     {
       "id": "ai-riemann-claude-claim",
@@ -139,7 +682,7 @@
       "summary": "Anthropic mathematician Levent Alpöge says he proved the Riemann Hypothesis with help from Claude, Bloomberg reports.",
       "why": "The Riemann Hypothesis is one of the most famous unsolved problems in mathematics, so a proof would be historic.",
       "happened": "Levent Alpöge published a computer-checkable proof claim. Independent mathematicians have compiled the Lean code but are still checking whether its formal statement matches the real hypothesis, The Neuron reports.",
-      "next": "Watch for whether reviewers agree the formal statement captures the actual Riemann Hypothesis.",
+      "next": "Watch for whether reviewers agree the formal statement captures the actual Riemann Hypothesis, as Anthropic posts more proofs.",
       "drivers": [
         {
           "label": "First of its kind",
@@ -177,173 +720,257 @@
       ],
       "motif": "network",
       "category": "ai",
-      "hype": 82,
-      "prevHype": 90,
+      "hype": 70,
+      "prevHype": 70,
       "source": "The Guardian",
       "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
       "published": "2026-11-21"
     },
     {
-      "id": "tech-nvidia-sec-slide",
-      "title": "Nvidia opens a CEO search as its board rules out Jensen Huang's return",
-      "summary": "Nvidia's board has hired Heidrick & Struggles to find a new CEO and says it does not plan to reinstate Huang, after shares fell 14% on Friday.",
-      "why": "Nvidia's chips power most of the AI boom, so turmoil there affects the whole industry.",
-      "happened": "Huang posted on November 17 that he would be honoured to return, but board chair Harvey Jones said the board does not intend to reinstate him. CFO Colette Kress is interim CEO. Shares closed at $125.53 on November 20.",
-      "next": "Watch for Huang's December 1 House committee interview and any news from the CEO search.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "Shares sit about 48% below their October record."
-        },
-        {
-          "label": "Big name",
-          "text": "Huang co-founded Nvidia and led it for over 30 years."
-        },
-        {
-          "label": "Risk",
-          "text": "Several regulators are looking at the company."
-        }
-      ],
-      "background": "Nvidia makes the GPUs behind most AI models. Finance chief Colette Kress is interim CEO after Huang resigned in November.",
-      "entities": [
-        "Nvidia",
-        "Stock market",
-        "AI chips",
-        "US policy"
-      ],
-      "meme": {
-        "top": "Nvidia is hiring a CEO",
-        "bottom": "the founder applied",
-        "take": "Nvidia's former CEO says he would come back, and the board has said no thank you."
-      },
-      "stats": [
-        {
-          "value": "-14%",
-          "label": "share fall, November 20"
-        },
-        {
-          "value": "$125.53",
-          "label": "close, November 20"
-        },
-        {
-          "value": "~48%",
-          "label": "below October 6 record"
-        }
-      ],
-      "motif": "chip",
-      "category": "tech",
-      "hype": 78,
-      "prevHype": 90,
-      "source": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/11/22/jensen-huang-has-lost-92-billion-and-nvidias-board-does-not-intend-to-bring-him-back-heres-what-9-stocks-did-the-year-after-their-founder-handed-over/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "ai-anthropic-ipo-pricing",
-      "title": "Questions grow over Anthropic's IPO as its shares keep sliding",
-      "summary": "The FT asks whether Anthropic and its bankers got the IPO wrong, after weak trading and a quick use of the option to sell extra shares.",
-      "why": "The listing is the first big test of how public markets value a frontier AI company.",
-      "happened": "Shares priced at $83 opened at $111.50 and fell about 9% on day two. Reuters reports Anthropic limited some of its 22 underwriters to four senior bankers and sought six-month limits on their work with AI rivals.",
-      "next": "Watch for how the shares trade this week and the December 15 lock-up release.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "It was described as the largest US listing on record."
-        },
-        {
-          "label": "Controversy",
-          "text": "Some bankers reportedly chafed at the unusual limits on deal teams."
-        },
-        {
-          "label": "Timing",
-          "text": "The slide comes during a wider tech sell-off."
-        }
-      ],
-      "background": "Anthropic is the San Francisco AI company behind the Claude models. It listed on Nasdaq under the ticker ANT.",
-      "entities": [
-        "Anthropic",
-        "AI funding",
-        "Stock market"
-      ],
-      "meme": {
-        "top": "The IPO had strict rules for bankers",
-        "bottom": "and none for the share price",
-        "take": "Anthropic controlled who worked on its IPO, but not who sold afterwards."
-      },
-      "stats": [
-        {
-          "value": "$83",
-          "label": "IPO price"
-        },
-        {
-          "value": "$111.50",
-          "label": "opening price"
-        },
-        {
-          "value": "22",
-          "label": "IPO underwriters"
-        }
-      ],
-      "motif": "money",
-      "category": "ai",
-      "hype": 72,
-      "prevHype": 82,
-      "source": "Financial Times",
-      "url": "https://www.ft.com/content/d501198c-14a4-4b96-8880-c3997545902e",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "ai-frostbite-ai-designed-cpu",
-      "title": "Startup says AI agents designed a whole new CPU architecture",
-      "summary": "Architect Labs says AI agents designed Frostbite, a processor with a new instruction set, which it says beat a conventional core on efficiency in simulation.",
-      "why": "Chip design takes large teams years, so AI doing much of it would change how processors are made.",
-      "happened": "The company reports 4.59 times the performance per watt of a similar in-order CPU across 25 simulated workloads, and 3.83 times without AI-specific tuning. The 7 nm design has not been built as a chip.",
-      "next": "Watch for a physical test chip and independent benchmarks.",
+      "id": "ai-shirudo-openai-cisco",
+      "title": "OpenAI and Cisco release Shirudo, an open-source runtime for AI-written security patches",
+      "summary": "OpenAI and Cisco released Shirudo, which loads temporary kernel protections on running Linux systems while real patches are prepared.",
+      "why": "It is a test of whether AI can write stopgap defences quickly when a new flaw appears.",
+      "happened": "In a controlled test, a Codex-written shield blocked a Java4Shell exploit on a running server without a restart. It is pre-release and BSD-licensed, and deploying shields needs security-team approval.",
+      "next": "Watch for early adopters and whether the shields hold up outside controlled tests.",
       "drivers": [
         {
           "label": "First of its kind",
-          "text": "A full CPU architecture designed by AI agents would be new."
+          "text": "It lets AI agents write and deploy kernel shields."
+        },
+        {
+          "label": "Timing",
+          "text": "It arrives after a run of serious open-source flaws."
+        }
+      ],
+      "background": "eBPF is a Linux feature that lets small programs run safely inside the kernel, often used for security tools.",
+      "entities": [
+        "OpenAI",
+        "Cisco",
+        "Cybersecurity",
+        "AI coding"
+      ],
+      "meme": {
+        "top": "An AI writes a patch for the patch",
+        "bottom": "until the real patch shows up",
+        "take": "OpenAI and Cisco built a plaster for Linux that an AI applies while the doctor is on the way."
+      },
+      "stats": [],
+      "motif": "shield",
+      "category": "ai",
+      "hype": 68,
+      "prevHype": null,
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "tech-azure-apim-norway",
+      "title": "Azure API Management flaw used to steal secrets, Norway links it to energy firm attacks",
+      "summary": "Attackers abused a flaw in Azure API Management Classic tiers to read stored secrets and keys; Microsoft closed the path on November 19.",
+      "why": "Stolen cloud keys can open other systems, and the flaw is linked to attacks on energy companies.",
+      "happened": "Attackers could read named values, client secrets, subscription keys and tokens. Norway's NSM linked the activity to intrusions at Equinor and Skagerak Energi, The Register reports. No CVE was assigned, and stolen secrets must be rotated.",
+      "next": "Watch for guidance from Microsoft and whether more victims come forward.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "The fix does not revoke keys that were already stolen."
         },
         {
           "label": "Scale",
-          "text": "The claimed efficiency gain is over four times."
-        },
-        {
-          "label": "Risk",
-          "text": "Results come from simulation, not real silicon."
+          "text": "Classic tiers from Developer to Premium were affected."
         }
       ],
-      "background": "A CPU's instruction set is the basic language of commands it understands. New ones are rare because software must be rebuilt for them.",
+      "background": "Azure API Management is Microsoft's cloud service for publishing and securing companies' APIs.",
       "entities": [
-        "AI agents",
-        "AI chips",
-        "AI research"
+        "Microsoft",
+        "Cybersecurity",
+        "Exploited vulnerabilities",
+        "Energy"
       ],
       "meme": {
-        "top": "AI agents designed a new processor",
-        "bottom": "for future AI agents to run on",
-        "take": "AI has started designing its own hardware, which is one way to skip the job interview."
+        "top": "Microsoft fixed the leak",
+        "bottom": "the keys already left the building",
+        "take": "Microsoft patched the hole. Everyone now has to change the locks the burglars copied."
       },
       "stats": [
         {
-          "value": "4.59x",
-          "label": "perf per watt, simulated"
-        },
-        {
-          "value": "3.83x",
-          "label": "without AI-specific tuning"
-        },
-        {
-          "value": "7 nm",
-          "label": "pre-silicon design"
+          "value": "Nov 19",
+          "label": "Microsoft closed the flaw"
         }
       ],
-      "motif": "chip",
-      "category": "ai",
-      "hype": 70,
+      "motif": "shield",
+      "category": "tech",
+      "hype": 66,
       "prevHype": null,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "ai-grok-deepfake-lawsuits",
+      "title": "Oregon and Virginia sue SpaceX over Grok sexual deepfake images",
+      "summary": "Oregon and Virginia sued SpaceX and related companies, alleging Grok generated nonconsensual sexualised images, including of children.",
+      "why": "It is a major legal test of who is responsible when an AI tool is used to make abusive images.",
+      "happened": "The states allege inadequate safeguards and misleading safety claims, and seek civil penalties and court orders, CNBC reports. The claims are allegations and have not been proven in court.",
+      "next": "Watch for the companies' response and whether other states file similar suits.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "Abusive AI images are a growing concern for lawmakers."
+        },
+        {
+          "label": "Big name",
+          "text": "Grok is the chatbot from Elon Musk's AI business."
+        }
+      ],
+      "background": "Grok is an AI chatbot built by xAI, Elon Musk's AI company, which is now part of SpaceX.",
+      "entities": [
+        "SpaceX",
+        "AI policy"
+      ],
+      "meme": {
+        "top": "Two states have taken Grok to court",
+        "bottom": "over images it allegedly made",
+        "take": "Two US states say Grok's safeguards did not hold, and they want a court to decide."
+      },
+      "stats": [
+        {
+          "value": "2",
+          "label": "states suing"
+        }
+      ],
+      "motif": "doc",
+      "category": "ai",
+      "hype": 66,
+      "prevHype": null,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "ent-hunt-for-gollum-casting",
+      "title": "The Hunt for Gollum reportedly casts Anya Taylor-Joy as an Elf",
+      "summary": "Anya Taylor-Joy will play an Elf named Seren in The Lord of the Rings: The Hunt for Gollum, Collider reports.",
+      "why": "A new Lord of the Rings film is a major event for one of the best-loved fantasy series.",
+      "happened": "Collider reports the film is expected in cinemas on December 17, 2027, the same day as Avengers: Secret Wars. Jamie Dornan is reported to replace Viggo Mortensen as Aragorn, with Ian McKellen and Elijah Wood returning.",
+      "next": "Watch for an official cast announcement and whether the release date holds.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "It brings back actors from the original trilogy."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It is reported to share a date with Avengers: Secret Wars."
+        }
+      ],
+      "background": "The Lord of the Rings films are based on J.R.R. Tolkien's novels; Peter Jackson's trilogy came out in 2001-2003.",
+      "entities": [
+        "Book adaptations",
+        "Revived franchises",
+        "Theatrical releases"
+      ],
+      "meme": {
+        "top": "The Hunt for Gollum adds new Elves",
+        "bottom": "Gollum remains unavailable",
+        "take": "The Hunt for Gollum keeps adding cast. Gollum remains hard to find."
+      },
+      "stats": [
+        {
+          "value": "Dec 17, 2027",
+          "label": "expected release, reported"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 66,
+      "prevHype": null,
+      "source": "Collider",
+      "url": "https://collider.com/anya-taylor-joy-super-mario-galaxy-movie-netflix-streaming-release-date-november-2026/",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ai-glm-5-4",
+      "title": "Z.ai releases GLM-5.4 with a 1 million token context window",
+      "summary": "China's Z.ai released GLM-5.4, which it calls its first Loop Transformer flagship, with a 1 million token context and image support.",
+      "why": "Chinese labs keep releasing strong models quickly, adding pressure on US rivals.",
+      "happened": "Z.ai claims it performs like 2 to 3 trillion parameter models. It is live in Z.ai's chat and coding products; the API is 'coming soon' and open weights are promised after safety work.",
+      "next": "Watch for the API launch and independent benchmarks of Z.ai's claims.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "It is part of a fast-moving race among Chinese AI labs."
+        },
+        {
+          "label": "Scale",
+          "text": "It offers a 1 million token context window."
+        }
+      ],
+      "background": "Z.ai, also known as Zhipu AI, is a Beijing AI company known for its GLM series of language models.",
+      "entities": [
+        "China",
+        "Frontier models",
+        "AI coding"
+      ],
+      "meme": {
+        "top": "Z.ai's model reads a million tokens",
+        "bottom": "it will remember this meeting",
+        "take": "Z.ai's new model has a million-token memory and an API that is coming soon."
+      },
+      "stats": [
+        {
+          "value": "1M",
+          "label": "token context window"
+        },
+        {
+          "value": "~200",
+          "label": "tokens per second, off-peak, Z.ai"
+        }
+      ],
+      "motif": "network",
+      "category": "ai",
+      "hype": 64,
+      "prevHype": null,
+      "source": "TechNode",
+      "url": "https://technode.com/2026/11/23/zhipu-rolls-out-glm-5-4-with-vision-and-million-token-context/",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "game-god-of-war-faye",
+      "title": "Deborah Ann Woll cast as Faye in Amazon's God of War series",
+      "summary": "Amazon MGM Studios says Deborah Ann Woll will play Faye, Kratos's late wife, in its live-action God of War series.",
+      "why": "God of War is one of PlayStation's biggest series, and fans watch every casting choice closely.",
+      "happened": "Amazon MGM Studios announced the casting on November 23. No release date has been set for the series.",
+      "next": "Watch for more casting news and a first look at the show.",
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "God of War fans follow the adaptation closely."
+        },
+        {
+          "label": "Trend",
+          "text": "Game adaptations have become big business for streamers."
+        }
+      ],
+      "background": "God of War is Sony's action series about Kratos; its Norse-era games began in 2018. Woll is known for Daredevil.",
+      "entities": [
+        "Amazon",
+        "Sony",
+        "Video game adaptations"
+      ],
+      "meme": {
+        "top": "Amazon cast a character",
+        "bottom": "who is mostly famous for being gone",
+        "take": "Amazon cast a God of War character whose main role in the games was being missed."
+      },
+      "stats": [],
+      "motif": "screen",
+      "category": "gaming",
+      "hype": 64,
+      "prevHype": null,
+      "source": "Gamingroute",
+      "url": "https://gamingroute.com/god-of-war-series-deborah-ann-woll-faye/",
       "published": "2026-11-23"
     },
     {
@@ -390,350 +1017,60 @@
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 70,
-      "prevHype": null,
+      "hype": 64,
+      "prevHype": 64,
       "source": "Occupy Cinema",
       "url": "https://cinemaoccupy.substack.com/p/sunrise-on-the-reaping-opens-to-120",
       "published": "2026-11-24"
     },
     {
-      "id": "tech-cisco-expressway-exploited",
-      "title": "Cisco Expressway flaw exploited to break into internal networks",
-      "summary": "Attackers used a critical Cisco Expressway flaw, CVE-2026-76466, to get root access on devices and move into internal networks, Help Net Security reports.",
-      "why": "Expressway handles video calls at the edge of many company networks, so a flaw there opens the door inside.",
-      "happened": "Security firm F6 says attackers took over two internet-facing devices, then reached two internal cluster nodes. CISA added the flaw to its exploited list on November 20. Cisco's fix is version X15.5.20.",
-      "next": "Watch for further victims and how quickly organisations apply the patch.",
-      "drivers": [
-        {
-          "label": "Risk",
-          "text": "It gives an unauthenticated attacker root access."
-        },
-        {
-          "label": "Scale",
-          "text": "Expressway is used widely for business video calls."
-        },
-        {
-          "label": "Timing",
-          "text": "CISA has told US agencies to patch."
-        }
-      ],
-      "background": "CISA, the US cybersecurity agency, keeps a list of flaws known to be exploited and sets patch deadlines for agencies.",
-      "entities": [
-        "Cybersecurity",
-        "Exploited vulnerabilities",
-        "CISA"
-      ],
-      "meme": {
-        "top": "A device built to keep calls secure",
-        "bottom": "let the callers in",
-        "take": "Cisco's video gateway was a little too welcoming to uninvited guests."
-      },
-      "stats": [
-        {
-          "value": "Nov 20",
-          "label": "added to CISA exploited list"
-        },
-        {
-          "value": "X15.5.20",
-          "label": "fixed version"
-        }
-      ],
-      "motif": "shield",
-      "category": "tech",
-      "hype": 70,
-      "prevHype": null,
-      "source": "Help Net Security",
-      "url": "https://helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "ai-trump-xi-military-ai",
-      "title": "Trump and Xi agreed humans should stay in military AI decisions, Bessent says",
-      "summary": "US Treasury Secretary Scott Bessent says the two leaders agreed that humans should stay involved in major military decisions that use AI.",
-      "why": "The US and China are the two biggest AI powers, so any shared limit on military AI is significant.",
-      "happened": "Reuters reported Bessent's comments on November 20. Semafor reports interest in joint US-China AI guardrails even as Washington restricts chip exports. No implementation details have been set.",
-      "next": "Watch for any written agreement or follow-up talks on how the principle would be applied.",
+      "id": "ent-snl-december-hosts",
+      "title": "SNL sets Seyfried, De Niro and Chalamet as December hosts",
+      "summary": "SNL confirmed Amanda Seyfried on December 5, Robert De Niro on December 12 and Timothee Chalamet on December 19.",
+      "why": "SNL's holiday episodes are among its most watched, and the line-up mixes three very different stars.",
+      "happened": "Musical guests are Don Toliver, Slayyyter and Charli xcx. Consequence notes that De Niro, at 83, would be the second-oldest host after Betty White, who hosted at 88.",
+      "next": "Watch for the sketches that come out of the Christmas episode.",
       "drivers": [
         {
           "label": "Big name",
-          "text": "It involves the leaders of the world's two largest economies."
-        },
-        {
-          "label": "Risk",
-          "text": "Autonomous weapons are one of the most debated uses of AI."
-        },
-        {
-          "label": "First of its kind",
-          "text": "Shared US-China AI guardrails have been rare."
-        }
-      ],
-      "background": "The US has limited exports of advanced AI chips to China for several years, citing national security.",
-      "entities": [
-        "China",
-        "US policy",
-        "AI policy"
-      ],
-      "meme": {
-        "top": "Two superpowers agreed on AI",
-        "bottom": "that someone should be in charge of it",
-        "take": "The US and China found common ground on AI, which is that a person should press the button."
-      },
-      "stats": [],
-      "motif": "globe",
-      "category": "ai",
-      "hype": 68,
-      "prevHype": null,
-      "source": "Reuters",
-      "url": "https://www.reuters.com/world/china/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says-2026-11-20/",
-      "published": "2026-11-20"
-    },
-    {
-      "id": "tech-tsmc-samsung-china-pause",
-      "title": "TSMC and Samsung reportedly pause some chip shipments to China",
-      "summary": "TrendForce reports TSMC and Samsung have suspended some chip shipments to Chinese customers after tighter US export rules.",
-      "why": "The pause could reach everyday electronics, not just AI processors.",
-      "happened": "TrendForce says the impact could extend to consumer electronics and some 16nm orders. Impact Newswire separately reports TSMC suspended some approved advanced-chip orders from Chinese designers. Neither firm has confirmed it.",
-      "next": "Watch for statements from TSMC or Samsung and any clarification of the US rules.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "TSMC and Samsung make most of the world's advanced chips."
-        },
-        {
-          "label": "Risk",
-          "text": "Supply gaps could raise device prices."
-        },
-        {
-          "label": "Rivalry",
-          "text": "Chips are central to US-China tech competition."
-        }
-      ],
-      "background": "TSMC in Taiwan is the world's largest contract chipmaker. Samsung is the other major maker of advanced chips.",
-      "entities": [
-        "China",
-        "US policy",
-        "AI chips"
-      ],
-      "meme": {
-        "top": "New rules on chips to China",
-        "bottom": "now covering the boring chips too",
-        "take": "Export controls have moved from AI processors to the parts in your microwave."
-      },
-      "stats": [],
-      "motif": "globe",
-      "category": "tech",
-      "hype": 68,
-      "prevHype": null,
-      "source": "TrendForce",
-      "url": "https://www.trendforce.com/news/2026/11/20/news-tsmc-samsung-reportedly-pause-china-consumer-chip-shipments-under-new-u-s-rules-16nm-orders-affected/",
-      "published": "2026-11-20"
-    },
-    {
-      "id": "ent-blade-runner-2099",
-      "title": "Blade Runner 2099 arrives on Prime Video with all eight episodes on November 25",
-      "summary": "The eight-episode Blade Runner series, starring Michelle Yeoh and Hunter Schafer, streams on Prime Video from November 25.",
-      "why": "It continues one of science fiction's most influential film series on television.",
-      "happened": "BillFrost.tv says the series, created by Silka Luisa, had been stuck in development since 2024. TVLine also lists all episodes for November 25.",
-      "next": "Watch for reviews once all the episodes are out.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "Blade Runner (1982) is a cult science fiction classic."
-        },
-        {
-          "label": "Big name",
-          "text": "Michelle Yeoh leads the cast."
+          "text": "All three hosts are major film stars."
         },
         {
           "label": "Timing",
-          "text": "All episodes drop just before the holiday weekend."
+          "text": "The run ends with the Christmas episode."
         }
       ],
-      "background": "Blade Runner is Ridley Scott's 1982 film based on a Philip K. Dick novel. A sequel, Blade Runner 2049, followed in 2017.",
+      "background": "Saturday Night Live is NBC's long-running live sketch comedy show, first broadcast in 1975.",
       "entities": [
-        "Amazon",
-        "Streaming",
-        "Revived franchises",
-        "Thanksgiving releases"
+        "NBCUniversal",
+        "Live music"
       ],
       "meme": {
-        "top": "A show about spotting the machines",
-        "bottom": "arrives in the year of AI",
-        "take": "Blade Runner 2099 lands just as the question it asks has become an everyday chore."
+        "top": "Robert De Niro is hosting SNL at 83",
+        "bottom": "the cue cards will be large",
+        "take": "SNL booked De Niro for December, and the cast will be on their best behaviour."
       },
       "stats": [
         {
-          "value": "8",
-          "label": "episodes, released at once"
+          "value": "Dec 5",
+          "label": "Seyfried hosts"
         },
         {
-          "value": "Nov 25",
-          "label": "release date"
+          "value": "Dec 12",
+          "label": "De Niro hosts"
+        },
+        {
+          "value": "Dec 19",
+          "label": "Chalamet hosts"
         }
       ],
       "motif": "screen",
       "category": "entertainment",
-      "hype": 66,
-      "prevHype": 60,
-      "source": "BillFrost.tv",
-      "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
+      "hype": 62,
+      "prevHype": null,
+      "source": "Consequence",
+      "url": "https://consequence.net/2026/11/snl-christmas-episode-timothee-chalamet-charli-xcx/",
       "published": "2026-11-23"
-    },
-    {
-      "id": "game-switch-2-black-friday",
-      "title": "Switch 2 Mario Kart World bundle drops to $499 for Black Friday",
-      "summary": "Amazon and Walmart are selling the Switch 2 with Mario Kart World for $499, $50 below its $549 price, for a limited time.",
-      "why": "It is one of the first real price cuts on Nintendo's new console in its first holiday season.",
-      "happened": "Nintendo Wire calls it one of the biggest Switch 2 deals yet. Walmart is also listing Mario Galaxy 1 and 2, Donkey Kong Bananza and other Nintendo games at $30 each, My Nintendo News reports.",
-      "next": "Watch for whether stock lasts through Black Friday weekend.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "It is $50 off the bundle's usual price."
-        },
-        {
-          "label": "Timing",
-          "text": "Black Friday is the biggest console sales week."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Mario Kart is among Nintendo's best-selling series."
-        }
-      ],
-      "background": "The Switch 2 is Nintendo's latest console, the follow-up to the 2017 Switch.",
-      "entities": [
-        "Nintendo",
-        "Switch 2",
-        "Mario",
-        "Black Friday"
-      ],
-      "meme": {
-        "top": "Fifty dollars off a Switch 2",
-        "bottom": "the shells are still full price",
-        "take": "Black Friday takes $50 off Mario Kart, which will be lost to a blue shell by Saturday."
-      },
-      "stats": [
-        {
-          "value": "$499",
-          "label": "Black Friday bundle price"
-        },
-        {
-          "value": "$549",
-          "label": "regular price"
-        },
-        {
-          "value": "$30",
-          "label": "selected Walmart games"
-        }
-      ],
-      "motif": "bag",
-      "category": "gaming",
-      "hype": 66,
-      "prevHype": null,
-      "source": "Nintendo Wire",
-      "url": "https://nintendowire.com/news/2026/11/22/nintendo-switch-2-mario-kart-world-bundle-is-50-off-but-only-for-a-limited-time/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "tech-optimizely-skimmer",
-      "title": "Optimizely supply-chain attack put a card skimmer on 178 brands' sites",
-      "summary": "Malicious code in Optimizely's JavaScript ran on 178 brands' websites on November 16, skimming card data and swapping crypto addresses, reports say.",
-      "why": "One compromised supplier script can reach shoppers on many big sites at once, days before Black Friday.",
-      "happened": "The Layman Security, citing Report URI's research, says the code targeted iPhone users, skimmed payment card data and replaced crypto wallet addresses. It ran through Optimizely's experiment scripts.",
-      "next": "Watch for the list of affected brands and notices to shoppers.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "178 brands were affected."
-        },
-        {
-          "label": "Timing",
-          "text": "It hit just before the biggest online shopping week."
-        },
-        {
-          "label": "Trend",
-          "text": "Attackers target shared scripts to reach many sites."
-        }
-      ],
-      "background": "Optimizely makes tools that let websites test different page designs, using scripts loaded on customers' sites.",
-      "entities": [
-        "Cybersecurity",
-        "Supply chain attacks",
-        "Payment data",
-        "Black Friday"
-      ],
-      "meme": {
-        "top": "Optimizely helps sites test changes",
-        "bottom": "someone tested a very bad one",
-        "take": "Optimizely's script ran an experiment on 178 brands. The control group was your card."
-      },
-      "stats": [
-        {
-          "value": "178",
-          "label": "brands' sites affected"
-        },
-        {
-          "value": "Nov 16",
-          "label": "date the code ran"
-        }
-      ],
-      "motif": "shield",
-      "category": "tech",
-      "hype": 66,
-      "prevHype": null,
-      "source": "The Layman Security",
-      "url": "https://thelaymansecurity.com/optimizely-supply-chain-attack-skimmer/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "ai-spacex-data-centers-power",
-      "title": "SpaceX's $74 billion AI data-centre plans raise questions over power bills",
-      "summary": "Fortune reports SpaceX has about $74 billion of AI facilities planned in Texas and Arizona, and locals want to know who pays for the grid.",
-      "why": "Big AI data centres need huge amounts of electricity, and households worry about higher bills.",
-      "happened": "Fortune says the Arizona campus alone implies about 6 gigawatts of demand when fully built. Residents and officials want proof the developer, not local ratepayers, will cover grid costs.",
-      "next": "Watch for utility agreements or rulings on who pays for new power lines.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "About 6 gigawatts is a city-sized amount of power."
-        },
-        {
-          "label": "Money",
-          "text": "The planned spending is about $74 billion."
-        },
-        {
-          "label": "Risk",
-          "text": "Grid upgrades can end up on household bills."
-        }
-      ],
-      "background": "SpaceX is Elon Musk's rocket and satellite company. Data centres for AI run thousands of power-hungry chips at once.",
-      "entities": [
-        "SpaceX",
-        "AI infrastructure",
-        "Energy"
-      ],
-      "meme": {
-        "top": "SpaceX wants 6 gigawatts",
-        "bottom": "residents want to see the bill first",
-        "take": "SpaceX can land rockets on a barge, but the hard part is a town hall about electricity rates."
-      },
-      "stats": [
-        {
-          "value": "$74B",
-          "label": "planned AI facilities"
-        },
-        {
-          "value": "~6 GW",
-          "label": "Arizona demand at full build"
-        }
-      ],
-      "motif": "power",
-      "category": "ai",
-      "hype": 64,
-      "prevHype": null,
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/11/22/spacex-74-billion-ai-data-centers-texas-arizona-who-pays/",
-      "published": "2026-11-22"
     },
     {
       "id": "ent-hexed-thanksgiving-openers",
@@ -776,201 +1113,38 @@
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 64,
-      "prevHype": null,
+      "hype": 62,
+      "prevHype": 62,
       "source": "Occupy Cinema",
       "url": "https://cinemaoccupy.substack.com/p/sunrise-on-the-reaping-opens-to-120",
       "published": "2026-11-24"
     },
     {
-      "id": "ai-ai-stocks-correction",
-      "title": "AI-led sell-off deepens, dragging Bitcoin to a 20-week low near $60,000",
-      "summary": "After the Nasdaq's 5.28% fall on November 20, the tech sell-off has spread, with Bitcoin dropping to about $60,000, TechJuice reports.",
-      "why": "Many savers and retirement funds hold the big tech stocks that have led markets for years.",
-      "happened": "The Nasdaq, S&P 500 and Dow had their worst week since April 2025. TechJuice ties Bitcoin's slide to doubts about AI firms after Anthropic's share reversal. UBS still expects AI investment of $1.4 trillion in 2027.",
-      "next": "Watch for whether tech shares steady this week as investors debate if AI spending has peaked.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "The Nasdaq erased its 2026 gain in one session."
-        },
-        {
-          "label": "Risk",
-          "text": "Investors are questioning whether AI spending will pay off."
-        },
-        {
-          "label": "Ripple effect",
-          "text": "The selling has spread from tech stocks to crypto."
-        }
-      ],
-      "background": "A correction means a fall of 10% or more from a recent high. The Nasdaq is heavy with tech companies.",
-      "entities": [
-        "Stock market",
-        "AI funding",
-        "Anthropic",
-        "Nvidia"
-      ],
-      "meme": {
-        "top": "The AI trade had a bad week",
-        "bottom": "Bitcoin offered moral support",
-        "take": "The AI sell-off spread to crypto, proving diversification is mostly a state of mind."
-      },
-      "stats": [
-        {
-          "value": "-5.28%",
-          "label": "Nasdaq on November 20"
-        },
-        {
-          "value": "~$60,000",
-          "label": "Bitcoin, 20-week low, reported"
-        },
-        {
-          "value": "$1.4T",
-          "label": "AI investment in 2027, UBS est."
-        }
-      ],
-      "motif": "money",
-      "category": "ai",
-      "hype": 62,
-      "prevHype": 80,
-      "source": "TechJuice",
-      "url": "https://www.techjuice.pk/bitcoin-falls-to-60000-as-tech-stock-sell-off-deepens/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "ai-meta-net-zero-rethink",
-      "title": "Meta reconsiders its 2030 net-zero goal as AI pushes emissions up",
-      "summary": "Meta says it is re-evaluating its net-zero milestones as its AI infrastructure grows, Ars Technica reports.",
-      "why": "Big tech firms promised to cut emissions, and AI is testing whether those promises hold.",
-      "happened": "Meta's reported total emissions rose from 15.6 million metric tons of CO2 equivalent in 2024 to more than 21.7 million in 2025, roughly 40% higher. It had aimed for net zero across its value chain by 2030.",
-      "next": "Watch for whether Meta sets a new target date or changes how it counts emissions.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "Emissions rose about 40% in one year."
-        },
-        {
-          "label": "Trend",
-          "text": "AI data centres are driving up energy use across big tech."
-        },
-        {
-          "label": "Big name",
-          "text": "Meta is one of the largest AI spenders."
-        }
-      ],
-      "background": "Meta owns Facebook, Instagram and WhatsApp and is building large data centres for its AI models.",
-      "entities": [
-        "Meta",
-        "AI infrastructure",
-        "Energy"
-      ],
-      "meme": {
-        "top": "Meta planned net zero by 2030",
-        "bottom": "AI had other plans",
-        "take": "Meta is rethinking net zero, having found a technology that is very good at the opposite."
-      },
-      "stats": [
-        {
-          "value": "21.7M+",
-          "label": "tons CO2e in 2025"
-        },
-        {
-          "value": "15.6M",
-          "label": "tons CO2e in 2024"
-        },
-        {
-          "value": "~40%",
-          "label": "rise in one year"
-        }
-      ],
-      "motif": "power",
-      "category": "ai",
-      "hype": 62,
-      "prevHype": null,
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "game-steam-awards-2026",
-      "title": "Steam Awards add a Hall of Fame vote between ten past Games of the Year",
-      "summary": "Nominations for the tenth Steam Awards run until November 30, with a new Hall of Fame pitting past winners against each other.",
-      "why": "It turns ten years of Steam's top games into one fan vote, which invites argument.",
-      "happened": "PC Gamer says the Hall of Fame includes GTA V, The Witcher 3, Elden Ring, Baldur's Gate 3 and Hollow Knight: Silksong. Three new categories were added, and voting starts with the Steam Winter Sale on December 17.",
-      "next": "Watch for the finalists when voting opens on December 17.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "Ten years of winners compete at once."
-        },
-        {
-          "label": "Rivalry",
-          "text": "Fans of Elden Ring and Baldur's Gate 3 will want their pick to win."
-        }
-      ],
-      "background": "The Steam Awards are fan-voted prizes run by Valve on its Steam PC store each year since 2016.",
-      "entities": [
-        "Valve",
-        "Steam Awards"
-      ],
-      "meme": {
-        "top": "Ten Games of the Year",
-        "bottom": "one of them is about to lose",
-        "take": "Valve asked fans to rank ten masterpieces, which is a fine way to end a friendship."
-      },
-      "stats": [
-        {
-          "value": "Nov 30",
-          "label": "nominations close"
-        },
-        {
-          "value": "Dec 17",
-          "label": "voting starts"
-        },
-        {
-          "value": "10",
-          "label": "past winners in Hall of Fame"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 62,
-      "prevHype": null,
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/2026-steam-awards-pit-the-goty-winners-of-the-past-10-years-against-each-other-in-an-all-out-battle-for-supremacy/",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "tech-vcenter-zero-day",
-      "title": "VMware vCenter zero-day was used for months before Broadcom's patch",
-      "summary": "Mandiant says a group it calls ARMORY CASTLE used vCenter flaw CVE-2026-123890 from September to make itself a sign-in administrator.",
-      "why": "vCenter runs the virtual servers behind many company data centres, so admin access there is very powerful.",
-      "happened": "The flaw is rated 9.8 out of 10. Broadcom patched it on November 19 and CISA added it to its exploited list. Help Net Security says the suspected group is linked to espionage.",
-      "next": "Watch for further victim disclosures and CISA's patch deadline.",
+      "id": "tech-vcenter-auth-bypass",
+      "title": "Broadcom patches another critical vCenter flaw after a recent zero-day",
+      "summary": "Broadcom fixed 23 VMware flaws, including a 9.8-rated authentication bypass in vCenter's directory service, CVE-2026-123903.",
+      "why": "vCenter runs many companies' virtual servers, and it was hit by an exploited zero-day only weeks ago.",
+      "happened": "The fix covers ESX, vCenter, Workstation, Fusion and Avi Load Balancer. Broadcom says none of the new flaws are known to be exploited, and that this bug is separate from the zero-day linked to a suspected China-nexus group.",
+      "next": "Watch for whether attackers begin targeting the new flaw before systems are patched.",
       "drivers": [
         {
           "label": "Risk",
-          "text": "It gave attackers top-level control of virtual servers."
-        },
-        {
-          "label": "Scale",
-          "text": "vCenter is used across large enterprises."
+          "text": "An authentication bypass can let attackers skip the login entirely."
         },
         {
           "label": "Timing",
-          "text": "It was exploited for months before a fix."
+          "text": "It follows closely after an exploited vCenter zero-day."
         }
       ],
-      "background": "VMware, owned by Broadcom, makes vSphere and vCenter, software used to run many virtual machines on shared hardware.",
+      "background": "Broadcom bought VMware, whose vCenter software manages virtual machines in many corporate data centres.",
       "entities": [
-        "Cybersecurity",
-        "Exploited vulnerabilities",
-        "CISA"
+        "Broadcom",
+        "Cybersecurity"
       ],
       "meme": {
-        "top": "Attackers made themselves admins",
-        "bottom": "and nobody asked for ID",
-        "take": "The vCenter flaw handed out admin rights with the care of a free sample stand."
+        "top": "vCenter got a new lock",
+        "bottom": "to replace the last new lock",
+        "take": "vCenter admins are patching again, which by now counts as a hobby."
       },
       "stats": [
         {
@@ -978,133 +1152,337 @@
           "label": "CVSS severity score"
         },
         {
-          "value": "Nov 19",
-          "label": "Broadcom patch"
+          "value": "23",
+          "label": "VMware flaws fixed"
         }
       ],
       "motif": "shield",
       "category": "tech",
-      "hype": 62,
-      "prevHype": null,
-      "source": "The Layman Security",
-      "url": "https://thelaymansecurity.com/vcenter-cve-2026-123890-armory-castle/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "ent-i-play-rocky-expands",
-      "title": "I Play Rocky takes second with $9.3 million in its wide expansion",
-      "summary": "Peter Farrelly's film about the making of Rocky expanded from 29 to 2,477 cinemas and took second with $9.3 million, AP reports.",
-      "why": "A crowd-pleasing film about making Rocky could become counter-programming to the Hunger Games prequel.",
-      "happened": "Audiences gave it a rare A+ CinemaScore, the same grade as Farrelly's Green Book. AP calls it a potential Oscar contender. Anthony Ippolito plays a young Sylvester Stallone.",
-      "next": "Watch for whether word of mouth carries it through Thanksgiving.",
-      "drivers": [
-        {
-          "label": "Word of mouth",
-          "text": "An A+ CinemaScore is rare."
-        },
-        {
-          "label": "Nostalgia",
-          "text": "Rocky is one of cinema's best-known underdog stories."
-        },
-        {
-          "label": "Rivalry",
-          "text": "It expanded against the Hunger Games prequel."
-        }
-      ],
-      "background": "Rocky (1976) was written by and starred Sylvester Stallone and won the Oscar for best picture.",
-      "entities": [
-        "Amazon",
-        "Box office",
-        "Theatrical releases",
-        "Sports stories"
-      ],
-      "meme": {
-        "top": "A film about an underdog",
-        "bottom": "finished second, as underdogs do",
-        "take": "I Play Rocky took second place, which is the most Rocky result possible."
-      },
-      "stats": [
-        {
-          "value": "$9.3M",
-          "label": "weekend gross"
-        },
-        {
-          "value": "2,477",
-          "label": "cinemas"
-        },
-        {
-          "value": "A+",
-          "label": "CinemaScore"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
       "hype": 60,
-      "prevHype": 58,
-      "source": "ABC News (AP)",
-      "url": "https://abcnews.com/amp/Entertainment/wireStory/resurgent-hunger-games-big-box-office-despite-competition-138361740",
-      "published": "2026-11-23"
+      "prevHype": null,
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "published": "2026-11-24"
     },
     {
-      "id": "ai-sierra-30b-valuation",
-      "title": "Customer-service AI startup Sierra is reported to raise $1.75 billion",
-      "summary": "Sierra, which makes AI agents for customer service, has reportedly raised $1.75 billion at a $30 billion valuation.",
-      "why": "It shows investors still pay big prices for AI agents even as AI stocks wobble.",
-      "happened": "Wowtale reports the round values Sierra at $30 billion. The company says its annual recurring revenue has passed $400 million.",
-      "next": "Watch for confirmation of the investors and how Sierra plans to spend the money.",
+      "id": "ai-meta-muse-uk",
+      "title": "Meta launches its Muse AI agent in the UK",
+      "summary": "Meta's personal AI agent, Muse, is now available to UK adults on mobile, web and WhatsApp, and can keep working after the app closes.",
+      "why": "Meta can put an agent in front of billions of users through WhatsApp and its other apps.",
+      "happened": "Meta says users must approve actions such as sending email or making purchases. Access is free, with optional subscriptions for higher usage. Muse is also available as a Chrome sidebar extension.",
+      "next": "Watch for how many UK users try it and when it reaches other countries.",
       "drivers": [
         {
-          "label": "Money",
-          "text": "A $30 billion valuation puts it among the largest private AI firms."
+          "label": "Scale",
+          "text": "WhatsApp gives Meta a huge built-in audience."
         },
         {
           "label": "Trend",
-          "text": "Companies are moving support work to AI agents."
-        },
-        {
-          "label": "Timing",
-          "text": "The raise comes during an AI stock sell-off."
+          "text": "Big tech firms are racing to launch personal agents."
         }
       ],
-      "background": "Sierra builds AI agents that answer customer questions for businesses.",
+      "background": "Meta owns Facebook, Instagram and WhatsApp, and builds the Llama family of AI models.",
       "entities": [
-        "AI agents",
-        "AI funding"
+        "Meta",
+        "AI agents"
       ],
       "meme": {
-        "top": "The stock market is nervous about AI",
-        "bottom": "private investors did not get the memo",
-        "take": "Public markets are selling AI while private ones keep buying it at full price."
+        "top": "Meta's agent asks before buying things",
+        "bottom": "which is more than most of us do",
+        "take": "Meta's agent asks before it spends your money, a level of restraint few apps share."
       },
       "stats": [
         {
-          "value": "$1.75B",
-          "label": "round size, reported"
-        },
-        {
-          "value": "$30B",
-          "label": "valuation, reported"
-        },
-        {
-          "value": "$400M+",
-          "label": "annual recurring revenue"
+          "value": "18+",
+          "label": "age limit for UK users"
         }
       ],
-      "motif": "money",
+      "motif": "agent",
       "category": "ai",
       "hype": 60,
       "prevHype": null,
-      "source": "Wowtale",
-      "url": "https://en.wowtale.net/2026/11/24/236131",
+      "source": "Meta",
+      "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "game-switch-2-black-friday",
+      "title": "Switch 2 Mario Kart World bundle drops to $499 for Black Friday",
+      "summary": "Amazon and Walmart are selling the Switch 2 with Mario Kart World for $499, $50 below its $549 price, for a limited time.",
+      "why": "It is one of the first real price cuts on Nintendo's new console in its first holiday season.",
+      "happened": "Amazon and Walmart are selling the bundle for $499, which Nintendo Wire calls one of the biggest Switch 2 deals yet. In the UK, Shattered lists the Switch 2 at £399 for Black Friday.",
+      "next": "Watch for whether stock lasts through Black Friday weekend.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "It is $50 off the bundle's usual price."
+        },
+        {
+          "label": "Timing",
+          "text": "Black Friday is the biggest console sales week."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Mario Kart is among Nintendo's best-selling series."
+        }
+      ],
+      "background": "The Switch 2 is Nintendo's latest console, the follow-up to the 2017 Switch.",
+      "entities": [
+        "Nintendo",
+        "Switch 2",
+        "Mario",
+        "Black Friday"
+      ],
+      "meme": {
+        "top": "Fifty dollars off a Switch 2",
+        "bottom": "the shells are still full price",
+        "take": "Black Friday takes $50 off Mario Kart, which will be lost to a blue shell by Saturday."
+      },
+      "stats": [
+        {
+          "value": "$499",
+          "label": "US Black Friday bundle price"
+        },
+        {
+          "value": "$549",
+          "label": "regular US price"
+        },
+        {
+          "value": "£399",
+          "label": "UK Black Friday price"
+        }
+      ],
+      "motif": "bag",
+      "category": "gaming",
+      "hype": 60,
+      "prevHype": 60,
+      "source": "Nintendo Wire",
+      "url": "https://nintendowire.com/news/2026/11/22/nintendo-switch-2-mario-kart-world-bundle-is-50-off-but-only-for-a-limited-time/",
+      "published": "2026-11-22"
+    },
+    {
+      "id": "tech-cisco-expressway-exploited",
+      "title": "Cisco Expressway flaw exploited to break into internal networks",
+      "summary": "Attackers used a critical Cisco Expressway flaw, CVE-2026-76466, to get root access on devices and move into internal networks, Help Net Security reports.",
+      "why": "Expressway handles video calls at the edge of many company networks, so a flaw there opens the door inside.",
+      "happened": "Security firm F6 says attackers took over two internet-facing devices, then reached two internal cluster nodes. CISA added the flaw to its exploited list on November 20. Cisco's fix is version X15.5.20.",
+      "next": "Watch for further victims and how quickly organisations apply the patch.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "It gives an unauthenticated attacker root access."
+        },
+        {
+          "label": "Scale",
+          "text": "Expressway is used widely for business video calls."
+        },
+        {
+          "label": "Timing",
+          "text": "CISA has told US agencies to patch."
+        }
+      ],
+      "background": "CISA, the US cybersecurity agency, keeps a list of flaws known to be exploited and sets patch deadlines for agencies.",
+      "entities": [
+        "Cisco",
+        "Cybersecurity",
+        "Exploited vulnerabilities",
+        "CISA"
+      ],
+      "meme": {
+        "top": "A device built to keep calls secure",
+        "bottom": "let the callers in",
+        "take": "Cisco's video gateway was a little too welcoming to uninvited guests."
+      },
+      "stats": [
+        {
+          "value": "Nov 20",
+          "label": "added to CISA exploited list"
+        },
+        {
+          "value": "X15.5.20",
+          "label": "fixed version"
+        }
+      ],
+      "motif": "shield",
+      "category": "tech",
+      "hype": 60,
+      "prevHype": 60,
+      "source": "Help Net Security",
+      "url": "https://helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466",
       "published": "2026-11-23"
     },
     {
+      "id": "tech-amazon-drone-michigan",
+      "title": "Amazon delivery drone crashes into a Michigan garage, and the FAA is investigating",
+      "summary": "An Amazon delivery drone crashed into a garage in Michigan, and the Federal Aviation Administration is investigating, CNBC reports.",
+      "why": "Drone delivery depends on public trust that the aircraft will stay out of homes.",
+      "happened": "CNBC reports the drone came down on a garage in Michigan. The FAA has opened an investigation into the crash.",
+      "next": "Watch for the FAA's findings and any change to Amazon's drone flights in the area.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "Crashes test regulators' patience with delivery drones."
+        },
+        {
+          "label": "Big name",
+          "text": "Amazon has spent years building its Prime Air drone service."
+        }
+      ],
+      "background": "Amazon's Prime Air service uses drones to deliver small parcels in selected US areas.",
+      "entities": [
+        "Amazon",
+        "Drones"
+      ],
+      "meme": {
+        "top": "Amazon's drone made it to the house",
+        "bottom": "just not the front door",
+        "take": "Amazon's drone found the garage before it found the porch."
+      },
+      "stats": [],
+      "motif": "rocket",
+      "category": "tech",
+      "hype": 58,
+      "prevHype": null,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/23/amazon-drone-crash-michigan-faa-investigation.html",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "game-nioh-3-xbox",
+      "title": "Nioh 3 is coming to Xbox Series X|S on January 28",
+      "summary": "Nioh 3 and its Complete Edition launch on Xbox Series X|S on January 28, 2027, with the Bloody Insurrection DLC on December 17.",
+      "why": "Nioh is a popular hardcore action series that had been tied to PlayStation.",
+      "happened": "Gamingroute reports the Xbox date. The Bloody Insurrection DLC arrives first, on December 17. Price and Game Pass status have not been stated.",
+      "next": "Watch for the Xbox price and whether it joins Game Pass.",
+      "drivers": [
+        {
+          "label": "Fan demand",
+          "text": "Xbox players have long asked for the series."
+        },
+        {
+          "label": "Trend",
+          "text": "More former PlayStation games are coming to Xbox."
+        }
+      ],
+      "background": "Nioh is a Team Ninja series of difficult samurai action games, published by Koei Tecmo.",
+      "entities": [
+        "Koei Tecmo",
+        "Microsoft",
+        "New game releases"
+      ],
+      "meme": {
+        "top": "Nioh 3 is coming to Xbox",
+        "bottom": "new players can now be humbled too",
+        "take": "Nioh 3 comes to Xbox, giving a whole new console audience the chance to lose."
+      },
+      "stats": [
+        {
+          "value": "Jan 28",
+          "label": "Xbox launch, 2027"
+        },
+        {
+          "value": "Dec 17",
+          "label": "Bloody Insurrection DLC"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 58,
+      "prevHype": null,
+      "source": "Gamingroute",
+      "url": "https://gamingroute.com/nioh-3-xbox-release-date/",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ai-deepmind-quantum-agents",
+      "title": "DeepMind agents find faster quantum algorithms for fusion research",
+      "summary": "Google DeepMind says its AI agents improved quantum algorithms for fusion research, cutting estimated computing costs by 11.8 times.",
+      "why": "It is another example of AI agents being used to make real scientific progress.",
+      "happened": "The agents shared ideas in virtual meetings every four hours, and a formal proof system checked their solutions, DeepMind says.",
+      "next": "Watch for whether the improved algorithms are tested on real quantum hardware.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "The estimated cost cut is 11.8 times."
+        },
+        {
+          "label": "Trend",
+          "text": "Labs are pairing AI agents with formal verification."
+        }
+      ],
+      "background": "Google DeepMind is Google's main AI research lab, known for AlphaGo and AlphaFold.",
+      "entities": [
+        "Google",
+        "AI research",
+        "AI agents"
+      ],
+      "meme": {
+        "top": "AI agents met every four hours",
+        "bottom": "and still got work done",
+        "take": "DeepMind's agents met every four hours and still produced results, a first for meetings."
+      },
+      "stats": [
+        {
+          "value": "11.8x",
+          "label": "cut in estimated computing cost"
+        }
+      ],
+      "motif": "network",
+      "category": "ai",
+      "hype": 56,
+      "prevHype": null,
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ent-stevie-wonder-chicago",
+      "title": "Stevie Wonder jokes about blindness rumours at his Chicago show",
+      "summary": "At a November 21 concert in Chicago, Stevie Wonder answered the online theory that he is not really blind by inviting fans to get in the car with him.",
+      "why": "A long-running internet rumour met a direct answer from the man himself, and the clip spread.",
+      "happened": "The show at the United Center was part of his 50th-anniversary Songs in the Key of Life tour, Consequence reports.",
+      "next": "Watch for the remaining dates of the anniversary tour.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Stevie Wonder is one of the best-selling musicians of all time."
+        },
+        {
+          "label": "Nostalgia",
+          "text": "The tour marks 50 years of Songs in the Key of Life."
+        }
+      ],
+      "background": "Songs in the Key of Life, released in 1976, is Stevie Wonder's double album and is widely ranked among the greatest albums.",
+      "entities": [
+        "Live music",
+        "Concert tours"
+      ],
+      "meme": {
+        "top": "The internet had a theory",
+        "bottom": "Stevie Wonder offered it a lift",
+        "take": "Stevie Wonder settled an internet theory with one offer of a ride."
+      },
+      "stats": [
+        {
+          "value": "50",
+          "label": "years of Songs in the Key of Life"
+        }
+      ],
+      "motif": "voice",
+      "category": "entertainment",
+      "hype": 56,
+      "prevHype": null,
+      "source": "Consequence",
+      "url": "https://consequence.net/2026/11/stevie-wonder-blind-get-in-the-car-with-me/",
+      "published": "2026-11-24"
+    },
+    {
       "id": "game-gta-vi-update-1002",
-      "title": "GTA VI gets its first big patch, 1.002.002, with no patch notes",
-      "summary": "Rockstar's update 1.002.002 is rolling out by region, at about 600MB on PS5, but no patch notes have been published, PlayStation LifeStyle reports.",
+      "title": "GTA VI's first big patch, 1.002.002, comes with seven official fixes",
+      "summary": "Rockstar's update 1.002.002 is live on PS5 and Xbox Series X|S, and reports now list seven official fixes after it launched with no notes.",
       "why": "Millions of new players want to know what a first patch fixes in a game this big.",
-      "happened": "Xbox players report a 1.2 to 1.6GB download. Some players say the game runs more smoothly, which the outlet says could be placebo. It also says a money glitch still works for some players.",
-      "next": "Watch for Rockstar's own notes on what the update changed.",
+      "happened": "The update is about 600MB on PS5 and around 1.6GB on Xbox. Pure Xbox reports seven official fixes. Players have also found a Quick Resume bug that unlocks a higher frame rate on Xbox, with drawbacks.",
+      "next": "Watch for Rockstar's next patch and whether it addresses Xbox performance.",
       "drivers": [
         {
           "label": "Scale",
@@ -1121,9 +1499,9 @@
         "GTA VI"
       ],
       "meme": {
-        "top": "Rockstar released a patch",
-        "bottom": "and told no one what it does",
-        "take": "GTA VI's first patch arrives with no notes, so players are reviewing it by vibes."
+        "top": "Rockstar released a patch with no notes",
+        "bottom": "the notes arrived later, seven of them",
+        "take": "GTA VI's first patch shipped first and explained itself later, like its characters."
       },
       "stats": [
         {
@@ -1137,378 +1515,59 @@
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 60,
-      "prevHype": null,
+      "hype": 56,
+      "prevHype": 56,
       "source": "PlayStation LifeStyle",
       "url": "https://www.playstationlifestyle.net/2026/11/23/gta-6-update-1002002-november-23-2026-patch-notes",
       "published": "2026-11-23"
     },
     {
-      "id": "tech-iphone-air-2-dummies",
-      "title": "iPhone Air 2 dummy units point to a new dual-camera design",
-      "summary": "Dummy models said to show the iPhone Air 2 have a dual rear camera, while the standard iPhone 18 looks largely unchanged, reports say.",
-      "why": "The first iPhone Air was criticised for having one rear camera, so a second lens would answer that.",
-      "happened": "9to5Mac reports the dummy units show a new dual-camera layout. MacTech, citing MacRumors, says the standard iPhone 18 dummies look largely unchanged. Apple has announced nothing.",
-      "next": "Watch for further leaks and Apple's reported early-2027 launch plans.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "New iPhone designs always draw attention."
-        },
-        {
-          "label": "Fan demand",
-          "text": "The single camera was a common complaint about the first Air."
-        }
-      ],
-      "background": "Dummy units are non-working models often made for case makers ahead of a launch. They are not always accurate.",
-      "entities": [
-        "Apple",
-        "Smartphones"
-      ],
-      "meme": {
-        "top": "The thinnest iPhone got a second camera",
-        "bottom": "it will still not fit in the case",
-        "take": "Apple's skinniest phone is reportedly bulking up, one lens at a time."
-      },
-      "stats": [],
-      "motif": "phone",
-      "category": "tech",
-      "hype": 60,
-      "prevHype": null,
-      "source": "9to5Mac",
-      "url": "https://9to5mac.com/2026/11/20/iphone-air-2-dual-camera-system/",
-      "published": "2026-11-20"
-    },
-    {
-      "id": "ent-rings-of-power-s3-finale",
-      "title": "The Rings of Power season 3 finale lands on Prime Video on November 24",
-      "summary": "Amazon's Lord of the Rings series ends its third season with two episodes at 9 p.m. on November 24, TVLine's schedule lists.",
-      "why": "It is one of the most expensive TV series ever made, so its future is watched closely.",
-      "happened": "TVLine lists the two-episode finale among the week's biggest TV events. Blade Runner 2099 arrives on the same service the next day.",
-      "next": "Watch for news on whether Amazon orders a fourth season.",
+      "id": "tech-hpe-q4-revenue",
+      "title": "HPE's quarterly revenue rises 50% to $14.5 billion",
+      "summary": "Hewlett Packard Enterprise reported fourth-quarter revenue of $14.5 billion, up 50% from a year earlier, with net income of $1.8 billion.",
+      "why": "HPE's results are read as a sign of how much companies are spending on servers and data centres.",
+      "happened": "The results cover HPE's fiscal fourth quarter of 2026. HPE also reported $5.8 billion in cash. CrowdStrike, Zoom and Zscaler posted results the same day.",
+      "next": "Watch for HPE's outlook for the year ahead and how investors react.",
       "drivers": [
         {
           "label": "Money",
-          "text": "It is among the costliest TV series ever made."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Tolkien's world has a huge global fanbase."
-        }
-      ],
-      "background": "The series is set thousands of years before The Lord of the Rings and draws on J.R.R. Tolkien's writings.",
-      "entities": [
-        "Amazon",
-        "Streaming",
-        "Book adaptations"
-      ],
-      "meme": {
-        "top": "Three seasons of forging rings",
-        "bottom": "the budget remains the real dragon",
-        "take": "The Rings of Power ends season three, with its most powerful ring still the budget."
-      },
-      "stats": [
-        {
-          "value": "Nov 24",
-          "label": "season 3 finale"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 58,
-      "prevHype": 54,
-      "source": "TVLine",
-      "url": "https://tvline.com/2323631/what-to-watch-week-of-november-22-2026-tv-shows-movies-streaming",
-      "published": "2026-11-21"
-    },
-    {
-      "id": "tech-visa-mastercard-jpmorgan-leak",
-      "title": "JPMorgan, Visa and Mastercard confirm vendor breaches after n0n leak claim",
-      "summary": "The three firms have confirmed breaches at vendors after the n0n group's leak claim, with names and emails exposed, The Layman Security reports.",
-      "why": "Data linked to three of the biggest names in payments can fuel convincing phishing scams against customers.",
-      "happened": "The Layman Security says the exposed data was names and email addresses, not card numbers. Reuters earlier reported leaked JPMorgan records with over 16,000 customer emails, which it could not verify.",
-      "next": "Watch for official customer notifications and any confirmed count of people affected.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "It involves three of the largest payment and banking firms."
-        },
-        {
-          "label": "Risk",
-          "text": "Leaked names and emails are often used for phishing."
-        },
-        {
-          "label": "Trend",
-          "text": "Attackers increasingly go after vendors instead of the main company."
-        }
-      ],
-      "background": "Supply-chain breaches happen when attackers reach a company's data through a supplier or contractor.",
-      "entities": [
-        "Cybersecurity",
-        "Privacy",
-        "Payment data",
-        "Supply chain attacks"
-      ],
-      "meme": {
-        "top": "Hackers went after the banks",
-        "bottom": "and got the marketing list",
-        "take": "Breach shows even bank vaults are only as strong as the newsletter vendor."
-      },
-      "stats": [
-        {
-          "value": "16,000+",
-          "label": "JPMorgan emails, reported"
-        },
-        {
-          "value": "124",
-          "label": "employee emails, reported"
-        }
-      ],
-      "motif": "shield",
-      "category": "tech",
-      "hype": 58,
-      "prevHype": 58,
-      "source": "The Layman Security",
-      "url": "https://thelaymansecurity.com/jpmorgan-visa-mastercard-vendor-breach-n0n/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "tech-java4shell",
-      "title": "Java4Shell flaw lets a crafted text string take over some Java servers",
-      "summary": "CVE-2026-114938 lets a crafted Base64 string corrupt Java's memory on servers with AVX-512 chips, which can lead to code execution.",
-      "why": "Java runs huge amounts of business software, including tools like Jenkins, Jira and Tomcat.",
-      "happened": "Oracle fixed the flaw on November 17, and CISA has urged organisations to patch, The Layman Security reports. Horizon3.ai published the research.",
-      "next": "Watch for signs of active exploitation and vendor updates for Java-based products.",
-      "drivers": [
-        {
-          "label": "Scale",
-          "text": "Java is one of the most widely used server platforms."
-        },
-        {
-          "label": "Nostalgia",
-          "text": "The name recalls 2021's Log4Shell crisis."
-        },
-        {
-          "label": "Risk",
-          "text": "It can lead to remote code execution."
-        }
-      ],
-      "background": "AVX-512 is a set of fast maths instructions on many Intel and AMD server processors.",
-      "entities": [
-        "Cybersecurity",
-        "Open-source software",
-        "CISA"
-      ],
-      "meme": {
-        "top": "A string of text",
-        "bottom": "can now run your server",
-        "take": "Java4Shell shows that the most dangerous thing on a server is still a well-chosen sentence."
-      },
-      "stats": [
-        {
-          "value": "Nov 17",
-          "label": "Oracle fix"
-        }
-      ],
-      "motif": "shield",
-      "category": "tech",
-      "hype": 58,
-      "prevHype": null,
-      "source": "The Layman Security",
-      "url": "https://thelaymansecurity.com/java4shell-cve-2026-114938-openjdk/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "ai-openrouter-providers",
-      "title": "OpenRouter drops three AI providers after researchers find stolen keys",
-      "summary": "OpenRouter removed three inference providers and 125 endpoints from its zero-data-retention list after Dragos found compromised providers.",
-      "why": "Developers often send private data through cheap AI providers without knowing who runs them.",
-      "happened": "Dragos sent about two million fake AI requests and found at least three compromised providers and hundreds of stolen AWS keys, The Decoder reports. It says some cheap hosts could snoop on users.",
-      "next": "Watch for which providers are named and whether other AI routers tighten their checks.",
-      "drivers": [
-        {
-          "label": "Risk",
-          "text": "User prompts may have been seen by unknown parties."
-        },
-        {
-          "label": "Scale",
-          "text": "Researchers sent two million test requests."
-        },
-        {
-          "label": "Trend",
-          "text": "AI supply chains are a new target for attackers."
-        }
-      ],
-      "background": "OpenRouter lets developers reach many AI models from different providers through a single API.",
-      "entities": [
-        "AI security",
-        "Cybersecurity",
-        "Privacy",
-        "Supply chain attacks"
-      ],
-      "meme": {
-        "top": "The budget AI host kept no data",
-        "bottom": "it simply shared it",
-        "take": "Some cheap AI hosts offered zero data retention and generous data distribution."
-      },
-      "stats": [
-        {
-          "value": "2M",
-          "label": "test requests sent, Dragos"
-        },
-        {
-          "value": "125",
-          "label": "endpoints removed from list"
-        },
-        {
-          "value": "3",
-          "label": "providers dropped"
-        }
-      ],
-      "motif": "shield",
-      "category": "ai",
-      "hype": 56,
-      "prevHype": 60,
-      "source": "The Decoder",
-      "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "ent-you-can-see-everything",
-      "title": "You Can See Everything comes to digital rental after a near-$100 million run",
-      "summary": "Nathan Fielder's documentary arrives to rent or buy on November 24 while still in cinemas, where it made $2.5 million last weekend.",
-      "why": "Documentaries almost never reach blockbuster numbers, so a hit this size stands out.",
-      "happened": "BillFrost.tv lists the digital premiere for November 24 and puts the film's box office near $99 million. AP had it sixth at the weekend box office with $2.5 million.",
-      "next": "Watch for how it charts on digital rental lists over the holiday week.",
-      "drivers": [
-        {
-          "label": "Money",
-          "text": "It has earned about 14 times its reported budget."
-        },
-        {
-          "label": "Scale",
-          "text": "Very few documentaries have passed $100 million."
-        }
-      ],
-      "background": "Most documentaries open in a small number of cinemas or go straight to streaming.",
-      "entities": [
-        "Box office",
-        "Digital releases",
-        "Documentaries"
-      ],
-      "meme": {
-        "top": "A documentary nearly made $100 million",
-        "bottom": "now you can pause it",
-        "take": "You Can See Everything is coming home, where you can finally see everything twice."
-      },
-      "stats": [
-        {
-          "value": "Nov 24",
-          "label": "digital release"
-        },
-        {
-          "value": "~$99M",
-          "label": "box office, reported"
-        },
-        {
-          "value": "$2.5M",
-          "label": "last weekend, AP"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 56,
-      "prevHype": 62,
-      "source": "BillFrost.tv",
-      "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "tech-cleverbridge-card-breach",
-      "title": "Cleverbridge says hackers copied card numbers and CVVs from its platform",
-      "summary": "E-commerce platform Cleverbridge, whose clients include Red Hat and Sony, says a third party copied stored payment card data, including CVVs.",
-      "why": "Card numbers with security codes can be used for fraud, so buyers may need new cards.",
-      "happened": "It detected the activity on November 4 and began notifying customers on November 20. A notice seen by BleepingComputer says card numbers, expiry dates and CVVs were copied, but not names or billing details.",
-      "next": "Watch for the number of affected customers and which software brands' buyers were hit.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Its clients include Red Hat, Sony and Veeam."
-        },
-        {
-          "label": "Risk",
-          "text": "Full card details are enough for online fraud."
+          "text": "Revenue grew by half in one year."
         },
         {
           "label": "Timing",
-          "text": "It comes just before Black Friday shopping."
+          "text": "Several big tech firms reported results on the same day."
         }
       ],
-      "background": "Cleverbridge handles online payments for software and subscription companies.",
+      "background": "Hewlett Packard Enterprise sells servers, storage and networking gear to businesses; it split from HP in 2015.",
       "entities": [
-        "Cybersecurity",
-        "Privacy",
-        "Payment data",
-        "Sony"
+        "HPE",
+        "Earnings"
       ],
       "meme": {
-        "top": "Cleverbridge stored the CVV",
-        "bottom": "the one number meant to be forgotten",
-        "take": "Cleverbridge learned the three digits on the back are meant to be forgotten, not filed."
+        "top": "HPE grew revenue by half",
+        "bottom": "its servers are not resting",
+        "take": "HPE grew revenue 50% in a year, and the servers are not asking for a day off."
       },
       "stats": [
         {
-          "value": "Nov 4",
-          "label": "activity detected"
+          "value": "$14.5B",
+          "label": "Q4 revenue"
         },
         {
-          "value": "Nov 20",
-          "label": "notifications began"
+          "value": "+50%",
+          "label": "year-on-year growth"
+        },
+        {
+          "value": "$1.8B",
+          "label": "net income"
         }
       ],
-      "motif": "shield",
+      "motif": "money",
       "category": "tech",
-      "hype": 56,
-      "prevHype": 66,
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "ai-openai-perplexity-metric",
-      "title": "OpenAI suggests next-word prediction as a shared measure of AI progress",
-      "summary": "OpenAI chief scientist Jakub Pachocki published internal perplexity results and proposed it as a common yardstick across AI labs.",
-      "why": "Labs disagree on how to measure progress, and benchmarks are often gamed or quickly outdated.",
-      "happened": "OpenAI argued that how well a model predicts the next token can track progress across labs. The Neuron notes that this alone cannot show how a model behaves on every real task.",
-      "next": "Watch for whether other labs publish comparable numbers.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "The proposal comes from OpenAI's chief scientist."
-        },
-        {
-          "label": "Rivalry",
-          "text": "A shared metric would make labs easier to compare."
-        }
-      ],
-      "background": "Perplexity measures how surprised a language model is by real text; lower is better.",
-      "entities": [
-        "OpenAI",
-        "Frontier models",
-        "AI research"
-      ],
-      "meme": {
-        "top": "OpenAI proposed a way to measure AI",
-        "bottom": "the measure is guessing the next word",
-        "take": "OpenAI wants to grade AI on predicting the next word, which explains a lot of meetings."
-      },
-      "stats": [],
-      "motif": "network",
-      "category": "ai",
-      "hype": 56,
+      "hype": 54,
       "prevHype": null,
-      "source": "OpenAI",
-      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "source": "BitDigest (Business Wire)",
+      "url": "https://bitdigest.substack.com/p/tuesday-november-24-2026",
       "published": "2026-11-23"
     },
     {
@@ -1548,179 +1607,143 @@
       ],
       "motif": "screen",
       "category": "entertainment",
-      "hype": 56,
-      "prevHype": null,
+      "hype": 54,
+      "prevHype": 54,
       "source": "TVLine",
       "url": "https://tvline.com/2323631/what-to-watch-week-of-november-22-2026-tv-shows-movies-streaming",
       "published": "2026-11-21"
     },
     {
-      "id": "game-gta-vi-mario-easter-egg",
-      "title": "GTA VI players find a Super Mario nod with brick breaking and hats",
-      "summary": "A player's video reportedly shows a GTA VI hallucination scene that references Super Mario, including brick breaking and wearable hats.",
-      "why": "Easter egg hunts keep a big game in the conversation weeks after launch.",
-      "happened": "Nintendo Wire reports a YouTube user shared footage of Jason Duval hallucinating near some ruins in a scene that echoes Super Mario. Rockstar has not commented on the reference.",
-      "next": "Watch for more hidden references as players explore the map.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "Mario is gaming's most famous character."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Players are hunting secrets across the new map."
-        }
-      ],
-      "background": "Rockstar games are known for hidden jokes and references to pop culture.",
-      "entities": [
-        "GTA VI",
-        "Rockstar",
-        "Mario"
-      ],
-      "meme": {
-        "top": "The most adult game of the year",
-        "bottom": "has a Mario tribute",
-        "take": "GTA VI hides a Mario reference, proving even Vice City respects the plumber."
-      },
-      "stats": [],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 56,
-      "prevHype": null,
-      "source": "Nintendo Wire",
-      "url": "https://nintendowire.com/news/2026/11/23/grand-theft-auto-6s-super-mario-easter-egg-includes-brick-breaking-and-wearable-hats/",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "ent-dig-peacock",
-      "title": "Peacock's DIG, with Amy Poehler as an archaeologist, is out in full",
-      "summary": "All ten episodes of DIG, from Amy Poehler and Michael Schur, arrived on Peacock on November 23.",
-      "why": "A new Amy Poehler series is a draw for fans of her comedy work.",
-      "happened": "Poehler plays an archaeologist on a dig site in Greece, with Hugh Laurie and Geraldine Viswanathan co-starring, BillFrost.tv reports. Jason Mantzoukas and Max Greenfield guest star.",
-      "next": "Watch for reviews and Peacock's viewing figures.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Amy Poehler and Michael Schur made Parks and Recreation together."
-        },
-        {
-          "label": "Timing",
-          "text": "It lands as viewers settle in for Thanksgiving week."
-        }
-      ],
-      "background": "Amy Poehler starred in Parks and Recreation and was a Saturday Night Live cast member.",
-      "entities": [
-        "Streaming",
-        "NBCUniversal"
-      ],
-      "meme": {
-        "top": "A comedy about digging up the past",
-        "bottom": "from the people who made Parks and Rec",
-        "take": "Peacock drops all of DIG at once, trusting you to have no plans for Thanksgiving."
-      },
-      "stats": [
-        {
-          "value": "10",
-          "label": "episodes, released at once"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 54,
-      "prevHype": 50,
-      "source": "BillFrost.tv",
-      "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "tech-nginx-http2-flaws",
-      "title": "NGINX fixes five critical flaws, including an HTTP/2 bug from 2015",
-      "summary": "NGINX patched five code-execution flaws rated 9.2 on November 18, and one HTTP/2 bug now has a public proof-of-concept exploit.",
-      "why": "NGINX powers a large share of the world's websites, so a public exploit raises the pressure to patch.",
-      "happened": "The HTTP/2 bug, CVE-2026-123007, dates back to 2015, The Layman Security reports, citing Rapid7. All five flaws are rated 9.2 out of 10.",
-      "next": "Watch for reports of attacks using the public exploit.",
+      "id": "tech-optimizely-skimmer",
+      "title": "Optimizely supply-chain attack put a card skimmer on 178 brands' sites",
+      "summary": "Malicious code in Optimizely's JavaScript ran on 178 brands' websites on November 16, skimming card data and swapping crypto addresses, reports say.",
+      "why": "One compromised supplier script can reach shoppers on many big sites at once, days before Black Friday.",
+      "happened": "Report URI counts at least 178 affected organisations, including CNN, BBC and IKEA. The code skimmed card data and swapped crypto addresses. Optimizely confirms a flaw was exploited and says it is fixed.",
+      "next": "Watch for the list of affected brands and notices to shoppers.",
       "drivers": [
         {
           "label": "Scale",
-          "text": "NGINX runs a large share of web servers."
-        },
-        {
-          "label": "Risk",
-          "text": "Public exploit code makes attacks easier."
+          "text": "178 brands were affected."
         },
         {
           "label": "Timing",
-          "text": "The oldest bug went unnoticed for about 11 years."
+          "text": "It hit just before the biggest online shopping week."
+        },
+        {
+          "label": "Trend",
+          "text": "Attackers target shared scripts to reach many sites."
         }
       ],
-      "background": "NGINX is open-source web server software, now owned by F5, used to serve and balance traffic for websites.",
+      "background": "Optimizely makes tools that let websites test different page designs, using scripts loaded on customers' sites.",
       "entities": [
         "Cybersecurity",
-        "Open-source software"
+        "Supply chain attacks",
+        "Payment data",
+        "Black Friday"
       ],
       "meme": {
-        "top": "A bug from 2015",
-        "bottom": "finally got noticed",
-        "take": "NGINX fixed a flaw old enough to have outlived several of the frameworks it served."
+        "top": "Optimizely helps sites test changes",
+        "bottom": "someone tested a very bad one",
+        "take": "Optimizely's script ran an experiment on 178 brands. The control group was your card."
       },
       "stats": [
         {
-          "value": "5",
-          "label": "critical flaws fixed"
+          "value": "178",
+          "label": "organisations affected, reported"
         },
         {
-          "value": "9.2",
-          "label": "CVSS score each"
-        },
-        {
-          "value": "2015",
-          "label": "HTTP/2 bug introduced"
+          "value": "~$7,040",
+          "label": "crypto taken, Report URI"
         }
       ],
       "motif": "shield",
       "category": "tech",
       "hype": 54,
-      "prevHype": null,
-      "source": "The Layman Security",
-      "url": "https://thelaymansecurity.com/nginx-http2-rce-cve-2026-123007/",
+      "prevHype": 54,
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
       "published": "2026-11-22"
     },
     {
-      "id": "tech-entra-connect-health-flaw",
-      "title": "Microsoft says an Entra Connect Health flaw was used to take tenant data",
-      "summary": "Microsoft has disclosed that attackers exploited a flaw in its Entra Connect Health API to reach tenant metadata, including admin emails, reports say.",
-      "why": "Entra is how many companies sign staff into Microsoft 365, so flaws there draw close attention.",
-      "happened": "BleepingComputer reports the flaw was exploited to steal tenant data. Several outlets report the exposed data included tenant metadata and administrator email addresses.",
-      "next": "Watch for Microsoft's guidance to admins and the number of tenants affected.",
+      "id": "tech-iphone-18e-cad",
+      "title": "CAD images suggest the iPhone 18e will get an unusual new camera design",
+      "summary": "Leaked CAD images point to an unusual new camera design for Apple's next budget phone, the iPhone 18e, 9to5Mac reports.",
+      "why": "The 'e' model is Apple's cheaper iPhone, so its design hints at what many buyers will carry.",
+      "happened": "9to5Mac says the CAD images show a camera layout unlike current models. Apple has not announced the phone, and leaked designs can change.",
+      "next": "Watch for more leaks or cases that confirm the layout.",
       "drivers": [
         {
-          "label": "Big name",
-          "text": "Microsoft's identity service is used by a huge number of businesses."
+          "label": "Fan demand",
+          "text": "iPhone design leaks draw heavy attention every year."
         },
         {
-          "label": "Risk",
-          "text": "Admin emails are valuable for targeted phishing."
+          "label": "Trend",
+          "text": "Apple has been changing camera layouts across its range."
         }
       ],
-      "background": "Microsoft Entra, formerly Azure Active Directory, manages sign-in and identity for businesses.",
+      "background": "Apple's 'e' iPhones are lower-priced models that sit below the main iPhone line.",
       "entities": [
-        "Microsoft",
-        "Cybersecurity",
-        "Exploited vulnerabilities"
+        "Apple",
+        "Smartphones"
       ],
       "meme": {
-        "top": "Microsoft's health-check service",
-        "bottom": "was the one that needed a check-up",
-        "take": "Microsoft's Connect Health tool turned out to be the patient."
+        "top": "Apple redesigned the camera bump",
+        "bottom": "the case makers have started sweating",
+        "take": "The cheaper iPhone gets a new camera layout, and the case industry gets a new year."
       },
       "stats": [],
-      "motif": "shield",
+      "motif": "phone",
       "category": "tech",
       "hype": 52,
-      "prevHype": 58,
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-      "published": "2026-11-21"
+      "prevHype": null,
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/24/cad-images-suggest-iphone-18e-will-have-an-odd-new-camera-design/",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "game-ps-plus-november-wave-3",
+      "title": "PS Plus adds four more games, including Like a Dragon: Pirate Yakuza",
+      "summary": "PS Plus Extra and Premium added Cricket 26, Like a Dragon: Pirate Yakuza in Hawaii, MotoGP 26 and Trepang2 on November 24.",
+      "why": "Subscriptions are now a main way people try new games, so each monthly drop matters to players.",
+      "happened": "GameRant puts the four games' combined retail value at $209.96. They follow earlier November additions including Death Stranding 2 and Atomfall. Sony is expected to reveal December's Essential games on November 25.",
+      "next": "Watch for Sony's December PS Plus Essential announcement.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "The four games are worth about $210 at retail."
+        },
+        {
+          "label": "Rivalry",
+          "text": "PS Plus competes directly with Xbox Game Pass."
+        }
+      ],
+      "background": "PlayStation Plus is Sony's subscription service; its Extra and Premium tiers include a rotating game library.",
+      "entities": [
+        "Sony",
+        "Subscription games"
+      ],
+      "meme": {
+        "top": "PS Plus added $210 of games",
+        "bottom": "your backlog filed a complaint",
+        "take": "PS Plus added $210 of games to a backlog that was already worth more than the console."
+      },
+      "stats": [
+        {
+          "value": "4",
+          "label": "games added Nov 24"
+        },
+        {
+          "value": "$209.96",
+          "label": "combined retail value"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 52,
+      "prevHype": null,
+      "source": "GameRant",
+      "url": "https://gamerant.com/ps-plus-november-2026-extra-premium-games-wave-3-full-list",
+      "published": "2026-11-24"
     },
     {
       "id": "ent-hunting-wives-s2",
@@ -1764,10 +1787,55 @@
       "motif": "screen",
       "category": "entertainment",
       "hype": 52,
-      "prevHype": null,
+      "prevHype": 52,
       "source": "BillFrost.tv",
       "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
       "published": "2026-11-23"
+    },
+    {
+      "id": "game-steam-fests-2027",
+      "title": "Valve sets 2027 Steam Fest dates, from desktop companions to rhythm games",
+      "summary": "Valve's 2027 Steam Fest calendar starts with a Desktop Companion Fest on January 14-18 and includes Couch Co-Op and Rhythm events.",
+      "why": "Steam's themed festivals drive discounts and attention for smaller games on PC's biggest store.",
+      "happened": "Gamingroute lists Shop Keeper Fest on January 25 to February 1, a Sheep Fest on February 4-8, Couch Co-Op on February 8-15 and Rhythm on March 8-15. The Spring Sale is reported for March 18-25.",
+      "next": "Watch for Valve's full 2027 sale calendar and the Winter Sale.",
+      "drivers": [
+        {
+          "label": "Timing",
+          "text": "It gives developers and shoppers dates to plan around."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Steam sales are a fixture for PC players."
+        }
+      ],
+      "background": "Steam is Valve's PC game store and the largest digital store for PC games.",
+      "entities": [
+        "Valve",
+        "Steam"
+      ],
+      "meme": {
+        "top": "Steam is holding a Sheep Fest",
+        "bottom": "the sheep have not been consulted",
+        "take": "Valve's 2027 calendar includes a Sheep Fest, and nobody at Valve seems worried."
+      },
+      "stats": [
+        {
+          "value": "Jan 14",
+          "label": "first 2027 fest begins"
+        },
+        {
+          "value": "Mar 18",
+          "label": "Spring Sale start, reported"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 48,
+      "prevHype": null,
+      "source": "Gamingroute",
+      "url": "https://gamingroute.com/steam-fests-2027-dates/",
+      "published": "2026-11-24"
     },
     {
       "id": "game-game-pass-late-november",
@@ -1790,6 +1858,7 @@
       "entities": [
         "Microsoft",
         "Xbox Game Pass",
+        "Subscription games",
         "New game releases"
       ],
       "meme": {
@@ -1813,300 +1882,52 @@
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 52,
-      "prevHype": null,
+      "hype": 46,
+      "prevHype": 46,
       "source": "PlayStationInfo",
       "url": "https://playstationinfo.de/en/2026/11/22/xbox-game-pass-is-getting-three-games-and-a-new-title-is-launching-directly-on-day-one",
       "published": "2026-11-22"
     },
     {
-      "id": "game-persona-6-domain",
-      "title": "Persona 6 has no date, but a website update fuels Game Awards trailer talk",
-      "summary": "Atlus says Persona 6 has no release date yet, while an update to its web domain has fans expecting a trailer at The Game Awards on December 10.",
-      "why": "Persona is one of the most popular Japanese role-playing series, and fans have waited years for a new main entry.",
-      "happened": "Nintendo Life reports Atlus also said the wait for Persona 7 will be shorter. MyNintendoNews notes a Persona 4 Revival domain update came a month before its trailer. Nothing has been announced.",
-      "next": "Watch for The Game Awards on December 10 and any teasers from Atlus before then.",
+      "id": "ent-mastodon-2027-tour",
+      "title": "Mastodon announce a spring 2027 UK and European tour",
+      "summary": "Mastodon's Poisonous Weapons Tour heads to the UK and Europe from March 14 in Paris, with Monolord supporting.",
+      "why": "Mastodon are one of metal's biggest live acts, and fans across Europe now have dates to plan for.",
+      "happened": "The tour runs through cities including Madrid, London, Budapest and Stockholm. Green Lung join for the UK dates, Consequence reports.",
+      "next": "Watch for ticket sales and any added dates.",
       "drivers": [
         {
           "label": "Fan demand",
-          "text": "Persona 5 came out in 2016 in Japan."
+          "text": "European fans get a full run of dates."
         },
         {
           "label": "Timing",
-          "text": "The Game Awards are under three weeks away."
+          "text": "It was announced months ahead of spring."
         }
       ],
-      "background": "Atlus is a Japanese studio owned by Sega that makes the Persona and Shin Megami Tensei series.",
+      "background": "Mastodon are a heavy metal band from Atlanta, known for albums such as Leviathan and Crack the Skye.",
       "entities": [
-        "Atlus",
-        "Sega",
-        "The Game Awards"
+        "Live music",
+        "Concert tours"
       ],
       "meme": {
-        "top": "Someone updated a website",
-        "bottom": "a whole fandom cleared its December",
-        "take": "Persona fans have turned domain records into the most closely read documents in gaming."
+        "top": "Mastodon are touring Europe",
+        "bottom": "the ears of Europe have been warned",
+        "take": "Mastodon have announced a European tour, and the venues have been advised to bolt things down."
       },
       "stats": [
         {
-          "value": "Dec 10",
-          "label": "The Game Awards"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 50,
-      "prevHype": 58,
-      "source": "My Nintendo News",
-      "url": "https://mynintendonews.com/2026/11/21/persona-6-domain-recently-updated-leading-to-new-trailer-speculation-at-the-game-awards-2026",
-      "published": "2026-11-21"
-    },
-    {
-      "id": "game-pokemon-winds-waves-catalogue",
-      "title": "Nintendo's winter catalogue gives a first glimpse of Pokemon Winds and Waves",
-      "summary": "Nintendo's Japanese Winter Catalogue includes a short description of Pokemon Winds and Waves, promising islands and a vast ocean to explore.",
-      "why": "Any detail about a new main Pokemon game gets picked apart by one of the biggest fan bases in gaming.",
-      "happened": "MyNintendoNews says the text talks about overcoming paths and forces of nature with Pokemon. The catalogue also showed Samus's suit in Metroid Ravenous. A separate rumour claims an overhauled turn-based battle system.",
-      "next": "Watch for an official trailer or release window from The Pokemon Company.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "Pokemon is the highest-earning media franchise in the world."
-        },
-        {
-          "label": "Nostalgia",
-          "text": "Sea and island settings echo earlier fan-favourite games."
-        }
-      ],
-      "background": "Pokemon games are made by Game Freak and published by Nintendo and The Pokemon Company.",
-      "entities": [
-        "Nintendo",
-        "Pokemon"
-      ],
-      "meme": {
-        "top": "One paragraph about the ocean",
-        "bottom": "ten thousand theories",
-        "take": "Nintendo released two sentences about Pokemon and the fans have already written the sequel."
-      },
-      "stats": [],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 50,
-      "prevHype": 52,
-      "source": "My Nintendo News",
-      "url": "https://mynintendonews.com/2026/11/21/nintendo-shares-brief-pokemon-winds-waves-info-in-nintendo-winter-catalogue/",
-      "published": "2026-11-21"
-    },
-    {
-      "id": "game-ff7-revelation-esrb",
-      "title": "Final Fantasy VII Revelation has been rated by the ESRB",
-      "summary": "The third part of the Final Fantasy VII remake series has received an ESRB rating, My Nintendo News reports.",
-      "why": "Ratings often come shortly before a release date or marketing push, so fans watch for them.",
-      "happened": "My Nintendo News reported the rating on November 23. The game is also nominated for Most Anticipated Game at The Game Awards, Push Square lists.",
-      "next": "Watch for a release date, possibly at The Game Awards on December 10.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "Final Fantasy VII is one of the best-loved role-playing games."
-        },
-        {
-          "label": "Timing",
-          "text": "The Game Awards are just over two weeks away."
-        }
-      ],
-      "background": "Square Enix has been remaking the 1997 Final Fantasy VII as a trilogy of games since 2020.",
-      "entities": [
-        "Square Enix",
-        "The Game Awards",
-        "Remakes and remasters"
-      ],
-      "meme": {
-        "top": "Final Fantasy VII got a rating",
-        "bottom": "fans now have a reason to refresh",
-        "take": "An age rating was filed, and Final Fantasy fans read it like a release date."
-      },
-      "stats": [],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 50,
-      "prevHype": null,
-      "source": "My Nintendo News",
-      "url": "https://mynintendonews.com/2026/11/23/final-fantasy-vii-revelation-has-been-rated-by-the-esrb/",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "ai-elastic-honeyhive",
-      "title": "Elastic agrees to buy AI agent tracing startup HoneyHive",
-      "summary": "Elastic has agreed to acquire HoneyHive, which makes tools for tracing and evaluating AI agents. Terms were not disclosed.",
-      "why": "As firms deploy AI agents, they need ways to see what those agents are actually doing.",
-      "happened": "Dealroom reports the deal alongside other AI control and monitoring investments. HoneyHive's tools record and score how AI agents behave in production.",
-      "next": "Watch for how Elastic builds HoneyHive into its observability products.",
-      "drivers": [
-        {
-          "label": "Trend",
-          "text": "Monitoring AI agents is becoming its own market."
-        },
-        {
-          "label": "Money",
-          "text": "Security and data firms are buying AI tooling startups."
-        }
-      ],
-      "background": "Elastic makes Elasticsearch, widely used for search, logging and monitoring software systems.",
-      "entities": [
-        "AI agents",
-        "Acquisitions"
-      ],
-      "meme": {
-        "top": "Companies hired AI agents",
-        "bottom": "now they are buying the cameras",
-        "take": "Elastic bought a startup that watches AI agents, because trust is easier with logs."
-      },
-      "stats": [],
-      "motif": "bag",
-      "category": "ai",
-      "hype": 48,
-      "prevHype": null,
-      "source": "Dealroom",
-      "url": "https://dealroom.co/news/175065-elastic-buys-honeyhive-as-palo-alto-bets-4-5b-on-ai-control",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "ent-ebenezer-box-office",
-      "title": "Ebenezer drops 60% in its second weekend but passes $78 million worldwide",
-      "summary": "Johnny Depp's Christmas film made $7.7 million in its second weekend, down about 60%, and has $32.5 million in the US, AP reports.",
-      "why": "Holiday films often make most of their money in December, so an early drop matters.",
-      "happened": "It was last week's No. 1 film and fell to third behind the Hunger Games prequel and I Play Rocky. AP puts its international total at $45.9 million.",
-      "next": "Watch for its hold over Thanksgiving week.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Johnny Depp plays the lead."
-        },
-        {
-          "label": "Timing",
-          "text": "Christmas stories usually play through December."
-        },
-        {
-          "label": "Rivalry",
-          "text": "It faces the Hunger Games and I Play Rocky this weekend."
-        }
-      ],
-      "background": "Ebenezer is a new take on Charles Dickens' A Christmas Carol.",
-      "entities": [
-        "Paramount",
-        "Box office",
-        "Theatrical releases",
-        "Book adaptations"
-      ],
-      "meme": {
-        "top": "Scrooge faced three ghosts",
-        "bottom": "then the Hunger Games",
-        "take": "Ebenezer survived the spirits of Christmas but not the spirit of franchise season."
-      },
-      "stats": [
-        {
-          "value": "$7.7M",
-          "label": "second weekend gross"
-        },
-        {
-          "value": "-60%",
-          "label": "weekend-to-weekend drop"
-        },
-        {
-          "value": "$32.5M",
-          "label": "US total"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 46,
-      "prevHype": 52,
-      "source": "ABC News (AP)",
-      "url": "https://abcnews.com/amp/Entertainment/wireStory/resurgent-hunger-games-big-box-office-despite-competition-138361740",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "game-wolf-among-us-remastered",
-      "title": "The Wolf Among Us Remastered is set for November 29 on the original Switch",
-      "summary": "Telltale's remaster of The Wolf Among Us has an eShop date of November 29 on the original Switch, after an earlier delay.",
-      "why": "The 2013 game is a fan favourite, and its sequel has been long awaited.",
-      "happened": "My Nintendo News spotted the date on the eShop listing. Nintendo Life had reported in October that the remaster was delayed.",
-      "next": "Watch for versions on other platforms and news on the sequel.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "The original came out in 2013."
-        },
-        {
-          "label": "Timing",
-          "text": "It lands on Thanksgiving weekend."
-        }
-      ],
-      "background": "The Wolf Among Us is a Telltale adventure game based on the Fables comics.",
-      "entities": [
-        "Nintendo",
-        "Remakes and remasters",
-        "New game releases"
-      ],
-      "meme": {
-        "top": "A remaster of a 2013 game",
-        "bottom": "arrives on a 2017 console",
-        "take": "The Wolf Among Us gets remastered for a console that is now a classic itself."
-      },
-      "stats": [
-        {
-          "value": "Nov 29",
-          "label": "release date, eShop"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 46,
-      "prevHype": 50,
-      "source": "My Nintendo News",
-      "url": "https://mynintendonews.com/2026/11/22/wolf-among-us-remastered-releases-29th-november-on-original-nintendo-switch/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "game-mario-kart-ds-nintendo-music",
-      "title": "The full Mario Kart DS soundtrack is now on Nintendo Music",
-      "summary": "Nintendo has added all 78 tracks of the Mario Kart DS soundtrack to its Nintendo Music app for Switch Online members.",
-      "why": "Game music has a big following, and Mario Kart DS is a favourite for many players who grew up with it.",
-      "happened": "Nintendo Wire says the soundtrack was uploaded on the night of November 19. Nintendo adds new soundtracks to the app each month.",
-      "next": "Watch for the next soundtracks Nintendo adds in December.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "Mario Kart DS came out in 2005."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Players have long asked for official game music streaming."
-        }
-      ],
-      "background": "Nintendo Music is an app that lets Nintendo Switch Online subscribers stream music from Nintendo games.",
-      "entities": [
-        "Nintendo",
-        "Mario"
-      ],
-      "meme": {
-        "top": "78 tracks of Mario Kart DS",
-        "bottom": "zero tracks of the rage it caused",
-        "take": "Nintendo re-released the soundtrack of a thousand school bus arguments."
-      },
-      "stats": [
-        {
-          "value": "78",
-          "label": "tracks added"
+          "value": "Mar 14",
+          "label": "tour opens in Paris"
         }
       ],
       "motif": "voice",
-      "category": "gaming",
+      "category": "entertainment",
       "hype": 44,
       "prevHype": null,
-      "source": "Nintendo Wire",
-      "url": "https://nintendowire.com/news/2026/11/20/mario-kart-ds-soundtrack-now-streamable-via-nintendo-music-app/",
-      "published": "2026-11-20"
+      "source": "Consequence",
+      "url": "https://consequence.net/2026/11/mastodon-spring-2027-eu-uk-tour/",
+      "published": "2026-11-24"
     }
   ]
 }
