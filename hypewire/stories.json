@@ -1,25 +1,25 @@
 {
-  "refreshedAt": "2026-11-25T02:35:41Z",
+  "refreshedAt": "2026-11-26T02:29:22Z",
   "briefing": [
     {
       "id": "tech-nvidia-huang-reinstated",
-      "text": "Nvidia's board brought Jensen Huang back as CEO, and its shares rose about 30%."
+      "text": "Jensen Huang is back as Nvidia CEO after a board vote, and shares jumped about 31%."
+    },
+    {
+      "id": "ai-spacex-starmind-fcc",
+      "text": "The FCC approved SpaceX's plan for up to a million AI computing satellites."
     },
     {
       "id": "game-gta-vi-44m-estimate",
-      "text": "GTA VI sold an estimated 44.9 million copies in four days, analysts say."
+      "text": "GTA VI sold an estimated 44.9 million copies in its first four days."
     },
     {
-      "id": "ai-gpt-6-2-sol",
-      "text": "OpenAI is rolling out GPT-6.2 Sol to paid ChatGPT users."
+      "id": "tech-huawei-trade-secret-verdict",
+      "text": "A US jury convicted Huawei on 10 of 12 counts in a trade secrets case."
     },
     {
-      "id": "ent-hunger-games-sunrise",
-      "text": "The Hunger Games prequel heads into Thanksgiving after a $225 million global opening."
-    },
-    {
-      "id": "tech-cia-odni-breach",
-      "text": "Some unclassified CIA and US intelligence data was breached, reports say."
+      "id": "ent-focker-in-law-opens",
+      "text": "Focker-In-Law opened for Thanksgiving with Stiller and De Niro back."
     }
   ],
   "stories": [
@@ -28,7 +28,7 @@
       "title": "Nvidia's board reinstates Jensen Huang as CEO, and the shares jump about 30%",
       "summary": "Nvidia's board voted unanimously on November 23 to bring back Jensen Huang as president, CEO and director, days after his resignation.",
       "why": "Nvidia is the most important supplier of AI chips, so who runs it moves markets and politics.",
-      "happened": "Nvidia confirmed the reinstatement. Reuters reported Trump and Vance intervened, and Bloomberg said the shares rose 31%. The Senate Banking Committee set a December 3 hearing with Huang as sole witness.",
+      "happened": "Nvidia's board voted unanimously to bring Huang back, and shares rose about 31%, reports say. CNBC reported he told staff Nvidia does not need a traditional succession plan.",
       "next": "Watch for the December 3 Senate hearing and the board's ongoing independent investigation.",
       "drivers": [
         {
@@ -68,11 +68,57 @@
       ],
       "motif": "chip",
       "category": "tech",
-      "hype": 96,
-      "prevHype": null,
+      "hype": 90,
+      "prevHype": 90,
       "source": "Nvidia",
       "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
       "published": "2026-11-23"
+    },
+    {
+      "id": "ai-spacex-starmind-fcc",
+      "title": "FCC approves SpaceX plan for up to one million AI data centre satellites",
+      "summary": "The FCC approved SpaceX's proposed Starmind network of up to one million satellites for computing in low Earth orbit.",
+      "why": "Putting AI computing in orbit is one of the boldest answers yet to the shortage of power and space on the ground.",
+      "happened": "Gizmodo reports the approval covers a potential network, not satellites already in orbit. Scientists quoted by AP question whether the economics and cooling can work.",
+      "next": "Watch for SpaceX's launch timeline and any customers named for Starmind.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "One million satellites would dwarf every constellation flying today."
+        },
+        {
+          "label": "Timing",
+          "text": "AI firms are racing to find power and space for new data centres."
+        },
+        {
+          "label": "Risk",
+          "text": "Scientists have raised doubts about cost and cooling in orbit."
+        }
+      ],
+      "background": "SpaceX is Elon Musk's rocket company and runs the Starlink satellite internet network.",
+      "entities": [
+        "SpaceX",
+        "AI infrastructure",
+        "US government"
+      ],
+      "meme": {
+        "top": "The FCC approved a million satellites",
+        "bottom": "the sky has run out of parking",
+        "take": "A million AI satellites got approved, and astronomers have quietly updated their résumés."
+      },
+      "stats": [
+        {
+          "value": "1M",
+          "label": "satellites approved, maximum"
+        }
+      ],
+      "motif": "rocket",
+      "category": "ai",
+      "hype": 88,
+      "prevHype": null,
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/feds-approve-spacexs-ai-data-center-satellites-all-1-million-of-them-2000845526",
+      "published": "2026-11-25"
     },
     {
       "id": "game-gta-vi-44m-estimate",
@@ -118,47 +164,100 @@
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 90,
-      "prevHype": null,
+      "hype": 84,
+      "prevHype": 84,
       "source": "TipRanks (The Fly)",
       "url": "https://www.tipranks.com/news/the-fly/gta-vi-sold-44-9m-units-by-the-end-of-the-weekend-says-alinea-analytics-thefly-news",
       "published": "2026-11-24"
     },
     {
-      "id": "ai-gpt-6-2-sol",
-      "title": "OpenAI rolls out GPT-6.2 Sol to paid ChatGPT users",
-      "summary": "OpenAI is rolling out GPT-6.2 Sol to ChatGPT Plus, Pro, Business and Enterprise users, promising better instruction-following.",
-      "why": "ChatGPT is the most used AI chatbot, so a new default model reaches a huge audience at once.",
-      "happened": "MacRumors reports the rollout to paid plans, with improvements in following instructions and reading small details. Roundups say it reached paid users worldwide on November 24.",
-      "next": "Watch for independent tests comparing it with the latest models from Anthropic and Google.",
+      "id": "ai-gpt-6-protein-design",
+      "title": "OpenAI says GPT-6 designed proteins that bound to five targets in the lab",
+      "summary": "OpenAI reports that GPT-6 models designed protein sequences using reasoning and code, and lab tests found binding to five targets.",
+      "why": "Drug discovery is one of the most valuable things AI could speed up, so lab-tested results draw attention.",
+      "happened": "OpenAI says the models worked out sequences through step-by-step reasoning and code rather than a specialised biology model. Lab experiments found evidence of binding to five targets.",
+      "next": "Watch for independent scientists testing or reproducing the designs.",
       "drivers": [
         {
-          "label": "Big name",
-          "text": "OpenAI's model updates set the pace for the industry."
+          "label": "First of its kind",
+          "text": "A general model, not a biology tool, produced the designs."
         },
         {
-          "label": "Rivalry",
-          "text": "It lands amid a busy month of releases from rival labs."
+          "label": "Science",
+          "text": "Results were checked in wet-lab experiments, OpenAI says."
         }
       ],
-      "background": "OpenAI makes ChatGPT and the GPT family of AI models.",
+      "background": "OpenAI makes ChatGPT and the GPT series of AI models.",
       "entities": [
         "OpenAI",
+        "AI research",
         "Frontier models"
       ],
       "meme": {
-        "top": "OpenAI has a new model that listens",
-        "bottom": "it was told to ship another model",
-        "take": "OpenAI's new model is better at following instructions, a rare quality this month."
+        "top": "A chatbot designed a protein",
+        "bottom": "and it still cannot fold laundry",
+        "take": "GPT-6 can now design proteins, which puts it ahead of most people's New Year plans."
       },
-      "stats": [],
+      "stats": [
+        {
+          "value": "5",
+          "label": "protein targets with binding"
+        }
+      ],
       "motif": "network",
       "category": "ai",
-      "hype": 86,
+      "hype": 80,
       "prevHype": null,
-      "source": "MacRumors",
-      "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
-      "published": "2026-11-23"
+      "source": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "published": "2026-11-25"
+    },
+    {
+      "id": "ent-focker-in-law-opens",
+      "title": "Focker-In-Law opens for Thanksgiving with Stiller and De Niro back",
+      "summary": "The fourth Meet the Parents film opened in cinemas on November 25, with Ben Stiller and Robert De Niro returning.",
+      "why": "It revives a big comedy franchise for the busiest family moviegoing week of the year.",
+      "happened": "Owen Wilson and Teri Polo also return, and Ariana Grande and Skyler Gisondo join the cast. It opened the same day as Disney's Hexed, setting up a holiday weekend contest.",
+      "next": "Watch for the five-day Thanksgiving box office numbers.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "The series began with Meet the Parents in 2000."
+        },
+        {
+          "label": "Big name",
+          "text": "Ariana Grande joins the franchise."
+        },
+        {
+          "label": "Timing",
+          "text": "It opened on the busy Thanksgiving week."
+        }
+      ],
+      "background": "Meet the Parents is a comedy series about a nurse and his fearsome ex-CIA father-in-law.",
+      "entities": [
+        "Theatrical releases",
+        "Thanksgiving releases",
+        "Revived franchises",
+        "Box office"
+      ],
+      "meme": {
+        "top": "A film about meeting the in-laws",
+        "bottom": "opens the day before you meet yours",
+        "take": "Focker-In-Law opens on Thanksgiving week, a lighter version of what awaits families."
+      },
+      "stats": [
+        {
+          "value": "Nov 25",
+          "label": "cinema release"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 78,
+      "prevHype": null,
+      "source": "ScreenRant",
+      "url": "https://screenrant.com/new-movies-releasing-thanksgiving-weekend-2026/",
+      "published": "2026-11-24"
     },
     {
       "id": "ent-hunger-games-sunrise",
@@ -209,11 +308,335 @@
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 84,
-      "prevHype": 84,
+      "hype": 76,
+      "prevHype": 76,
       "source": "ABC News (AP)",
       "url": "https://abcnews.com/amp/Entertainment/wireStory/resurgent-hunger-games-big-box-office-despite-competition-138361740",
       "published": "2026-11-23"
+    },
+    {
+      "id": "tech-huawei-trade-secret-verdict",
+      "title": "US jury convicts Huawei on 10 of 12 counts in trade secrets case",
+      "summary": "A federal jury in Brooklyn found Huawei guilty on 10 of 12 counts in a long-running trade secrets and fraud case.",
+      "why": "Huawei sits at the centre of US-China tech tensions, so a verdict carries weight beyond the courtroom.",
+      "happened": "CNBC reported the verdict on November 25. The case centred on accusations of trade secret theft and fraud brought by US prosecutors.",
+      "next": "Watch for sentencing and any appeal from Huawei.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "It is a major moment in the US-China tech contest."
+        },
+        {
+          "label": "Big name",
+          "text": "Huawei is one of the world's largest telecoms makers."
+        }
+      ],
+      "background": "Huawei is a Chinese maker of telecoms equipment and phones, under US restrictions since 2019.",
+      "entities": [
+        "Huawei",
+        "China",
+        "US policy"
+      ],
+      "meme": {
+        "top": "A jury reviewed Huawei's case",
+        "bottom": "and gave it ten out of twelve",
+        "take": "Huawei scored ten out of twelve with a US jury, the one test it wanted to fail."
+      },
+      "stats": [
+        {
+          "value": "10 of 12",
+          "label": "counts convicted"
+        }
+      ],
+      "motif": "doc",
+      "category": "tech",
+      "hype": 76,
+      "prevHype": null,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html",
+      "published": "2026-11-25"
+    },
+    {
+      "id": "ai-openai-matrix-exponent",
+      "title": "OpenAI preprint claims the matrix multiplication exponent is exactly 9/4",
+      "summary": "OpenAI posted a maths preprint claiming the exponent of matrix multiplication is 9/4, a result not yet independently checked.",
+      "why": "Faster matrix multiplication is a famous open problem, and AI labs now compete to claim maths results.",
+      "happened": "The paper appeared in OpenAI's public maths repository on November 24. Roundups stress it has not been independently validated. It follows other AI-assisted maths claims this month.",
+      "next": "Watch for mathematicians reviewing the proof and whether it holds up.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "AI labs are trading big maths claims this month."
+        },
+        {
+          "label": "Big claim",
+          "text": "The exponent has been an open question for decades."
+        }
+      ],
+      "background": "Matrix multiplication underpins much of computing, including the training of AI models.",
+      "entities": [
+        "OpenAI",
+        "AI research",
+        "Mathematics"
+      ],
+      "meme": {
+        "top": "OpenAI says the answer is 9/4",
+        "bottom": "reviewers say show your working",
+        "take": "An AI lab says it settled an old maths problem, pending the small matter of checking."
+      },
+      "stats": [
+        {
+          "value": "9/4",
+          "label": "claimed exponent, unverified"
+        }
+      ],
+      "motif": "doc",
+      "category": "ai",
+      "hype": 72,
+      "prevHype": null,
+      "source": "OpenAI (GitHub)",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ent-gods-dont-give-gifts-oscars",
+      "title": "Academy rules fully AI-made film ineligible for Best Animated Feature",
+      "summary": "The Academy ruled that Gods Don't Give Gifts, a feature made entirely with generative AI, cannot compete for Best Animated Feature.",
+      "why": "It is a clear early line on where Hollywood's top awards stand on AI-made films.",
+      "happened": "IndieWire reports the film comes from the YouTuber known as Gossip Goblin. The filmmakers plan to appeal and to give it a cinema run from December 4.",
+      "next": "Watch for the appeal and the film's December 4 release.",
+      "drivers": [
+        {
+          "label": "Controversy",
+          "text": "AI in filmmaking is one of Hollywood's most divisive issues."
+        },
+        {
+          "label": "First of its kind",
+          "text": "It tests the rules with a fully AI-generated feature."
+        }
+      ],
+      "background": "The Academy of Motion Picture Arts and Sciences runs the Oscars.",
+      "entities": [
+        "AI policy",
+        "Oscars",
+        "Theatrical releases"
+      ],
+      "meme": {
+        "top": "An AI made a whole animated film",
+        "bottom": "the Academy said it can watch",
+        "take": "The Academy told a fully AI-made film it cannot enter, which the film took as a review."
+      },
+      "stats": [
+        {
+          "value": "Dec 4",
+          "label": "planned cinema run"
+        }
+      ],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 72,
+      "prevHype": null,
+      "source": "IndieWire",
+      "url": "https://www.indiewire.com/news/breaking-news/ai-film-gods-dont-give-gifts-ineligible-oscars-1235230159/",
+      "published": "2026-11-25"
+    },
+    {
+      "id": "game-loaded-black-friday-gotys",
+      "title": "GTA VI gets its first big third-party discount in Loaded's Black Friday sale",
+      "summary": "Loaded's Black Friday sale cuts GTA VI on Xbox to $67.49 and discounts five of the six Game of the Year nominees.",
+      "why": "GTA VI is barely a week old, so any discount on it stands out.",
+      "happened": "GAMINGbible reports the sale runs until December 1 with over 800 deals. GTA VI on Xbox starts from $67.49, down from $79.99, and 007 First Light is up to 57% off.",
+      "next": "Watch for whether other retailers cut GTA VI prices over Black Friday.",
+      "drivers": [
+        {
+          "label": "Timing",
+          "text": "The sale lands one week after GTA VI's launch."
+        },
+        {
+          "label": "Money",
+          "text": "Discounts reach 57% on some nominees."
+        }
+      ],
+      "background": "Loaded, formerly CDKeys, is a digital game key seller; GTA VI leads The Game Awards nominations.",
+      "entities": [
+        "GTA VI",
+        "Black Friday",
+        "Game Awards"
+      ],
+      "meme": {
+        "top": "GTA VI is already on sale",
+        "bottom": "the game lasted longer than most diets",
+        "take": "GTA VI went on sale within a week, which is the most realistic crime in the game."
+      },
+      "stats": [
+        {
+          "value": "$67.49",
+          "label": "GTA VI on Xbox in sale"
+        },
+        {
+          "value": "57%",
+          "label": "top discount on a nominee"
+        },
+        {
+          "value": "Dec 1",
+          "label": "sale end date"
+        }
+      ],
+      "motif": "bag",
+      "category": "gaming",
+      "hype": 72,
+      "prevHype": null,
+      "source": "GAMINGbible",
+      "url": "https://www.gamingbible.com/news/loaded-black-friday-sale-goty-nominee-game-offers-125141-20261125",
+      "published": "2026-11-25"
+    },
+    {
+      "id": "tech-cia-odni-breach",
+      "title": "CIA and US intelligence office reportedly hit by breach of unclassified data",
+      "summary": "Some unclassified information at the CIA and the Office of the Director of National Intelligence was breached, The New York Times reports.",
+      "why": "A breach at the top US spy agencies, even of unclassified systems, raises questions about government security.",
+      "happened": "Reuters relayed the New York Times report that the CIA and ODNI had some unclassified information breached. AP, citing a source, said an unclassified CIA system was hit in a cyberattack. Details remain limited.",
+      "next": "Watch for an official statement on what was taken and who was behind it.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "The CIA is among the most security-conscious organisations in the world."
+        },
+        {
+          "label": "Risk",
+          "text": "Even unclassified government data can be useful to attackers."
+        }
+      ],
+      "background": "The Office of the Director of National Intelligence oversees the US intelligence agencies, including the CIA.",
+      "entities": [
+        "Cybersecurity",
+        "US government"
+      ],
+      "meme": {
+        "top": "The spy agency lost some files",
+        "bottom": "the unclassified kind, they stress",
+        "take": "Some unclassified CIA data is now, presumably, even less classified."
+      },
+      "stats": [],
+      "motif": "shield",
+      "category": "tech",
+      "hype": 72,
+      "prevHype": 72,
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/24/us/politics/spy-agencies-computer-network-breaches.html",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ai-amazon-agent-zero-day",
+      "title": "Amazon says an open-source AI agent exploited an unknown flaw mostly on its own",
+      "summary": "Amazon reportedly detected an open-source AI agent exploiting a previously unknown vulnerability with limited human help.",
+      "why": "Autonomous AI hacking has long been a feared scenario, and this is reported as a real case.",
+      "happened": "Gizmodo reports that Amazon described the agent as mostly autonomous in exploiting the zero-day. The agent was open source rather than from a major lab, according to the report.",
+      "next": "Watch for details of the flaw, the patch and how defenders respond.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "It is a reported real-world case of AI finding and using a new flaw."
+        },
+        {
+          "label": "Big name",
+          "text": "Amazon runs one of the world's largest cloud platforms."
+        }
+      ],
+      "background": "A zero-day is a software flaw that attackers exploit before the maker has a fix.",
+      "entities": [
+        "Amazon",
+        "Cybersecurity",
+        "AI agents"
+      ],
+      "meme": {
+        "top": "An AI agent found a zero-day",
+        "bottom": "and did not even ask for a raise",
+        "take": "An AI agent hacked a system mostly by itself, finally a job automation nobody wanted."
+      },
+      "stats": [],
+      "motif": "shield",
+      "category": "ai",
+      "hype": 70,
+      "prevHype": null,
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/amazon-says-open-source-ai-agent-mostly-autonomously-exploited-a-zero-day-2000844891",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ent-netflix-nfl-u2",
+      "title": "Netflix streams Packers at Rams on Thanksgiving Eve with U2 at halftime",
+      "summary": "Netflix listed the Packers at Rams game for November 25, with a U2 halftime performance.",
+      "why": "Live sport is the biggest test of whether streamers can replace traditional TV.",
+      "happened": "TVLine's November 25 listings put the NFL game on Netflix with U2 playing the halftime show. It adds to Netflix's growing run of live events.",
+      "next": "Watch for Netflix's viewing figures for the game.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "U2 headlined the halftime show."
+        },
+        {
+          "label": "Trend",
+          "text": "Streamers are spending heavily on live sport."
+        }
+      ],
+      "background": "Netflix has added live NFL games to its service in recent years.",
+      "entities": [
+        "Netflix",
+        "Live sports",
+        "Thanksgiving releases",
+        "Live music"
+      ],
+      "meme": {
+        "top": "Netflix now has football and U2",
+        "bottom": "the album may already be on your phone",
+        "take": "Netflix booked U2 for halftime, and nobody had to download anything this time."
+      },
+      "stats": [],
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 70,
+      "prevHype": null,
+      "source": "TVLine",
+      "url": "https://www.tvline.com/2323989/what-to-watch-november-25-2026-tv-shows-movies-streaming/",
+      "published": "2026-11-25"
+    },
+    {
+      "id": "tech-fbi-ncic-breach",
+      "title": "FBI's national crime database reportedly breached",
+      "summary": "A breach of the FBI's National Crime Information Center database has been reported, with its scope still unconfirmed.",
+      "why": "The database is used by police across the US, so any compromise is serious.",
+      "happened": "A weekly incident roundup lists the breach as reported, with the scope not yet confirmed and an investigation ongoing. It comes days after reports of breaches at US intelligence agencies.",
+      "next": "Watch for the FBI to confirm what was accessed.",
+      "drivers": [
+        {
+          "label": "Risk",
+          "text": "Police across the US rely on the database."
+        },
+        {
+          "label": "Timing",
+          "text": "It follows reported breaches at US spy agencies."
+        }
+      ],
+      "background": "The FBI is the main federal law enforcement agency in the United States.",
+      "entities": [
+        "Cybersecurity",
+        "US government",
+        "Data breaches"
+      ],
+      "meme": {
+        "top": "A breach at the FBI's crime database",
+        "bottom": "was reported, and is being investigated",
+        "take": "The FBI is investigating a reported breach of its own crime database."
+      },
+      "stats": [],
+      "motif": "shield",
+      "category": "tech",
+      "hype": 70,
+      "prevHype": null,
+      "source": "SITG Consulting",
+      "url": "https://www.sitg-consulting.com/post/cyber-incidents-top-40-25-november-2026",
+      "published": "2026-11-25"
     },
     {
       "id": "tech-spacex-tesla-merger-talks",
@@ -255,206 +678,186 @@
       ],
       "motif": "money",
       "category": "tech",
-      "hype": 80,
-      "prevHype": null,
+      "hype": 70,
+      "prevHype": 70,
       "source": "BitDigest (Financial Times)",
       "url": "https://bitdigest.substack.com/p/tuesday-november-24-2026",
       "published": "2026-11-24"
     },
     {
-      "id": "tech-cia-odni-breach",
-      "title": "CIA and US intelligence office reportedly hit by breach of unclassified data",
-      "summary": "Some unclassified information at the CIA and the Office of the Director of National Intelligence was breached, The New York Times reports.",
-      "why": "A breach at the top US spy agencies, even of unclassified systems, raises questions about government security.",
-      "happened": "Reuters relayed the New York Times report that the CIA and ODNI had some unclassified information breached. AP, citing a source, said an unclassified CIA system was hit in a cyberattack. Details remain limited.",
-      "next": "Watch for an official statement on what was taken and who was behind it.",
+      "id": "ai-anthropic-api-rust",
+      "title": "Anthropic says Claude agents moved its API from Python to Rust",
+      "summary": "Anthropic reports that Claude agents migrated its Messages API to Rust, cutting processor use per request by about 70%.",
+      "why": "It is a large, real engineering job done mostly by AI, with measured results.",
+      "happened": "Agents compared the old and new versions against live requests, and engineers reviewed the fixes. Anthropic reports about 70% less processor use per request and a 20% shorter median time to first token.",
+      "next": "Watch for other companies trying AI-led rewrites of production systems.",
       "drivers": [
         {
-          "label": "Big name",
-          "text": "The CIA is among the most security-conscious organisations in the world."
+          "label": "Scale",
+          "text": "The Messages API is the core service behind Claude."
         },
         {
-          "label": "Risk",
-          "text": "Even unclassified government data can be useful to attackers."
+          "label": "Trend",
+          "text": "AI coding agents are moving from small fixes to whole systems."
         }
       ],
-      "background": "The Office of the Director of National Intelligence oversees the US intelligence agencies, including the CIA.",
+      "background": "Anthropic is the AI company that makes the Claude models.",
       "entities": [
-        "Cybersecurity",
-        "US government"
+        "Anthropic",
+        "AI coding",
+        "AI agents"
       ],
       "meme": {
-        "top": "The spy agency lost some files",
-        "bottom": "the unclassified kind, they stress",
-        "take": "Some unclassified CIA data is now, presumably, even less classified."
+        "top": "Claude rewrote its own API in Rust",
+        "bottom": "and now it will not stop mentioning it",
+        "take": "Claude rewrote its own plumbing in Rust, the most developer thing an AI has done yet."
       },
-      "stats": [],
-      "motif": "shield",
-      "category": "tech",
-      "hype": 76,
+      "stats": [
+        {
+          "value": "~70%",
+          "label": "less processor use per request"
+        },
+        {
+          "value": "20%",
+          "label": "faster median first token"
+        }
+      ],
+      "motif": "network",
+      "category": "ai",
+      "hype": 68,
       "prevHype": null,
-      "source": "Federal News Network (AP)",
-      "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
-      "published": "2026-11-24"
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "published": "2026-11-25"
     },
     {
-      "id": "ai-amazon-decart",
-      "title": "Amazon agrees to buy Decart's AI optimisation technology and team",
-      "summary": "Amazon agreed to buy Decart's AI optimisation stack and bring in its team; TechCrunch reports the deal is worth $7.5 billion.",
-      "why": "Software that makes AI run faster on Amazon's own chips could help it compete with Nvidia.",
-      "happened": "Amazon's announcement does not give a price and says the deal needs regulatory clearance. TechCrunch reports $7.5 billion and links it to Amazon's plans to sell its Trainium chips.",
-      "next": "Watch for regulatory review and how Amazon uses the technology with Trainium.",
+      "id": "ent-hexed-thanksgiving-openers",
+      "title": "Disney's animated Hexed leads the Thanksgiving week cinema openings",
+      "summary": "Disney's Hexed opens wide on November 25, alongside Hershey, Bitter Christmas and A24's Club Kid, with Focker In-Law following on November 27.",
+      "why": "Thanksgiving is one of the biggest moviegoing weeks of the year, and family films usually lead it.",
+      "happened": "Occupy Cinema, citing Box Office Mojo's calendar, lists Hexed from Disney, Hershey from Angel Studios and Bitter Christmas from Sony Pictures Classics for Wednesday. AP lists Universal's Focker In-Law for Friday.",
+      "next": "Watch for the five-day holiday totals and how Hexed fares against the Hunger Games prequel.",
       "drivers": [
         {
-          "label": "Money",
-          "text": "The reported price is $7.5 billion."
+          "label": "Timing",
+          "text": "Thanksgiving week is a traditional window for family films."
         },
         {
           "label": "Rivalry",
-          "text": "Amazon is pushing its own chips as an alternative to Nvidia."
+          "text": "New openers face the Hunger Games prequel in its second week."
         }
       ],
-      "background": "Amazon Web Services is the largest cloud provider and designs its own AI chips, called Trainium.",
+      "background": "Disney animation has often released films over Thanksgiving, including Frozen in 2013.",
       "entities": [
-        "Amazon",
-        "Acquisitions",
-        "AI chips"
+        "Disney",
+        "Box office",
+        "Theatrical releases",
+        "Thanksgiving releases"
       ],
       "meme": {
-        "top": "Amazon bought software to speed up AI",
-        "bottom": "checkout was, as ever, one click",
-        "take": "Amazon spent a reported $7.5 billion to make its own chips feel less lonely."
+        "top": "Disney opens a film called Hexed",
+        "bottom": "on a week of family gatherings",
+        "take": "Hexed arrives on Thanksgiving, a holiday with plenty of family curses already."
       },
       "stats": [
         {
-          "value": "$7.5B",
-          "label": "deal value, reported"
+          "value": "Nov 25",
+          "label": "Hexed opens wide"
+        },
+        {
+          "value": "Nov 27",
+          "label": "Focker In-Law opens"
         }
       ],
-      "motif": "bag",
-      "category": "ai",
-      "hype": 76,
-      "prevHype": null,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-      "published": "2026-11-23"
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 68,
+      "prevHype": 68,
+      "source": "Occupy Cinema",
+      "url": "https://cinemaoccupy.substack.com/p/sunrise-on-the-reaping-opens-to-120",
+      "published": "2026-11-24"
     },
     {
-      "id": "ai-anthropic-vp-vnp-paper",
-      "title": "Anthropic posts a Claude-authored paper claiming a major result in complexity theory",
-      "summary": "Anthropic published a 70-page paper credited to Claude that claims VP is not equal to VNP, with a Lean formalisation; no human has checked it yet.",
-      "why": "It comes days after the Riemann claim, adding to a debate about AI doing frontier mathematics.",
-      "happened": "The paper and proof code were pushed to Anthropic's formal-math repository on November 23. Anthropic says no human mathematician has checked it. It explicitly does not settle P vs NP.",
-      "next": "Watch for whether mathematicians confirm the formal statement and the proof.",
+      "id": "ai-chatgpt-merged-limits",
+      "title": "ChatGPT merges Chat and Work limits, so heavy users may hit caps sooner",
+      "summary": "OpenAI says ChatGPT's Chat and Work modes will share one usage allowance, so people who use both heavily may hit limits sooner.",
+      "why": "Usage limits decide how much paying subscribers actually get for their money.",
+      "happened": "TechCrunch reports the two modes now draw from a single allowance. The Instant model stays available after the allowance runs out, and a wider rollout is planned for December.",
+      "next": "Watch for the December rollout and how paid plans' limits change.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "It changes what paid subscribers get."
+        },
+        {
+          "label": "Fan demand",
+          "text": "Heavy users are the most vocal ChatGPT audience."
+        }
+      ],
+      "background": "ChatGPT is OpenAI's chatbot and one of the most used AI apps in the world.",
+      "entities": [
+        "OpenAI",
+        "Chatbots"
+      ],
+      "meme": {
+        "top": "ChatGPT merged work and play",
+        "bottom": "like most of us did years ago",
+        "take": "ChatGPT now counts work and chat as one allowance, which is how weekends feel."
+      },
+      "stats": [],
+      "motif": "agent",
+      "category": "ai",
+      "hype": 66,
+      "prevHype": null,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "published": "2026-11-25"
+    },
+    {
+      "id": "ai-ny-ai-toy-ban",
+      "title": "New York bans AI chatbot toys for five years",
+      "summary": "Governor Kathy Hochul signed a law banning the manufacture and sale of AI chatbot-powered toys in New York for five years.",
+      "why": "It is one of the first laws to take AI chatbots out of a whole product category for children.",
+      "happened": "NBC News reports the ban covers making and selling toys powered by AI chatbots and lasts five years. It arrives just before the holiday shopping season.",
+      "next": "Watch for toy makers' responses and whether other states follow.",
       "drivers": [
         {
           "label": "First of its kind",
-          "text": "A paper with an AI as its author line is unusual."
+          "text": "Few places have banned a whole category of AI products."
         },
         {
           "label": "Timing",
-          "text": "It follows the Riemann Hypothesis claim by days."
+          "text": "It lands at the start of holiday toy shopping."
+        },
+        {
+          "label": "Risk",
+          "text": "Child safety is a growing focus of AI rules."
         }
       ],
-      "background": "VP and VNP are algebraic versions of the famous P and NP classes, which ask which problems are easy to compute.",
+      "background": "New York is one of the biggest US states and often an early mover on tech rules.",
       "entities": [
-        "Anthropic",
-        "AI research",
-        "Mathematics"
+        "AI policy",
+        "Chatbots",
+        "Black Friday"
       ],
       "meme": {
-        "top": "Claude wrote a 70-page proof",
-        "bottom": "now 70 pages need a human",
-        "take": "Claude wrote the proof and signed it. The peer reviewers have yet to RSVP."
+        "top": "New York banned toys that chat",
+        "bottom": "the teddy bear may remain silent",
+        "take": "New York banned talking AI toys, restoring the classic toy that just stares at you."
       },
       "stats": [
         {
-          "value": "70",
-          "label": "pages in the paper"
+          "value": "5 yrs",
+          "label": "length of the ban"
         }
       ],
       "motif": "doc",
       "category": "ai",
-      "hype": 74,
+      "hype": 66,
       "prevHype": null,
-      "source": "Bitdoze",
-      "url": "https://www.bitdoze.com/news/2026-11-24/",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "ai-spacex-compute-rivals",
-      "title": "SpaceX is reportedly selling computing capacity to Anthropic and Google",
-      "summary": "SpaceX is selling computing capacity to AI rivals Anthropic and Google, The New York Times reports.",
-      "why": "Elon Musk's companies compete in AI, so renting compute to rivals shows how scarce AI capacity is.",
-      "happened": "The New York Times reported the arrangements on November 23. They come as SpaceX expands its AI data-centre plans and as compute demand keeps rising across the industry.",
-      "next": "Watch for the size of the deals and whether more AI labs sign up.",
-      "drivers": [
-        {
-          "label": "Rivalry",
-          "text": "SpaceX's own AI unit competes with the labs it is serving."
-        },
-        {
-          "label": "Trend",
-          "text": "AI labs are buying compute wherever they can find it."
-        }
-      ],
-      "background": "SpaceX, best known for rockets and Starlink, now also owns Elon Musk's AI business.",
-      "entities": [
-        "SpaceX",
-        "Anthropic",
-        "Google",
-        "AI infrastructure"
-      ],
-      "meme": {
-        "top": "SpaceX is renting servers to its rivals",
-        "bottom": "the competition is also the customer",
-        "take": "SpaceX competes with Anthropic and Google, and also sends them an invoice."
-      },
-      "stats": [],
-      "motif": "money",
-      "category": "ai",
-      "hype": 72,
-      "prevHype": null,
-      "source": "The New York Times",
-      "url": "https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "game-witcher-4-sony-deal",
-      "title": "CD Projekt signs a Sony marketing deal for The Witcher 4",
-      "summary": "CD Projekt has signed a marketing deal with Sony for The Witcher 4, and compares its leap over Witcher 3 to GTA V to GTA VI.",
-      "why": "Marketing deals shape where big games are shown first, and The Witcher 4 is one of the most awaited RPGs.",
-      "happened": "Gamingroute reports the Sony deal. CD Projekt compares the jump from The Witcher 3 to the jump from GTA V to GTA VI. No release date has been given.",
-      "next": "Watch for a release window and what the Sony deal includes for PlayStation players.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "The Witcher 3 is one of the best-selling RPGs ever."
-        },
-        {
-          "label": "Rivalry",
-          "text": "Marketing deals are a long-running PlayStation and Xbox battleground."
-        }
-      ],
-      "background": "CD Projekt Red is the Polish studio behind The Witcher 3 and Cyberpunk 2077.",
-      "entities": [
-        "CD Projekt",
-        "Sony",
-        "New game releases"
-      ],
-      "meme": {
-        "top": "CD Projekt compared itself to GTA VI",
-        "bottom": "during the week of GTA VI",
-        "take": "CD Projekt compared its next leap to GTA VI, a brave move during GTA VI's week."
-      },
-      "stats": [],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 72,
-      "prevHype": null,
-      "source": "Gamingroute",
-      "url": "https://gamingroute.com/witcher-4-sony-marketing-deal/",
-      "published": "2026-11-24"
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962",
+      "published": "2026-11-25"
     },
     {
       "id": "ent-blade-runner-2099",
@@ -501,477 +904,209 @@
       ],
       "motif": "screen",
       "category": "entertainment",
-      "hype": 72,
-      "prevHype": 72,
+      "hype": 66,
+      "prevHype": 66,
       "source": "BillFrost.tv",
       "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
       "published": "2026-11-23"
     },
     {
-      "id": "tech-megaspeed-blacklist",
-      "title": "US blacklists chip firm Megaspeed, and Malaysia orders data centres to cut it off",
-      "summary": "The US added Singapore's Megaspeed to its trade blacklist amid claims about Nvidia chip exports to China; Malaysia then ordered data centres to cut it off.",
-      "why": "It shows how US export controls on AI chips now reach data centres across Southeast Asia.",
-      "happened": "Reuters reported the blacklisting, citing a source. Bloomberg says Malaysia told data centres to cut off Megaspeed and six other blacklisted firms. The BBC says the company denies wrongdoing.",
-      "next": "Watch for whether other countries in the region follow Malaysia's lead.",
-      "drivers": [
-        {
-          "label": "Rivalry",
-          "text": "It is part of the US effort to keep advanced AI chips out of China."
-        },
-        {
-          "label": "Ripple effect",
-          "text": "Malaysia acted within a day of the US move."
-        }
-      ],
-      "background": "The US 'entity list' restricts exports to listed firms, and has been used heavily to limit China's access to AI chips.",
-      "entities": [
-        "Nvidia",
-        "US policy",
-        "China",
-        "AI chips"
-      ],
-      "meme": {
-        "top": "One blacklist in Washington",
-        "bottom": "seven unplugged racks in Malaysia",
-        "take": "Washington updated a list, and data centres in Malaysia started pulling cables."
-      },
-      "stats": [
-        {
-          "value": "6",
-          "label": "other firms Malaysia cut off"
-        }
-      ],
-      "motif": "globe",
-      "category": "tech",
-      "hype": 70,
-      "prevHype": null,
-      "source": "Reuters",
-      "url": "https://www.reuters.com/business/us-blacklist-megaspeed-chip-firm-linked-nvidia-scandal-source-says-2026-11-23/",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "ai-claude-ship",
-      "title": "Anthropic launches Claude Ship to help get code changes merged",
-      "summary": "Anthropic's Claude Ship beta adds PR Steward and Claude Approvals agents to help move pull requests through review on GitHub.",
-      "why": "Coding is the busiest use of AI agents, and this moves them closer to the final step of shipping code.",
-      "happened": "PR Steward fixes failing checks, conflicts and review feedback but does not approve or merge. Approvals follow each repository's policy, with an observe-only mode advised first. It runs with a /ship command.",
-      "next": "Watch for how teams use the approval agent and what limits they set on it.",
-      "drivers": [
-        {
-          "label": "Trend",
-          "text": "Coding agents are moving from writing code to shipping it."
-        },
-        {
-          "label": "Big name",
-          "text": "Anthropic's Claude is widely used for coding."
-        }
-      ],
-      "background": "Anthropic makes the Claude AI models and the Claude Code coding tool.",
-      "entities": [
-        "Anthropic",
-        "AI agents",
-        "AI coding"
-      ],
-      "meme": {
-        "top": "The AI fixes your pull request",
-        "bottom": "a human still presses merge",
-        "take": "Claude can now fix your pull request, then wait politely for a human to press merge."
-      },
-      "stats": [],
-      "motif": "agent",
-      "category": "ai",
-      "hype": 70,
-      "prevHype": null,
-      "source": "ZDNET",
-      "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "game-gta-vi-metacritic-99",
-      "title": "GTA VI ties Ocarina of Time with a 99 on Metacritic",
-      "summary": "GTA VI's reviews give it a Metacritic score of 99, level with The Legend of Zelda: Ocarina of Time, Shattered reports.",
-      "why": "Ocarina of Time has held the top Metacritic spot for decades, so matching it is a rare feat.",
-      "happened": "Shattered calls it a tie rather than a record broken. GameRant has also covered the gap between critic and user scores on the PlayStation Store and Metacritic.",
-      "next": "Watch for whether the score holds as more reviews arrive.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "Ocarina of Time has long been the benchmark for review scores."
-        },
-        {
-          "label": "Big name",
-          "text": "GTA VI is the biggest release of the year."
-        }
-      ],
-      "background": "Metacritic averages critics' reviews into a score out of 100. Ocarina of Time launched on the Nintendo 64 in 1998.",
-      "entities": [
-        "GTA VI",
-        "Rockstar",
-        "Nintendo"
-      ],
-      "meme": {
-        "top": "GTA VI matched Ocarina of Time",
-        "bottom": "it only took 28 years and helicopters",
-        "take": "GTA VI tied Ocarina of Time, and Ocarina did it without a single helicopter."
-      },
-      "stats": [
-        {
-          "value": "99",
-          "label": "Metacritic score"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 70,
-      "prevHype": null,
-      "source": "Shattered",
-      "url": "https://shattered.io/gta-vi-ties-ocarina-of-time-99-metacritic-record-tie-not-record-break/",
-      "published": "2026-11-22"
-    },
-    {
-      "id": "ent-mario-galaxy-netflix",
-      "title": "The Super Mario Galaxy Movie comes to Netflix on November 30",
-      "summary": "The Super Mario Galaxy Movie joins Netflix's US library on November 30 after its Peacock run, Collider reports.",
-      "why": "It was the year's first billion-dollar film, so its streaming debut is a big holiday draw.",
-      "happened": "Collider says the film was the first 2026 release to pass $1 billion at the box office, short of the $1.3 billion of the 2023 original. A further sequel is said not to be expected before 2029.",
-      "next": "Watch for whether it tops Netflix's film chart in its first week.",
+      "id": "tech-nvidia-ransomware-claim",
+      "title": "Ransomware group lists Nvidia as a victim, and Nvidia is investigating",
+      "summary": "A ransomware group named Nvidia on its leak site, and Nvidia says it is investigating the claim.",
+      "why": "Nvidia is already in the headlines, and a claimed attack on the AI chip leader draws scrutiny.",
+      "happened": "An incident roundup reports the listing and Nvidia's confirmation that it is looking into it. No details of any stolen data have been confirmed.",
+      "next": "Watch for Nvidia's findings and whether any data is confirmed taken.",
       "drivers": [
         {
           "label": "Big name",
-          "text": "Mario is Nintendo's most famous character."
-        },
-        {
-          "label": "Scale",
-          "text": "It passed $1 billion at the box office."
-        }
-      ],
-      "background": "The Super Mario Bros. Movie from Illumination and Nintendo was one of 2023's biggest hits.",
-      "entities": [
-        "Netflix",
-        "Nintendo",
-        "Mario",
-        "Video game adaptations"
-      ],
-      "meme": {
-        "top": "A billion-dollar film reaches Netflix",
-        "bottom": "Mario has seen tougher pipes",
-        "take": "A billion-dollar Mario film lands on Netflix, the couch finally beating the cinema."
-      },
-      "stats": [
-        {
-          "value": "Nov 30",
-          "label": "Netflix US release"
-        },
-        {
-          "value": "$1B+",
-          "label": "box office, reported"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 70,
-      "prevHype": null,
-      "source": "Collider",
-      "url": "https://collider.com/anya-taylor-joy-super-mario-galaxy-movie-netflix-streaming-release-date-november-2026/",
-      "published": "2026-11-24"
-    },
-    {
-      "id": "ai-riemann-claude-claim",
-      "title": "Anthropic mathematician says Claude helped him prove the Riemann Hypothesis",
-      "summary": "Anthropic mathematician Levent Alpöge says he proved the Riemann Hypothesis with help from Claude, Bloomberg reports.",
-      "why": "The Riemann Hypothesis is one of the most famous unsolved problems in mathematics, so a proof would be historic.",
-      "happened": "Levent Alpöge published a computer-checkable proof claim. Independent mathematicians have compiled the Lean code but are still checking whether its formal statement matches the real hypothesis, The Neuron reports.",
-      "next": "Watch for whether reviewers agree the formal statement captures the actual Riemann Hypothesis, as Anthropic posts more proofs.",
-      "drivers": [
-        {
-          "label": "First of its kind",
-          "text": "An AI-assisted proof of a problem this famous would be a first."
-        },
-        {
-          "label": "Big name",
-          "text": "It is one of the Clay Institute's million-dollar Millennium Prize Problems."
-        },
-        {
-          "label": "Scale",
-          "text": "The formal proof is reported at about 17 million lines."
-        }
-      ],
-      "background": "Posed by Bernhard Riemann in 1859, the hypothesis concerns the zeros of the zeta function, which are tied to how primes are spread.",
-      "entities": [
-        "Anthropic",
-        "Frontier models",
-        "AI research"
-      ],
-      "meme": {
-        "top": "The proof compiles",
-        "bottom": "the mathematicians do not, yet",
-        "take": "The code checks out. Now the humans have to check what the code was actually about."
-      },
-      "stats": [
-        {
-          "value": "6 weeks",
-          "label": "time taken, The Guardian"
-        },
-        {
-          "value": "~17M",
-          "label": "lines of formal proof, reported"
-        }
-      ],
-      "motif": "network",
-      "category": "ai",
-      "hype": 70,
-      "prevHype": 70,
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-      "published": "2026-11-21"
-    },
-    {
-      "id": "ai-shirudo-openai-cisco",
-      "title": "OpenAI and Cisco release Shirudo, an open-source runtime for AI-written security patches",
-      "summary": "OpenAI and Cisco released Shirudo, which loads temporary kernel protections on running Linux systems while real patches are prepared.",
-      "why": "It is a test of whether AI can write stopgap defences quickly when a new flaw appears.",
-      "happened": "In a controlled test, a Codex-written shield blocked a Java4Shell exploit on a running server without a restart. It is pre-release and BSD-licensed, and deploying shields needs security-team approval.",
-      "next": "Watch for early adopters and whether the shields hold up outside controlled tests.",
-      "drivers": [
-        {
-          "label": "First of its kind",
-          "text": "It lets AI agents write and deploy kernel shields."
+          "text": "Nvidia is the leading maker of AI chips."
         },
         {
           "label": "Timing",
-          "text": "It arrives after a run of serious open-source flaws."
+          "text": "It comes in the same week as its CEO's return."
         }
       ],
-      "background": "eBPF is a Linux feature that lets small programs run safely inside the kernel, often used for security tools.",
+      "background": "Ransomware groups often post company names on leak sites to pressure them to pay.",
       "entities": [
-        "OpenAI",
-        "Cisco",
-        "Cybersecurity",
-        "AI coding"
+        "Nvidia",
+        "Cybersecurity"
       ],
       "meme": {
-        "top": "An AI writes a patch for the patch",
-        "bottom": "until the real patch shows up",
-        "take": "OpenAI and Cisco built a plaster for Linux that an AI applies while the doctor is on the way."
+        "top": "Nvidia had a quiet week planned",
+        "bottom": "the week had other plans",
+        "take": "Nvidia is investigating a ransomware claim, in a week it already had plenty on."
       },
       "stats": [],
-      "motif": "shield",
-      "category": "ai",
-      "hype": 68,
-      "prevHype": null,
-      "source": "OpenAI",
-      "url": "https://openai.com/index/introducing-shirudo/",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "tech-azure-apim-norway",
-      "title": "Azure API Management flaw used to steal secrets, Norway links it to energy firm attacks",
-      "summary": "Attackers abused a flaw in Azure API Management Classic tiers to read stored secrets and keys; Microsoft closed the path on November 19.",
-      "why": "Stolen cloud keys can open other systems, and the flaw is linked to attacks on energy companies.",
-      "happened": "Attackers could read named values, client secrets, subscription keys and tokens. Norway's NSM linked the activity to intrusions at Equinor and Skagerak Energi, The Register reports. No CVE was assigned, and stolen secrets must be rotated.",
-      "next": "Watch for guidance from Microsoft and whether more victims come forward.",
-      "drivers": [
-        {
-          "label": "Risk",
-          "text": "The fix does not revoke keys that were already stolen."
-        },
-        {
-          "label": "Scale",
-          "text": "Classic tiers from Developer to Premium were affected."
-        }
-      ],
-      "background": "Azure API Management is Microsoft's cloud service for publishing and securing companies' APIs.",
-      "entities": [
-        "Microsoft",
-        "Cybersecurity",
-        "Exploited vulnerabilities",
-        "Energy"
-      ],
-      "meme": {
-        "top": "Microsoft fixed the leak",
-        "bottom": "the keys already left the building",
-        "take": "Microsoft patched the hole. Everyone now has to change the locks the burglars copied."
-      },
-      "stats": [
-        {
-          "value": "Nov 19",
-          "label": "Microsoft closed the flaw"
-        }
-      ],
       "motif": "shield",
       "category": "tech",
       "hype": 66,
       "prevHype": null,
-      "source": "The Register",
-      "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
-      "published": "2026-11-23"
+      "source": "SITG Consulting",
+      "url": "https://www.sitg-consulting.com/post/cyber-incidents-top-40-25-november-2026",
+      "published": "2026-11-25"
     },
     {
-      "id": "ai-grok-deepfake-lawsuits",
-      "title": "Oregon and Virginia sue SpaceX over Grok sexual deepfake images",
-      "summary": "Oregon and Virginia sued SpaceX and related companies, alleging Grok generated nonconsensual sexualised images, including of children.",
-      "why": "It is a major legal test of who is responsible when an AI tool is used to make abusive images.",
-      "happened": "The states allege inadequate safeguards and misleading safety claims, and seek civil penalties and court orders, CNBC reports. The claims are allegations and have not been proven in court.",
-      "next": "Watch for the companies' response and whether other states file similar suits.",
+      "id": "ai-amazon-meta-muse-talks",
+      "title": "Amazon and Meta reportedly in talks to let Meta's Muse agent shop on Amazon",
+      "summary": "Amazon and Meta are said to be negotiating an end to Amazon's September block on Meta's Muse shopping agent.",
+      "why": "Whether AI agents can shop on Amazon decides who controls online shopping in the agent era.",
+      "happened": "The Decoder reports ad revenue and search control are part of the talks, citing Amazon's $68.6 billion ad business. It says Muse accounts for 51% of AI agent shopping orders. No deal has been announced.",
+      "next": "Watch for whether a deal is announced and what Amazon gets in return.",
       "drivers": [
         {
-          "label": "Risk",
-          "text": "Abusive AI images are a growing concern for lawmakers."
-        },
-        {
-          "label": "Big name",
-          "text": "Grok is the chatbot from Elon Musk's AI business."
-        }
-      ],
-      "background": "Grok is an AI chatbot built by xAI, Elon Musk's AI company, which is now part of SpaceX.",
-      "entities": [
-        "SpaceX",
-        "AI policy"
-      ],
-      "meme": {
-        "top": "Two states have taken Grok to court",
-        "bottom": "over images it allegedly made",
-        "take": "Two US states say Grok's safeguards did not hold, and they want a court to decide."
-      },
-      "stats": [
-        {
-          "value": "2",
-          "label": "states suing"
-        }
-      ],
-      "motif": "doc",
-      "category": "ai",
-      "hype": 66,
-      "prevHype": null,
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "ent-hunt-for-gollum-casting",
-      "title": "The Hunt for Gollum reportedly casts Anya Taylor-Joy as an Elf",
-      "summary": "Anya Taylor-Joy will play an Elf named Seren in The Lord of the Rings: The Hunt for Gollum, Collider reports.",
-      "why": "A new Lord of the Rings film is a major event for one of the best-loved fantasy series.",
-      "happened": "Collider reports the film is expected in cinemas on December 17, 2027, the same day as Avengers: Secret Wars. Jamie Dornan is reported to replace Viggo Mortensen as Aragorn, with Ian McKellen and Elijah Wood returning.",
-      "next": "Watch for an official cast announcement and whether the release date holds.",
-      "drivers": [
-        {
-          "label": "Nostalgia",
-          "text": "It brings back actors from the original trilogy."
+          "label": "Money",
+          "text": "Amazon's ad business is reported at $68.6 billion a year."
         },
         {
           "label": "Rivalry",
-          "text": "It is reported to share a date with Avengers: Secret Wars."
+          "text": "Two giants are fighting over who owns the shopper."
         }
       ],
-      "background": "The Lord of the Rings films are based on J.R.R. Tolkien's novels; Peter Jackson's trilogy came out in 2001-2003.",
+      "background": "Muse is Meta's AI assistant, which can also act as a shopping agent.",
       "entities": [
-        "Book adaptations",
-        "Revived franchises",
-        "Theatrical releases"
+        "Amazon",
+        "Meta",
+        "AI agents",
+        "Advertising"
       ],
       "meme": {
-        "top": "The Hunt for Gollum adds new Elves",
-        "bottom": "Gollum remains unavailable",
-        "take": "The Hunt for Gollum keeps adding cast. Gollum remains hard to find."
+        "top": "Meta's AI wants to shop at Amazon",
+        "bottom": "Amazon wants to know who is paying",
+        "take": "Two of the largest tech firms are negotiating whether a robot can go shopping."
       },
       "stats": [
         {
-          "value": "Dec 17, 2027",
-          "label": "expected release, reported"
+          "value": "$68.6B",
+          "label": "Amazon ad business, reported"
+        },
+        {
+          "value": "51%",
+          "label": "agent shopping share, reported"
         }
       ],
-      "motif": "film",
-      "category": "entertainment",
-      "hype": 66,
+      "motif": "bag",
+      "category": "ai",
+      "hype": 64,
       "prevHype": null,
-      "source": "Collider",
-      "url": "https://collider.com/anya-taylor-joy-super-mario-galaxy-movie-netflix-streaming-release-date-november-2026/",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+      "published": "2026-11-25"
+    },
+    {
+      "id": "game-witcher-4-sony-deal",
+      "title": "CD Projekt signs a Sony marketing deal for The Witcher 4",
+      "summary": "CD Projekt has signed a marketing deal with Sony for The Witcher 4, and compares its leap over Witcher 3 to GTA V to GTA VI.",
+      "why": "Marketing deals shape where big games are shown first, and The Witcher 4 is one of the most awaited RPGs.",
+      "happened": "Gamingroute reports the Sony deal. CD Projekt compares the jump from The Witcher 3 to the jump from GTA V to GTA VI. No release date has been given.",
+      "next": "Watch for a release window and what the Sony deal includes for PlayStation players.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "The Witcher 3 is one of the best-selling RPGs ever."
+        },
+        {
+          "label": "Rivalry",
+          "text": "Marketing deals are a long-running PlayStation and Xbox battleground."
+        }
+      ],
+      "background": "CD Projekt Red is the Polish studio behind The Witcher 3 and Cyberpunk 2077.",
+      "entities": [
+        "CD Projekt",
+        "Sony",
+        "New game releases"
+      ],
+      "meme": {
+        "top": "CD Projekt compared itself to GTA VI",
+        "bottom": "during the week of GTA VI",
+        "take": "CD Projekt compared its next leap to GTA VI, a brave move during GTA VI's week."
+      },
+      "stats": [],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 64,
+      "prevHype": 64,
+      "source": "Gamingroute",
+      "url": "https://gamingroute.com/witcher-4-sony-marketing-deal/",
       "published": "2026-11-24"
     },
     {
-      "id": "ai-glm-5-4",
-      "title": "Z.ai releases GLM-5.4 with a 1 million token context window",
-      "summary": "China's Z.ai released GLM-5.4, which it calls its first Loop Transformer flagship, with a 1 million token context and image support.",
-      "why": "Chinese labs keep releasing strong models quickly, adding pressure on US rivals.",
-      "happened": "Z.ai claims it performs like 2 to 3 trillion parameter models. It is live in Z.ai's chat and coding products; the API is 'coming soon' and open weights are promised after safety work.",
-      "next": "Watch for the API launch and independent benchmarks of Z.ai's claims.",
+      "id": "ai-anthropic-shares-fall",
+      "title": "Anthropic shares fall as investors grow nervous about the AI trade",
+      "summary": "Anthropic's shares dropped on Tuesday, which Semafor links to wider investor worry about the AI market.",
+      "why": "Anthropic only recently listed, so its share price is read as a test of AI investor confidence.",
+      "happened": "Semafor reported the fall on November 24 and tied it to a wobble across AI stocks. Earlier reports said Anthropic listed on Nasdaq under the ticker ANT this month.",
+      "next": "Watch for how AI stocks trade through the holiday week.",
       "drivers": [
         {
-          "label": "Rivalry",
-          "text": "It is part of a fast-moving race among Chinese AI labs."
-        },
-        {
-          "label": "Scale",
-          "text": "It offers a 1 million token context window."
-        }
-      ],
-      "background": "Z.ai, also known as Zhipu AI, is a Beijing AI company known for its GLM series of language models.",
-      "entities": [
-        "China",
-        "Frontier models",
-        "AI coding"
-      ],
-      "meme": {
-        "top": "Z.ai's model reads a million tokens",
-        "bottom": "it will remember this meeting",
-        "take": "Z.ai's new model has a million-token memory and an API that is coming soon."
-      },
-      "stats": [
-        {
-          "value": "1M",
-          "label": "token context window"
-        },
-        {
-          "value": "~200",
-          "label": "tokens per second, off-peak, Z.ai"
-        }
-      ],
-      "motif": "network",
-      "category": "ai",
-      "hype": 64,
-      "prevHype": null,
-      "source": "TechNode",
-      "url": "https://technode.com/2026/11/23/zhipu-rolls-out-glm-5-4-with-vision-and-million-token-context/",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "game-god-of-war-faye",
-      "title": "Deborah Ann Woll cast as Faye in Amazon's God of War series",
-      "summary": "Amazon MGM Studios says Deborah Ann Woll will play Faye, Kratos's late wife, in its live-action God of War series.",
-      "why": "God of War is one of PlayStation's biggest series, and fans watch every casting choice closely.",
-      "happened": "Amazon MGM Studios announced the casting on November 23. No release date has been set for the series.",
-      "next": "Watch for more casting news and a first look at the show.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "God of War fans follow the adaptation closely."
+          "label": "Money",
+          "text": "A newly listed AI company is a test of market appetite."
         },
         {
           "label": "Trend",
-          "text": "Game adaptations have become big business for streamers."
+          "text": "Investors are questioning AI valuations across the sector."
         }
       ],
-      "background": "God of War is Sony's action series about Kratos; its Norse-era games began in 2018. Woll is known for Daredevil.",
+      "background": "Anthropic is the AI company that makes the Claude models.",
       "entities": [
-        "Amazon",
-        "Sony",
-        "Video game adaptations"
+        "Anthropic",
+        "Stock market",
+        "AI funding"
       ],
       "meme": {
-        "top": "Amazon cast a character",
-        "bottom": "who is mostly famous for being gone",
-        "take": "Amazon cast a God of War character whose main role in the games was being missed."
+        "top": "Anthropic went public last week",
+        "bottom": "and found out what the public thinks",
+        "take": "Anthropic learned that being a public company mostly means watching a chart."
       },
       "stats": [],
-      "motif": "screen",
-      "category": "gaming",
-      "hype": 64,
+      "motif": "money",
+      "category": "ai",
+      "hype": 62,
       "prevHype": null,
-      "source": "Gamingroute",
-      "url": "https://gamingroute.com/god-of-war-series-deborah-ann-woll-faye/",
-      "published": "2026-11-23"
+      "source": "Semafor",
+      "url": "https://www.semafor.com/article/11/24/2026/anthropic-shares-plunge-as-ai-trade-wobbles",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ent-constantine-2-script",
+      "title": "Francis Lawrence says an R-rated Constantine 2 script exists",
+      "summary": "Director Francis Lawrence reportedly said a script for an R-rated Constantine sequel with Keanu Reeves is written.",
+      "why": "Fans have wanted a Constantine sequel for about two decades.",
+      "happened": "In a Hollywood Reporter interview about Sunrise on the Reaping, Lawrence is reported to have discussed the sequel script. He also reportedly said Red Rising has moved from Netflix to Paramount.",
+      "next": "Watch for whether a studio formally greenlights the sequel.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "The first Constantine film came out in 2005."
+        },
+        {
+          "label": "Fan demand",
+          "text": "A sequel has been requested by fans for years."
+        },
+        {
+          "label": "Big name",
+          "text": "Keanu Reeves is attached, per the report."
+        }
+      ],
+      "background": "Constantine is a 2005 supernatural film starring Keanu Reeves, based on a DC comic.",
+      "entities": [
+        "Revived franchises",
+        "Book adaptations",
+        "Paramount"
+      ],
+      "meme": {
+        "top": "Constantine 2 has a script",
+        "bottom": "so it is a rumour with pages",
+        "take": "A Constantine sequel now has a script, the first step in a long journey called development."
+      },
+      "stats": [],
+      "motif": "film",
+      "category": "entertainment",
+      "hype": 62,
+      "prevHype": null,
+      "source": "The Hollywood Reporter",
+      "url": "https://www.hollywoodreporter.com/movies/movie-features/francis-lawrence-sunrise-on-reaping-red-rising-constantine-1236760052/",
+      "published": "2026-11-25"
     },
     {
       "id": "ent-cliff-booth-imax",
@@ -1017,102 +1152,6 @@
       ],
       "motif": "film",
       "category": "entertainment",
-      "hype": 64,
-      "prevHype": 64,
-      "source": "Occupy Cinema",
-      "url": "https://cinemaoccupy.substack.com/p/sunrise-on-the-reaping-opens-to-120",
-      "published": "2026-11-24"
-    },
-    {
-      "id": "ent-snl-december-hosts",
-      "title": "SNL sets Seyfried, De Niro and Chalamet as December hosts",
-      "summary": "SNL confirmed Amanda Seyfried on December 5, Robert De Niro on December 12 and Timothee Chalamet on December 19.",
-      "why": "SNL's holiday episodes are among its most watched, and the line-up mixes three very different stars.",
-      "happened": "Musical guests are Don Toliver, Slayyyter and Charli xcx. Consequence notes that De Niro, at 83, would be the second-oldest host after Betty White, who hosted at 88.",
-      "next": "Watch for the sketches that come out of the Christmas episode.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "All three hosts are major film stars."
-        },
-        {
-          "label": "Timing",
-          "text": "The run ends with the Christmas episode."
-        }
-      ],
-      "background": "Saturday Night Live is NBC's long-running live sketch comedy show, first broadcast in 1975.",
-      "entities": [
-        "NBCUniversal",
-        "Live music"
-      ],
-      "meme": {
-        "top": "Robert De Niro is hosting SNL at 83",
-        "bottom": "the cue cards will be large",
-        "take": "SNL booked De Niro for December, and the cast will be on their best behaviour."
-      },
-      "stats": [
-        {
-          "value": "Dec 5",
-          "label": "Seyfried hosts"
-        },
-        {
-          "value": "Dec 12",
-          "label": "De Niro hosts"
-        },
-        {
-          "value": "Dec 19",
-          "label": "Chalamet hosts"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 62,
-      "prevHype": null,
-      "source": "Consequence",
-      "url": "https://consequence.net/2026/11/snl-christmas-episode-timothee-chalamet-charli-xcx/",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "ent-hexed-thanksgiving-openers",
-      "title": "Disney's animated Hexed leads the Thanksgiving week cinema openings",
-      "summary": "Disney's Hexed opens wide on November 25, alongside Hershey, Bitter Christmas and A24's Club Kid, with Focker In-Law following on November 27.",
-      "why": "Thanksgiving is one of the biggest moviegoing weeks of the year, and family films usually lead it.",
-      "happened": "Occupy Cinema, citing Box Office Mojo's calendar, lists Hexed from Disney, Hershey from Angel Studios and Bitter Christmas from Sony Pictures Classics for Wednesday. AP lists Universal's Focker In-Law for Friday.",
-      "next": "Watch for the five-day holiday totals and how Hexed fares against the Hunger Games prequel.",
-      "drivers": [
-        {
-          "label": "Timing",
-          "text": "Thanksgiving week is a traditional window for family films."
-        },
-        {
-          "label": "Rivalry",
-          "text": "New openers face the Hunger Games prequel in its second week."
-        }
-      ],
-      "background": "Disney animation has often released films over Thanksgiving, including Frozen in 2013.",
-      "entities": [
-        "Disney",
-        "Box office",
-        "Theatrical releases",
-        "Thanksgiving releases"
-      ],
-      "meme": {
-        "top": "Disney opens a film called Hexed",
-        "bottom": "on a week of family gatherings",
-        "take": "Hexed arrives on Thanksgiving, a holiday with plenty of family curses already."
-      },
-      "stats": [
-        {
-          "value": "Nov 25",
-          "label": "Hexed opens wide"
-        },
-        {
-          "value": "Nov 27",
-          "label": "Focker In-Law opens"
-        }
-      ],
-      "motif": "film",
-      "category": "entertainment",
       "hype": 62,
       "prevHype": 62,
       "source": "Occupy Cinema",
@@ -1120,90 +1159,292 @@
       "published": "2026-11-24"
     },
     {
-      "id": "tech-vcenter-auth-bypass",
-      "title": "Broadcom patches another critical vCenter flaw after a recent zero-day",
-      "summary": "Broadcom fixed 23 VMware flaws, including a 9.8-rated authentication bypass in vCenter's directory service, CVE-2026-123903.",
-      "why": "vCenter runs many companies' virtual servers, and it was hit by an exploited zero-day only weeks ago.",
-      "happened": "The fix covers ESX, vCenter, Workstation, Fusion and Avi Load Balancer. Broadcom says none of the new flaws are known to be exploited, and that this bug is separate from the zero-day linked to a suspected China-nexus group.",
-      "next": "Watch for whether attackers begin targeting the new flaw before systems are patched.",
+      "id": "game-switch-2-ac-ports",
+      "title": "Switch 2 is reportedly getting three Assassin's Creed ports",
+      "summary": "Three Assassin's Creed games are reportedly coming to Nintendo Switch 2, though the titles have not been named.",
+      "why": "Big third-party ports are a key sign of how much support Switch 2 is getting.",
+      "happened": "GAMINGbible reports the ports as unconfirmed. Ubisoft and Nintendo have not announced them, and the report does not say which games are involved.",
+      "next": "Watch for an official announcement from Ubisoft or a Nintendo Direct.",
       "drivers": [
         {
-          "label": "Risk",
-          "text": "An authentication bypass can let attackers skip the login entirely."
+          "label": "Rivalry",
+          "text": "Switch 2 is chasing more big third-party games."
         },
         {
-          "label": "Timing",
-          "text": "It follows closely after an exploited vCenter zero-day."
+          "label": "Fan demand",
+          "text": "Portable versions of large games are popular."
         }
       ],
-      "background": "Broadcom bought VMware, whose vCenter software manages virtual machines in many corporate data centres.",
+      "background": "Assassin's Creed is Ubisoft's long-running historical action series.",
       "entities": [
-        "Broadcom",
-        "Cybersecurity"
+        "Switch 2",
+        "Ubisoft",
+        "Nintendo"
       ],
       "meme": {
-        "top": "vCenter got a new lock",
-        "bottom": "to replace the last new lock",
-        "take": "vCenter admins are patching again, which by now counts as a hobby."
+        "top": "Assassin's Creed may come to Switch 2",
+        "bottom": "the hidden blade now fits in a pocket",
+        "take": "Three Assassin's Creed ports are reportedly coming, so towers can be climbed on the bus."
+      },
+      "stats": [],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 62,
+      "prevHype": null,
+      "source": "GAMINGbible",
+      "url": "https://www.gamingbible.com/news/loaded-black-friday-sale-goty-nominee-game-offers-125141-20261125",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "tech-la-poste-maileva-breach",
+      "title": "Breach at La Poste's Maileva exposes data of 22 million people",
+      "summary": "A breach at Maileva, La Poste's digital mail subsidiary in France, reportedly exposed data of 22 million people.",
+      "why": "It is one of the largest reported data breaches in Europe this year.",
+      "happened": "A weekly incident roundup lists the breach at the French postal group's digital unit, with 22 million individuals affected. Details of the data involved were not given.",
+      "next": "Watch for French regulators' response and advice to affected people.",
+      "drivers": [
+        {
+          "label": "Scale",
+          "text": "22 million people affected, per reports."
+        },
+        {
+          "label": "Risk",
+          "text": "Postal and mail data can be used for scams."
+        }
+      ],
+      "background": "La Poste is France's national postal service.",
+      "entities": [
+        "Cybersecurity",
+        "Data breaches"
+      ],
+      "meme": {
+        "top": "A postal service had a data breach",
+        "bottom": "22 million records, no stamps",
+        "take": "A breach at La Poste's digital arm is reported to affect 22 million people."
       },
       "stats": [
         {
-          "value": "9.8",
-          "label": "CVSS severity score"
-        },
-        {
-          "value": "23",
-          "label": "VMware flaws fixed"
+          "value": "22M",
+          "label": "people affected, reported"
         }
       ],
       "motif": "shield",
       "category": "tech",
-      "hype": 60,
+      "hype": 62,
       "prevHype": null,
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
-      "published": "2026-11-24"
+      "source": "SITG Consulting",
+      "url": "https://www.sitg-consulting.com/post/cyber-incidents-top-40-25-november-2026",
+      "published": "2026-11-25"
     },
     {
-      "id": "ai-meta-muse-uk",
-      "title": "Meta launches its Muse AI agent in the UK",
-      "summary": "Meta's personal AI agent, Muse, is now available to UK adults on mobile, web and WhatsApp, and can keep working after the app closes.",
-      "why": "Meta can put an agent in front of billions of users through WhatsApp and its other apps.",
-      "happened": "Meta says users must approve actions such as sending email or making purchases. Access is free, with optional subscriptions for higher usage. Muse is also available as a Chrome sidebar extension.",
-      "next": "Watch for how many UK users try it and when it reaches other countries.",
+      "id": "game-mario-kart-world-remixes",
+      "title": "Mario Kart World adds eight remixed courses in a free update",
+      "summary": "A free update for Mario Kart World on Switch 2 adds eight new remixed courses, GAMINGbible reports.",
+      "why": "Free content keeps the console's biggest launch game busy heading into the holidays.",
+      "happened": "The update was reported on November 25. It arrives as Mario Kart World Switch 2 bundles are discounted for Black Friday.",
+      "next": "Watch for whether Nintendo plans more paid or free course packs.",
       "drivers": [
         {
-          "label": "Scale",
-          "text": "WhatsApp gives Meta a huge built-in audience."
+          "label": "Timing",
+          "text": "It lands just before Black Friday."
         },
         {
-          "label": "Trend",
-          "text": "Big tech firms are racing to launch personal agents."
+          "label": "Fan demand",
+          "text": "New tracks are the most requested Mario Kart content."
         }
       ],
-      "background": "Meta owns Facebook, Instagram and WhatsApp, and builds the Llama family of AI models.",
+      "background": "Mario Kart World launched with the Switch 2 in 2025 and is its flagship racing game.",
       "entities": [
-        "Meta",
-        "AI agents"
+        "Nintendo",
+        "Mario",
+        "Switch 2"
       ],
       "meme": {
-        "top": "Meta's agent asks before buying things",
-        "bottom": "which is more than most of us do",
-        "take": "Meta's agent asks before it spends your money, a level of restraint few apps share."
+        "top": "Eight new tracks in Mario Kart",
+        "bottom": "eight new places to lose a friendship",
+        "take": "Mario Kart World added eight courses, each a fresh venue for family arguments this holiday."
       },
       "stats": [
         {
-          "value": "18+",
-          "label": "age limit for UK users"
+          "value": "8",
+          "label": "remixed courses added"
         }
       ],
-      "motif": "agent",
-      "category": "ai",
+      "motif": "game",
+      "category": "gaming",
       "hype": 60,
       "prevHype": null,
-      "source": "Meta",
-      "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+      "source": "GAMINGbible",
+      "url": "https://www.gamingbible.com/news/loaded-black-friday-sale-goty-nominee-game-offers-125141-20261125",
+      "published": "2026-11-25"
+    },
+    {
+      "id": "tech-megaspeed-blacklist",
+      "title": "US blacklists chip firm Megaspeed, and Malaysia orders data centres to cut it off",
+      "summary": "The US added Singapore's Megaspeed to its trade blacklist amid claims about Nvidia chip exports to China; Malaysia then ordered data centres to cut it off.",
+      "why": "It shows how US export controls on AI chips now reach data centres across Southeast Asia.",
+      "happened": "Reuters reported the blacklisting, citing a source. Bloomberg says Malaysia told data centres to cut off Megaspeed and six other blacklisted firms. The BBC says the company denies wrongdoing.",
+      "next": "Watch for whether other countries in the region follow Malaysia's lead.",
+      "drivers": [
+        {
+          "label": "Rivalry",
+          "text": "It is part of the US effort to keep advanced AI chips out of China."
+        },
+        {
+          "label": "Ripple effect",
+          "text": "Malaysia acted within a day of the US move."
+        }
+      ],
+      "background": "The US 'entity list' restricts exports to listed firms, and has been used heavily to limit China's access to AI chips.",
+      "entities": [
+        "Nvidia",
+        "US policy",
+        "China",
+        "AI chips"
+      ],
+      "meme": {
+        "top": "One blacklist in Washington",
+        "bottom": "seven unplugged racks in Malaysia",
+        "take": "Washington updated a list, and data centres in Malaysia started pulling cables."
+      },
+      "stats": [
+        {
+          "value": "6",
+          "label": "other firms Malaysia cut off"
+        }
+      ],
+      "motif": "globe",
+      "category": "tech",
+      "hype": 60,
+      "prevHype": 60,
+      "source": "The Verge",
+      "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "ai-gpt-6-2-sol",
+      "title": "OpenAI rolls out GPT-6.2 Sol to paid ChatGPT users",
+      "summary": "OpenAI is rolling out GPT-6.2 Sol to ChatGPT Plus, Pro, Business and Enterprise users, promising better instruction-following.",
+      "why": "ChatGPT is the most used AI chatbot, so a new default model reaches a huge audience at once.",
+      "happened": "MacRumors reports the rollout to paid plans, with improvements in following instructions and reading small details. Roundups say it reached paid users worldwide on November 24.",
+      "next": "Watch for independent tests comparing it with the latest models from Anthropic and Google.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "OpenAI's model updates set the pace for the industry."
+        },
+        {
+          "label": "Rivalry",
+          "text": "It lands amid a busy month of releases from rival labs."
+        }
+      ],
+      "background": "OpenAI makes ChatGPT and the GPT family of AI models.",
+      "entities": [
+        "OpenAI",
+        "Frontier models"
+      ],
+      "meme": {
+        "top": "OpenAI has a new model that listens",
+        "bottom": "it was told to ship another model",
+        "take": "OpenAI's new model is better at following instructions, a rare quality this month."
+      },
+      "stats": [],
+      "motif": "network",
+      "category": "ai",
+      "hype": 58,
+      "prevHype": 58,
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+      "published": "2026-11-23"
+    },
+    {
+      "id": "ent-mario-galaxy-netflix",
+      "title": "The Super Mario Galaxy Movie comes to Netflix on November 30",
+      "summary": "The Super Mario Galaxy Movie joins Netflix's US library on November 30 after its Peacock run, Collider reports.",
+      "why": "It was the year's first billion-dollar film, so its streaming debut is a big holiday draw.",
+      "happened": "Collider says the film was the first 2026 release to pass $1 billion at the box office, short of the $1.3 billion of the 2023 original. A further sequel is said not to be expected before 2029.",
+      "next": "Watch for whether it tops Netflix's film chart in its first week.",
+      "drivers": [
+        {
+          "label": "Big name",
+          "text": "Mario is Nintendo's most famous character."
+        },
+        {
+          "label": "Scale",
+          "text": "It passed $1 billion at the box office."
+        }
+      ],
+      "background": "The Super Mario Bros. Movie from Illumination and Nintendo was one of 2023's biggest hits.",
+      "entities": [
+        "Netflix",
+        "Nintendo",
+        "Mario",
+        "Video game adaptations"
+      ],
+      "meme": {
+        "top": "A billion-dollar film reaches Netflix",
+        "bottom": "Mario has seen tougher pipes",
+        "take": "A billion-dollar Mario film lands on Netflix, the couch finally beating the cinema."
+      },
+      "stats": [
+        {
+          "value": "Nov 30",
+          "label": "Netflix US release"
+        },
+        {
+          "value": "$1B+",
+          "label": "box office, reported"
+        }
+      ],
+      "motif": "screen",
+      "category": "entertainment",
+      "hype": 58,
+      "prevHype": 58,
+      "source": "Collider",
+      "url": "https://collider.com/anya-taylor-joy-super-mario-galaxy-movie-netflix-streaming-release-date-november-2026/",
       "published": "2026-11-24"
+    },
+    {
+      "id": "game-gta-vi-metacritic-99",
+      "title": "GTA VI ties Ocarina of Time with a 99 on Metacritic",
+      "summary": "GTA VI's reviews give it a Metacritic score of 99, level with The Legend of Zelda: Ocarina of Time, Shattered reports.",
+      "why": "Ocarina of Time has held the top Metacritic spot for decades, so matching it is a rare feat.",
+      "happened": "Shattered calls it a tie rather than a record broken. GameRant has also covered the gap between critic and user scores on the PlayStation Store and Metacritic.",
+      "next": "Watch for whether the score holds as more reviews arrive.",
+      "drivers": [
+        {
+          "label": "Nostalgia",
+          "text": "Ocarina of Time has long been the benchmark for review scores."
+        },
+        {
+          "label": "Big name",
+          "text": "GTA VI is the biggest release of the year."
+        }
+      ],
+      "background": "Metacritic averages critics' reviews into a score out of 100. Ocarina of Time launched on the Nintendo 64 in 1998.",
+      "entities": [
+        "GTA VI",
+        "Rockstar",
+        "Nintendo"
+      ],
+      "meme": {
+        "top": "GTA VI matched Ocarina of Time",
+        "bottom": "it only took 28 years and helicopters",
+        "take": "GTA VI tied Ocarina of Time, and Ocarina did it without a single helicopter."
+      },
+      "stats": [
+        {
+          "value": "99",
+          "label": "Metacritic score"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 58,
+      "prevHype": 58,
+      "source": "Shattered",
+      "url": "https://shattered.io/gta-vi-ties-ocarina-of-time-99-metacritic-record-tie-not-record-break/",
+      "published": "2026-11-22"
     },
     {
       "id": "game-switch-2-black-friday",
@@ -1254,226 +1495,187 @@
       ],
       "motif": "bag",
       "category": "gaming",
-      "hype": 60,
-      "prevHype": 60,
+      "hype": 56,
+      "prevHype": 56,
       "source": "Nintendo Wire",
       "url": "https://nintendowire.com/news/2026/11/22/nintendo-switch-2-mario-kart-world-bundle-is-50-off-but-only-for-a-limited-time/",
       "published": "2026-11-22"
     },
     {
-      "id": "tech-cisco-expressway-exploited",
-      "title": "Cisco Expressway flaw exploited to break into internal networks",
-      "summary": "Attackers used a critical Cisco Expressway flaw, CVE-2026-76466, to get root access on devices and move into internal networks, Help Net Security reports.",
-      "why": "Expressway handles video calls at the edge of many company networks, so a flaw there opens the door inside.",
-      "happened": "Security firm F6 says attackers took over two internet-facing devices, then reached two internal cluster nodes. CISA added the flaw to its exploited list on November 20. Cisco's fix is version X15.5.20.",
-      "next": "Watch for further victims and how quickly organisations apply the patch.",
+      "id": "tech-chrome-sandbox-escape",
+      "title": "Critical Chrome sandbox escape flaw rated 9.6 disclosed",
+      "summary": "A sandbox escape vulnerability with a CVSS score of 9.6 was disclosed for Google Chrome.",
+      "why": "Chrome is the world's most used browser, so its critical flaws affect huge numbers of people.",
+      "happened": "An incident roundup lists the flaw as a disclosure rather than an active attack. Sandbox escapes let code break out of the browser's protective layer.",
+      "next": "Watch for Google's patch and update Chrome when it arrives.",
       "drivers": [
         {
-          "label": "Risk",
-          "text": "It gives an unauthenticated attacker root access."
-        },
-        {
           "label": "Scale",
-          "text": "Expressway is used widely for business video calls."
+          "text": "Chrome is used by billions of people."
         },
         {
-          "label": "Timing",
-          "text": "CISA has told US agencies to patch."
+          "label": "Risk",
+          "text": "A 9.6 rating marks it as critical."
         }
       ],
-      "background": "CISA, the US cybersecurity agency, keeps a list of flaws known to be exploited and sets patch deadlines for agencies.",
+      "background": "Chrome's sandbox keeps web pages walled off from the rest of the computer.",
       "entities": [
-        "Cisco",
-        "Cybersecurity",
-        "Exploited vulnerabilities",
-        "CISA"
+        "Google",
+        "Cybersecurity"
       ],
       "meme": {
-        "top": "A device built to keep calls secure",
-        "bottom": "let the callers in",
-        "take": "Cisco's video gateway was a little too welcoming to uninvited guests."
+        "top": "Chrome's sandbox had an escape route",
+        "bottom": "the sand stayed, the walls left",
+        "take": "Chrome found a hole in its sandbox, so restart your browser before it restarts you."
       },
       "stats": [
         {
-          "value": "Nov 20",
-          "label": "added to CISA exploited list"
-        },
-        {
-          "value": "X15.5.20",
-          "label": "fixed version"
+          "value": "9.6",
+          "label": "CVSS severity score"
         }
       ],
       "motif": "shield",
       "category": "tech",
-      "hype": 60,
-      "prevHype": 60,
-      "source": "Help Net Security",
-      "url": "https://helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "tech-amazon-drone-michigan",
-      "title": "Amazon delivery drone crashes into a Michigan garage, and the FAA is investigating",
-      "summary": "An Amazon delivery drone crashed into a garage in Michigan, and the Federal Aviation Administration is investigating, CNBC reports.",
-      "why": "Drone delivery depends on public trust that the aircraft will stay out of homes.",
-      "happened": "CNBC reports the drone came down on a garage in Michigan. The FAA has opened an investigation into the crash.",
-      "next": "Watch for the FAA's findings and any change to Amazon's drone flights in the area.",
-      "drivers": [
-        {
-          "label": "Risk",
-          "text": "Crashes test regulators' patience with delivery drones."
-        },
-        {
-          "label": "Big name",
-          "text": "Amazon has spent years building its Prime Air drone service."
-        }
-      ],
-      "background": "Amazon's Prime Air service uses drones to deliver small parcels in selected US areas.",
-      "entities": [
-        "Amazon",
-        "Drones"
-      ],
-      "meme": {
-        "top": "Amazon's drone made it to the house",
-        "bottom": "just not the front door",
-        "take": "Amazon's drone found the garage before it found the porch."
-      },
-      "stats": [],
-      "motif": "rocket",
-      "category": "tech",
-      "hype": 58,
+      "hype": 56,
       "prevHype": null,
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/23/amazon-drone-crash-michigan-faa-investigation.html",
-      "published": "2026-11-23"
+      "source": "SITG Consulting",
+      "url": "https://www.sitg-consulting.com/post/cyber-incidents-top-40-25-november-2026",
+      "published": "2026-11-25"
     },
     {
-      "id": "game-nioh-3-xbox",
-      "title": "Nioh 3 is coming to Xbox Series X|S on January 28",
-      "summary": "Nioh 3 and its Complete Edition launch on Xbox Series X|S on January 28, 2027, with the Bloody Insurrection DLC on December 17.",
-      "why": "Nioh is a popular hardcore action series that had been tied to PlayStation.",
-      "happened": "Gamingroute reports the Xbox date. The Bloody Insurrection DLC arrives first, on December 17. Price and Game Pass status have not been stated.",
-      "next": "Watch for the Xbox price and whether it joins Game Pass.",
+      "id": "ent-unilever-channel-4",
+      "title": "Unilever reportedly cuts about 92% of its Channel 4 ad spend for influencers",
+      "summary": "Unilever has reportedly cut about 92% of its advertising on Channel 4, moving the money towards social media influencers.",
+      "why": "It shows how quickly big brands are moving money from TV to creators.",
+      "happened": "The Guardian reported the cut on November 24. A media roundup says the reduction is more than half of a UK TV budget of nearly £100 million, year on year.",
+      "next": "Watch for other big advertisers making similar moves.",
       "drivers": [
         {
-          "label": "Fan demand",
-          "text": "Xbox players have long asked for the series."
+          "label": "Money",
+          "text": "A UK TV budget near £100 million is affected, per reports."
         },
         {
           "label": "Trend",
-          "text": "More former PlayStation games are coming to Xbox."
+          "text": "Ad money keeps moving from TV to creators."
         }
       ],
-      "background": "Nioh is a Team Ninja series of difficult samurai action games, published by Koei Tecmo.",
+      "background": "Channel 4 is a publicly owned, advertising-funded UK broadcaster; Unilever owns brands like Dove.",
       "entities": [
-        "Koei Tecmo",
-        "Microsoft",
-        "New game releases"
+        "Advertising",
+        "Creator economy"
       ],
       "meme": {
-        "top": "Nioh 3 is coming to Xbox",
-        "bottom": "new players can now be humbled too",
-        "take": "Nioh 3 comes to Xbox, giving a whole new console audience the chance to lose."
+        "top": "Unilever moved its money to influencers",
+        "bottom": "the soap will now be unboxed",
+        "take": "Unilever swapped Channel 4 for influencers, so its soap now has a ring light."
       },
       "stats": [
         {
-          "value": "Jan 28",
-          "label": "Xbox launch, 2027"
-        },
-        {
-          "value": "Dec 17",
-          "label": "Bloody Insurrection DLC"
+          "value": "~92%",
+          "label": "Channel 4 spend cut, reported"
         }
       ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 58,
+      "motif": "money",
+      "category": "entertainment",
+      "hype": 54,
       "prevHype": null,
-      "source": "Gamingroute",
-      "url": "https://gamingroute.com/nioh-3-xbox-release-date/",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/media/2026/nov/24/channel-4-unilever-tv-influencer-marketing",
       "published": "2026-11-24"
     },
     {
-      "id": "ai-deepmind-quantum-agents",
-      "title": "DeepMind agents find faster quantum algorithms for fusion research",
-      "summary": "Google DeepMind says its AI agents improved quantum algorithms for fusion research, cutting estimated computing costs by 11.8 times.",
-      "why": "It is another example of AI agents being used to make real scientific progress.",
-      "happened": "The agents shared ideas in virtual meetings every four hours, and a formal proof system checked their solutions, DeepMind says.",
-      "next": "Watch for whether the improved algorithms are tested on real quantum hardware.",
+      "id": "tech-kalshi-nyc-council",
+      "title": "NYC Council says young Kalshi users lost $8.9 million in 10 months",
+      "summary": "A New York City Council report says Kalshi users aged 18 to 20 lost $8.9 million over 10 months.",
+      "why": "Prediction market apps are booming, and their appeal to young users worries lawmakers.",
+      "happened": "The New York Times reported the council's findings on November 24. The figure covers users aged 18 to 20 over a 10-month period.",
+      "next": "Watch for any city or state action on prediction markets.",
+      "drivers": [
+        {
+          "label": "Money",
+          "text": "$8.9 million in losses among young users, per the council."
+        },
+        {
+          "label": "Controversy",
+          "text": "Prediction markets face growing scrutiny."
+        }
+      ],
+      "background": "Kalshi is a US prediction market app where people trade on the outcome of events.",
+      "entities": [
+        "Kalshi",
+        "Prediction markets"
+      ],
+      "meme": {
+        "top": "Young users bet on the future",
+        "bottom": "the future collected $8.9 million",
+        "take": "A council report found young Kalshi users lost $8.9 million, the most predictable outcome."
+      },
+      "stats": [
+        {
+          "value": "$8.9M",
+          "label": "losses, users aged 18-20"
+        },
+        {
+          "value": "10 mo",
+          "label": "period covered"
+        }
+      ],
+      "motif": "phone",
+      "category": "tech",
+      "hype": 54,
+      "prevHype": null,
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/24/business/kalshi-nyc-council.html",
+      "published": "2026-11-24"
+    },
+    {
+      "id": "ent-europol-iptv",
+      "title": "Europol operation disrupts 57 illegal streaming services",
+      "summary": "A Europol-backed operation in Seville disrupted 57 illegal IPTV services and traced €26 million in crypto payments.",
+      "why": "Piracy costs broadcasters and sports leagues heavily, and crypto payments make it harder to trace.",
+      "happened": "Investigators from 11 countries took part between November 16 and 20 and identified 321 websites. An anti-piracy group estimates 60 million Europeans use unauthorised IPTV.",
+      "next": "Watch for arrests or charges linked to the operation.",
       "drivers": [
         {
           "label": "Scale",
-          "text": "The estimated cost cut is 11.8 times."
+          "text": "321 websites were identified, per reports."
         },
         {
-          "label": "Trend",
-          "text": "Labs are pairing AI agents with formal verification."
+          "label": "Money",
+          "text": "€26 million in crypto payments were traced."
         }
       ],
-      "background": "Google DeepMind is Google's main AI research lab, known for AlphaGo and AlphaFold.",
+      "background": "IPTV piracy sells unlicensed access to TV channels and live sport over the internet.",
       "entities": [
-        "Google",
-        "AI research",
-        "AI agents"
+        "Piracy",
+        "Cybersecurity",
+        "Streaming"
       ],
       "meme": {
-        "top": "AI agents met every four hours",
-        "bottom": "and still got work done",
-        "take": "DeepMind's agents met every four hours and still produced results, a first for meetings."
+        "top": "Europol shut down 57 streaming services",
+        "bottom": "the buffering was finally permanent",
+        "take": "Europol took down 57 pirate streams, which most viewers will mistake for normal buffering."
       },
       "stats": [
         {
-          "value": "11.8x",
-          "label": "cut in estimated computing cost"
-        }
-      ],
-      "motif": "network",
-      "category": "ai",
-      "hype": 56,
-      "prevHype": null,
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "published": "2026-11-24"
-    },
-    {
-      "id": "ent-stevie-wonder-chicago",
-      "title": "Stevie Wonder jokes about blindness rumours at his Chicago show",
-      "summary": "At a November 21 concert in Chicago, Stevie Wonder answered the online theory that he is not really blind by inviting fans to get in the car with him.",
-      "why": "A long-running internet rumour met a direct answer from the man himself, and the clip spread.",
-      "happened": "The show at the United Center was part of his 50th-anniversary Songs in the Key of Life tour, Consequence reports.",
-      "next": "Watch for the remaining dates of the anniversary tour.",
-      "drivers": [
-        {
-          "label": "Big name",
-          "text": "Stevie Wonder is one of the best-selling musicians of all time."
+          "value": "57",
+          "label": "services disrupted"
         },
         {
-          "label": "Nostalgia",
-          "text": "The tour marks 50 years of Songs in the Key of Life."
-        }
-      ],
-      "background": "Songs in the Key of Life, released in 1976, is Stevie Wonder's double album and is widely ranked among the greatest albums.",
-      "entities": [
-        "Live music",
-        "Concert tours"
-      ],
-      "meme": {
-        "top": "The internet had a theory",
-        "bottom": "Stevie Wonder offered it a lift",
-        "take": "Stevie Wonder settled an internet theory with one offer of a ride."
-      },
-      "stats": [
+          "value": "€26M",
+          "label": "crypto payments traced"
+        },
         {
-          "value": "50",
-          "label": "years of Songs in the Key of Life"
+          "value": "321",
+          "label": "websites identified"
         }
       ],
-      "motif": "voice",
+      "motif": "shield",
       "category": "entertainment",
-      "hype": 56,
+      "hype": 52,
       "prevHype": null,
-      "source": "Consequence",
-      "url": "https://consequence.net/2026/11/stevie-wonder-blind-get-in-the-car-with-me/",
+      "source": "Advanced Television",
+      "url": "https://www.advanced-television.com/2026/11/24/operation-traces-cryptocurrency-payments-behind-illegal-iptv-services/",
       "published": "2026-11-24"
     },
     {
@@ -1515,189 +1717,134 @@
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 56,
-      "prevHype": 56,
+      "hype": 52,
+      "prevHype": 52,
       "source": "PlayStation LifeStyle",
       "url": "https://www.playstationlifestyle.net/2026/11/23/gta-6-update-1002002-november-23-2026-patch-notes",
       "published": "2026-11-23"
     },
     {
-      "id": "tech-hpe-q4-revenue",
-      "title": "HPE's quarterly revenue rises 50% to $14.5 billion",
-      "summary": "Hewlett Packard Enterprise reported fourth-quarter revenue of $14.5 billion, up 50% from a year earlier, with net income of $1.8 billion.",
-      "why": "HPE's results are read as a sign of how much companies are spending on servers and data centres.",
-      "happened": "The results cover HPE's fiscal fourth quarter of 2026. HPE also reported $5.8 billion in cash. CrowdStrike, Zoom and Zscaler posted results the same day.",
-      "next": "Watch for HPE's outlook for the year ahead and how investors react.",
+      "id": "ai-ling-3-2-air",
+      "title": "Ant Group releases Ling-3.2-air, an MIT-licensed multimodal model",
+      "summary": "Ant Group released Ling-3.2-air, a model that handles text, images and video, with open weights under the MIT licence.",
+      "why": "Chinese labs keep releasing capable open models that anyone can download and build on.",
+      "happened": "TechNode reports the model's weights are MIT-licensed. Ant says it completed 61% of tasks on its own office-work test, up from 15.7% for Ling-3.0-flash-VL.",
+      "next": "Watch for independent benchmark results.",
       "drivers": [
         {
-          "label": "Money",
-          "text": "Revenue grew by half in one year."
+          "label": "Trend",
+          "text": "Open-weight releases from China keep coming."
         },
         {
-          "label": "Timing",
-          "text": "Several big tech firms reported results on the same day."
+          "label": "Scale",
+          "text": "The company reports a big jump on its own office-task test."
         }
       ],
-      "background": "Hewlett Packard Enterprise sells servers, storage and networking gear to businesses; it split from HP in 2015.",
+      "background": "Ant Group is the Chinese fintech company behind the Alipay payments app.",
       "entities": [
-        "HPE",
-        "Earnings"
+        "Open-weight models",
+        "China"
       ],
       "meme": {
-        "top": "HPE grew revenue by half",
-        "bottom": "its servers are not resting",
-        "take": "HPE grew revenue 50% in a year, and the servers are not asking for a day off."
+        "top": "A payments company built an AI model",
+        "bottom": "because why not, everyone else did",
+        "take": "Ant Group released an open AI model, joining the club of companies that are now AI companies."
       },
       "stats": [
         {
-          "value": "$14.5B",
-          "label": "Q4 revenue"
-        },
-        {
-          "value": "+50%",
-          "label": "year-on-year growth"
-        },
-        {
-          "value": "$1.8B",
-          "label": "net income"
+          "value": "61%",
+          "label": "task completion, company-reported"
         }
       ],
-      "motif": "money",
-      "category": "tech",
-      "hype": 54,
+      "motif": "network",
+      "category": "ai",
+      "hype": 50,
       "prevHype": null,
-      "source": "BitDigest (Business Wire)",
-      "url": "https://bitdigest.substack.com/p/tuesday-november-24-2026",
-      "published": "2026-11-23"
+      "source": "TechNode",
+      "url": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/",
+      "published": "2026-11-25"
     },
     {
-      "id": "ent-mosquito-bowl-netflix",
-      "title": "Peter Berg's football drama The Mosquito Bowl premieres on Netflix",
-      "summary": "The Mosquito Bowl, a football drama set after Pearl Harbor, premieres on Netflix on November 25.",
-      "why": "A sports film arriving the day before Thanksgiving football fits the holiday viewing mood.",
-      "happened": "TVLine lists Nicholas Galitzine, Bill Skarsgard, Ray Nicholson and Tom Francis in the cast. BillFrost.tv says Peter Berg directs.",
-      "next": "Watch for whether it reaches Netflix's top ten over the holiday weekend.",
-      "drivers": [
-        {
-          "label": "Timing",
-          "text": "It lands just before Thanksgiving football."
-        },
-        {
-          "label": "Big name",
-          "text": "Peter Berg directed Friday Night Lights."
-        }
-      ],
-      "background": "Peter Berg is a director known for Friday Night Lights and Lone Survivor.",
-      "entities": [
-        "Netflix",
-        "Streaming",
-        "Sports stories",
-        "Thanksgiving releases"
-      ],
-      "meme": {
-        "top": "A football film about wartime",
-        "bottom": "released the day before the big games",
-        "take": "Netflix found the one thing to watch on Thanksgiving that is also football."
-      },
-      "stats": [
-        {
-          "value": "Nov 25",
-          "label": "Netflix premiere"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 54,
-      "prevHype": 54,
-      "source": "TVLine",
-      "url": "https://tvline.com/2323631/what-to-watch-week-of-november-22-2026-tv-shows-movies-streaming",
-      "published": "2026-11-21"
-    },
-    {
-      "id": "tech-optimizely-skimmer",
-      "title": "Optimizely supply-chain attack put a card skimmer on 178 brands' sites",
-      "summary": "Malicious code in Optimizely's JavaScript ran on 178 brands' websites on November 16, skimming card data and swapping crypto addresses, reports say.",
-      "why": "One compromised supplier script can reach shoppers on many big sites at once, days before Black Friday.",
-      "happened": "Report URI counts at least 178 affected organisations, including CNN, BBC and IKEA. The code skimmed card data and swapped crypto addresses. Optimizely confirms a flaw was exploited and says it is fixed.",
-      "next": "Watch for the list of affected brands and notices to shoppers.",
+      "id": "tech-kepco-breach",
+      "title": "South Korea's KEPCO says breach affected 1.5 million people",
+      "summary": "Korea Electric Power Corporation disclosed a breach of customer and procurement data affecting 1.5 million people.",
+      "why": "A breach at a national power company raises concern about critical infrastructure.",
+      "happened": "An incident roundup reports KEPCO's disclosure. Both customer records and procurement data were involved, according to the report.",
+      "next": "Watch for South Korean regulators' findings.",
       "drivers": [
         {
           "label": "Scale",
-          "text": "178 brands were affected."
+          "text": "1.5 million people affected, per the company."
         },
         {
-          "label": "Timing",
-          "text": "It hit just before the biggest online shopping week."
-        },
-        {
-          "label": "Trend",
-          "text": "Attackers target shared scripts to reach many sites."
+          "label": "Risk",
+          "text": "Power utilities are critical infrastructure."
         }
       ],
-      "background": "Optimizely makes tools that let websites test different page designs, using scripts loaded on customers' sites.",
+      "background": "KEPCO is South Korea's state-run electricity utility.",
       "entities": [
+        "South Korea",
         "Cybersecurity",
-        "Supply chain attacks",
-        "Payment data",
-        "Black Friday"
+        "Data breaches"
       ],
       "meme": {
-        "top": "Optimizely helps sites test changes",
-        "bottom": "someone tested a very bad one",
-        "take": "Optimizely's script ran an experiment on 178 brands. The control group was your card."
+        "top": "A power company disclosed a breach",
+        "bottom": "the lights stayed on, the data did not",
+        "take": "KEPCO disclosed a breach affecting 1.5 million people, and is notifying customers."
       },
       "stats": [
         {
-          "value": "178",
-          "label": "organisations affected, reported"
-        },
-        {
-          "value": "~$7,040",
-          "label": "crypto taken, Report URI"
+          "value": "1.5M",
+          "label": "people affected"
         }
       ],
       "motif": "shield",
       "category": "tech",
-      "hype": 54,
-      "prevHype": 54,
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-      "published": "2026-11-22"
+      "hype": 50,
+      "prevHype": null,
+      "source": "SITG Consulting",
+      "url": "https://www.sitg-consulting.com/post/cyber-incidents-top-40-25-november-2026",
+      "published": "2026-11-25"
     },
     {
-      "id": "tech-iphone-18e-cad",
-      "title": "CAD images suggest the iPhone 18e will get an unusual new camera design",
-      "summary": "Leaked CAD images point to an unusual new camera design for Apple's next budget phone, the iPhone 18e, 9to5Mac reports.",
-      "why": "The 'e' model is Apple's cheaper iPhone, so its design hints at what many buyers will carry.",
-      "happened": "9to5Mac says the CAD images show a camera layout unlike current models. Apple has not announced the phone, and leaked designs can change.",
-      "next": "Watch for more leaks or cases that confirm the layout.",
+      "id": "game-gothic-3-consoles",
+      "title": "Gothic 3 Classic reaches consoles about 20 years after launch",
+      "summary": "The 2006 role-playing game Gothic 3 arrived on Xbox in a Classic version on November 24, with PS5 also listed by some outlets.",
+      "why": "Cult PC role-playing games rarely get console releases two decades later.",
+      "happened": "Pure Xbox lists Gothic 3 Classic among the week's Xbox releases. GAMINGbible says it is out on PS5 and Xbox and that improvements are also coming to PC.",
+      "next": "Watch for player reviews of how the console version runs.",
       "drivers": [
         {
-          "label": "Fan demand",
-          "text": "iPhone design leaks draw heavy attention every year."
+          "label": "Nostalgia",
+          "text": "The original came out in 2006."
         },
         {
-          "label": "Trend",
-          "text": "Apple has been changing camera layouts across its range."
+          "label": "First of its kind",
+          "text": "It is the first console release for the game."
         }
       ],
-      "background": "Apple's 'e' iPhones are lower-priced models that sit below the main iPhone line.",
+      "background": "Gothic is a German open-world role-playing series first released in 2001.",
       "entities": [
-        "Apple",
-        "Smartphones"
+        "Microsoft",
+        "New game releases"
       ],
       "meme": {
-        "top": "Apple redesigned the camera bump",
-        "bottom": "the case makers have started sweating",
-        "take": "The cheaper iPhone gets a new camera layout, and the case industry gets a new year."
+        "top": "Gothic 3 reached consoles",
+        "bottom": "in time for its 20th birthday",
+        "take": "Gothic 3 came to consoles after 20 years, beating several games still in early access."
       },
-      "stats": [],
-      "motif": "phone",
-      "category": "tech",
-      "hype": 52,
+      "stats": [
+        {
+          "value": "Nov 24",
+          "label": "console release"
+        }
+      ],
+      "motif": "game",
+      "category": "gaming",
+      "hype": 48,
       "prevHype": null,
-      "source": "9to5Mac",
-      "url": "https://9to5mac.com/2026/11/24/cad-images-suggest-iphone-18e-will-have-an-odd-new-camera-design/",
+      "source": "Pure Xbox",
+      "url": "https://www.purexbox.com/news/2026/11/these-20plus-games-are-coming-to-xbox-next-week-november-23-27",
       "published": "2026-11-24"
     },
     {
@@ -1739,102 +1886,10 @@
       ],
       "motif": "game",
       "category": "gaming",
-      "hype": 52,
-      "prevHype": null,
+      "hype": 48,
+      "prevHype": 48,
       "source": "GameRant",
       "url": "https://gamerant.com/ps-plus-november-2026-extra-premium-games-wave-3-full-list",
-      "published": "2026-11-24"
-    },
-    {
-      "id": "ent-hunting-wives-s2",
-      "title": "The Hunting Wives season 2 arrives on Netflix on Thanksgiving Day",
-      "summary": "All eight episodes of The Hunting Wives season 2, with Brittany Snow and Malin Akerman, stream on Netflix on November 26.",
-      "why": "Its first season became a streaming talking point, so a holiday binge release is a big draw.",
-      "happened": "BillFrost.tv and TVLine both list all eight episodes for Thanksgiving. BillFrost.tv notes the first season was originally made for Starz.",
-      "next": "Watch for whether it tops Netflix's TV chart over the weekend.",
-      "drivers": [
-        {
-          "label": "Timing",
-          "text": "Holiday binge releases tend to draw big audiences."
-        },
-        {
-          "label": "Fan demand",
-          "text": "The first season built a loyal following."
-        }
-      ],
-      "background": "The Hunting Wives is a drama thriller based on a novel by May Cobb.",
-      "entities": [
-        "Netflix",
-        "Streaming",
-        "Book adaptations",
-        "Thanksgiving releases"
-      ],
-      "meme": {
-        "top": "A drama about secrets and family",
-        "bottom": "released on Thanksgiving",
-        "take": "Netflix scheduled a show about tense social gatherings for the year's tensest dinner."
-      },
-      "stats": [
-        {
-          "value": "8",
-          "label": "episodes, released at once"
-        },
-        {
-          "value": "Nov 26",
-          "label": "release date"
-        }
-      ],
-      "motif": "screen",
-      "category": "entertainment",
-      "hype": 52,
-      "prevHype": 52,
-      "source": "BillFrost.tv",
-      "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
-      "published": "2026-11-23"
-    },
-    {
-      "id": "game-steam-fests-2027",
-      "title": "Valve sets 2027 Steam Fest dates, from desktop companions to rhythm games",
-      "summary": "Valve's 2027 Steam Fest calendar starts with a Desktop Companion Fest on January 14-18 and includes Couch Co-Op and Rhythm events.",
-      "why": "Steam's themed festivals drive discounts and attention for smaller games on PC's biggest store.",
-      "happened": "Gamingroute lists Shop Keeper Fest on January 25 to February 1, a Sheep Fest on February 4-8, Couch Co-Op on February 8-15 and Rhythm on March 8-15. The Spring Sale is reported for March 18-25.",
-      "next": "Watch for Valve's full 2027 sale calendar and the Winter Sale.",
-      "drivers": [
-        {
-          "label": "Timing",
-          "text": "It gives developers and shoppers dates to plan around."
-        },
-        {
-          "label": "Fan demand",
-          "text": "Steam sales are a fixture for PC players."
-        }
-      ],
-      "background": "Steam is Valve's PC game store and the largest digital store for PC games.",
-      "entities": [
-        "Valve",
-        "Steam"
-      ],
-      "meme": {
-        "top": "Steam is holding a Sheep Fest",
-        "bottom": "the sheep have not been consulted",
-        "take": "Valve's 2027 calendar includes a Sheep Fest, and nobody at Valve seems worried."
-      },
-      "stats": [
-        {
-          "value": "Jan 14",
-          "label": "first 2027 fest begins"
-        },
-        {
-          "value": "Mar 18",
-          "label": "Spring Sale start, reported"
-        }
-      ],
-      "motif": "game",
-      "category": "gaming",
-      "hype": 48,
-      "prevHype": null,
-      "source": "Gamingroute",
-      "url": "https://gamingroute.com/steam-fests-2027-dates/",
       "published": "2026-11-24"
     },
     {
@@ -1887,47 +1942,6 @@
       "source": "PlayStationInfo",
       "url": "https://playstationinfo.de/en/2026/11/22/xbox-game-pass-is-getting-three-games-and-a-new-title-is-launching-directly-on-day-one",
       "published": "2026-11-22"
-    },
-    {
-      "id": "ent-mastodon-2027-tour",
-      "title": "Mastodon announce a spring 2027 UK and European tour",
-      "summary": "Mastodon's Poisonous Weapons Tour heads to the UK and Europe from March 14 in Paris, with Monolord supporting.",
-      "why": "Mastodon are one of metal's biggest live acts, and fans across Europe now have dates to plan for.",
-      "happened": "The tour runs through cities including Madrid, London, Budapest and Stockholm. Green Lung join for the UK dates, Consequence reports.",
-      "next": "Watch for ticket sales and any added dates.",
-      "drivers": [
-        {
-          "label": "Fan demand",
-          "text": "European fans get a full run of dates."
-        },
-        {
-          "label": "Timing",
-          "text": "It was announced months ahead of spring."
-        }
-      ],
-      "background": "Mastodon are a heavy metal band from Atlanta, known for albums such as Leviathan and Crack the Skye.",
-      "entities": [
-        "Live music",
-        "Concert tours"
-      ],
-      "meme": {
-        "top": "Mastodon are touring Europe",
-        "bottom": "the ears of Europe have been warned",
-        "take": "Mastodon have announced a European tour, and the venues have been advised to bolt things down."
-      },
-      "stats": [
-        {
-          "value": "Mar 14",
-          "label": "tour opens in Paris"
-        }
-      ],
-      "motif": "voice",
-      "category": "entertainment",
-      "hype": 44,
-      "prevHype": null,
-      "source": "Consequence",
-      "url": "https://consequence.net/2026/11/mastodon-spring-2027-eu-uk-tour/",
-      "published": "2026-11-24"
     }
   ]
 }
