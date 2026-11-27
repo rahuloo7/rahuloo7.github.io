@@ -408,7 +408,7 @@
   }
  },
  "ai-amazon-meta-muse-talks": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "Muse is Meta's AI assistant, which can also act as a shopping agent.",
    "category": "ai",
@@ -428,8 +428,8 @@
     "AI agents",
     "Advertising"
    ],
-   "happened": "The Decoder reports ad revenue and search control are part of the talks, citing Amazon's $68.6 billion ad business. It says Muse accounts for 51% of AI agent shopping orders. No deal has been announced.",
-   "hype": 64,
+   "happened": "Fortune reports the companies are discussing a deal to connect Muse to Amazon and that it would need sign-off from both CEOs. The Decoder says ad revenue and search control are part of the talks. No deal has been announced.",
+   "hype": 66,
    "id": "ai-amazon-meta-muse-talks",
    "meme": {
     "bottom": "Amazon wants to know who is paying",
@@ -438,9 +438,9 @@
    },
    "motif": "bag",
    "next": "Watch for whether a deal is announced and what Amazon gets in return.",
-   "prevHype": null,
+   "prevHype": 66,
    "published": "2026-11-25",
-   "source": "The Decoder",
+   "source": "Fortune",
    "stats": [
     {
      "label": "Amazon ad business, reported",
@@ -453,7 +453,7 @@
    ],
    "summary": "Amazon and Meta are said to be negotiating an end to Amazon's September block on Meta's Muse shopping agent.",
    "title": "Amazon and Meta reportedly in talks to let Meta's Muse agent shop on Amazon",
-   "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+   "url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade/",
    "why": "Whether AI agents can shop on Amazon decides who controls online shopping in the agent era."
   }
  },
@@ -513,6 +513,49 @@
    "title": "SemiAnalysis tests show AMD chips serving Kimi K3 for less than Nvidia's B200",
    "url": "https://aiweekly.co/ai-news-today",
    "why": "Running AI models is becoming the biggest computing bill, so cheaper inference matters to every AI company."
+  }
+ },
+ "ai-amodei-axios-absurd": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Dario Amodei co-founded Anthropic, the company behind the Claude models, after working at OpenAI.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Amodei leads one of the top AI labs."
+    },
+    {
+     "label": "Controversy",
+     "text": "He publicly disputed a news outlet's reporting."
+    },
+    {
+     "label": "Timing",
+     "text": "Anthropic has just begun trading as a public company."
+    }
+   ],
+   "entities": [
+    "Anthropic",
+    "AI safety"
+   ],
+   "happened": "TechCrunch reports Amodei called the accusations absurd and disputed an Axios report. He also criticised positions taken by rival executives as driven by impressions rather than substance.",
+   "hype": 66,
+   "id": "ai-amodei-axios-absurd",
+   "meme": {
+    "bottom": "the humans are still holding the keys",
+    "take": "An AI company had to say on the record that people still make the decisions. Noted.",
+    "top": "An AI lab had to confirm"
+   },
+   "motif": "agent",
+   "next": "Watch for Axios's response and any follow-up from Anthropic on how it keeps humans in charge.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "TechCrunch",
+   "stats": [],
+   "summary": "Anthropic's CEO rejected reporting that suggested he would cede human control to AI, and challenged Axios's account.",
+   "title": "Dario Amodei calls claims he would hand decisions to AI absurd",
+   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+   "why": "How much control AI companies plan to give their own systems is one of the biggest questions in the field."
   }
  },
  "ai-amodei-responds-to-critics": {
@@ -625,7 +668,7 @@
   }
  },
  "ai-anthropic-api-rust": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "Anthropic is the AI company that makes the Claude models.",
    "category": "ai",
@@ -645,7 +688,7 @@
     "AI agents"
    ],
    "happened": "Agents compared the old and new versions against live requests, and engineers reviewed the fixes. Anthropic reports about 70% less processor use per request and a 20% shorter median time to first token.",
-   "hype": 68,
+   "hype": 62,
    "id": "ai-anthropic-api-rust",
    "meme": {
     "bottom": "and now it will not stop mentioning it",
@@ -654,7 +697,7 @@
    },
    "motif": "network",
    "next": "Watch for other companies trying AI-led rewrites of production systems.",
-   "prevHype": null,
+   "prevHype": 62,
    "published": "2026-11-25",
    "source": "Anthropic",
    "stats": [
@@ -2741,6 +2784,64 @@
    "why": "Character.ai was one of the best-known chatbot startups, and its fall shows the cost of AI safety lawsuits."
   }
  },
+ "ai-character-ai-data-auction": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Character.AI is a chatbot app where people talk with AI characters, many of them created by other users.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "Over 21 million US accounts are said to be involved."
+    },
+    {
+     "label": "Risk",
+     "text": "More than 2.1 million accounts are registered to minors."
+    },
+    {
+     "label": "Controversy",
+     "text": "Selling private chat logs tests the limits of data rules."
+    }
+   ],
+   "entities": [
+    "Character.AI",
+    "AI policy",
+    "Chatbots",
+    "Privacy"
+   ],
+   "happened": "TechCrunch reports the data covers over 21 million US accounts, more than 2.1 million of them registered to minors. The attorneys general are pushing to stop the sale of users' chats.",
+   "hype": 74,
+   "id": "ai-character-ai-data-auction",
+   "meme": {
+    "bottom": "42 states asked to read the terms first",
+    "take": "A chatbot company tried to auction its conversations, and 42 states objected in writing.",
+    "top": "Character.AI planned to sell its chats"
+   },
+   "motif": "doc",
+   "next": "Watch for a court or regulator ruling on whether the sale can go ahead.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "TechCrunch",
+   "stats": [
+    {
+     "label": "state attorneys general opposed",
+     "value": "42"
+    },
+    {
+     "label": "US accounts in the data",
+     "value": "21M+"
+    },
+    {
+     "label": "accounts registered to minors",
+     "value": "2.1M+"
+    }
+   ],
+   "summary": "A group of 42 state attorneys general opposes Character.AI's plan to auction data from more than 21 million US accounts.",
+   "title": "42 state attorneys general fight Character.AI's plan to auction user data",
+   "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+   "why": "Chats with AI companions can be deeply personal, so who gets to own them is a sensitive question."
+  }
+ },
  "ai-character-ai-state-ags": {
   "lastSeen": "2026-10-20",
   "story": {
@@ -2893,7 +2994,7 @@
   }
  },
  "ai-chatgpt-merged-limits": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "ChatGPT is OpenAI's chatbot and one of the most used AI apps in the world.",
    "category": "ai",
@@ -2911,8 +3012,8 @@
     "OpenAI",
     "Chatbots"
    ],
-   "happened": "TechCrunch reports the two modes now draw from a single allowance. The Instant model stays available after the allowance runs out, and a wider rollout is planned for December.",
-   "hype": 66,
+   "happened": "TechCrunch reports the merged Chat and Work tabs, with one shared usage meter, are rolling out to a small group of Pro users first. Instant stays available after the allowance runs out, and a wider rollout is planned for December.",
+   "hype": 60,
    "id": "ai-chatgpt-merged-limits",
    "meme": {
     "bottom": "like most of us did years ago",
@@ -2921,7 +3022,7 @@
    },
    "motif": "agent",
    "next": "Watch for the December rollout and how paid plans' limits change.",
-   "prevHype": null,
+   "prevHype": 60,
    "published": "2026-11-25",
    "source": "TechCrunch",
    "stats": [],
@@ -4939,6 +5040,59 @@
    "why": "As firms deploy AI agents, they need ways to see what those agents are actually doing."
   }
  },
+ "ai-elevenlabs-33b-talks": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "ElevenLabs makes AI voice tools used for narration, dubbing and voice agents.",
+   "category": "ai",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "The target is up $11 billion since September, reportedly."
+    },
+    {
+     "label": "Trend",
+     "text": "Voice is one of the fastest-growing uses of AI."
+    }
+   ],
+   "entities": [
+    "ElevenLabs",
+    "AI funding",
+    "Voice AI"
+   ],
+   "happened": "Bloomberg reports the target is up from $22 billion in September, citing people familiar. It says annual recurring revenue now stands at $700 million. Talks are early and no round is confirmed.",
+   "hype": 64,
+   "id": "ai-elevenlabs-33b-talks",
+   "meme": {
+    "bottom": "the voice of money speaks clearly",
+    "take": "A company that clones voices is said to be worth $33 billion, and it is not even singing.",
+    "top": "ElevenLabs may be worth $33 billion"
+   },
+   "motif": "voice",
+   "next": "Watch for whether the round is confirmed and who leads it.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "Bloomberg",
+   "stats": [
+    {
+     "label": "target valuation, reported",
+     "value": "$33B"
+    },
+    {
+     "label": "September valuation",
+     "value": "$22B"
+    },
+    {
+     "label": "annual recurring revenue, reported",
+     "value": "$700M"
+    }
+   ],
+   "summary": "Voice AI firm ElevenLabs is said to be in early talks for a 2027 funding round at a $33 billion target valuation.",
+   "title": "ElevenLabs reportedly in early talks to raise at a $33 billion valuation",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-25/elevenlabs-in-early-talks-for-2027-funding-at-33-billion-value",
+   "why": "Investors are still paying up for AI firms with fast-growing revenue, even as the wider AI trade wobbles."
+  }
+ },
  "ai-eu-ai-act-first-probes": {
   "lastSeen": "2026-10-15",
   "story": {
@@ -6186,7 +6340,7 @@
   }
  },
  "ai-gpt-6-protein-design": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "OpenAI makes ChatGPT and the GPT series of AI models.",
    "category": "ai",
@@ -6206,16 +6360,16 @@
     "Frontier models"
    ],
    "happened": "OpenAI says the models worked out sequences through step-by-step reasoning and code rather than a specialised biology model. Lab experiments found evidence of binding to five targets.",
-   "hype": 80,
+   "hype": 70,
    "id": "ai-gpt-6-protein-design",
    "meme": {
-    "bottom": "and it still cannot fold laundry",
-    "take": "GPT-6 can now design proteins, which puts it ahead of most people's New Year plans.",
-    "top": "A chatbot designed a protein"
+    "bottom": "biology departments asked for its CV",
+    "take": "OpenAI says GPT-6 designs proteins now, so the lab coat is next.",
+    "top": "GPT-6 designed working proteins"
    },
    "motif": "network",
    "next": "Watch for independent scientists testing or reproducing the designs.",
-   "prevHype": null,
+   "prevHype": 70,
    "published": "2026-11-25",
    "source": "OpenAI",
    "stats": [
@@ -6807,7 +6961,7 @@
   }
  },
  "ai-ling-3-2-air": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "Ant Group is the Chinese fintech company behind the Alipay payments app.",
    "category": "ai",
@@ -6826,7 +6980,7 @@
     "China"
    ],
    "happened": "TechNode reports the model's weights are MIT-licensed. Ant says it completed 61% of tasks on its own office-work test, up from 15.7% for Ling-3.0-flash-VL.",
-   "hype": 50,
+   "hype": 44,
    "id": "ai-ling-3-2-air",
    "meme": {
     "bottom": "because why not, everyone else did",
@@ -6835,7 +6989,7 @@
    },
    "motif": "network",
    "next": "Watch for independent benchmark results.",
-   "prevHype": null,
+   "prevHype": 44,
    "published": "2026-11-25",
    "source": "TechNode",
    "stats": [
@@ -8804,7 +8958,7 @@
   }
  },
  "ai-ny-ai-toy-ban": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "New York is one of the biggest US states and often an early mover on tech rules.",
    "category": "ai",
@@ -8827,8 +8981,8 @@
     "Chatbots",
     "Black Friday"
    ],
-   "happened": "NBC News reports the ban covers making and selling toys powered by AI chatbots and lasts five years. It arrives just before the holiday shopping season.",
-   "hype": 66,
+   "happened": "NBC News reports the ban covers making and selling toys powered by AI chatbots, lasts five years and starts in February. California signed a four-year ban in September.",
+   "hype": 58,
    "id": "ai-ny-ai-toy-ban",
    "meme": {
     "bottom": "the teddy bear may remain silent",
@@ -8837,7 +8991,7 @@
    },
    "motif": "doc",
    "next": "Watch for toy makers' responses and whether other states follow.",
-   "prevHype": null,
+   "prevHype": 58,
    "published": "2026-11-25",
    "source": "NBC News",
    "stats": [
@@ -9593,7 +9747,7 @@
   }
  },
  "ai-openai-matrix-exponent": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "Matrix multiplication underpins much of computing, including the training of AI models.",
    "category": "ai",
@@ -9613,7 +9767,7 @@
     "Mathematics"
    ],
    "happened": "The paper appeared in OpenAI's public maths repository on November 24. Roundups stress it has not been independently validated. It follows other AI-assisted maths claims this month.",
-   "hype": 72,
+   "hype": 64,
    "id": "ai-openai-matrix-exponent",
    "meme": {
     "bottom": "reviewers say show your working",
@@ -9622,7 +9776,7 @@
    },
    "motif": "doc",
    "next": "Watch for mathematicians reviewing the proof and whether it holds up.",
-   "prevHype": null,
+   "prevHype": 64,
    "published": "2026-11-24",
    "source": "OpenAI (GitHub)",
    "stats": [
@@ -10959,7 +11113,7 @@
   }
  },
  "ai-spacex-starmind-fcc": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "SpaceX is Elon Musk's rocket company and runs the Starlink satellite internet network.",
    "category": "ai",
@@ -10980,19 +11134,20 @@
    "entities": [
     "SpaceX",
     "AI infrastructure",
-    "US government"
+    "US government",
+    "Elon Musk"
    ],
-   "happened": "Gizmodo reports the approval covers a potential network, not satellites already in orbit. Scientists quoted by AP question whether the economics and cooling can work.",
-   "hype": 88,
+   "happened": "Reuters reports the FCC authorised a constellation of up to one million satellites for data centres in space. Scientists quoted by AP question whether the economics and cooling can work.",
+   "hype": 84,
    "id": "ai-spacex-starmind-fcc",
    "meme": {
-    "bottom": "the sky has run out of parking",
-    "take": "A million AI satellites got approved, and astronomers have quietly updated their résumés.",
+    "bottom": "for computers that rarely go outside",
+    "take": "Regulators approved a million data centres in orbit, which is one way to avoid local zoning.",
     "top": "The FCC approved a million satellites"
    },
    "motif": "rocket",
    "next": "Watch for SpaceX's launch timeline and any customers named for Starmind.",
-   "prevHype": null,
+   "prevHype": 84,
    "published": "2026-11-25",
    "source": "Gizmodo",
    "stats": [
@@ -11976,6 +12131,50 @@
    "why": "Ali G was one of the defining British comedy characters of the early 2000s."
   }
  },
+ "ent-andy-taylor-dies": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Duran Duran formed in Birmingham, England, in 1978 and became one of the biggest bands of the MTV era.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "Duran Duran sold millions of records in the 1980s."
+    },
+    {
+     "label": "Nostalgia",
+     "text": "The band's early hits remain widely played."
+    }
+   ],
+   "entities": [
+    "Duran Duran",
+    "Rock music"
+   ],
+   "happened": "JoBlo reports Taylor died after a long illness with prostate cancer. He was a member of Duran Duran during the band's 1980s success.",
+   "hype": 70,
+   "id": "ent-andy-taylor-dies",
+   "meme": {
+    "bottom": "has died at 65",
+    "take": "Andy Taylor, guitarist for Duran Duran, has died at 65.",
+    "top": "Andy Taylor, Duran Duran guitarist"
+   },
+   "motif": "voice",
+   "next": "Watch for tributes from his bandmates and fellow musicians.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "JoBlo",
+   "stats": [
+    {
+     "label": "age",
+     "value": "65"
+    }
+   ],
+   "summary": "Andy Taylor, the guitarist of Duran Duran, has died at 65 after a long battle with prostate cancer, JoBlo reports.",
+   "title": "Duran Duran guitarist Andy Taylor dies at 65",
+   "url": "https://www.joblo.com/andy-taylor-died/",
+   "why": "Duran Duran were one of the defining bands of the 1980s, and fans around the world are paying tribute."
+  }
+ },
  "ent-artificial-trailer": {
   "lastSeen": "2026-11-20",
   "story": {
@@ -12072,6 +12271,60 @@
    "title": "Marvel drops 11 Avengers: Doomsday posters, a month before release",
    "url": "https://cosmicbook.news/doomsday-character-posters",
    "why": "It is one of the biggest films of the year, and Downey's return in a villain role has fans curious."
+  }
+ },
+ "ent-avengers-doomsday-tracking": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Avengers: Doomsday is the next team-up film in Marvel Studios' long-running cinematic universe, owned by Disney.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Big name",
+     "text": "The Avengers films are among the biggest ever made."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Tracking points to one of the year's largest openings."
+    },
+    {
+     "label": "Rivalry",
+     "text": "Dune: Part Three opens in the same busy December stretch."
+    }
+   ],
+   "entities": [
+    "Marvel",
+    "Disney",
+    "Superhero films",
+    "Box office"
+   ],
+   "happened": "JoBlo reports tracking above $270 million for Avengers: Doomsday. It also lists Dune: Part Three tracking at $75 million or more. Both are projections, not results.",
+   "hype": 66,
+   "id": "ent-avengers-doomsday-tracking",
+   "meme": {
+    "bottom": "the multiverse has a marketing budget",
+    "take": "Avengers: Doomsday is tracking above $270 million, so doom is doing fine commercially.",
+    "top": "Avengers tracking at $270 million"
+   },
+   "motif": "film",
+   "next": "Watch for updated tracking and presale records as release approaches.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "JoBlo",
+   "stats": [
+    {
+     "label": "opening tracking, estimate",
+     "value": "$270M+"
+    },
+    {
+     "label": "Dune: Part Three tracking",
+     "value": "$75M+"
+    }
+   ],
+   "summary": "Early tracking points to a US opening of more than $270 million for Marvel's Avengers: Doomsday, JoBlo reports.",
+   "title": "Avengers: Doomsday is tracking for an opening above $270 million",
+   "url": "https://www.joblo.com/thanksgiving-box-office-hunger-games-focker-in-law-hexed/",
+   "why": "An Avengers film is Hollywood's surest bet, and a huge opening would cap a strong year for cinemas."
   }
  },
  "ent-bass-x-machina": {
@@ -12948,7 +13201,7 @@
   }
  },
  "ent-cliff-booth-imax": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "Cliff Booth was Brad Pitt's stuntman character in the 2019 film Once Upon a Time in Hollywood.",
    "category": "entertainment",
@@ -12967,27 +13220,27 @@
     "Theatrical releases",
     "Thanksgiving releases"
    ],
-   "happened": "Occupy Cinema lists the IMAX run starting on the Wednesday before Thanksgiving. AP also describes it as a Netflix IMAX release over the holiday corridor.",
-   "hype": 62,
+   "happened": "Gold Derby says the film is on 250 IMAX screens, with 82% on Rotten Tomatoes. JoBlo notes Netflix often does not report grosses, so no box office figure was published.",
+   "hype": 58,
    "id": "ent-cliff-booth-imax",
    "meme": {
-    "bottom": "for exactly as long as it takes",
-    "take": "Netflix gives Cliff Booth two weeks on the big screen, then the usual couch residency.",
-    "top": "A Netflix film is in cinemas"
+    "bottom": "then declined to say how it did",
+    "take": "Netflix's Cliff Booth is in IMAX, and its box office is a secret even to the box office.",
+    "top": "Netflix put a film in cinemas"
    },
    "motif": "film",
    "next": "Watch for its IMAX box office over the holiday weekend.",
-   "prevHype": 62,
-   "published": "2026-11-24",
-   "source": "Occupy Cinema",
+   "prevHype": 58,
+   "published": "2026-11-26",
+   "source": "JoBlo",
    "stats": [
     {
-     "label": "IMAX run begins",
-     "value": "Nov 25"
+     "label": "IMAX screens",
+     "value": "250"
     },
     {
-     "label": "IMAX run length",
-     "value": "2 weeks"
+     "label": "Rotten Tomatoes score",
+     "value": "82%"
     },
     {
      "label": "Netflix premiere",
@@ -12996,7 +13249,7 @@
    ],
    "summary": "The Netflix film plays in IMAX cinemas from November 25 for two weeks before it premieres on the service on December 23.",
    "title": "Netflix's The Further Mis-Adventures of Cliff Booth starts a two-week IMAX run",
-   "url": "https://cinemaoccupy.substack.com/p/sunrise-on-the-reaping-opens-to-120",
+   "url": "https://www.joblo.com/thanksgiving-box-office-hunger-games-focker-in-law-hexed/",
    "why": "Netflix rarely puts its films in big-screen cinemas, so a run like this draws attention."
   }
  },
@@ -13925,7 +14178,7 @@
   }
  },
  "ent-focker-in-law-opens": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "Meet the Parents is a comedy series about a nurse and his fearsome ex-CIA father-in-law.",
    "category": "entertainment",
@@ -13949,28 +14202,36 @@
     "Revived franchises",
     "Box office"
    ],
-   "happened": "Owen Wilson and Teri Polo also return, and Ariana Grande and Skyler Gisondo join the cast. It opened the same day as Disney's Hexed, setting up a holiday weekend contest.",
-   "hype": 78,
+   "happened": "JoBlo, citing Deadline, says the five-day gross is in the $35 million region, below Little Fockers' $45 million. Gold Derby predicts $45 million from more than 3,350 cinemas. It has a Metacritic score of 39.",
+   "hype": 74,
    "id": "ent-focker-in-law-opens",
    "meme": {
-    "bottom": "opens the day before you meet yours",
-    "take": "Focker-In-Law opens on Thanksgiving week, a lighter version of what awaits families.",
-    "top": "A film about meeting the in-laws"
+    "bottom": "the reviews were like a family dinner",
+    "take": "Critics met the in-laws again this week and kept the conversation polite.",
+    "top": "Focker-In-Law opened for Thanksgiving"
    },
    "motif": "film",
-   "next": "Watch for the five-day Thanksgiving box office numbers.",
-   "prevHype": null,
-   "published": "2026-11-24",
-   "source": "ScreenRant",
+   "next": "Watch for the final five-day numbers on Sunday.",
+   "prevHype": 74,
+   "published": "2026-11-26",
+   "source": "JoBlo",
    "stats": [
     {
-     "label": "cinema release",
-     "value": "Nov 25"
+     "label": "five-day forecast, Deadline",
+     "value": "~$35M"
+    },
+    {
+     "label": "cinemas",
+     "value": "3,350+"
+    },
+    {
+     "label": "Metacritic score",
+     "value": "39"
     }
    ],
-   "summary": "The fourth Meet the Parents film opened in cinemas on November 25, with Ben Stiller and Robert De Niro returning.",
-   "title": "Focker-In-Law opens for Thanksgiving with Stiller and De Niro back",
-   "url": "https://screenrant.com/new-movies-releasing-thanksgiving-weekend-2026/",
+   "summary": "The fourth Meet the Parents film opened on Wednesday, with five-day forecasts between about $35 million and $45 million.",
+   "title": "Focker-In-Law opens for Thanksgiving, with forecasts near $35 million",
+   "url": "https://www.joblo.com/thanksgiving-box-office-hunger-games-focker-in-law-hexed/",
    "why": "It revives a big comedy franchise for the busiest family moviegoing week of the year."
   }
  },
@@ -14646,18 +14907,22 @@
   }
  },
  "ent-hexed-thanksgiving-openers": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "Disney animation has often released films over Thanksgiving, including Frozen in 2013.",
    "category": "entertainment",
    "drivers": [
     {
-     "label": "Timing",
-     "text": "Thanksgiving week is a traditional window for family films."
+     "label": "Money",
+     "text": "Its reported budget is above $200 million."
     },
     {
      "label": "Rivalry",
-     "text": "New openers face the Hunger Games prequel in its second week."
+     "text": "It faces the Hunger Games prequel in its second week."
+    },
+    {
+     "label": "Timing",
+     "text": "Thanksgiving week is a traditional window for Disney animation."
     }
    ],
    "entities": [
@@ -14666,32 +14931,36 @@
     "Theatrical releases",
     "Thanksgiving releases"
    ],
-   "happened": "Occupy Cinema, citing Box Office Mojo's calendar, lists Hexed from Disney, Hershey from Angel Studios and Bitter Christmas from Sony Pictures Classics for Wednesday. AP lists Universal's Focker In-Law for Friday.",
-   "hype": 68,
+   "happened": "Gold Derby says Hexed cost north of $200 million, took about $2 million in Tuesday previews and saw projections slip from $45 million over three weeks. JoBlo puts its five-day gross at about $31 million.",
+   "hype": 72,
    "id": "ent-hexed-thanksgiving-openers",
    "meme": {
-    "bottom": "on a week of family gatherings",
-    "take": "Hexed arrives on Thanksgiving, a holiday with plenty of family curses already.",
-    "top": "Disney opens a film called Hexed"
+    "bottom": "the box office took it personally",
+    "take": "Hexed opened to soft numbers, which is unfortunate branding in hindsight.",
+    "top": "Disney released a film called Hexed"
    },
    "motif": "film",
-   "next": "Watch for the five-day holiday totals and how Hexed fares against the Hunger Games prequel.",
-   "prevHype": 68,
-   "published": "2026-11-24",
-   "source": "Occupy Cinema",
+   "next": "Watch for the final weekend numbers and how it holds into December.",
+   "prevHype": 72,
+   "published": "2026-11-26",
+   "source": "JoBlo",
    "stats": [
     {
-     "label": "Hexed opens wide",
-     "value": "Nov 25"
+     "label": "five-day forecast, JoBlo",
+     "value": "~$31M"
     },
     {
-     "label": "Focker In-Law opens",
-     "value": "Nov 27"
+     "label": "production cost, reported",
+     "value": "$200M+"
+    },
+    {
+     "label": "cinemas",
+     "value": "3,725"
     }
    ],
-   "summary": "Disney's Hexed opens wide on November 25, alongside Hershey, Bitter Christmas and A24's Club Kid, with Focker In-Law following on November 27.",
-   "title": "Disney's animated Hexed leads the Thanksgiving week cinema openings",
-   "url": "https://cinemaoccupy.substack.com/p/sunrise-on-the-reaping-opens-to-120",
+   "summary": "Disney's animated Hexed opened on Wednesday with five-day forecasts of about $31 million to $40 million against a reported cost above $200 million.",
+   "title": "Disney's $200 million Hexed is tracking for a soft Thanksgiving start",
+   "url": "https://www.joblo.com/thanksgiving-box-office-hunger-games-focker-in-law-hexed/",
    "why": "Thanksgiving is one of the biggest moviegoing weeks of the year, and family films usually lead it."
   }
  },
@@ -14798,22 +15067,22 @@
   }
  },
  "ent-hunger-games-sunrise": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "The Hunger Games films are based on Suzanne Collins' novels. This is the second prequel, following a young Haymitch Abernathy.",
    "category": "entertainment",
    "drivers": [
     {
      "label": "Fan demand",
-     "text": "It beat Lionsgate's own $85 million weekend forecast."
+     "text": "Its Monday and Tuesday takings set franchise records."
     },
     {
      "label": "Scale",
-     "text": "It was about 2.7 times the opening of The Ballad of Songbirds and Snakes."
+     "text": "It had the fifth-biggest opening of the year."
     },
     {
      "label": "Timing",
-     "text": "It opened the week before Thanksgiving, a strong window for long runs."
+     "text": "Thanksgiving week is one of the busiest for cinemas."
     }
    ],
    "entities": [
@@ -14822,36 +15091,36 @@
     "Book adaptations",
     "Theatrical releases"
    ],
-   "happened": "It took $56 million on Friday, including $21 million in previews, and made up about 72% of all weekend ticket sales. Audiences gave it an A- CinemaScore, up from B+ for the last prequel.",
-   "hype": 76,
+   "happened": "Gold Derby reports a $119.3 million opening weekend, then $12.8 million on Monday and $16 million on Tuesday, both franchise records. It has an A- CinemaScore and 94% on Rotten Tomatoes.",
+   "hype": 86,
    "id": "ent-hunger-games-sunrise",
    "meme": {
-    "bottom": "is winning its own contest",
-    "take": "The Hunger Games returns to cinemas, which are once again fighting to survive the weekend.",
-    "top": "A film about a deadly televised contest"
+    "bottom": "nobody else even volunteered",
+    "take": "Sunrise on the Reaping is winning the holiday weekend, which suits a film about winning.",
+    "top": "The Hunger Games won Thanksgiving"
    },
    "motif": "film",
-   "next": "Watch for how it holds over the Thanksgiving five-day weekend against Hexed and Focker In-Law.",
-   "prevHype": 76,
-   "published": "2026-11-23",
-   "source": "ABC News (AP)",
+   "next": "Watch for the final five-day Thanksgiving totals and when it passes $200 million.",
+   "prevHype": 86,
+   "published": "2026-11-25",
+   "source": "Gold Derby",
    "stats": [
     {
-     "label": "North American opening, est.",
-     "value": "$120M"
+     "label": "North American total by Tuesday",
+     "value": "$148.2M"
     },
     {
-     "label": "worldwide opening, est.",
-     "value": "$225M"
+     "label": "opening weekend",
+     "value": "$119.3M"
     },
     {
-     "label": "share of weekend ticket sales",
-     "value": "72%"
+     "label": "Rotten Tomatoes score",
+     "value": "94%"
     }
    ],
-   "summary": "The Hunger Games prequel opened to an estimated $120 million in North America and $225 million worldwide, AP reports.",
-   "title": "Sunrise on the Reaping opens to $120 million in the US and $225 million worldwide",
-   "url": "https://abcnews.com/amp/Entertainment/wireStory/resurgent-hunger-games-big-box-office-despite-competition-138361740",
+   "summary": "The Hunger Games prequel reached $148.2 million in North America by Tuesday and is expected to lead the holiday weekend.",
+   "title": "Sunrise on the Reaping heads into Thanksgiving with $148 million in five days",
+   "url": "https://www.goldderby.com/film/2026/hunger-games-thanksgiving-weekend-box-office-focker-in-law-hexed/",
    "why": "A strong debut would show book-based franchises can still fill cinemas in a crowded holiday season."
   }
  },
@@ -14901,42 +15170,40 @@
   }
  },
  "ent-hunting-wives-s2": {
-  "lastSeen": "2026-11-25",
+  "lastSeen": "2026-11-27",
   "story": {
-   "background": "The Hunting Wives is a drama thriller based on a novel by May Cobb.",
+   "background": "The Hunting Wives is a drama series about a woman drawn into a circle of wealthy, secretive friends.",
    "category": "entertainment",
    "drivers": [
     {
      "label": "Timing",
-     "text": "Holiday binge releases tend to draw big audiences."
+     "text": "It landed on a long holiday weekend."
     },
     {
      "label": "Fan demand",
-     "text": "The first season built a loyal following."
+     "text": "Returning seasons usually arrive with a built-in audience."
     }
    ],
    "entities": [
     "Netflix",
-    "Streaming",
-    "Book adaptations",
-    "Thanksgiving releases"
+    "Streaming"
    ],
-   "happened": "BillFrost.tv and TVLine both list all eight episodes for Thanksgiving. BillFrost.tv notes the first season was originally made for Starz.",
-   "hype": 52,
+   "happened": "TVLine says the season dropped at 3am ET on November 26. The story picks up with Sophie and Margo estranged before events push them back together.",
+   "hype": 56,
    "id": "ent-hunting-wives-s2",
    "meme": {
-    "bottom": "released on Thanksgiving",
-    "take": "Netflix scheduled a show about tense social gatherings for the year's tensest dinner.",
-    "top": "A drama about secrets and family"
+    "bottom": "for the people avoiding their relatives",
+    "take": "The Hunting Wives dropped on Thanksgiving: eight hours of somebody else's family drama.",
+    "top": "Netflix released a whole season"
    },
    "motif": "screen",
-   "next": "Watch for whether it tops Netflix's TV chart over the weekend.",
-   "prevHype": 52,
-   "published": "2026-11-23",
-   "source": "BillFrost.tv",
+   "next": "Watch for whether it enters Netflix's weekly top 10 chart.",
+   "prevHype": null,
+   "published": "2026-11-26",
+   "source": "TVLine",
    "stats": [
     {
-     "label": "episodes, released at once",
+     "label": "episodes",
      "value": "8"
     },
     {
@@ -14944,10 +15211,10 @@
      "value": "Nov 26"
     }
    ],
-   "summary": "All eight episodes of The Hunting Wives season 2, with Brittany Snow and Malin Akerman, stream on Netflix on November 26.",
-   "title": "The Hunting Wives season 2 arrives on Netflix on Thanksgiving Day",
-   "url": "https://billfrost.substack.com/p/stream-it-this-week-november-23-2026",
-   "why": "Its first season became a streaming talking point, so a holiday binge release is a big draw."
+   "summary": "Netflix released all eight episodes of The Hunting Wives' second season on Thanksgiving, TVLine reports.",
+   "title": "The Hunting Wives returns to Netflix with an eight-episode second season",
+   "url": "https://www.tvline.com/2323675/what-to-watch-november-26-2026-tv-shows-movies-streaming/",
+   "why": "Holiday weekends are prime binge time, and a returning drama gives Netflix a fresh weekend draw."
   }
  },
  "ent-i-play-rocky-expands": {
@@ -15761,6 +16028,51 @@
    "why": "The parade is one of the most-watched TV traditions in the US each year."
   }
  },
+ "ent-macys-parade-postponed": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "The Macy's parade has run in New York since 1924 and is known for its giant character balloons.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Timing",
+     "text": "It is one of the most watched broadcasts of the holiday."
+    },
+    {
+     "label": "First of its kind",
+     "text": "Postponing the parade is very unusual."
+    }
+   ],
+   "entities": [
+    "Macy's parade",
+    "Thanksgiving releases",
+    "NBC"
+   ],
+   "happened": "TVLine says the parade was postponed until Saturday because of weather. NBC broadcasts the parade each Thanksgiving morning.",
+   "hype": 68,
+   "id": "ent-macys-parade-postponed",
+   "meme": {
+    "bottom": "the turkey did not get that option",
+    "take": "Macy's moved the parade to Saturday, the only thing this week not stuffed into Thursday.",
+    "top": "The Thanksgiving parade was postponed"
+   },
+   "motif": "screen",
+   "next": "Watch for the new broadcast time and any changes to the balloon line-up.",
+   "prevHype": null,
+   "published": "2026-11-26",
+   "source": "TVLine",
+   "stats": [
+    {
+     "label": "new parade day",
+     "value": "Saturday"
+    }
+   ],
+   "summary": "NBC's broadcast of the Macy's Thanksgiving Day Parade has been moved to Saturday because of bad weather, TVLine reports.",
+   "title": "Macy's Thanksgiving Day Parade is postponed to Saturday over bad weather",
+   "url": "https://www.tvline.com/2328739/macys-thanksgiving-day-parade-postponed-nbc-weather-new-date-time/",
+   "why": "The parade is a century-old Thanksgiving ritual for millions of viewers, so a delay is rare news."
+  }
+ },
  "ent-man-of-tomorrow-no-teaser": {
   "lastSeen": "2026-11-01",
   "story": {
@@ -15802,7 +16114,7 @@
   }
  },
  "ent-mario-galaxy-netflix": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "The Super Mario Bros. Movie from Illumination and Nintendo was one of 2023's biggest hits.",
    "category": "entertainment",
@@ -15823,7 +16135,7 @@
     "Video game adaptations"
    ],
    "happened": "Collider says the film was the first 2026 release to pass $1 billion at the box office, short of the $1.3 billion of the 2023 original. A further sequel is said not to be expected before 2029.",
-   "hype": 58,
+   "hype": 52,
    "id": "ent-mario-galaxy-netflix",
    "meme": {
     "bottom": "Mario has seen tougher pipes",
@@ -15832,7 +16144,7 @@
    },
    "motif": "screen",
    "next": "Watch for whether it tops Netflix's film chart in its first week.",
-   "prevHype": 58,
+   "prevHype": 52,
    "published": "2026-11-24",
    "source": "Collider",
    "stats": [
@@ -16002,6 +16314,50 @@
    "title": "Netflix releases The One About Matthew Perry today",
    "url": "https://www.thewrap.com/media-platforms/tv/netflix-matthew-perry-documentary-release-date/",
    "why": "Perry was one of TV's best-loved actors, and his family took part in the series."
+  }
+ },
+ "ent-michael-giles-dies": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "King Crimson's 1969 debut, In the Court of the Crimson King, is often credited with launching progressive rock.",
+   "category": "entertainment",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "King Crimson's debut is a classic of 1960s rock."
+    },
+    {
+     "label": "Big name",
+     "text": "The band influenced generations of progressive musicians."
+    }
+   ],
+   "entities": [
+    "King Crimson",
+    "Rock music"
+   ],
+   "happened": "The death was reported by Variety and carried in MusicNewsletter's daily brief. Giles was King Crimson's drummer at its formation in 1969.",
+   "hype": 52,
+   "id": "ent-michael-giles-dies",
+   "meme": {
+    "bottom": "has died at 84",
+    "take": "Michael Giles, King Crimson's original drummer, has died at 84.",
+    "top": "Michael Giles, King Crimson drummer"
+   },
+   "motif": "voice",
+   "next": "Watch for tributes from musicians and former bandmates.",
+   "prevHype": null,
+   "published": "2026-11-26",
+   "source": "MusicNewsletter (Variety)",
+   "stats": [
+    {
+     "label": "age",
+     "value": "84"
+    }
+   ],
+   "summary": "Michael Giles, the founding drummer of King Crimson, has died at 84, according to a report credited to Variety.",
+   "title": "King Crimson's original drummer Michael Giles dies at 84",
+   "url": "https://musicnewsletter.com/news/king-crimson-original-drummer-michael-giles-dies-at-84-ily8s9",
+   "why": "King Crimson shaped progressive rock, and Giles played on its landmark first album."
   }
  },
  "ent-minions-monsters-peacock": {
@@ -21066,6 +21422,56 @@
    "why": "It reflects how hard funding has become for mid-sized game studios."
   }
  },
+ "game-circana-console-sales": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Circana is the market research firm that tracks US video game sales.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "Sales more than doubled versus last year."
+    },
+    {
+     "label": "Timing",
+     "text": "Buyers stocked up ahead of GTA VI."
+    }
+   ],
+   "entities": [
+    "Sony",
+    "Microsoft",
+    "GTA VI",
+    "Consoles"
+   ],
+   "happened": "Circana's Mat Piscatella says Xbox Series X|S sales were also more than 2.3 times year-ago levels that week. The week came before GTA VI's November 19 launch.",
+   "hype": 56,
+   "id": "game-circana-console-sales",
+   "meme": {
+    "bottom": "people were buying a car for the drive",
+    "take": "PS5 sales more than doubled before GTA VI came out, which explains this week's empty shelves.",
+    "top": "Console sales doubled before GTA VI"
+   },
+   "motif": "game",
+   "next": "Watch for Circana's November figures covering launch week and Black Friday.",
+   "prevHype": null,
+   "published": "2026-11-26",
+   "source": "Instant Gaming",
+   "stats": [
+    {
+     "label": "US PS5 sales vs last year",
+     "value": "2.4x"
+    },
+    {
+     "label": "Xbox Series sales vs last year",
+     "value": "2.3x"
+    }
+   ],
+   "summary": "Circana data shows US PS5 hardware sales in the week ending November 14 were over 2.4 times the same week of 2025.",
+   "title": "US PS5 sales more than doubled year on year in the week before GTA VI",
+   "url": "https://news.instant-gaming.com/en/articles/23220-the-release-of-gta-vi-has-boosted-console-sales-in-the-u-s",
+   "why": "It shows GTA VI lifting console sales even before it came out."
+  }
+ },
  "game-circana-september-sales": {
   "lastSeen": "2026-10-24",
   "story": {
@@ -21727,6 +22133,46 @@
    "title": "EA is closing BioWare and cancelling the next Mass Effect",
    "url": "https://www.videogameschronicle.com/news/ea-is-closing-bioware-and-cancelling-the-next-mass-effect/",
    "why": "BioWare made some of the most loved role-playing games of the last 30 years."
+  }
+ },
+ "game-ea-fc-27-motson-voice": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "John Motson was a long-serving BBC football commentator, known to many fans as Motty.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Controversy",
+     "text": "AI recreations of real voices divide fans and performers."
+    },
+    {
+     "label": "Nostalgia",
+     "text": "Motson was a familiar voice in football games for years."
+    }
+   ],
+   "entities": [
+    "EA",
+    "Generative AI",
+    "Voice AI"
+   ],
+   "happened": "The BBC reports EA had permission from Motson's widow and son. Motson, who died in February 2023, commentated on FIFA games from FIFA 96 to FIFA 2005 and on FIFA 19.",
+   "hype": 72,
+   "id": "game-ea-fc-27-motson-voice",
+   "meme": {
+    "bottom": "and asked his family first",
+    "take": "EA used AI to bring back a much-loved commentator, and checked with his family first.",
+    "top": "EA rebuilt a commentator's voice"
+   },
+   "motif": "voice",
+   "next": "Watch for how players respond and whether other studios follow.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "BBC",
+   "stats": [],
+   "summary": "EA says it used AI and archive recordings to add the late commentator John Motson to EA Sports FC 27, with his family's permission.",
+   "title": "EA uses AI to bring the late John Motson's voice to EA Sports FC 27",
+   "url": "https://www.bbc.com/news/articles/c65y10j841jpo",
+   "why": "Recreating voices of people who have died is one of the most debated uses of AI in entertainment."
   }
  },
  "game-elder-scrolls-6-sentinel": {
@@ -22941,7 +23387,7 @@
   }
  },
  "game-gta-vi-44m-estimate": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "Grand Theft Auto is Rockstar Games' best-selling series; GTA V came out in 2013. Rockstar is owned by Take-Two.",
    "category": "gaming",
@@ -22961,16 +23407,16 @@
     "GTA VI"
    ],
    "happened": "The figures are a third-party estimate reported by The Fly; Take-Two has not confirmed them. The game launched on November 19 on PS5 and Xbox Series X|S at $79.99, with no PC date yet.",
-   "hype": 84,
+   "hype": 68,
    "id": "game-gta-vi-44m-estimate",
    "meme": {
-    "bottom": "the traffic in Vice City is now real",
-    "take": "GTA VI sold an estimated 44.9 million copies, and every one of them is stuck in traffic.",
-    "top": "GTA VI sold 44.9 million copies"
+    "bottom": "Rockstar is still counting the money",
+    "take": "GTA VI's estimated sales are now large enough to need their own map.",
+    "top": "Analysts counted 44.9 million copies"
    },
    "motif": "game",
    "next": "Watch for Take-Two's own sales figures and any PC release date.",
-   "prevHype": 84,
+   "prevHype": 68,
    "published": "2026-11-24",
    "source": "TipRanks (The Fly)",
    "stats": [
@@ -23330,6 +23776,59 @@
    "title": "GTA VI could reach PC in early 2027, a report says",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/report-claims-grand-theft-auto-6-will-launch-on-pc-sooner-than-anyone-expected/",
    "why": "PC players have historically waited a year or more for Rockstar's games."
+  }
+ },
+ "game-gta-vi-sony-39m-players": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Grand Theft Auto is Rockstar Games' best-selling series. Rockstar is owned by Take-Two Interactive.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "39 million players in four days on one console."
+    },
+    {
+     "label": "First of its kind",
+     "text": "Sony called it the biggest launch in PlayStation history."
+    }
+   ],
+   "entities": [
+    "Sony",
+    "GTA VI",
+    "Rockstar"
+   ],
+   "happened": "The PlayStation Blog says players logged 683 million hours, about 17.4 hours each. GTA VI was the first game played on 70% of newly connected PS5s, and Sony called it its biggest launch ever.",
+   "hype": 82,
+   "id": "game-gta-vi-sony-39m-players",
+   "meme": {
+    "bottom": "Thanksgiving was a loading screen",
+    "take": "Players spent 683 million hours in GTA VI in four days, roughly the length of a family dinner.",
+    "top": "GTA VI players logged 683M hours"
+   },
+   "motif": "game",
+   "next": "Watch for Take-Two's own sales figures and Sony's holiday hardware numbers.",
+   "prevHype": null,
+   "published": "2026-11-23",
+   "source": "PlayStation Blog",
+   "stats": [
+    {
+     "label": "unique PS5 players",
+     "value": "39M+"
+    },
+    {
+     "label": "hours played",
+     "value": "683M"
+    },
+    {
+     "label": "new PS5s that started with it",
+     "value": "70%"
+    }
+   ],
+   "summary": "Sony says more than 39 million unique PS5 players played GTA VI from November 19 to 22, setting a PlayStation concurrent-player record.",
+   "title": "Sony says over 39 million PS5 players tried GTA VI in its first four days",
+   "url": "https://blog.playstation.com/2026/11/23/thank-you-for-making-grand-theft-auto-vi-the-biggest-launch-in-playstation-history/",
+   "why": "The figures show how many people GTA VI pulled onto PS5 in its first weekend alone."
   }
  },
  "game-gta-vi-soundtrack-intent": {
@@ -26236,6 +26735,50 @@
    "why": "Players are increasingly wary of low-quality games made with generative AI."
   }
  },
+ "game-ps-plus-december": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "PlayStation Plus is Sony's subscription service for online play and monthly games.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Nostalgia",
+     "text": "Tony Hawk's Pro Skater is a classic series."
+    },
+    {
+     "label": "Timing",
+     "text": "Many new PS5 owners arrive over the holidays."
+    }
+   ],
+   "entities": [
+    "Sony",
+    "Subscription games"
+   ],
+   "happened": "Instant Gaming reports the three games arrive for Essential, Extra and Premium members on December 1. Tony Hawk's Pro Skater 3+4 comes in its cross-gen edition.",
+   "hype": 52,
+   "id": "game-ps-plus-december",
+   "meme": {
+    "bottom": "to people who could not find a PS5",
+    "take": "December's PS Plus games are ready, for anyone who managed to buy the console.",
+    "top": "PS Plus is giving away Tony Hawk"
+   },
+   "motif": "game",
+   "next": "Watch for December's Extra and Premium catalogue additions.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "Instant Gaming",
+   "stats": [
+    {
+     "label": "games available",
+     "value": "Dec 1"
+    }
+   ],
+   "summary": "Tony Hawk's Pro Skater 3+4, Dragon Ball Xenoverse 2 and Amnesia: The Bunker join PlayStation Plus from December 1.",
+   "title": "PS Plus adds Tony Hawk's Pro Skater 3+4 and two more games in December",
+   "url": "https://news.instant-gaming.com/en/articles/23211-coming-soon-to-playstation-plus-tony-hawk-s-pro-skater-3-4-dragon-ball-xenoverse-2-and-amnesia-the-bunker",
+   "why": "PS Plus monthly games are a key perk for millions of subscribers, especially for new console owners."
+  }
+ },
  "game-ps-plus-november": {
   "lastSeen": "2026-10-29",
   "story": {
@@ -26393,6 +26936,64 @@
    "why": "After price rises earlier this year, cheaper consoles matter to players planning to buy for GTA 6."
   }
  },
+ "game-ps5-sold-out-black-friday": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "The PS5 is Sony's current console, launched in 2020; the PS5 Pro followed in 2024.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Fan demand",
+     "text": "GTA VI is driving people to buy consoles."
+    },
+    {
+     "label": "Timing",
+     "text": "The shortage lands on the biggest shopping week of the year."
+    },
+    {
+     "label": "Money",
+     "text": "Resale prices are well above list price, reports say."
+    }
+   ],
+   "entities": [
+    "Sony",
+    "GTA VI",
+    "Black Friday",
+    "Consoles"
+   ],
+   "happened": "Game Rant reports no official US Black Friday discounts on PS5. GamingBible says shortages reach the UK, Europe and Asia, with some sellers asking up to £1,475 for a PS5 Pro.",
+   "hype": 90,
+   "id": "game-ps5-sold-out-black-friday",
+   "meme": {
+    "bottom": "on consoles nobody can find",
+    "take": "Black Friday is here and the best PS5 deal is the one where you find one.",
+    "top": "Black Friday arrived with big PS5 deals"
+   },
+   "motif": "game",
+   "next": "Watch for restocks from Sony and major retailers before the holidays.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "Game Rant",
+   "stats": [
+    {
+     "label": "PS5 US price",
+     "value": "$649.99"
+    },
+    {
+     "label": "PS5 Pro US price",
+     "value": "$899.99"
+    },
+    {
+     "label": "top UK resale price, reported",
+     "value": "£1,475"
+    }
+   ],
+   "summary": "PS5 consoles have reportedly sold out at major US retailers, including Amazon and PlayStation Direct, less than a week after GTA VI's launch.",
+   "title": "PS5 sells out across major retailers in GTA VI's first Black Friday week",
+   "url": "https://gamerant.com/ps5-sold-out-gta-6-black-friday-2026/",
+   "why": "Black Friday is the biggest console sales week, and a shortage leaves many holiday shoppers empty-handed."
+  }
+ },
  "game-ps6-memory-costs": {
   "lastSeen": "2026-10-20",
   "story": {
@@ -26501,6 +27102,50 @@
    "title": "Bloomberg report details why GTA VI took almost eight years",
    "url": "https://thisweekinvideogames.com/news/future-rockstar-projects-will-be-made-more-quickly-than-gta-vi-senior-dev-says/",
    "why": "It is a rare inside look at the making of one of the most expensive games ever."
+  }
+ },
+ "game-rockstar-uk-union-vote": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Rockstar Games has several UK studios, including Rockstar North in Edinburgh, which leads GTA development.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Timing",
+     "text": "The vote came in GTA VI's launch week."
+    },
+    {
+     "label": "Trend",
+     "text": "Union drives are spreading across game studios."
+    }
+   ],
+   "entities": [
+    "Rockstar",
+    "Game industry labour"
+   ],
+   "happened": "Instant Gaming reports some UK employees, represented by the IWGB, had sought recognition. In the vote, 75% of employees voted against it.",
+   "hype": 60,
+   "id": "game-rockstar-uk-union-vote",
+   "meme": {
+    "bottom": "and it was not for game of the year",
+    "take": "Rockstar UK held a union vote in launch week, when the office already had enough going on.",
+    "top": "Rockstar staff had one vote this week"
+   },
+   "motif": "doc",
+   "next": "Watch for the union's next steps and any statement from Rockstar.",
+   "prevHype": null,
+   "published": "2026-11-26",
+   "source": "Instant Gaming",
+   "stats": [
+    {
+     "label": "voted against recognition",
+     "value": "75%"
+    }
+   ],
+   "summary": "Staff at Rockstar's UK studios voted against union recognition sought with the IWGB union, with 75% voting no.",
+   "title": "Rockstar UK staff vote 75% against union recognition",
+   "url": "https://news.instant-gaming.com/en/articles/23228-75-of-the-uk-rockstar-games-employees-voted-against-union-recognition",
+   "why": "Unionisation is a growing debate in games, and Rockstar is the industry's most watched studio this month."
   }
  },
  "game-rockstar-union-bloomberg": {
@@ -26659,6 +27304,54 @@
    "title": "A remaster of the 2004 Shrek 2 game is coming in November",
    "url": "https://www.videogameschronicle.com/news/a-remaster-of-the-shrek-2-game-from-2004-has-been-announced-via-a-gta-like-trailer/",
    "why": "The licensed game is fondly remembered by people who played it as kids."
+  }
+ },
+ "game-silksong-cherry-time": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Team Cherry is the small Australian studio behind Hollow Knight. Silksong, its sequel, launched in September 2025.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Fan demand",
+     "text": "Silksong fans waited years for the game itself."
+    },
+    {
+     "label": "Timing",
+     "text": "The event lands on Black Friday, a busy day for games news."
+    }
+   ],
+   "entities": [
+    "Team Cherry",
+    "Silksong"
+   ],
+   "happened": "Instant Gaming reports the YouTube event starts at 5pm GMT on November 27. Several Silksong announcements are promised, among them the free Sea of Sorrow DLC.",
+   "hype": 64,
+   "id": "game-silksong-cherry-time",
+   "meme": {
+    "bottom": "the DLC wait is mercifully shorter",
+    "take": "Team Cherry streams today, and Silksong fans are ready to wait, which they are good at.",
+    "top": "Silksong fans waited years for the game"
+   },
+   "motif": "game",
+   "next": "Watch for a release date for Sea of Sorrow during the stream.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "Instant Gaming",
+   "stats": [
+    {
+     "label": "event date",
+     "value": "Nov 27"
+    },
+    {
+     "label": "start time",
+     "value": "5pm GMT"
+    }
+   ],
+   "summary": "Team Cherry streams a Cherry Time! event on November 27 with Hollow Knight: Silksong announcements, including the free Sea of Sorrow DLC.",
+   "title": "Team Cherry hosts Cherry Time! with Silksong news and a free DLC",
+   "url": "https://news.instant-gaming.com/en/articles/23209-team-cherry-will-make-several-hollow-knight-silksong-announcements-on-november-27",
+   "why": "Silksong has one of the most devoted fan bases in gaming, and free content is a big draw."
   }
  },
  "game-skyblivion-legal-threat": {
@@ -28065,6 +28758,45 @@
    "why": "It is a rare case of a publisher pulling a release within days, and it feeds wider worries about AI in game art."
   }
  },
+ "game-ubisoft-ai-justify": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Ubisoft is the French publisher behind Assassin's Creed and Far Cry.",
+   "category": "gaming",
+   "drivers": [
+    {
+     "label": "Controversy",
+     "text": "Generative AI in games is divisive among players and developers."
+    },
+    {
+     "label": "Trend",
+     "text": "Big publishers are leaning further into AI tools."
+    }
+   ],
+   "entities": [
+    "Ubisoft",
+    "Generative AI"
+   ],
+   "happened": "Chris Kerr of Vertical Slice reports the policy, as summarised by Instant Gaming. The report notes Ubisoft already uses generative AI widely. Ubisoft has not confirmed the details.",
+   "hype": 58,
+   "id": "game-ubisoft-ai-justify",
+   "meme": {
+    "bottom": "may soon need a written excuse",
+    "take": "Ubisoft staff may need a reason to work without AI, which is a reason in itself.",
+    "top": "At Ubisoft, doing it by hand"
+   },
+   "motif": "doc",
+   "next": "Watch for a response from Ubisoft or its developers.",
+   "prevHype": null,
+   "published": "2026-11-26",
+   "source": "Instant Gaming",
+   "stats": [],
+   "summary": "Ubisoft may require its developers to explain decisions not to use generative AI, according to Vertical Slice.",
+   "title": "Ubisoft developers may have to justify not using AI, report says",
+   "url": "https://news.instant-gaming.com/en/articles/23214-ubisoft-may-be-forcing-its-developers-to-justify-their-decision-not-to-use-ai",
+   "why": "Studios are split on generative AI, and a mandate like this would be one of the strongest pushes yet."
+  }
+ },
  "game-ubisoft-quebec-layoffs": {
   "lastSeen": "2026-11-23",
   "story": {
@@ -28374,7 +29106,7 @@
   }
  },
  "game-witcher-4-sony-deal": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "CD Projekt Red is the Polish studio behind The Witcher 3 and Cyberpunk 2077.",
    "category": "gaming",
@@ -28393,23 +29125,23 @@
     "Sony",
     "New game releases"
    ],
-   "happened": "Gamingroute reports the Sony deal. CD Projekt compares the jump from The Witcher 3 to the jump from GTA V to GTA VI. No release date has been given.",
-   "hype": 64,
+   "happened": "The marketing deal with PlayStation was announced earlier in the week. CD Projekt then said The Witcher 4 and its other games will remain multiplatform, Instant Gaming reports. No release date has been given.",
+   "hype": 60,
    "id": "game-witcher-4-sony-deal",
    "meme": {
-    "bottom": "during the week of GTA VI",
-    "take": "CD Projekt compared its next leap to GTA VI, a brave move during GTA VI's week.",
-    "top": "CD Projekt compared itself to GTA VI"
+    "bottom": "then reassured everyone else",
+    "take": "CD Projekt signed with Sony and promptly told the other platforms it still loves them.",
+    "top": "CD Projekt signed a deal with Sony"
    },
    "motif": "game",
-   "next": "Watch for a release window and what the Sony deal includes for PlayStation players.",
-   "prevHype": 64,
-   "published": "2026-11-24",
-   "source": "Gamingroute",
+   "next": "Watch for a release window and what the Sony deal means for PlayStation players.",
+   "prevHype": 60,
+   "published": "2026-11-25",
+   "source": "Instant Gaming",
    "stats": [],
-   "summary": "CD Projekt has signed a marketing deal with Sony for The Witcher 4, and compares its leap over Witcher 3 to GTA V to GTA VI.",
-   "title": "CD Projekt signs a Sony marketing deal for The Witcher 4",
-   "url": "https://gamingroute.com/witcher-4-sony-marketing-deal/",
+   "summary": "After signing a marketing deal with Sony for The Witcher 4, CD Projekt says its games, including The Witcher 4, will stay multiplatform.",
+   "title": "CD Projekt says The Witcher 4 stays multiplatform despite its Sony deal",
+   "url": "https://news.instant-gaming.com/en/articles/23216-cd-projekt-red-assures-that-the-witcher-4-and-its-other-games-will-remain-multiplatform",
    "why": "Marketing deals shape where big games are shown first, and The Witcher 4 is one of the most awaited RPGs."
   }
  },
@@ -29432,6 +30164,52 @@
    "title": "Nintendo says the Zelda edition Switch 2 will be back in US stores soon",
    "url": "https://www.nintendolife.com/news/2026/11/zelda-switch-2-console-is-back-in-stock-soon-if-you-missed-out-us",
    "why": "Special edition consoles are in high demand before the holidays."
+  }
+ },
+ "tech-1password-breach": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "1Password is a popular password manager used by individuals and businesses.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "A password manager is a high-value target."
+    },
+    {
+     "label": "Trust",
+     "text": "1Password says customer vaults were not accessed."
+    }
+   ],
+   "entities": [
+    "1Password",
+    "Cybersecurity",
+    "Data breaches",
+    "GitHub"
+   ],
+   "happened": "The Hacker News reports private source code was copied and CI/CD systems accessed. 1Password says vault contents, secrets and account recovery keys were not accessed, and affected users were notified.",
+   "hype": 82,
+   "id": "tech-1password-breach",
+   "meme": {
+    "bottom": "the vaults, thankfully, held",
+    "take": "1Password says the vaults held, which is the one job it really cannot fail.",
+    "top": "A password manager got breached"
+   },
+   "motif": "shield",
+   "next": "Watch for 1Password's full incident report and advice for affected users.",
+   "prevHype": null,
+   "published": "2026-11-26",
+   "source": "The Hacker News",
+   "stats": [
+    {
+     "label": "investigation began",
+     "value": "Nov 19"
+    }
+   ],
+   "summary": "1Password says an attacker used an employee's GitHub account to reach backend systems and took names and emails of some customers.",
+   "title": "1Password says hackers took some customer data and source code",
+   "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+   "why": "Password managers hold people's most sensitive logins, so any breach at one gets close attention."
   }
  },
  "tech-agent-framework-pypi": {
@@ -32324,6 +33102,52 @@
    "why": "Share links are a common way people pass chats around, so a hidden risk there could reach many users."
   }
  },
+ "tech-china-data-centre-loans-stall": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "ByteDance owns TikTok; Alibaba and Tencent are two of China's largest tech companies.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "A single delayed loan is $6.6 billion."
+    },
+    {
+     "label": "Politics",
+     "text": "The pause follows new US export rules."
+    }
+   ],
+   "entities": [
+    "AI infrastructure",
+    "China",
+    "AI chips",
+    "US policy"
+   ],
+   "happened": "Bloomberg, citing sources, says some lenders are delaying a $6.6 billion loan for Bridge Data Centres. It also reports Asian operators are courting US clients as rental prices for B300 chips fall.",
+   "hype": 62,
+   "id": "tech-china-data-centre-loans-stall",
+   "meme": {
+    "bottom": "now they have one of those",
+    "take": "Lenders paused billions for data centres, which are now centres of mostly paperwork.",
+    "top": "Asian data centres had chips and plans"
+   },
+   "motif": "money",
+   "next": "Watch for whether the loans are restructured or cancelled.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "Bloomberg",
+   "stats": [
+    {
+     "label": "delayed loan, reported",
+     "value": "$6.6B"
+    }
+   ],
+   "summary": "Lenders are holding back data centre financing tied to ByteDance, Alibaba and Tencent after new US chip curbs, Bloomberg reports.",
+   "title": "US chip curbs stall billions in Asian data centre loans",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-25/billions-in-data-center-deals-grind-to-halt-after-ai-chip-curbs",
+   "why": "Data centres in Asia run on loans and Nvidia chips, so tighter rules can freeze projects quickly."
+  }
+ },
  "tech-chip-stocks-eighth-drop": {
   "lastSeen": "2026-10-19",
   "story": {
@@ -33515,6 +34339,51 @@
    "title": "FBI's national crime database reportedly breached",
    "url": "https://www.sitg-consulting.com/post/cyber-incidents-top-40-25-november-2026",
    "why": "The database is used by police across the US, so any compromise is serious."
+  }
+ },
+ "tech-fincen-breach": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "FinCEN is the US Treasury bureau that collects reports used to fight money laundering.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "FinCEN holds sensitive financial reports."
+    },
+    {
+     "label": "Trend",
+     "text": "Several US agencies have reported breaches recently."
+    }
+   ],
+   "entities": [
+    "Cybersecurity",
+    "US government",
+    "Data breaches"
+   ],
+   "happened": "Help Net Security reports FinCEN took some systems offline and has not said who was behind it. A FinCEN order lets filers hit by the disruption submit filings due November 18 to December 29 until December 30.",
+   "hype": 70,
+   "id": "tech-fincen-breach",
+   "meme": {
+    "bottom": "is now filing its own incident report",
+    "take": "FinCEN took systems offline, and filers have been given an extension, which is rare good news.",
+    "top": "The money laundering watchdog"
+   },
+   "motif": "shield",
+   "next": "Watch for FinCEN to say which systems were accessed and when they come back.",
+   "prevHype": null,
+   "published": "2026-11-26",
+   "source": "Help Net Security",
+   "stats": [
+    {
+     "label": "extended filing deadline",
+     "value": "Dec 30"
+    }
+   ],
+   "summary": "The US Treasury's financial crimes unit says it is investigating unauthorised access to a limited subset of its systems.",
+   "title": "FinCEN takes systems offline after unauthorised access",
+   "url": "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/",
+   "why": "It is the latest in a string of reported breaches at US federal agencies this month."
   }
  },
  "tech-florida-aid-breach": {
@@ -36419,6 +37288,47 @@
    "why": "Cheap home robots are drawing real buyers, a sign the hobby market may be ready."
   }
  },
+ "tech-microsoft-artex-ai-tool": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Salt Typhoon is a China-linked hacking group known for breaching telecom networks.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Risk",
+     "text": "AI is lowering the effort needed for attacks."
+    },
+    {
+     "label": "Trend",
+     "text": "Security firms report more AI-assisted intrusions."
+    }
+   ],
+   "entities": [
+    "Microsoft",
+    "Cybersecurity",
+    "AI agents",
+    "China"
+   ],
+   "happened": "The Record reports ARTEX automates stages of an intrusion using existing penetration-testing tools. Microsoft says criminal groups use it too.",
+   "hype": 66,
+   "id": "tech-microsoft-artex-ai-tool",
+   "meme": {
+    "bottom": "it also handles the boring parts",
+    "take": "State hackers are now using AI tools, proving every job is getting automated.",
+    "top": "Hackers adopted an AI assistant"
+   },
+   "motif": "shield",
+   "next": "Watch for guidance from Microsoft on how to detect ARTEX activity.",
+   "prevHype": null,
+   "published": "2026-11-26",
+   "source": "The Record",
+   "stats": [],
+   "summary": "Microsoft says state-backed groups from China and North Korea, including Salt Typhoon, now use the AI penetration-testing tool ARTEX.",
+   "title": "Microsoft says state hackers have adopted the ARTEX AI hacking tool",
+   "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+   "why": "AI tools that automate parts of hacking could make attacks faster and cheaper for many more groups."
+  }
+ },
  "tech-microsoft-patch-tuesday-1411": {
   "lastSeen": "2026-10-14",
   "story": {
@@ -36767,6 +37677,46 @@
    "why": "Anonymous tip lines exist to protect students, so a breach of them is especially serious."
   }
  },
+ "tech-neuralink-als-trial": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Neuralink develops implants that let people control computers with their thoughts.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "First of its kind",
+     "text": "Few brain implants have reached this stage."
+    },
+    {
+     "label": "Big name",
+     "text": "Neuralink was co-founded by Elon Musk."
+    }
+   ],
+   "entities": [
+    "Neuralink",
+    "Elon Musk",
+    "Medical tech"
+   ],
+   "happened": "Bloomberg reports the study will test the device in ALS patients in the US. Pivotal trials are the larger studies regulators use to decide on approval.",
+   "hype": 58,
+   "id": "tech-neuralink-als-trial",
+   "meme": {
+    "bottom": "now the slides have to become data",
+    "take": "Neuralink's implant heads to a pivotal trial, where confidence meets a control group.",
+    "top": "Neuralink reached a pivotal trial"
+   },
+   "motif": "doc",
+   "next": "Watch for when the trial starts enrolling and how many patients it includes.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "Bloomberg",
+   "stats": [],
+   "summary": "Neuralink says it received FDA approval for its LINK Pivotal Study, a US trial of its brain-computer interface in people with ALS.",
+   "title": "Neuralink says the FDA approved a pivotal trial of its brain implant",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-25/neuralink-gets-clearance-for-brain-implant-trial-in-als-patients",
+   "why": "A pivotal trial is a key step towards a brain implant being approved for wider medical use."
+  }
+ },
  "tech-nginx-http2-flaws": {
   "lastSeen": "2026-11-24",
   "story": {
@@ -37032,6 +37982,54 @@
    "why": "Startups keep trying to find a new AI gadget beyond the phone."
   }
  },
+ "tech-nvidia-290m-settlement": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Nvidia's graphics cards were popular with cryptocurrency miners before its AI chip boom.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Money",
+     "text": "The settlement is $290 million."
+    },
+    {
+     "label": "Timing",
+     "text": "It lands in an already turbulent week for Nvidia."
+    }
+   ],
+   "entities": [
+    "Nvidia",
+    "Crypto"
+   ],
+   "happened": "Reuters reports the investors alleged Nvidia understated how much crypto mining drove its graphics card sales. The case dates back to 2018.",
+   "hype": 54,
+   "id": "tech-nvidia-290m-settlement",
+   "meme": {
+    "bottom": "for about one rounding error",
+    "take": "Nvidia paid $290 million to close a 2018 case, which counts as a quiet week there.",
+    "top": "Nvidia settled its crypto-era lawsuit"
+   },
+   "motif": "money",
+   "next": "Watch for the court's review of the settlement.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "Reuters",
+   "stats": [
+    {
+     "label": "settlement amount",
+     "value": "$290M"
+    },
+    {
+     "label": "year the suit was filed",
+     "value": "2018"
+    }
+   ],
+   "summary": "Nvidia will pay $290 million to settle a 2018 class action claiming it misled shareholders about crypto mining demand for its GPUs.",
+   "title": "Nvidia agrees to pay $290 million to settle a 2018 crypto investor lawsuit",
+   "url": "https://www.reuters.com/legal/government/nvidia-agrees-settle-2018-us-investor-class-action-for-290-million-2026-11-25/",
+   "why": "It closes a long-running case over how much of Nvidia's earlier growth came from crypto miners."
+  }
+ },
  "tech-nvidia-app-ai-agents": {
   "lastSeen": "2026-10-20",
   "story": {
@@ -37222,8 +38220,49 @@
    "why": "It would tighten Chinese access to top AI chips through overseas cloud providers."
   }
  },
+ "tech-nvidia-chips-chinese-owned-firms": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "US rules restrict sales of the most powerful AI chips to China over national security concerns.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Controversy",
+     "text": "It questions how well export controls work."
+    },
+    {
+     "label": "Scale",
+     "text": "The reports involve Nvidia's most advanced chips."
+    }
+   ],
+   "entities": [
+    "Nvidia",
+    "AI chips",
+    "China",
+    "US policy"
+   ],
+   "happened": "CBS reports the two firms leased or sold some of the chips to companies in Asia. The Washington Post separately found restricted Nvidia servers on offer in Shenzhen.",
+   "hype": 68,
+   "id": "tech-nvidia-chips-chinese-owned-firms",
+   "meme": {
+    "bottom": "California, apparently",
+    "take": "Nvidia's top chips reportedly reached China by way of California. Geography is flexible now.",
+    "top": "The export ban had one weak spot"
+   },
+   "motif": "chip",
+   "next": "Watch for any response from Nvidia or US regulators.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "CBS News",
+   "stats": [],
+   "summary": "A CBS News investigation says Nvidia sold some of its most advanced chips to two Chinese-owned California companies.",
+   "title": "CBS says Nvidia sold top chips to two Chinese-owned California firms",
+   "url": "https://www.cbsnews.com/news/nvidia-china-ai-chips-computing-sales/",
+   "why": "It adds to questions over whether US limits on AI chips reaching China are working."
+  }
+ },
  "tech-nvidia-huang-reinstated": {
-  "lastSeen": "2026-11-26",
+  "lastSeen": "2026-11-27",
   "story": {
    "background": "Jensen Huang co-founded Nvidia in 1993 and ran it for over three decades as it became the leading maker of AI chips.",
    "category": "tech",
@@ -37248,16 +38287,16 @@
     "Stock market"
    ],
    "happened": "Nvidia's board voted unanimously to bring Huang back, and shares rose about 31%, reports say. CNBC reported he told staff Nvidia does not need a traditional succession plan.",
-   "hype": 90,
+   "hype": 66,
    "id": "tech-nvidia-huang-reinstated",
    "meme": {
-    "bottom": "and found him in the old office",
-    "take": "Nvidia ran a thorough CEO search and found the candidate had excellent references.",
-    "top": "Nvidia searched far and wide for a CEO"
+    "bottom": "the succession plan is him",
+    "take": "Nvidia's succession plan has been finalised, and it is the same man.",
+    "top": "Nvidia's CEO is back at work"
    },
    "motif": "chip",
-   "next": "Watch for the December 3 Senate hearing and the board's ongoing independent investigation.",
-   "prevHype": 90,
+   "next": "Watch for the December 3 Senate hearing and the board's independent investigation.",
+   "prevHype": 66,
    "published": "2026-11-23",
    "source": "Nvidia",
    "stats": [
@@ -37332,6 +38371,51 @@
    "title": "Nvidia's $171.5 billion bet on neoclouds faces its first real test",
    "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
    "why": "Nvidia has helped fund its own customers, so their troubles could come back to its books."
+  }
+ },
+ "tech-nvidia-pentagon-dpa-report": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "The Defense Production Act is a 1950 US law that lets the government direct industry in the name of national defence.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Politics",
+     "text": "Government pressure on a company's board is highly unusual."
+    },
+    {
+     "label": "Big name",
+     "text": "Nvidia is among the world's most valuable firms."
+    }
+   ],
+   "entities": [
+    "Nvidia",
+    "US policy",
+    "US government"
+   ],
+   "happened": "The Washington Post cites sources for the report. Separately, Reuters reports the Justice Department did not open a formal probe into Huang before his reinstatement.",
+   "hype": 76,
+   "id": "tech-nvidia-pentagon-dpa-report",
+   "meme": {
+    "bottom": "for a staffing question",
+    "take": "A wartime law was reportedly floated to settle who runs a chip company, a novel use of HR.",
+    "top": "A wartime law was reportedly floated"
+   },
+   "motif": "doc",
+   "next": "Watch for the December 3 Senate hearing and any official response from the Pentagon.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "Washington Post",
+   "stats": [
+    {
+     "label": "year the law was passed",
+     "value": "1950"
+    }
+   ],
+   "summary": "Pentagon officials discussed using the Defense Production Act to press Nvidia's board to reinstate Jensen Huang, the Washington Post reports.",
+   "title": "Pentagon officials reportedly discussed wartime law to return Huang to Nvidia",
+   "url": "https://www.washingtonpost.com/technology/2026/11/25/hegseth-pentagon-officials-floated-using-wartime-law-reappoint-nvidia-ceo/",
+   "why": "It raises questions about how far the government will go to shape the leadership of a key chip company."
   }
  },
  "tech-nvidia-q3-after-huang": {
@@ -37478,6 +38562,56 @@
    "title": "Nvidia unveils Rubin HPC, a GPU with over 50,000 CUDA cores, for 2028",
    "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028",
    "why": "It shows Nvidia pressing on with its product plans despite a turbulent month for the company."
+  }
+ },
+ "tech-nvidia-sea-shipment-halt": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "Nvidia is the leading maker of the chips used to train and run AI models.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "Four countries with big data centre plans are affected."
+    },
+    {
+     "label": "Politics",
+     "text": "It follows a tightening of US export controls."
+    },
+    {
+     "label": "Risk",
+     "text": "Projects in the region depend on Nvidia hardware."
+    }
+   ],
+   "entities": [
+    "Nvidia",
+    "AI chips",
+    "US policy",
+    "AI infrastructure"
+   ],
+   "happened": "The Financial Times, citing sources, says the move follows tighter US export controls. Bloomberg separately reports US chip curbs are stalling data centre loans tied to Chinese tech groups.",
+   "hype": 86,
+   "id": "tech-nvidia-sea-shipment-halt",
+   "meme": {
+    "bottom": "the data centres are now very quiet",
+    "take": "Nvidia reportedly paused shipments, so some data centres are now just centres.",
+    "top": "Nvidia paused servers to four countries"
+   },
+   "motif": "chip",
+   "next": "Watch for confirmation from Nvidia and any response from the four governments.",
+   "prevHype": null,
+   "published": "2026-11-26",
+   "source": "Financial Times",
+   "stats": [
+    {
+     "label": "countries affected, reported",
+     "value": "4"
+    }
+   ],
+   "summary": "Nvidia has told manufacturing partners to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia, the FT reports.",
+   "title": "Nvidia reportedly halts AI server shipments to four Southeast Asian countries",
+   "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+   "why": "Southeast Asia has become a major hub for AI data centres, so a halt could ripple across the region's buildout."
   }
  },
  "tech-nvidia-sec-slide": {
@@ -40434,6 +41568,54 @@
    "title": "Wayve, Stellantis and Nvidia team up with France on hands-free driving",
    "url": "https://www.unite.ai/wayve-stellantis-and-nvidia-join-french-government-on-av-deployment/",
    "why": "Self-driving tech is moving from robotaxi trials into mass-market cars."
+  }
+ },
+ "tech-whatsapp-scheduled-messages": {
+  "lastSeen": "2026-11-27",
+  "story": {
+   "background": "WhatsApp is the messaging app owned by Meta.",
+   "category": "tech",
+   "drivers": [
+    {
+     "label": "Scale",
+     "text": "WhatsApp is one of the world's most used apps."
+    },
+    {
+     "label": "Fan demand",
+     "text": "Scheduling has long been a requested feature."
+    }
+   ],
+   "entities": [
+    "Meta",
+    "Messaging apps"
+   ],
+   "happened": "TechCrunch reports scheduled messages send even if the phone is switched off. The feature works in individual and group chats.",
+   "hype": 60,
+   "id": "tech-whatsapp-scheduled-messages",
+   "meme": {
+    "bottom": "so you can be thoughtful in advance",
+    "take": "WhatsApp now schedules messages, so your birthday wishes can be sincere and automated.",
+    "top": "WhatsApp lets you schedule messages"
+   },
+   "motif": "phone",
+   "next": "Watch for the rollout to reach all users and regions.",
+   "prevHype": null,
+   "published": "2026-11-25",
+   "source": "TechCrunch",
+   "stats": [
+    {
+     "label": "furthest you can schedule",
+     "value": "14 days"
+    },
+    {
+     "label": "shortest delay",
+     "value": "10 min"
+    }
+   ],
+   "summary": "WhatsApp users can now schedule messages from 10 minutes to 14 days in advance in both group and individual chats.",
+   "title": "WhatsApp now lets you schedule messages up to 14 days ahead",
+   "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
+   "why": "WhatsApp has billions of users, so even a small feature changes how a lot of people message."
   }
  },
  "tech-whatsapp-three-flaws": {
